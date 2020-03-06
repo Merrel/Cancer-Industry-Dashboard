@@ -15,7 +15,7 @@ These full datatypes shoudl be read using [pandas](https://pandas.pydata.org) an
 
 ### Incidence Rates
 
-```
+```python
 ###################################
 # Queries to Split incidence datasets
 
