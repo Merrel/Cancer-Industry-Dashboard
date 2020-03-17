@@ -1,0 +1,142 @@
+
+/* --------------------------------------------------------------------- */
+/* Generic Text Styling */
+text {
+    fill: black;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Generic Axis Styling */
+.axis path,
+.axis line {
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    fill: black;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Title Styling */
+.title {
+    fill: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Title Styling */
+.axis.label {
+    fill: black;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the divs for each chart */
+.chartbox {
+    margin-top: 20px;
+    margin-bottom: 40px;
+ }
+
+/* D3 Tooltip - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+.d3-tip {
+    background: rgba(0, 0, 0, 0.8);
+    color: rgb(159, 75, 255);
+    border-radius: 20px;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 10px;
+    pointer-events: none;
+  }
+  .d3-tip.animate {
+    animation: bounceIn 0.2s ease-out;
+    -webkit-animation: bounceIn 0.2s ease-out;
+  }
+
+  .d3-tip:after {      
+    width: 100%;
+    line-height: 1.2;
+    color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    box-sizing: border-box;
+    font-size: 8px;
+    pointer-events: none;
+  }
+
+  /* Customize Tooltip Direction */
+  .d3-tip.n:after {
+    top: 50%;
+    left: 0;
+  }
+
+  .d3-tip.e:after {
+    top: 0;
+    left: -50%;
+  }
+
+  .d3-tip.s:after {
+    top: -50%;
+    left: 0;
+  }
+
+  .d3-tip.w:after {
+    top: 0;
+    left: 50%;
+  }
+
+  .details{
+    color: white;
+  }
+
+/* CSS ANNIMATIONS - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+  @-webkit-keyframes bounceIn {
+    0% {
+      opacity: 0;
+      -webkit-transform: scale(.25);
+    }
+
+    50% {
+      opacity: 1;
+      -webkit-transform: scale(1.11);
+    }
+
+    70% {
+      -webkit-transform: scale(.8);
+    }
+
+    100% {
+      -webkit-transform: scale(1);
+    }
+  }
+
+  @keyframes bounceIn {
+    0% {
+      opacity: 0;
+      transform: scale(.25);
+    }
+
+    50% {
+      opacity: 1;
+      transform: scale(1.11);
+    }
+
+    70% {
+      transform: scale(.8);
+    }
+
+    100% {
+      transform: scale(1);
+    }
+  }
+
+/* Print page break styling */
+@media print {
+    .pagebreak {
+        clear: both;
+        break-after: always;
+    }
+}

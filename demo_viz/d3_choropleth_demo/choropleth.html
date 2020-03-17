@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Q6 Choropleth Map of State Data</title>
+        <!-- Include Custom CSS -->
+        <link rel="stylesheet" type="text/css" href="choropleth.css">
+        <!-- Include local D3 libraries -->
+        <script type="text/javascript" src="../lib/d3.v5.min.js" charset="utf-8"></script>
+        <script type="text/javascript" src="../lib/d3-dsv.min.js" charset="utf-8"></script>
+        <script type="text/javascript" src="../lib/d3-fetch.min.js" charset="utf-8"></script>
+        <script type="text/javascript" src="../lib/d3-simple-slider.min.js" charset="utf-8"></script>
+        <script type="text/javascript" src="../lib/d3-scale-chromatic.v1.min.js" charset="utf-8"></script>
+        <script type="text/javascript" src="../lib/topojson.v2.min.js" charset="utf-8"></script>
+        <script type="text/javascript" src="../lib/d3-tip.min.js" charset="utf-8"></script>
+        <!-- End Include Statements -->
+    </head>
+    <body>
+        <!-- Define a set of Divs for D3 to draw into -->
+        <div id="year-selector" class="simple-slider"></div>
+        <div id="choropleth" class="chartbox"></div>
+        <!-- Call the D3 Script to build the plots -->
+        <script type="text/javascript" src="choropleth.js" charset="utf-8"></script>
+    </body>
+</html>
