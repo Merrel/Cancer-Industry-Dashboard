@@ -137,9 +137,13 @@ var mapChart =  svg1.append("g")
 
 // Instantiate the D3 map and path objects for later drawing
 var map1 = d3.map()
-  , projection = d3.geoAlbersUsa()
-                //    .translate([width/2, height/2])
-                //    .scale([1000])
+  , projection = d3.geoAlbers()
+                   .center([0,32.8398])
+                   .rotate([83.3806,0])
+                   .scale([6500])
+                   .translate([width/2, height/2])
+                //    .center([84.3880,33.7490])
+                //    .center([0,0])
   , path = d3.geoPath()
              .projection(projection)
 
@@ -207,7 +211,9 @@ var years = [2010, 2011, 2012, 2013, 2014, 2015]
 var dataPromises = [
     d3.dsv(",", 'state-earthquakes.csv', formatData),
     d3.json("states-10m.json"),
-    d3.json("counties.json")
+    d3.json("counties.json"),
+    // d3.json("us-counties.json"),
+    d3.json("georgia_counties.geojson"),
 ]
 
 // Call on the promises --> Completes list of asynchronus operations (data loads in this case),
@@ -226,6 +232,7 @@ Promise.all(dataPromises).then(function(promiseData) {
       , stateDataFeatures = topojson.feature(stateData, stateData.objects.states).features
       , countyData = promiseData[2]
       , countyDataFeatures = topojson.feature(countyData, countyData.objects.counties).features
+      , GEOcountyData = promiseData[3]
 
     // Filter our the state geo/topojson where the state name is not in the dataByState list
     // - Build a list of all the states in the data set
@@ -242,7 +249,7 @@ Promise.all(dataPromises).then(function(promiseData) {
 
 
     // Explorer County Data
-    check.push(countyDataFeatures)
+    check.push(GEOcountyData)
 
     drawCounties =function() {
         mapChart.append('g')
@@ -250,6 +257,7 @@ Promise.all(dataPromises).then(function(promiseData) {
         .attr('class', 'states')
         .selectAll('path')
         .data(countyDataFeatures)
+        // .data(GEOcountyData.features)
         .enter()
           .append('path')
           .attr('d', path)
