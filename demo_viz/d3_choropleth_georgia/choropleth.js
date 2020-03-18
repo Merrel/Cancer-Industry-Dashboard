@@ -206,7 +206,8 @@ var years = [2010, 2011, 2012, 2013, 2014, 2015]
 
 var dataPromises = [
     d3.dsv(",", 'state-earthquakes.csv', formatData),
-    d3.json("states-10m.json")
+    d3.json("states-10m.json"),
+    d3.json("counties.json")
 ]
 
 // Call on the promises --> Completes list of asynchronus operations (data loads in this case),
@@ -223,8 +224,9 @@ Promise.all(dataPromises).then(function(promiseData) {
       // Capture the state geodata and extract the features
       , stateData = promiseData[1]
       , stateDataFeatures = topojson.feature(stateData, stateData.objects.states).features
+      , countyData = promiseData[2]
+      , countyDataFeatures = topojson.feature(countyData, countyData.objects.counties).features
 
-    check.push(stateDataFeatures)
     // Filter our the state geo/topojson where the state name is not in the dataByState list
     // - Build a list of all the states in the data set
     var stateList = []
@@ -237,6 +239,25 @@ Promise.all(dataPromises).then(function(promiseData) {
     })
 
     // Merge the quake data with the topojson data
+
+
+    // Explorer County Data
+    check.push(countyDataFeatures)
+
+    drawCounties =function() {
+        mapChart.append('g')
+        .attr('id', 'renderedStates')
+        .attr('class', 'states')
+        .selectAll('path')
+        .data(countyDataFeatures)
+        .enter()
+          .append('path')
+          .attr('d', path)
+          .style('stroke', 'black') 
+          // .style('fill', d => colorScale(logScale(d.properties.value)))
+          .style('fill', '#d2fafb')
+
+    }
 
 
     drawChoropleth = function(selectedYear, isUpdate) {
@@ -362,7 +383,8 @@ Promise.all(dataPromises).then(function(promiseData) {
 
     // CALL THE CHART
     {
-        drawChoropleth(years[0], isUpdate=false)
+        // drawChoropleth(years[0], isUpdate=false)
+        drawCounties()
     }
     
 })
