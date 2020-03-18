@@ -168,35 +168,35 @@ var legend1 = svg1.append("g")
                 .attr("transform", 
                 "translate(" + (svgWidth-margin.right*1.5-margin.left) + "," + margin.top*1.95 + ")")
 
-// Add legend title annotation
-svg1.append("g")
-    .attr("class", "annotation")
-    .attr("transform", 
-        "translate(" + (svgWidth-margin.right*1.65-margin.left) + "," + margin.top*1.5 + ")")
-    .append("text")
-    .attr("text-anchor", "left") 
-    .text("Earthquake Frequency")
-    .style("font-size", "14px")
-    .style("font-weight", "bold")
+// // Add legend title annotation
+// svg1.append("g")
+//     .attr("class", "annotation")
+//     .attr("transform", 
+//         "translate(" + (svgWidth-margin.right*1.65-margin.left) + "," + margin.top*1.5 + ")")
+//     .append("text")
+//     .attr("text-anchor", "left") 
+//     .text("Earthquake Frequency")
+//     .style("font-size", "14px")
+//     .style("font-weight", "bold")
 
 
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-// TOOL TIP using d3-tip
-// 
-// Set tooltips
-const tool_tip = d3.tip()
-    .attr('class', 'd3-tip')
-    .offset([-10, 0])
-    .direction('n')
-    .html( function(d) {
-        return `<strong>State: </strong><span class='details'>${d.properties.name}<br></span>
-                <strong>Region: </strong><span class='details'>${d.properties.region}<br></span>
-                <strong>Year: </strong><span class='details'>${d.properties.year}<br></span>
-                <strong>Earthquakes: </strong><span class='details'>${d.properties.value}</span>`
-    })
+// // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// // TOOL TIP using d3-tip
+// // 
+// // Set tooltips
+// const tool_tip = d3.tip()
+//     .attr('class', 'd3-tip')
+//     .offset([-10, 0])
+//     .direction('n')
+//     .html( function(d) {
+//         return `<strong>State: </strong><span class='details'>${d.properties.name}<br></span>
+//                 <strong>Region: </strong><span class='details'>${d.properties.region}<br></span>
+//                 <strong>Year: </strong><span class='details'>${d.properties.year}<br></span>
+//                 <strong>Earthquakes: </strong><span class='details'>${d.properties.value}</span>`
+//     })
 
 
-svg1.call(tool_tip)
+// svg1.call(tool_tip)
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // LOAD DATA - use javascript 'Promises' to load data before drawing
@@ -250,11 +250,11 @@ Promise.all(dataPromises).then(function(promiseData) {
         var yearQuakesMax = d3.max(data, d => d.yearQuakes)
         logScale.domain([1, yearQuakesMax])
 
-        var legend_buffer = 5
-        , legend_size = 24
+        // var legend_buffer = 5
+        // , legend_size = 24
 
-        // Add a legend entry
-        var legendPseudo = [0.100, 0.200, 0.300, 0.400, 0.500, 0.600, 0.700, 0.800, 0.900]
+        // // Add a legend entry
+        // var legendPseudo = [0.100, 0.200, 0.300, 0.400, 0.500, 0.600, 0.700, 0.800, 0.900]
 
         // - color block
         if (isUpdate===false){
@@ -269,7 +269,8 @@ Promise.all(dataPromises).then(function(promiseData) {
             .append('path')
             .attr('d', path)
             .style('stroke', 'black') 
-            .style('fill', d => colorScale(logScale(d.properties.value)))
+            // .style('fill', d => colorScale(logScale(d.properties.value)))
+            .style('fill', '#d2fafb')
             // .on('mouseover', function(d) {
             //     tool_tip.direction(function(d) {
             //         if (d.properties.region === 'Northeast') return 's'
@@ -283,27 +284,27 @@ Promise.all(dataPromises).then(function(promiseData) {
             //     tool_tip.hide(d)
             // })
 
-            legend1.selectAll('rect')
-                   .data(legendPseudo)
-                 .enter()
-                 .append("rect")
-                 .style("fill", d => colorScale(d))
-                 .attr("x", 0)
-                 .attr("y", function(d, i) {return (i*legend_size)} ) // 100 is where the first dot appears. 25 is the distance between dots
-                 .attr("width", legend_size-legend_buffer)
-                 .attr("height", legend_size-legend_buffer)
+            // legend1.selectAll('rect')
+            //        .data(legendPseudo)
+            //      .enter()
+            //      .append("rect")
+            //      .style("fill", d => colorScale(d))
+            //      .attr("x", 0)
+            //      .attr("y", function(d, i) {return (i*legend_size)} ) // 100 is where the first dot appears. 25 is the distance between dots
+            //      .attr("width", legend_size-legend_buffer)
+            //      .attr("height", legend_size-legend_buffer)
 
-            // - legend text entry
-            legend1.selectAll('text')
-                .data(legendPseudo)
-            .enter()
-                .append("text")
-                .attr('class', 'legend')
-                .attr("x", legend_buffer+legend_size)
-                .attr("y", (d, i) => i*(legend_size) + (legend_size/2) - (legend_buffer/2)  )
-                .attr("text-anchor", "start") 
-                .attr("dominant-baseline", "middle") 
-                .text(d => Math.floor(logScale.invert(d))+' - '+Math.floor(logScale.invert(d+0.0999)))
+            // // - legend text entry
+            // legend1.selectAll('text')
+            //     .data(legendPseudo)
+            // .enter()
+            //     .append("text")
+            //     .attr('class', 'legend')
+            //     .attr("x", legend_buffer+legend_size)
+            //     .attr("y", (d, i) => i*(legend_size) + (legend_size/2) - (legend_buffer/2)  )
+            //     .attr("text-anchor", "start") 
+            //     .attr("dominant-baseline", "middle") 
+            //     .text(d => Math.floor(logScale.invert(d))+' - '+Math.floor(logScale.invert(d+0.0999)))
 
         } else {
         
@@ -312,17 +313,18 @@ Promise.all(dataPromises).then(function(promiseData) {
                     .data(stateDataFeatures)
                     // .attr('d', path)
                     // .style('stroke', 'black') 
-                    .style('fill', d => colorScale(logScale(d.properties.value)))
+                    // .style('fill', d => colorScale(logScale(d.properties.value)))
+                    .style('fill', 'grey')
 
 
-            legend1.selectAll('rect')
-                .data(legendPseudo)
-                .style("fill", d => colorScale(d))
+            // legend1.selectAll('rect')
+            //     .data(legendPseudo)
+            //     .style("fill", d => colorScale(d))
 
-            // - legend text entry
-            legend1.selectAll('text')
-                .data(legendPseudo)
-                .text(d => Math.floor(logScale.invert(d))+' - '+Math.floor(logScale.invert(d+0.0999)))
+            // // - legend text entry
+            // legend1.selectAll('text')
+            //     .data(legendPseudo)
+            //     .text(d => Math.floor(logScale.invert(d))+' - '+Math.floor(logScale.invert(d+0.0999)))
 
         }
     }
