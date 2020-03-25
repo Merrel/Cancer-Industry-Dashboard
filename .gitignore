@@ -2,3 +2,4 @@
 *.zip
 /data_raw/BEA_Industry_Factors/county_level
 /data_raw/BEA_Industry_Factors/state_level
+.BEA_API_KEY
