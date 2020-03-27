@@ -26,10 +26,10 @@ df = pd.DataFrame(industry_keys, index=industry_keys['counties'])
 df.set_index('counties')
 
 for idx, row in input_df.iterrows():
-    df.set_value(row['COUNTY'], row['NAICS2012'], row['ESTAB'])
+    df.loc[row['COUNTY'], row['NAICS2012']] = row['ESTAB']
 
 for idx, row in output_df.iterrows():
-    df.set_value(row['fips'], 'annual_count_avg', row['annual_count_avg'])
+    df.loc[row['fips'], 'annual_count_avg'] = row['annual_count_avg']
 
 X = df.loc[:, :'counties']
 y = df['annual_count_avg']
