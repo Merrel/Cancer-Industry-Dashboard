@@ -1,0 +1,135 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=47&areatype=county&cancer=001&race=01&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '47', 'areatype': 'county', 'cancer': '001', 'race': '01', 'sex': '0', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_024.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=47&areatype=county&cancer=001&race=01&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Tennessee by County
+
+"All Cancer Sites (All Stages^), 2012-2016"
+
+"White (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Tennessee(6,10)",47000,***,463.8 ,461.4, 466.2,30530,stable,-0.4 ,-2.1, 1.3
+"US (SEER+NPCR)(1,10)",00000,***,450.1 ,449.8, 450.5,1370927,stable,-0.9 ,-1.8, 0.0
+"Hancock County(6,10)",47067,***,545.9 ,477.3, 622.4,50,stable,-2.9 ,-22.6, 21.9
+"Trousdale County(6,10)",47169,***,540.1 ,472, 615.7,47,stable,-0.8 ,-18.4, 20.6
+"Marion County(6,10)",47115,***,530.3 ,496.3, 566.2,196,stable,-4.8 ,-13.7, 5.0
+"Claiborne County(6,10)",47025,***,528.5 ,496.6, 562.1,221,stable,1.4 ,-7.6, 11.3
+"Benton County(6,10)",47005,***,528 ,485.4, 573.8,127,stable,-1.7 ,-11.3, 8.9
+"Carroll County(6,10)",47017,***,520.3 ,485.7, 557,181,stable,3.3 ,-2.1, 9.0
+"Sequatchie County(6,10)",47153,***,515.6 ,469.3, 565.6,99,stable,-1.4 ,-11.1, 9.3
+"Perry County(6,10)",47135,***,513.7 ,451.6, 582.6,55,stable,1.4 ,-17.3, 24.2
+"Scott County(6,10)",47151,***,512.7 ,473.5, 554.4,133,stable,-3.6 ,-8.6, 1.8
+"Overton County(6,10)",47133,***,512.2 ,475.6, 551.2,155,stable,-0.1 ,-5.2, 5.3
+"Dickson County(6,10)",47043,***,512.2 ,485.9, 539.6,296,stable,0.8 ,-5.3, 7.3
+"Cheatham County(6,10)",47021,***,509.8 ,478.9, 542.3,222,falling,-4.9 ,-8.2, -1.4
+"Meigs County(6,10)",47121,***,508.9 ,457.2, 565.3,80,stable,7.8 ,-1.8, 18.5
+"Campbell County(6,10)",47013,***,507.7 ,480.7, 535.9,283,stable,0.3 ,-8.3, 9.7
+"Stewart County(6,10)",47161,***,507.3 ,459.7, 559,89,stable,-3.6 ,-11.4, 4.9
+"Hardeman County(6,10)",47069,***,507.2 ,464.2, 553.7,111,stable,1.8 ,-10.1, 15.3
+"Grainger County(6,10)",47057,***,505.4 ,469.2, 543.8,158,stable,0.2 ,-11.1, 12.8
+"Maury County(6,10)",47119,***,499.8 ,478.7, 521.6,451,stable,3.1 ,-3.2, 9.9
+"Macon County(6,10)",47111,***,499.4 ,461.5, 539.7,135,stable,0.0 ,-7.8, 8.4
+"Houston County(6,10)",47083,***,498.9 ,438.3, 566.1,53,stable,0.3 ,-11.0, 13.1
+"Union County(6,10)",47173,***,497.9 ,457.1, 541.5,119,stable,-3.5 ,-8.9, 2.2
+"Rhea County(6,10)",47143,***,496.7 ,465.6, 529.4,203,stable,3.1 ,-8.6, 16.3
+"Loudon County(6,10)",47105,***,493.3 ,469.8, 517.8,389,stable,-1.2 ,-7.9, 6.0
+"Grundy County(6,10)",47061,***,493.1 ,446.8, 543.2,91,stable,-0.5 ,-8.8, 8.5
+"Hawkins County(6,10)",47073,***,492.8 ,469.8, 516.7,372,stable,0.0 ,-3.9, 3.9
+"Sevier County(6,10)",47155,***,490.4 ,472.4, 509,602,stable,1.4 ,-4.7, 7.9
+"Polk County(6,10)",47139,***,489.5 ,448.3, 533.8,112,stable,-2.4 ,-15.6, 13.0
+"Franklin County(6,10)",47051,***,489.4 ,461.8, 518.2,254,stable,-1.2 ,-9.4, 7.7
+"Fentress County(6,10)",47049,***,488.6 ,448.5, 531.6,122,stable,-6.6 ,-15.6, 3.2
+"Humphreys County(6,10)",47085,***,488.2 ,449.1, 530,123,stable,-3.1 ,-12.4, 7.1
+"White County(6,10)",47185,***,487.7 ,454.5, 522.9,171,stable,-2.1 ,-17.2, 15.7
+"Lauderdale County(6,10)",47097,***,487.2 ,445.7, 531.8,108,stable,1.1 ,-5.2, 7.7
+"Marshall County(6,10)",47117,***,485.5 ,452.6, 520.4,170,stable,1.4 ,-3.9, 6.9
+"Blount County(6,10)",47009,***,485 ,469.5, 501,788,stable,-0.2 ,-4.8, 4.5
+"Lake County(6,10)",47095,***,484.1 ,412.3, 566.1,34,stable,-2.7 ,-17.0, 14.1
+"Lewis County(6,10)",47101,***,483.2 ,433.7, 537.2,77,stable,-1.7 ,-13.0, 11.0
+"Cocke County(6,10)",47029,***,482.4 ,453.6, 512.7,230,stable,0.6 ,-7.2, 9.2
+"Coffee County(6,10)",47031,***,481 ,456.8, 506.2,310,stable,-1.7 ,-5.8, 2.5
+"Unicoi County(6,10)",47171,***,476.3 ,438.2, 517.3,127,stable,-5.1 ,-20.2, 13.0
+"Henry County(6,10)",47079,***,475.5 ,446.1, 506.5,215,stable,-1.4 ,-10.9, 9.1
+"Putnam County(6,10)",47141,***,475.1 ,454.1, 496.8,405,stable,0.9 ,-6.0, 8.3
+"Morgan County(6,10)",47129,***,474.2 ,437, 513.8,128,stable,2.2 ,-2.7, 7.4
+"Anderson County(6,10)",47001,***,470.7 ,451, 491.1,465,stable,-4.6 ,-11.5, 2.9
+"Robertson County(6,10)",47147,***,469.1 ,446.2, 492.9,331,stable,-1.0 ,-4.9, 2.9
+"Hamblen County(6,10)",47063,***,468.9 ,447, 491.7,360,stable,-1.0 ,-6.7, 5.0
+"Jefferson County(6,10)",47089,***,468.1 ,444.6, 492.5,322,stable,1.3 ,-3.7, 6.6
+"Decatur County(6,10)",47039,***,468.1 ,421.9, 518.6,82,stable,1.2 ,-4.9, 7.6
+"Greene County(6,10)",47059,***,468 ,447.9, 488.9,442,stable,2.8 ,-0.3, 5.9
+"Sumner County(6,10)",47165,***,467.7 ,453.6, 482.1,871,stable,-0.8 ,-4.0, 2.4
+"Knox County(6,10)",47093,***,467.2 ,458.3, 476.3,2183,stable,0.3 ,-1.1, 1.7
+"Sullivan County(6,10)",47163,***,466.8 ,453.6, 480.3,1026,stable,0.6 ,-1.4, 2.7
+"Crockett County(6,10)",47033,***,466.6 ,419.3, 518.1,75,stable,2.6 ,-7.7, 14.0
+"Washington County(6,10)",47179,***,466.1 ,450.3, 482.3,698,stable,1.7 ,-1.7, 5.2
+"Warren County(6,10)",47177,***,463.7 ,436.3, 492.5,224,stable,0.6 ,-4.5, 6.0
+"Henderson County(6,10)",47077,***,463.1 ,429.8, 498.4,152,stable,-1.5 ,-11.9, 10.2
+"Monroe County(6,10)",47123,***,462.9 ,438, 489,281,stable,4.6 ,-6.2, 16.7
+"McNairy County(6,10)",47109,***,462.4 ,429.7, 497.1,160,stable,1.5 ,-4.4, 7.8
+"Roane County(6,10)",47145,***,460.9 ,438.6, 484.2,355,stable,-2.0 ,-9.1, 5.6
+"Hamilton County(6,10)",47065,***,459.9 ,449.6, 470.3,1626,stable,-0.1 ,-4.0, 4.0
+"Hardin County(6,10)",47071,***,458 ,425.9, 492.1,167,stable,-0.4 ,-10.1, 10.3
+"Cannon County(6,10)",47015,***,457.7 ,413.4, 505.8,82,falling,-3.7 ,-7.1, -0.2
+"Tipton County(6,10)",47167,***,457.5 ,432.1, 484,255,stable,-4.1 ,-10.0, 2.2
+"Montgomery County(6,10)",47125,***,457.3 ,439.7, 475.3,539,stable,-2.1 ,-5.3, 1.1
+"Rutherford County(6,10)",47149,***,456.9 ,444, 470.1,1009,stable,-1.9 ,-4.6, 1.0
+"Haywood County(6,10)",47075,***,456.7 ,403.4, 515.8,58,stable,-3.3 ,-12.5, 6.9
+"Lawrence County(6,10)",47099,***,455.3 ,429.4, 482.6,241,stable,-0.2 ,-6.7, 6.8
+"Johnson County(6,10)",47091,***,454.7 ,416.9, 495.3,116,stable,1.4 ,-9.0, 13.0
+"Wayne County(6,10)",47181,***,454.6 ,414.1, 498.4,98,stable,0.3 ,-12.8, 15.2
+"Giles County(6,10)",47055,***,454.1 ,422.1, 488.1,161,stable,-5.6 ,-15.8, 6.0
+"Obion County(6,10)",47131,***,453.3 ,422.8, 485.7,176,stable,2.1 ,-3.9, 8.4
+"Wilson County(6,10)",47189,***,453.2 ,436.9, 470.1,615,stable,-1.0 ,-5.9, 4.1
+"Bedford County(6,10)",47003,***,453 ,425.8, 481.5,216,stable,-2.2 ,-6.8, 2.6
+"Gibson County(6,10)",47053,***,452.4 ,426.5, 479.7,238,stable,-0.7 ,-3.9, 2.7
+"Hickman County(6,10)",47081,***,450.8 ,416, 487.8,131,stable,-2.1 ,-11.7, 8.7
+"Davidson County(6,10)",47037,***,448.9 ,440.2, 457.6,2146,stable,-0.3 ,-1.6, 1.0
+"Shelby County(6,10)",47157,***,448.8 ,440.3, 457.5,2231,stable,-0.3 ,-5.3, 4.8
+"Cumberland County(6,10)",47035,***,446.9 ,426.7, 467.8,451,stable,-2.4 ,-9.7, 5.4
+"McMinn County(6,10)",47107,***,445.5 ,422.6, 469.5,304,stable,0.8 ,-2.0, 3.6
+"Bradley County(6,10)",47011,***,445.4 ,428.2, 463.2,524,stable,-1.3 ,-5.5, 3.2
+"Weakley County(6,10)",47183,***,443.5 ,413.5, 475.3,173,stable,1.8 ,-7.6, 12.1
+"Chester County(6,10)",47023,***,442.9 ,400.2, 489.2,83,stable,-3.3 ,-8.7, 2.4
+"Dyer County(6,10)",47045,***,441.6 ,412.6, 472.3,181,stable,2.3 ,-0.7, 5.4
+"Williamson County(6,10)",47187,***,441.3 ,427.8, 455.2,874,stable,-0.6 ,-3.4, 2.4
+"Smith County(6,10)",47159,***,440.8 ,402.1, 482.3,101,stable,0.3 ,-15.4, 19.1
+"Madison County(6,10)",47113,***,432.5 ,412, 453.7,359,stable,3.4 ,-8.1, 16.4
+"Clay County(6,10)",47027,***,426.3 ,372.9, 486.3,50,stable,2.8 ,-5.2, 11.5
+"Carter County(6,10)",47019,***,420.7 ,399.8, 442.6,328,stable,-3.8 ,-16.9, 11.5
+"Pickett County(6,10)",47137,***,414.9 ,348.3, 492.2,33,stable,-6.7 ,-20.5, 9.4
+"Bledsoe County(6,10)",47007,***,412.3 ,370.4, 458.2,75,stable,-5.4 ,-10.6, 0.2
+"Jackson County(6,10)",47087,***,410 ,365.7, 459,71,stable,-4.5 ,-17.5, 10.5
+"DeKalb County(6,10)",47041,***,407.6 ,371.6, 446.4,101,stable,-1.2 ,-10.5, 9.2
+"Van Buren County(6,10)",47175,***,402.3 ,340, 474,33,stable,-11.2 ,-30.8, 13.9
+"Fayette County(6,10)",47047,***,399.5 ,371.5, 429.4,169,stable,-4.5 ,-12.0, 3.6
+"Moore County(6,10)",47127,***,398.2 ,339.3, 465.5,35,stable,-1.3 ,-24.4, 28.9
+"Lincoln County(6,10)",47103,***,386.9 ,359.8, 415.6,162,stable,1.5 ,-7.9, 11.9
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:02 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

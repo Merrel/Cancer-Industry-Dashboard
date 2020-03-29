@@ -1,0 +1,134 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=31&areatype=county&cancer=066&race=00&sex=1&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '31', 'areatype': 'county', 'cancer': '066', 'race': '00', 'sex': '1', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_019.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=31&areatype=county&cancer=066&race=00&sex=1&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Nebraska by County
+
+"Prostate (All Stages^), 2012-2016"
+
+"All Races (includes Hispanic), Male, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Nebraska(6,10)",31000,***,111.2 ,108.3, 114.1,1175,stable,-0.4 ,-3.2, 2.5
+"US (SEER+NPCR)(1,10)",00000,***,104.1 ,103.8, 104.3,187184,stable,-2.2 ,-5.2, 0.9
+"Sherman County(6,10)",31163,***,171.7 ,104.4, 275.5,4,*,*,*,*
+"Greeley County(6,10)",31077,***,162.3 ,95.7, 272.1,4,*,*,*,*
+"Burt County(6,10)",31021,***,160.7 ,116.4, 220.3,9,stable,0.9 ,-29.4, 44.3
+"Holt County(6,10)",31089,***,158.1 ,120.9, 205,13,stable,-4.2 ,-32.5, 35.9
+"Box Butte County(6,10)",31013,***,145.2 ,107.1, 193.3,11,stable,11.2 ,-23.4, 61.4
+"Chase County(6,10)",31029,***,143.6 ,88.2, 226,4,stable,5.7 ,-11.7, 26.4
+"Pawnee County(6,10)",31133,***,141.5 ,83.2, 239.3,4,stable,-4.9 ,-49.7, 79.8
+"Saunders County(6,10)",31155,***,140.8 ,114.1, 172.4,20,stable,-3.0 ,-28.3, 31.2
+"Cuming County(6,10)",31039,***,137.3 ,100.2, 185.6,9,rising,27.1 ,9.4, 47.7
+"Madison County(6,10)",31119,***,136.9 ,114.3, 162.7,27,stable,-5.3 ,-26.2, 21.6
+"Dodge County(6,10)",31053,***,136.2 ,115.9, 159.2,33,stable,-9.0 ,-20.4, 4.1
+"Merrick County(6,10)",31121,***,133.7 ,93.8, 187.1,8,stable,-18.7 ,-38.3, 7.2
+"Webster County(6,10)",31181,***,131.8 ,79.1, 214.3,4,stable,6.2 ,-43.0, 98.0
+"Harlan County(6,10)",31083,***,131.4 ,82, 210.1,4,stable,-17.4 ,-39.9, 13.4
+"Cheyenne County(6,10)",31033,***,131 ,93.5, 179.4,8,stable,-4.7 ,-32.9, 35.2
+"Nuckolls County(6,10)",31129,***,128.8 ,81.3, 200.9,5,stable,-13.6 ,-57.9, 77.6
+"Dixon County(6,10)",31051,***,127.1 ,82.9, 189.6,5,stable,-12.5 ,-37.3, 22.1
+"Sheridan County(6,10)",31161,***,125.5 ,83.4, 187.1,6,stable,-8.1 ,-24.1, 11.3
+"Hall County(6,10)",31079,***,123.4 ,107, 141.6,42,stable,-12.1 ,-28.0, 7.3
+"Keith County(6,10)",31101,***,121.7 ,86.2, 170,8,stable,17.7 ,-27.5, 91.0
+"Saline County(6,10)",31151,***,121.7 ,89.3, 162.2,10,stable,15.4 ,-14.7, 56.2
+"Washington County(6,10)",31177,***,121 ,95.3, 152,16,stable,-6.3 ,-25.6, 17.9
+"Lincoln County(6,10)",31111,***,120.3 ,100.6, 143.1,27,stable,-0.7 ,-9.7, 9.1
+"Platte County(6,10)",31141,***,119.9 ,98.9, 144.2,24,stable,-0.8 ,-12.5, 12.6
+"Wayne County(6,10)",31179,***,119.5 ,80.6, 171.6,6,stable,-13.1 ,-48.9, 47.8
+"Douglas County(6,10)",31055,***,115.2 ,109.2, 121.5,295,stable,-1.5 ,-6.1, 3.3
+"Boone County(6,10)",31011,***,114.5 ,73, 175.7,5,stable,-11.1 ,-40.8, 33.6
+"Gage County(6,10)",31067,***,113.3 ,91, 140.2,18,stable,9.4 ,-22.3, 54.1
+"Pierce County(6,10)",31139,***,113.1 ,74.1, 167.5,5,stable,8.8 ,-14.3, 38.1
+"Cass County(6,10)",31025,***,112.1 ,89.8, 138.7,19,stable,-5.2 ,-21.5, 14.6
+"Knox County(6,10)",31107,***,111.9 ,78.9, 157.1,8,stable,8.2 ,-26.8, 60.0
+"Howard County(6,10)",31093,***,111.2 ,72.9, 165.6,5,stable,23.8 ,-38.1, 147.7
+"Polk County(6,10)",31143,***,111.2 ,69.5, 173.5,5,stable,7.0 ,-31.1, 66.1
+"Stanton County(6,10)",31167,***,107.8 ,66, 168.3,4,stable,0.0 ,-42.3, 73.3
+"Lancaster County(6,10)",31109,***,106.7 ,99.3, 114.6,161,rising,5.7 ,1.3, 10.2
+"Custer County(6,10)",31041,***,106.6 ,77.5, 144.9,9,stable,12.3 ,-7.5, 36.3
+"York County(6,10)",31185,***,106.5 ,79.1, 141.6,10,stable,-1.4 ,-42.3, 68.4
+"Seward County(6,10)",31159,***,105.2 ,79.2, 137.6,11,stable,-14.6 ,-40.9, 23.4
+"Butler County(6,10)",31023,***,105.2 ,71.6, 151.4,6,stable,-11.6 ,-32.8, 16.4
+"Buffalo County(6,10)",31019,***,102.7 ,85.3, 122.7,26,stable,11.6 ,-12.8, 42.9
+"Johnson County(6,10)",31097,***,102.5 ,61.2, 163.8,4,*,*,*,*
+"Antelope County(6,10)",31003,***,102.1 ,66.9, 153.2,5,stable,-13.1 ,-36.2, 18.4
+"Otoe County(6,10)",31131,***,102 ,76.2, 134.6,11,stable,2.8 ,-22.4, 36.1
+"Scotts Bluff County(6,10)",31157,***,101.4 ,83.3, 122.3,23,stable,18.4 ,-5.8, 48.8
+"Hamilton County(6,10)",31081,***,99.6 ,67.7, 143.3,6,stable,-4.8 ,-33.8, 36.8
+"Clay County(6,10)",31035,***,99.5 ,63, 152.7,5,falling,-25.8 ,-40.4, -7.6
+"Cedar County(6,10)",31027,***,98.8 ,68.1, 141.3,7,stable,2.1 ,-33.9, 57.9
+"Fillmore County(6,10)",31059,***,97.5 ,60.5, 153.6,4,rising,21.0 ,2.4, 43.0
+"Dakota County(6,10)",31043,***,97.5 ,72.2, 128.9,10,stable,-15.5 ,-34.1, 8.4
+"Cherry County(6,10)",31031,***,95.8 ,57.4, 153.1,4,stable,-5.4 ,-42.2, 54.9
+"Richardson County(6,10)",31147,***,95.1 ,64, 139,6,stable,-3.6 ,-20.6, 16.9
+"Jefferson County(6,10)",31095,***,94.8 ,59.5, 145.6,5,stable,4.9 ,-49.0, 115.6
+"Adams County(6,10)",31001,***,94.8 ,75.6, 117.6,18,stable,-5.7 ,-33.6, 33.9
+"Kearney County(6,10)",31099,***,94.3 ,57.1, 148.7,4,stable,38.9 ,-29.3, 172.8
+"Sarpy County(6,10)",31153,***,92.6 ,83, 103.1,74,stable,-4.0 ,-15.5, 9.1
+"Dawson County(6,10)",31047,***,92 ,70.2, 118.5,13,stable,-5.7 ,-26.4, 20.7
+"Colfax County(6,10)",31037,***,87.7 ,56.2, 130.6,5,stable,2.5 ,-15.8, 24.9
+"Thayer County(6,10)",31169,***,86 ,52.3, 140.1,4,stable,-21.0 ,-46.1, 15.7
+"Morrill County(6,10)",31123,***,85.9 ,48.7, 145.1,3,*,*,*,*
+"Dawes County(6,10)",31045,***,85 ,54, 129.5,5,stable,-13.8 ,-46.7, 39.4
+"Red Willow County(6,10)",31145,***,84.6 ,57.6, 121.4,6,stable,-3.2 ,-26.9, 28.2
+"Nemaha County(6,10)",31127,***,84 ,49.5, 135.3,4,stable,-0.5 ,-20.0, 23.7
+"Phelps County(6,10)",31137,***,78 ,49.8, 118,5,stable,-3.8 ,-22.4, 19.2
+"Arthur County(6,10)",31005,***,* ,*, *,3 or fewer,*,*,*,*
+"Banner County(6,10)",31007,***,* ,*, *,3 or fewer,*,*,*,*
+"Blaine County(6,10)",31009,***,* ,*, *,3 or fewer,*,*,*,*
+"Boyd County(6,10)",31015,***,* ,*, *,3 or fewer,*,*,*,*
+"Brown County(6,10)",31017,***,* ,*, *,3 or fewer,*,*,*,*
+"Deuel County(6,10)",31049,***,* ,*, *,3 or fewer,*,*,*,*
+"Dundy County(6,10)",31057,***,* ,*, *,3 or fewer,*,*,*,*
+"Franklin County(6,10)",31061,***,* ,*, *,3 or fewer,*,*,*,*
+"Frontier County(6,10)",31063,***,* ,*, *,3 or fewer,*,*,*,*
+"Furnas County(6,10)",31065,***,* ,*, *,3 or fewer,*,*,*,*
+"Garden County(6,10)",31069,***,* ,*, *,3 or fewer,*,*,*,*
+"Garfield County(6,10)",31071,***,* ,*, *,3 or fewer,*,*,*,*
+"Gosper County(6,10)",31073,***,* ,*, *,3 or fewer,*,*,*,*
+"Grant County(6,10)",31075,***,* ,*, *,3 or fewer,*,*,*,*
+"Hayes County(6,10)",31085,***,* ,*, *,3 or fewer,*,*,*,*
+"Hitchcock County(6,10)",31087,***,* ,*, *,3 or fewer,*,*,*,*
+"Hooker County(6,10)",31091,***,* ,*, *,3 or fewer,*,*,*,*
+"Keya Paha County(6,10)",31103,***,* ,*, *,3 or fewer,*,*,*,*
+"Kimball County(6,10)",31105,***,* ,*, *,3 or fewer,*,*,*,*
+"Logan County(6,10)",31113,***,* ,*, *,3 or fewer,*,*,*,*
+"Loup County(6,10)",31115,***,* ,*, *,3 or fewer,*,*,*,*
+"McPherson County(6,10)",31117,***,* ,*, *,3 or fewer,*,*,*,*
+"Nance County(6,10)",31125,***,* ,*, *,3 or fewer,*,*,*,*
+"Perkins County(6,10)",31135,***,* ,*, *,3 or fewer,*,*,*,*
+"Rock County(6,10)",31149,***,* ,*, *,3 or fewer,*,*,*,*
+"Sioux County(6,10)",31165,***,* ,*, *,3 or fewer,*,*,*,*
+"Thomas County(6,10)",31171,***,* ,*, *,3 or fewer,*,*,*,*
+"Thurston County(6,10)",31173,***,* ,*, *,3 or fewer,*,*,*,*
+"Valley County(6,10)",31175,***,* ,*, *,3 or fewer,*,*,*,*
+"Wheeler County(6,10)",31183,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:00 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

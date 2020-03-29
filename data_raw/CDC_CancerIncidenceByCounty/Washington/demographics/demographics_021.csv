@@ -1,0 +1,59 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=53&areatype=county&topic=pop&demo=00022&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '53', 'areatype': 'county', 'topic': 'pop', 'demo': '00022', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_021.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=53&areatype=county&topic=pop&demo=00022&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Washington by County
+Population: Black
+"All Ages, Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Black),Rank within US
+"Washington",53000,3.7,261743,"37 of 52"
+"United States",00000,12.7,40610815,"N/A"
+"Garfield County",53023,0.0,0,"3052 of 3141"
+"Ferry County",53019,0.1,6,"2988 of 3141"
+"Wahkiakum County",53069,0.2,8,"2867 of 3141"
+"Pend Oreille County",53051,0.2,29,"2839 of 3141"
+"Klickitat County",53039,0.3,59,"2789 of 3141"
+"Douglas County",53017,0.3,129,"2736 of 3141"
+"Pacific County",53049,0.3,70,"2704 of 3141"
+"Stevens County",53065,0.5,201,"2585 of 3141"
+"Asotin County",53003,0.5,105,"2561 of 3141"
+"Okanogan County",53047,0.5,196,"2558 of 3141"
+"Chelan County",53007,0.5,364,"2543 of 3141"
+"Columbia County",53013,0.5,21,"2499 of 3141"
+"Jefferson County",53031,0.6,177,"2433 of 3141"
+"Lincoln County",53043,0.6,60,"2432 of 3141"
+"Adams County",53001,0.6,113,"2426 of 3141"
+"San Juan County",53055,0.6,104,"2361 of 3141"
+"Lewis County",53041,0.7,503,"2337 of 3141"
+"Grant County",53025,0.7,636,"2304 of 3141"
+"Cowlitz County",53015,0.8,822,"2202 of 3141"
+"Skagit County",53057,0.8,1022,"2163 of 3141"
+"Skamania County",53059,0.9,105,"2105 of 3141"
+"Yakima County",53077,1.0,2410,"2054 of 3141"
+"Whatcom County",53073,1.0,2129,"2037 of 3141"
+"Grays Harbor County",53027,1.0,717,"2034 of 3141"
+"Kittitas County",53037,1.1,478,"1988 of 3141"
+"Clallam County",53009,1.2,847,"1964 of 3141"
+"Walla Walla County",53071,1.5,906,"1794 of 3141"
+"Benton County",53005,1.5,2888,"1790 of 3141"
+"Mason County",53045,1.5,949,"1776 of 3141"
+"Spokane County",53063,1.7,8347,"1716 of 3141"
+"Clark County",53011,1.9,8482,"1667 of 3141"
+"Whitman County",53075,2.0,979,"1614 of 3141"
+"Franklin County",53021,2.4,2166,"1525 of 3141"
+"Kitsap County",53035,2.5,6491,"1510 of 3141"
+"Snohomish County",53061,2.8,21321,"1455 of 3141"
+"Thurston County",53067,3.0,8038,"1413 of 3141"
+"Island County",53029,3.3,2631,"1364 of 3141"
+"King County",53033,6.2,130594,"1020 of 3141"
+"Pierce County",53053,6.7,56640,"985 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:02 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Black, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

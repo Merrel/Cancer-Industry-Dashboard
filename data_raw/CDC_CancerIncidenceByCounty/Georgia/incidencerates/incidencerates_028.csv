@@ -1,0 +1,203 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=13&areatype=county&cancer=001&race=05&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '13', 'areatype': 'county', 'cancer': '001', 'race': '05', 'sex': '0', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_028.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=13&areatype=county&cancer=001&race=05&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Georgia by County
+
+"All Cancer Sites (All Stages^), 2012-2016"
+
+"Hispanic (any race), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Georgia(7,8)",13000,***,360.5 ,350.7, 370.6,1477,rising,4.4 ,1.2, 7.8
+"US (SEER+NPCR) &sect; (1,10)",00000,***,346.5 ,345.6, 347.4,127249,falling,-1.2 ,-2.2, -0.2
+"Chattooga County(7)",13055,***,886 ,398.2, 1627.7,3,*,*,*,*
+"Lee County(7)",13177,***,876.6 ,347.3, 1725,3,*,*,*,*
+"Laurens County(7)",13175,***,563.3 ,322.1, 898.2,4,*,*,*,*
+"Spalding County(7)",13255,***,546.4 ,338.5, 819.1,6,*,*,*,*
+"Henry County(7,8)",13151,***,501.6 ,418.9, 594.4,34,stable,-0.1 ,-2.4, 2.3
+"Wayne County(7)",13305,***,498.5 ,237.1, 884.3,3,*,*,*,*
+"Jackson County(7)",13157,***,489 ,325.2, 695.3,8,*,*,*,*
+"Cherokee County(7,8)",13057,***,479 ,410.1, 555.1,51,stable,-1.1 ,-4.9, 2.9
+"Toombs County(7)",13279,***,471.6 ,271.5, 744.8,5,*,*,*,*
+"Effingham County(7)",13103,***,466.9 ,256.3, 761.6,4,*,*,*,*
+"Newton County(7)",13217,***,466 ,328.3, 635.9,11,*,*,*,*
+"Paulding County(7)",13223,***,461 ,359.6, 579.1,19,*,*,*,*
+"Forsyth County(7,8)",13117,***,441.8 ,373.8, 517.3,41,stable,2.4 ,-0.2, 5.1
+"Clarke County(7,8)",13059,***,441.7 ,333.7, 569.1,20,rising,4.8 ,1.6, 8.1
+"Camden County(7,8)",13039,***,427.9 ,276.6, 626.7,6,stable,-0.1 ,-7.7, 8.1
+"Chatham County(7,8)",13051,***,427.2 ,350.8, 513.3,30,stable,0.1 ,-3.2, 3.5
+"Fulton County(7,8)",13121,***,427.1 ,388.5, 467.9,134,stable,8.8 ,-1.9, 20.6
+"Troup County(7)",13285,***,426.3 ,213.5, 733.3,3,*,*,*,*
+"Rockdale County(7,8)",13247,***,423.6 ,319.3, 547.2,15,stable,2.3 ,-3.9, 8.9
+"Tift County(7,8)",13277,***,418.1 ,261.9, 622.9,7,stable,2.6 ,-3.4, 9.1
+"Bartow County(7,8)",13015,***,416.7 ,294.2, 567.1,13,stable,4.1 ,-2.3, 10.8
+"Cobb County(7,8)",13067,***,405.9 ,371.6, 442.3,160,stable,-0.5 ,-1.7, 0.8
+"Clayton County(7,8)",13063,***,396.9 ,340.6, 458.8,55,rising,7.9 ,1.3, 15.0
+"Fayette County(7,8)",13113,***,389.1 ,309.2, 482,18,stable,0.4 ,-3.6, 4.6
+"Bryan County(7)",13029,***,378 ,194.6, 649.2,4,*,*,*,*
+"Carroll County(7,8)",13045,***,374.5 ,265.5, 508.6,11,stable,-1.4 ,-4.8, 2.2
+"Glynn County(7,8)",13127,***,372 ,255, 518.1,9,stable,-1.0 ,-6.3, 4.7
+"Barrow County(7)",13013,***,370.3 ,268.5, 494.6,13,*,*,*,*
+"DeKalb County(7,8)",13089,***,368.3 ,333, 406,110,stable,0.6 ,-0.7, 1.9
+"Richmond County(7,8)",13245,***,359.3 ,284.6, 445.9,18,stable,0.4 ,-3.5, 4.4
+"Muscogee County(7,8)",13215,***,357.2 ,289.5, 434.3,25,stable,-1.1 ,-3.6, 1.4
+"Walton County(7)",13297,***,353.2 ,223.2, 524.7,5,*,*,*,*
+"Gwinnett County(7,8)",13135,***,353.2 ,329.1, 378.4,273,stable,0.8 ,-0.2, 1.8
+"Gilmer County(7,8)",13123,***,352.6 ,204.4, 557,5,stable,6.8 ,-1.4, 15.6
+"Coffee County(7,8)",13069,***,344.3 ,205.4, 530.5,6,stable,4.3 ,-4.1, 13.4
+"Grady County(7)",13131,***,343.2 ,166, 614.2,3,*,*,*,*
+"Coweta County(7,8)",13077,***,336.9 ,262.3, 424.4,18,stable,1.1 ,-3.4, 5.9
+"Houston County(7,8)",13153,***,327.6 ,249.4, 420.4,16,stable,-0.9 ,-4.7, 3.0
+"Douglas County(7,8)",13097,***,310.6 ,240.8, 392.6,18,stable,-3.0 ,-7.2, 1.4
+"Liberty County(7,8)",13179,***,307.6 ,213.8, 426.2,10,stable,-3.4 ,-8.5, 1.9
+"Hall County(7,8)",13139,***,306.9 ,264, 354.1,68,stable,0.4 ,-1.5, 2.2
+"Columbia County(7,8)",13073,***,305.8 ,220.4, 410.2,12,stable,-2.0 ,-6.0, 2.1
+"Floyd County(7,8)",13115,***,299.8 ,210.7, 409.9,11,rising,6.8 ,1.1, 12.7
+"Habersham County(7)",13137,***,281.9 ,172.9, 436.8,8,*,*,*,*
+"Murray County(7,8)",13213,***,270.9 ,132.4, 472.6,4,stable,-1.7 ,-8.6, 5.8
+"Polk County(7)",13233,***,254.2 ,135.1, 427.6,4,*,*,*,*
+"Tattnall County(7)",13267,***,243.2 ,111.1, 448.1,3,*,*,*,*
+"Whitfield County(7,8)",13313,***,238.8 ,192.2, 291.8,33,stable,1.2 ,-2.2, 4.8
+"Bibb County(7,8)",13021,***,223.4 ,140.9, 332.7,6,stable,-1.5 ,-5.8, 2.9
+"Lowndes County(7,8)",13185,***,213.9 ,139.5, 311.7,6,stable,-2.6 ,-8.0, 3.2
+"Gordon County(7)",13129,***,190.7 ,123.4, 279.5,8,*,*,*,*
+"Colquitt County(7)",13071,***,162.7 ,103.9, 241.2,7,*,*,*,*
+"Appling County(7)",13001,***,* ,*, *,3 or fewer,*,*,*,*
+"Atkinson County(7)",13003,***,* ,*, *,3 or fewer,*,*,*,*
+"Bacon County(7)",13005,***,* ,*, *,3 or fewer,*,*,*,*
+"Baker County(7)",13007,***,* ,*, *,3 or fewer,*,*,*,*
+"Baldwin County(7)",13009,***,* ,*, *,3 or fewer,*,*,*,*
+"Banks County(7)",13011,***,* ,*, *,3 or fewer,*,*,*,*
+"Ben Hill County(7)",13017,***,* ,*, *,3 or fewer,*,*,*,*
+"Berrien County(7)",13019,***,* ,*, *,3 or fewer,*,*,*,*
+"Bleckley County(7)",13023,***,* ,*, *,3 or fewer,*,*,*,*
+"Brantley County(7)",13025,***,* ,*, *,3 or fewer,*,*,*,*
+"Brooks County(7)",13027,***,* ,*, *,3 or fewer,*,*,*,*
+"Bulloch County(7)",13031,***,* ,*, *,3 or fewer,*,*,*,*
+"Burke County(7)",13033,***,* ,*, *,3 or fewer,*,*,*,*
+"Butts County(7)",13035,***,* ,*, *,3 or fewer,*,*,*,*
+"Calhoun County(7)",13037,***,* ,*, *,3 or fewer,*,*,*,*
+"Candler County(7)",13043,***,* ,*, *,3 or fewer,*,*,*,*
+"Catoosa County(7)",13047,***,* ,*, *,3 or fewer,*,*,*,*
+"Charlton County(7)",13049,***,* ,*, *,3 or fewer,*,*,*,*
+"Chattahoochee County(7)",13053,***,* ,*, *,3 or fewer,*,*,*,*
+"Clay County(7)",13061,***,* ,*, *,3 or fewer,*,*,*,*
+"Clinch County(7)",13065,***,* ,*, *,3 or fewer,*,*,*,*
+"Cook County(7)",13075,***,* ,*, *,3 or fewer,*,*,*,*
+"Crawford County(7)",13079,***,* ,*, *,3 or fewer,*,*,*,*
+"Crisp County(7)",13081,***,* ,*, *,3 or fewer,*,*,*,*
+"Dade County(7)",13083,***,* ,*, *,3 or fewer,*,*,*,*
+"Dawson County(7)",13085,***,* ,*, *,3 or fewer,*,*,*,*
+"Decatur County(7)",13087,***,* ,*, *,3 or fewer,*,*,*,*
+"Dodge County(7)",13091,***,* ,*, *,3 or fewer,*,*,*,*
+"Dooly County(7)",13093,***,* ,*, *,3 or fewer,*,*,*,*
+"Dougherty County(7)",13095,***,* ,*, *,3 or fewer,*,*,*,*
+"Early County(7)",13099,***,* ,*, *,3 or fewer,*,*,*,*
+"Echols County(7)",13101,***,* ,*, *,3 or fewer,*,*,*,*
+"Elbert County(7)",13105,***,* ,*, *,3 or fewer,*,*,*,*
+"Emanuel County(7)",13107,***,* ,*, *,3 or fewer,*,*,*,*
+"Evans County(7)",13109,***,* ,*, *,3 or fewer,*,*,*,*
+"Fannin County(7)",13111,***,* ,*, *,3 or fewer,*,*,*,*
+"Franklin County(7)",13119,***,* ,*, *,3 or fewer,*,*,*,*
+"Glascock County(7)",13125,***,* ,*, *,3 or fewer,*,*,*,*
+"Greene County(7)",13133,***,* ,*, *,3 or fewer,*,*,*,*
+"Hancock County(7)",13141,***,* ,*, *,3 or fewer,*,*,*,*
+"Haralson County(7)",13143,***,* ,*, *,3 or fewer,*,*,*,*
+"Harris County(7)",13145,***,* ,*, *,3 or fewer,*,*,*,*
+"Hart County(7)",13147,***,* ,*, *,3 or fewer,*,*,*,*
+"Heard County(7)",13149,***,* ,*, *,3 or fewer,*,*,*,*
+"Irwin County(7)",13155,***,* ,*, *,3 or fewer,*,*,*,*
+"Jasper County(7)",13159,***,* ,*, *,3 or fewer,*,*,*,*
+"Jeff Davis County(7)",13161,***,* ,*, *,3 or fewer,*,*,*,*
+"Jefferson County(7)",13163,***,* ,*, *,3 or fewer,*,*,*,*
+"Jenkins County(7)",13165,***,* ,*, *,3 or fewer,*,*,*,*
+"Johnson County(7)",13167,***,* ,*, *,3 or fewer,*,*,*,*
+"Jones County(7)",13169,***,* ,*, *,3 or fewer,*,*,*,*
+"Lamar County(7)",13171,***,* ,*, *,3 or fewer,*,*,*,*
+"Lanier County(7)",13173,***,* ,*, *,3 or fewer,*,*,*,*
+"Lincoln County(7)",13181,***,* ,*, *,3 or fewer,*,*,*,*
+"Long County(7)",13183,***,* ,*, *,3 or fewer,*,*,*,*
+"Lumpkin County(7)",13187,***,* ,*, *,3 or fewer,*,*,*,*
+"Macon County(7)",13193,***,* ,*, *,3 or fewer,*,*,*,*
+"Madison County(7)",13195,***,* ,*, *,3 or fewer,*,*,*,*
+"Marion County(7)",13197,***,* ,*, *,3 or fewer,*,*,*,*
+"McDuffie County(7)",13189,***,* ,*, *,3 or fewer,*,*,*,*
+"McIntosh County(7)",13191,***,* ,*, *,3 or fewer,*,*,*,*
+"Meriwether County(7)",13199,***,* ,*, *,3 or fewer,*,*,*,*
+"Miller County(7)",13201,***,* ,*, *,3 or fewer,*,*,*,*
+"Mitchell County(7)",13205,***,* ,*, *,3 or fewer,*,*,*,*
+"Monroe County(7)",13207,***,* ,*, *,3 or fewer,*,*,*,*
+"Montgomery County(7)",13209,***,* ,*, *,3 or fewer,*,*,*,*
+"Morgan County(7)",13211,***,* ,*, *,3 or fewer,*,*,*,*
+"Oconee County(7)",13219,***,* ,*, *,3 or fewer,*,*,*,*
+"Oglethorpe County(7)",13221,***,* ,*, *,3 or fewer,*,*,*,*
+"Peach County(7)",13225,***,* ,*, *,3 or fewer,*,*,*,*
+"Pickens County(7)",13227,***,* ,*, *,3 or fewer,*,*,*,*
+"Pierce County(7)",13229,***,* ,*, *,3 or fewer,*,*,*,*
+"Pike County(7)",13231,***,* ,*, *,3 or fewer,*,*,*,*
+"Pulaski County(7)",13235,***,* ,*, *,3 or fewer,*,*,*,*
+"Putnam County(7)",13237,***,* ,*, *,3 or fewer,*,*,*,*
+"Quitman County(7)",13239,***,* ,*, *,3 or fewer,*,*,*,*
+"Rabun County(7)",13241,***,* ,*, *,3 or fewer,*,*,*,*
+"Randolph County(7)",13243,***,* ,*, *,3 or fewer,*,*,*,*
+"Schley County(7)",13249,***,* ,*, *,3 or fewer,*,*,*,*
+"Screven County(7)",13251,***,* ,*, *,3 or fewer,*,*,*,*
+"Seminole County(7)",13253,***,* ,*, *,3 or fewer,*,*,*,*
+"Stephens County(7)",13257,***,* ,*, *,3 or fewer,*,*,*,*
+"Stewart County(7)",13259,***,* ,*, *,3 or fewer,*,*,*,*
+"Sumter County(7)",13261,***,* ,*, *,3 or fewer,*,*,*,*
+"Talbot County(7)",13263,***,* ,*, *,3 or fewer,*,*,*,*
+"Taliaferro County(7)",13265,***,* ,*, *,3 or fewer,*,*,*,*
+"Taylor County(7)",13269,***,* ,*, *,3 or fewer,*,*,*,*
+"Telfair County(7)",13271,***,* ,*, *,3 or fewer,*,*,*,*
+"Terrell County(7)",13273,***,* ,*, *,3 or fewer,*,*,*,*
+"Thomas County(7)",13275,***,* ,*, *,3 or fewer,*,*,*,*
+"Towns County(7)",13281,***,* ,*, *,3 or fewer,*,*,*,*
+"Treutlen County(7)",13283,***,* ,*, *,3 or fewer,*,*,*,*
+"Turner County(7)",13287,***,* ,*, *,3 or fewer,*,*,*,*
+"Twiggs County(7)",13289,***,* ,*, *,3 or fewer,*,*,*,*
+"Union County(7)",13291,***,* ,*, *,3 or fewer,*,*,*,*
+"Upson County(7)",13293,***,* ,*, *,3 or fewer,*,*,*,*
+"Walker County(7)",13295,***,* ,*, *,3 or fewer,*,*,*,*
+"Ware County(7)",13299,***,* ,*, *,3 or fewer,*,*,*,*
+"Warren County(7)",13301,***,* ,*, *,3 or fewer,*,*,*,*
+"Washington County(7)",13303,***,* ,*, *,3 or fewer,*,*,*,*
+"Webster County(7)",13307,***,* ,*, *,3 or fewer,*,*,*,*
+"Wheeler County(7)",13309,***,* ,*, *,3 or fewer,*,*,*,*
+"White County(7)",13311,***,* ,*, *,3 or fewer,*,*,*,*
+"Wilcox County(7)",13315,***,* ,*, *,3 or fewer,*,*,*,*
+"Wilkes County(7)",13317,***,* ,*, *,3 or fewer,*,*,*,*
+"Wilkinson County(7)",13319,***,* ,*, *,3 or fewer,*,*,*,*
+"Worth County(7)",13321,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 4:58 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+7 Source: SEER November 2018 submission.
+"8 Source: Incidence data provided by the SEER Program. ( http://seer.cancer.gov ) AAPCs are calculated by the Joinpoint Regression Program ( https://surveillance.cancer.gov/joinpoint/ ) and are based on APCs. Data are age-adjusted to the 2000 US standard population ( http://www.seer.cancer.gov/stdpopulations/single_age.html ) (19 age groups: <1, 1-4, 5-9, ... , 80-84,85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Population counts for denominators are based on Census populations as modifed by NCI. The 1969-2017 US Population Data ( http://seer.cancer.gov/popdata/ ) File is used with SEER November 2018 data. "
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+NHIA (NAACCR Hispanic Identification Algorithm) was used for Hispanic Ethnicity (see Technical Notes section of the USCS [ https://www.cdc.gov/cancer/uscs/technical_notes/stat_methods/suppression.htm ]).
+ Statistics for minorities may be affected by inconsistent race identification between the cancer case reports (sources for numerator of rate) and data from the Census Bureau (source for denominator of rate); and from undercounts of some population groups in the census.
+Data for United States does not include Puerto Rico.

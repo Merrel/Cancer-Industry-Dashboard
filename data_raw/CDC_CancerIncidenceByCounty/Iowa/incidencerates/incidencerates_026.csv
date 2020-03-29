@@ -1,0 +1,140 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=19&areatype=county&cancer=001&race=07&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '19', 'areatype': 'county', 'cancer': '001', 'race': '07', 'sex': '0', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_026.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=19&areatype=county&cancer=001&race=07&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Iowa by County
+
+"All Cancer Sites (All Stages^), 2012-2016"
+
+"White Non-Hispanic, Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Iowa(7,8)",19000,***,478.9 ,475.6, 482.3,16988,falling,-0.2 ,-0.3, -0.1
+"US (SEER+NPCR) &sect; (1,10)",00000,***,464.2 ,463.8, 464.6,1254697,stable,-0.7 ,-1.6, 0.1
+"Palo Alto County(7,8)",19147,***,606.1 ,541.4, 676.9,75,stable,12.1 ,-0.7, 26.6
+"Decatur County(7,8)",19053,***,569.9 ,501.1, 646,57,stable,0.5 ,-0.2, 1.2
+"Dickinson County(7,8)",19059,***,557 ,514.8, 602.1,152,stable,0.4 ,-0.1, 0.9
+"Cerro Gordo County(7,8)",19033,***,546.6 ,518.8, 575.6,327,rising,0.5 ,0.1, 0.8
+"Greene County(7,8)",19073,***,545 ,486.7, 609,73,rising,1.1 ,0.2, 2.1
+"Monona County(7,8)",19133,***,533.8 ,476.3, 597.2,75,stable,0.4 ,-0.2, 1.0
+"Page County(7,8)",19145,***,524.6 ,481.5, 571,122,rising,0.7 ,0.1, 1.3
+"Muscatine County(7,8)",19139,***,524 ,493.7, 555.8,240,stable,0.1 ,-0.3, 0.5
+"Adams County(7,8)",19003,***,523.4 ,435.5, 625.5,29,rising,1.6 ,0.8, 2.4
+"Montgomery County(7,8)",19137,***,521.9 ,467.9, 581,77,stable,0.4 ,-0.1, 0.8
+"Wapello County(7,8)",19179,***,519.8 ,488.9, 552.5,227,stable,0.2 ,-0.1, 0.6
+"Calhoun County(7,8)",19025,***,519.3 ,463.9, 580.2,75,rising,0.8 ,0.3, 1.4
+"Carroll County(7,8)",19027,***,518.9 ,479.8, 560.5,147,stable,7.5 ,-0.1, 15.6
+"Emmet County(7,8)",19063,***,518.9 ,461.1, 582.6,68,stable,0.1 ,-0.5, 0.8
+"Hardin County(7,8)",19083,***,518.3 ,476.4, 563.3,129,stable,1.1 ,0.0, 2.2
+"Floyd County(7,8)",19067,***,518.1 ,474.1, 565.5,115,stable,0.1 ,-0.5, 0.7
+"Franklin County(7,8)",19069,***,516.8 ,460.8, 578.5,73,rising,1.1 ,0.5, 1.7
+"Van Buren County(7,8)",19177,***,515.2 ,453.5, 583.9,55,stable,0.2 ,-0.5, 0.9
+"Butler County(7,8)",19023,***,511.8 ,466.3, 560.8,106,stable,-0.2 ,-0.7, 0.3
+"Marshall County(7,8)",19127,***,510.1 ,479.7, 542.1,241,stable,0.1 ,-0.3, 0.4
+"Clarke County(7,8)",19039,***,508.2 ,449.4, 573.4,58,stable,0.8 ,-0.1, 1.7
+"Des Moines County(7,8)",19057,***,507.7 ,479.7, 537.2,268,stable,0.1 ,-0.3, 0.6
+"Mills County(7,8)",19129,***,505.1 ,458.6, 555.3,95,stable,-0.2 ,-0.8, 0.4
+"Dubuque County(7,8)",19061,***,503.9 ,485, 523.3,577,stable,-0.3 ,-0.5, 0.0
+"Tama County(7,8)",19171,***,502.4 ,458.5, 549.7,110,stable,0.2 ,-0.4, 0.7
+"Ringgold County(7,8)",19159,***,502.2 ,427, 588.2,38,stable,0.8 ,-0.2, 1.8
+"Hamilton County(7,8)",19079,***,498.9 ,454.2, 547.3,103,stable,-0.1 ,-0.6, 0.4
+"Jackson County(7,8)",19097,***,498.1 ,459.5, 539.3,134,stable,0.2 ,-0.3, 0.8
+"Cedar County(7,8)",19031,***,494.6 ,453.6, 538.5,117,stable,-0.8 ,-1.9, 0.4
+"Ida County(7,8)",19093,***,493.9 ,432.6, 562.6,52,stable,0.6 ,-0.2, 1.4
+"Shelby County(7,8)",19165,***,491.5 ,443.1, 544.3,87,rising,0.9 ,0.3, 1.5
+"Marion County(7,8)",19125,***,491.2 ,460.3, 523.7,198,rising,0.4 ,0.1, 0.7
+"Monroe County(7,8)",19135,***,490.2 ,431.4, 555.5,54,stable,0.5 ,-0.1, 1.0
+"Cass County(7,8)",19029,***,490.2 ,445.3, 538.8,98,stable,0.3 ,-0.3, 0.9
+"Lee County(7,8)",19111,***,489.4 ,459.8, 520.5,223,stable,0.2 ,-0.2, 0.5
+"Crawford County(7,8)",19047,***,489.1 ,441.9, 540.7,94,stable,0.1 ,-0.5, 0.7
+"Story County(7,8)",19169,***,487.4 ,464.8, 510.9,372,stable,0.2 ,-0.2, 0.5
+"Pocahontas County(7,8)",19151,***,486.7 ,425.2, 555.9,53,stable,0.1 ,-0.5, 0.7
+"Henry County(7,8)",19087,***,486.3 ,446.5, 528.8,119,stable,0.2 ,-0.4, 0.8
+"Black Hawk County(7,8)",19013,***,485.4 ,468.3, 503.1,658,stable,-0.1 ,-0.4, 0.2
+"Fayette County(7,8)",19065,***,484.4 ,447.1, 524.2,140,stable,-0.1 ,-0.4, 0.2
+"Woodbury County(7,8)",19193,***,483.7 ,464, 504.1,485,stable,-0.2 ,-0.5, 0.1
+"Scott County(7,8)",19163,***,483.4 ,468.5, 498.6,855,falling,-1.6 ,-2.9, -0.2
+"Clay County(7,8)",19041,***,482 ,440.6, 526.7,111,stable,0.0 ,-0.5, 0.5
+"Linn County(7,8)",19113,***,482 ,469.2, 495.1,1121,stable,1.9 ,-0.5, 4.3
+"Fremont County(7,8)",19071,***,480.1 ,419.3, 548.5,51,stable,0.1 ,-0.5, 0.7
+"Buchanan County(7,8)",19019,***,479.8 ,441.6, 520.7,123,stable,-0.3 ,-0.9, 0.2
+"Washington County(7,8)",19183,***,479.8 ,442.6, 519.5,135,rising,0.5 ,0.1, 1.0
+"Clinton County(7,8)",19045,***,479.8 ,454.8, 505.9,299,stable,-0.2 ,-0.6, 0.1
+"Grundy County(7,8)",19075,***,479.8 ,433.6, 530,85,stable,0.4 ,-0.4, 1.1
+"Delaware County(7,8)",19055,***,478.1 ,437, 522.3,109,stable,0.4 ,-0.2, 0.9
+"Boone County(7,8)",19015,***,477.6 ,444.1, 513,162,stable,-0.1 ,-0.6, 0.5
+"Harrison County(7,8)",19085,***,476.5 ,431.7, 525,91,stable,-0.2 ,-0.8, 0.5
+"Winnebago County(7,8)",19189,***,475.1 ,423.6, 531.7,71,stable,0.6 ,-0.1, 1.3
+"Plymouth County(7,8)",19149,***,474.7 ,440.2, 511.5,153,stable,-0.1 ,-0.5, 0.3
+"Pottawattamie County(7,8)",19155,***,473.7 ,454.9, 493,514,falling,-0.7 ,-1.3, -0.1
+"Hancock County(7,8)",19081,***,472.6 ,424, 525.9,77,stable,0.6 ,-0.2, 1.5
+"O'Brien County(7,8)",19141,***,469.9 ,425.6, 518,95,stable,-0.2 ,-0.8, 0.4
+"Jones County(7,8)",19105,***,469.6 ,432.3, 509.6,128,stable,-0.3 ,-0.8, 0.2
+"Webster County(7,8)",19187,***,468.2 ,439.7, 498.2,219,falling,-0.5 ,-0.8, -0.2
+"Keokuk County(7,8)",19107,***,467.4 ,416.9, 523,70,stable,-0.3 ,-0.9, 0.4
+"Polk County(7,8)",19153,***,467.1 ,457.6, 476.8,1929,falling,-1.7 ,-2.8, -0.6
+"Johnson County(7,8)",19103,***,466.6 ,448.2, 485.5,521,stable,0.0 ,-0.3, 0.3
+"Buena Vista County(7,8)",19021,***,466.6 ,422.1, 515.1,95,stable,-0.4 ,-1.6, 0.8
+"Humboldt County(7,8)",19091,***,465.6 ,413.4, 523.3,64,stable,-0.3 ,-0.9, 0.4
+"Kossuth County(7,8)",19109,***,465.4 ,424.8, 509.4,111,stable,0.3 ,-0.2, 0.8
+"Warren County(7,8)",19181,***,465.4 ,439.7, 492.3,255,stable,0.2 ,-0.2, 0.6
+"Guthrie County(7,8)",19077,***,464.9 ,415.6, 519.1,74,stable,-0.2 ,-0.7, 0.4
+"Iowa County(7,8)",19095,***,464 ,422, 509.4,98,stable,0.3 ,-0.6, 1.1
+"Benton County(7,8)",19011,***,463.9 ,430.6, 499.3,152,stable,-0.4 ,-0.8, 0.1
+"Sac County(7,8)",19161,***,457.7 ,407, 513.7,69,stable,0.2 ,-0.5, 0.8
+"Union County(7,8)",19175,***,455.7 ,410.2, 505.3,78,stable,-0.4 ,-0.9, 0.1
+"Dallas County(7,8)",19049,***,453.3 ,430.6, 476.8,311,stable,-0.3 ,-0.7, 0.1
+"Osceola County(7,8)",19143,***,453 ,387.6, 527.6,39,stable,0.4 ,-0.6, 1.3
+"Jasper County(7,8)",19099,***,452.8 ,425.4, 481.7,217,stable,-0.2 ,-0.6, 0.3
+"Chickasaw County(7,8)",19037,***,451.8 ,405, 503.1,76,stable,0.3 ,-0.3, 0.9
+"Mitchell County(7,8)",19131,***,451.6 ,401.8, 506.3,70,stable,-0.2 ,-0.9, 0.5
+"Adair County(7,8)",19001,***,449.5 ,392.6, 513.5,51,stable,0.6 ,-0.3, 1.5
+"Worth County(7,8)",19195,***,449.2 ,390.3, 515.4,46,stable,0.3 ,-0.6, 1.2
+"Poweshiek County(7,8)",19157,***,448.6 ,410, 490.2,111,stable,0.0 ,-0.6, 0.5
+"Madison County(7,8)",19121,***,448.3 ,406.5, 493.5,88,stable,0.0 ,-0.8, 0.7
+"Cherokee County(7,8)",19035,***,448.1 ,403.8, 496.8,86,stable,-0.5 ,-1.2, 0.2
+"Audubon County(7,8)",19009,***,447.8 ,385, 519.5,42,stable,0.2 ,-0.7, 1.0
+"Lyon County(7,8)",19119,***,446.4 ,397.6, 499.9,66,stable,0.1 ,-0.4, 0.7
+"Clayton County(7,8)",19043,***,445 ,406.9, 486,116,stable,-0.2 ,-0.7, 0.3
+"Taylor County(7,8)",19173,***,444.9 ,379.3, 519.7,39,stable,0.2 ,-0.7, 1.0
+"Davis County(7,8)",19051,***,441 ,385.4, 502.8,48,stable,0.3 ,-0.6, 1.2
+"Wayne County(7,8)",19185,***,439.3 ,376.6, 510.4,41,stable,-0.3 ,-1.3, 0.7
+"Howard County(7,8)",19089,***,439.2 ,385.9, 498.3,55,stable,0.1 ,-0.8, 0.9
+"Bremer County(7,8)",19017,***,438.8 ,405.3, 474.4,138,stable,-0.3 ,-0.9, 0.2
+"Sioux County(7,8)",19167,***,437.4 ,406.3, 470.3,160,stable,-0.3 ,-0.8, 0.2
+"Mahaska County(7,8)",19123,***,434.6 ,399.6, 472,122,stable,0.1 ,-0.6, 0.7
+"Louisa County(7,8)",19115,***,432 ,381, 488.7,57,stable,0.0 ,-0.8, 0.9
+"Lucas County(7,8)",19117,***,426.5 ,375.3, 483.5,55,falling,-1.6 ,-2.8, -0.3
+"Appanoose County(7,8)",19007,***,425.2 ,382.8, 471.7,81,stable,-4.0 ,-8.6, 0.8
+"Jefferson County(7,8)",19101,***,418.7 ,377.6, 463.4,93,stable,0.0 ,-0.7, 0.6
+"Allamakee County(7,8)",19005,***,413.3 ,372.3, 458.1,85,stable,-0.1 ,-0.9, 0.7
+"Winneshiek County(7,8)",19191,***,405 ,370.4, 442.3,111,stable,0.0 ,-0.7, 0.7
+"Wright County(7,8)",19197,***,400.4 ,356.6, 448.7,74,stable,-0.6 ,-1.3, 0.1
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 4:57 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+7 Source: SEER November 2018 submission.
+"8 Source: Incidence data provided by the SEER Program. ( http://seer.cancer.gov ) AAPCs are calculated by the Joinpoint Regression Program ( https://surveillance.cancer.gov/joinpoint/ ) and are based on APCs. Data are age-adjusted to the 2000 US standard population ( http://www.seer.cancer.gov/stdpopulations/single_age.html ) (19 age groups: <1, 1-4, 5-9, ... , 80-84,85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Population counts for denominators are based on Census populations as modifed by NCI. The 1969-2017 US Population Data ( http://seer.cancer.gov/popdata/ ) File is used with SEER November 2018 data. "
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

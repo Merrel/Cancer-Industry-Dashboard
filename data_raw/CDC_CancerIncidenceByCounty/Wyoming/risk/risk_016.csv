@@ -1,0 +1,28 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/risk/index.php?stateFIPS=00&topic=smoke&risk=v36&race=00&sex=0&type=risk&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '00', 'topic': 'smoke', 'risk': 'v36', 'race': '00', 'sex': '0', 'type': 'risk', 'file_name': 'risk_016.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/risk/index.php?stateFIPS=00&topic=smoke&risk=v36&race=00&sex=0&type=risk&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+
+	Screening and Risk Factors Report by State
+(2014-2015 Tobacco Use Supplement Data)
+
+Percent of People Who Answered No One is Allowed to Smoke Inside Their Home (Former/Never Smokers)
+"All Races (includes Hispanic), Both Sexes, Ages 18+"
+Healthy People 2020 Objective Number: TU-14
+Increase the proportion of smoke-free homes
+
+Sorted by Rate
+
+State, FIPS,Met Objective of 87.0%?(1),"Percent(2)","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Number of Respondents with Screening or Risk Factor
+"United States",00,Yes,91.7 ,91.5, 91.9,126419
+"Puerto Rico",72,data not available,data not available,data not available
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:04 pm.
+Data not available [http://statecancerprofiles.cancer.gov/datanotavailable.html] for this combination of data selections.
+
+"(1) Healthy People 2020 Objectives are managed by the Office of Disease Prevention and Health Promotion, U.S. Department of Health and Human Services."
+(2) Source: 2014-2015 Tobacco Use Supplement to the Current Population Survey (TUS-CPS [ https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/info.html ] ).
+
+Note: Healthy People 2020 Objectives are age-adjusted to the year 2000 standard population while these estimates are not age-adjusted.
+Data for United States does not include Puerto Rico.

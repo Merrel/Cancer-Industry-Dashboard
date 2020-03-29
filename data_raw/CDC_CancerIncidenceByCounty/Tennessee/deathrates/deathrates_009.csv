@@ -1,0 +1,137 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=47&areatype=county&cancer=072&race=00&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '47', 'areatype': 'county', 'cancer': '072', 'race': '00', 'sex': '0', 'age': '001', 'type': 'death', 'file_name': 'deathrates_009.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=47&areatype=county&cancer=072&race=00&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for Tennessee by County
+
+"Kidney & Renal Pelvis, 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Tennessee",47000,***,4.2 ,4, 4.4,325,falling,-0.3 ,-0.5, -0.1
+"United States",00000,***,3.8 ,3.7, 3.8,13926,falling,-0.9 ,-1.1, -0.7
+"Dickson County",47043,***,7.1 ,4.4, 11,4,*,*,*,*
+"Lawrence County",47099,***,7 ,4.2, 11.1,4,*,*,*,*
+"Bedford County",47003,***,6.9 ,4, 11.1,3,*,*,*,*
+"Gibson County",47053,***,5.7 ,3.4, 9.3,4,*,*,*,*
+"Tipton County",47167,***,5.4 ,3.2, 8.7,4,*,*,*,*
+"Roane County",47145,***,5.3 ,3.4, 8.3,5,*,*,*,*
+"Loudon County",47105,***,5.3 ,3.3, 8.3,5,*,*,*,*
+"Robertson County",47147,***,4.9 ,2.9, 7.8,4,*,*,*,*
+"Hamblen County",47063,***,4.9 ,3, 7.7,4,*,*,*,*
+"Blount County",47009,***,4.7 ,3.4, 6.5,8,stable,1.0 ,-1.3, 3.5
+"Sumner County",47165,***,4.7 ,3.4, 6.3,9,stable,-0.6 ,-2.2, 1.1
+"McMinn County",47107,***,4.5 ,2.5, 7.5,3,*,*,*,*
+"Rutherford County",47149,***,4.3 ,3.2, 5.7,10,stable,-0.3 ,-1.8, 1.3
+"Hawkins County",47073,***,4.3 ,2.4, 7.2,3,*,*,*,*
+"Greene County",47059,***,4.3 ,2.7, 6.7,4,*,*,*,*
+"Knox County",47093,***,4.2 ,3.4, 5.1,21,stable,-0.6 ,-1.6, 0.5
+"Hamilton County",47065,***,4.1 ,3.3, 5.1,19,stable,-1.0 ,-2.4, 0.4
+"Washington County",47179,***,4.1 ,2.7, 5.8,6,stable,0.2 ,-2.0, 2.5
+"Montgomery County",47125,***,3.9 ,2.5, 5.8,5,stable,-0.9 ,-3.6, 1.8
+"Madison County",47113,***,3.9 ,2.4, 5.9,5,stable,0.1 ,-2.0, 2.2
+"Davidson County",47037,***,3.8 ,3.1, 4.5,25,stable,-0.6 ,-1.6, 0.5
+"Shelby County",47157,***,3.6 ,3.1, 4.2,34,falling,-1.3 ,-2.1, -0.4
+"Cumberland County",47035,***,3.6 ,2.2, 5.9,4,*,*,*,*
+"Bradley County",47011,***,3.6 ,2.2, 5.5,4,*,*,*,*
+"Maury County",47119,***,3.5 ,2, 5.6,4,*,*,*,*
+"Sullivan County",47163,***,3.4 ,2.4, 4.7,9,stable,-0.7 ,-2.5, 1.1
+"Anderson County",47001,***,3.3 ,2, 5.4,4,stable,0.3 ,-2.4, 3.0
+"Sevier County",47155,***,3.1 ,1.9, 4.8,4,*,*,*,*
+"Wilson County",47189,***,3 ,1.9, 4.6,5,*,*,*,*
+"Williamson County",47187,***,2.9 ,1.9, 4.2,6,*,*,*,*
+"Benton County",47005,***,* ,*, *,3 or fewer,*,*,*,*
+"Bledsoe County",47007,***,* ,*, *,3 or fewer,*,*,*,*
+"Campbell County",47013,***,* ,*, *,3 or fewer,*,*,*,*
+"Cannon County",47015,***,* ,*, *,3 or fewer,*,*,*,*
+"Carroll County",47017,***,* ,*, *,3 or fewer,*,*,*,*
+"Carter County",47019,***,* ,*, *,3 or fewer,*,*,*,*
+"Cheatham County",47021,***,* ,*, *,3 or fewer,*,*,*,*
+"Chester County",47023,***,* ,*, *,3 or fewer,*,*,*,*
+"Claiborne County",47025,***,* ,*, *,3 or fewer,*,*,*,*
+"Clay County",47027,***,* ,*, *,3 or fewer,*,*,*,*
+"Cocke County",47029,***,* ,*, *,3 or fewer,*,*,*,*
+"Coffee County",47031,***,* ,*, *,3 or fewer,*,*,*,*
+"Crockett County",47033,***,* ,*, *,3 or fewer,*,*,*,*
+"DeKalb County",47041,***,* ,*, *,3 or fewer,*,*,*,*
+"Decatur County",47039,***,* ,*, *,3 or fewer,*,*,*,*
+"Dyer County",47045,***,* ,*, *,3 or fewer,*,*,*,*
+"Fayette County",47047,***,* ,*, *,3 or fewer,*,*,*,*
+"Fentress County",47049,***,* ,*, *,3 or fewer,*,*,*,*
+"Franklin County",47051,***,* ,*, *,3 or fewer,*,*,*,*
+"Giles County",47055,***,* ,*, *,3 or fewer,*,*,*,*
+"Grainger County",47057,***,* ,*, *,3 or fewer,*,*,*,*
+"Grundy County",47061,***,* ,*, *,3 or fewer,*,*,*,*
+"Hancock County",47067,***,* ,*, *,3 or fewer,*,*,*,*
+"Hardeman County",47069,***,* ,*, *,3 or fewer,*,*,*,*
+"Hardin County",47071,***,* ,*, *,3 or fewer,*,*,*,*
+"Haywood County",47075,***,* ,*, *,3 or fewer,*,*,*,*
+"Henderson County",47077,***,* ,*, *,3 or fewer,*,*,*,*
+"Henry County",47079,***,* ,*, *,3 or fewer,*,*,*,*
+"Hickman County",47081,***,* ,*, *,3 or fewer,*,*,*,*
+"Houston County",47083,***,* ,*, *,3 or fewer,*,*,*,*
+"Humphreys County",47085,***,* ,*, *,3 or fewer,*,*,*,*
+"Jackson County",47087,***,* ,*, *,3 or fewer,*,*,*,*
+"Jefferson County",47089,***,* ,*, *,3 or fewer,*,*,*,*
+"Johnson County",47091,***,* ,*, *,3 or fewer,*,*,*,*
+"Lake County",47095,***,* ,*, *,3 or fewer,*,*,*,*
+"Lauderdale County",47097,***,* ,*, *,3 or fewer,*,*,*,*
+"Lewis County",47101,***,* ,*, *,3 or fewer,*,*,*,*
+"Lincoln County",47103,***,* ,*, *,3 or fewer,*,*,*,*
+"Macon County",47111,***,* ,*, *,3 or fewer,*,*,*,*
+"Marion County",47115,***,* ,*, *,3 or fewer,*,*,*,*
+"Marshall County",47117,***,* ,*, *,3 or fewer,*,*,*,*
+"McNairy County",47109,***,* ,*, *,3 or fewer,*,*,*,*
+"Meigs County",47121,***,* ,*, *,3 or fewer,*,*,*,*
+"Monroe County",47123,***,* ,*, *,3 or fewer,*,*,*,*
+"Moore County",47127,***,* ,*, *,3 or fewer,*,*,*,*
+"Morgan County",47129,***,* ,*, *,3 or fewer,*,*,*,*
+"Obion County",47131,***,* ,*, *,3 or fewer,*,*,*,*
+"Overton County",47133,***,* ,*, *,3 or fewer,*,*,*,*
+"Perry County",47135,***,* ,*, *,3 or fewer,*,*,*,*
+"Pickett County",47137,***,* ,*, *,3 or fewer,*,*,*,*
+"Polk County",47139,***,* ,*, *,3 or fewer,*,*,*,*
+"Putnam County",47141,***,* ,*, *,3 or fewer,*,*,*,*
+"Rhea County",47143,***,* ,*, *,3 or fewer,*,*,*,*
+"Scott County",47151,***,* ,*, *,3 or fewer,*,*,*,*
+"Sequatchie County",47153,***,* ,*, *,3 or fewer,*,*,*,*
+"Smith County",47159,***,* ,*, *,3 or fewer,*,*,*,*
+"Stewart County",47161,***,* ,*, *,3 or fewer,*,*,*,*
+"Trousdale County",47169,***,* ,*, *,3 or fewer,*,*,*,*
+"Unicoi County",47171,***,* ,*, *,3 or fewer,*,*,*,*
+"Union County",47173,***,* ,*, *,3 or fewer,*,*,*,*
+"Van Buren County",47175,***,* ,*, *,3 or fewer,*,*,*,*
+"Warren County",47177,***,* ,*, *,3 or fewer,*,*,*,*
+"Wayne County",47181,***,* ,*, *,3 or fewer,*,*,*,*
+"Weakley County",47183,***,* ,*, *,3 or fewer,*,*,*,*
+"White County",47185,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:01 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

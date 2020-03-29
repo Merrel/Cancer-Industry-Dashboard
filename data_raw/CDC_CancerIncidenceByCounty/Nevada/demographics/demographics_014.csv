@@ -1,0 +1,37 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=32&areatype=county&topic=pop&demo=00102&race=00&sex=0&age=999&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '32', 'areatype': 'county', 'topic': 'pop', 'demo': '00102', 'race': '00', 'sex': '0', 'age': '999', 'type': 'manyareacensus', 'file_name': 'demographics_014.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=32&areatype=county&topic=pop&demo=00102&race=00&sex=0&age=999&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Nevada by County
+Population: Age 18-39
+"Age N/A, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Age 18-39),Rank within US
+"United States",00000,29.8,95565066,"N/A"
+"Nevada",32000,29.8,861505,"34 of 52"
+"Eureka County",32011,16.8,291,"38 of 3141"
+"Storey County",32029,17.4,676,"50 of 3141"
+"Nye County",32023,18.7,8086,"104 of 3141"
+"Douglas County",32005,20.4,9735,"225 of 3141"
+"Lyon County",32019,23.7,12374,"870 of 3141"
+"Lander County",32015,24.4,1437,"1089 of 3141"
+"Mineral County",32021,24.5,1094,"1103 of 3141"
+"Esmeralda County",32009,25.0,275,"1301 of 3141"
+"Carson City",32510,26.4,14339,"1790 of 3141"
+"Churchill County",32001,28.0,6715,"2210 of 3141"
+"Humboldt County",32013,28.4,4860,"2328 of 3141"
+"Pershing County",32027,29.6,1972,"2542 of 3141"
+"Lincoln County",32017,29.6,1541,"2544 of 3141"
+"White Pine County",32033,30.0,2955,"2610 of 3141"
+"Washoe County",32031,30.1,134011,"2621 of 3141"
+"Elko County",32007,30.3,15888,"2653 of 3141"
+"Clark County",32003,30.5,645256,"2677 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:01 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Age 18-39, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

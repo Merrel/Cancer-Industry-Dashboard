@@ -1,0 +1,37 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=32&areatype=county&topic=work&demo=00012&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '32', 'areatype': 'county', 'topic': 'work', 'demo': '00012', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_031.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=32&areatype=county&topic=work&demo=00012&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Nevada by County
+Workforce: Unemployed
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Unemployed),Rank within US
+"United States",00000,6.6,10560305,"N/A"
+"Nevada",32000,8.0,116285,"49 of 52"
+"Eureka County",32011,0.0,0,"1 of 3141"
+"Esmeralda County",32009,3.9,18,"575 of 3141"
+"Pershing County",32027,4.2,96,"674 of 3141"
+"Storey County",32029,4.2,78,"704 of 3141"
+"Elko County",32007,4.4,1220,"780 of 3141"
+"White Pine County",32033,6.2,234,"1616 of 3141"
+"Douglas County",32005,6.2,1362,"1620 of 3141"
+"Washoe County",32031,6.8,15966,"1959 of 3141"
+"Humboldt County",32013,7.3,660,"2144 of 3141"
+"Lander County",32015,7.6,222,"2298 of 3141"
+"Carson City",32510,7.7,2036,"2326 of 3141"
+"Churchill County",32001,7.8,783,"2362 of 3141"
+"Clark County",32003,8.3,88841,"2514 of 3141"
+"Lincoln County",32017,9.3,183,"2721 of 3141"
+"Lyon County",32019,9.8,2274,"2814 of 3141"
+"Nye County",32023,11.4,1876,"2976 of 3141"
+"Mineral County",32021,20.6,436,"3130 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:02 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Workforce: Unemployed, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#workforce."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

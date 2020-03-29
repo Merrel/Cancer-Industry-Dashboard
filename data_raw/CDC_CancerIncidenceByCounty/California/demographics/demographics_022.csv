@@ -1,0 +1,78 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=06&areatype=county&topic=pop&demo=00014&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '06', 'areatype': 'county', 'topic': 'pop', 'demo': '00014', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_022.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=06&areatype=county&topic=pop&demo=00014&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for California by County
+Population: Foreign born
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Foreign Born),Rank within US
+"United States",00000,13.4,43028127,"N/A"
+"California",06000,27.0,10518488,"1 of 51"
+"Alpine County",06003,1.9,23,"1975 of 3140"
+"Sierra County",06091,2.6,75,"1619 of 3140"
+"Plumas County",06063,3.4,643,"1277 of 3140"
+"Tuolumne County",06109,4.7,2520,"971 of 3140"
+"Trinity County",06105,5.1,666,"899 of 3140"
+"Siskiyou County",06093,5.3,2286,"876 of 3140"
+"Shasta County",06089,5.3,9439,"871 of 3140"
+"Humboldt County",06023,5.3,7246,"858 of 3140"
+"Calaveras County",06009,5.7,2568,"789 of 3140"
+"Lassen County",06035,5.9,1845,"762 of 3140"
+"Amador County",06005,6.0,2251,"740 of 3140"
+"Nevada County",06057,6.0,5969,"738 of 3140"
+"Del Norte County",06015,6.3,1729,"702 of 3140"
+"Mariposa County",06043,6.8,1208,"629 of 3140"
+"Modoc County",06049,7.1,641,"599 of 3140"
+"Butte County",06007,7.6,17175,"542 of 3140"
+"Lake County",06033,8.7,5605,"439 of 3140"
+"Tehama County",06103,9.1,5780,"411 of 3140"
+"El Dorado County",06017,9.2,17065,"401 of 3140"
+"Inyo County",06027,9.4,1711,"382 of 3140"
+"San Luis Obispo County",06079,10.4,29109,"327 of 3140"
+"Placer County",06061,10.8,40523,"300 of 3140"
+"Yuba County",06115,12.2,9087,"248 of 3140"
+"Mendocino County",06045,13.1,11489,"220 of 3140"
+"Sonoma County",06097,16.6,83207,"152 of 3140"
+"Mono County",06051,17.4,2446,"145 of 3140"
+"Marin County",06041,18.0,47018,"137 of 3140"
+"Santa Cruz County",06087,18.0,49315,"136 of 3140"
+"Kings County",06031,18.5,27759,"129 of 3140"
+"Kern County",06029,19.9,175287,"110 of 3140"
+"Glenn County",06021,20.0,5579,"109 of 3140"
+"Solano County",06095,20.1,87369,"108 of 3140"
+"San Benito County",06069,20.5,12010,"106 of 3140"
+"Stanislaus County",06099,20.7,110729,"103 of 3140"
+"Sacramento County",06067,20.7,310071,"101 of 3140"
+"San Bernardino County",06071,20.9,443910,"97 of 3140"
+"Fresno County",06019,21.0,204366,"96 of 3140"
+"Madera County",06039,21.5,33229,"92 of 3140"
+"Riverside County",06065,21.8,512517,"90 of 3140"
+"Napa County",06055,21.9,30878,"88 of 3140"
+"Tulare County",06107,22.4,102767,"78 of 3140"
+"Ventura County",06111,22.5,190782,"77 of 3140"
+"Sutter County",06101,22.7,21659,"76 of 3140"
+"Yolo County",06113,22.7,48209,"75 of 3140"
+"Santa Barbara County",06083,23.0,101762,"72 of 3140"
+"San Joaquin County",06077,23.3,168377,"70 of 3140"
+"San Diego County",06073,23.6,774362,"68 of 3140"
+"Contra Costa County",06013,24.7,277596,"58 of 3140"
+"Merced County",06047,25.5,68204,"52 of 3140"
+"Colusa County",06011,25.7,5530,"51 of 3140"
+"Monterey County",06053,29.8,128954,"31 of 3140"
+"Orange County",06059,30.3,954709,"28 of 3140"
+"Imperial County",06025,31.7,56997,"23 of 3140"
+"Alameda County",06001,32.1,523816,"19 of 3140"
+"Los Angeles County",06037,34.4,3478879,"14 of 3140"
+"San Mateo County",06081,34.7,264906,"13 of 3140"
+"San Francisco County",06075,34.8,300542,"12 of 3140"
+"Santa Clara County",06085,38.6,738094,"5 of 3140"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 4:58 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Foreign born, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

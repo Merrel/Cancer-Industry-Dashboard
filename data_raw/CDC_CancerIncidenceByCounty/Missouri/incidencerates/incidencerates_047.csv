@@ -1,0 +1,155 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=29&areatype=county&cancer=090&stage=211&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '29', 'areatype': 'county', 'cancer': '090', 'stage': '211', 'race': '00', 'sex': '0', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_047.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=29&areatype=county&cancer=090&stage=211&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Missouri by County
+
+"Leukemia (Late Stage^), 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Percent of Cases with Late Stage
+"Missouri(6)",29000,***,13.9 ,13.5, 14.3,972,99.0
+"US (SEER+NPCR)(1)",00000,***,14 ,14, 14.1,49519,99.0
+"Barton County(6)",29011,***,26 ,16.1, 40.3,4,100.0
+"Montgomery County(6)",29139,***,24.8 ,15, 39.4,4,100.0
+"Benton County(6)",29015,***,22.3 ,14.6, 33.2,7,97.4
+"Iron County(6)",29093,***,22.3 ,12.2, 38,3,100.0
+"Henry County(6)",29083,***,22.1 ,14.9, 31.8,7,100.0
+"Osage County(6)",29151,***,20.8 ,12, 33.9,3,100.0
+"Andrew County(6)",29003,***,19.9 ,12.3, 30.9,4,100.0
+"Madison County(6)",29123,***,19.3 ,10.9, 32.4,3,100.0
+"Buchanan County(6)",29021,***,19 ,15.3, 23.4,19,98.9
+"Pulaski County(6)",29169,***,18.7 ,12.9, 26.1,7,100.0
+"Lafayette County(6)",29107,***,18.2 ,12.8, 25.2,8,97.5
+"Ripley County(6)",29181,***,18.1 ,10.2, 30,3,100.0
+"Phelps County(6)",29161,***,18 ,13, 24.5,9,97.8
+"Wright County(6)",29229,***,18 ,10.5, 28.7,4,100.0
+"Pettis County(6)",29159,***,17.6 ,12.4, 24.3,8,100.0
+"Clay County(6)",29047,***,17.1 ,14.8, 19.7,41,100.0
+"Perry County(6)",29157,***,16.8 ,9.8, 27,4,100.0
+"Wayne County(6)",29223,***,16.5 ,9, 28.4,3,100.0
+"Morgan County(6)",29141,***,16.2 ,10, 25.3,5,100.0
+"Johnson County(6)",29101,***,16.1 ,11.4, 22,8,100.0
+"Ste. Genevieve County(6)",29186,***,16 ,9, 26.4,3,94.4
+"Pike County(6)",29163,***,16 ,9.2, 26,3,100.0
+"St. Francois County(6)",29187,***,15.9 ,12.1, 20.6,12,96.8
+"Washington County(6)",29221,***,15.7 ,9.7, 24.2,4,100.0
+"Cape Girardeau County(6)",29031,***,15.4 ,11.9, 19.6,14,98.6
+"Taney County(6)",29213,***,15.1 ,11.2, 20.1,10,100.0
+"Jackson County(6)",29095,***,15 ,13.7, 16.3,111,99.8
+"Crawford County(6)",29055,***,14.9 ,9.2, 23,4,100.0
+"Platte County(6)",29165,***,14.9 ,11.7, 18.7,16,97.5
+"St. Louis County(6)",29189,***,14.8 ,13.8, 15.8,182,99.0
+"Franklin County(6)",29071,***,14.7 ,11.7, 18.2,18,100.0
+"Webster County(6)",29225,***,14.7 ,9.8, 21.2,6,96.7
+"Warren County(6)",29219,***,14.6 ,9.6, 21.4,6,100.0
+"Audrain County(6)",29007,***,14.6 ,9, 22.5,4,95.7
+"Jasper County(6)",29097,***,14.5 ,11.7, 17.8,19,100.0
+"Laclede County(6)",29105,***,14.5 ,9.8, 20.8,6,100.0
+"Nodaway County(6)",29147,***,14.5 ,8.4, 23.5,4,94.7
+"St. Charles County(6)",29183,***,14.5 ,12.8, 16.2,59,98.7
+"Livingston County(6)",29117,***,14.3 ,8, 24.2,3,100.0
+"Jefferson County(6)",29099,***,14 ,11.9, 16.4,33,100.0
+"Newton County(6)",29145,***,13.8 ,10.3, 18.3,10,98.1
+"Boone County(6)",29019,***,13.7 ,11.1, 16.8,20,98.1
+"Butler County(6)",29023,***,13.4 ,9.1, 18.9,7,100.0
+"Cass County(6)",29037,***,13.3 ,10.5, 16.8,15,96.3
+"Scott County(6)",29201,***,13.2 ,8.7, 19.3,6,100.0
+"Polk County(6)",29167,***,13 ,8.2, 19.8,5,100.0
+"St. Louis City(6)",29510,***,13 ,11.2, 14.9,40,99.5
+"Lawrence County(6)",29109,***,12.8 ,8.6, 18.6,6,100.0
+"Clinton County(6)",29049,***,12.7 ,7.2, 21.2,3,100.0
+"Saline County(6)",29195,***,12.5 ,7.1, 20.4,3,94.4
+"Christian County(6)",29043,***,12.3 ,9.2, 16.1,11,98.2
+"Howell County(6)",29091,***,12.2 ,8.2, 17.5,6,100.0
+"Texas County(6)",29215,***,12.2 ,7.2, 19.4,4,95.2
+"Marion County(6)",29127,***,11.3 ,6.8, 17.8,4,100.0
+"Miller County(6)",29131,***,11.2 ,6.4, 18.5,3,100.0
+"Stoddard County(6)",29207,***,10.7 ,6.5, 16.9,4,100.0
+"Dunklin County(6)",29069,***,10.7 ,6.5, 16.9,4,90.9
+"Cole County(6)",29051,***,10.7 ,7.8, 14.4,9,100.0
+"Callaway County(6)",29027,***,10 ,6.5, 14.9,5,100.0
+"Stone County(6)",29209,***,9.7 ,5.7, 15.7,5,100.0
+"Camden County(6)",29029,***,9.7 ,6.6, 14.1,7,97.3
+"Greene County(6)",29077,***,9.6 ,8.1, 11.3,31,98.7
+"Lincoln County(6)",29113,***,9.6 ,6.3, 14.1,5,100.0
+"Barry County(6)",29009,***,7.4 ,4.2, 12.4,3,100.0
+"Adair County(6)",29001,***,* ,*, *,3 or fewer,*
+"Atchison County(6)",29005,***,* ,*, *,3 or fewer,*
+"Bates County(6)",29013,***,* ,*, *,3 or fewer,*
+"Bollinger County(6)",29017,***,* ,*, *,3 or fewer,*
+"Caldwell County(6)",29025,***,* ,*, *,3 or fewer,*
+"Carroll County(6)",29033,***,* ,*, *,3 or fewer,*
+"Carter County(6)",29035,***,* ,*, *,3 or fewer,*
+"Cedar County(6)",29039,***,* ,*, *,3 or fewer,*
+"Chariton County(6)",29041,***,* ,*, *,3 or fewer,*
+"Clark County(6)",29045,***,* ,*, *,3 or fewer,*
+"Cooper County(6)",29053,***,* ,*, *,3 or fewer,*
+"Dade County(6)",29057,***,* ,*, *,3 or fewer,*
+"Dallas County(6)",29059,***,* ,*, *,3 or fewer,*
+"Daviess County(6)",29061,***,* ,*, *,3 or fewer,*
+"DeKalb County(6)",29063,***,* ,*, *,3 or fewer,*
+"Dent County(6)",29065,***,* ,*, *,3 or fewer,*
+"Douglas County(6)",29067,***,* ,*, *,3 or fewer,*
+"Gasconade County(6)",29073,***,* ,*, *,3 or fewer,*
+"Gentry County(6)",29075,***,* ,*, *,3 or fewer,*
+"Grundy County(6)",29079,***,* ,*, *,3 or fewer,*
+"Harrison County(6)",29081,***,* ,*, *,3 or fewer,*
+"Hickory County(6)",29085,***,* ,*, *,3 or fewer,*
+"Holt County(6)",29087,***,* ,*, *,3 or fewer,*
+"Howard County(6)",29089,***,* ,*, *,3 or fewer,*
+"Knox County(6)",29103,***,* ,*, *,3 or fewer,*
+"Lewis County(6)",29111,***,* ,*, *,3 or fewer,*
+"Linn County(6)",29115,***,* ,*, *,3 or fewer,*
+"Macon County(6)",29121,***,* ,*, *,3 or fewer,*
+"Maries County(6)",29125,***,* ,*, *,3 or fewer,*
+"McDonald County(6)",29119,***,* ,*, *,3 or fewer,*
+"Mercer County(6)",29129,***,* ,*, *,3 or fewer,*
+"Mississippi County(6)",29133,***,* ,*, *,3 or fewer,*
+"Moniteau County(6)",29135,***,* ,*, *,3 or fewer,*
+"Monroe County(6)",29137,***,* ,*, *,3 or fewer,*
+"New Madrid County(6)",29143,***,* ,*, *,3 or fewer,*
+"Oregon County(6)",29149,***,* ,*, *,3 or fewer,*
+"Ozark County(6)",29153,***,* ,*, *,3 or fewer,*
+"Pemiscot County(6)",29155,***,* ,*, *,3 or fewer,*
+"Putnam County(6)",29171,***,* ,*, *,3 or fewer,*
+"Ralls County(6)",29173,***,* ,*, *,3 or fewer,*
+"Randolph County(6)",29175,***,* ,*, *,3 or fewer,*
+"Ray County(6)",29177,***,* ,*, *,3 or fewer,*
+"Reynolds County(6)",29179,***,* ,*, *,3 or fewer,*
+"Schuyler County(6)",29197,***,* ,*, *,3 or fewer,*
+"Scotland County(6)",29199,***,* ,*, *,3 or fewer,*
+"Shannon County(6)",29203,***,* ,*, *,3 or fewer,*
+"Shelby County(6)",29205,***,* ,*, *,3 or fewer,*
+"St. Clair County(6)",29185,***,* ,*, *,3 or fewer,*
+"Sullivan County(6)",29211,***,* ,*, *,3 or fewer,*
+"Vernon County(6)",29217,***,* ,*, *,3 or fewer,*
+"Worth County(6)",29227,***,* ,*, *,3 or fewer,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:00 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+
+Rates are computed using cancers classified as malignant based on ICD-O-3. For more information see malignant.html.
+
+"^ Late Stage is defined as cases determined to be regional or distant. Coding is generally based on Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ] but may include other staging variables if necessary."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

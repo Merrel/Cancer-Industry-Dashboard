@@ -1,0 +1,78 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=06&areatype=county&topic=mob&demo=00020&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '06', 'areatype': 'county', 'topic': 'mob', 'demo': '00020', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_011.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=06&areatype=county&topic=mob&demo=00020&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for California by County
+"Mobility: Moved, different state (in past year)"
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Moved From Different State),Rank within US
+"California",06000,1.3,507464,"1 of 51"
+"United States",00000,2.3,7354769,"N/A"
+"Glenn County",06021,0.4,113,"128 of 3140"
+"Madera County",06039,0.4,651,"133 of 3140"
+"Sierra County",06091,0.5,13,"152 of 3140"
+"Mono County",06051,0.5,71,"183 of 3140"
+"San Benito County",06069,0.5,314,"211 of 3140"
+"Fresno County",06019,0.7,6234,"288 of 3140"
+"Imperial County",06025,0.7,1214,"321 of 3140"
+"Stanislaus County",06099,0.7,3920,"365 of 3140"
+"Calaveras County",06009,0.8,336,"370 of 3140"
+"Merced County",06047,0.8,2012,"382 of 3140"
+"Colusa County",06011,0.8,165,"400 of 3140"
+"Tulare County",06107,0.8,3516,"401 of 3140"
+"Tehama County",06103,0.9,547,"503 of 3140"
+"Sutter County",06101,0.9,836,"511 of 3140"
+"San Joaquin County",06077,1.0,7037,"631 of 3140"
+"Los Angeles County",06037,1.0,100322,"654 of 3140"
+"Tuolumne County",06109,1.1,566,"708 of 3140"
+"Kern County",06029,1.1,9533,"767 of 3140"
+"Orange County",06059,1.1,34692,"782 of 3140"
+"Amador County",06005,1.1,414,"791 of 3140"
+"Riverside County",06065,1.1,26283,"804 of 3140"
+"Santa Cruz County",06087,1.2,3125,"833 of 3140"
+"Nevada County",06057,1.2,1133,"835 of 3140"
+"Contra Costa County",06013,1.2,13142,"873 of 3140"
+"Lake County",06033,1.2,788,"945 of 3140"
+"San Bernardino County",06071,1.3,26281,"957 of 3140"
+"Ventura County",06111,1.3,10571,"965 of 3140"
+"Sacramento County",06067,1.3,19001,"1000 of 3140"
+"San Mateo County",06081,1.3,9868,"1019 of 3140"
+"El Dorado County",06017,1.3,2396,"1021 of 3140"
+"Sonoma County",06097,1.3,6503,"1024 of 3140"
+"Butte County",06007,1.3,2932,"1030 of 3140"
+"Napa County",06055,1.4,1984,"1166 of 3140"
+"Placer County",06061,1.4,5376,"1195 of 3140"
+"Alameda County",06001,1.5,23815,"1223 of 3140"
+"Yolo County",06113,1.5,3152,"1252 of 3140"
+"Marin County",06041,1.5,3959,"1291 of 3140"
+"Solano County",06095,1.5,6664,"1314 of 3140"
+"San Luis Obispo County",06079,1.7,4778,"1513 of 3140"
+"Santa Barbara County",06083,1.7,7611,"1539 of 3140"
+"Shasta County",06089,1.8,3139,"1574 of 3140"
+"Siskiyou County",06093,1.8,777,"1602 of 3140"
+"Santa Clara County",06085,1.8,34402,"1618 of 3140"
+"Mariposa County",06043,1.8,319,"1621 of 3140"
+"Plumas County",06063,1.9,347,"1663 of 3140"
+"Kings County",06031,1.9,2826,"1696 of 3140"
+"Inyo County",06027,1.9,350,"1730 of 3140"
+"Del Norte County",06015,2.0,534,"1765 of 3140"
+"Monterey County",06053,2.0,8446,"1767 of 3140"
+"Trinity County",06105,2.0,257,"1770 of 3140"
+"Lassen County",06035,2.0,628,"1799 of 3140"
+"Humboldt County",06023,2.2,2903,"1928 of 3140"
+"Mendocino County",06045,2.3,2004,"2037 of 3140"
+"San Diego County",06073,2.3,75181,"2043 of 3140"
+"San Francisco County",06075,2.5,21021,"2128 of 3140"
+"Yuba County",06115,2.8,2089,"2362 of 3140"
+"Modoc County",06049,3.5,314,"2660 of 3140"
+"Alpine County",06003,4.9,59,"2958 of 3140"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 4:58 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Mobility: Moved, different state (in past year), see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#mobility."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

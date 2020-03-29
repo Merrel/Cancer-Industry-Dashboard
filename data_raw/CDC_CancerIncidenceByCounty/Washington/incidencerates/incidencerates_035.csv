@@ -1,0 +1,83 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=53&areatype=county&cancer=001&race=00&sex=0&age=006&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '53', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '0', 'age': '006', 'type': 'incd', 'file_name': 'incidencerates_035.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=53&areatype=county&cancer=001&race=00&sex=0&age=006&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Washington by County
+
+"All Cancer Sites (All Stages^), 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, Ages <65"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Washington(5,10)",53000,***,219.1 ,217.5, 220.6,16134,stable,-0.4 ,-1.5, 0.6
+"US (SEER+NPCR)(1,10)",00000,***,225.9 ,225.7, 226.1,737439,stable,-0.2 ,-1.1, 0.7
+"Columbia County(6,10)",53013,***,271.9 ,203.1, 359.6,12,stable,-3.1 ,-22.1, 20.5
+"Kitsap County(7,8)",53035,***,246.8 ,238.1, 255.6,692,rising,0.4 ,0.1, 0.6
+"Grays Harbor County(7,8)",53027,***,242.1 ,226.3, 258.7,202,stable,-0.3 ,-0.8, 0.1
+"Pierce County(7,8)",53053,***,239.2 ,234.4, 244,2026,stable,-0.7 ,-1.3, 0.0
+"Cowlitz County(6,10)",53015,***,237.3 ,223.8, 251.4,259,stable,2.7 ,-5.2, 11.2
+"Island County(7,8)",53029,***,236 ,220.5, 252.4,208,stable,0.0 ,-0.5, 0.5
+"Snohomish County(7,8)",53061,***,236 ,231.2, 240.8,1933,stable,-0.3 ,-0.7, 0.1
+"Clallam County(7,8)",53009,***,235.3 ,218.8, 252.9,193,stable,0.1 ,-0.4, 0.6
+"Thurston County(7,8)",53067,***,234.4 ,226.1, 242.8,665,stable,0.0 ,-0.3, 0.4
+"Mason County(7,8)",53045,***,232.2 ,215.5, 250.1,170,stable,-0.2 ,-0.7, 0.2
+"Okanogan County(6,10)",53047,***,231.3 ,210.7, 253.5,110,stable,6.0 ,-1.9, 14.6
+"Chelan County(6,10)",53007,***,227.1 ,211.6, 243.5,179,stable,1.0 ,-5.8, 8.4
+"Jefferson County(7,8)",53031,***,221.6 ,197.2, 248.7,90,stable,-0.4 ,-1.1, 0.3
+"Whatcom County(7,8)",53073,***,219.8 ,210.5, 229.4,464,stable,1.7 ,-2.1, 5.6
+"King County(7,8)",53033,***,217.4 ,214.5, 220.2,4706,falling,-1.3 ,-1.8, -0.7
+"Wahkiakum County(6,10)",53069,***,216.5 ,146.6, 310,8,stable,12.7 ,-1.2, 28.5
+"Stevens County(6,10)",53065,***,216.1 ,196.4, 237.5,110,stable,-5.9 ,-16.8, 6.4
+"Clark County(6,10)",53011,***,212.9 ,206.9, 219.1,991,stable,-2.0 ,-6.6, 2.9
+"Klickitat County(6,10)",53039,***,211.7 ,184.9, 241.7,55,stable,7.1 ,-1.7, 16.8
+"Benton County(6,10)",53005,***,211.6 ,202.1, 221.5,398,stable,1.1 ,-1.9, 4.2
+"Skagit County(7,8)",53057,***,211.4 ,199.7, 223.7,275,stable,-0.1 ,-0.5, 0.4
+"Spokane County(6,10)",53063,***,210.5 ,204.6, 216.5,1052,stable,-3.3 ,-12.1, 6.4
+"Lewis County(6,10)",53041,***,208.9 ,194.4, 224.3,174,falling,-5.4 ,-10.2, -0.4
+"Pacific County(6,10)",53049,***,208.4 ,180.9, 239.6,54,stable,-3.7 ,-10.1, 3.2
+"Walla Walla County(6,10)",53071,***,207.6 ,190.8, 225.6,123,stable,4.5 ,-1.6, 11.1
+"Pend Oreille County(6,10)",53051,***,202.6 ,168.3, 242.6,33,stable,-9.9 ,-23.7, 6.5
+"Grant County(6,10)",53025,***,202.3 ,188.7, 216.7,171,stable,-1.5 ,-8.2, 5.6
+"Douglas County(6,10)",53017,***,197.4 ,178.1, 218.4,82,rising,4.2 ,3.0, 5.5
+"San Juan County(7,8)",53055,***,197.4 ,166.5, 233.5,44,stable,0.1 ,-0.7, 1.0
+"Skamania County(6,10)",53059,***,189.7 ,156.3, 228.9,27,stable,0.9 ,-6.6, 9.1
+"Adams County(6,10)",53001,***,186.7 ,157.4, 219.7,30,stable,11.6 ,-8.3, 35.7
+"Yakima County(6,10)",53077,***,183.8 ,175.8, 192.1,413,stable,1.0 ,-4.2, 6.5
+"Asotin County(6,10)",53003,***,181.2 ,156.4, 209.2,45,stable,-6.1 ,-36.9, 39.8
+"Franklin County(6,10)",53021,***,174 ,160.5, 188.2,127,stable,-5.5 ,-15.2, 5.4
+"Kittitas County(6,10)",53037,***,168.6 ,150.3, 188.6,70,stable,-0.7 ,-12.2, 12.4
+"Lincoln County(6,10)",53043,***,168.4 ,134.4, 209.6,21,stable,4.8 ,-6.0, 16.8
+"Ferry County(6,10)",53019,***,160.3 ,122.2, 208,15,stable,-4.0 ,-30.4, 32.6
+"Whitman County(6,10)",53075,***,146.8 ,128.2, 167.5,49,falling,-16.3 ,-20.3, -12.1
+"Garfield County(6,10)",53023,***,116.6 ,66.3, 200.2,4,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:02 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+5 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission. State rates include rates from metropolitan areas funded by SEER [http://seer.cancer.gov/registries/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+7 Source: SEER November 2018 submission.
+"8 Source: Incidence data provided by the SEER Program. ( http://seer.cancer.gov ) AAPCs are calculated by the Joinpoint Regression Program ( https://surveillance.cancer.gov/joinpoint/ ) and are based on APCs. Data are age-adjusted to the 2000 US standard population ( http://www.seer.cancer.gov/stdpopulations/single_age.html ) (19 age groups: <1, 1-4, 5-9, ... , 80-84,85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Population counts for denominators are based on Census populations as modifed by NCI. The 1969-2017 US Population Data ( http://seer.cancer.gov/popdata/ ) File is used with SEER November 2018 data. "
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

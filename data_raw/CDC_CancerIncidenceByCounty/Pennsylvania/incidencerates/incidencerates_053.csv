@@ -1,0 +1,107 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=42&areatype=county&cancer=061&stage=211&race=00&sex=2&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '42', 'areatype': 'county', 'cancer': '061', 'stage': '211', 'race': '00', 'sex': '2', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_053.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=42&areatype=county&cancer=061&stage=211&race=00&sex=2&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Pennsylvania by County
+
+"Ovary (Late Stage^), 2012-2016"
+
+"All Races (includes Hispanic), Female, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Percent of Cases with Late Stage
+"Pennsylvania(6)",42000,***,9.2 ,8.9, 9.5,792,77.7
+"US (SEER+NPCR)(1)",00000,***,8.4 ,8.3, 8.5,16311,76.2
+"Clarion County(6)",42031,***,18.8 ,11.9, 28.7,5,92.6
+"Somerset County(6)",42111,***,14.8 ,10.4, 20.6,9,91.7
+"Clearfield County(6)",42033,***,11.8 ,8.2, 16.8,7,90.0
+"Chester County(6)",42029,***,11.4 ,9.8, 13.3,36,77.6
+"Northampton County(6)",42095,***,11.2 ,9.2, 13.6,23,78.1
+"Lebanon County(6)",42075,***,11.1 ,8, 15,10,81.4
+"McKean County(6)",42083,***,11 ,6, 18.8,3,80.0
+"Tioga County(6)",42117,***,11 ,6.3, 18.3,3,73.9
+"Bucks County(6)",42017,***,10.8 ,9.4, 12.4,46,79.4
+"Mifflin County(6)",42087,***,10.8 ,6.4, 17.5,4,74.1
+"Perry County(6)",42099,***,10.6 ,6, 17.8,3,76.2
+"Montgomery County(6)",42091,***,10.5 ,9.3, 11.9,57,75.7
+"Susquehanna County(6)",42115,***,10.5 ,6.2, 17.4,4,72.0
+"Fayette County(6)",42051,***,10.3 ,7.7, 13.8,11,80.6
+"Erie County(6)",42049,***,10.2 ,8.2, 12.6,19,84.5
+"Delaware County(6)",42045,***,10.1 ,8.6, 11.7,36,80.9
+"Wayne County(6)",42127,***,10.1 ,6, 16.5,4,74.1
+"Indiana County(6)",42063,***,9.6 ,6.2, 14.4,5,81.8
+"Columbia County(6)",42037,***,9.5 ,5.7, 15,4,80.8
+"Lawrence County(6)",42073,***,9.4 ,6.3, 13.8,6,74.4
+"Allegheny County(6)",42003,***,9.3 ,8.4, 10.3,83,82.2
+"Lancaster County(6)",42071,***,9.1 ,7.6, 10.7,31,74.2
+"Westmoreland County(6)",42129,***,9 ,7.5, 10.8,27,79.6
+"Butler County(6)",42019,***,9 ,6.7, 11.8,12,74.4
+"Lackawanna County(6)",42069,***,8.9 ,6.8, 11.4,13,72.0
+"Lycoming County(6)",42081,***,8.8 ,5.9, 12.8,6,76.2
+"Beaver County(6)",42007,***,8.8 ,6.6, 11.6,12,77.9
+"Dauphin County(6)",42043,***,8.8 ,6.9, 11.1,15,69.4
+"Lehigh County(6)",42077,***,8.8 ,7.1, 10.7,20,70.8
+"Cumberland County(6)",42041,***,8.7 ,6.8, 11.1,15,76.0
+"Monroe County(6)",42089,***,8.6 ,6.3, 11.6,9,74.6
+"Luzerne County(6)",42079,***,8.5 ,6.8, 10.6,19,66.4
+"Mercer County(6)",42085,***,8.4 ,5.5, 12.4,6,71.4
+"York County(6)",42133,***,8.3 ,6.9, 10,24,81.1
+"Adams County(6)",42001,***,8.3 ,5.4, 12.2,6,69.0
+"Blair County(6)",42013,***,8.2 ,5.7, 11.6,8,82.6
+"Philadelphia County(6)",42101,***,8.1 ,7.3, 9,75,76.4
+"Washington County(6)",42125,***,7.9 ,6, 10.4,12,76.3
+"Cambria County(6)",42021,***,7.7 ,5.4, 10.7,8,77.8
+"Crawford County(6)",42039,***,7.7 ,4.9, 11.6,5,78.1
+"Northumberland County(6)",42097,***,7.6 ,4.7, 11.7,5,67.6
+"Centre County(6)",42027,***,7.5 ,5.1, 10.7,6,72.7
+"Berks County(6)",42011,***,7.3 ,5.9, 9,21,81.1
+"Franklin County(6)",42055,***,7.2 ,5, 10,8,77.6
+"Carbon County(6)",42025,***,6.8 ,3.8, 11.6,3,85.0
+"Bradford County(6)",42015,***,6.7 ,3.9, 11.2,3,73.9
+"Schuylkill County(6)",42107,***,6.7 ,4.6, 9.5,7,83.3
+"Armstrong County(6)",42005,***,* ,*, *,3 or fewer,*
+"Bedford County(6)",42009,***,* ,*, *,3 or fewer,*
+"Cameron County(6)",42023,***,* ,*, *,3 or fewer,*
+"Clinton County(6)",42035,***,* ,*, *,3 or fewer,*
+"Elk County(6)",42047,***,* ,*, *,3 or fewer,*
+"Forest County(6)",42053,***,* ,*, *,3 or fewer,*
+"Fulton County(6)",42057,***,* ,*, *,3 or fewer,*
+"Greene County(6)",42059,***,* ,*, *,3 or fewer,*
+"Huntingdon County(6)",42061,***,* ,*, *,3 or fewer,*
+"Jefferson County(6)",42065,***,* ,*, *,3 or fewer,*
+"Juniata County(6)",42067,***,* ,*, *,3 or fewer,*
+"Montour County(6)",42093,***,* ,*, *,3 or fewer,*
+"Pike County(6)",42103,***,* ,*, *,3 or fewer,*
+"Potter County(6)",42105,***,* ,*, *,3 or fewer,*
+"Snyder County(6)",42109,***,* ,*, *,3 or fewer,*
+"Sullivan County(6)",42113,***,* ,*, *,3 or fewer,*
+"Union County(6)",42119,***,* ,*, *,3 or fewer,*
+"Venango County(6)",42121,***,* ,*, *,3 or fewer,*
+"Warren County(6)",42123,***,* ,*, *,3 or fewer,*
+"Wyoming County(6)",42131,***,* ,*, *,3 or fewer,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:01 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+
+Rates are computed using cancers classified as malignant based on ICD-O-3. For more information see malignant.html.
+
+"^ Late Stage is defined as cases determined to be regional or distant. Coding is generally based on Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ] but may include other staging variables if necessary."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

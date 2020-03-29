@@ -1,0 +1,49 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=49&areatype=county&topic=crowd&demo=00027&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '49', 'areatype': 'county', 'topic': 'crowd', 'demo': '00027', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_000.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=49&areatype=county&topic=crowd&demo=00027&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Utah by County
+Crowding: Households with >1 person per room
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),Households (with >1 Person Per Room),Rank within US
+"United States",00000,3.3,3975282,"N/A"
+"Utah",49000,3.5,32454,"10 of 52"
+"Daggett County",49009,0.6,1,"2945 of 3141"
+"Kane County",49025,1.0,25,"2620 of 3141"
+"Morgan County",49029,1.5,48,"2043 of 3141"
+"Box Elder County",49003,1.7,288,"1809 of 3141"
+"Sevier County",49041,1.9,133,"1645 of 3141"
+"Piute County",49031,1.9,10,"1561 of 3141"
+"Tooele County",49045,2.1,407,"1420 of 3141"
+"Summit County",49043,2.1,315,"1368 of 3141"
+"Davis County",49011,2.3,2303,"1227 of 3141"
+"Garfield County",49017,2.3,40,"1221 of 3141"
+"Carbon County",49007,2.3,183,"1169 of 3141"
+"Millard County",49027,2.4,103,"1079 of 3141"
+"Iron County",49021,2.7,420,"885 of 3141"
+"Emery County",49015,2.7,97,"869 of 3141"
+"Weber County",49057,2.9,2342,"791 of 3141"
+"Wayne County",49055,3.0,30,"721 of 3141"
+"Cache County",49005,3.1,1124,"713 of 3141"
+"Rich County",49033,3.3,20,"584 of 3141"
+"Salt Lake County",49035,3.5,12733,"519 of 3141"
+"Grand County",49019,3.7,142,"472 of 3141"
+"Uintah County",49047,3.7,394,"454 of 3141"
+"Wasatch County",49051,3.9,350,"417 of 3141"
+"Utah County",49049,4.6,7105,"271 of 3141"
+"Washington County",49053,4.7,2442,"258 of 3141"
+"Duchesne County",49013,4.7,310,"257 of 3141"
+"Juab County",49023,4.9,161,"233 of 3141"
+"Sanpete County",49039,5.6,465,"183 of 3141"
+"Beaver County",49001,5.9,136,"160 of 3141"
+"San Juan County",49037,8.1,327,"78 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:03 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Crowding: Households with >1 person per room, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#crowding."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

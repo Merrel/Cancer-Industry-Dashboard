@@ -1,0 +1,28 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/risk/index.php?stateFIPS=00&topic=vaccine&risk=v70&race=00&sex=2&type=risk&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '00', 'topic': 'vaccine', 'risk': 'v70', 'race': '00', 'sex': '2', 'type': 'risk', 'file_name': 'risk_036.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/risk/index.php?stateFIPS=00&topic=vaccine&risk=v70&race=00&sex=2&type=risk&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+
+	Screening and Risk Factors Report by State
+(2017 National Immunization Survey)
+
+Percent who received 3+ doses of HPV Vaccine
+"All Races (includes Hispanic), Female, Ages 13-15"
+Healthy People 2020 Objective Number: IID-11.4
+Increase the vaccination coverage level of 3 doses of human papillomavirus (HPV) vaccine for females by age 13 to 15 years.
+
+Sorted by Rate
+
+State, FIPS,Met Objective of 80.0%?(1),"Percent(2)","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Number of Respondents with Screening or Risk Factor
+"United States",00,No,39.3 ,36.9, 41.9,2379
+"Puerto Rico",72,data not available,data not available,data not available
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 4:59 pm.
+Data not available [http://statecancerprofiles.cancer.gov/datanotavailable.html] for this combination of data selections.
+
+"(1) Healthy People 2020 Objectives are managed by the Office of Disease Prevention and Health Promotion, U.S. Department of Health and Human Services."
+"(2) Source: The National Immunization Survey - Teen [ https://www.cdc.gov/vaccines/imz-managers/coverage/nis/teen/ ] , Hyattsville, MD: Centers for Disease Control and Prevention."
+
+Note: Healthy People 2020 Objectives are age-adjusted to the year 2000 standard population while these estimates are not age-adjusted.
+Data for United States does not include Puerto Rico.

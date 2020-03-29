@@ -1,0 +1,39 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/risk/index.php?stateFIPS=00&topic=dietex&risk=v83&race=00&sex=0&type=risk&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '00', 'topic': 'dietex', 'risk': 'v83', 'race': '00', 'sex': '0', 'type': 'risk', 'file_name': 'risk_010.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/risk/index.php?stateFIPS=00&topic=dietex&risk=v83&race=00&sex=0&type=risk&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+
+	Screening and Risk Factors Report by State
+(Directly Estimated 2017 YRBSS Data)
+
+Overweight (>= 85th percentile but <95th percentile for BMI based on sex and age)
+"All Races (includes Hispanic), Both Sexes, High School Students"
+Healthy People 2020 Objective Number: n/a
+
+Sorted by Rate
+
+State, FIPS,Met Objective?(1),"Percent(2)","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Number of Respondents with Screening or Risk Factor
+"United States",00,n/a,15.6 ,14.7, 16.6,2149 ##
+"Alabama",01,data not available,data not available,data not available
+"Georgia",13,data not available,data not available,data not available
+"Indiana",18,data not available,data not available,data not available
+"Minnesota",27,data not available,data not available,data not available
+"Mississippi",28,data not available,data not available,data not available
+"New Jersey",34,data not available,data not available,data not available
+"Ohio",39,data not available,data not available,data not available
+"Oregon",41,data not available,data not available,data not available
+"Puerto Rico",72,data not available,data not available,data not available
+"South Dakota",46,data not available,data not available,data not available
+"Washington",53,data not available,data not available,data not available
+"Wyoming",56,data not available,data not available,data not available
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:03 pm.
+## Please note: The national and state surveys are done independently of each other so the number of respondents is not comparable across states or country.
+Data not available [http://statecancerprofiles.cancer.gov/datanotavailable.html] for this combination of data selections.
+
+(1) n/a - There is not a specific Healthy People 2020 Objective for this data item.
+"(2) Source: YRBSS [ https://www.cdc.gov/healthyyouth/data/yrbs/index.htm ] Survey Data is the source for this data.  YRBSS includes a national school-based survey conducted by Centers for Disease Control and Prevention and state, territorial, tribal, and local surveys conducted by state, territorial, and local education and health agencies and tribal governments.  Each survey sample (state or national) is only comparable to other groupings within the same survey. Data for several states are not available."
+
+* < 100 respondents for the subgroup
+Data for United States does not include Puerto Rico.

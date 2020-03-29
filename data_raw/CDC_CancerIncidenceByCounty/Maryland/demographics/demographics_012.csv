@@ -1,0 +1,44 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=24&areatype=county&topic=mob&demo=00021&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '24', 'areatype': 'county', 'topic': 'mob', 'demo': '00021', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_012.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=24&areatype=county&topic=mob&demo=00021&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Maryland by County
+Mobility: Moved from outside US (in past year)
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Moved From Outside US),Rank within US
+"United States",00000,0.7,2074097,"N/A"
+"Maryland",24000,0.8,47375,"42 of 51"
+"Caroline County",24011,0.0,15,"562 of 3140"
+"Dorchester County",24019,0.1,25,"775 of 3140"
+"Garrett County",24023,0.1,25,"830 of 3140"
+"Somerset County",24039,0.1,29,"1014 of 3140"
+"Carroll County",24013,0.1,234,"1209 of 3140"
+"Allegany County",24001,0.2,168,"1739 of 3140"
+"Worcester County",24047,0.3,133,"1855 of 3140"
+"Talbot County",24041,0.3,104,"1942 of 3140"
+"Washington County",24043,0.3,439,"1999 of 3140"
+"Cecil County",24015,0.3,314,"2047 of 3140"
+"Charles County",24017,0.3,479,"2054 of 3140"
+"Kent County",24029,0.3,67,"2161 of 3140"
+"Harford County",24025,0.4,947,"2274 of 3140"
+"Wicomico County",24045,0.5,473,"2453 of 3140"
+"Frederick County",24021,0.5,1144,"2455 of 3140"
+"St. Marys County",24037,0.5,571,"2548 of 3140"
+"Calvert County",24009,0.5,475,"2559 of 3140"
+"Anne Arundel County",24003,0.5,3049,"2590 of 3140"
+"Baltimore City",24510,0.6,3954,"2718 of 3140"
+"Howard County",24027,0.8,2323,"2832 of 3140"
+"Baltimore County",24005,0.8,6222,"2837 of 3140"
+"Prince Georges County",24033,0.9,7829,"2911 of 3140"
+"Queen Annes County",24035,0.9,460,"2941 of 3140"
+"Montgomery County",24031,1.7,17896,"3081 of 3140"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:01 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Mobility: Moved from outside US (in past year), see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#mobility."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

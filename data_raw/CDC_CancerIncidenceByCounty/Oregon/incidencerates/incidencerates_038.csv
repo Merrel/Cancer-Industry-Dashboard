@@ -1,0 +1,76 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=41&areatype=county&cancer=001&race=00&sex=0&age=157&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '41', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '0', 'age': '157', 'type': 'incd', 'file_name': 'incidencerates_038.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=41&areatype=county&cancer=001&race=00&sex=0&age=157&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Oregon by County
+
+"All Cancer Sites (All Stages^), 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, Ages 65+"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Oregon(6,10)",41000,***,1924.5 ,1908.7, 1940.3,11791,falling,-3.1 ,-5.7, -0.4
+"US (SEER+NPCR)(1,10)",00000,***,1983.5 ,1981.6, 1985.3,900671,falling,-1.4 ,-2.2, -0.6
+"Wheeler County(6,10)",41069,***,2236.4 ,1658, 2952.6,10,stable,-1.7 ,-36.0, 51.1
+"Sherman County(6,10)",41055,***,2223.3 ,1631.3, 2958.3,9,stable,-2.0 ,-27.0, 31.4
+"Marion County(6,10)",41047,***,2114.6 ,2054.4, 2176,963,stable,-0.1 ,-6.4, 6.5
+"Multnomah County(6,10)",41051,***,2079.7 ,2036.1, 2123.9,1853,falling,-3.2 ,-5.4, -0.9
+"Clatsop County(6,10)",41007,***,2062.8 ,1911.4, 2223,143,stable,-3.6 ,-17.6, 12.8
+"Clackamas County(6,10)",41005,***,2035.6 ,1983.8, 2088.3,1236,stable,-1.2 ,-6.9, 4.9
+"Polk County(6,10)",41053,***,2021.3 ,1910.7, 2136.6,256,stable,-2.9 ,-11.9, 7.1
+"Crook County(6,10)",41013,***,2017.8 ,1840.5, 2207.9,99,stable,-2.2 ,-14.4, 11.8
+"Klamath County(6,10)",41035,***,2016.7 ,1904.7, 2133.6,248,stable,-3.7 ,-12.3, 5.6
+"Yamhill County(6,10)",41071,***,2001.8 ,1901.2, 2106.3,308,stable,0.0 ,-7.4, 7.9
+"Columbia County(6,10)",41009,***,1999.9 ,1862.3, 2145,166,stable,-5.5 ,-21.1, 13.2
+"Wasco County(6,10)",41065,***,1977.3 ,1800.4, 2166.9,95,stable,-5.0 ,-15.8, 7.1
+"Umatilla County(6,10)",41059,***,1937.1 ,1819.5, 2060.3,207,stable,-2.5 ,-10.0, 5.5
+"Jefferson County(6,10)",41031,***,1936.6 ,1738.7, 2150.9,74,stable,-2.6 ,-10.7, 6.2
+"Josephine County(6,10)",41033,***,1923.2 ,1838.1, 2011.2,391,stable,-3.7 ,-12.1, 5.5
+"Linn County(6,10)",41043,***,1920.9 ,1835.2, 2009.5,387,falling,-5.8 ,-7.3, -4.2
+"Lincoln County(6,10)",41041,***,1920.1 ,1804.7, 2041.1,217,stable,-4.2 ,-11.7, 4.0
+"Washington County(6,10)",41067,***,1895.5 ,1846.8, 1945.2,1207,stable,-1.0 ,-3.6, 1.7
+"Coos County(6,10)",41011,***,1889.3 ,1790.2, 1992.4,276,stable,-3.4 ,-9.8, 3.6
+"Jackson County(6,10)",41029,***,1880.4 ,1820.8, 1941.5,773,falling,-3.1 ,-6.1, -0.1
+"Deschutes County(6,10)",41017,***,1854.4 ,1783.6, 1927.3,546,falling,-7.4 ,-13.5, -0.7
+"Tillamook County(6,10)",41057,***,1812.9 ,1659.2, 1977.2,106,stable,-8.8 ,-18.3, 1.7
+"Union County(6,10)",41061,***,1804 ,1633.6, 1987.2,84,falling,-5.9 ,-11.0, -0.5
+"Hood River County(6,10)",41027,***,1763.2 ,1556.4, 1989.7,54,stable,0.7 ,-5.9, 7.7
+"Benton County(6,10)",41003,***,1762.9 ,1655.7, 1875.2,210,falling,-7.5 ,-13.7, -0.8
+"Douglas County(6,10)",41019,***,1754.5 ,1681.1, 1830.3,436,stable,-6.1 ,-21.8, 12.9
+"Lane County(6,10)",41039,***,1729.3 ,1682, 1777.7,1048,stable,-2.9 ,-9.1, 3.8
+"Morrow County(6,10)",41049,***,1704.3 ,1427, 2020.3,27,stable,-1.5 ,-20.2, 21.6
+"Lake County(6,10)",41037,***,1690.4 ,1424.5, 1991.6,29,stable,-2.2 ,-16.5, 14.7
+"Curry County(6,10)",41015,***,1615.9 ,1482.1, 1758.6,109,stable,1.8 ,-15.3, 22.4
+"Gilliam County(6,10)",41021,***,1584.5 ,1103.5, 2201.7,7,stable,6.5 ,-40.8, 91.6
+"Baker County(6,10)",41001,***,1584.5 ,1409.1, 1775.7,60,falling,-20.1 ,-28.5, -10.7
+"Wallowa County(6,10)",41063,***,1574.7 ,1321.9, 1861.8,28,stable,-8.6 ,-17.3, 1.1
+"Malheur County(6,10)",41045,***,1552.7 ,1398.4, 1719.3,75,stable,-9.6 ,-29.9, 16.6
+"Harney County(6,10)",41025,***,1501.7 ,1239.9, 1802.8,23,stable,1.1 ,-17.5, 23.8
+"Grant County(6,10)",41023,***,1406.2 ,1180.2, 1663,28,stable,-7.5 ,-34.0, 29.7
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:00 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

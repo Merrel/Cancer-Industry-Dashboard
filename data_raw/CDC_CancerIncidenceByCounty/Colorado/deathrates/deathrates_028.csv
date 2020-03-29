@@ -1,0 +1,108 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=08&areatype=county&cancer=001&race=03&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '08', 'areatype': 'county', 'cancer': '001', 'race': '03', 'sex': '0', 'age': '001', 'type': 'death', 'file_name': 'deathrates_028.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=08&areatype=county&cancer=001&race=03&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for Colorado by County
+
+"All Cancer Sites, 2012-2016"
+
+"Amer. Indian/Alaskan Native (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 161.4?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Colorado",08000,Yes,86.7 ,74.4, 100.2,45,stable,-1.2 ,-2.4, 0.1
+"United States",00000,Yes,108.8 ,107, 110.6,3209,falling,-1.6 ,-1.9, -1.3
+"Adams County (8)",08001,Yes,152.4 ,95.3, 225.7,6,*,*,*,*
+"El Paso County",08041,Yes,121.5 ,71.8, 187.5,6,*,*,*,*
+"Denver County",08031,Yes,94.9 ,56.7, 145.1,6,*,*,*,*
+"Jefferson County (8)",08059,Yes,72.2 ,39.4, 119.9,4,falling,-9.9 ,-17.9, -1.2
+"Alamosa County",08003,***,* ,*, *,3 or fewer,*,*,*,*
+"Arapahoe County",08005,***,* ,*, *,3 or fewer,*,*,*,*
+"Archuleta County",08007,***,* ,*, *,3 or fewer,*,*,*,*
+"Baca County",08009,***,* ,*, *,3 or fewer,*,*,*,*
+"Bent County",08011,***,* ,*, *,3 or fewer,*,*,*,*
+"Boulder County (8)",08013,***,* ,*, *,3 or fewer,*,*,*,*
+"Broomfield County (8)",08014,***,* ,*, *,3 or fewer,*,*,*,*
+"Chaffee County",08015,***,* ,*, *,3 or fewer,*,*,*,*
+"Cheyenne County",08017,***,* ,*, *,3 or fewer,*,*,*,*
+"Clear Creek County",08019,***,* ,*, *,3 or fewer,*,*,*,*
+"Conejos County",08021,***,* ,*, *,3 or fewer,*,*,*,*
+"Costilla County",08023,***,* ,*, *,3 or fewer,*,*,*,*
+"Crowley County",08025,***,* ,*, *,3 or fewer,*,*,*,*
+"Custer County",08027,***,* ,*, *,3 or fewer,*,*,*,*
+"Delta County",08029,***,* ,*, *,3 or fewer,*,*,*,*
+"Dolores County",08033,***,* ,*, *,3 or fewer,*,*,*,*
+"Douglas County",08035,***,* ,*, *,3 or fewer,*,*,*,*
+"Eagle County",08037,***,* ,*, *,3 or fewer,*,*,*,*
+"Elbert County",08039,***,* ,*, *,3 or fewer,*,*,*,*
+"Fremont County",08043,***,* ,*, *,3 or fewer,*,*,*,*
+"Garfield County",08045,***,* ,*, *,3 or fewer,*,*,*,*
+"Gilpin County",08047,***,* ,*, *,3 or fewer,*,*,*,*
+"Grand County",08049,***,* ,*, *,3 or fewer,*,*,*,*
+"Gunnison County",08051,***,* ,*, *,3 or fewer,*,*,*,*
+"Hinsdale County",08053,***,* ,*, *,3 or fewer,*,*,*,*
+"Huerfano County",08055,***,* ,*, *,3 or fewer,*,*,*,*
+"Jackson County",08057,***,* ,*, *,3 or fewer,*,*,*,*
+"Kiowa County",08061,***,* ,*, *,3 or fewer,*,*,*,*
+"Kit Carson County",08063,***,* ,*, *,3 or fewer,*,*,*,*
+"La Plata County",08067,***,* ,*, *,3 or fewer,*,*,*,*
+"Lake County",08065,***,* ,*, *,3 or fewer,*,*,*,*
+"Larimer County",08069,***,* ,*, *,3 or fewer,*,*,*,*
+"Las Animas County",08071,***,* ,*, *,3 or fewer,*,*,*,*
+"Lincoln County",08073,***,* ,*, *,3 or fewer,*,*,*,*
+"Logan County",08075,***,* ,*, *,3 or fewer,*,*,*,*
+"Mesa County",08077,***,* ,*, *,3 or fewer,*,*,*,*
+"Mineral County",08079,***,* ,*, *,3 or fewer,*,*,*,*
+"Moffat County",08081,***,* ,*, *,3 or fewer,*,*,*,*
+"Montezuma County",08083,***,* ,*, *,3 or fewer,*,*,*,*
+"Montrose County",08085,***,* ,*, *,3 or fewer,*,*,*,*
+"Morgan County",08087,***,* ,*, *,3 or fewer,*,*,*,*
+"Otero County",08089,***,* ,*, *,3 or fewer,*,*,*,*
+"Ouray County",08091,***,* ,*, *,3 or fewer,*,*,*,*
+"Park County",08093,***,* ,*, *,3 or fewer,*,*,*,*
+"Phillips County",08095,***,* ,*, *,3 or fewer,*,*,*,*
+"Pitkin County",08097,***,* ,*, *,3 or fewer,*,*,*,*
+"Prowers County",08099,***,* ,*, *,3 or fewer,*,*,*,*
+"Pueblo County",08101,***,* ,*, *,3 or fewer,*,*,*,*
+"Rio Blanco County",08103,***,* ,*, *,3 or fewer,*,*,*,*
+"Rio Grande County",08105,***,* ,*, *,3 or fewer,*,*,*,*
+"Routt County",08107,***,* ,*, *,3 or fewer,*,*,*,*
+"Saguache County",08109,***,* ,*, *,3 or fewer,*,*,*,*
+"San Juan County",08111,***,* ,*, *,3 or fewer,*,*,*,*
+"San Miguel County",08113,***,* ,*, *,3 or fewer,*,*,*,*
+"Sedgwick County",08115,***,* ,*, *,3 or fewer,*,*,*,*
+"Summit County",08117,***,* ,*, *,3 or fewer,*,*,*,*
+"Teller County",08119,***,* ,*, *,3 or fewer,*,*,*,*
+"Washington County",08121,***,* ,*, *,3 or fewer,*,*,*,*
+"Weld County (8)",08123,***,* ,*, *,3 or fewer,*,*,*,*
+"Yuma County",08125,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 4:58 pm.
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"(8) Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ [ statecancerprofiles.cancer.gov/historicaltrend/differences.html ] for selected counties. 
+"
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+ Statistics for minorities may be affected by inconsistent race identification between the cancer case reports (sources for numerator of rate) and data from the Census Bureau (source for denominator of rate); and from undercounts of some population groups in the census.
+Data for United States does not include Puerto Rico.

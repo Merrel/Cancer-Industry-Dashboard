@@ -1,0 +1,29 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=09&areatype=county&topic=ed&demo=00005&race=00&sex=0&age=081&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '09', 'areatype': 'county', 'topic': 'ed', 'demo': '00005', 'race': '00', 'sex': '0', 'age': '081', 'type': 'manyareacensus', 'file_name': 'demographics_002.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=09&areatype=county&topic=ed&demo=00005&race=00&sex=0&age=081&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Connecticut by County
+Education: Less than High School
+Population Ages 25+
+"All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People(Education: Less Than High School),Rank within US
+"Connecticut",09000,9.8,242500,"22 of 52"
+"United States",00000,12.7,27437114,"N/A"
+"Tolland County",09013,5.9,5616,"183 of 3141"
+"Middlesex County",09007,6.0,7140,"196 of 3141"
+"Litchfield County",09005,8.0,10836,"577 of 3141"
+"New London County",09011,8.1,15314,"609 of 3141"
+"New Haven County",09009,10.1,59891,"1037 of 3141"
+"Fairfield County",09001,10.6,68146,"1186 of 3141"
+"Hartford County",09003,10.6,66150,"1193 of 3141"
+"Windham County",09015,11.6,9407,"1414 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 4:57 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Education: Less than High School, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#education."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

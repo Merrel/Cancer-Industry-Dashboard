@@ -1,0 +1,43 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=56&areatype=county&topic=pop&demo=00003&race=00&sex=0&age=999&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '56', 'areatype': 'county', 'topic': 'pop', 'demo': '00003', 'race': '00', 'sex': '0', 'age': '999', 'type': 'manyareacensus', 'file_name': 'demographics_018.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=56&areatype=county&topic=pop&demo=00003&race=00&sex=0&age=999&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Wyoming by County
+Population: Age 65 and over
+"All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Age 65 And Over),Rank within US
+"Wyoming",56000,14.4,84239,"39 of 52"
+"United States",00000,14.9,47732389,"N/A"
+"Campbell County",56005,7.7,3685,"3125 of 3141"
+"Sweetwater County",56037,9.7,4339,"3074 of 3141"
+"Albany County",56001,10.3,3911,"3051 of 3141"
+"Uinta County",56041,11.7,2426,"2935 of 3141"
+"Teton County",56039,12.7,2911,"2807 of 3141"
+"Natrona County",56025,13.3,10779,"2707 of 3141"
+"Laramie County",56021,14.6,14157,"2474 of 3141"
+"Converse County",56009,14.6,2073,"2464 of 3141"
+"Carbon County",56007,14.9,2331,"2409 of 3141"
+"Sublette County",56035,15.3,1533,"2310 of 3141"
+"Lincoln County",56023,15.3,2879,"2300 of 3141"
+"Fremont County",56013,16.6,6693,"1904 of 3141"
+"Crook County",56011,17.9,1318,"1464 of 3141"
+"Weston County",56045,18.2,1297,"1373 of 3141"
+"Sheridan County",56033,18.7,5604,"1231 of 3141"
+"Niobrara County",56027,19.0,471,"1133 of 3141"
+"Big Horn County",56003,20.0,2384,"869 of 3141"
+"Washakie County",56043,20.0,1653,"859 of 3141"
+"Park County",56029,20.4,5976,"760 of 3141"
+"Goshen County",56015,20.9,2820,"656 of 3141"
+"Johnson County",56019,21.2,1811,"618 of 3141"
+"Platte County",56031,23.0,2005,"374 of 3141"
+"Hot Springs County",56017,25.0,1183,"218 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:03 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Age 65 and over, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

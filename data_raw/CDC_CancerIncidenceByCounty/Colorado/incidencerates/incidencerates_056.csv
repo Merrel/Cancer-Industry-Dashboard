@@ -1,0 +1,104 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=08&areatype=county&cancer=018&stage=211&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '08', 'areatype': 'county', 'cancer': '018', 'stage': '211', 'race': '00', 'sex': '0', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_056.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=08&areatype=county&cancer=018&stage=211&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Colorado by County
+
+"Stomach (Late Stage^), 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Percent of Cases with Late Stage
+"Colorado(6)",08000,***,3.3 ,3.1, 3.5,187,62.5
+"US (SEER+NPCR)(1)",00000,***,3.8 ,3.8, 3.8,13895,58.2
+"Denver County(6)",08031,***,4.8 ,4, 5.7,29,62.4
+"Adams County(6)",08001,***,3.8 ,3, 4.8,16,61.7
+"Weld County(6)",08123,***,3.7 ,2.7, 4.9,10,63.6
+"Pueblo County(6)",08101,***,3.6 ,2.5, 5,8,56.7
+"El Paso County(6)",08041,***,3.6 ,3, 4.3,23,68.8
+"Jefferson County(6)",08059,***,3.4 ,2.8, 4.1,22,64.7
+"Arapahoe County(6)",08005,***,3.4 ,2.7, 4.1,21,62.5
+"Boulder County(6)",08013,***,2.9 ,2.1, 3.9,9,61.0
+"Douglas County(6)",08035,***,2.8 ,1.9, 3.9,8,71.4
+"Mesa County(6)",08077,***,2.6 ,1.7, 4,5,60.5
+"Larimer County(6)",08069,***,2.2 ,1.6, 3,8,48.8
+"Alamosa County(6)",08003,***,* ,*, *,3 or fewer,*
+"Archuleta County(6)",08007,***,* ,*, *,3 or fewer,*
+"Baca County(6)",08009,***,* ,*, *,3 or fewer,*
+"Bent County(6)",08011,***,* ,*, *,3 or fewer,*
+"Broomfield County(6)",08014,***,* ,*, *,3 or fewer,*
+"Chaffee County(6)",08015,***,* ,*, *,3 or fewer,*
+"Cheyenne County(6)",08017,***,* ,*, *,3 or fewer,*
+"Clear Creek County(6)",08019,***,* ,*, *,3 or fewer,*
+"Conejos County(6)",08021,***,* ,*, *,3 or fewer,*
+"Costilla County(6)",08023,***,* ,*, *,3 or fewer,*
+"Crowley County(6)",08025,***,* ,*, *,3 or fewer,*
+"Custer County(6)",08027,***,* ,*, *,3 or fewer,*
+"Delta County(6)",08029,***,* ,*, *,3 or fewer,*
+"Dolores County(6)",08033,***,* ,*, *,3 or fewer,*
+"Eagle County(6)",08037,***,* ,*, *,3 or fewer,*
+"Elbert County(6)",08039,***,* ,*, *,3 or fewer,*
+"Fremont County(6)",08043,***,* ,*, *,3 or fewer,*
+"Garfield County(6)",08045,***,* ,*, *,3 or fewer,*
+"Gilpin County(6)",08047,***,* ,*, *,3 or fewer,*
+"Grand County(6)",08049,***,* ,*, *,3 or fewer,*
+"Gunnison County(6)",08051,***,* ,*, *,3 or fewer,*
+"Hinsdale County(6)",08053,***,* ,*, *,3 or fewer,*
+"Huerfano County(6)",08055,***,* ,*, *,3 or fewer,*
+"Jackson County(6)",08057,***,* ,*, *,3 or fewer,*
+"Kiowa County(6)",08061,***,* ,*, *,3 or fewer,*
+"Kit Carson County(6)",08063,***,* ,*, *,3 or fewer,*
+"La Plata County(6)",08067,***,* ,*, *,3 or fewer,*
+"Lake County(6)",08065,***,* ,*, *,3 or fewer,*
+"Las Animas County(6)",08071,***,* ,*, *,3 or fewer,*
+"Lincoln County(6)",08073,***,* ,*, *,3 or fewer,*
+"Logan County(6)",08075,***,* ,*, *,3 or fewer,*
+"Mineral County(6)",08079,***,* ,*, *,3 or fewer,*
+"Moffat County(6)",08081,***,* ,*, *,3 or fewer,*
+"Montezuma County(6)",08083,***,* ,*, *,3 or fewer,*
+"Montrose County(6)",08085,***,* ,*, *,3 or fewer,*
+"Morgan County(6)",08087,***,* ,*, *,3 or fewer,*
+"Otero County(6)",08089,***,* ,*, *,3 or fewer,*
+"Ouray County(6)",08091,***,* ,*, *,3 or fewer,*
+"Park County(6)",08093,***,* ,*, *,3 or fewer,*
+"Phillips County(6)",08095,***,* ,*, *,3 or fewer,*
+"Pitkin County(6)",08097,***,* ,*, *,3 or fewer,*
+"Prowers County(6)",08099,***,* ,*, *,3 or fewer,*
+"Rio Blanco County(6)",08103,***,* ,*, *,3 or fewer,*
+"Rio Grande County(6)",08105,***,* ,*, *,3 or fewer,*
+"Routt County(6)",08107,***,* ,*, *,3 or fewer,*
+"Saguache County(6)",08109,***,* ,*, *,3 or fewer,*
+"San Juan County(6)",08111,***,* ,*, *,3 or fewer,*
+"San Miguel County(6)",08113,***,* ,*, *,3 or fewer,*
+"Sedgwick County(6)",08115,***,* ,*, *,3 or fewer,*
+"Summit County(6)",08117,***,* ,*, *,3 or fewer,*
+"Teller County(6)",08119,***,* ,*, *,3 or fewer,*
+"Washington County(6)",08121,***,* ,*, *,3 or fewer,*
+"Yuma County(6)",08125,***,* ,*, *,3 or fewer,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 4:59 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+
+Rates are computed using cancers classified as malignant based on ICD-O-3. For more information see malignant.html.
+
+"^ Late Stage is defined as cases determined to be regional or distant. Coding is generally based on Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ] but may include other staging variables if necessary."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

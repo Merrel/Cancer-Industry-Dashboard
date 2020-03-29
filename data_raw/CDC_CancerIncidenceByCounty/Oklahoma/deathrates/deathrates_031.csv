@@ -1,0 +1,118 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=40&areatype=county&cancer=001&race=00&sex=1&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '40', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '1', 'age': '001', 'type': 'death', 'file_name': 'deathrates_031.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=40&areatype=county&cancer=001&race=00&sex=1&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for Oklahoma by County
+
+"All Cancer Sites, 2012-2016"
+
+"All Races (includes Hispanic), Male, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 161.4?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Oklahoma",40000,No,222.1 ,219.1, 225.1,4358,falling,-1.0 ,-1.1, -0.9
+"United States",00000,No,193.1 ,192.8, 193.4,310576,falling,-1.8 ,-1.8, -1.8
+"Hughes County",40063,No,321 ,268.3, 381.3,27,stable,12.2 ,-0.6, 26.7
+"Okmulgee County",40111,No,286.7 ,256, 320.2,66,stable,-0.2 ,-0.6, 0.3
+"Choctaw County",40023,No,283.2 ,236.6, 337,28,stable,-0.1 ,-1.0, 0.8
+"Harmon County",40057,No,277.6 ,173.6, 424.3,5,stable,-0.1 ,-2.9, 2.9
+"Ottawa County",40115,No,274.7 ,241.5, 311.5,51,falling,-0.9 ,-1.5, -0.3
+"Creek County",40037,No,269.5 ,246.8, 293.8,110,stable,-0.4 ,-0.8, 0.1
+"Muskogee County",40101,No,264.5 ,241.4, 289.3,101,falling,-0.7 ,-1.2, -0.3
+"Seminole County",40133,No,263.5 ,227, 304.5,39,stable,0.1 ,-0.5, 0.7
+"Okfuskee County",40107,No,263.2 ,212.1, 323.2,19,stable,-0.3 ,-1.3, 0.7
+"Pushmataha County",40127,No,261.2 ,213.1, 318.3,21,stable,0.2 ,-1.3, 1.6
+"Carter County",40019,No,258.8 ,231.2, 288.8,67,falling,-0.8 ,-1.5, -0.1
+"Adair County",40001,No,257.8 ,217.8, 303.1,31,falling,-1.1 ,-1.9, -0.3
+"Mayes County",40097,No,257.1 ,228.4, 288.6,62,falling,-1.0 ,-1.8, -0.2
+"Ellis County",40045,No,254.4 ,175.9, 359.8,7,stable,-1.4 ,-3.2, 0.4
+"Haskell County",40061,No,253.1 ,205.6, 309,21,stable,-1.0 ,-2.3, 0.4
+"Custer County",40039,No,251.1 ,214.3, 292.4,34,stable,0.1 ,-0.9, 1.0
+"Craig County",40035,No,250.8 ,206.3, 302.7,23,falling,-1.4 ,-2.3, -0.5
+"Sequoyah County",40135,No,249.3 ,221.5, 279.8,62,falling,-1.2 ,-2.0, -0.4
+"Garvin County",40049,No,248.6 ,214.9, 286.3,40,stable,-0.1 ,-1.0, 0.7
+"Pittsburg County",40121,No,245.1 ,219.3, 273.2,68,falling,-1.3 ,-2.0, -0.6
+"Kiowa County",40075,No,244.8 ,188.7, 313.3,14,stable,-0.5 ,-1.9, 0.9
+"Pottawatomie County",40125,No,244.6 ,222, 268.8,91,falling,-0.6 ,-1.0, -0.1
+"McCurtain County",40089,No,242.8 ,212.1, 276.8,47,falling,-1.5 ,-2.3, -0.7
+"Le Flore County",40079,No,242 ,216.7, 269.4,71,falling,-1.2 ,-1.7, -0.8
+"Cotton County",40033,No,241.8 ,174.8, 327.7,9,stable,-0.6 ,-2.0, 0.8
+"Atoka County",40005,No,240.4 ,196.4, 291.9,22,rising,10.8 ,0.7, 22.0
+"Cimarron County",40025,No,239.5 ,148, 377.6,4,stable,0.5 ,-1.9, 2.9
+"Kay County",40071,No,236.5 ,211.2, 264.2,65,stable,-0.5 ,-1.1, 0.1
+"Grady County",40051,No,236.5 ,210.5, 264.7,66,falling,-1.0 ,-1.5, -0.4
+"Lincoln County",40081,No,236.3 ,206.7, 269.2,49,stable,-0.8 ,-1.8, 0.1
+"Pawnee County",40117,No,235.7 ,194.6, 283.4,24,stable,-0.5 ,-1.5, 0.5
+"Greer County",40055,No,231.7 ,168.3, 312.4,9,stable,-1.1 ,-2.4, 0.3
+"Jefferson County",40067,No,230.2 ,170.2, 306.7,10,stable,-0.6 ,-2.1, 0.9
+"Bryan County",40013,No,229.9 ,203.9, 258.5,59,falling,-1.6 ,-2.4, -0.7
+"Caddo County",40015,No,228.8 ,196.5, 265,37,stable,-0.2 ,-1.1, 0.7
+"Marshall County",40095,No,227 ,188, 272.6,26,falling,-1.4 ,-2.6, -0.1
+"Johnston County",40069,No,221.9 ,174, 279.9,15,stable,-0.7 ,-2.1, 0.7
+"Blaine County",40011,No,221.1 ,169.6, 284.2,13,stable,-0.3 ,-1.4, 0.9
+"Stephens County",40137,No,221.1 ,196.6, 248,61,stable,-0.5 ,-1.2, 0.2
+"Comanche County",40031,No,221 ,202.7, 240.4,113,falling,-1.3 ,-1.8, -0.8
+"Major County",40093,No,220.8 ,166.4, 289,11,stable,0.8 ,-0.8, 2.5
+"McClain County",40087,No,220.8 ,190.7, 254.4,41,falling,-1.3 ,-2.3, -0.3
+"Love County",40085,No,220.7 ,169.4, 283.6,13,stable,9.9 ,-9.5, 33.5
+"McIntosh County",40091,No,220 ,187.9, 256.9,36,falling,-1.0 ,-2.0, -0.1
+"Jackson County",40065,No,219.5 ,183.7, 260.2,28,stable,0.1 ,-0.7, 0.8
+"Kingfisher County",40073,No,219.4 ,176.1, 270.3,18,stable,-0.5 ,-1.7, 0.7
+"Oklahoma County",40109,No,218.3 ,211.1, 225.7,728,falling,-1.2 ,-1.4, -1.1
+"Nowata County",40105,No,218.1 ,171.6, 274.5,15,falling,-1.9 ,-3.4, -0.3
+"Garfield County",40047,No,217.9 ,195.5, 242.2,72,falling,-0.8 ,-1.1, -0.4
+"Tillman County",40141,No,217.2 ,161.1, 287.6,10,stable,8.4 ,-7.1, 26.5
+"Cherokee County",40021,No,216.6 ,191, 244.8,55,stable,-0.8 ,-1.5, 0.0
+"Delaware County",40041,No,214.1 ,190.6, 240,68,falling,-1.4 ,-2.1, -0.8
+"Tulsa County",40143,No,213.8 ,206.1, 221.7,614,falling,-1.3 ,-1.6, -1.1
+"Washington County",40147,No,213.8 ,191.4, 238.1,69,falling,-1.0 ,-1.6, -0.3
+"Rogers County",40131,No,211.6 ,193.5, 230.9,106,falling,-1.1 ,-1.6, -0.6
+"Pontotoc County",40123,No,209.2 ,181.7, 239.7,43,falling,-1.0 ,-1.8, -0.2
+"Cleveland County",40027,No,206.2 ,194.1, 218.9,231,falling,-0.6 ,-1.1, -0.1
+"Murray County",40099,No,204.7 ,164.8, 252.1,19,falling,-2.1 ,-3.2, -1.0
+"Woods County",40151,No,204 ,153.1, 267.3,11,stable,-1.2 ,-2.8, 0.5
+"Dewey County",40043,No,203.7 ,138.3, 291.9,6,stable,-0.7 ,-2.3, 0.8
+"Beckham County",40009,No,203.7 ,166.4, 246.5,22,falling,-1.6 ,-2.6, -0.6
+"Grant County",40053,No,202.8 ,135.4, 294.9,6,stable,-0.5 ,-2.5, 1.5
+"Latimer County",40077,No,199.4 ,157.4, 250.7,16,falling,-2.4 ,-3.5, -1.3
+"Osage County",40113,No,197.6 ,175.2, 222.3,60,falling,-1.3 ,-2.0, -0.6
+"Coal County",40029,No,195.2 ,133.1, 278,7,falling,-1.9 ,-3.7, -0.1
+"Noble County",40103,No,194.4 ,149.9, 248.6,13,falling,-2.0 ,-2.8, -1.2
+"Payne County",40119,No,191.5 ,170.4, 214.5,62,falling,-5.4 ,-9.5, -1.0
+"Texas County",40139,No,190.7 ,152, 235.9,18,falling,-1.3 ,-2.3, -0.2
+"Woodward County",40153,No,188.6 ,152.9, 230.1,20,stable,-0.4 ,-1.7, 1.0
+"Logan County",40083,No,188 ,163.4, 215.4,45,falling,-2.3 ,-3.2, -1.5
+"Wagoner County",40145,No,187.8 ,168.3, 208.9,75,falling,-1.4 ,-2.2, -0.6
+"Canadian County",40017,No,186.2 ,169.5, 203.9,102,falling,-1.3 ,-1.8, -0.8
+"Alfalfa County",40003,No,179.3 ,125.6, 250,7,stable,-0.7 ,-2.2, 0.9
+"Washita County",40149,Yes,160.1 ,119.3, 210.7,11,stable,-0.7 ,-2.2, 0.8
+"Roger Mills County",40129,Yes,151.7 ,86.9, 248.4,3,*,*,*,*
+"Beaver County",40007,Yes,146.6 ,94.4, 219.4,5,falling,-3.1 ,-4.8, -1.3
+"Harper County",40059,Yes,143.2 ,83, 233.8,3,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:01 pm.
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

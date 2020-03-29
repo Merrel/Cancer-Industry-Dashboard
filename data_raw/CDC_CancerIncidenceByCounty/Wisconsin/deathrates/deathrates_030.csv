@@ -1,0 +1,112 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=55&areatype=county&cancer=001&race=00&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '55', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '0', 'age': '001', 'type': 'death', 'file_name': 'deathrates_030.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=55&areatype=county&cancer=001&race=00&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for Wisconsin by County
+
+"All Cancer Sites, 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 161.4?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Wisconsin",55000,No,162.8 ,161.4, 164.1,11398,falling,-1.0 ,-1.1, -1.0
+"United States",00000,Yes,161 ,160.8, 161.1,590623,falling,-1.5 ,-1.6, -1.5
+"Ashland County",55003,No,214.3 ,186.7, 245.1,46,stable,-0.3 ,-1.1, 0.5
+"Iron County",55051,No,211.9 ,176.3, 256.1,26,stable,-0.7 ,-1.8, 0.5
+"Marquette County",55077,No,199 ,174.6, 226.5,51,stable,0.1 ,-0.6, 0.7
+"Rusk County",55107,No,199 ,173.1, 228.3,46,stable,-6.5 ,-12.9, 0.4
+"Adams County",55001,No,197.2 ,176.9, 219.8,74,stable,-0.3 ,-1.0, 0.3
+"Burnett County",55013,No,194.8 ,171.4, 221.4,54,stable,-0.6 ,-1.3, 0.1
+"Langlade County",55067,No,191 ,169.9, 214.5,62,stable,-0.5 ,-1.3, 0.3
+"Washburn County",55129,No,188.3 ,165.1, 214.6,51,stable,-0.9 ,-1.8, 0.1
+"Lincoln County",55069,No,186.5 ,168.4, 206.5,81,falling,-0.9 ,-1.5, -0.4
+"Douglas County",55031,No,186.1 ,170.2, 203.1,106,falling,-1.4 ,-1.7, -1.1
+"Juneau County",55057,No,183.5 ,164.7, 204.1,72,falling,-0.9 ,-1.6, -0.2
+"Oneida County",55085,No,182 ,166.7, 198.6,112,falling,-0.6 ,-1.1, -0.2
+"Sawyer County",55113,No,180.4 ,157.6, 206.3,49,falling,-1.1 ,-1.8, -0.4
+"Milwaukee County",55079,No,178.8 ,175, 182.7,1768,falling,-1.1 ,-1.2, -0.9
+"Kenosha County",55059,No,178.7 ,169.7, 188,311,falling,-0.9 ,-1.2, -0.6
+"Crawford County",55023,No,178.4 ,155.1, 204.7,44,stable,-0.5 ,-1.3, 0.3
+"Sauk County",55111,No,178.3 ,165.4, 192,149,stable,-0.5 ,-0.9, 0.0
+"Marinette County",55075,No,177.4 ,163.2, 192.7,121,falling,-0.9 ,-1.4, -0.4
+"Price County",55099,No,176.7 ,153.6, 203.2,44,stable,-0.4 ,-1.3, 0.4
+"Florence County",55037,No,176.1 ,134.6, 230.2,13,stable,-0.2 ,-1.7, 1.4
+"Green Lake County",55047,No,175.4 ,154.4, 198.8,53,stable,-0.3 ,-1.1, 0.5
+"Rock County",55105,No,174.9 ,166.5, 183.5,339,falling,-0.8 ,-1.2, -0.5
+"Walworth County",55127,No,173 ,162.6, 184,214,falling,-0.9 ,-1.3, -0.6
+"Monroe County",55081,No,172.1 ,156.7, 188.8,95,stable,-0.6 ,-1.2, 0.0
+"Lafayette County",55065,No,171.9 ,147.9, 199,38,stable,-0.7 ,-1.5, 0.0
+"Door County",55029,No,171.3 ,154.3, 190.1,85,falling,-0.8 ,-1.4, -0.2
+"Forest County",55041,No,170.9 ,142.3, 204.7,26,stable,-0.9 ,-1.9, 0.2
+"Columbia County",55021,No,170.5 ,157.1, 184.9,123,falling,-0.9 ,-1.3, -0.5
+"Menominee County",55078,No,170.1 ,116, 240,7,falling,-2.8 ,-4.5, -1.1
+"Oconto County",55083,No,169.2 ,153.5, 186.2,89,falling,-0.8 ,-1.5, -0.2
+"Jackson County",55053,No,168.8 ,147.6, 192.5,47,falling,-1.3 ,-2.0, -0.7
+"Waushara County",55137,No,168.7 ,150.4, 188.9,66,falling,-0.9 ,-1.7, -0.2
+"Shawano County",55115,No,168.2 ,153.7, 183.9,104,falling,-0.6 ,-1.0, -0.1
+"Buffalo County",55011,No,168.2 ,143.5, 196.5,35,falling,-1.0 ,-1.8, -0.2
+"Manitowoc County",55071,No,165.8 ,155.2, 177,194,falling,-0.9 ,-1.3, -0.5
+"Eau Claire County",55035,No,164.5 ,153.9, 175.7,187,falling,-1.1 ,-1.6, -0.6
+"Fond du Lac County",55039,No,164.5 ,154.7, 174.8,222,falling,-0.7 ,-1.1, -0.3
+"Calumet County",55015,No,164 ,148.8, 180.3,88,stable,-0.9 ,-1.8, 0.0
+"Waupaca County",55135,No,163.6 ,150.9, 177.3,130,falling,-0.9 ,-1.4, -0.5
+"Dodge County",55027,No,163.1 ,152.7, 174.1,189,falling,-3.0 ,-4.8, -1.1
+"Pepin County",55091,No,162.6 ,129.7, 202.5,18,stable,-0.9 ,-2.4, 0.6
+"Chippewa County",55017,No,162.1 ,149.8, 175.2,133,falling,-1.0 ,-1.6, -0.5
+"Jefferson County",55055,No,161.8 ,150.7, 173.7,161,falling,-1.4 ,-1.7, -1.0
+"Racine County",55101,No,161.4 ,154.1, 169,379,falling,-1.2 ,-1.5, -0.8
+"Vernon County",55123,Yes,160.9 ,143.8, 179.6,68,falling,-0.6 ,-1.2, -0.1
+"Vilas County",55125,Yes,160.7 ,143, 180.7,69,falling,-1.3 ,-2.0, -0.6
+"St. Croix County",55109,Yes,160.5 ,148.3, 173.4,136,falling,-0.9 ,-1.4, -0.3
+"Iowa County",55049,Yes,160.2 ,140.3, 182.3,49,falling,-0.9 ,-1.6, -0.1
+"Brown County",55009,Yes,160.1 ,153.4, 167.1,440,falling,-0.8 ,-1.1, -0.6
+"Polk County",55095,Yes,160 ,146, 175.2,100,falling,-1.1 ,-1.6, -0.6
+"Clark County",55019,Yes,159.6 ,143.1, 177.6,71,falling,-1.0 ,-1.6, -0.4
+"Grant County",55043,Yes,157.3 ,143.8, 171.9,105,falling,-0.7 ,-1.2, -0.2
+"Sheboygan County",55117,Yes,157.2 ,148, 166.7,231,falling,-0.9 ,-1.4, -0.5
+"Winnebago County",55139,Yes,156.9 ,149.1, 165,315,falling,-1.0 ,-1.3, -0.7
+"Dunn County",55033,Yes,156.6 ,140.9, 173.5,77,stable,-0.5 ,-1.1, 0.1
+"Barron County",55005,Yes,156.2 ,142.9, 170.6,106,falling,-1.1 ,-1.5, -0.7
+"Green County",55045,Yes,156.1 ,140.4, 173.3,75,stable,-0.6 ,-1.2, 0.1
+"Bayfield County",55007,Yes,155.3 ,133.4, 180.6,40,falling,-1.6 ,-2.6, -0.6
+"La Crosse County",55063,Yes,154.6 ,145.2, 164.4,212,falling,-1.3 ,-1.6, -0.9
+"Trempealeau County",55121,Yes,151.1 ,133.9, 170,58,falling,-0.6 ,-1.2, -0.1
+"Ozaukee County",55089,Yes,151 ,141.1, 161.4,183,falling,-1.3 ,-1.7, -0.9
+"Marathon County",55073,Yes,148.8 ,140.7, 157.3,258,falling,-1.1 ,-1.5, -0.7
+"Dane County",55025,Yes,148.7 ,143.9, 153.7,748,falling,-1.1 ,-1.3, -0.8
+"Wood County",55141,Yes,148.4 ,138.2, 159.3,163,falling,-1.1 ,-1.4, -0.9
+"Waukesha County",55133,Yes,147.7 ,143, 152.5,770,falling,-1.3 ,-1.5, -1.1
+"Outagamie County",55087,Yes,145.5 ,138, 153.4,287,falling,-1.4 ,-1.8, -1.1
+"Richland County",55103,Yes,145.5 ,125.6, 168.1,41,falling,-1.6 ,-2.3, -0.9
+"Pierce County",55093,Yes,143 ,127.1, 160.5,61,falling,-1.1 ,-1.9, -0.4
+"Washington County",55131,Yes,141.7 ,133.6, 150.1,239,falling,-1.2 ,-1.6, -0.8
+"Portage County",55097,Yes,140.4 ,128.9, 152.8,114,falling,-1.2 ,-1.7, -0.7
+"Kewaunee County",55061,Yes,137.9 ,119.2, 158.9,41,falling,-1.6 ,-2.4, -0.9
+"Taylor County",55119,Yes,127.5 ,109.3, 148.2,37,falling,-1.8 ,-2.6, -0.9
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:02 pm.
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

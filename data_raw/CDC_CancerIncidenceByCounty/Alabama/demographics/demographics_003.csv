@@ -1,0 +1,88 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=01&areatype=county&topic=ed&demo=00006&race=00&sex=0&age=081&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '01', 'areatype': 'county', 'topic': 'ed', 'demo': '00006', 'race': '00', 'sex': '0', 'age': '081', 'type': 'manyareacensus', 'file_name': 'demographics_003.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=01&areatype=county&topic=ed&demo=00006&race=00&sex=0&age=081&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Alabama by County
+Education: At least bachelors degree
+Population Ages 25+
+"All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Education: At Least Bachelors Degree),Rank within US
+"Alabama",01000,24.5,803578,"46 of 52"
+"United States",00000,30.9,66887603,"N/A"
+"Conecuh County",01035,8.8,768,"3095 of 3141"
+"Lawrence County",01079,10.2,2380,"3023 of 3141"
+"Clay County",01027,10.3,970,"3016 of 3141"
+"Washington County",01129,10.7,1238,"2985 of 3141"
+"Coosa County",01037,11.0,892,"2955 of 3141"
+"Walker County",01127,11.1,5010,"2945 of 3141"
+"Geneva County",01061,11.1,2076,"2940 of 3141"
+"Greene County",01063,11.4,663,"2908 of 3141"
+"Choctaw County",01023,11.6,1100,"2878 of 3141"
+"Pickens County",01107,11.8,1679,"2855 of 3141"
+"Wilcox County",01131,12.0,868,"2838 of 3141"
+"Barbour County",01005,12.0,2218,"2832 of 3141"
+"Escambia County",01053,12.1,3146,"2806 of 3141"
+"Cleburne County",01029,12.4,1283,"2780 of 3141"
+"Monroe County",01099,12.5,1843,"2761 of 3141"
+"Cherokee County",01019,12.5,2344,"2758 of 3141"
+"Winston County",01133,12.9,2230,"2678 of 3141"
+"Clarke County",01025,13.0,2193,"2672 of 3141"
+"DeKalb County",01049,13.0,6202,"2664 of 3141"
+"Blount County",01009,13.1,5172,"2644 of 3141"
+"Bibb County",01007,13.2,2097,"2624 of 3141"
+"Lamar County",01075,13.3,1317,"2621 of 3141"
+"Chambers County",01017,13.3,3158,"2610 of 3141"
+"Jackson County",01071,13.4,4956,"2603 of 3141"
+"Franklin County",01059,13.4,2778,"2601 of 3141"
+"Bullock County",01011,13.4,990,"2596 of 3141"
+"Marion County",01093,13.4,2878,"2590 of 3141"
+"Talladega County",01121,13.6,7606,"2577 of 3141"
+"Lowndes County",01085,13.7,971,"2539 of 3141"
+"Dallas County",01047,14.2,3809,"2461 of 3141"
+"Hale County",01065,14.4,1464,"2423 of 3141"
+"Randolph County",01111,14.6,2269,"2388 of 3141"
+"Fayette County",01057,14.6,1712,"2379 of 3141"
+"Cullman County",01043,14.9,8457,"2322 of 3141"
+"Chilton County",01021,15.1,4484,"2291 of 3141"
+"Marengo County",01091,15.4,2089,"2229 of 3141"
+"Covington County",01039,15.5,4099,"2208 of 3141"
+"St. Clair County",01115,16.0,9643,"2106 of 3141"
+"Butler County",01013,16.1,2253,"2080 of 3141"
+"Crenshaw County",01041,16.3,1562,"2052 of 3141"
+"Dale County",01045,16.8,5587,"1974 of 3141"
+"Russell County",01113,16.9,6536,"1956 of 3141"
+"Etowah County",01055,16.9,12119,"1955 of 3141"
+"Perry County",01105,16.9,991,"1949 of 3141"
+"Henry County",01067,17.1,2074,"1917 of 3141"
+"Marshall County",01095,17.7,11212,"1806 of 3141"
+"Calhoun County",01015,17.9,14113,"1779 of 3141"
+"Tallapoosa County",01123,18.2,5210,"1720 of 3141"
+"Sumter County",01119,18.2,1502,"1718 of 3141"
+"Colbert County",01033,18.8,7207,"1619 of 3141"
+"Macon County",01087,20.1,2466,"1392 of 3141"
+"Morgan County",01103,20.9,17142,"1245 of 3141"
+"Houston County",01069,20.9,14903,"1240 of 3141"
+"Lauderdale County",01077,22.5,14230,"1051 of 3141"
+"Coffee County",01031,22.7,7877,"1024 of 3141"
+"Elmore County",01051,22.8,12629,"997 of 3141"
+"Mobile County",01097,23.0,63545,"975 of 3141"
+"Limestone County",01083,24.6,15494,"828 of 3141"
+"Pike County",01109,24.7,4860,"819 of 3141"
+"Autauga County",01001,25.0,9176,"805 of 3141"
+"Tuscaloosa County",01125,30.2,37825,"470 of 3141"
+"Baldwin County",01003,30.7,43968,"443 of 3141"
+"Jefferson County",01073,31.9,142679,"378 of 3141"
+"Montgomery County",01101,32.3,48163,"365 of 3141"
+"Lee County",01081,34.9,32222,"268 of 3141"
+"Madison County",01089,40.6,97322,"144 of 3141"
+"Shelby County",01117,42.2,59659,"120 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 4:58 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Education: At least bachelors degree, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#education."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

@@ -1,0 +1,44 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=24&areatype=county&topic=pop&demo=00029&race=00&sex=0&age=999&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '24', 'areatype': 'county', 'topic': 'pop', 'demo': '00029', 'race': '00', 'sex': '0', 'age': '999', 'type': 'manyareacensus', 'file_name': 'demographics_017.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=24&areatype=county&topic=pop&demo=00029&race=00&sex=0&age=999&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Maryland by County
+Population: Age 50 and over
+"All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Age 50 And Over),Rank within US
+"United States",00000,34.5,110609456,"N/A"
+"Maryland",24000,34.7,2079910,"31 of 52"
+"Prince Georges County",24033,31.5,285075,"2768 of 3141"
+"Baltimore City",24510,31.9,197524,"2743 of 3141"
+"Charles County",24017,32.0,49973,"2721 of 3141"
+"St. Marys County",24037,32.0,35565,"2719 of 3141"
+"Howard County",24027,33.4,104303,"2584 of 3141"
+"Wicomico County",24045,33.9,34538,"2525 of 3141"
+"Anne Arundel County",24003,34.3,193666,"2452 of 3141"
+"Montgomery County",24031,34.4,357471,"2446 of 3141"
+"Frederick County",24021,34.5,84941,"2435 of 3141"
+"Somerset County",24039,35.2,9073,"2325 of 3141"
+"Washington County",24043,36.6,54726,"2104 of 3141"
+"Cecil County",24015,36.7,37536,"2098 of 3141"
+"Baltimore County",24005,36.7,303926,"2092 of 3141"
+"Calvert County",24009,36.7,33345,"2081 of 3141"
+"Harford County",24025,36.9,92356,"2039 of 3141"
+"Caroline County",24011,37.0,12119,"2032 of 3141"
+"Carroll County",24013,38.7,64755,"1644 of 3141"
+"Allegany County",24001,39.3,28564,"1494 of 3141"
+"Queen Annes County",24035,41.4,20306,"1022 of 3141"
+"Dorchester County",24019,42.9,13879,"780 of 3141"
+"Garrett County",24023,43.9,12961,"632 of 3141"
+"Kent County",24029,46.8,9200,"351 of 3141"
+"Worcester County",24047,49.5,25545,"193 of 3141"
+"Talbot County",24041,49.6,18563,"192 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:01 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Age 50 and over, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

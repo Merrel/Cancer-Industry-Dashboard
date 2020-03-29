@@ -1,0 +1,140 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=19&areatype=county&cancer=020&stage=211&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '19', 'areatype': 'county', 'cancer': '020', 'stage': '211', 'race': '00', 'sex': '0', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_044.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=19&areatype=county&cancer=020&stage=211&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Iowa by County
+
+"Colon & Rectum (Late Stage^), 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Percent of Cases with Late Stage
+"Iowa(3)",19000,***,25.5 ,24.8, 26.3,954,57.1
+"US (SEER+NPCR)(1)",00000,***,21.5 ,21.5, 21.6,78225,55.5
+"Monroe County(7)",19135,***,46.2 ,30, 69,5,77.1
+"Pocahontas County(7)",19151,***,44.2 ,27.5, 68.8,5,70.6
+"Decatur County(7)",19053,***,43.7 ,26.6, 68.4,4,71.0
+"Cass County(7)",19029,***,40.5 ,28.2, 57,8,55.7
+"Emmet County(7)",19063,***,40.5 ,27.5, 58.7,6,71.1
+"Palo Alto County(7)",19147,***,40.4 ,23.8, 64.1,4,53.8
+"Osceola County(7)",19143,***,38 ,20.9, 64.7,3,60.7
+"Appanoose County(7)",19007,***,37.1 ,25.3, 53.2,7,68.6
+"Union County(7)",19175,***,36.8 ,23.8, 54.4,6,68.3
+"Calhoun County(7)",19025,***,35.9 ,23.1, 54.3,5,69.2
+"Adair County(7)",19001,***,35.9 ,22.8, 56.1,5,72.7
+"Keokuk County(7)",19107,***,35.2 ,23.1, 52.4,6,65.9
+"Montgomery County(7)",19137,***,33.8 ,21.1, 52.1,5,66.7
+"Jackson County(7)",19097,***,33.7 ,24.4, 45.8,9,61.3
+"Muscatine County(7)",19139,***,33.7 ,26.8, 41.9,17,58.6
+"Humboldt County(7)",19091,***,33.2 ,20.2, 52.2,5,57.5
+"Greene County(7)",19073,***,33.1 ,20.6, 51.6,5,60.0
+"Harrison County(7)",19085,***,33 ,22.9, 46.7,7,61.4
+"Shelby County(7)",19165,***,32.6 ,21.9, 47.6,6,53.3
+"Guthrie County(7)",19077,***,32.3 ,21.2, 48.3,6,58.3
+"Henry County(7)",19087,***,31.9 ,22.4, 44.2,8,52.0
+"Plymouth County(7)",19149,***,31.8 ,23.4, 42.4,10,68.4
+"Clay County(7)",19041,***,31.6 ,21.6, 45,7,69.2
+"Grundy County(7)",19075,***,31.4 ,19.5, 48,5,52.2
+"Monona County(7)",19133,***,31 ,19.3, 48.7,5,57.5
+"Tama County(7)",19171,***,30.2 ,21.5, 41.8,8,60.0
+"Lucas County(7)",19117,***,30.1 ,17.9, 48.6,4,70.4
+"O'Brien County(7)",19141,***,29.9 ,20.2, 43.4,7,57.6
+"Franklin County(7)",19069,***,29.9 ,17.9, 47.5,4,56.8
+"Woodbury County(7)",19193,***,29.9 ,25.5, 34.8,34,57.2
+"Madison County(7)",19121,***,29.5 ,19.4, 43.2,6,62.2
+"Iowa County(7)",19095,***,29.1 ,19.3, 42.4,6,54.4
+"Marion County(7)",19125,***,28.9 ,21.9, 37.5,12,57.7
+"Jefferson County(7)",19101,***,28.8 ,19.3, 41.9,7,75.0
+"Wapello County(7)",19179,***,28.8 ,22.1, 37,13,53.2
+"Ida County(7)",19093,***,28.7 ,16.7, 48.2,4,69.2
+"Mills County(7)",19129,***,28.6 ,18.3, 42.9,5,54.2
+"Howard County(7)",19089,***,28.5 ,16.6, 46.3,4,61.3
+"Winnebago County(7)",19189,***,28.1 ,16.1, 45.9,4,67.9
+"Hardin County(7)",19083,***,27.4 ,18.4, 39.6,7,51.5
+"Clayton County(7)",19043,***,27.3 ,18.3, 39.5,7,62.5
+"Des Moines County(7)",19057,***,27.3 ,21.3, 34.5,15,59.5
+"Dickinson County(7)",19059,***,27 ,18, 39.4,7,50.0
+"Chickasaw County(7)",19037,***,26.9 ,17.2, 41,5,72.7
+"Buchanan County(7)",19019,***,26.8 ,18.3, 38,7,61.1
+"Washington County(7)",19183,***,26 ,18.3, 36.1,8,58.8
+"Warren County(7)",19181,***,25.9 ,20.2, 32.8,15,58.4
+"Louisa County(7)",19115,***,25.9 ,15.4, 41.4,4,73.1
+"Jasper County(7)",19099,***,25.7 ,19.7, 33,13,51.2
+"Scott County(7)",19163,***,25.5 ,22.3, 29.1,48,62.2
+"Lee County(7)",19111,***,25.5 ,19.5, 32.9,13,58.6
+"Delaware County(7)",19055,***,25.4 ,16.9, 36.9,6,57.7
+"Hancock County(7)",19081,***,25.3 ,16.2, 39,5,56.8
+"Mitchell County(7)",19131,***,25.1 ,15.4, 39.7,4,67.7
+"Polk County(7)",19153,***,25 ,23, 27.2,112,57.5
+"Mahaska County(7)",19123,***,24.8 ,17.1, 35,7,60.0
+"Page County(7)",19145,***,24.8 ,16.3, 36.7,6,50.9
+"Carroll County(7)",19027,***,24.7 ,17.1, 34.9,8,50.6
+"Pottawattamie County(7)",19155,***,24.6 ,20.6, 29.3,27,51.3
+"Webster County(7)",19187,***,24.6 ,18.7, 32,12,57.4
+"Poweshiek County(7)",19157,***,24.5 ,16.5, 35.4,7,57.9
+"Kossuth County(7)",19109,***,24.3 ,16.3, 35.8,6,52.6
+"Cedar County(7)",19031,***,24.2 ,15.9, 35.7,6,58.3
+"Allamakee County(7)",19005,***,24.1 ,15.3, 36.7,5,58.1
+"Lyon County(7)",19119,***,24 ,14, 38.9,4,46.2
+"Cerro Gordo County(7)",19033,***,23.6 ,18.3, 30.2,14,51.4
+"Floyd County(7)",19067,***,23.2 ,14.9, 34.9,5,50.0
+"Fayette County(7)",19065,***,22.7 ,15.8, 32.2,7,47.4
+"Dallas County(7)",19049,***,22.5 ,17.8, 28.1,16,68.1
+"Johnson County(7)",19103,***,22.4 ,18.5, 26.7,25,56.7
+"Black Hawk County(7)",19013,***,22.3 ,19, 26.1,34,57.2
+"Clinton County(7)",19045,***,22.3 ,17.3, 28.4,14,50.3
+"Story County(7)",19169,***,22.2 ,17.7, 27.5,18,55.6
+"Crawford County(7)",19047,***,21.8 ,13.8, 32.9,5,56.8
+"Dubuque County(7)",19061,***,21.7 ,18.1, 26,26,52.7
+"Jones County(7)",19105,***,21.4 ,14.6, 30.8,6,48.5
+"Boone County(7)",19015,***,21.3 ,14.7, 30.1,7,57.1
+"Linn County(7)",19113,***,21.3 ,18.7, 24.1,51,55.0
+"Buena Vista County(7)",19021,***,21 ,13.6, 31,5,50.9
+"Butler County(7)",19023,***,20.5 ,11.9, 33,4,53.8
+"Wright County(7)",19197,***,19.9 ,11.9, 32.2,4,51.2
+"Winneshiek County(7)",19191,***,19.3 ,12.3, 29.2,5,51.0
+"Marshall County(7)",19127,***,19.3 ,14.2, 25.7,10,43.2
+"Bremer County(7)",19017,***,19 ,12.9, 27.2,7,62.3
+"Hamilton County(7)",19079,***,19 ,11, 30.8,4,47.5
+"Benton County(7)",19011,***,18.9 ,12.7, 27.2,6,53.4
+"Cherokee County(7)",19035,***,18.6 ,11.2, 30.6,4,48.8
+"Sioux County(7)",19167,***,18.2 ,12.5, 25.7,7,56.5
+"Adams County(7)",19003,***,* ,*, *,3 or fewer,*
+"Audubon County(7)",19009,***,* ,*, *,3 or fewer,*
+"Clarke County(7)",19039,***,* ,*, *,3 or fewer,*
+"Davis County(7)",19051,***,* ,*, *,3 or fewer,*
+"Fremont County(7)",19071,***,* ,*, *,3 or fewer,*
+"Ringgold County(7)",19159,***,* ,*, *,3 or fewer,*
+"Sac County(7)",19161,***,* ,*, *,3 or fewer,*
+"Taylor County(7)",19173,***,* ,*, *,3 or fewer,*
+"Van Buren County(7)",19177,***,* ,*, *,3 or fewer,*
+"Wayne County(7)",19185,***,* ,*, *,3 or fewer,*
+"Worth County(7)",19195,***,* ,*, *,3 or fewer,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 4:57 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+
+Rates are computed using cancers classified as malignant based on ICD-O-3. For more information see malignant.html.
+
+"^ Late Stage is defined as cases determined to be regional or distant. Coding is generally based on Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ] but may include other staging variables if necessary."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+3 Source: SEER November 2018 submission.  State Cancer Registry also receives funding from CDC's National Program of Cancer Registries.
+7 Source: SEER November 2018 submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

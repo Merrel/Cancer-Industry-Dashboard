@@ -1,0 +1,70 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=49&areatype=county&cancer=020&stage=211&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '49', 'areatype': 'county', 'cancer': '020', 'stage': '211', 'race': '00', 'sex': '0', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_044.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=49&areatype=county&cancer=020&stage=211&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Utah by County
+
+"Colon & Rectum (Late Stage^), 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Percent of Cases with Late Stage
+"Utah(3)",49000,***,15.8 ,15.1, 16.6,390,53.4
+"US (SEER+NPCR)(1)",00000,***,21.5 ,21.5, 21.6,78225,55.5
+"Uintah County(7)",49047,***,32 ,23.2, 42.8,9,66.7
+"Iron County(7)",49021,***,23.1 ,16.8, 30.9,9,56.6
+"Carbon County(7)",49007,***,23.1 ,15.3, 33.7,6,58.0
+"Wasatch County(7)",49051,***,21.5 ,13.7, 32.1,5,59.5
+"Washington County(7)",49053,***,16.8 ,14.1, 20,30,53.7
+"Tooele County(7)",49045,***,16.6 ,11.8, 22.6,8,63.6
+"Salt Lake County(7)",49035,***,15.8 ,14.7, 17,149,55.7
+"Sevier County(7)",49041,***,15.6 ,9.1, 25,4,51.4
+"Utah County(7)",49049,***,15.6 ,13.8, 17.6,55,50.2
+"Weber County(7)",49057,***,15.4 ,13.1, 18,34,50.3
+"Cache County(7)",49005,***,13.9 ,10.6, 18,12,51.3
+"Box Elder County(7)",49003,***,13.8 ,9.5, 19.3,7,45.3
+"Davis County(7)",49011,***,13.6 ,11.6, 15.8,35,49.4
+"Sanpete County(7)",49039,***,10.9 ,6.2, 17.9,3,53.3
+"Beaver County(7)",49001,***,* ,*, *,3 or fewer,*
+"Daggett County(7)",49009,***,* ,*, *,3 or fewer,*
+"Duchesne County(7)",49013,***,* ,*, *,3 or fewer,*
+"Emery County(7)",49015,***,* ,*, *,3 or fewer,*
+"Garfield County(7)",49017,***,* ,*, *,3 or fewer,*
+"Grand County(7)",49019,***,* ,*, *,3 or fewer,*
+"Juab County(7)",49023,***,* ,*, *,3 or fewer,*
+"Kane County(7)",49025,***,* ,*, *,3 or fewer,*
+"Millard County(7)",49027,***,* ,*, *,3 or fewer,*
+"Morgan County(7)",49029,***,* ,*, *,3 or fewer,*
+"Piute County(7)",49031,***,* ,*, *,3 or fewer,*
+"Rich County(7)",49033,***,* ,*, *,3 or fewer,*
+"San Juan County(7)",49037,***,* ,*, *,3 or fewer,*
+"Summit County(7)",49043,***,* ,*, *,3 or fewer,*
+"Wayne County(7)",49055,***,* ,*, *,3 or fewer,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:03 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+
+Rates are computed using cancers classified as malignant based on ICD-O-3. For more information see malignant.html.
+
+"^ Late Stage is defined as cases determined to be regional or distant. Coding is generally based on Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ] but may include other staging variables if necessary."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+3 Source: SEER November 2018 submission.  State Cancer Registry also receives funding from CDC's National Program of Cancer Registries.
+7 Source: SEER November 2018 submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

@@ -1,0 +1,143 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=17&areatype=county&cancer=001&race=00&sex=0&age=009&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '17', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '0', 'age': '009', 'type': 'death', 'file_name': 'deathrates_035.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=17&areatype=county&cancer=001&race=00&sex=0&age=009&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for Illinois by County
+
+"All Cancer Sites, 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, Ages <50"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 161.4?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Illinois",17000,Yes,15.8 ,15.4, 16.1,1301,falling,-2.2 ,-2.3, -2.1
+"United States",00000,Yes,16 ,15.9, 16.1,32304,falling,-1.9 ,-2.0, -1.9
+"Union County",17181,Yes,35.4 ,21.2, 55.5,4,*,*,*,*
+"Clark County",17023,Yes,34.9 ,20.3, 56.1,3,*,*,*,*
+"Woodford County",17203,Yes,29.2 ,20.2, 40.8,7,stable,1.5 ,-1.0, 4.0
+"Saline County",17165,Yes,27 ,16.2, 42.2,4,stable,0.2 ,-1.7, 2.0
+"Franklin County",17055,Yes,26.7 ,18.2, 37.7,6,stable,-0.7 ,-2.5, 1.1
+"Perry County",17145,Yes,25.5 ,14.9, 41,3,stable,-0.7 ,-3.2, 1.9
+"Marion County",17121,Yes,24.9 ,16.4, 36.2,5,stable,-0.7 ,-2.7, 1.2
+"Vermilion County",17183,Yes,24.7 ,18.7, 32,11,stable,-0.6 ,-1.9, 0.6
+"Macoupin County",17117,Yes,23.5 ,16.1, 33,7,stable,-0.8 ,-2.5, 0.9
+"Iroquois County",17075,Yes,22.2 ,13.1, 35.2,4,stable,-1.6 ,-3.5, 0.4
+"Winnebago County",17201,Yes,22.1 ,19.1, 25.4,40,stable,-0.5 ,-1.3, 0.4
+"McDonough County",17109,Yes,21.5 ,12.3, 34.7,3,stable,-1.1 ,-3.3, 1.1
+"St. Clair County",17163,Yes,21.2 ,18.2, 24.5,36,falling,-2.2 ,-2.9, -1.4
+"Whiteside County",17195,Yes,20.9 ,14.6, 29,7,stable,-0.5 ,-2.0, 1.0
+"Logan County",17107,Yes,20.6 ,12.3, 32.2,4,stable,-0.2 ,-2.4, 2.1
+"Lee County",17103,Yes,20.5 ,13, 31,5,stable,-0.6 ,-2.7, 1.6
+"Sangamon County",17167,Yes,20.5 ,17, 24.4,25,falling,-1.3 ,-2.3, -0.2
+"Jefferson County",17081,Yes,20.2 ,13.1, 29.9,5,stable,-0.8 ,-2.1, 0.6
+"Morgan County",17137,Yes,20.2 ,12.5, 30.9,4,stable,-0.6 ,-2.6, 1.3
+"Clinton County",17027,Yes,19.6 ,12.5, 29.3,5,*,*,*,*
+"Rock Island County",17161,Yes,19.5 ,15.5, 24.2,16,stable,-0.4 ,-2.0, 1.1
+"Macon County",17115,Yes,19.3 ,14.7, 24.9,12,stable,-0.7 ,-1.9, 0.6
+"Tazewell County",17179,Yes,19.1 ,15.1, 23.9,16,falling,-1.3 ,-2.3, -0.2
+"La Salle County",17099,Yes,18.8 ,14.5, 24,13,stable,-1.1 ,-2.3, 0.1
+"Stephenson County",17177,Yes,18.5 ,11.8, 27.6,5,*,*,*,*
+"Montgomery County",17135,Yes,18.2 ,10.3, 29.6,3,stable,-0.4 ,-2.9, 2.1
+"Williamson County",17199,Yes,18.2 ,12.8, 25,8,falling,-1.6 ,-3.0, -0.2
+"Jackson County",17077,Yes,17.9 ,11.6, 26.3,5,stable,0.4 ,-1.5, 2.2
+"Knox County",17095,Yes,17.8 ,11.7, 25.9,5,stable,-1.6 ,-3.2, 0.0
+"Madison County",17119,Yes,17.7 ,14.9, 20.8,29,stable,-0.5 ,-2.2, 1.1
+"Livingston County",17105,Yes,17 ,10.2, 26.5,4,stable,0.0 ,-2.8, 2.9
+"Kankakee County",17091,Yes,16.9 ,12.8, 21.9,11,falling,-1.8 ,-3.0, -0.7
+"Bureau County",17011,Yes,16.7 ,9.5, 27.2,3,stable,-0.9 ,-2.7, 1.0
+"Peoria County",17143,Yes,16.3 ,13.1, 20,18,falling,-1.6 ,-2.8, -0.4
+"Cook County",17031,Yes,16.1 ,15.5, 16.7,547,falling,-2.6 ,-2.9, -2.4
+"Kendall County",17093,Yes,15.4 ,12, 19.5,14,falling,-2.1 ,-3.8, -0.3
+"Adams County",17001,Yes,14.8 ,9.9, 21.3,6,falling,-2.2 ,-4.1, -0.3
+"Henry County",17073,Yes,14.3 ,8.8, 21.8,4,stable,-0.7 ,-2.7, 1.4
+"Champaign County",17019,Yes,14.2 ,11.1, 17.8,15,falling,-2.1 ,-3.1, -1.0
+"Coles County",17029,Yes,13.9 ,8.2, 21.8,4,stable,-1.2 ,-3.8, 1.3
+"Grundy County",17063,Yes,13.7 ,8.7, 20.5,5,*,*,*,*
+"DeKalb County",17037,Yes,13.5 ,9.6, 18.3,8,falling,-3.1 ,-4.4, -1.7
+"Ogle County",17141,Yes,13.3 ,8.1, 20.5,4,falling,-3.1 ,-4.7, -1.4
+"McLean County",17113,Yes,13.1 ,10.1, 16.7,13,falling,-8.8 ,-12.3, -5.2
+"Kane County",17089,Yes,13 ,11.4, 14.8,46,falling,-2.6 ,-3.3, -1.8
+"Will County",17197,Yes,12.9 ,11.5, 14.4,63,falling,-2.2 ,-2.9, -1.4
+"McHenry County",17111,Yes,12.8 ,10.7, 15.1,27,falling,-1.3 ,-2.2, -0.5
+"Lake County",17097,Yes,12.7 ,11.3, 14.3,59,falling,-2.0 ,-2.7, -1.3
+"Boone County",17007,Yes,11.4 ,7, 17.7,4,stable,-1.2 ,-3.3, 1.0
+"DuPage County",17043,Yes,11.4 ,10.3, 12.7,70,falling,-2.5 ,-3.1, -1.9
+"Alexander County",17003,***,* ,*, *,3 or fewer,*,*,*,*
+"Bond County",17005,***,* ,*, *,3 or fewer,*,*,*,*
+"Brown County",17009,***,* ,*, *,3 or fewer,*,*,*,*
+"Calhoun County",17013,***,* ,*, *,3 or fewer,*,*,*,*
+"Carroll County",17015,***,* ,*, *,3 or fewer,*,*,*,*
+"Cass County",17017,***,* ,*, *,3 or fewer,*,*,*,*
+"Christian County",17021,***,* ,*, *,3 or fewer,*,*,*,*
+"Clay County",17025,***,* ,*, *,3 or fewer,*,*,*,*
+"Crawford County",17033,***,* ,*, *,3 or fewer,*,*,*,*
+"Cumberland County",17035,***,* ,*, *,3 or fewer,*,*,*,*
+"De Witt County",17039,***,* ,*, *,3 or fewer,*,*,*,*
+"Douglas County",17041,***,* ,*, *,3 or fewer,*,*,*,*
+"Edgar County",17045,***,* ,*, *,3 or fewer,*,*,*,*
+"Edwards County",17047,***,* ,*, *,3 or fewer,*,*,*,*
+"Effingham County",17049,***,* ,*, *,3 or fewer,*,*,*,*
+"Fayette County",17051,***,* ,*, *,3 or fewer,*,*,*,*
+"Ford County",17053,***,* ,*, *,3 or fewer,*,*,*,*
+"Fulton County",17057,***,* ,*, *,3 or fewer,*,*,*,*
+"Gallatin County",17059,***,* ,*, *,3 or fewer,*,*,*,*
+"Greene County",17061,***,* ,*, *,3 or fewer,*,*,*,*
+"Hamilton County",17065,***,* ,*, *,3 or fewer,*,*,*,*
+"Hancock County",17067,***,* ,*, *,3 or fewer,*,*,*,*
+"Hardin County",17069,***,* ,*, *,3 or fewer,*,*,*,*
+"Henderson County",17071,***,* ,*, *,3 or fewer,*,*,*,*
+"Jasper County",17079,***,* ,*, *,3 or fewer,*,*,*,*
+"Jersey County",17083,***,* ,*, *,3 or fewer,*,*,*,*
+"Jo Daviess County",17085,***,* ,*, *,3 or fewer,*,*,*,*
+"Johnson County",17087,***,* ,*, *,3 or fewer,*,*,*,*
+"Lawrence County",17101,***,* ,*, *,3 or fewer,*,*,*,*
+"Marshall County",17123,***,* ,*, *,3 or fewer,*,*,*,*
+"Mason County",17125,***,* ,*, *,3 or fewer,*,*,*,*
+"Massac County",17127,***,* ,*, *,3 or fewer,*,*,*,*
+"Menard County",17129,***,* ,*, *,3 or fewer,*,*,*,*
+"Mercer County",17131,***,* ,*, *,3 or fewer,*,*,*,*
+"Monroe County",17133,***,* ,*, *,3 or fewer,*,*,*,*
+"Moultrie County",17139,***,* ,*, *,3 or fewer,*,*,*,*
+"Piatt County",17147,***,* ,*, *,3 or fewer,*,*,*,*
+"Pike County",17149,***,* ,*, *,3 or fewer,*,*,*,*
+"Pope County",17151,***,* ,*, *,3 or fewer,*,*,*,*
+"Pulaski County",17153,***,* ,*, *,3 or fewer,*,*,*,*
+"Putnam County",17155,***,* ,*, *,3 or fewer,*,*,*,*
+"Randolph County",17157,***,* ,*, *,3 or fewer,*,*,*,*
+"Richland County",17159,***,* ,*, *,3 or fewer,*,*,*,*
+"Schuyler County",17169,***,* ,*, *,3 or fewer,*,*,*,*
+"Scott County",17171,***,* ,*, *,3 or fewer,*,*,*,*
+"Shelby County",17173,***,* ,*, *,3 or fewer,*,*,*,*
+"Stark County",17175,***,* ,*, *,3 or fewer,*,*,*,*
+"Wabash County",17185,***,* ,*, *,3 or fewer,*,*,*,*
+"Warren County",17187,***,* ,*, *,3 or fewer,*,*,*,*
+"Washington County",17189,***,* ,*, *,3 or fewer,*,*,*,*
+"Wayne County",17191,***,* ,*, *,3 or fewer,*,*,*,*
+"White County",17193,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 4:57 pm.
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

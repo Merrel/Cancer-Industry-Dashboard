@@ -1,0 +1,155 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=29&areatype=county&cancer=001&race=00&sex=2&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '29', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '2', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_033.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=29&areatype=county&cancer=001&race=00&sex=2&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Missouri by County
+
+"All Cancer Sites (All Stages^), 2012-2016"
+
+"All Races (includes Hispanic), Female, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Missouri(6,10)",29000,***,431 ,428, 434.1,16475,stable,0.1 ,-0.5, 0.6
+"US (SEER+NPCR)(1,10)",00000,***,420.9 ,420.5, 421.3,813914,stable,-0.4 ,-1.3, 0.6
+"Shelby County(6,10)",29205,***,562.6 ,461.9, 680.5,25,rising,7.1 ,1.8, 12.7
+"Marion County(6,10)",29127,***,528.9 ,481.5, 579.8,99,rising,5.2 ,1.6, 8.9
+"Clark County(6,10)",29045,***,513.2 ,418, 624.7,23,stable,-4.0 ,-28.2, 28.4
+"Worth County(6,10)",29227,***,510.1 ,343.4, 735.2,8,stable,13.2 ,-28.3, 78.8
+"St. Francois County(6,10)",29187,***,509.8 ,477.6, 543.7,199,falling,-3.5 ,-6.9, -0.1
+"Cooper County(6,10)",29053,***,509.2 ,447.2, 577.8,55,stable,0.2 ,-4.5, 5.2
+"Adair County(6,10)",29001,***,507.3 ,452.9, 566.6,69,stable,-7.6 ,-17.8, 4.0
+"Mississippi County(6,10)",29133,***,504 ,436.7, 579.5,44,stable,0.3 ,-13.0, 15.7
+"Iron County(6,10)",29093,***,499.9 ,427.1, 582.8,38,stable,2.0 ,-14.7, 21.9
+"Clinton County(6,10)",29049,***,495.6 ,441.4, 554.9,66,stable,3.8 ,-14.5, 26.1
+"Crawford County(6,10)",29055,***,494.5 ,445.3, 548,80,stable,-0.2 ,-6.9, 7.1
+"Gasconade County(6,10)",29073,***,491.3 ,429.2, 560.6,54,stable,-3.5 ,-16.4, 11.4
+"Macon County(6,10)",29121,***,487.3 ,426.9, 554.5,55,falling,-4.9 ,-7.8, -2.0
+"Wayne County(6,10)",29223,***,487 ,424.7, 556.8,50,stable,-6.5 ,-19.1, 7.9
+"Franklin County(6,10)",29071,***,478 ,453.8, 503.2,311,stable,-1.0 ,-6.8, 5.3
+"Knox County(6,10)",29103,***,477.4 ,367.3, 613.9,15,stable,2.4 ,-25.2, 40.1
+"Henry County(6,10)",29083,***,476.5 ,427, 530.7,77,stable,6.7 ,-4.9, 19.7
+"Lewis County(6,10)",29111,***,476.5 ,399.2, 564.9,31,stable,-8.9 ,-23.4, 8.3
+"Buchanan County(6,10)",29021,***,476.2 ,449.5, 504.1,255,stable,-2.9 ,-10.1, 4.9
+"Ripley County(6,10)",29181,***,471.5 ,410.4, 540,47,stable,3.7 ,-10.8, 20.6
+"Grundy County(6,10)",29079,***,469.4 ,396.7, 552.4,34,stable,2.5 ,-23.8, 38.0
+"Montgomery County(6,10)",29139,***,467.9 ,401.6, 543,40,stable,-0.2 ,-18.5, 22.2
+"Stoddard County(6,10)",29207,***,462.4 ,420.5, 507.6,98,stable,-7.8 ,-17.9, 3.6
+"Lafayette County(6,10)",29107,***,462.3 ,421.6, 506,103,stable,-0.5 ,-13.7, 14.7
+"Daviess County(6,10)",29061,***,460.3 ,378.2, 555.8,25,stable,5.7 ,-7.4, 20.6
+"Jefferson County(6,10)",29099,***,459.2 ,442.3, 476.6,588,stable,-0.4 ,-5.2, 4.7
+"Scott County(6,10)",29201,***,458.1 ,420.5, 498.3,118,stable,3.0 ,-7.5, 14.7
+"Pike County(6,10)",29163,***,454.8 ,397.7, 518.3,51,stable,0.2 ,-6.3, 7.2
+"Pulaski County(6,10)",29169,***,454.7 ,413.4, 498.9,91,stable,5.2 ,-3.5, 14.7
+"Clay County(6,10)",29047,***,454.3 ,438, 471.1,604,stable,3.1 ,-3.3, 9.9
+"Ray County(6,10)",29177,***,452.3 ,403.4, 505.8,67,stable,-4.2 ,-17.8, 11.7
+"Miller County(6,10)",29131,***,451.7 ,404.7, 502.9,73,stable,-0.5 ,-11.6, 11.9
+"Cass County(6,10)",29037,***,449.5 ,425.9, 474.1,286,stable,1.8 ,-1.3, 5.1
+"Morgan County(6,10)",29141,***,448.9 ,398.4, 504.6,69,rising,7.7 ,1.8, 13.9
+"Cedar County(6,10)",29039,***,447.6 ,388.3, 514.3,48,stable,6.3 ,-9.1, 24.3
+"Barton County(6,10)",29011,***,447.3 ,380.3, 523.3,36,stable,3.2 ,-15.6, 26.2
+"Washington County(6,10)",29221,***,445.9 ,398.3, 497.8,68,stable,-3.3 ,-24.5, 23.7
+"Jasper County(6,10)",29097,***,445.8 ,423.5, 469,313,stable,-0.3 ,-6.3, 6.2
+"Madison County(6,10)",29123,***,445.6 ,382.4, 517.1,38,stable,1.2 ,-17.3, 23.8
+"St. Louis County(6,10)",29189,***,445.5 ,438.2, 452.8,3091,stable,0.1 ,-2.4, 2.7
+"Scotland County(6,10)",29199,***,444.9 ,344.5, 567.2,15,falling,-9.6 ,-14.5, -4.4
+"Saline County(6,10)",29195,***,444.3 ,396.3, 496.7,69,stable,-0.8 ,-11.5, 11.2
+"Benton County(6,10)",29015,***,442.2 ,394.1, 495.8,78,stable,-1.0 ,-20.4, 23.3
+"Dent County(6,10)",29065,***,441.6 ,383.8, 506.2,48,stable,-1.4 ,-18.6, 19.4
+"Johnson County(6,10)",29101,***,440.7 ,404.1, 479.8,112,stable,-1.3 ,-10.5, 9.0
+"St. Louis City(6,10)",29510,***,439.9 ,425.8, 454.2,789,stable,-2.6 ,-7.0, 2.1
+"Jackson County(6,10)",29095,***,439.6 ,430.4, 449,1820,stable,0.8 ,-3.6, 5.5
+"Chariton County(6,10)",29041,***,438.5 ,360.4, 530.3,27,stable,-3.4 ,-29.3, 32.2
+"Lawrence County(6,10)",29109,***,437.9 ,400.4, 478.1,109,stable,2.5 ,-8.6, 14.9
+"Lincoln County(6,10)",29113,***,436.9 ,403.1, 472.8,129,stable,1.9 ,-9.9, 15.2
+"Linn County(6,10)",29115,***,436.5 ,375.6, 505.5,41,stable,-4.2 ,-17.1, 10.8
+"Ralls County(6,10)",29173,***,435.4 ,363.4, 518.4,29,stable,-11.8 ,-27.2, 6.9
+"Osage County(6,10)",29151,***,435.2 ,373.7, 504.6,38,stable,-3.4 ,-14.0, 8.5
+"Carroll County(6,10)",29033,***,433.3 ,361, 516.9,29,stable,7.5 ,-20.8, 46.0
+"Cape Girardeau County(6,10)",29031,***,432.6 ,405.8, 460.7,210,stable,-1.3 ,-10.4, 8.9
+"Putnam County(6,10)",29171,***,432.4 ,338.5, 547.8,17,stable,-11.0 ,-46.3, 47.5
+"Vernon County(6,10)",29217,***,430.7 ,381.6, 484.7,60,stable,-6.6 ,-16.3, 4.1
+"Carter County(6,10)",29035,***,429.3 ,343.3, 531.9,19,stable,-2.5 ,-36.4, 49.4
+"Platte County(6,10)",29165,***,429.3 ,404.5, 455.3,236,stable,3.5 ,-6.9, 15.1
+"Schuyler County(6,10)",29197,***,427.1 ,324.3, 554.2,13,stable,0.7 ,-18.1, 23.7
+"Cole County(6,10)",29051,***,426.4 ,399.5, 454.8,198,stable,-2.3 ,-8.7, 4.5
+"Phelps County(6,10)",29161,***,424.9 ,389.1, 463.1,112,stable,1.5 ,-12.1, 17.2
+"Butler County(6,10)",29023,***,424.2 ,390.7, 460,128,stable,-3.5 ,-9.2, 2.6
+"St. Charles County(6,10)",29183,***,424 ,411.7, 436.5,940,rising,2.8 ,2.3, 3.3
+"Wright County(6,10)",29229,***,422.3 ,371, 479.1,54,stable,2.2 ,-15.7, 23.7
+"Warren County(6,10)",29219,***,420.9 ,381.1, 463.9,88,stable,5.1 ,-8.9, 21.3
+"Boone County(6,10)",29019,***,420.8 ,400.7, 441.6,348,stable,-2.1 ,-6.7, 2.7
+"Randolph County(6,10)",29175,***,420.2 ,374.4, 470.4,65,stable,2.4 ,-12.4, 19.7
+"New Madrid County(6,10)",29143,***,419.8 ,368.8, 476.4,53,stable,-1.2 ,-16.6, 17.0
+"Dunklin County(6,10)",29069,***,419.2 ,379.7, 461.9,90,stable,1.8 ,-9.8, 15.0
+"Callaway County(6,10)",29027,***,419.2 ,384, 456.9,110,stable,-4.6 ,-14.0, 5.7
+"Nodaway County(6,10)",29147,***,416.6 ,363.7, 475.3,51,stable,-1.1 ,-26.6, 33.4
+"Pettis County(6,10)",29159,***,413.9 ,378.9, 451.4,110,stable,2.7 ,-4.9, 10.9
+"Audrain County(6,10)",29007,***,413.2 ,370.6, 459.6,72,stable,-1.3 ,-14.0, 13.3
+"Harrison County(6,10)",29081,***,411.9 ,339.9, 496,27,stable,-6.7 ,-27.9, 20.6
+"DeKalb County(6,10)",29063,***,407.3 ,336.1, 490.1,26,stable,-0.3 ,-22.4, 28.2
+"Gentry County(6,10)",29075,***,407.2 ,325.9, 504,20,stable,8.5 ,-26.8, 60.9
+"Laclede County(6,10)",29105,***,404.8 ,368.2, 444.3,95,stable,1.6 ,-12.6, 18.1
+"Newton County(6,10)",29145,***,403.7 ,374.7, 434.5,153,stable,-2.3 ,-18.1, 16.6
+"Moniteau County(6,10)",29135,***,402.9 ,343.4, 470,35,stable,-5.5 ,-15.5, 5.7
+"Camden County(6,10)",29029,***,397.6 ,366.4, 431,148,rising,7.6 ,4.1, 11.1
+"Andrew County(6,10)",29003,***,395.5 ,343.8, 453.2,46,stable,-2.2 ,-22.4, 23.2
+"Bollinger County(6,10)",29017,***,394.7 ,332.4, 465.8,31,stable,0.3 ,-14.4, 17.6
+"Livingston County(6,10)",29117,***,393.4 ,341, 452,44,stable,3.0 ,-14.5, 24.1
+"Greene County(6,10)",29077,***,391.2 ,377.7, 405.1,682,stable,-0.3 ,-4.6, 4.1
+"Pemiscot County(6,10)",29155,***,391 ,339.5, 448.2,44,stable,1.0 ,-12.7, 16.8
+"Caldwell County(6,10)",29025,***,387.8 ,317.8, 469.8,24,falling,-7.1 ,-12.2, -1.7
+"Perry County(6,10)",29157,***,387.4 ,338.4, 441.9,48,stable,-2.5 ,-9.3, 4.9
+"Webster County(6,10)",29225,***,386.7 ,350.1, 426.4,85,stable,3.7 ,-7.2, 15.8
+"Christian County(6,10)",29043,***,382.2 ,357.6, 408.1,187,stable,2.6 ,-2.8, 8.3
+"Texas County(6,10)",29215,***,381.4 ,339.3, 427.7,68,stable,-4.3 ,-11.8, 3.8
+"Taney County(6,10)",29213,***,381.2 ,352.2, 412.1,142,stable,-2.7 ,-9.7, 4.9
+"Monroe County(6,10)",29137,***,375.5 ,305.8, 457.8,23,stable,4.2 ,-2.1, 11.0
+"Mercer County(6,10)",29129,***,375.1 ,270.3, 510.3,10,stable,1.3 ,-21.6, 30.8
+"Dallas County(6,10)",29059,***,371.3 ,320.7, 428.2,43,stable,0.1 ,-6.9, 7.6
+"Reynolds County(6,10)",29179,***,369 ,292.1, 462.6,18,stable,9.3 ,-0.7, 20.2
+"Bates County(6,10)",29013,***,367.5 ,316.5, 424.8,42,stable,4.1 ,-7.4, 17.1
+"Ste. Genevieve County(6,10)",29186,***,362.8 ,314.3, 417.4,44,stable,-0.4 ,-18.1, 21.2
+"Stone County(6,10)",29209,***,362.3 ,327.5, 400.4,102,stable,-8.9 ,-25.4, 11.3
+"McDonald County(6,10)",29119,***,356.7 ,311.6, 406.8,47,stable,11.9 ,-7.6, 35.5
+"Maries County(6,10)",29125,***,353.4 ,286, 433.1,21,stable,9.6 ,-14.7, 40.8
+"Atchison County(6,10)",29005,***,345.4 ,260.1, 451.7,13,stable,-17.5 ,-35.6, 5.7
+"Howard County(6,10)",29089,***,344.9 ,281.5, 419.3,23,stable,-3.9 ,-23.7, 21.0
+"Howell County(6,10)",29091,***,340.1 ,309.1, 373.6,96,stable,-7.2 ,-15.5, 2.0
+"Sullivan County(6,10)",29211,***,336.5 ,260.5, 429.4,15,stable,0.6 ,-26.1, 36.9
+"St. Clair County(6,10)",29185,***,333.9 ,272.9, 406.3,26,stable,-3.9 ,-22.2, 18.7
+"Holt County(6,10)",29087,***,331.8 ,244, 443.9,12,stable,18.1 ,-21.9, 78.7
+"Shannon County(6,10)",29203,***,331.6 ,261.7, 415.2,18,stable,-0.6 ,-21.5, 25.9
+"Barry County(6,10)",29009,***,330.2 ,298.4, 364.9,85,rising,3.2 ,2.3, 4.0
+"Polk County(6,10)",29167,***,329.7 ,293.7, 369,67,stable,-2.5 ,-15.2, 12.0
+"Oregon County(6,10)",29149,***,309.2 ,251.6, 376.9,24,stable,-13.6 ,-34.8, 14.5
+"Hickory County(6,10)",29085,***,306.2 ,249.3, 374.9,28,stable,5.6 ,-24.0, 46.8
+"Dade County(6,10)",29057,***,304.5 ,238.1, 385.6,17,stable,-16.6 ,-47.9, 33.4
+"Ozark County(6,10)",29153,***,298.3 ,240.1, 368.3,23,stable,-6.7 ,-16.4, 4.2
+"Douglas County(6,10)",29067,***,254.4 ,211.5, 304.8,28,stable,-1.9 ,-27.4, 32.4
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:00 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

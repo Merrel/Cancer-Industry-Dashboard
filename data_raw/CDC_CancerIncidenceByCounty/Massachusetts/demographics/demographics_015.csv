@@ -1,0 +1,34 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=25&areatype=county&topic=pop&demo=00103&race=00&sex=0&age=999&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '25', 'areatype': 'county', 'topic': 'pop', 'demo': '00103', 'race': '00', 'sex': '0', 'age': '999', 'type': 'manyareacensus', 'file_name': 'demographics_015.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=25&areatype=county&topic=pop&demo=00103&race=00&sex=0&age=999&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Massachusetts by County
+Population: Age 40-64
+"Age N/A, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Age 40-64),Rank within US
+"United States",00000,32.4,104105673,"N/A"
+"Massachusetts",25000,33.9,2300782,"45 of 52"
+"Suffolk County",25025,27.5,215069,"151 of 3141"
+"Hampshire County",25015,31.0,49992,"601 of 3141"
+"Hampden County",25013,32.9,154362,"1291 of 3141"
+"Middlesex County",25017,33.8,534302,"1731 of 3141"
+"Essex County",25009,35.0,271273,"2349 of 3141"
+"Nantucket County",25019,35.0,3822,"2376 of 3141"
+"Bristol County",25005,35.2,196088,"2441 of 3141"
+"Norfolk County",25021,35.3,245123,"2474 of 3141"
+"Barnstable County",25001,35.5,75950,"2548 of 3141"
+"Worcester County",25027,35.5,290817,"2561 of 3141"
+"Berkshire County",25003,35.7,45595,"2605 of 3141"
+"Plymouth County",25023,36.4,185183,"2804 of 3141"
+"Dukes County",25007,36.6,6315,"2832 of 3141"
+"Franklin County",25011,37.9,26891,"3026 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:00 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Age 40-64, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

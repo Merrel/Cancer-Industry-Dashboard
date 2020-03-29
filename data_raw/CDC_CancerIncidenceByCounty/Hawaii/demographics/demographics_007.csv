@@ -1,0 +1,26 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=15&areatype=county&topic=lang&demo=00015&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '15', 'areatype': 'county', 'topic': 'lang', 'demo': '00015', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_007.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=15&areatype=county&topic=lang&demo=00015&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Hawaii by County
+Non-English Language: Language isolation
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),Households (language Isolation),Rank within US
+"United States",00000,4.5,5305440,"N/A"
+"Hawaii",15000,6.2,28117,"45 of 51"
+"Hawaii County",15001,2.8,1893,"2597 of 3140"
+"Maui County",15009,3.4,1854,"2705 of 3140"
+"Kalawao County",15005,3.8,2,"2749 of 3140"
+"Kauai County",15007,4.3,967,"2802 of 3140"
+"Honolulu County",15003,7.5,23401,"2987 of 3140"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 4:57 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Non-English Language: Language isolation, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#non-english."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+A "limited English speaking household" is one in which no member 14 years old and over (1) speaks only English or (2) speaks a non-English language and speaks English "very well."
+Data for United States does not include Puerto Rico.

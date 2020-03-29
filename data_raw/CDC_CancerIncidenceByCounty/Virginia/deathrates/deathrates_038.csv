@@ -1,0 +1,173 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=51&areatype=county&cancer=001&race=00&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '51', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '0', 'age': '001', 'type': 'death', 'file_name': 'deathrates_038.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=51&areatype=county&cancer=001&race=00&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for Virginia by County
+
+"All Cancer Sites, 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 161.4?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Virginia",51000,Yes,160.8 ,159.7, 162,14686,falling,-1.8 ,-1.9, -1.7
+"United States",00000,Yes,161 ,160.8, 161.1,590623,falling,-1.5 ,-1.6, -1.5
+"Galax City",51640,No,270.9 ,226.6, 322.4,28,rising,33.0 ,10.9, 59.5
+"Martinsville City",51690,No,267.8 ,235.4, 303.9,52,rising,6.8 ,0.2, 13.8
+"Bristol City",51520,No,261.3 ,233.3, 292.1,66,stable,0.4 ,-0.3, 1.0
+"Franklin City",51620,No,252.1 ,210.8, 299.7,28,stable,-0.9 ,-1.8, 0.0
+"Covington City",51580,No,249.9 ,201.9, 307,20,stable,18.3 ,-11.2, 57.6
+"Petersburg City",51730,No,246.4 ,224.8, 269.6,101,falling,-1.3 ,-1.8, -0.8
+"Greensville County",51081,No,238.2 ,202.3, 279,33,stable,0.0 ,-1.3, 1.3
+"Hopewell City",51670,No,236.7 ,211.2, 264.4,65,stable,-0.2 ,-0.7, 0.4
+"Dickenson County",51051,No,232.9 ,204.2, 265,50,stable,0.2 ,-0.6, 1.1
+"Sussex County",51183,No,224.4 ,191, 262.5,33,falling,-1.5 ,-2.4, -0.7
+"Wise County",51195,No,215.6 ,197.2, 235.4,105,stable,-0.6 ,-1.1, 0.0
+"Northampton County",51131,No,215.4 ,186.7, 248.1,46,falling,-0.9 ,-1.7, -0.2
+"Nelson County",51125,No,214.5 ,187.2, 245.3,50,stable,-0.1 ,-0.9, 0.8
+"Bland County",51021,No,211.4 ,170.9, 259.9,20,stable,-0.2 ,-1.7, 1.3
+"Surry County",51181,No,209 ,169.2, 256.8,20,stable,-1.0 ,-2.2, 0.2
+"Accomack County",51001,No,208.9 ,191, 228.3,106,falling,-0.9 ,-1.3, -0.5
+"Norton City",51720,No,204.6 ,151.2, 271.6,10,stable,-1.3 ,-2.9, 0.4
+"Waynesboro City",51820,No,204.1 ,181.1, 229.5,59,stable,-0.3 ,-1.0, 0.4
+"Lee County",51105,No,204.1 ,182.8, 227.5,70,stable,-0.2 ,-0.8, 0.4
+"Mecklenburg County",51117,No,203.8 ,185.7, 223.3,104,falling,-0.8 ,-1.3, -0.3
+"Tazewell County",51185,No,203.5 ,187.6, 220.6,127,falling,-0.7 ,-1.2, -0.3
+"Amelia County",51007,No,201.6 ,172, 235.2,35,stable,-0.8 ,-2.0, 0.5
+"Portsmouth City",51740,No,201.2 ,189.1, 213.8,216,falling,-1.0 ,-1.4, -0.7
+"Radford City",51750,No,200.5 ,166.3, 239.7,25,stable,-0.8 ,-1.9, 0.2
+"Lynchburg City",51680,No,200.5 ,186.8, 214.9,169,falling,-1.0 ,-1.4, -0.5
+"Buena Vista City",51530,No,200 ,159.5, 248.5,17,stable,-1.3 ,-2.6, 0.0
+"Scott County",51169,No,199.6 ,179.3, 222,73,stable,-0.5 ,-1.1, 0.1
+"New Kent County",51127,No,199.3 ,172.3, 229.4,45,falling,-1.4 ,-2.3, -0.5
+"Danville City",51590,No,198.2 ,182.4, 215.2,125,falling,-1.0 ,-1.4, -0.5
+"Page County",51139,No,198 ,177, 221.1,68,stable,-0.2 ,-0.9, 0.6
+"Westmoreland County",51193,No,196.4 ,173.7, 221.9,58,falling,-1.3 ,-2.0, -0.6
+"Buchanan County",51027,No,196.3 ,174.5, 220.4,63,stable,-0.6 ,-1.3, 0.2
+"Middlesex County",51119,No,196 ,169.8, 226.8,43,falling,-1.0 ,-1.8, -0.2
+"King William County",51101,No,195.9 ,167.8, 227.5,37,stable,-1.0 ,-1.9, 0.0
+"Staunton City",51790,No,195.5 ,175.2, 217.8,72,stable,-0.2 ,-1.0, 0.5
+"Smyth County",51173,No,194.1 ,176.4, 213.3,92,falling,-0.7 ,-1.2, -0.2
+"Newport News City",51700,No,193.8 ,184.5, 203.3,341,falling,-1.2 ,-1.5, -0.9
+"Giles County",51071,No,193.5 ,169.2, 220.8,48,falling,-1.0 ,-1.7, -0.2
+"Emporia City",51595,No,192 ,148.8, 244.9,14,falling,-1.9 ,-3.3, -0.5
+"Lunenburg County",51111,No,190.8 ,162.4, 223.3,34,stable,-0.8 ,-1.7, 0.2
+"Brunswick County",51025,No,190.4 ,166.2, 217.6,47,falling,-2.0 ,-2.9, -1.2
+"Gloucester County",51073,No,190 ,172.8, 208.6,93,falling,-1.1 ,-1.7, -0.5
+"Charlotte County",51037,No,189.9 ,162.4, 221.4,36,falling,-1.3 ,-2.0, -0.6
+"Warren County",51187,No,189.8 ,171.6, 209.5,84,falling,-0.9 ,-1.6, -0.3
+"Lancaster County",51103,No,189.4 ,161.8, 221.9,47,falling,-1.9 ,-2.7, -1.2
+"Essex County",51057,No,189.1 ,160.4, 222.2,32,stable,-0.9 ,-2.0, 0.1
+"Nottoway County",51135,No,187.9 ,163, 215.9,42,falling,-1.1 ,-1.8, -0.4
+"Roanoke City",51770,No,187.4 ,176.3, 199.2,223,falling,-1.0 ,-1.3, -0.6
+"Norfolk City",51710,No,186.7 ,178.4, 195.3,400,falling,-1.7 ,-2.0, -1.5
+"Henry County",51089,No,185.8 ,172.6, 200,155,stable,0.1 ,-0.4, 0.5
+"Winchester City",51840,No,185.7 ,164.8, 208.6,59,falling,-1.1 ,-1.8, -0.5
+"Russell County",51167,No,185.7 ,166.9, 206.2,75,stable,-0.3 ,-0.9, 0.3
+"Prince Edward County",51147,No,184.8 ,161.8, 210.5,49,falling,-1.1 ,-1.6, -0.6
+"Hampton City",51650,No,183.8 ,174, 193.9,277,falling,-1.3 ,-1.7, -1.0
+"Suffolk City",51800,No,182.2 ,169.7, 195.3,166,falling,-1.6 ,-2.0, -1.1
+"Richmond County",51159,No,181.4 ,150.2, 218.2,25,falling,-1.1 ,-2.0, -0.1
+"Colonial Heights City",51570,No,181.2 ,158.7, 206.5,49,falling,-1.3 ,-2.0, -0.6
+"Culpeper County",51047,No,180 ,164, 197.1,97,falling,-1.1 ,-1.6, -0.6
+"Fairfax City",51600,No,179.1 ,156.6, 204.1,47,falling,-2.1 ,-3.3, -0.9
+"Caroline County",51033,No,178.7 ,158.9, 200.4,62,falling,-1.5 ,-2.1, -0.8
+"Louisa County",51109,No,178.6 ,161, 197.7,80,falling,-0.8 ,-1.6, -0.1
+"Wythe County",51197,No,177.7 ,159.9, 197.2,76,falling,-1.0 ,-1.6, -0.5
+"Salem City",51775,No,177.6 ,158.4, 198.8,64,falling,-0.8 ,-1.4, -0.2
+"Buckingham County",51029,No,174.9 ,151, 202,40,stable,-0.9 ,-2.0, 0.2
+"Pulaski County",51155,No,174.6 ,158.5, 192.3,90,falling,-0.8 ,-1.4, -0.1
+"Richmond City",51760,No,173.8 ,165.8, 182.1,379,falling,-3.2 ,-4.1, -2.3
+"Dinwiddie County",51053,No,172.5 ,152.8, 194.1,58,falling,-5.0 ,-8.2, -1.6
+"Halifax County with South Boston City",51083,No,172.2 ,156.8, 189,98,falling,-1.1 ,-1.6, -0.7
+"Shenandoah County",51171,No,172 ,157.6, 187.5,110,falling,-1.0 ,-1.3, -0.6
+"Frederick County",51069,No,171.9 ,160.3, 184.1,167,falling,-1.3 ,-1.8, -0.8
+"Patrick County",51141,No,171.9 ,151.2, 195.2,53,stable,-0.5 ,-1.2, 0.1
+"Chesapeake City",51550,No,171.8 ,164, 179.8,388,falling,-1.6 ,-1.9, -1.2
+"Grayson County",51077,No,170.7 ,147.8, 196.7,43,stable,-0.4 ,-1.4, 0.5
+"Orange County",51137,No,169.9 ,153.8, 187.4,85,falling,-1.3 ,-1.9, -0.8
+"Madison County",51113,No,169.8 ,143.9, 199.7,33,stable,-0.8 ,-1.7, 0.2
+"Hanover County",51085,No,169 ,158.8, 179.7,212,falling,-1.7 ,-2.1, -1.2
+"King George County",51099,No,168.7 ,145.1, 194.9,40,falling,-1.7 ,-2.5, -0.8
+"Southampton County",51175,No,168.6 ,146.1, 193.9,43,falling,-1.2 ,-2.0, -0.4
+"Pittsylvania County",51143,No,168.4 ,156.5, 181.1,157,falling,-0.9 ,-1.4, -0.5
+"Poquoson City",51735,No,166.9 ,139.5, 198.7,27,falling,-2.9 ,-4.6, -1.1
+"Carroll County",51035,No,166.7 ,150.4, 184.5,81,stable,-0.4 ,-1.1, 0.3
+"Bedford City and County",51917,No,166.7 ,155.8, 178.1,184,falling,-1.1 ,-1.5, -0.6
+"Goochland County",51075,No,166.4 ,145.8, 189.4,51,falling,-1.9 ,-2.8, -0.9
+"Clarke County",51043,No,166 ,141.4, 194.3,34,falling,-1.1 ,-2.1, -0.1
+"Rappahannock County",51157,No,165.9 ,133.9, 204.9,20,falling,-1.8 ,-3.0, -0.6
+"Virginia Beach City",51810,No,164.5 ,159.1, 170,733,falling,-1.4 ,-1.6, -1.2
+"Henrico County",51087,No,164.4 ,158.4, 170.6,591,falling,-1.3 ,-1.5, -1.0
+"Craig County",51045,No,164.1 ,124.9, 213.8,12,stable,-0.6 ,-2.0, 0.9
+"Fredericksburg City",51630,No,163.4 ,140.5, 188.7,38,falling,-1.9 ,-2.7, -1.1
+"Isle of Wight County",51093,No,163.3 ,147, 181,78,falling,-1.5 ,-2.3, -0.8
+"Campbell County",51031,No,163.2 ,150.4, 176.8,125,falling,-1.1 ,-1.7, -0.5
+"Greene County",51079,No,161.9 ,138.5, 188.2,36,falling,-1.5 ,-2.6, -0.4
+"Charlottesville City",51540,No,161.7 ,143.6, 181.3,61,falling,-1.7 ,-2.2, -1.1
+"Appomattox County",51011,No,161.5 ,138.2, 188.1,36,stable,-0.5 ,-1.5, 0.5
+"Stafford County",51179,Yes,160.7 ,149.5, 172.5,172,falling,-6.1 ,-11.2, -0.7
+"Augusta County",51015,Yes,160.6 ,149.8, 172.1,169,falling,-1.1 ,-1.6, -0.6
+"Charles City County",51036,Yes,160.5 ,127.9, 200.7,18,falling,-1.6 ,-2.7, -0.5
+"Chesterfield County",51041,Yes,160.3 ,154.1, 166.7,542,falling,-1.4 ,-1.7, -1.2
+"Amherst County",51009,Yes,159.5 ,143.3, 177.4,73,falling,-1.5 ,-2.2, -0.8
+"Floyd County",51063,Yes,159.4 ,136.9, 185,37,stable,-0.1 ,-1.1, 0.8
+"Rockbridge County",51163,Yes,158.7 ,140.4, 179.1,60,falling,-1.5 ,-2.3, -0.7
+"King and Queen County",51097,Yes,158.5 ,126.3, 198,18,stable,-0.9 ,-2.1, 0.3
+"Fluvanna County",51065,Yes,158.2 ,139.8, 178.5,55,falling,-1.6 ,-2.4, -0.8
+"Northumberland County",51133,Yes,158.1 ,136.8, 183.4,45,falling,-2.0 ,-2.8, -1.2
+"Spotsylvania County",51177,Yes,157.8 ,147.8, 168.2,199,falling,-1.5 ,-2.1, -0.9
+"Franklin County",51067,Yes,157.7 ,145.4, 170.9,130,falling,-1.0 ,-1.5, -0.4
+"Powhatan County",51145,Yes,156.9 ,137.9, 177.9,54,falling,-2.2 ,-2.9, -1.6
+"Roanoke County",51161,Yes,154.9 ,145.6, 164.8,213,falling,-0.7 ,-1.1, -0.4
+"Alleghany County and Clifton Forge City",51005,Yes,154.8 ,133.8, 178.9,40,falling,-1.3 ,-2.0, -0.5
+"Bath County",51017,Yes,154.5 ,117.9, 202.3,13,falling,-1.5 ,-2.7, -0.4
+"Washington County",51191,Yes,153.6 ,141.6, 166.5,126,falling,-1.2 ,-1.7, -0.6
+"Rockingham County",51165,Yes,151.5 ,141.1, 162.6,162,falling,-1.7 ,-2.9, -0.4
+"Fauquier County",51061,Yes,150.9 ,138.7, 163.9,120,falling,-1.8 ,-2.4, -1.2
+"Manassas City",51683,Yes,150.2 ,130.3, 172,46,falling,-1.7 ,-2.7, -0.8
+"Cumberland County",51049,Yes,149.1 ,121.8, 181.5,22,falling,-1.4 ,-2.4, -0.5
+"James City County",51095,Yes,147.9 ,138, 158.4,176,falling,-1.0 ,-1.5, -0.4
+"Prince George County",51149,Yes,147.1 ,129.7, 166.2,55,falling,-2.3 ,-3.2, -1.4
+"Mathews County",51115,Yes,145.5 ,120.7, 175.9,26,falling,-2.1 ,-3.0, -1.2
+"Lexington City",51678,Yes,144.5 ,109.5, 190.4,13,falling,-2.4 ,-4.0, -0.8
+"Montgomery County",51121,Yes,140.6 ,129.4, 152.6,119,falling,-1.7 ,-2.1, -1.2
+"Prince William County",51153,Yes,139.9 ,133.7, 146.4,440,falling,-2.3 ,-2.6, -2.1
+"Botetourt County",51023,Yes,137 ,122.1, 153.5,66,falling,-1.3 ,-1.9, -0.6
+"Albemarle County",51003,Yes,134.3 ,125.4, 143.7,177,falling,-1.3 ,-1.8, -0.8
+"York County",51199,Yes,133.3 ,121.6, 145.8,99,falling,-2.5 ,-3.2, -1.8
+"Harrisonburg City",51660,Yes,131.5 ,115.4, 149.2,51,falling,-1.9 ,-2.7, -1.2
+"Alexandria City",51510,Yes,124.9 ,116.1, 134.1,164,falling,-2.6 ,-3.0, -2.2
+"Falls Church City",51610,Yes,123.4 ,97.5, 153.9,17,falling,-2.5 ,-3.6, -1.4
+"Loudoun County",51107,Yes,123 ,116.7, 129.6,309,falling,-2.6 ,-2.9, -2.3
+"Arlington County",51013,Yes,121.9 ,114.5, 129.6,218,falling,-2.2 ,-2.5, -2.0
+"Fairfax County",51059,Yes,116.7 ,113.7, 119.7,1253,falling,-2.2 ,-2.4, -2.0
+"Williamsburg City",51830,Yes,115.2 ,91.5, 143.7,17,stable,-28.9 ,-50.2, 1.4
+"Highland County",51091,Yes,100 ,63.6, 164.3,5,falling,-3.6 ,-5.6, -1.7
+"Manassas Park City",51685,Yes,91.4 ,64.7, 124.5,9,falling,-6.8 ,-9.5, -3.9
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:03 pm.
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

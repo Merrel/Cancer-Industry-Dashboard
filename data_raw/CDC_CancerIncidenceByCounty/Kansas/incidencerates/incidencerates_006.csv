@@ -1,0 +1,147 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=20&areatype=county&cancer=516&race=00&sex=0&age=016&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '20', 'areatype': 'county', 'cancer': '516', 'race': '00', 'sex': '0', 'age': '016', 'type': 'incd', 'file_name': 'incidencerates_006.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=20&areatype=county&cancer=516&race=00&sex=0&age=016&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Kansas by County
+
+"Childhood (Ages <15, All Sites) (All Stages^), 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, Ages <15"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Kansas(6,10)",20000,***,18.1 ,16.6, 19.7,109,stable,-2.2 ,-8.6, 4.7
+"US (SEER+NPCR)(1,10)",00000,***,17.3 ,17.2, 17.5,10605,stable,0.9 ,-0.3, 2.0
+"Allen County(6)",20001,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Anderson County(6)",20003,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Atchison County(6)",20005,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Barber County(6)",20007,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Barton County(6)",20009,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Bourbon County(6)",20011,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Brown County(6)",20013,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Butler County(6)",20015,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Chase County(6)",20017,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Chautauqua County(6)",20019,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Cherokee County(6)",20021,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Cheyenne County(6)",20023,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Clark County(6)",20025,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Clay County(6)",20027,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Cloud County(6)",20029,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Coffey County(6)",20031,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Comanche County(6)",20033,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Cowley County(6)",20035,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Crawford County(6)",20037,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Decatur County(6)",20039,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Dickinson County(6)",20041,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Doniphan County(6)",20043,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Douglas County(6)",20045,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Edwards County(6)",20047,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Elk County(6)",20049,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Ellis County(6)",20051,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Ellsworth County(6)",20053,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Finney County(6)",20055,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Ford County(6)",20057,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Franklin County(6)",20059,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Geary County(6)",20061,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Gove County(6)",20063,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Graham County(6)",20065,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Grant County(6)",20067,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Gray County(6)",20069,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Greeley County(6)",20071,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Greenwood County(6)",20073,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Hamilton County(6)",20075,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Harper County(6)",20077,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Harvey County(6)",20079,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Haskell County(6)",20081,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Hodgeman County(6)",20083,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Jackson County(6)",20085,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Jefferson County(6)",20087,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Jewell County(6)",20089,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Johnson County(6)",20091,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Kearny County(6)",20093,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Kingman County(6)",20095,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Kiowa County(6)",20097,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Labette County(6)",20099,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Lane County(6)",20101,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Leavenworth County(6)",20103,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Lincoln County(6)",20105,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Linn County(6)",20107,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Logan County(6)",20109,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Lyon County(6)",20111,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Marion County(6)",20115,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Marshall County(6)",20117,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"McPherson County(6)",20113,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Meade County(6)",20119,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Miami County(6)",20121,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Mitchell County(6)",20123,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Montgomery County(6)",20125,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Morris County(6)",20127,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Morton County(6)",20129,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Nemaha County(6)",20131,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Neosho County(6)",20133,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Ness County(6)",20135,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Norton County(6)",20137,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Osage County(6)",20139,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Osborne County(6)",20141,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Ottawa County(6)",20143,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Pawnee County(6)",20145,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Phillips County(6)",20147,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Pottawatomie County(6)",20149,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Pratt County(6)",20151,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Rawlins County(6)",20153,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Reno County(6)",20155,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Republic County(6)",20157,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Rice County(6)",20159,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Riley County(6)",20161,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Rooks County(6)",20163,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Rush County(6)",20165,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Russell County(6)",20167,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Saline County(6)",20169,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Scott County(6)",20171,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Sedgwick County(6)",20173,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Seward County(6)",20175,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Shawnee County(6)",20177,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Sheridan County(6)",20179,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Sherman County(6)",20181,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Smith County(6)",20183,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Stafford County(6)",20185,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Stanton County(6)",20187,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Stevens County(6)",20189,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Sumner County(6)",20191,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Thomas County(6)",20193,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Trego County(6)",20195,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Wabaunsee County(6)",20197,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Wallace County(6)",20199,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Washington County(6)",20201,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Wichita County(6)",20203,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Wilson County(6)",20205,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Woodson County(6)",20207,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+"Wyandotte County(6)",20209,***,¶ ,¶, ¶,¶,¶,¶,¶,¶
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 4:58 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+ ¶ Data not available because of state legislation and regulations which prohibit the release of county level data to outside entities.
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+"Data not available [http://statecancerprofiles.cancer.gov/datanotavailable.html] for this combination of geography, cancer site, age, and race/ethnicity."
+Data for United States does not include Puerto Rico.

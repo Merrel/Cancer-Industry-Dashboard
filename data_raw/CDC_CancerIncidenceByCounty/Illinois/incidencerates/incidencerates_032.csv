@@ -1,0 +1,142 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=17&areatype=county&cancer=001&race=00&sex=1&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '17', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '1', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_032.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=17&areatype=county&cancer=001&race=00&sex=1&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Illinois by County
+
+"All Cancer Sites (All Stages^), 2012-2016"
+
+"All Races (includes Hispanic), Male, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Illinois(6,10)",17000,***,506.8 ,504.3, 509.3,33418,stable,-0.9 ,-2.0, 0.2
+"US (SEER+NPCR)(1,10)",00000,***,488.8 ,488.3, 489.3,824195,falling,-1.4 ,-2.1, -0.7
+"Hamilton County(6,10)",17065,***,684.8 ,589.6, 792.6,39,stable,-10.5 ,-22.8, 3.8
+"Cass County(6,10)",17017,***,639 ,559.8, 726.5,49,stable,-2.5 ,-17.5, 15.3
+"Christian County(6,10)",17021,***,637.6 ,590.2, 688.1,138,stable,1.6 ,-10.0, 14.6
+"Calhoun County(6,10)",17013,***,635.7 ,519.4, 773.3,23,stable,6.3 ,-20.0, 41.4
+"Logan County(6,10)",17107,***,632.8 ,580.1, 689.1,110,stable,-2.8 ,-5.9, 0.3
+"Franklin County(6,10)",17055,***,628.8 ,584.8, 675.5,160,stable,-3.9 ,-13.6, 6.9
+"Pulaski County(6,10)",17153,***,625.8 ,513.6, 757.4,24,stable,-10.6 ,-26.1, 8.0
+"Grundy County(6,10)",17063,***,622.3 ,576.8, 670.5,151,stable,-2.8 ,-11.2, 6.4
+"Marion County(6,10)",17121,***,614.2 ,570, 661.1,150,stable,-1.4 ,-11.1, 9.3
+"Morgan County(6,10)",17137,***,607.7 ,560.8, 657.7,130,stable,0.7 ,-7.4, 9.5
+"Macon County(6,10)",17115,***,604.7 ,577.7, 632.7,398,falling,-1.9 ,-2.6, -1.2
+"Pope County(6,10)",17151,***,603.5 ,478.5, 754.7,20,stable,13.2 ,-7.5, 38.5
+"Menard County(6,10)",17129,***,595 ,517.6, 681.3,46,stable,0.4 ,-13.2, 16.1
+"De Witt County(6,10)",17039,***,593.4 ,526.5, 666.8,60,stable,-4.4 ,-19.6, 13.7
+"Clay County(6,10)",17025,***,589.8 ,518.3, 669.1,52,stable,6.7 ,-0.3, 14.2
+"La Salle County(6,10)",17099,***,587.8 ,562, 614.6,407,stable,-1.9 ,-7.7, 4.3
+"Sangamon County(6,10)",17167,***,583.7 ,563, 605,636,stable,0.4 ,-4.0, 4.9
+"Schuyler County(6,10)",17169,***,577.4 ,488.2, 680.2,31,stable,11.3 ,-8.2, 34.9
+"Macoupin County(6,10)",17117,***,574.8 ,536.1, 615.7,173,stable,3.9 ,-4.3, 12.9
+"Bureau County(6,10)",17011,***,571.2 ,526.8, 618.7,129,stable,1.6 ,-10.1, 14.8
+"Livingston County(6,10)",17105,***,570.1 ,526.2, 616.8,130,stable,2.0 ,-8.7, 13.9
+"Jefferson County(6,10)",17081,***,569.6 ,526.6, 615.2,136,stable,1.1 ,-5.0, 7.7
+"Williamson County(6,10)",17199,***,568.8 ,536, 603.2,234,stable,-0.6 ,-2.8, 1.7
+"Alexander County(6,10)",17003,***,568.6 ,476, 676.1,28,rising,10.0 ,1.8, 18.9
+"Montgomery County(6,10)",17135,***,566.2 ,518.6, 617.4,107,stable,3.6 ,-13.0, 23.5
+"Vermilion County(6,10)",17183,***,565.9 ,535.8, 597.3,277,stable,-1.5 ,-5.4, 2.5
+"Jasper County(6,10)",17079,***,565.2 ,484.3, 656.8,37,stable,-10.6 ,-31.2, 16.2
+"Marshall County(6,10)",17123,***,564 ,493.7, 642.7,49,stable,-1.3 ,-10.0, 8.1
+"White County(6,10)",17193,***,562 ,496.8, 634.4,56,stable,-1.8 ,-16.5, 15.5
+"Putnam County(6,10)",17155,***,561.7 ,461.9, 679.4,24,stable,-6.7 ,-19.6, 8.2
+"Scott County(6,10)",17171,***,560.7 ,453, 689.1,19,stable,-12.7 ,-36.3, 19.6
+"Effingham County(6,10)",17049,***,559.5 ,512.4, 610,109,stable,-6.5 ,-17.6, 6.0
+"Saline County(6,10)",17165,***,558.9 ,505.7, 616.4,86,stable,-0.2 ,-6.8, 6.9
+"Kendall County(6,10)",17093,***,558.5 ,525.8, 592.6,251,falling,-2.0 ,-2.4, -1.6
+"Washington County(6,10)",17189,***,556.9 ,490.1, 631,53,stable,1.7 ,-17.8, 25.8
+"Bond County(6,10)",17005,***,554.4 ,491.1, 624,58,stable,-3.8 ,-18.8, 14.1
+"Johnson County(6,10)",17087,***,554.1 ,485.3, 630.6,49,stable,-4.4 ,-9.1, 0.6
+"Union County(6,10)",17181,***,551.9 ,492.7, 616.9,67,stable,2.5 ,-11.6, 18.9
+"Greene County(6,10)",17061,***,549 ,479.5, 626.4,47,stable,-5.2 ,-20.8, 13.4
+"Peoria County(6,10)",17143,***,546.5 ,525.8, 567.9,548,stable,-2.5 ,-6.4, 1.5
+"Pike County(6,10)",17149,***,543.2 ,480.8, 612,58,stable,8.1 ,-14.7, 37.0
+"Will County(6,10)",17197,***,540.7 ,528.6, 553.1,1670,stable,-1.3 ,-3.5, 0.9
+"Randolph County(6,10)",17157,***,538.5 ,494.1, 586,113,stable,0.2 ,-3.6, 4.2
+"Kankakee County(6,10)",17091,***,535.5 ,509.4, 562.6,330,stable,4.3 ,-5.7, 15.4
+"Crawford County(6,10)",17033,***,535.3 ,477.6, 598.4,65,stable,-4.6 ,-14.5, 6.5
+"Brown County(6,10)",17009,***,534.9 ,430.7, 656.8,19,rising,12.2 ,7.6, 17.1
+"Moultrie County(6,10)",17139,***,534.3 ,466.2, 610,46,stable,5.4 ,-7.9, 20.6
+"Whiteside County(6,10)",17195,***,534.1 ,500.4, 569.5,197,stable,0.6 ,-8.3, 10.3
+"Wabash County(6,10)",17185,***,533.5 ,460.5, 615.7,40,stable,-3.6 ,-20.2, 16.3
+"Clark County(6,10)",17023,***,533.5 ,470.5, 603.1,54,stable,2.0 ,-9.8, 15.3
+"Piatt County(6,10)",17147,***,532.4 ,470.9, 600.3,57,stable,-1.0 ,-11.6, 10.9
+"DeKalb County(6,10)",17037,***,532.3 ,501.5, 564.4,238,stable,0.2 ,-3.9, 4.5
+"Tazewell County(6,10)",17179,***,531.7 ,508.9, 555.3,427,stable,-2.9 ,-9.3, 4.0
+"Lawrence County(6,10)",17101,***,531.3 ,468.2, 600.8,52,stable,-1.6 ,-15.1, 13.9
+"Stark County(6,10)",17175,***,530.8 ,429.4, 651.2,21,stable,-17.7 ,-36.5, 6.8
+"Wayne County(6,10)",17191,***,525 ,466.1, 589.9,60,stable,-0.7 ,-13.5, 13.9
+"Henry County(6,10)",17073,***,524.9 ,489.4, 562.5,171,stable,4.1 ,-1.8, 10.3
+"Richland County(6,10)",17159,***,523.1 ,462.2, 590.5,55,stable,-2.8 ,-9.6, 4.5
+"Coles County(6,10)",17029,***,522.8 ,484.5, 563.4,144,stable,0.1 ,-7.5, 8.3
+"Jo Daviess County(6,10)",17085,***,522.6 ,474.2, 575.3,95,stable,-0.8 ,-8.0, 6.9
+"Douglas County(6,10)",17041,***,522 ,463.9, 585.7,61,stable,-3.5 ,-11.3, 4.9
+"Woodford County(6,10)",17203,***,521.1 ,479.3, 565.7,121,stable,3.2 ,-9.3, 17.4
+"Fulton County(6,10)",17057,***,520.1 ,479.2, 563.7,123,stable,1.3 ,-2.9, 5.7
+"Edgar County(6,10)",17045,***,519.6 ,461, 584.1,61,stable,7.0 ,-4.7, 20.0
+"Iroquois County(6,10)",17075,***,518.3 ,472.8, 567.3,101,stable,1.7 ,-7.7, 12.1
+"Warren County(6,10)",17187,***,517.3 ,456.5, 584.4,55,stable,-1.2 ,-13.2, 12.6
+"Mason County(6,10)",17125,***,517 ,454.2, 587,52,stable,-2.3 ,-20.6, 20.2
+"Gallatin County(6,10)",17059,***,516.4 ,410.8, 643,19,rising,12.6 ,0.4, 26.3
+"Madison County(6,10)",17119,***,516.2 ,499.6, 533.3,764,falling,-3.1 ,-4.4, -1.7
+"Lee County(6,10)",17103,***,515.1 ,473.9, 559.2,121,stable,0.5 ,-6.9, 8.5
+"St. Clair County(6,10)",17163,***,514.1 ,496.6, 532,698,stable,-0.7 ,-6.8, 5.8
+"Shelby County(6,10)",17173,***,513.6 ,463.4, 568.2,81,stable,-0.2 ,-8.7, 9.0
+"Massac County(6,10)",17127,***,512.8 ,449.5, 583.2,50,stable,1.4 ,-17.9, 25.3
+"Perry County(6,10)",17145,***,504 ,450.8, 562.1,67,stable,-2.3 ,-24.1, 25.6
+"McLean County(6,10)",17113,***,502.4 ,479.5, 526.1,385,stable,-5.2 ,-13.0, 3.3
+"Knox County(6,10)",17095,***,501.4 ,467.6, 537.1,172,stable,1.8 ,-7.3, 11.9
+"Ford County(6,10)",17053,***,499.7 ,433.8, 573.5,43,stable,2.8 ,-15.2, 24.5
+"Winnebago County(6,10)",17201,***,499 ,483.4, 515.1,812,stable,-2.3 ,-5.7, 1.3
+"McDonough County(6,10)",17109,***,498.7 ,450, 551.5,82,stable,0.5 ,-5.8, 7.3
+"Mercer County(6,10)",17131,***,498.6 ,440.2, 563.4,56,stable,2.9 ,-5.8, 12.5
+"Hardin County(6,10)",17069,***,495.3 ,391.1, 623.6,17,stable,5.8 ,-15.6, 32.7
+"Cook County(6,10)",17031,***,493.9 ,489.9, 497.9,12344,falling,-1.4 ,-2.5, -0.2
+"Jersey County(6,10)",17083,***,493.2 ,440.9, 550.3,68,stable,-0.4 ,-16.0, 18.0
+"Clinton County(6,10)",17027,***,489.3 ,447.8, 533.6,106,stable,1.9 ,-16.4, 24.2
+"Rock Island County(6,10)",17161,***,488.7 ,467.9, 510.3,433,stable,0.5 ,-4.3, 5.5
+"Boone County(6,10)",17007,***,488.2 ,451.3, 527.3,137,stable,-0.6 ,-9.7, 9.4
+"Cumberland County(6,10)",17035,***,485.6 ,412.8, 568.3,33,stable,-10.5 ,-27.3, 10.2
+"DuPage County(6,10)",17043,***,482.3 ,473.1, 491.6,2280,stable,-0.4 ,-4.0, 3.3
+"Adams County(6,10)",17001,***,481.9 ,452, 513.3,204,stable,-2.0 ,-7.7, 4.1
+"McHenry County(6,10)",17111,***,478.7 ,462.4, 495.3,734,stable,0.4 ,-5.7, 6.9
+"Kane County(6,10)",17089,***,475.8 ,463, 488.8,1152,stable,0.7 ,-3.0, 4.6
+"Champaign County(6,10)",17019,***,475 ,454.2, 496.6,416,stable,0.9 ,-5.6, 7.9
+"Ogle County(6,10)",17141,***,474.8 ,440.9, 510.7,153,stable,1.8 ,-7.6, 12.1
+"Jackson County(6,10)",17077,***,474.5 ,438, 513.3,132,stable,1.2 ,-5.0, 7.8
+"Monroe County(6,10)",17133,***,471.8 ,429.2, 517.7,96,falling,-4.7 ,-8.0, -1.3
+"Lake County(6,10)",17097,***,469.8 ,459.2, 480.6,1627,stable,1.3 ,-1.4, 4.0
+"Carroll County(6,10)",17015,***,465.3 ,409.3, 527.8,55,stable,-4.8 ,-12.5, 3.5
+"Fayette County(6,10)",17051,***,464.3 ,414.8, 518.5,65,stable,2.9 ,-14.4, 23.7
+"Hancock County(6,10)",17067,***,462.2 ,410.2, 519.7,61,stable,4.2 ,-9.0, 19.4
+"Edwards County(6,10)",17047,***,456.7 ,368.2, 561.7,20,stable,-22.7 ,-41.7, 2.6
+"Stephenson County(6,10)",17177,***,425.5 ,392.9, 460.4,134,stable,-2.7 ,-11.4, 6.8
+"Henderson County(6,10)",17071,***,359 ,289.9, 442.8,21,stable,3.4 ,-13.8, 24.2
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 4:57 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

@@ -1,0 +1,59 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=53&areatype=county&topic=pop&demo=00014&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '53', 'areatype': 'county', 'topic': 'pop', 'demo': '00014', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_022.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=53&areatype=county&topic=pop&demo=00014&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Washington by County
+Population: Foreign born
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Foreign Born),Rank within US
+"United States",00000,13.4,43028127,"N/A"
+"Washington",53000,13.8,986515,"13 of 51"
+"Ferry County",53019,1.4,103,"2349 of 3140"
+"Garfield County",53023,1.7,38,"2107 of 3140"
+"Lincoln County",53043,1.7,179,"2081 of 3140"
+"Asotin County",53003,2.0,455,"1911 of 3140"
+"Stevens County",53065,3.0,1295,"1445 of 3140"
+"Wahkiakum County",53069,3.1,129,"1378 of 3140"
+"Pend Oreille County",53051,3.6,468,"1234 of 3140"
+"Skamania County",53059,3.8,435,"1186 of 3140"
+"Cowlitz County",53015,4.1,4291,"1081 of 3140"
+"Lewis County",53041,4.8,3684,"943 of 3140"
+"Grays Harbor County",53027,5.1,3650,"900 of 3140"
+"Clallam County",53009,5.2,3847,"879 of 3140"
+"Jefferson County",53031,5.3,1621,"865 of 3140"
+"Spokane County",53063,5.4,26678,"844 of 3140"
+"Kittitas County",53037,5.7,2514,"782 of 3140"
+"Mason County",53045,5.8,3561,"777 of 3140"
+"Columbia County",53013,5.8,233,"768 of 3140"
+"Pacific County",53049,6.3,1319,"704 of 3140"
+"Kitsap County",53035,6.5,16752,"676 of 3140"
+"San Juan County",53055,6.9,1120,"620 of 3140"
+"Island County",53029,7.1,5721,"596 of 3140"
+"Klickitat County",53039,7.3,1536,"580 of 3140"
+"Thurston County",53067,7.7,20692,"535 of 3140"
+"Pierce County",53053,9.4,79566,"380 of 3140"
+"Skagit County",53057,10.0,12151,"359 of 3140"
+"Walla Walla County",53071,10.0,6012,"354 of 3140"
+"Benton County",53005,10.3,19574,"336 of 3140"
+"Whitman County",53075,10.4,4952,"328 of 3140"
+"Clark County",53011,10.4,47658,"325 of 3140"
+"Whatcom County",53073,10.6,22636,"311 of 3140"
+"Chelan County",53007,10.7,8041,"307 of 3140"
+"Okanogan County",53047,10.8,4472,"299 of 3140"
+"Douglas County",53017,15.2,6160,"185 of 3140"
+"Snohomish County",53061,15.3,118479,"182 of 3140"
+"Yakima County",53077,18.2,45305,"133 of 3140"
+"Grant County",53025,19.2,17975,"119 of 3140"
+"King County",53033,22.1,467938,"85 of 3140"
+"Franklin County",53021,23.0,20486,"71 of 3140"
+"Adams County",53001,24.9,4789,"57 of 3140"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:02 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Foreign born, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

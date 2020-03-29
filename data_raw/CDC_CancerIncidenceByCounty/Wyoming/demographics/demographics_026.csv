@@ -1,0 +1,43 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=56&areatype=county&topic=pop&demo=00105&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '56', 'areatype': 'county', 'topic': 'pop', 'demo': '00105', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_026.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=56&areatype=county&topic=pop&demo=00105&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Wyoming by County
+Population: Sex - Female
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Female),Rank within US
+"Wyoming",56000,48.9,284899,"3 of 52"
+"United States",00000,50.8,162985654,"N/A"
+"Sublette County",56035,45.7,4590,"144 of 3141"
+"Carbon County",56007,46.1,7233,"167 of 3141"
+"Johnson County",56019,46.9,4014,"233 of 3141"
+"Teton County",56039,46.9,10754,"235 of 3141"
+"Weston County",56045,47.2,3361,"264 of 3141"
+"Albany County",56001,47.6,18061,"299 of 3141"
+"Platte County",56031,47.9,4168,"343 of 3141"
+"Campbell County",56005,48.0,23115,"371 of 3141"
+"Goshen County",56015,48.3,6512,"421 of 3141"
+"Sweetwater County",56037,48.4,21546,"439 of 3141"
+"Converse County",56009,48.6,6887,"484 of 3141"
+"Lincoln County",56023,48.8,9161,"520 of 3141"
+"Crook County",56011,48.8,3587,"548 of 3141"
+"Uinta County",56041,49.0,10165,"595 of 3141"
+"Laramie County",56021,49.3,47813,"698 of 3141"
+"Hot Springs County",56017,49.3,2337,"709 of 3141"
+"Natrona County",56025,49.3,39962,"723 of 3141"
+"Big Horn County",56003,49.5,5905,"835 of 3141"
+"Fremont County",56013,49.9,20148,"1143 of 3141"
+"Washakie County",56043,50.1,4135,"1287 of 3141"
+"Sheridan County",56033,50.6,15148,"1744 of 3141"
+"Park County",56029,50.9,14916,"2206 of 3141"
+"Niobrara County",56027,55.7,1381,"3135 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:03 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Sex - Female, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

@@ -1,0 +1,28 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=09&areatype=county&topic=pop&demo=00103&race=00&sex=0&age=999&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '09', 'areatype': 'county', 'topic': 'pop', 'demo': '00103', 'race': '00', 'sex': '0', 'age': '999', 'type': 'manyareacensus', 'file_name': 'demographics_015.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=09&areatype=county&topic=pop&demo=00103&race=00&sex=0&age=999&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Connecticut by County
+Population: Age 40-64
+"Age N/A, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Age 40-64),Rank within US
+"United States",00000,32.4,104105673,"N/A"
+"Connecticut",09000,35.0,1256511,"49 of 52"
+"Tolland County",09013,33.6,50977,"1660 of 3141"
+"New Haven County",09009,33.9,292354,"1827 of 3141"
+"Hartford County",09003,34.3,308125,"2035 of 3141"
+"New London County",09011,34.5,93466,"2132 of 3141"
+"Fairfield County",09001,35.3,334840,"2483 of 3141"
+"Windham County",09015,35.9,41834,"2663 of 3141"
+"Middlesex County",09007,38.0,62385,"3033 of 3141"
+"Litchfield County",09005,39.3,72530,"3086 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 4:57 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Age 40-64, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

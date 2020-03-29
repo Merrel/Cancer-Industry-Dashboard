@@ -1,0 +1,49 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=49&areatype=county&topic=work&demo=00012&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '49', 'areatype': 'county', 'topic': 'work', 'demo': '00012', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_031.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=49&areatype=county&topic=work&demo=00012&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Utah by County
+Workforce: Unemployed
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Unemployed),Rank within US
+"Utah",49000,4.4,64314,"6 of 52"
+"United States",00000,6.6,10560305,"N/A"
+"Daggett County",49009,1.0,3,"37 of 3141"
+"Rich County",49033,1.8,12,"111 of 3141"
+"Piute County",49031,1.9,12,"124 of 3141"
+"Wayne County",49055,1.9,23,"126 of 3141"
+"Summit County",49043,2.3,511,"176 of 3141"
+"Wasatch County",49051,2.4,354,"196 of 3141"
+"Millard County",49027,2.9,165,"291 of 3141"
+"Juab County",49023,2.9,138,"297 of 3141"
+"Davis County",49011,3.3,5399,"408 of 3141"
+"Morgan County",49029,3.4,164,"415 of 3141"
+"Cache County",49005,3.6,2150,"505 of 3141"
+"Kane County",49025,4.0,131,"620 of 3141"
+"Salt Lake County",49035,4.3,25207,"722 of 3141"
+"Utah County",49049,4.3,11556,"728 of 3141"
+"Emery County",49015,4.4,185,"774 of 3141"
+"Garfield County",49017,4.6,107,"874 of 3141"
+"Beaver County",49001,4.7,131,"913 of 3141"
+"Sevier County",49041,4.8,431,"936 of 3141"
+"Weber County",49057,4.8,5771,"945 of 3141"
+"Washington County",49053,5.2,3478,"1157 of 3141"
+"Carbon County",49007,5.4,506,"1224 of 3141"
+"Box Elder County",49003,5.5,1299,"1284 of 3141"
+"Iron County",49021,6.2,1384,"1641 of 3141"
+"Duchesne County",49013,6.2,535,"1671 of 3141"
+"Grand County",49019,6.4,334,"1763 of 3141"
+"Tooele County",49045,6.5,1979,"1820 of 3141"
+"Uintah County",49047,6.7,1076,"1896 of 3141"
+"Sanpete County",49039,6.8,793,"1983 of 3141"
+"San Juan County",49037,8.4,480,"2539 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:03 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Workforce: Unemployed, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#workforce."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

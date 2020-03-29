@@ -1,0 +1,146 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=20&areatype=county&cancer=001&race=00&sex=0&age=006&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '20', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '0', 'age': '006', 'type': 'death', 'file_name': 'deathrates_034.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=20&areatype=county&cancer=001&race=00&sex=0&age=006&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for Kansas by County
+
+"All Cancer Sites, 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, Ages <65"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 161.4?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Kansas",20000,Yes,51 ,49.9, 52.2,1571,falling,-1.4 ,-1.6, -1.3
+"United States",00000,Yes,51.3 ,51.2, 51.4,177172,falling,-1.4 ,-1.6, -1.3
+"Labette County",20099,Yes,88.7 ,71.6, 109,21,stable,0.2 ,-1.0, 1.4
+"Wilson County",20205,Yes,82.5 ,58.6, 114.1,9,stable,-1.0 ,-2.7, 0.8
+"Cherokee County",20021,Yes,82.2 ,65.8, 101.6,19,stable,0.4 ,-0.7, 1.5
+"Kingman County",20095,Yes,81.1 ,52.4, 120.2,6,stable,42.2 ,-2.2, 106.9
+"Allen County",20001,Yes,79.9 ,60, 105,12,stable,-0.8 ,-2.3, 0.7
+"Geary County",20061,Yes,72.8 ,57.6, 90.4,16,stable,-0.6 ,-1.9, 0.6
+"Doniphan County",20043,Yes,70.4 ,46.1, 103.9,6,stable,-1.3 ,-3.6, 1.1
+"Cowley County",20035,Yes,69.7 ,57.7, 83.5,26,stable,0.2 ,-0.6, 1.1
+"Neosho County",20133,Yes,67.3 ,51.3, 87.2,13,falling,-1.3 ,-2.3, -0.2
+"Wyandotte County",20209,Yes,65.8 ,60.2, 71.7,107,falling,-1.5 ,-2.0, -0.9
+"Pawnee County",20145,Yes,65.6 ,41.2, 100.7,5,*,*,*,*
+"Linn County",20107,Yes,65.5 ,44.1, 94.6,7,stable,-0.7 ,-2.6, 1.3
+"Greenwood County",20073,Yes,65.1 ,41.4, 100.1,5,stable,-2.1 ,-4.3, 0.2
+"Marion County",20115,Yes,63.3 ,44.5, 88.2,9,stable,-1.2 ,-3.2, 0.8
+"Saline County",20169,Yes,62.9 ,54.1, 72.8,39,falling,-1.1 ,-2.0, -0.2
+"Ottawa County",20143,Yes,62.7 ,37.9, 99.5,4,*,*,*,*
+"Clay County",20027,Yes,61.4 ,39.2, 92.5,5,stable,-0.8 ,-2.8, 1.2
+"Dickinson County",20041,Yes,60.8 ,46.4, 78.6,13,stable,-1.1 ,-2.6, 0.4
+"Osage County",20139,Yes,60.7 ,45, 80.8,11,stable,-1.2 ,-2.8, 0.3
+"Cloud County",20029,Yes,59.6 ,38.4, 88.9,6,stable,0.0 ,-2.2, 2.3
+"Crawford County",20037,Yes,58.9 ,48.2, 71.3,22,falling,-1.5 ,-2.5, -0.4
+"Rice County",20159,Yes,58.6 ,39.1, 85.3,6,stable,-1.0 ,-3.0, 1.0
+"Morris County",20127,Yes,58.5 ,34.4, 95.7,4,*,*,*,*
+"Montgomery County",20125,Yes,58.1 ,47.3, 70.8,22,falling,-1.3 ,-2.2, -0.3
+"Shawnee County",20177,Yes,56.6 ,51.9, 61.6,116,falling,-1.0 ,-1.5, -0.4
+"Pratt County",20151,Yes,56.3 ,35.8, 84.4,6,*,*,*,*
+"Franklin County",20059,Yes,56 ,43.8, 70.8,16,falling,-1.6 ,-2.6, -0.6
+"Sedgwick County",20173,Yes,55.8 ,52.9, 58.8,298,falling,-1.2 ,-1.6, -0.9
+"Grant County",20067,Yes,55.1 ,33, 86.3,4,stable,-1.7 ,-3.7, 0.5
+"Coffey County",20031,Yes,55.1 ,36.7, 81.3,6,*,*,*,*
+"Harvey County",20079,Yes,54.9 ,44.4, 67.3,21,falling,-1.2 ,-2.3, -0.1
+"Nemaha County",20131,Yes,54.1 ,35.3, 79.9,6,stable,-0.9 ,-3.2, 1.5
+"Atchison County",20005,Yes,53.4 ,38.4, 72.6,9,falling,-2.0 ,-3.7, -0.3
+"Seward County",20175,Yes,52.8 ,39.4, 69.3,10,falling,-1.3 ,-2.5, -0.1
+"Butler County",20015,Yes,52.1 ,44.7, 60.3,38,falling,-1.2 ,-1.9, -0.4
+"Ellsworth County",20053,Yes,51.2 ,30.8, 82.5,4,*,*,*,*
+"Bourbon County",20011,Yes,51 ,35.7, 71.1,8,falling,-2.1 ,-4.0, -0.2
+"Leavenworth County",20103,Yes,51 ,44.4, 58.4,44,falling,-1.6 ,-2.3, -0.9
+"Barton County",20009,Yes,50.5 ,39.2, 64.2,15,stable,-1.0 ,-2.5, 0.5
+"Jefferson County",20087,Yes,50.4 ,37.5, 66.9,12,falling,-2.0 ,-3.7, -0.3
+"Jackson County",20085,Yes,50.4 ,35, 70.8,8,stable,-1.9 ,-3.7, 0.0
+"McPherson County",20113,Yes,50.2 ,39.4, 63.3,17,stable,-0.4 ,-1.7, 1.0
+"Reno County",20155,Yes,50.2 ,42.7, 58.7,35,falling,-1.3 ,-2.1, -0.5
+"Sumner County",20191,Yes,49.9 ,38.8, 63.6,15,falling,-2.4 ,-3.4, -1.3
+"Mitchell County",20123,Yes,49.5 ,27.9, 83.1,4,*,*,*,*
+"Lyon County",20111,Yes,48.4 ,38.3, 60.6,17,stable,-0.9 ,-2.2, 0.5
+"Pottawatomie County",20149,Yes,46.9 ,35.3, 61.3,11,stable,-1.5 ,-3.2, 0.2
+"Douglas County",20045,Yes,45.3 ,39.5, 51.9,45,falling,-1.6 ,-2.8, -0.5
+"Miami County",20121,Yes,45 ,35.7, 56.2,17,falling,-1.8 ,-3.1, -0.5
+"Anderson County",20003,Yes,44.6 ,26.7, 71.5,4,stable,-1.8 ,-4.8, 1.2
+"Wabaunsee County",20197,Yes,43.2 ,24.9, 71.5,4,*,*,*,*
+"Brown County",20013,Yes,43 ,26.6, 66.6,5,stable,-1.3 ,-3.7, 1.2
+"Marshall County",20117,Yes,42.7 ,26, 67,5,stable,-0.8 ,-2.4, 0.9
+"Ellis County",20051,Yes,42.1 ,31.6, 55.1,12,falling,-2.7 ,-4.2, -1.1
+"Finney County",20055,Yes,41 ,32, 51.7,15,falling,-2.9 ,-3.9, -1.9
+"Thomas County",20193,Yes,38 ,21.8, 62.8,3,*,*,*,*
+"Ford County",20057,Yes,37.7 ,28.5, 48.8,12,falling,-2.9 ,-4.2, -1.5
+"Johnson County",20091,Yes,37.1 ,34.9, 39.3,230,falling,-2.0 ,-2.3, -1.6
+"Riley County",20161,Yes,34.7 ,27.4, 43.2,17,falling,-1.9 ,-3.1, -0.7
+"Barber County",20007,***,* ,*, *,3 or fewer,*,*,*,*
+"Chase County",20017,***,* ,*, *,3 or fewer,*,*,*,*
+"Chautauqua County",20019,***,* ,*, *,3 or fewer,*,*,*,*
+"Cheyenne County",20023,***,* ,*, *,3 or fewer,*,*,*,*
+"Clark County",20025,***,* ,*, *,3 or fewer,*,*,*,*
+"Comanche County",20033,***,* ,*, *,3 or fewer,*,*,*,*
+"Decatur County",20039,***,* ,*, *,3 or fewer,*,*,*,*
+"Edwards County",20047,***,* ,*, *,3 or fewer,*,*,*,*
+"Elk County",20049,***,* ,*, *,3 or fewer,*,*,*,*
+"Gove County",20063,***,* ,*, *,3 or fewer,*,*,*,*
+"Graham County",20065,***,* ,*, *,3 or fewer,*,*,*,*
+"Gray County",20069,***,* ,*, *,3 or fewer,*,*,*,*
+"Greeley County",20071,***,* ,*, *,3 or fewer,*,*,*,*
+"Hamilton County",20075,***,* ,*, *,3 or fewer,*,*,*,*
+"Harper County",20077,***,* ,*, *,3 or fewer,*,*,*,*
+"Haskell County",20081,***,* ,*, *,3 or fewer,*,*,*,*
+"Hodgeman County",20083,***,* ,*, *,3 or fewer,*,*,*,*
+"Jewell County",20089,***,* ,*, *,3 or fewer,*,*,*,*
+"Kearny County",20093,***,* ,*, *,3 or fewer,*,*,*,*
+"Kiowa County",20097,***,* ,*, *,3 or fewer,*,*,*,*
+"Lane County",20101,***,* ,*, *,3 or fewer,*,*,*,*
+"Lincoln County",20105,***,* ,*, *,3 or fewer,*,*,*,*
+"Logan County",20109,***,* ,*, *,3 or fewer,*,*,*,*
+"Meade County",20119,***,* ,*, *,3 or fewer,*,*,*,*
+"Morton County",20129,***,* ,*, *,3 or fewer,*,*,*,*
+"Ness County",20135,***,* ,*, *,3 or fewer,*,*,*,*
+"Norton County",20137,***,* ,*, *,3 or fewer,*,*,*,*
+"Osborne County",20141,***,* ,*, *,3 or fewer,*,*,*,*
+"Phillips County",20147,***,* ,*, *,3 or fewer,*,*,*,*
+"Rawlins County",20153,***,* ,*, *,3 or fewer,*,*,*,*
+"Republic County",20157,***,* ,*, *,3 or fewer,*,*,*,*
+"Rooks County",20163,***,* ,*, *,3 or fewer,*,*,*,*
+"Rush County",20165,***,* ,*, *,3 or fewer,*,*,*,*
+"Russell County",20167,***,* ,*, *,3 or fewer,*,*,*,*
+"Scott County",20171,***,* ,*, *,3 or fewer,*,*,*,*
+"Sheridan County",20179,***,* ,*, *,3 or fewer,*,*,*,*
+"Sherman County",20181,***,* ,*, *,3 or fewer,*,*,*,*
+"Smith County",20183,***,* ,*, *,3 or fewer,*,*,*,*
+"Stafford County",20185,***,* ,*, *,3 or fewer,*,*,*,*
+"Stanton County",20187,***,* ,*, *,3 or fewer,*,*,*,*
+"Stevens County",20189,***,* ,*, *,3 or fewer,*,*,*,*
+"Trego County",20195,***,* ,*, *,3 or fewer,*,*,*,*
+"Wallace County",20199,***,* ,*, *,3 or fewer,*,*,*,*
+"Washington County",20201,***,* ,*, *,3 or fewer,*,*,*,*
+"Wichita County",20203,***,* ,*, *,3 or fewer,*,*,*,*
+"Woodson County",20207,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 4:58 pm.
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

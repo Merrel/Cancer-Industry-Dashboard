@@ -1,0 +1,81 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=53&areatype=county&cancer=020&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '53', 'areatype': 'county', 'cancer': '020', 'race': '00', 'sex': '0', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_008.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=53&areatype=county&cancer=020&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Washington by County
+
+"Colon & Rectum (All Stages^), 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 39.9?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Washington(5,10)",53000,Yes,35.6 ,35, 36.3,2800,stable,-0.6 ,-3.3, 2.2
+"US (SEER+NPCR)(1,10)",00000,Yes,38.7 ,38.6, 38.8,140982,falling,-1.3 ,-2.1, -0.6
+"Grays Harbor County(7,8)",53027,No,43.8 ,37.9, 50.3,43,falling,-1.6 ,-2.3, -0.9
+"Island County(7,8)",53029,No,42 ,36.5, 48.2,48,stable,-1.1 ,-2.2, 0.0
+"Thurston County(7,8)",53067,No,41.2 ,38, 44.7,128,falling,-1.3 ,-1.9, -0.7
+"Lewis County(6,10)",53041,No,40.2 ,34.8, 46.3,42,stable,-2.6 ,-11.6, 7.4
+"Okanogan County(6,10)",53047,No,40 ,32.7, 48.7,23,stable,7.6 ,-3.7, 20.2
+"Mason County(7,8)",53045,No,39.9 ,34.1, 46.6,36,falling,-2.3 ,-3.1, -1.4
+"Clallam County(7,8)",53009,Yes,39.8 ,34.2, 46.1,47,stable,-0.8 ,-1.6, 0.0
+"Snohomish County(7,8)",53061,Yes,38.4 ,36.5, 40.5,304,falling,-1.7 ,-2.1, -1.3
+"Skagit County(7,8)",53057,Yes,37.6 ,33.3, 42.2,60,falling,-1.7 ,-2.6, -0.8
+"Pierce County(7,8)",53053,Yes,37.4 ,35.5, 39.3,324,falling,-1.9 ,-2.3, -1.5
+"Cowlitz County(6,10)",53015,Yes,36.9 ,32.3, 42.1,49,stable,-0.3 ,-7.7, 7.6
+"Adams County(6,10)",53001,Yes,36.8 ,25, 52.3,6,rising,16.6 ,0.7, 35.1
+"Kitsap County(7,8)",53035,Yes,36.6 ,33.5, 39.9,111,falling,-1.9 ,-2.4, -1.4
+"Benton County(6,10)",53005,Yes,36.4 ,32.6, 40.5,71,stable,-4.6 ,-10.1, 1.3
+"Chelan County(6,10)",53007,Yes,36.2 ,30.7, 42.4,33,stable,10.2 ,-14.8, 42.5
+"Grant County(6,10)",53025,Yes,35.6 ,30.2, 41.7,32,stable,-1.4 ,-22.7, 25.7
+"Whatcom County(7,8)",53073,Yes,35.5 ,32.2, 39.1,87,falling,-2.1 ,-2.8, -1.4
+"Walla Walla County(6,10)",53071,Yes,35.4 ,29.4, 42.2,27,stable,-3.0 ,-11.1, 5.9
+"King County(7,8)",53033,Yes,34.5 ,33.4, 35.6,750,falling,-2.1 ,-2.4, -1.8
+"Yakima County(6,10)",53077,Yes,34.3 ,31, 37.8,85,stable,0.9 ,-9.0, 11.9
+"Jefferson County(7,8)",53031,Yes,33.8 ,27.1, 42.4,22,falling,-2.2 ,-2.9, -1.5
+"Clark County(6,10)",53011,Yes,33.5 ,31.2, 36,161,stable,-1.7 ,-5.0, 1.7
+"Pacific County(6,10)",53049,Yes,33.2 ,25.3, 43.6,13,stable,-8.2 ,-27.2, 15.9
+"Douglas County(6,10)",53017,Yes,33 ,25.9, 41.5,16,stable,15.8 ,-10.0, 49.1
+"Klickitat County(6,10)",53039,Yes,32.8 ,24, 44.3,10,stable,-5.6 ,-37.4, 42.6
+"Franklin County(6,10)",53021,Yes,32.8 ,26.5, 39.9,21,stable,-7.6 ,-20.1, 6.9
+"Spokane County(6,10)",53063,Yes,32.7 ,30.6, 35,181,stable,-2.2 ,-15.7, 13.6
+"Stevens County(6,10)",53065,Yes,32.5 ,26.1, 40.1,20,stable,1.6 ,-27.2, 41.8
+"Pend Oreille County(6,10)",53051,Yes,32.5 ,21.6, 47.8,7,stable,-8.8 ,-42.8, 45.5
+"San Juan County(7,8)",53055,Yes,29.8 ,21.8, 41.4,10,falling,-2.7 ,-4.3, -1.1
+"Skamania County(6,10)",53059,Yes,27.7 ,16.6, 44.2,4,stable,-11.4 ,-63.8, 117.0
+"Kittitas County(6,10)",53037,Yes,26.8 ,20.4, 34.7,13,stable,0.3 ,-32.6, 49.3
+"Asotin County(6,10)",53003,Yes,25.3 ,18.3, 34.6,9,stable,-8.8 ,-32.6, 23.3
+"Whitman County(6,10)",53075,Yes,22.2 ,15.8, 30.3,8,stable,-24.9 ,-60.0, 40.9
+"Lincoln County(6,10)",53043,Yes,20.7 ,11.9, 35.1,4,rising,61.4 ,20.0, 117.0
+"Columbia County(6,10)",53013,***,* ,*, *,3 or fewer,*,*,*,*
+"Ferry County(6,10)",53019,***,* ,*, *,3 or fewer,*,*,*,*
+"Garfield County(6,10)",53023,***,* ,*, *,3 or fewer,*,*,*,*
+"Wahkiakum County(6,10)",53069,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:02 pm.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+5 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission. State rates include rates from metropolitan areas funded by SEER [http://seer.cancer.gov/registries/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+7 Source: SEER November 2018 submission.
+"8 Source: Incidence data provided by the SEER Program. ( http://seer.cancer.gov ) AAPCs are calculated by the Joinpoint Regression Program ( https://surveillance.cancer.gov/joinpoint/ ) and are based on APCs. Data are age-adjusted to the 2000 US standard population ( http://www.seer.cancer.gov/stdpopulations/single_age.html ) (19 age groups: <1, 1-4, 5-9, ... , 80-84,85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Population counts for denominators are based on Census populations as modifed by NCI. The 1969-2017 US Population Data ( http://seer.cancer.gov/popdata/ ) File is used with SEER November 2018 data. "
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

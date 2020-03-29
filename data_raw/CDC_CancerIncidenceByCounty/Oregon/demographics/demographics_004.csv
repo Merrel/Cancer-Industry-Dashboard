@@ -1,0 +1,57 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=41&areatype=county&topic=inc&demo=00010&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '41', 'areatype': 'county', 'topic': 'inc', 'demo': '00010', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_004.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=41&areatype=county&topic=inc&demo=00010&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Oregon by County
+Income: Median family income
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Dollars),Rank within US
+"Oregon",41000,69031.000000000,"28 of 52"
+"United States",00000,70850.000000000,"N/A"
+"Lake County",41037,42071.000000000,"2953 of 3141"
+"Malheur County",41045,46571.000000000,"2732 of 3141"
+"Josephine County",41033,49879.000000000,"2520 of 3141"
+"Wheeler County",41069,50000.000000000,"2510 of 3141"
+"Harney County",41025,50182.000000000,"2499 of 3141"
+"Coos County",41011,50265.000000000,"2487 of 3141"
+"Klamath County",41035,50554.000000000,"2456 of 3141"
+"Lincoln County",41041,52530.000000000,"2257 of 3141"
+"Douglas County",41019,54147.000000000,"2127 of 3141"
+"Baker County",41001,54748.000000000,"2078 of 3141"
+"Tillamook County",41057,55095.000000000,"2048 of 3141"
+"Wasco County",41065,55479.000000000,"2014 of 3141"
+"Union County",41061,55483.000000000,"2013 of 3141"
+"Gilliam County",41021,55625.000000000,"1995 of 3141"
+"Curry County",41015,55784.000000000,"1980 of 3141"
+"Crook County",41013,57016.000000000,"1863 of 3141"
+"Jefferson County",41031,57183.000000000,"1847 of 3141"
+"Grant County",41023,57255.000000000,"1842 of 3141"
+"Jackson County",41029,59053.000000000,"1660 of 3141"
+"Umatilla County",41059,59295.000000000,"1636 of 3141"
+"Morrow County",41049,59521.000000000,"1606 of 3141"
+"Linn County",41043,60023.000000000,"1546 of 3141"
+"Wallowa County",41063,60606.000000000,"1473 of 3141"
+"Lane County",41039,62435.000000000,"1299 of 3141"
+"Marion County",41047,62694.000000000,"1276 of 3141"
+"Sherman County",41055,65417.000000000,"1033 of 3141"
+"Clatsop County",41007,66514.000000000,"957 of 3141"
+"Yamhill County",41071,66732.000000000,"940 of 3141"
+"Hood River County",41027,67481.000000000,"883 of 3141"
+"Deschutes County",41017,69243.000000000,"769 of 3141"
+"Columbia County",41009,69295.000000000,"766 of 3141"
+"Polk County",41053,69799.000000000,"734 of 3141"
+"Multnomah County",41051,76557.000000000,"405 of 3141"
+"Benton County",41003,80845.000000000,"296 of 3141"
+"Washington County",41067,85993.000000000,"213 of 3141"
+"Clackamas County",41005,87858.000000000,"186 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:00 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Income: Median family income, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#income."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"Median Incomes over 250,000 have been coded to 250,001 by the Census Bureau. [ http://www2.census.gov/acs2012_5yr/summaryfile/ACS_2008-2012_SF_Tech_Doc.pdf ]"
+Data for United States does not include Puerto Rico.

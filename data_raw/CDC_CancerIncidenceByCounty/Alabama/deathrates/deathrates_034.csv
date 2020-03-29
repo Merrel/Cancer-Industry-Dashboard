@@ -1,0 +1,107 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=01&areatype=county&cancer=001&race=00&sex=0&age=006&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '01', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '0', 'age': '006', 'type': 'death', 'file_name': 'deathrates_034.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=01&areatype=county&cancer=001&race=00&sex=0&age=006&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for Alabama by County
+
+"All Cancer Sites, 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, Ages <65"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 161.4?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Alabama",01000,Yes,63.6 ,62.6, 64.6,3394,falling,-1.1 ,-1.3, -1.0
+"United States",00000,Yes,51.3 ,51.2, 51.4,177172,falling,-1.4 ,-1.6, -1.3
+"Dallas County",01047,Yes,93.8 ,81, 108.2,42,stable,-0.4 ,-1.0, 0.3
+"Cherokee County",01019,Yes,93.3 ,77.9, 111.2,29,stable,-6.1 ,-25.5, 18.5
+"Wilcox County",01131,Yes,83.7 ,61.3, 112.1,10,stable,-0.8 ,-3.0, 1.4
+"Butler County",01013,Yes,83.2 ,66.6, 102.9,20,stable,-0.8 ,-2.1, 0.6
+"Walker County",01127,Yes,82.8 ,73.5, 92.9,63,stable,-0.5 ,-1.2, 0.1
+"Perry County",01105,Yes,82.6 ,57.5, 115.3,8,stable,-0.6 ,-2.0, 0.9
+"Jackson County",01071,Yes,81.8 ,71.5, 93.2,50,stable,-0.5 ,-1.4, 0.5
+"Lowndes County",01085,Yes,79.9 ,57, 109.5,9,falling,-1.4 ,-2.7, -0.1
+"Lawrence County",01079,Yes,78.4 ,66, 92.7,30,stable,-0.2 ,-1.0, 0.5
+"Hale County",01065,Yes,77.4 ,58.6, 100.6,13,stable,-1.1 ,-2.7, 0.5
+"Macon County",01087,Yes,77.3 ,61.2, 97,18,falling,-1.9 ,-2.9, -1.0
+"Washington County",01129,Yes,77.2 ,60.1, 98.2,15,stable,-0.9 ,-2.4, 0.7
+"Chambers County",01017,Yes,76.9 ,64.9, 90.8,31,falling,-1.2 ,-2.0, -0.3
+"Tallapoosa County",01123,Yes,76.2 ,64.7, 89.3,36,stable,-0.1 ,-1.1, 0.8
+"Lamar County",01075,Yes,75.4 ,57.4, 98.1,13,stable,-0.8 ,-2.3, 0.8
+"Pike County",01109,Yes,74.8 ,61.1, 90.8,22,stable,-0.8 ,-2.0, 0.5
+"Cleburne County",01029,Yes,74.2 ,57, 95.7,13,stable,0.3 ,-1.5, 2.0
+"Conecuh County",01035,Yes,73.9 ,55, 98.2,11,falling,-1.3 ,-2.6, -0.1
+"Sumter County",01119,Yes,73.8 ,54.2, 98.8,11,stable,-0.8 ,-2.6, 1.1
+"Marengo County",01091,Yes,73.5 ,57.5, 93,16,stable,-0.5 ,-1.7, 0.7
+"Crenshaw County",01041,Yes,73.1 ,55.1, 95.6,12,falling,-1.9 ,-3.5, -0.3
+"Bibb County",01007,Yes,72.8 ,58.3, 90,18,falling,-1.5 ,-2.6, -0.4
+"Escambia County",01053,Yes,72.7 ,61.5, 85.6,31,stable,-0.4 ,-1.4, 0.6
+"Covington County",01039,Yes,72.7 ,61, 86.1,31,stable,-0.4 ,-1.4, 0.5
+"Henry County",01067,Yes,71.7 ,55.5, 91.7,15,stable,-1.3 ,-2.6, 0.1
+"Etowah County",01055,Yes,71.6 ,64.7, 79,85,falling,-0.9 ,-1.3, -0.4
+"Autauga County",01001,Yes,71.5 ,61.9, 82.2,41,stable,-0.1 ,-2.0, 1.9
+"Winston County",01133,Yes,70.8 ,57, 87.4,20,stable,-1.1 ,-2.2, 0.0
+"Mobile County",01097,Yes,70.5 ,67, 74.2,320,falling,-1.2 ,-1.4, -0.9
+"Talladega County",01121,Yes,70 ,62.3, 78.4,66,falling,-0.8 ,-1.4, -0.1
+"Chilton County",01021,Yes,69.4 ,59, 81.2,34,stable,-0.5 ,-1.5, 0.6
+"Barbour County",01005,Yes,69.3 ,56.1, 84.9,20,stable,-2.4 ,-8.2, 3.8
+"Calhoun County",01015,Yes,69.2 ,62.7, 76.2,91,falling,-1.1 ,-1.6, -0.5
+"Coosa County",01037,Yes,68.9 ,50, 93.9,10,stable,-0.3 ,-1.7, 1.1
+"Monroe County",01099,Yes,68.6 ,54.1, 86,17,stable,-0.7 ,-1.9, 0.5
+"Marshall County",01095,Yes,68.5 ,61.3, 76.4,69,falling,-0.9 ,-1.5, -0.3
+"St. Clair County",01115,Yes,67.5 ,60.2, 75.6,64,falling,-1.8 ,-2.6, -1.0
+"Greene County",01063,Yes,67.2 ,44.8, 97.7,7,stable,-1.3 ,-3.2, 0.6
+"Franklin County",01059,Yes,66.9 ,54.9, 80.9,23,falling,-1.5 ,-2.6, -0.4
+"Houston County",01069,Yes,66.8 ,60, 74.2,75,falling,-1.2 ,-1.9, -0.5
+"Colbert County",01033,Yes,65.8 ,56.8, 75.9,42,falling,-1.3 ,-2.2, -0.4
+"Geneva County",01061,Yes,65.5 ,53.1, 80.3,21,stable,-1.0 ,-2.2, 0.2
+"Russell County",01113,Yes,64.7 ,55.8, 74.7,39,falling,-1.9 ,-2.6, -1.2
+"Fayette County",01057,Yes,63.6 ,48.4, 82.8,13,stable,-0.9 ,-2.1, 0.3
+"Morgan County",01103,Yes,63.4 ,57.3, 69.9,85,stable,-7.0 ,-14.8, 1.6
+"Jefferson County",01073,Yes,63.3 ,60.7, 66,462,falling,-1.4 ,-1.6, -1.2
+"Lee County",01081,Yes,62.7 ,56.8, 69,87,falling,-1.1 ,-1.7, -0.5
+"Marion County",01093,Yes,62.4 ,50.5, 76.5,21,stable,-0.6 ,-1.6, 0.3
+"DeKalb County",01049,Yes,61.5 ,53.7, 70.1,48,falling,-1.0 ,-1.7, -0.4
+"Dale County",01045,Yes,61.3 ,52.1, 71.8,33,falling,-1.3 ,-2.1, -0.6
+"Randolph County",01111,Yes,60.1 ,47, 76.1,16,stable,-1.2 ,-2.5, 0.1
+"Lauderdale County",01077,Yes,60 ,53.2, 67.4,63,falling,-1.1 ,-1.7, -0.6
+"Clarke County",01025,Yes,59.8 ,47.1, 75.2,16,falling,-2.1 ,-3.3, -0.9
+"Bullock County",01011,Yes,59.5 ,40.6, 84.6,7,stable,-1.8 ,-3.9, 0.4
+"Montgomery County",01101,Yes,59.5 ,55, 64.1,142,falling,-2.0 ,-2.4, -1.6
+"Blount County",01009,Yes,59.3 ,50.9, 68.7,38,falling,-0.9 ,-1.7, -0.1
+"Cullman County",01043,Yes,58.8 ,51.8, 66.6,54,falling,-1.3 ,-1.8, -0.7
+"Tuscaloosa County",01125,Yes,58.8 ,53.9, 63.9,115,falling,-1.6 ,-2.2, -1.0
+"Coffee County",01031,Yes,58.6 ,49.8, 68.7,33,falling,-1.5 ,-2.3, -0.6
+"Choctaw County",01023,Yes,57.7 ,41.5, 78.9,9,falling,-2.0 ,-3.5, -0.5
+"Elmore County",01051,Yes,57.3 ,50.3, 65.1,50,falling,-2.3 ,-3.2, -1.4
+"Limestone County",01083,Yes,55.9 ,49.4, 63,56,stable,-0.6 ,-2.8, 1.6
+"Pickens County",01107,Yes,55.9 ,43.2, 71.6,14,falling,-6.1 ,-9.8, -2.2
+"Baldwin County",01003,Yes,54.8 ,50.4, 59.4,126,falling,-1.3 ,-1.8, -0.8
+"Madison County",01089,Yes,49.7 ,46.5, 53,194,falling,-1.6 ,-2.0, -1.2
+"Clay County",01027,Yes,48.2 ,34.6, 66.6,8,stable,0.2 ,-1.8, 2.3
+"Shelby County",01117,Yes,40.6 ,36.9, 44.6,92,falling,-2.0 ,-2.8, -1.1
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 4:57 pm.
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

@@ -1,0 +1,145 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=17&areatype=county&cancer=001&race=04&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '17', 'areatype': 'county', 'cancer': '001', 'race': '04', 'sex': '0', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_030.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=17&areatype=county&cancer=001&race=04&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Illinois by County
+
+"All Cancer Sites (All Stages^), 2012-2016"
+
+"Asian or Pacific Islander (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Illinois(6)",17000,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"US (SEER+NPCR)(1,10)",00000,***,287.7 ,286.6, 288.9,51819,falling,-1.5 ,-2.5, -0.4
+"Adams County(6)",17001,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Alexander County(6)",17003,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Bond County(6)",17005,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Boone County(6)",17007,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Brown County(6)",17009,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Bureau County(6)",17011,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Calhoun County(6)",17013,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Carroll County(6)",17015,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Cass County(6)",17017,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Champaign County(6)",17019,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Christian County(6)",17021,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Clark County(6)",17023,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Clay County(6)",17025,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Clinton County(6)",17027,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Coles County(6)",17029,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Cook County(6)",17031,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Crawford County(6)",17033,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Cumberland County(6)",17035,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"De Witt County(6)",17039,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"DeKalb County(6)",17037,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Douglas County(6)",17041,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"DuPage County(6)",17043,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Edgar County(6)",17045,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Edwards County(6)",17047,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Effingham County(6)",17049,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Fayette County(6)",17051,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Ford County(6)",17053,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Franklin County(6)",17055,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Fulton County(6)",17057,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Gallatin County(6)",17059,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Greene County(6)",17061,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Grundy County(6)",17063,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Hamilton County(6)",17065,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Hancock County(6)",17067,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Hardin County(6)",17069,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Henderson County(6)",17071,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Henry County(6)",17073,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Iroquois County(6)",17075,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Jackson County(6)",17077,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Jasper County(6)",17079,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Jefferson County(6)",17081,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Jersey County(6)",17083,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Jo Daviess County(6)",17085,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Johnson County(6)",17087,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Kane County(6)",17089,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Kankakee County(6)",17091,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Kendall County(6)",17093,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Knox County(6)",17095,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"La Salle County(6)",17099,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Lake County(6)",17097,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Lawrence County(6)",17101,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Lee County(6)",17103,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Livingston County(6)",17105,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Logan County(6)",17107,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Macon County(6)",17115,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Macoupin County(6)",17117,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Madison County(6)",17119,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Marion County(6)",17121,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Marshall County(6)",17123,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Mason County(6)",17125,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Massac County(6)",17127,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"McDonough County(6)",17109,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"McHenry County(6)",17111,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"McLean County(6)",17113,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Menard County(6)",17129,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Mercer County(6)",17131,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Monroe County(6)",17133,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Montgomery County(6)",17135,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Morgan County(6)",17137,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Moultrie County(6)",17139,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Ogle County(6)",17141,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Peoria County(6)",17143,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Perry County(6)",17145,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Piatt County(6)",17147,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Pike County(6)",17149,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Pope County(6)",17151,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Pulaski County(6)",17153,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Putnam County(6)",17155,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Randolph County(6)",17157,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Richland County(6)",17159,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Rock Island County(6)",17161,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Saline County(6)",17165,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Sangamon County(6)",17167,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Schuyler County(6)",17169,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Scott County(6)",17171,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Shelby County(6)",17173,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"St. Clair County(6)",17163,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Stark County(6)",17175,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Stephenson County(6)",17177,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Tazewell County(6)",17179,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Union County(6)",17181,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Vermilion County(6)",17183,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Wabash County(6)",17185,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Warren County(6)",17187,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Washington County(6)",17189,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Wayne County(6)",17191,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"White County(6)",17193,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Whiteside County(6)",17195,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Will County(6)",17197,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Williamson County(6)",17199,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Winnebago County(6)",17201,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Woodford County(6)",17203,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 4:57 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"§§, §§§ Data not available [ https://statecancerprofiles.cancer.gov/datanotavailable.html ] for this combination of geography, statistic, age, and race/ethnicity."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+"Data not available [http://statecancerprofiles.cancer.gov/datanotavailable.html] for this combination of geography, cancer site, age, and race/ethnicity."
+ Statistics for minorities may be affected by inconsistent race identification between the cancer case reports (sources for numerator of rate) and data from the Census Bureau (source for denominator of rate); and from undercounts of some population groups in the census.
+Data for United States does not include Puerto Rico.

@@ -1,0 +1,50 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=49&areatype=county&topic=ed&demo=00004&race=00&sex=0&age=081&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '49', 'areatype': 'county', 'topic': 'ed', 'demo': '00004', 'race': '00', 'sex': '0', 'age': '081', 'type': 'manyareacensus', 'file_name': 'demographics_001.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=49&areatype=county&topic=ed&demo=00004&race=00&sex=0&age=081&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Utah by County
+Education: Less than 9th grade
+Population Ages 25+
+"All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Education: Less Than 9th Grade),Rank within US
+"Utah",49000,2.9,49768,"8 of 52"
+"United States",00000,5.4,11759554,"N/A"
+"Rich County",49033,0.0,0,"1 of 3141"
+"Piute County",49031,0.3,4,"10 of 3141"
+"Wayne County",49055,0.7,13,"23 of 3141"
+"Kane County",49025,0.9,45,"35 of 3141"
+"Davis County",49011,1.2,2231,"63 of 3141"
+"Grand County",49019,1.5,97,"125 of 3141"
+"Morgan County",49029,1.5,93,"137 of 3141"
+"Box Elder County",49003,1.7,522,"211 of 3141"
+"Emery County",49015,1.7,111,"222 of 3141"
+"Wasatch County",49051,1.8,315,"246 of 3141"
+"Beaver County",49001,1.8,69,"247 of 3141"
+"Juab County",49023,2.0,121,"331 of 3141"
+"Daggett County",49009,2.0,10,"335 of 3141"
+"Tooele County",49045,2.0,738,"347 of 3141"
+"Utah County",49049,2.0,5743,"348 of 3141"
+"Sevier County",49041,2.1,272,"381 of 3141"
+"Garfield County",49017,2.1,72,"393 of 3141"
+"Iron County",49021,2.1,578,"400 of 3141"
+"Carbon County",49007,2.2,283,"411 of 3141"
+"Duchesne County",49013,2.2,252,"419 of 3141"
+"Washington County",49053,2.7,2623,"671 of 3141"
+"Cache County",49005,3.1,1853,"945 of 3141"
+"Uintah County",49047,3.2,665,"1012 of 3141"
+"Summit County",49043,3.5,910,"1149 of 3141"
+"Salt Lake County",49035,3.6,24879,"1239 of 3141"
+"Weber County",49057,3.6,5439,"1250 of 3141"
+"Millard County",49027,3.9,302,"1409 of 3141"
+"Sanpete County",49039,4.4,729,"1606 of 3141"
+"San Juan County",49037,9.1,799,"2779 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:03 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Education: Less than 9th grade, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#education."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

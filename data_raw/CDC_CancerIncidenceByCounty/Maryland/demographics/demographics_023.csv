@@ -1,0 +1,44 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=24&areatype=county&topic=pop&demo=00026&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '24', 'areatype': 'county', 'topic': 'pop', 'demo': '00026', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_023.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=24&areatype=county&topic=pop&demo=00026&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Maryland by County
+Population: Hispanic
+"All Ages, Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Hispanic),Rank within US
+"Maryland",24000,9.6,573303,"25 of 52"
+"United States",00000,17.6,56510571,"N/A"
+"Garrett County",24023,1.1,316,"2910 of 3141"
+"Allegany County",24001,1.7,1257,"2534 of 3141"
+"Carroll County",24013,3.2,5368,"1795 of 3141"
+"Worcester County",24047,3.4,1741,"1739 of 3141"
+"Somerset County",24039,3.5,906,"1695 of 3141"
+"Calvert County",24009,3.6,3276,"1671 of 3141"
+"Queen Annes County",24035,3.7,1805,"1645 of 3141"
+"Cecil County",24015,4.1,4231,"1525 of 3141"
+"Harford County",24025,4.2,10608,"1489 of 3141"
+"Kent County",24029,4.3,851,"1468 of 3141"
+"Washington County",24043,4.5,6698,"1433 of 3141"
+"St. Marys County",24037,4.8,5377,"1351 of 3141"
+"Baltimore City",24510,5.0,30729,"1328 of 3141"
+"Dorchester County",24019,5.0,1615,"1322 of 3141"
+"Wicomico County",24045,5.0,5145,"1307 of 3141"
+"Baltimore County",24005,5.1,42438,"1289 of 3141"
+"Charles County",24017,5.4,8358,"1246 of 3141"
+"Talbot County",24041,6.5,2427,"1060 of 3141"
+"Howard County",24027,6.5,20343,"1055 of 3141"
+"Caroline County",24011,6.9,2247,"1008 of 3141"
+"Anne Arundel County",24003,7.3,41275,"963 of 3141"
+"Frederick County",24021,8.8,21623,"825 of 3141"
+"Prince Georges County",24033,17.4,157427,"444 of 3141"
+"Montgomery County",24031,19.0,197242,"403 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:01 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Hispanic, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

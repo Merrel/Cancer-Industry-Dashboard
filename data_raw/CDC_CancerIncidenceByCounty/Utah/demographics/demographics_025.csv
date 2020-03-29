@@ -1,0 +1,49 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=49&areatype=county&topic=pop&demo=00025&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '49', 'areatype': 'county', 'topic': 'pop', 'demo': '00025', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_025.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=49&areatype=county&topic=pop&demo=00025&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Utah by County
+Population: White
+"All Ages, Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (White),Rank within US
+"United States",00000,73.0,234370202,"N/A"
+"Utah",49000,86.8,2600077,"12 of 52"
+"San Juan County",49037,48.2,7319,"2969 of 3141"
+"Salt Lake County",49035,80.1,887004,"2214 of 3141"
+"Uintah County",49047,88.3,32103,"1715 of 3141"
+"Millard County",49027,88.4,11182,"1706 of 3141"
+"Sanpete County",49039,89.1,25730,"1640 of 3141"
+"Weber County",49057,89.6,218619,"1595 of 3141"
+"Davis County",49011,89.7,300506,"1581 of 3141"
+"Duchesne County",49013,89.7,18181,"1579 of 3141"
+"Tooele County",49045,90.0,57039,"1558 of 3141"
+"Cache County",49005,90.1,108338,"1553 of 3141"
+"Washington County",49053,90.6,140936,"1503 of 3141"
+"Iron County",49021,91.0,44154,"1445 of 3141"
+"Utah County",49049,92.0,530376,"1319 of 3141"
+"Carbon County",49007,92.7,19005,"1237 of 3141"
+"Box Elder County",49003,93.2,48638,"1152 of 3141"
+"Kane County",49025,93.3,6757,"1144 of 3141"
+"Juab County",49023,93.9,10040,"1035 of 3141"
+"Garfield County",49017,94.1,4722,"1004 of 3141"
+"Sevier County",49041,94.9,19885,"855 of 3141"
+"Summit County",49043,95.0,37725,"834 of 3141"
+"Wasatch County",49051,95.6,28022,"706 of 3141"
+"Daggett County",49009,96.4,677,"491 of 3141"
+"Wayne County",49055,96.8,2613,"388 of 3141"
+"Beaver County",49001,96.8,6209,"381 of 3141"
+"Rich County",49033,97.0,2238,"320 of 3141"
+"Emery County",49015,97.5,10145,"204 of 3141"
+"Morgan County",49029,97.6,10748,"172 of 3141"
+"Grand County",49019,97.7,9320,"161 of 3141"
+"Piute County",49031,99.2,1846,"19 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:03 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: White, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

@@ -1,0 +1,125 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=26&areatype=county&cancer=076&race=00&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '26', 'areatype': 'county', 'cancer': '076', 'race': '00', 'sex': '0', 'age': '001', 'type': 'death', 'file_name': 'deathrates_002.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=26&areatype=county&cancer=076&race=00&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for Michigan by County
+
+"Brain & ONS, 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Michigan",26000,***,4.7 ,4.5, 4.9,556,falling,-0.4 ,-0.7, -0.1
+"United States",00000,***,4.4 ,4.4, 4.4,15944,rising,0.6 ,0.3, 0.9
+"Isabella County",26073,***,6.5 ,3.8, 10.3,4,*,*,*,*
+"Hillsdale County",26059,***,6.3 ,3.7, 10,4,*,*,*,*
+"Clinton County",26037,***,6.2 ,4, 9.1,5,*,*,*,*
+"Washtenaw County",26161,***,6.1 ,5, 7.4,22,stable,-0.6 ,-1.9, 0.7
+"Lapeer County",26087,***,6.1 ,4.2, 8.7,7,stable,-0.3 ,-2.3, 1.8
+"Newaygo County",26123,***,6.1 ,3.6, 9.8,4,stable,-1.6 ,-3.8, 0.7
+"Monroe County",26115,***,6 ,4.5, 7.8,11,stable,-0.6 ,-2.5, 1.3
+"Grand Traverse County",26055,***,5.8 ,3.9, 8.3,7,stable,-1.2 ,-3.2, 0.9
+"Jackson County",26075,***,5.7 ,4.3, 7.5,11,stable,0.4 ,-0.9, 1.7
+"Eaton County",26045,***,5.5 ,3.9, 7.8,7,*,*,*,*
+"Van Buren County",26159,***,5.4 ,3.4, 8.2,5,stable,0.0 ,-2.6, 2.7
+"Montcalm County",26117,***,5.3 ,3.2, 8.3,4,*,*,*,*
+"Cass County",26027,***,5.3 ,3, 8.7,3,*,*,*,*
+"Lenawee County",26091,***,5.2 ,3.5, 7.5,6,stable,-1.4 ,-3.9, 1.1
+"Ottawa County",26139,***,5.2 ,4.1, 6.5,15,stable,0.8 ,-1.2, 2.7
+"Saginaw County",26145,***,5 ,3.8, 6.5,13,stable,0.1 ,-1.3, 1.6
+"Genesee County",26049,***,5 ,4.2, 6,25,stable,-0.3 ,-1.4, 0.7
+"Livingston County",26093,***,5 ,3.7, 6.6,11,stable,0.0 ,-1.6, 1.7
+"Oakland County",26125,***,4.8 ,4.3, 5.4,73,stable,-0.3 ,-1.1, 0.6
+"Calhoun County",26025,***,4.8 ,3.4, 6.7,8,stable,-0.7 ,-2.3, 1.0
+"Macomb County",26099,***,4.8 ,4.2, 5.5,50,stable,-0.4 ,-1.0, 0.3
+"Midland County",26111,***,4.7 ,3, 7.2,5,stable,-1.0 ,-3.0, 1.0
+"Allegan County",26005,***,4.7 ,3.2, 6.7,7,stable,-1.9 ,-3.9, 0.1
+"Bay County",26017,***,4.7 ,3.1, 6.8,6,stable,-0.9 ,-3.0, 1.2
+"St. Clair County",26147,***,4.7 ,3.4, 6.3,10,stable,-0.8 ,-3.0, 1.4
+"Muskegon County",26121,***,4.6 ,3.3, 6.3,9,stable,0.2 ,-1.6, 2.1
+"Kent County",26081,***,4.6 ,3.8, 5.4,30,stable,-0.7 ,-1.6, 0.2
+"Kalamazoo County",26077,***,4.6 ,3.5, 5.8,13,stable,-0.6 ,-2.2, 1.0
+"Berrien County",26021,***,4.4 ,3.2, 6.1,9,stable,-1.3 ,-2.6, 0.1
+"Ingham County",26065,***,4.3 ,3.2, 5.6,12,stable,0.3 ,-1.1, 1.8
+"Barry County",26015,***,4.1 ,2.3, 6.9,3,*,*,*,*
+"Shiawassee County",26155,***,4 ,2.3, 6.5,4,stable,-2.1 ,-4.3, 0.2
+"Wayne County",26163,***,3.9 ,3.5, 4.3,79,falling,-0.7 ,-1.2, -0.2
+"Alcona County",26001,***,* ,*, *,3 or fewer,*,*,*,*
+"Alger County",26003,***,* ,*, *,3 or fewer,*,*,*,*
+"Alpena County",26007,***,* ,*, *,3 or fewer,*,*,*,*
+"Antrim County",26009,***,* ,*, *,3 or fewer,*,*,*,*
+"Arenac County",26011,***,* ,*, *,3 or fewer,*,*,*,*
+"Baraga County",26013,***,* ,*, *,3 or fewer,*,*,*,*
+"Benzie County",26019,***,* ,*, *,3 or fewer,*,*,*,*
+"Branch County",26023,***,* ,*, *,3 or fewer,*,*,*,*
+"Charlevoix County",26029,***,* ,*, *,3 or fewer,*,*,*,*
+"Cheboygan County",26031,***,* ,*, *,3 or fewer,*,*,*,*
+"Chippewa County",26033,***,* ,*, *,3 or fewer,*,*,*,*
+"Clare County",26035,***,* ,*, *,3 or fewer,*,*,*,*
+"Crawford County",26039,***,* ,*, *,3 or fewer,*,*,*,*
+"Delta County",26041,***,* ,*, *,3 or fewer,*,*,*,*
+"Dickinson County",26043,***,* ,*, *,3 or fewer,*,*,*,*
+"Emmet County",26047,***,* ,*, *,3 or fewer,*,*,*,*
+"Gladwin County",26051,***,* ,*, *,3 or fewer,*,*,*,*
+"Gogebic County",26053,***,* ,*, *,3 or fewer,*,*,*,*
+"Gratiot County",26057,***,* ,*, *,3 or fewer,*,*,*,*
+"Houghton County",26061,***,* ,*, *,3 or fewer,*,*,*,*
+"Huron County",26063,***,* ,*, *,3 or fewer,*,*,*,*
+"Ionia County",26067,***,* ,*, *,3 or fewer,*,*,*,*
+"Iosco County",26069,***,* ,*, *,3 or fewer,*,*,*,*
+"Iron County",26071,***,* ,*, *,3 or fewer,*,*,*,*
+"Kalkaska County",26079,***,* ,*, *,3 or fewer,*,*,*,*
+"Keweenaw County",26083,***,* ,*, *,3 or fewer,*,*,*,*
+"Lake County",26085,***,* ,*, *,3 or fewer,*,*,*,*
+"Leelanau County",26089,***,* ,*, *,3 or fewer,*,*,*,*
+"Luce County",26095,***,* ,*, *,3 or fewer,*,*,*,*
+"Mackinac County",26097,***,* ,*, *,3 or fewer,*,*,*,*
+"Manistee County",26101,***,* ,*, *,3 or fewer,*,*,*,*
+"Marquette County",26103,***,* ,*, *,3 or fewer,*,*,*,*
+"Mason County",26105,***,* ,*, *,3 or fewer,*,*,*,*
+"Mecosta County",26107,***,* ,*, *,3 or fewer,*,*,*,*
+"Menominee County",26109,***,* ,*, *,3 or fewer,*,*,*,*
+"Missaukee County",26113,***,* ,*, *,3 or fewer,*,*,*,*
+"Montmorency County",26119,***,* ,*, *,3 or fewer,*,*,*,*
+"Oceana County",26127,***,* ,*, *,3 or fewer,*,*,*,*
+"Ogemaw County",26129,***,* ,*, *,3 or fewer,*,*,*,*
+"Ontonagon County",26131,***,* ,*, *,3 or fewer,*,*,*,*
+"Osceola County",26133,***,* ,*, *,3 or fewer,*,*,*,*
+"Oscoda County",26135,***,* ,*, *,3 or fewer,*,*,*,*
+"Otsego County",26137,***,* ,*, *,3 or fewer,*,*,*,*
+"Presque Isle County",26141,***,* ,*, *,3 or fewer,*,*,*,*
+"Roscommon County",26143,***,* ,*, *,3 or fewer,*,*,*,*
+"Sanilac County",26151,***,* ,*, *,3 or fewer,*,*,*,*
+"Schoolcraft County",26153,***,* ,*, *,3 or fewer,*,*,*,*
+"St. Joseph County",26149,***,* ,*, *,3 or fewer,*,*,*,*
+"Tuscola County",26157,***,* ,*, *,3 or fewer,*,*,*,*
+"Wexford County",26165,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:00 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

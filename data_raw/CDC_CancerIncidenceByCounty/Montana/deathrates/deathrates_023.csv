@@ -1,0 +1,97 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=30&areatype=county&cancer=001&race=01&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '30', 'areatype': 'county', 'cancer': '001', 'race': '01', 'sex': '0', 'age': '001', 'type': 'death', 'file_name': 'deathrates_023.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=30&areatype=county&cancer=001&race=01&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for Montana by County
+
+"All Cancer Sites, 2012-2016"
+
+"White (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 161.4?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Montana",30000,Yes,153.6 ,150.5, 156.8,1936,falling,-1.6 ,-1.9, -1.3
+"United States",00000,No,161.5 ,161.3, 161.7,501895,falling,-1.4 ,-1.4, -1.4
+"Mineral County",30061,No,232.7 ,178, 301.6,15,stable,0.5 ,-1.0, 2.1
+"Meagher County",30059,No,202.2 ,140.5, 292.2,7,stable,-0.9 ,-3.2, 1.3
+"Deer Lodge County",30023,No,196.6 ,165, 233.9,29,stable,-0.7 ,-1.6, 0.2
+"Roosevelt County",30085,No,194 ,148, 251.9,13,stable,-0.4 ,-1.8, 1.0
+"Prairie County",30079,No,184.2 ,109.3, 311.3,4,*,*,*,*
+"Lincoln County",30053,No,181 ,160.7, 203.9,62,falling,-1.2 ,-1.9, -0.5
+"Toole County",30101,No,180.6 ,134, 239.3,11,stable,-0.2 ,-1.5, 1.1
+"Silver Bow County",30093,No,179.2 ,162, 198,83,falling,-1.9 ,-2.9, -0.8
+"Jefferson County",30043,No,173.3 ,142.5, 209.5,26,stable,-1.0 ,-2.2, 0.3
+"Richland County",30083,No,171 ,139.2, 208,21,stable,-1.0 ,-2.0, 0.0
+"Custer County",30017,No,170.1 ,142.9, 201.4,29,falling,-1.5 ,-2.2, -0.7
+"Sanders County",30089,No,165.9 ,138.3, 198.6,31,falling,-1.1 ,-2.0, -0.2
+"Pondera County",30073,No,165.8 ,126.2, 215.5,14,stable,-1.2 ,-2.5, 0.1
+"Broadwater County",30007,No,164.6 ,127.3, 211.3,14,falling,-1.6 ,-3.1, -0.1
+"Stillwater County",30095,Yes,161.2 ,130.4, 198.1,21,falling,-1.9 ,-3.4, -0.4
+"Cascade County",30013,Yes,160.4 ,149.4, 172,165,falling,-1.4 ,-1.8, -1.0
+"Flathead County",30029,Yes,159.1 ,148.9, 169.9,192,falling,-1.5 ,-2.0, -1.0
+"Sheridan County",30091,Yes,158.8 ,115.8, 216.2,10,stable,-1.0 ,-2.5, 0.4
+"Yellowstone County",30111,Yes,158.6 ,150.3, 167.1,292,falling,-1.2 ,-1.4, -0.9
+"Hill County",30041,Yes,158.5 ,131, 190.5,25,stable,-0.5 ,-1.3, 0.3
+"Missoula County",30063,Yes,157.4 ,147, 168.3,183,falling,-0.9 ,-1.3, -0.5
+"Beaverhead County",30001,Yes,156.9 ,127, 192.6,21,stable,-1.2 ,-2.4, 0.0
+"Ravalli County",30081,Yes,156.1 ,142.4, 171.1,103,stable,-0.7 ,-1.4, 0.0
+"Sweet Grass County",30097,Yes,153.1 ,111.8, 208.7,10,stable,0.0 ,-1.6, 1.6
+"Lewis and Clark County",30049,Yes,151.4 ,139.2, 164.4,122,falling,-1.4 ,-2.0, -0.8
+"Granite County",30039,Yes,149.8 ,106.5, 212,9,falling,-3.0 ,-5.2, -0.8
+"Musselshell County",30065,Yes,147.5 ,111.5, 195.1,12,stable,-1.0 ,-2.6, 0.6
+"Judith Basin County",30045,Yes,147.3 ,95.6, 227,5,stable,-1.0 ,-3.2, 1.4
+"Park County",30067,Yes,147.1 ,125.5, 172,35,stable,2.4 ,-1.3, 6.3
+"Dawson County",30021,Yes,146.9 ,118.1, 181.4,19,stable,-0.9 ,-2.1, 0.4
+"Chouteau County",30015,Yes,145.7 ,107.9, 195,11,stable,-0.9 ,-2.4, 0.6
+"Powell County",30077,Yes,144.8 ,111.7, 186.2,14,falling,-1.2 ,-2.4, -0.1
+"Fallon County",30025,Yes,141.2 ,93, 207.6,6,stable,-0.9 ,-3.6, 1.8
+"Valley County",30105,Yes,140.6 ,110.8, 177.6,16,falling,-2.3 ,-3.8, -0.8
+"Daniels County",30019,Yes,140.1 ,81, 233.4,4,falling,-2.3 ,-4.3, -0.3
+"Lake County",30047,Yes,135.3 ,118.4, 154.5,50,falling,-1.5 ,-2.2, -0.7
+"Big Horn County",30003,Yes,134.6 ,97.6, 184.2,9,falling,-2.5 ,-4.0, -1.1
+"Fergus County",30027,Yes,134.5 ,111.9, 161.4,26,falling,-1.8 ,-2.7, -0.9
+"Rosebud County",30087,Yes,131.1 ,96.7, 175.3,10,falling,-2.4 ,-3.9, -0.9
+"Glacier County",30035,Yes,130.7 ,92.6, 180.7,8,stable,-0.9 ,-2.4, 0.6
+"Phillips County",30071,Yes,130.6 ,92.9, 182.1,8,falling,-2.1 ,-3.6, -0.6
+"Teton County",30099,Yes,129.9 ,98.6, 169.5,13,stable,-1.1 ,-2.4, 0.3
+"Wheatland County",30107,Yes,127.5 ,80.2, 200.3,5,*,*,*,*
+"Carbon County",30009,Yes,124.9 ,101.4, 153.7,21,falling,-2.0 ,-3.1, -0.9
+"Madison County",30057,Yes,124.8 ,99, 157.4,18,falling,-3.1 ,-4.6, -1.5
+"Gallatin County",30031,Yes,123.6 ,112.9, 134.9,106,falling,-1.3 ,-2.1, -0.5
+"Blaine County",30005,Yes,119.4 ,81, 173.9,7,stable,-1.7 ,-3.5, 0.1
+"Liberty County",30051,Yes,117 ,69.9, 187.6,4,falling,-2.5 ,-4.6, -0.3
+"Carter County",30011,***,* ,*, *,3 or fewer,*,*,*,*
+"Garfield County",30033,***,* ,*, *,3 or fewer,*,*,*,*
+"Golden Valley County",30037,***,* ,*, *,3 or fewer,*,*,*,*
+"McCone County",30055,***,* ,*, *,3 or fewer,*,*,*,*
+"Petroleum County",30069,***,* ,*, *,3 or fewer,*,*,*,*
+"Powder River County",30075,***,* ,*, *,3 or fewer,*,*,*,*
+"Treasure County",30103,***,* ,*, *,3 or fewer,*,*,*,*
+"Wibaux County",30109,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:01 pm.
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

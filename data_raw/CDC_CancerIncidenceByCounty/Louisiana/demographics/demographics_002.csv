@@ -1,0 +1,85 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=22&areatype=county&topic=ed&demo=00005&race=00&sex=0&age=081&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '22', 'areatype': 'county', 'topic': 'ed', 'demo': '00005', 'race': '00', 'sex': '0', 'age': '081', 'type': 'manyareacensus', 'file_name': 'demographics_002.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=22&areatype=county&topic=ed&demo=00005&race=00&sex=0&age=081&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Louisiana by Parish
+Education: Less than High School
+Population Ages 25+
+"All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+Parish, FIPS,Value (Percent),People(Education: Less Than High School),Rank within US
+"United States",00000,12.7,27437114,"N/A"
+"Louisiana",22000,15.7,486085,"48 of 52"
+"East Baton Rouge Parish",22033,9.8,27408,"979 of 3141"
+"St. Tammany Parish",22103,10.5,17681,"1156 of 3141"
+"Bossier Parish",22015,11.2,9166,"1304 of 3141"
+"Ascension Parish",22005,11.6,8927,"1412 of 3141"
+"St. Charles Parish",22089,11.8,4109,"1446 of 3141"
+"Lincoln Parish",22061,11.8,3039,"1463 of 3141"
+"Vernon Parish",22115,12.5,3879,"1586 of 3141"
+"Lafayette Parish",22055,13.0,20517,"1680 of 3141"
+"Caddo Parish",22017,13.5,22635,"1754 of 3141"
+"Calcasieu Parish",22019,13.9,18161,"1811 of 3141"
+"Orleans Parish",22071,14.1,38385,"1853 of 3141"
+"Union Parish",22111,14.2,2216,"1867 of 3141"
+"Ouachita Parish",22073,14.4,14474,"1897 of 3141"
+"Livingston Parish",22063,14.7,13169,"1942 of 3141"
+"Natchitoches Parish",22069,15.0,3464,"1976 of 3141"
+"Jefferson Parish",22051,15.1,46219,"2003 of 3141"
+"Beauregard Parish",22011,15.3,3713,"2023 of 3141"
+"Rapides Parish",22079,15.3,13324,"2036 of 3141"
+"Bienville Parish",22013,15.5,1488,"2062 of 3141"
+"St. John the Baptist Parish",22095,15.8,4542,"2111 of 3141"
+"St. James Parish",22093,15.8,2303,"2113 of 3141"
+"Sabine Parish",22085,16.5,2729,"2201 of 3141"
+"West Baton Rouge Parish",22121,17.1,2919,"2285 of 3141"
+"De Soto Parish",22031,17.4,3184,"2316 of 3141"
+"Plaquemines Parish",22075,17.8,2705,"2359 of 3141"
+"Tangipahoa Parish",22105,18.0,14907,"2381 of 3141"
+"Grant Parish",22043,18.2,2850,"2402 of 3141"
+"St. Bernard Parish",22087,18.3,5302,"2407 of 3141"
+"West Feliciana Parish",22125,18.5,1938,"2423 of 3141"
+"Red River Parish",22081,18.5,1074,"2430 of 3141"
+"Webster Parish",22119,18.7,5137,"2454 of 3141"
+"East Feliciana Parish",22037,19.1,2696,"2497 of 3141"
+"Morehouse Parish",22067,19.7,3451,"2570 of 3141"
+"Cameron Parish",22023,19.8,935,"2580 of 3141"
+"St. Martin Parish",22099,20.0,7118,"2596 of 3141"
+"Winn Parish",22127,20.1,2057,"2606 of 3141"
+"St. Mary Parish",22101,20.2,7104,"2624 of 3141"
+"Allen Parish",22003,20.4,3646,"2639 of 3141"
+"Richland Parish",22083,20.6,2860,"2658 of 3141"
+"Claiborne Parish",22027,20.6,2463,"2662 of 3141"
+"Jackson Parish",22049,20.9,2338,"2678 of 3141"
+"Jefferson Davis Parish",22053,21.0,4352,"2693 of 3141"
+"Pointe Coupee Parish",22077,21.2,3263,"2711 of 3141"
+"Iberia Parish",22045,21.5,10138,"2745 of 3141"
+"Terrebonne Parish",22109,21.7,15996,"2764 of 3141"
+"Acadia Parish",22001,22.4,8984,"2814 of 3141"
+"Iberville Parish",22047,22.5,5174,"2823 of 3141"
+"Catahoula Parish",22025,22.6,1548,"2829 of 3141"
+"West Carroll Parish",22123,23.0,1777,"2861 of 3141"
+"Caldwell Parish",22021,23.1,1572,"2868 of 3141"
+"Washington Parish",22117,23.4,7373,"2889 of 3141"
+"St. Landry Parish",22097,23.5,12632,"2896 of 3141"
+"Concordia Parish",22029,23.6,3197,"2897 of 3141"
+"Tensas Parish",22107,23.8,779,"2907 of 3141"
+"LaFourche Parish",22057,23.9,15682,"2910 of 3141"
+"St. Helena Parish",22091,24.1,1738,"2921 of 3141"
+"Vermilion Parish",22113,24.2,9495,"2925 of 3141"
+"La Salle Parish",22059,24.6,2471,"2946 of 3141"
+"Madison Parish",22065,24.7,1903,"2956 of 3141"
+"Franklin Parish",22041,24.8,3348,"2959 of 3141"
+"Evangeline Parish",22039,26.0,5640,"3006 of 3141"
+"Avoyelles Parish",22009,26.1,7264,"3008 of 3141"
+"Assumption Parish",22007,26.4,4105,"3017 of 3141"
+"East Carroll Parish",22035,29.5,1422,"3073 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:01 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Education: Less than High School, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#education."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

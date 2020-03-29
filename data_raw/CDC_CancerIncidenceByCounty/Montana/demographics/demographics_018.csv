@@ -1,0 +1,76 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=30&areatype=county&topic=pop&demo=00003&race=00&sex=0&age=999&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '30', 'areatype': 'county', 'topic': 'pop', 'demo': '00003', 'race': '00', 'sex': '0', 'age': '999', 'type': 'manyareacensus', 'file_name': 'demographics_018.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=30&areatype=county&topic=pop&demo=00003&race=00&sex=0&age=999&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Montana by County
+Population: Age 65 and over
+"All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Age 65 And Over),Rank within US
+"United States",00000,14.9,47732389,"N/A"
+"Montana",30000,17.1,176138,"6 of 52"
+"Roosevelt County",30085,10.4,1169,"3045 of 3141"
+"Glacier County",30035,11.3,1541,"2977 of 3141"
+"Gallatin County",30031,11.4,11471,"2965 of 3141"
+"Big Horn County",30003,11.5,1522,"2956 of 3141"
+"Richland County",30083,13.5,1541,"2681 of 3141"
+"Hill County",30041,13.8,2276,"2630 of 3141"
+"Missoula County",30063,14.1,16074,"2584 of 3141"
+"Rosebud County",30087,14.4,1336,"2521 of 3141"
+"Blaine County",30005,14.7,976,"2455 of 3141"
+"Yellowstone County",30111,15.7,24533,"2191 of 3141"
+"Toole County",30101,15.8,794,"2171 of 3141"
+"Fallon County",30025,16.1,471,"2071 of 3141"
+"Lewis and Clark County",30049,16.6,11034,"1885 of 3141"
+"Dawson County",30021,17.3,1616,"1664 of 3141"
+"Cascade County",30013,17.4,14237,"1639 of 3141"
+"Silver Bow County",30093,17.5,6034,"1615 of 3141"
+"Flathead County",30029,17.5,16861,"1599 of 3141"
+"Custer County",30017,18.6,2213,"1261 of 3141"
+"Chouteau County",30015,18.7,1089,"1223 of 3141"
+"Wheatland County",30107,19.0,401,"1128 of 3141"
+"Powell County",30077,19.0,1304,"1125 of 3141"
+"Jefferson County",30043,19.1,2221,"1098 of 3141"
+"Pondera County",30073,19.5,1185,"990 of 3141"
+"Park County",30067,20.2,3230,"814 of 3141"
+"Stillwater County",30095,20.2,1889,"804 of 3141"
+"Lake County",30047,20.2,5969,"803 of 3141"
+"Garfield County",30033,20.8,226,"677 of 3141"
+"Treasure County",30103,20.9,165,"665 of 3141"
+"Beaverhead County",30001,21.0,1964,"644 of 3141"
+"Phillips County",30071,21.2,876,"614 of 3141"
+"Valley County",30105,21.3,1607,"603 of 3141"
+"Deer Lodge County",30023,21.7,1980,"530 of 3141"
+"Sheridan County",30091,21.9,781,"505 of 3141"
+"Teton County",30099,22.0,1331,"484 of 3141"
+"Petroleum County",30069,22.1,100,"478 of 3141"
+"Broadwater County",30007,22.1,1274,"472 of 3141"
+"Liberty County",30051,22.4,504,"439 of 3141"
+"Fergus County",30027,22.5,2547,"430 of 3141"
+"Golden Valley County",30037,22.5,168,"429 of 3141"
+"Powder River County",30075,22.6,364,"421 of 3141"
+"Meagher County",30059,22.8,455,"404 of 3141"
+"Musselshell County",30065,22.9,1091,"388 of 3141"
+"Judith Basin County",30045,23.0,451,"379 of 3141"
+"Ravalli County",30081,23.4,9699,"341 of 3141"
+"Daniels County",30019,23.7,423,"328 of 3141"
+"Carbon County",30009,23.7,2479,"321 of 3141"
+"McCone County",30055,24.5,423,"248 of 3141"
+"Wibaux County",30109,25.7,288,"175 of 3141"
+"Lincoln County",30053,26.0,5003,"157 of 3141"
+"Carter County",30011,26.2,346,"145 of 3141"
+"Sweet Grass County",30097,26.4,961,"139 of 3141"
+"Prairie County",30079,26.4,350,"136 of 3141"
+"Mineral County",30061,26.8,1122,"122 of 3141"
+"Madison County",30057,27.3,2158,"98 of 3141"
+"Sanders County",30089,27.4,3133,"92 of 3141"
+"Granite County",30039,27.5,882,"86 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:01 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Age 65 and over, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

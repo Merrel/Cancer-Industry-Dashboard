@@ -1,0 +1,36 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=23&areatype=county&topic=work&demo=00012&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '23', 'areatype': 'county', 'topic': 'work', 'demo': '00012', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_031.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=23&areatype=county&topic=work&demo=00012&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Maine by County
+Workforce: Unemployed
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Unemployed),Rank within US
+"Maine",23000,5.3,36790,"15 of 52"
+"United States",00000,6.6,10560305,"N/A"
+"Lincoln County",23015,3.4,583,"422 of 3141"
+"Cumberland County",23005,4.0,6591,"628 of 3141"
+"Sagadahoc County",23023,4.1,786,"664 of 3141"
+"Knox County",23013,4.7,955,"895 of 3141"
+"York County",23031,4.8,5367,"983 of 3141"
+"Androscoggin County",23001,5.2,2926,"1131 of 3141"
+"Aroostook County",23003,5.3,1676,"1164 of 3141"
+"Hancock County",23009,5.7,1598,"1368 of 3141"
+"Kennebec County",23011,5.7,3535,"1386 of 3141"
+"Franklin County",23007,6.1,939,"1601 of 3141"
+"Oxford County",23017,6.3,1705,"1676 of 3141"
+"Penobscot County",23019,6.5,5043,"1800 of 3141"
+"Waldo County",23027,6.5,1297,"1803 of 3141"
+"Piscataquis County",23021,7.8,551,"2346 of 3141"
+"Washington County",23029,7.9,1100,"2382 of 3141"
+"Somerset County",23025,8.8,2138,"2623 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:00 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Workforce: Unemployed, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#workforce."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

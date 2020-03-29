@@ -1,0 +1,65 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=16&areatype=county&topic=ed&demo=00004&race=00&sex=0&age=081&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '16', 'areatype': 'county', 'topic': 'ed', 'demo': '00004', 'race': '00', 'sex': '0', 'age': '081', 'type': 'manyareacensus', 'file_name': 'demographics_001.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=16&areatype=county&topic=ed&demo=00004&race=00&sex=0&age=081&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Idaho by County
+Education: Less than 9th grade
+Population Ages 25+
+"All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Education: Less Than 9th Grade),Rank within US
+"Idaho",16000,3.7,39116,"19 of 52"
+"United States",00000,5.4,11759554,"N/A"
+"Latah County",16057,1.0,219,"44 of 3141"
+"Boise County",16015,1.1,59,"55 of 3141"
+"Kootenai County",16055,1.2,1241,"70 of 3141"
+"Bear Lake County",16007,1.5,57,"120 of 3141"
+"Oneida County",16071,1.5,40,"144 of 3141"
+"Valley County",16085,1.5,118,"151 of 3141"
+"Nez Perce County",16069,1.6,436,"166 of 3141"
+"Ada County",16001,1.6,4763,"185 of 3141"
+"Bannock County",16005,2.1,1102,"377 of 3141"
+"Madison County",16065,2.1,342,"382 of 3141"
+"Caribou County",16029,2.2,95,"403 of 3141"
+"Franklin County",16041,2.2,165,"414 of 3141"
+"Lemhi County",16059,2.4,142,"513 of 3141"
+"Bonner County",16017,2.6,800,"632 of 3141"
+"Clearwater County",16035,2.8,185,"743 of 3141"
+"Butte County",16023,2.8,54,"794 of 3141"
+"Adams County",16003,2.9,87,"809 of 3141"
+"Bonneville County",16019,2.9,1931,"832 of 3141"
+"Idaho County",16049,3.3,396,"1076 of 3141"
+"Benewah County",16009,3.4,219,"1127 of 3141"
+"Teton County",16081,3.5,246,"1171 of 3141"
+"Shoshone County",16079,3.5,323,"1202 of 3141"
+"Payette County",16075,3.6,532,"1220 of 3141"
+"Lewis County",16061,3.7,99,"1271 of 3141"
+"Gem County",16045,4.4,513,"1611 of 3141"
+"Custer County",16037,4.5,145,"1656 of 3141"
+"Twin Falls County",16083,4.8,2485,"1789 of 3141"
+"Fremont County",16043,5.0,408,"1856 of 3141"
+"Boundary County",16021,5.1,398,"1873 of 3141"
+"Jefferson County",16051,5.6,880,"2064 of 3141"
+"Blaine County",16013,6.1,930,"2241 of 3141"
+"Elmore County",16039,6.3,1011,"2296 of 3141"
+"Bingham County",16011,6.4,1745,"2332 of 3141"
+"Camas County",16025,6.5,40,"2361 of 3141"
+"Canyon County",16027,6.9,8694,"2447 of 3141"
+"Washington County",16087,7.2,507,"2508 of 3141"
+"Cassia County",16031,9.4,1294,"2815 of 3141"
+"Owyhee County",16073,10.6,778,"2912 of 3141"
+"Lincoln County",16063,10.9,352,"2928 of 3141"
+"Gooding County",16047,11.6,1121,"2963 of 3141"
+"Jerome County",16053,12.3,1696,"2988 of 3141"
+"Minidoka County",16067,12.9,1637,"3011 of 3141"
+"Power County",16077,14.8,689,"3055 of 3141"
+"Clark County",16033,24.2,142,"3130 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 4:58 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Education: Less than 9th grade, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#education."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

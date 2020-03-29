@@ -1,0 +1,134 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=31&areatype=county&cancer=001&race=00&sex=0&age=136&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '31', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '0', 'age': '136', 'type': 'death', 'file_name': 'deathrates_036.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=31&areatype=county&cancer=001&race=00&sex=0&age=136&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for Nebraska by County
+
+"All Cancer Sites, 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, Ages 50+"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 161.4?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Nebraska",31000,No,536.4 ,528.1, 544.8,3308,falling,-1.2 ,-1.4, -0.9
+"United States",00000,No,540.6 ,539.9, 541.2,558319,falling,-1.5 ,-1.5, -1.5
+"Rock County",31149,No,753.1 ,488.8, 1106.5,6,stable,0.5 ,-1.5, 2.5
+"Thurston County",31173,No,707.4 ,539.7, 909,13,stable,-0.3 ,-1.8, 1.3
+"Nemaha County",31127,No,650.5 ,520.9, 802.4,18,stable,0.3 ,-1.1, 1.7
+"Boyd County",31015,No,648.1 ,455.1, 896.9,8,stable,0.1 ,-1.8, 1.9
+"Chase County",31029,No,637.4 ,476.8, 834.6,11,stable,0.1 ,-1.2, 1.5
+"Burt County",31021,No,629.7 ,512.9, 765.3,21,stable,-0.1 ,-1.2, 1.1
+"Saline County",31151,No,626.2 ,527.7, 737.6,30,stable,-0.4 ,-1.1, 0.4
+"Dundy County",31057,No,619.4 ,416.5, 889.5,6,stable,1.0 ,-1.0, 3.0
+"Dodge County",31053,No,616.7 ,561.3, 676.2,94,stable,0.0 ,-0.4, 0.4
+"Johnson County",31097,No,615 ,474.1, 785,14,stable,-1.0 ,-2.6, 0.8
+"Fillmore County",31059,No,613.2 ,488.1, 760.7,17,stable,0.0 ,-1.2, 1.2
+"Webster County",31181,No,606.2 ,454.9, 792.2,11,stable,-0.4 ,-1.9, 1.2
+"Morrill County",31123,No,599.1 ,458.9, 768.7,13,stable,-15.1 ,-50.4, 45.3
+"Kimball County",31105,No,595.9 ,449.2, 776.5,11,stable,-0.5 ,-1.8, 0.8
+"Pawnee County",31133,No,594.4 ,428.3, 804.3,9,stable,-0.4 ,-2.0, 1.4
+"Gage County",31067,No,591.6 ,524.3, 665.1,58,stable,-0.3 ,-1.0, 0.4
+"Furnas County",31065,No,580.2 ,449.1, 737.9,14,falling,-1.3 ,-2.4, -0.3
+"Douglas County",31055,No,579.4 ,561.6, 597.5,842,falling,-1.0 ,-1.2, -0.7
+"Knox County",31107,No,578.9 ,481.4, 690.7,26,stable,0.1 ,-0.9, 1.2
+"Richardson County",31147,No,575.1 ,475.3, 689.9,25,stable,-0.6 ,-1.7, 0.6
+"Cass County",31025,No,574.2 ,505.2, 649.8,52,stable,-0.5 ,-1.3, 0.3
+"Hitchcock County",31087,No,574.1 ,411.2, 780.4,8,stable,0.0 ,-1.4, 1.4
+"Dakota County",31043,No,573.9 ,489.7, 668.2,34,falling,-1.1 ,-1.9, -0.2
+"Washington County",31177,No,564.1 ,488.8, 647.6,42,stable,-0.7 ,-1.4, 0.1
+"Sarpy County",31153,No,561 ,527.5, 596,220,falling,-1.1 ,-1.6, -0.6
+"Garfield County",31071,No,557.6 ,378.3, 793.2,6,stable,-1.6 ,-3.8, 0.6
+"Saunders County",31155,No,557.1 ,485.8, 636,45,stable,-0.4 ,-1.1, 0.4
+"Dixon County",31051,No,550.9 ,428.3, 698.2,14,stable,0.1 ,-1.3, 1.5
+"Polk County",31143,No,550.5 ,422.5, 705.3,13,stable,0.5 ,-0.8, 1.9
+"Sheridan County",31161,No,547.8 ,428.9, 690.5,15,stable,-0.5 ,-1.4, 0.5
+"Lincoln County",31111,No,547 ,492.2, 606.2,75,stable,-0.3 ,-0.9, 0.3
+"Hall County",31079,No,545.4 ,499.4, 594.5,107,falling,-0.9 ,-1.4, -0.4
+"Jefferson County",31095,No,545 ,444.6, 662,21,stable,-0.5 ,-2.0, 0.9
+"Otoe County",31131,No,540.2 ,461.9, 627.9,36,falling,-1.1 ,-1.9, -0.3
+"Butler County",31023,No,539.8 ,435.2, 661.9,19,falling,-1.8 ,-2.9, -0.6
+"York County",31185,No,538.6 ,457.3, 630.4,32,stable,-0.4 ,-1.2, 0.4
+"Harlan County",31083,No,537.9 ,396.3, 714.1,10,stable,0.9 ,-1.0, 2.8
+"Adams County",31001,No,535.7 ,476.9, 599.7,63,falling,-1.0 ,-1.4, -0.5
+"Platte County",31141,No,531.7 ,473.7, 594.7,63,stable,-0.5 ,-1.3, 0.3
+"Custer County",31041,No,526.8 ,439.7, 626.2,27,stable,0.2 ,-0.8, 1.2
+"Nance County",31125,No,525.6 ,379.3, 710.1,9,stable,-1.2 ,-2.9, 0.5
+"Seward County",31159,No,518.7 ,440.9, 606.2,32,falling,-3.0 ,-4.7, -1.3
+"Dawson County",31047,No,517.9 ,449.1, 594.2,42,falling,-1.0 ,-1.7, -0.2
+"Red Willow County",31145,No,513.9 ,426.7, 613.8,25,stable,-1.0 ,-1.9, 0.0
+"Merrick County",31121,No,513.7 ,410.3, 635.5,17,stable,-0.5 ,-1.6, 0.6
+"Howard County",31093,No,511 ,397.9, 646.5,14,stable,-1.1 ,-2.3, 0.1
+"Keith County",31101,No,510.2 ,416.7, 618.7,21,stable,-0.8 ,-1.8, 0.3
+"Pierce County",31139,No,509.8 ,401.3, 638.9,15,stable,-0.4 ,-1.4, 0.7
+"Lancaster County",31109,No,506.9 ,485.1, 529.5,423,falling,-1.2 ,-1.5, -0.9
+"Nuckolls County",31129,No,505.1 ,385.8, 650.5,13,falling,-2.0 ,-3.3, -0.7
+"Buffalo County",31019,No,504.1 ,452, 560.5,71,falling,-0.9 ,-1.6, -0.1
+"Madison County",31119,No,497.1 ,441.5, 557.6,61,falling,-0.8 ,-1.5, -0.2
+"Scotts Bluff County",31157,No,493.4 ,442.7, 548.2,72,falling,-0.7 ,-1.4, -0.1
+"Colfax County",31037,No,490.8 ,386.2, 614.5,16,stable,-0.1 ,-1.3, 1.0
+"Valley County",31175,No,478.3 ,356, 630.4,11,stable,-0.4 ,-1.9, 1.1
+"Gosper County",31073,No,476.2 ,303.7, 712.1,5,stable,-0.5 ,-2.6, 1.6
+"Cherry County",31031,No,470.3 ,362.1, 601.4,13,stable,-1.2 ,-2.5, 0.2
+"Box Butte County",31013,No,466.5 ,377.7, 569.9,20,falling,-1.1 ,-2.1, -0.1
+"Perkins County",31135,No,465.6 ,315.5, 663.4,7,stable,-1.2 ,-2.8, 0.3
+"Thayer County",31169,No,465.5 ,360.3, 593.2,15,stable,-1.4 ,-2.8, 0.0
+"Brown County",31017,No,464.8 ,330.1, 637.9,8,stable,-1.6 ,-3.1, 0.0
+"Garden County",31069,No,464.4 ,304.9, 680.3,6,stable,-1.0 ,-3.1, 1.2
+"Boone County",31011,No,460.6 ,347.8, 598.3,12,stable,-0.3 ,-1.6, 1.0
+"Antelope County",31003,No,453.7 ,354.4, 572.6,15,falling,-1.4 ,-2.6, -0.2
+"Hamilton County",31081,No,451.9 ,359.6, 560.7,17,falling,-1.6 ,-2.8, -0.4
+"Holt County",31089,No,447.8 ,366.5, 541.7,22,stable,-0.8 ,-1.7, 0.2
+"Cuming County",31039,No,444.6 ,358.6, 545.4,20,stable,-1.0 ,-2.2, 0.2
+"Kearney County",31099,No,442.4 ,338.9, 567.9,13,falling,-2.3 ,-3.7, -0.9
+"Sherman County",31163,No,429.9 ,296.3, 603.5,7,stable,-0.5 ,-2.5, 1.6
+"Phelps County",31137,No,429.9 ,342.9, 532.4,18,stable,0.0 ,-1.3, 1.3
+"Wayne County",31179,No,421.6 ,325.5, 537.4,14,stable,-0.3 ,-1.6, 1.0
+"Clay County",31035,No,419.3 ,315.4, 546.7,11,stable,-0.4 ,-1.8, 0.9
+"Dawes County",31045,No,418.6 ,326.9, 528.5,15,stable,-1.0 ,-2.3, 0.3
+"Cheyenne County",31033,No,413.5 ,325.2, 518.3,16,stable,-1.0 ,-2.6, 0.6
+"Cedar County",31027,No,409.9 ,325.3, 510,17,falling,-1.1 ,-2.2, -0.1
+"Stanton County",31167,No,406.8 ,295.5, 546.1,9,stable,-1.4 ,-3.2, 0.4
+"Franklin County",31061,No,406.6 ,281.4, 569.4,7,falling,-2.9 ,-4.4, -1.3
+"Deuel County",31049,No,398.3 ,245, 614.6,4,falling,-2.8 ,-4.7, -0.8
+"Frontier County",31063,No,359.8 ,227.3, 543.1,5,stable,-1.1 ,-3.3, 1.2
+"Greeley County",31077,No,322.5 ,199.5, 495.9,4,stable,-1.3 ,-3.8, 1.3
+"Arthur County",31005,***,* ,*, *,3 or fewer,*,*,*,*
+"Banner County",31007,***,* ,*, *,3 or fewer,*,*,*,*
+"Blaine County",31009,***,* ,*, *,3 or fewer,*,*,*,*
+"Grant County",31075,***,* ,*, *,3 or fewer,*,*,*,*
+"Hayes County",31085,***,* ,*, *,3 or fewer,*,*,*,*
+"Hooker County",31091,***,* ,*, *,3 or fewer,*,*,*,*
+"Keya Paha County",31103,***,* ,*, *,3 or fewer,*,*,*,*
+"Logan County",31113,***,* ,*, *,3 or fewer,*,*,*,*
+"Loup County",31115,***,* ,*, *,3 or fewer,*,*,*,*
+"McPherson County",31117,***,* ,*, *,3 or fewer,*,*,*,*
+"Sioux County",31165,***,* ,*, *,3 or fewer,*,*,*,*
+"Thomas County",31171,***,* ,*, *,3 or fewer,*,*,*,*
+"Wheeler County",31183,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 4:59 pm.
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

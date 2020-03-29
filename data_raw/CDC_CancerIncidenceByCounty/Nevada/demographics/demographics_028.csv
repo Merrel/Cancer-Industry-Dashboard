@@ -1,0 +1,37 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=32&areatype=county&topic=pov&demo=00007&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '32', 'areatype': 'county', 'topic': 'pov', 'demo': '00007', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_028.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=32&areatype=county&topic=pov&demo=00007&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Nevada by County
+Poverty: Families below poverty
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),Families (Below Poverty),Rank within US
+"Nevada",32000,10.3,69431,"31 of 52"
+"United States",00000,10.5,8253388,"N/A"
+"Eureka County",32011,2.5,12,"33 of 3141"
+"Storey County",32029,4.6,47,"197 of 3141"
+"Humboldt County",32013,5.4,218,"304 of 3141"
+"Esmeralda County",32009,5.6,13,"330 of 3141"
+"Douglas County",32005,6.5,922,"510 of 3141"
+"Lincoln County",32017,7.6,97,"786 of 3141"
+"Washoe County",32031,8.5,9063,"1016 of 3141"
+"Lyon County",32019,8.6,1145,"1050 of 3141"
+"White Pine County",32033,8.9,184,"1133 of 3141"
+"Elko County",32007,9.3,1192,"1220 of 3141"
+"Churchill County",32001,9.7,603,"1328 of 3141"
+"Lander County",32015,9.8,151,"1357 of 3141"
+"Clark County",32003,11.0,52632,"1655 of 3141"
+"Carson City",32510,11.1,1481,"1694 of 3141"
+"Nye County",32023,12.0,1325,"1894 of 3141"
+"Pershing County",32027,14.5,191,"2382 of 3141"
+"Mineral County",32021,14.6,155,"2387 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:02 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Poverty: Families below poverty, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#poverty."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

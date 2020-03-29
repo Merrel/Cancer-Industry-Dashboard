@@ -1,0 +1,77 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=30&areatype=county&topic=inc&demo=00011&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '30', 'areatype': 'county', 'topic': 'inc', 'demo': '00011', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_005.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=30&areatype=county&topic=inc&demo=00011&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Montana by County
+Income: Median household income
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Dollars),Rank within US
+"Montana",30000,50801.000000000,"40 of 52"
+"United States",00000,57652.000000000,"N/A"
+"Glacier County",30035,29201.000000000,"3075 of 3141"
+"Blaine County",30005,35506.000000000,"2838 of 3141"
+"Sanders County",30089,36445.000000000,"2768 of 3141"
+"Lincoln County",30053,36934.000000000,"2730 of 3141"
+"Wheatland County",30107,37222.000000000,"2703 of 3141"
+"Musselshell County",30065,38156.000000000,"2623 of 3141"
+"Roosevelt County",30085,39219.000000000,"2543 of 3141"
+"Chouteau County",30015,39577.000000000,"2499 of 3141"
+"Mineral County",30061,40117.000000000,"2459 of 3141"
+"Silver Bow County",30093,40480.000000000,"2429 of 3141"
+"Deer Lodge County",30023,41235.000000000,"2336 of 3141"
+"Meagher County",30059,41343.000000000,"2323 of 3141"
+"Phillips County",30071,42101.000000000,"2236 of 3141"
+"Treasure County",30103,42454.000000000,"2196 of 3141"
+"Lake County",30047,42582.000000000,"2183 of 3141"
+"Judith Basin County",30045,43281.000000000,"2117 of 3141"
+"Golden Valley County",30037,43854.000000000,"2055 of 3141"
+"Beaverhead County",30001,43880.000000000,"2052 of 3141"
+"Powell County",30077,44352.000000000,"2007 of 3141"
+"Pondera County",30073,44597.000000000,"1979 of 3141"
+"Ravalli County",30081,44733.000000000,"1957 of 3141"
+"Park County",30067,44920.000000000,"1932 of 3141"
+"Hill County",30041,45269.000000000,"1897 of 3141"
+"Carter County",30011,45347.000000000,"1890 of 3141"
+"McCone County",30055,46193.000000000,"1788 of 3141"
+"Petroleum County",30069,46429.000000000,"1753 of 3141"
+"Liberty County",30051,46641.000000000,"1721 of 3141"
+"Toole County",30101,46735.000000000,"1708 of 3141"
+"Cascade County",30013,46827.000000000,"1700 of 3141"
+"Fergus County",30027,47110.000000000,"1677 of 3141"
+"Wibaux County",30109,47132.000000000,"1669 of 3141"
+"Garfield County",30033,47188.000000000,"1662 of 3141"
+"Big Horn County",30003,47276.000000000,"1654 of 3141"
+"Madison County",30057,47900.000000000,"1586 of 3141"
+"Granite County",30039,49063.000000000,"1464 of 3141"
+"Missoula County",30063,49412.000000000,"1427 of 3141"
+"Sweet Grass County",30097,49761.000000000,"1383 of 3141"
+"Prairie County",30079,50850.000000000,"1255 of 3141"
+"Teton County",30099,51060.000000000,"1225 of 3141"
+"Powder River County",30075,51136.000000000,"1216 of 3141"
+"Flathead County",30029,51410.000000000,"1188 of 3141"
+"Sheridan County",30091,51940.000000000,"1128 of 3141"
+"Custer County",30017,53050.000000000,"1015 of 3141"
+"Daniels County",30019,53591.000000000,"974 of 3141"
+"Rosebud County",30087,54709.000000000,"856 of 3141"
+"Valley County",30105,55267.000000000,"820 of 3141"
+"Broadwater County",30007,55295.000000000,"813 of 3141"
+"Fallon County",30025,56806.000000000,"707 of 3141"
+"Carbon County",30009,56988.000000000,"700 of 3141"
+"Yellowstone County",30111,57955.000000000,"632 of 3141"
+"Gallatin County",30031,59397.000000000,"553 of 3141"
+"Dawson County",30021,59622.000000000,"533 of 3141"
+"Lewis and Clark County",30049,60789.000000000,"479 of 3141"
+"Stillwater County",30095,61998.000000000,"424 of 3141"
+"Jefferson County",30043,64911.000000000,"325 of 3141"
+"Richland County",30083,66572.000000000,"276 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:01 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Income: Median household income, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#income."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"Median Incomes over 250,000 have been coded to 250,001 by the Census Bureau. [ http://www2.census.gov/acs2012_5yr/summaryfile/ACS_2008-2012_SF_Tech_Doc.pdf ]"
+Data for United States does not include Puerto Rico.

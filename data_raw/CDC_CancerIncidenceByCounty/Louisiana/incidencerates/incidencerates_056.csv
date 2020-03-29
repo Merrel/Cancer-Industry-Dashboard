@@ -1,0 +1,105 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=22&areatype=county&cancer=018&stage=211&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '22', 'areatype': 'county', 'cancer': '018', 'stage': '211', 'race': '00', 'sex': '0', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_056.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=22&areatype=county&cancer=018&stage=211&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Louisiana by Parish
+
+"Stomach (Late Stage^), 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+Parish, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Percent of Cases with Late Stage
+"Louisiana(3)",22000,***,4 ,3.8, 4.3,209,57.5
+"US (SEER+NPCR)(1)",00000,***,3.8 ,3.8, 3.8,13895,58.2
+"St. Martin Parish(7)",22099,***,8.8 ,5.7, 13.1,5,68.4
+"St. John the Baptist Parish(7)",22095,***,7.4 ,4.2, 12,3,58.6
+"Webster Parish(7)",22119,***,7 ,4.1, 11.1,4,65.5
+"Caddo Parish(7)",22017,***,5.6 ,4.5, 7,17,73.9
+"St. Mary Parish(7)",22101,***,5.1 ,2.9, 8.5,3,66.7
+"LaFourche Parish(7)",22057,***,4.6 ,3, 6.9,5,59.5
+"Calcasieu Parish(7)",22019,***,4.5 ,3.3, 6,9,56.6
+"Iberia Parish(7)",22045,***,4.3 ,2.5, 6.9,4,66.7
+"Jefferson Parish(7)",22051,***,4.2 ,3.4, 5.1,22,59.8
+"Orleans Parish(7)",22071,***,4.1 ,3.2, 5.1,17,56.0
+"Tangipahoa Parish(7)",22105,***,4.1 ,2.6, 6,5,56.5
+"Ouachita Parish(7)",22073,***,4.1 ,2.8, 5.7,7,56.7
+"East Baton Rouge Parish(7)",22033,***,4 ,3.2, 4.9,18,60.1
+"St. Landry Parish(7)",22097,***,3.9 ,2.4, 6.1,4,50.0
+"Ascension Parish(7)",22005,***,3.8 ,2.3, 5.9,4,55.3
+"St. Tammany Parish(7)",22103,***,3.5 ,2.6, 4.7,10,51.5
+"Lafayette Parish(7)",22055,***,3.3 ,2.3, 4.6,8,48.1
+"Bossier Parish(7)",22015,***,3 ,1.9, 4.7,4,70.0
+"Terrebonne Parish(7)",22109,***,2.7 ,1.5, 4.4,3,44.4
+"Rapides Parish(7)",22079,***,2.6 ,1.6, 4,4,41.7
+"Livingston Parish(7)",22063,***,2.3 ,1.3, 3.9,3,45.7
+"Acadia Parish(7)",22001,***,* ,*, *,3 or fewer,*
+"Allen Parish(7)",22003,***,* ,*, *,3 or fewer,*
+"Assumption Parish(7)",22007,***,* ,*, *,3 or fewer,*
+"Avoyelles Parish(7)",22009,***,* ,*, *,3 or fewer,*
+"Beauregard Parish(7)",22011,***,* ,*, *,3 or fewer,*
+"Bienville Parish(7)",22013,***,* ,*, *,3 or fewer,*
+"Caldwell Parish(7)",22021,***,* ,*, *,3 or fewer,*
+"Cameron Parish(7)",22023,***,* ,*, *,3 or fewer,*
+"Catahoula Parish(7)",22025,***,* ,*, *,3 or fewer,*
+"Claiborne Parish(7)",22027,***,* ,*, *,3 or fewer,*
+"Concordia Parish(7)",22029,***,* ,*, *,3 or fewer,*
+"De Soto Parish(7)",22031,***,* ,*, *,3 or fewer,*
+"East Carroll Parish(7)",22035,***,* ,*, *,3 or fewer,*
+"East Feliciana Parish(7)",22037,***,* ,*, *,3 or fewer,*
+"Evangeline Parish(7)",22039,***,* ,*, *,3 or fewer,*
+"Franklin Parish(7)",22041,***,* ,*, *,3 or fewer,*
+"Grant Parish(7)",22043,***,* ,*, *,3 or fewer,*
+"Iberville Parish(7)",22047,***,* ,*, *,3 or fewer,*
+"Jackson Parish(7)",22049,***,* ,*, *,3 or fewer,*
+"Jefferson Davis Parish(7)",22053,***,* ,*, *,3 or fewer,*
+"La Salle Parish(7)",22059,***,* ,*, *,3 or fewer,*
+"Lincoln Parish(7)",22061,***,* ,*, *,3 or fewer,*
+"Madison Parish(7)",22065,***,* ,*, *,3 or fewer,*
+"Morehouse Parish(7)",22067,***,* ,*, *,3 or fewer,*
+"Natchitoches Parish(7)",22069,***,* ,*, *,3 or fewer,*
+"Plaquemines Parish(7)",22075,***,* ,*, *,3 or fewer,*
+"Pointe Coupee Parish(7)",22077,***,* ,*, *,3 or fewer,*
+"Red River Parish(7)",22081,***,* ,*, *,3 or fewer,*
+"Richland Parish(7)",22083,***,* ,*, *,3 or fewer,*
+"Sabine Parish(7)",22085,***,* ,*, *,3 or fewer,*
+"St. Bernard Parish(7)",22087,***,* ,*, *,3 or fewer,*
+"St. Charles Parish(7)",22089,***,* ,*, *,3 or fewer,*
+"St. Helena Parish(7)",22091,***,* ,*, *,3 or fewer,*
+"St. James Parish(7)",22093,***,* ,*, *,3 or fewer,*
+"Tensas Parish(7)",22107,***,* ,*, *,3 or fewer,*
+"Union Parish(7)",22111,***,* ,*, *,3 or fewer,*
+"Vermilion Parish(7)",22113,***,* ,*, *,3 or fewer,*
+"Vernon Parish(7)",22115,***,* ,*, *,3 or fewer,*
+"Washington Parish(7)",22117,***,* ,*, *,3 or fewer,*
+"West Baton Rouge Parish(7)",22121,***,* ,*, *,3 or fewer,*
+"West Carroll Parish(7)",22123,***,* ,*, *,3 or fewer,*
+"West Feliciana Parish(7)",22125,***,* ,*, *,3 or fewer,*
+"Winn Parish(7)",22127,***,* ,*, *,3 or fewer,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:01 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+
+Rates are computed using cancers classified as malignant based on ICD-O-3. For more information see malignant.html.
+
+"^ Late Stage is defined as cases determined to be regional or distant. Coding is generally based on Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ] but may include other staging variables if necessary."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+3 Source: SEER November 2018 submission.  State Cancer Registry also receives funding from CDC's National Program of Cancer Registries.
+7 Source: SEER November 2018 submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

@@ -1,0 +1,36 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=23&areatype=county&topic=mob&demo=00019&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '23', 'areatype': 'county', 'topic': 'mob', 'demo': '00019', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_010.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=23&areatype=county&topic=mob&demo=00019&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Maine by County
+"Mobility: Moved, different county this state (in past year)"
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Moved From Different County In Same State),Rank within US
+"Maine",23000,2.9,38665,"21 of 51"
+"United States",00000,3.2,10247779,"N/A"
+"Aroostook County",23003,1.3,874,"92 of 3140"
+"Washington County",23029,2.2,708,"468 of 3140"
+"York County",23031,2.3,4680,"524 of 3140"
+"Cumberland County",23005,2.4,6875,"556 of 3140"
+"Hancock County",23009,2.6,1414,"716 of 3140"
+"Knox County",23013,2.7,1072,"793 of 3140"
+"Oxford County",23017,2.9,1638,"904 of 3140"
+"Piscataquis County",23021,2.9,486,"907 of 3140"
+"Lincoln County",23015,3.1,1040,"1025 of 3140"
+"Androscoggin County",23001,3.3,3518,"1208 of 3140"
+"Waldo County",23027,3.3,1300,"1216 of 3140"
+"Penobscot County",23019,3.6,5388,"1409 of 3140"
+"Kennebec County",23011,3.7,4492,"1538 of 3140"
+"Somerset County",23025,3.9,1973,"1638 of 3140"
+"Franklin County",23007,4.6,1390,"2057 of 3140"
+"Sagadahoc County",23023,5.2,1817,"2365 of 3140"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:00 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Mobility: Moved, different county this state (in past year), see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#mobility."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

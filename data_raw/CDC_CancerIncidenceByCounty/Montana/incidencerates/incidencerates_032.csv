@@ -1,0 +1,97 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=30&areatype=county&cancer=001&race=00&sex=1&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '30', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '1', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_032.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=30&areatype=county&cancer=001&race=00&sex=1&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Montana by County
+
+"All Cancer Sites (All Stages^), 2012-2016"
+
+"All Races (includes Hispanic), Male, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Montana(6,10)",30000,***,486.7 ,478.8, 494.7,3101,stable,0.8 ,-1.7, 3.5
+"US (SEER+NPCR)(1,10)",00000,***,488.8 ,488.3, 489.3,824195,falling,-1.4 ,-2.1, -0.7
+"Custer County(6,10)",30017,***,638.8 ,559.3, 727.1,50,stable,-1.7 ,-14.7, 13.3
+"Treasure County(6,10)",30103,***,623.5 ,370.2, 1047.6,4,stable,-8.1 ,-48.1, 63.0
+"Prairie County(6,10)",30079,***,622.2 ,425, 915.5,8,stable,11.8 ,-47.6, 138.5
+"Mineral County(6,10)",30061,***,596.6 ,475.8, 743.6,21,stable,-1.0 ,-31.7, 43.4
+"Stillwater County(6,10)",30095,***,588.7 ,506, 682.7,41,stable,1.2 ,-17.3, 23.7
+"Flathead County(6,10)",30029,***,587.2 ,559, 616.5,356,stable,-0.5 ,-3.4, 2.5
+"Roosevelt County(6,10)",30085,***,558.3 ,462.5, 667.4,27,stable,-5.9 ,-18.7, 8.8
+"Lewis and Clark County(6,10)",30049,***,551.8 ,518, 587.4,220,stable,-0.3 ,-5.3, 5.0
+"Sheridan County(6,10)",30091,***,537.7 ,416.8, 687.1,15,stable,-6.6 ,-21.5, 11.1
+"Rosebud County(6,10)",30087,***,534.4 ,445.3, 636.5,28,stable,-6.9 ,-21.4, 10.3
+"Lincoln County(6,10)",30053,***,525.1 ,475.1, 580.1,95,stable,1.0 ,-2.6, 4.7
+"Jefferson County(6,10)",30043,***,521.1 ,447.4, 604.9,45,stable,-0.6 ,-10.7, 10.6
+"Yellowstone County(6,10)",30111,***,516.9 ,495.2, 539.5,449,rising,6.1 ,1.4, 11.0
+"Valley County(6,10)",30105,***,502.2 ,422.3, 595.1,29,stable,-0.2 ,-15.5, 17.8
+"Powell County(6,10)",30077,***,500.5 ,416.9, 598,27,rising,9.8 ,6.6, 13.0
+"Park County(6,10)",30067,***,498.2 ,440, 563.1,59,stable,2.6 ,-14.2, 22.7
+"Silver Bow County(6,10)",30093,***,497.8 ,455.6, 543.2,109,stable,-1.2 ,-5.9, 3.7
+"Phillips County(6,10)",30071,***,493.6 ,387.6, 624.1,16,stable,13.3 ,-2.4, 31.6
+"Musselshell County(6,10)",30065,***,492.7 ,391.1, 617.6,18,stable,1.9 ,-12.8, 19.1
+"Meagher County(6,10)",30059,***,489.7 ,347.9, 686.9,9,stable,-19.5 ,-49.9, 29.3
+"Glacier County(6,10)",30035,***,480.9 ,403.1, 569,29,stable,-7.1 ,-19.3, 7.0
+"Golden Valley County(6,10)",30037,***,478.4 ,293.8, 797.1,4,stable,-16.7 ,-41.4, 18.4
+"Dawson County(6,10)",30021,***,475.7 ,399.3, 563.2,29,stable,7.4 ,-14.8, 35.4
+"Sweet Grass County(6,10)",30097,***,473.3 ,360.2, 615.7,14,stable,9.2 ,-5.0, 25.5
+"Pondera County(6,10)",30073,***,471.8 ,375.4, 586.6,19,stable,3.5 ,-27.0, 46.8
+"Broadwater County(6,10)",30007,***,470.9 ,381.8, 577.9,22,stable,1.8 ,-13.7, 20.2
+"Deer Lodge County(6,10)",30023,***,465.3 ,395.5, 545.8,34,stable,1.0 ,-28.5, 42.5
+"Gallatin County(6,10)",30031,***,462.2 ,433.3, 492.4,211,stable,3.8 ,-5.9, 14.5
+"Sanders County(6,10)",30089,***,457.4 ,392.7, 531.4,48,rising,10.4 ,0.4, 21.3
+"Big Horn County(6,10)",30003,***,449.3 ,374.2, 534.8,28,stable,10.4 ,-4.6, 27.7
+"Carbon County(6,10)",30009,***,447.1 ,383.8, 520.1,40,stable,-4.8 ,-31.8, 32.8
+"Lake County(6,10)",30047,***,445.1 ,402.9, 490.9,91,stable,0.3 ,-7.7, 8.9
+"Cascade County(6,10)",30013,***,440 ,413.6, 467.7,216,stable,-0.6 ,-7.9, 7.2
+"Ravalli County(6,10)",30081,***,438.6 ,405.2, 474.4,145,stable,0.8 ,-5.3, 7.2
+"Daniels County(6,10)",30019,***,436.3 ,282.7, 653.5,6,stable,-7.6 ,-41.4, 45.6
+"Missoula County(6,10)",30063,***,434.2 ,409.8, 459.7,258,falling,-2.1 ,-3.8, -0.3
+"Beaverhead County(6,10)",30001,***,433.7 ,364.5, 514,31,stable,-11.7 ,-34.5, 19.2
+"Toole County(6,10)",30101,***,431.6 ,331.8, 552.9,14,stable,-11.3 ,-34.7, 20.4
+"Hill County(6,10)",30041,***,431.2 ,369.1, 500.7,37,stable,-2.9 ,-26.0, 27.4
+"Blaine County(6,10)",30005,***,426.1 ,332.4, 538.3,15,stable,-2.3 ,-17.4, 15.6
+"Fergus County(6,10)",30027,***,425.7 ,364.9, 495.2,38,stable,6.3 ,-8.8, 23.9
+"Richland County(6,10)",30083,***,421.1 ,351, 501.2,28,stable,-0.6 ,-20.1, 23.7
+"Wheatland County(6,10)",30107,***,417.1 ,287.4, 597.2,7,stable,3.1 ,-25.5, 42.5
+"Chouteau County(6,10)",30015,***,412.6 ,323.8, 520.4,16,falling,-12.4 ,-16.5, -8.0
+"Fallon County(6,10)",30025,***,407.4 ,284, 567.8,8,stable,8.1 ,-25.5, 57.0
+"Teton County(6,10)",30099,***,403.9 ,324.5, 499.8,19,stable,-2.6 ,-17.2, 14.5
+"Carter County(6,10)",30011,***,400.7 ,246.2, 653.5,4,*,*,*,*
+"Granite County(6,10)",30039,***,364.3 ,262.5, 504.2,11,stable,-18.0 ,-45.2, 22.7
+"Wibaux County(6,10)",30109,***,357.8 ,202.2, 616.3,3,*,*,*,*
+"Judith Basin County(6,10)",30045,***,357.3 ,242.4, 525,7,stable,-20.6 ,-38.9, 3.1
+"McCone County(6,10)",30055,***,357.2 ,238.1, 535.1,6,stable,7.2 ,-27.7, 58.9
+"Powder River County(6,10)",30075,***,344.9 ,198.1, 567.8,5,stable,-14.4 ,-45.8, 35.1
+"Liberty County(6,10)",30051,***,339.3 ,222.3, 503.3,6,stable,-6.3 ,-29.9, 25.3
+"Madison County(6,10)",30057,***,314.6 ,253.1, 389.8,23,stable,-5.2 ,-25.5, 20.6
+"Garfield County(6,10)",30033,***,* ,*, *,3 or fewer,*,*,*,*
+"Petroleum County(6,10)",30069,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:01 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

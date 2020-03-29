@@ -1,0 +1,86 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=16&areatype=county&cancer=001&race=00&sex=0&age=009&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '16', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '0', 'age': '009', 'type': 'incd', 'file_name': 'incidencerates_036.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=16&areatype=county&cancer=001&race=00&sex=0&age=009&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Idaho by County
+
+"All Cancer Sites (All Stages^), 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, Ages <50"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Idaho(7,8)",16000,***,99.9 ,97.1, 102.7,983,rising,0.5 ,0.2, 0.8
+"US (SEER+NPCR)(1,10)",00000,***,105 ,104.8, 105.2,208468,stable,0.1 ,-0.8, 1.1
+"Payette County(7,8)",16075,***,120.6 ,95.5, 150.2,16,stable,0.5 ,-2.2, 3.4
+"Gem County(7,8)",16045,***,120.3 ,89.8, 157.5,11,stable,4.2 ,-0.2, 8.7
+"Bear Lake County(7)",16007,***,118.9 ,70.2, 187.1,4,*,*,*,*
+"Shoshone County(7,8)",16079,***,117.6 ,84.1, 160,8,stable,1.4 ,-3.5, 6.5
+"Boise County(7,8)",16015,***,114.3 ,68.7, 179.9,4,stable,1.8 ,-4.2, 8.1
+"Lemhi County(7,8)",16059,***,111.7 ,67.9, 173,4,stable,1.8 ,-3.4, 7.4
+"Lincoln County(7)",16063,***,109.8 ,63.8, 174.7,3,*,*,*,*
+"Bonneville County(7,8)",16019,***,109.2 ,98, 121.3,71,rising,2.1 ,0.9, 3.3
+"Canyon County(7,8)",16027,***,109 ,100.9, 117.5,136,stable,0.2 ,-1.4, 1.8
+"Bingham County(7,8)",16011,***,106.2 ,89.1, 125.5,28,rising,2.2 ,0.9, 3.6
+"Blaine County(7,8)",16013,***,105.1 ,81.8, 133,14,stable,1.3 ,-2.9, 5.7
+"Latah County(7,8)",16057,***,104.4 ,84.7, 127,21,rising,3.1 ,1.0, 5.3
+"Ada County(7,8)",16001,***,104.3 ,99, 109.7,295,stable,0.1 ,-0.5, 0.8
+"Kootenai County(7,8)",16055,***,103.7 ,94.3, 113.7,91,stable,0.0 ,-1.1, 1.2
+"Jefferson County(7,8)",16051,***,101.9 ,80.6, 126.7,16,stable,0.5 ,-2.4, 3.5
+"Minidoka County(7,8)",16067,***,100.9 ,76.1, 130.9,11,stable,-0.5 ,-3.2, 2.2
+"Owyhee County(7,8)",16073,***,100.4 ,68.6, 141.4,6,stable,-0.1 ,-4.2, 4.1
+"Elmore County(7,8)",16039,***,93.3 ,72.5, 117.9,15,stable,-22.7 ,-41.8, 2.6
+"Madison County(7,8)",16065,***,93 ,72.4, 117.2,18,stable,1.5 ,-1.2, 4.2
+"Nez Perce County(7,8)",16069,***,92.4 ,75.4, 112.1,21,rising,1.8 ,0.1, 3.5
+"Bannock County(7,8)",16005,***,88.8 ,77.3, 101.5,44,stable,-0.3 ,-1.6, 1.0
+"Bonner County(7,8)",16017,***,88.2 ,71.3, 108,19,stable,-1.1 ,-2.5, 0.3
+"Valley County(7,8)",16085,***,87 ,55.1, 131,5,stable,1.2 ,-4.0, 6.6
+"Fremont County(7,8)",16043,***,86.4 ,59.3, 121.4,7,stable,0.5 ,-3.0, 4.1
+"Caribou County(7)",16029,***,86.3 ,49.2, 139.6,3,*,*,*,*
+"Idaho County(7,8)",16049,***,86 ,59.3, 120.3,7,stable,2.4 ,-1.0, 5.9
+"Franklin County(7,8)",16041,***,85.1 ,58.4, 119.5,7,stable,0.3 ,-3.6, 4.4
+"Teton County(7,8)",16081,***,84.5 ,58, 119.2,7,stable,-1.1 ,-5.9, 3.9
+"Twin Falls County(7,8)",16083,***,82.1 ,70.8, 94.6,39,stable,-1.6 ,-3.2, 0.0
+"Benewah County(7,8)",16009,***,81.6 ,48.9, 127.4,4,stable,-3.1 ,-7.5, 1.5
+"Gooding County(7,8)",16047,***,79.9 ,55.4, 111.1,7,stable,-3.4 ,-7.0, 0.4
+"Washington County(7,8)",16087,***,74.9 ,45.5, 115.9,4,stable,-2.6 ,-7.0, 1.9
+"Boundary County(7,8)",16021,***,74.8 ,47.2, 112.5,5,stable,2.5 ,-2.6, 7.9
+"Jerome County(7,8)",16053,***,74 ,54.3, 98,10,stable,-2.8 ,-5.9, 0.4
+"Clearwater County(7,8)",16035,***,72.9 ,41.4, 119.4,3,stable,0.0 ,-5.3, 5.6
+"Cassia County(7,8)",16031,***,68.3 ,49.6, 91.4,9,stable,-1.0 ,-4.3, 2.4
+"Adams County(7)",16003,***,* ,*, *,3 or fewer,*,*,*,*
+"Butte County(7)",16023,***,* ,*, *,3 or fewer,*,*,*,*
+"Camas County(7)",16025,***,* ,*, *,3 or fewer,*,*,*,*
+"Clark County(7)",16033,***,* ,*, *,3 or fewer,*,*,*,*
+"Custer County(7)",16037,***,* ,*, *,3 or fewer,*,*,*,*
+"Lewis County(7,8)",16061,***,* ,*, *,3 or fewer,*,*,*,*
+"Oneida County(7)",16071,***,* ,*, *,3 or fewer,*,*,*,*
+"Power County(7)",16077,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 4:58 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+7 Source: SEER November 2018 submission.
+"8 Source: Incidence data provided by the SEER Program. ( http://seer.cancer.gov ) AAPCs are calculated by the Joinpoint Regression Program ( https://surveillance.cancer.gov/joinpoint/ ) and are based on APCs. Data are age-adjusted to the 2000 US standard population ( http://www.seer.cancer.gov/stdpopulations/single_age.html ) (19 age groups: <1, 1-4, 5-9, ... , 80-84,85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Population counts for denominators are based on Census populations as modifed by NCI. The 1969-2017 US Population Data ( http://seer.cancer.gov/popdata/ ) File is used with SEER November 2018 data. "
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

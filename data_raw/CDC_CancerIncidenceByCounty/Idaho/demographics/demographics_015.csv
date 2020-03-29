@@ -1,0 +1,64 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=16&areatype=county&topic=pop&demo=00103&race=00&sex=0&age=999&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '16', 'areatype': 'county', 'topic': 'pop', 'demo': '00103', 'race': '00', 'sex': '0', 'age': '999', 'type': 'manyareacensus', 'file_name': 'demographics_015.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=16&areatype=county&topic=pop&demo=00103&race=00&sex=0&age=999&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Idaho by County
+Population: Age 40-64
+"Age N/A, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Age 40-64),Rank within US
+"Idaho",16000,30.2,501016,"4 of 52"
+"United States",00000,32.4,104105673,"N/A"
+"Madison County",16065,16.3,6238,"3 of 3141"
+"Latah County",16057,24.3,9406,"35 of 3141"
+"Clark County",16033,26.2,276,"82 of 3141"
+"Bonneville County",16019,27.2,29995,"129 of 3141"
+"Jefferson County",16051,27.3,7470,"136 of 3141"
+"Cassia County",16031,27.3,6400,"138 of 3141"
+"Elmore County",16039,27.3,7156,"140 of 3141"
+"Franklin County",16041,27.3,3586,"141 of 3141"
+"Bannock County",16005,27.5,23105,"147 of 3141"
+"Jerome County",16053,27.7,6372,"160 of 3141"
+"Canyon County",16027,28.3,58602,"212 of 3141"
+"Bingham County",16011,28.4,12903,"225 of 3141"
+"Minidoka County",16067,28.5,5825,"231 of 3141"
+"Power County",16077,28.9,2215,"266 of 3141"
+"Caribou County",16029,28.9,1984,"270 of 3141"
+"Bear Lake County",16007,28.9,1720,"271 of 3141"
+"Twin Falls County",16083,29.0,23838,"277 of 3141"
+"Gooding County",16047,29.6,4473,"336 of 3141"
+"Fremont County",16043,29.7,3834,"363 of 3141"
+"Oneida County",16071,30.3,1300,"458 of 3141"
+"Lincoln County",16063,30.6,1621,"506 of 3141"
+"Owyhee County",16073,31.4,3571,"697 of 3141"
+"Ada County",16001,31.8,138372,"836 of 3141"
+"Nez Perce County",16069,32.1,12826,"924 of 3141"
+"Kootenai County",16055,32.2,48391,"1002 of 3141"
+"Payette County",16075,32.3,7371,"1022 of 3141"
+"Washington County",16087,32.7,3266,"1182 of 3141"
+"Lewis County",16061,33.0,1261,"1326 of 3141"
+"Boundary County",16021,33.0,3738,"1340 of 3141"
+"Idaho County",16049,34.4,5598,"2068 of 3141"
+"Teton County",16081,34.6,3731,"2179 of 3141"
+"Gem County",16045,34.8,5857,"2240 of 3141"
+"Camas County",16025,34.8,308,"2244 of 3141"
+"Custer County",16037,35.5,1468,"2525 of 3141"
+"Lemhi County",16059,35.8,2780,"2658 of 3141"
+"Benewah County",16009,35.9,3247,"2667 of 3141"
+"Butte County",16023,35.9,939,"2681 of 3141"
+"Shoshone County",16079,36.4,4543,"2803 of 3141"
+"Clearwater County",16035,37.2,3172,"2948 of 3141"
+"Blaine County",16013,37.2,8032,"2956 of 3141"
+"Bonner County",16017,37.5,15685,"2985 of 3141"
+"Adams County",16003,37.5,1479,"2987 of 3141"
+"Boise County",16015,41.2,2869,"3116 of 3141"
+"Valley County",16085,41.5,4193,"3120 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 4:58 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Age 40-64, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

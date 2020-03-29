@@ -1,0 +1,70 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=02&areatype=county&cancer=001&race=00&sex=0&age=136&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '02', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '0', 'age': '136', 'type': 'incd', 'file_name': 'incidencerates_037.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=02&areatype=county&cancer=001&race=00&sex=0&age=136&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Alaska by Borough or Census Area
+
+"All Cancer Sites (All Stages^), 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, Ages 50+"
+
+Sorted by Rate
+
+Borough Or Census Area, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Alaska(6,10)",02900,***,1245.6 ,1221, 1270.6,2331,stable,-1.4 ,-2.8, 0.1
+"US (SEER+NPCR)(1,10)",00000,***,1350.2 ,1349.2, 1351.2,1428518,falling,-1.1 ,-1.8, -0.3
+"Yukon-Koyukuk Census Area(6,10)",02290,***,1723.1 ,1440.5, 2045,29,stable,4.4 ,-10.7, 22.2
+"Nome Census Area(6,10)",02180,***,1519.5 ,1252.2, 1826.9,29,stable,-6.8 ,-25.3, 16.2
+"Southeast Fairbanks Census Area(6,10)",02240,***,1451.1 ,1209.8, 1726.9,30,stable,5.1 ,-21.1, 40.2
+"North Slope Borough(6,10)",02185,***,1423.2 ,1119, 1781.1,23,stable,-3.7 ,-23.7, 21.4
+"Lake and Peninsula Borough(6,10)",02164,***,1353.7 ,849, 2047.6,5,stable,-14.4 ,-49.9, 46.1
+"Aleutians West Census Area(6,10)",02016,***,1350 ,832.3, 2047.4,11,stable,-0.8 ,-40.2, 64.7
+"Matanuska-Susitna Borough(6,10)",02170,***,1348.9 ,1278.9, 1421.6,342,stable,-1.8 ,-6.6, 3.2
+"Prince of Wales-Outer Ketchikan Census Area(6,10)",02201,***,1316.7 ,1074.3, 1598.5,26,stable,-7.6 ,-31.5, 24.7
+"Ketchikan Gateway Borough(6,10)",02130,***,1315.3 ,1158.7, 1487.1,58,stable,-4.0 ,-10.0, 2.3
+"Dillingham Census Area(6,10)",02070,***,1299.5 ,989.1, 1676.3,14,stable,-8.8 ,-35.7, 29.3
+"Anchorage Municipality(6,10)",02020,***,1279.8 ,1240.1, 1320.5,924,falling,-1.9 ,-3.2, -0.6
+"Kodiak Island Borough(6,10)",02150,***,1276.2 ,1080.1, 1497.3,40,stable,-0.9 ,-21.0, 24.3
+"Kenai Peninsula Borough(6,10)",02122,***,1239.1 ,1166.8, 1314.7,253,stable,0.2 ,-9.4, 10.8
+"Fairbanks North Borough(6,10)",02090,***,1179.3 ,1108.5, 1253.3,257,stable,0.0 ,-3.1, 3.3
+"Valdez-Cordova Census Area(6,10)",02261,***,1168.8 ,969.4, 1397,32,stable,-2.8 ,-15.8, 12.2
+"Juneau City and Borough(6,10)",02110,***,1140.4 ,1035.2, 1253.3,106,stable,-2.3 ,-11.9, 8.3
+"Wrangell-Petersburg Census Area(6,10)",02280,***,1112.8 ,922.5, 1330.7,26,stable,-2.9 ,-15.8, 12.0
+"Sitka City and Borough(6,10)",02220,***,1066.1 ,899.1, 1255.3,31,stable,-8.7 ,-32.5, 23.5
+"Haines Borough(6,10)",02100,***,1038 ,753.7, 1391.7,10,stable,-20.7 ,-38.8, 2.6
+"Northwest Arctic Borough(6,10)",02188,***,1025 ,798.4, 1296.7,15,stable,-3.7 ,-13.0, 6.6
+"Wade Hampton Census Area(6,10)",02270,***,999.7 ,746.8, 1311.8,12,stable,6.9 ,-26.9, 56.6
+"Bethel Census Area(6,10)",02050,***,988.4 ,819.3, 1181.4,30,stable,21.7 ,-9.3, 63.2
+"Skagway-Hoonah-Angoon Census Area(6,10)",02232,***,936.1 ,693.7, 1237.5,12,stable,7.2 ,-21.3, 45.9
+"Bristol Bay Borough(6,10)",02060,***,894.7 ,486.8, 1550.6,3,stable,3.6 ,-45.4, 96.4
+"Denali Borough(6,10)",02068,***,886.2 ,532.4, 1501.6,5,stable,7.8 ,-42.4, 101.9
+"Aleutians East Borough(6,10)",02013,***,671.8 ,355, 1131.3,4,stable,-1.6 ,-37.2, 54.3
+"Yakutat City and Borough(6,10)",02282,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 4:59 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+"Alaska Census Area Name Change: please note that Wade Hampton Census Area, AK (FIPS code=02270) was renamed effective July 1, 2015, and the new name is Kusilvak Census Area (FIPS Code=02158). Due to the nature of data submissions, we will use the older code/name this year and transition to the new code/name with a future data release."
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

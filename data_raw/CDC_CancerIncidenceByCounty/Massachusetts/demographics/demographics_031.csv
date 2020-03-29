@@ -1,0 +1,34 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=25&areatype=county&topic=work&demo=00012&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '25', 'areatype': 'county', 'topic': 'work', 'demo': '00012', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_031.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=25&areatype=county&topic=work&demo=00012&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Massachusetts by County
+Workforce: Unemployed
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Unemployed),Rank within US
+"Massachusetts",25000,6.0,224856,"21 of 52"
+"United States",00000,6.6,10560305,"N/A"
+"Dukes County",25007,3.0,282,"310 of 3141"
+"Nantucket County",25019,3.8,251,"541 of 3141"
+"Middlesex County",25017,4.8,43396,"955 of 3141"
+"Barnstable County",25001,5.5,6012,"1262 of 3141"
+"Norfolk County",25021,5.5,21224,"1266 of 3141"
+"Franklin County",25011,5.8,2281,"1449 of 3141"
+"Essex County",25009,6.0,25451,"1551 of 3141"
+"Plymouth County",25023,6.0,16789,"1560 of 3141"
+"Worcester County",25027,6.1,26692,"1575 of 3141"
+"Hampshire County",25015,6.5,5831,"1788 of 3141"
+"Berkshire County",25003,6.8,4701,"1982 of 3141"
+"Bristol County",25005,6.9,20762,"2022 of 3141"
+"Suffolk County",25025,7.1,32554,"2096 of 3141"
+"Hampden County",25013,8.0,18630,"2413 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:00 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Workforce: Unemployed, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#workforce."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

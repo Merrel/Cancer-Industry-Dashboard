@@ -1,0 +1,123 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=28&areatype=county&cancer=058&race=00&sex=2&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '28', 'areatype': 'county', 'cancer': '058', 'race': '00', 'sex': '2', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_022.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=28&areatype=county&cancer=058&race=00&sex=2&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Mississippi by County
+
+"Uterus (Corpus & Uterus, NOS) (All Stages^), 2012-2016"
+
+"All Races (includes Hispanic), Female, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Mississippi(6,10)",28000,***,21.6 ,20.6, 22.5,404,rising,7.9 ,4.9, 10.9
+"US (SEER+NPCR)(1,10)",00000,***,26.6 ,26.5, 26.7,53371,rising,1.4 ,1.0, 1.9
+"Alcorn County(6,10)",28003,***,32.6 ,22.7, 45.6,8,stable,17.0 ,-29.1, 93.1
+"Calhoun County(6,10)",28013,***,31.6 ,18, 52.4,3,*,*,*,*
+"Leake County(6,10)",28079,***,30.7 ,19, 47.4,4,stable,-6.9 ,-59.0, 111.4
+"Yazoo County(6,10)",28163,***,30.4 ,18.7, 46.9,4,stable,3.2 ,-25.7, 43.3
+"Monroe County(6,10)",28095,***,29.7 ,20.3, 42.1,7,stable,7.3 ,-16.8, 38.4
+"Adams County(6,10)",28001,***,29.5 ,20.1, 42.4,7,stable,7.4 ,-15.8, 37.0
+"Union County(6,10)",28145,***,28.9 ,18.9, 42.7,5,stable,-7.8 ,-27.5, 17.3
+"Chickasaw County(6,10)",28017,***,28.2 ,15.7, 47.3,3,*,*,*,*
+"Marion County(6,10)",28091,***,26.5 ,16.8, 40.3,5,stable,-18.2 ,-41.2, 13.9
+"Marshall County(6,10)",28093,***,26.3 ,17.6, 38.1,6,stable,-6.9 ,-40.9, 46.6
+"Lincoln County(6,10)",28085,***,26.2 ,17.8, 37.6,6,stable,-4.3 ,-29.1, 29.3
+"Leflore County(6,10)",28083,***,26.2 ,17, 39,5,stable,-13.9 ,-49.7, 47.3
+"Neshoba County(6,10)",28099,***,26.1 ,15.8, 40.4,4,stable,-8.2 ,-58.4, 102.5
+"Tishomingo County(6,10)",28141,***,26.1 ,15.7, 41.7,4,stable,-0.6 ,-45.5, 81.1
+"Warren County(6,10)",28149,***,25 ,17.4, 34.8,8,rising,26.9 ,10.1, 46.2
+"Harrison County(6,10)",28047,***,24.4 ,20.5, 28.9,29,rising,7.5 ,1.2, 14.3
+"Forrest County(6,10)",28035,***,24.4 ,17.9, 32.5,10,stable,-13.4 ,-58.2, 79.3
+"Tate County(6,10)",28137,***,24.4 ,14.8, 37.9,4,stable,13.1 ,-53.4, 174.2
+"Panola County(6,10)",28107,***,24.2 ,15.6, 36.1,5,stable,-15.6 ,-41.3, 21.1
+"Prentiss County(6,10)",28117,***,24 ,13.9, 38.7,4,*,*,*,*
+"Madison County(6,10)",28089,***,23 ,17.7, 29.4,14,stable,-0.8 ,-19.8, 22.7
+"Coahoma County(6,10)",28027,***,22.4 ,12.8, 36.6,3,*,*,*,*
+"Tippah County(6,10)",28139,***,22.3 ,12.8, 36.8,3,stable,18.6 ,-41.8, 141.8
+"Lee County(6,10)",28081,***,22.1 ,16.7, 28.7,12,stable,11.7 ,-11.9, 41.6
+"Hinds County(6,10)",28049,***,21.8 ,18.4, 25.6,31,stable,11.1 ,-4.5, 29.1
+"Winston County(6,10)",28159,***,21.8 ,12.3, 36.9,3,*,*,*,*
+"Pearl River County(6,10)",28109,***,21.7 ,15.2, 30.2,8,stable,24.5 ,-21.3, 96.9
+"Clay County(6,10)",28025,***,21.4 ,12.4, 35.5,3,*,*,*,*
+"Washington County(6,10)",28151,***,21.3 ,14.4, 30.4,7,stable,55.2 ,-2.3, 146.4
+"Lowndes County(6,10)",28087,***,21.2 ,15.1, 29.2,8,stable,13.6 ,-20.6, 62.4
+"Bolivar County(6,10)",28011,***,20.7 ,12.6, 32.1,4,stable,-3.6 ,-29.1, 31.2
+"Rankin County(6,10)",28121,***,20.6 ,16.5, 25.3,19,stable,24.8 ,-6.6, 66.9
+"DeSoto County(6,10)",28033,***,20.3 ,16.5, 24.8,20,stable,3.6 ,-9.3, 18.4
+"Pontotoc County(6,10)",28115,***,19.7 ,11.6, 31.4,4,stable,25.1 ,-17.2, 88.9
+"Jackson County(6,10)",28059,***,19.6 ,15.5, 24.4,17,stable,20.1 ,-1.3, 46.1
+"Grenada County(6,10)",28043,***,19.4 ,11.3, 32.1,3,*,*,*,*
+"Lafayette County(6,10)",28071,***,19.1 ,12.3, 28.3,5,stable,-18.4 ,-48.6, 29.6
+"Jones County(6,10)",28067,***,18.6 ,13.2, 25.6,8,stable,13.7 ,-29.9, 84.5
+"Simpson County(6,10)",28127,***,18.2 ,10.7, 29.6,4,stable,2.7 ,-48.5, 104.9
+"Lamar County(6,10)",28073,***,17.9 ,12.2, 25.5,6,stable,-2.2 ,-36.6, 51.0
+"Hancock County(6,10)",28045,***,17.3 ,11.3, 25.8,6,rising,42.5 ,13.9, 78.3
+"Pike County(6,10)",28113,***,16.3 ,10.1, 25.1,4,stable,-6.6 ,-50.9, 77.6
+"Lauderdale County(6,10)",28075,***,13.8 ,9.8, 19.2,8,stable,2.9 ,-30.7, 52.9
+"Amite County(6,10)",28005,***,* ,*, *,3 or fewer,*,*,*,*
+"Attala County(6,10)",28007,***,* ,*, *,3 or fewer,*,*,*,*
+"Benton County(6,10)",28009,***,* ,*, *,3 or fewer,*,*,*,*
+"Carroll County(6,10)",28015,***,* ,*, *,3 or fewer,*,*,*,*
+"Choctaw County(6,10)",28019,***,* ,*, *,3 or fewer,*,*,*,*
+"Claiborne County(6,10)",28021,***,* ,*, *,3 or fewer,*,*,*,*
+"Clarke County(6,10)",28023,***,* ,*, *,3 or fewer,*,*,*,*
+"Copiah County(6,10)",28029,***,* ,*, *,3 or fewer,*,*,*,*
+"Covington County(6,10)",28031,***,* ,*, *,3 or fewer,*,*,*,*
+"Franklin County(6,10)",28037,***,* ,*, *,3 or fewer,*,*,*,*
+"George County(6,10)",28039,***,* ,*, *,3 or fewer,*,*,*,*
+"Greene County(6,10)",28041,***,* ,*, *,3 or fewer,*,*,*,*
+"Holmes County(6,10)",28051,***,* ,*, *,3 or fewer,*,*,*,*
+"Humphreys County(6,10)",28053,***,* ,*, *,3 or fewer,*,*,*,*
+"Issaquena County(6,10)",28055,***,* ,*, *,3 or fewer,*,*,*,*
+"Itawamba County(6,10)",28057,***,* ,*, *,3 or fewer,*,*,*,*
+"Jasper County(6,10)",28061,***,* ,*, *,3 or fewer,*,*,*,*
+"Jefferson County(6,10)",28063,***,* ,*, *,3 or fewer,*,*,*,*
+"Jefferson Davis County(6,10)",28065,***,* ,*, *,3 or fewer,*,*,*,*
+"Kemper County(6,10)",28069,***,* ,*, *,3 or fewer,*,*,*,*
+"Lawrence County(6,10)",28077,***,* ,*, *,3 or fewer,*,*,*,*
+"Montgomery County(6,10)",28097,***,* ,*, *,3 or fewer,*,*,*,*
+"Newton County(6,10)",28101,***,* ,*, *,3 or fewer,*,*,*,*
+"Noxubee County(6,10)",28103,***,* ,*, *,3 or fewer,*,*,*,*
+"Oktibbeha County(6,10)",28105,***,* ,*, *,3 or fewer,*,*,*,*
+"Perry County(6,10)",28111,***,* ,*, *,3 or fewer,*,*,*,*
+"Quitman County(6,10)",28119,***,* ,*, *,3 or fewer,*,*,*,*
+"Scott County(6,10)",28123,***,* ,*, *,3 or fewer,*,*,*,*
+"Sharkey County(6,10)",28125,***,* ,*, *,3 or fewer,*,*,*,*
+"Smith County(6,10)",28129,***,* ,*, *,3 or fewer,*,*,*,*
+"Stone County(6,10)",28131,***,* ,*, *,3 or fewer,*,*,*,*
+"Sunflower County(6,10)",28133,***,* ,*, *,3 or fewer,*,*,*,*
+"Tallahatchie County(6,10)",28135,***,* ,*, *,3 or fewer,*,*,*,*
+"Tunica County(6,10)",28143,***,* ,*, *,3 or fewer,*,*,*,*
+"Walthall County(6,10)",28147,***,* ,*, *,3 or fewer,*,*,*,*
+"Wayne County(6,10)",28153,***,* ,*, *,3 or fewer,*,*,*,*
+"Webster County(6,10)",28155,***,* ,*, *,3 or fewer,*,*,*,*
+"Wilkinson County(6,10)",28157,***,* ,*, *,3 or fewer,*,*,*,*
+"Yalobusha County(6,10)",28161,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:01 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

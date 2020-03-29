@@ -1,0 +1,49 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=49&areatype=county&topic=mob&demo=00017&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '49', 'areatype': 'county', 'topic': 'mob', 'demo': '00017', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_008.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=49&areatype=county&topic=mob&demo=00017&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Utah by County
+Mobility: Haven't moved (in past year)
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Haven't Moved),Rank within US
+"Utah",49000,82.8,2440207,"40 of 51"
+"United States",00000,85.4,270854872,"N/A"
+"Sanpete County",49039,77.3,22057,"3045 of 3140"
+"Utah County",49049,79.2,447694,"2983 of 3140"
+"Cache County",49005,79.7,94016,"2957 of 3140"
+"Iron County",49021,79.7,38003,"2956 of 3140"
+"Kane County",49025,81.2,5809,"2839 of 3140"
+"Washington County",49053,81.2,124694,"2838 of 3140"
+"Wasatch County",49051,81.7,23674,"2794 of 3140"
+"Tooele County",49045,82.5,51459,"2696 of 3140"
+"Carbon County",49007,83.3,16823,"2577 of 3140"
+"Weber County",49057,83.9,201601,"2456 of 3140"
+"Salt Lake County",49035,83.9,914528,"2445 of 3140"
+"Sevier County",49041,84.2,17345,"2406 of 3140"
+"Davis County",49011,84.3,277477,"2388 of 3140"
+"Millard County",49027,85.7,10715,"2046 of 3140"
+"Box Elder County",49003,85.9,44014,"1969 of 3140"
+"Summit County",49043,86.7,34118,"1708 of 3140"
+"Uintah County",49047,86.8,31114,"1663 of 3140"
+"Beaver County",49001,87.5,5485,"1434 of 3140"
+"Duchesne County",49013,87.8,17472,"1341 of 3140"
+"Rich County",49033,88.0,2009,"1252 of 3140"
+"Juab County",49023,89.2,9423,"869 of 3140"
+"Wayne County",49055,89.2,2370,"865 of 3140"
+"Grand County",49019,89.7,8416,"710 of 3140"
+"Emery County",49015,89.8,9283,"684 of 3140"
+"Morgan County",49029,90.0,9828,"619 of 3140"
+"Daggett County",49009,90.9,633,"418 of 3140"
+"Garfield County",49017,91.5,4545,"304 of 3140"
+"San Juan County",49037,92.5,13881,"188 of 3140"
+"Piute County",49031,92.7,1721,"172 of 3140"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:03 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Mobility: Haven't moved (in past year), see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#mobility."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

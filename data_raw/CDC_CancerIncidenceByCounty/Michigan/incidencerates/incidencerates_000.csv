@@ -1,0 +1,127 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=26&areatype=county&cancer=001&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '26', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '0', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_000.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=26&areatype=county&cancer=001&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Michigan by County
+
+"All Cancer Sites (All Stages^), 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Michigan(5,10)",26000,***,449.8 #  ,448.1, 451.6,54047,falling,-1.3 ,-2.0, -0.6
+"US (SEER+NPCR)(1,10)",00000,***,448 ,447.7, 448.4,1638110,falling,-0.9 ,-1.6, -0.1
+"Osceola County(6,10)",26133,***,549.2 #  ,512.2, 588.5,177,stable,-0.7 ,-19.6, 22.7
+"Roscommon County(6,10)",26143,***,532.7 #  ,497.5, 570.2,238,stable,2.1 ,-5.9, 10.8
+"Grand Traverse County(6,10)",26055,***,516 #  ,497.2, 535.4,610,stable,-2.5 ,-5.7, 0.8
+"Wexford County(6,10)",26165,***,510.1 #  ,479.3, 542.4,219,stable,-1.3 ,-4.4, 2.0
+"Wayne County(7,8)",26163,***,507.9 ,503.4, 512.4,10312,falling,-1.4 ,-2.0, -0.9
+"Arenac County(6,10)",26011,***,505.4 #  ,463.5, 550.7,123,stable,2.4 ,-6.6, 12.3
+"Macomb County(7,8)",26099,***,498.8 ,492.7, 505,5271,falling,-0.3 ,-0.5, -0.1
+"Clare County(6,10)",26035,***,489 #  ,458.9, 520.6,226,stable,-0.5 ,-9.2, 9.1
+"Montmorency County(6,10)",26119,***,488.5 #  ,438.4, 544.2,89,stable,1.8 ,-10.8, 16.0
+"Oakland County(7,8)",26125,***,483 ,477.9, 488.1,7224,falling,-0.9 ,-1.2, -0.6
+"Shiawassee County(6,10)",26155,***,479.2 #  ,458.3, 500.8,422,stable,1.7 ,-7.4, 11.7
+"Genesee County(6,10)",26049,***,479 #  ,470.3, 487.8,2418,stable,-1.9 ,-6.1, 2.6
+"Kalkaska County(6,10)",26079,***,474.9 #  ,435.3, 517.4,116,stable,-1.4 ,-7.2, 4.7
+"Eaton County(6,10)",26045,***,472.7 #  ,455.9, 490,643,stable,0.5 ,-6.4, 7.9
+"Emmet County(6,10)",26047,***,471.7 #  ,443.1, 501.8,224,stable,1.1 ,-7.7, 10.8
+"Cheboygan County(6,10)",26031,***,468.4 #  ,437.4, 501.3,198,stable,-3.8 ,-12.6, 5.9
+"Charlevoix County(6,10)",26029,***,466.8 #  ,434.7, 500.9,182,stable,1.1 ,-6.7, 9.5
+"Tuscola County(6,10)",26157,***,466.1 #  ,443.7, 489.5,347,stable,1.1 ,-7.4, 10.3
+"Alpena County(6,10)",26007,***,464.3 #  ,435.2, 495.1,209,stable,-1.4 ,-5.8, 3.1
+"Jackson County(6,10)",26075,***,462.3 #  ,448.7, 476.3,919,stable,-2.2 ,-7.9, 3.7
+"Berrien County(6,10)",26021,***,460.1 #  ,446.7, 473.8,956,stable,-0.8 ,-6.6, 5.3
+"Van Buren County(6,10)",26159,***,457.2 #  ,437.4, 477.6,432,stable,-1.8 ,-5.5, 1.9
+"Otsego County(6,10)",26137,***,457 #  ,423.8, 492.3,153,stable,5.2 ,-6.2, 18.0
+"Huron County(6,10)",26063,***,456.6 #  ,428.8, 486,234,stable,-2.1 ,-14.5, 12.1
+"Ingham County(6,10)",26065,***,454.6 #  ,443.1, 466.2,1280,stable,-0.2 ,-3.7, 3.4
+"Benzie County(6,10)",26019,***,452.5 #  ,414.9, 493.1,124,stable,-4.0 ,-16.0, 9.7
+"Lapeer County(6,10)",26087,***,451.5 #  ,433.3, 470.2,505,stable,-2.6 ,-8.7, 3.9
+"Saginaw County(6,10)",26145,***,451 #  ,439, 463.2,1143,stable,0.3 ,-3.0, 3.8
+"Muskegon County(6,10)",26121,***,450.1 #  ,437, 463.6,938,stable,-0.8 ,-2.5, 0.9
+"St. Clair County(6,10)",26147,***,448.9 #  ,435.6, 462.4,930,stable,-0.8 ,-6.5, 5.2
+"Gladwin County(6,10)",26051,***,447 #  ,417.3, 478.6,193,stable,-2.6 ,-9.2, 4.4
+"Bay County(6,10)",26017,***,446.1 #  ,430.2, 462.5,639,stable,2.0 ,-1.6, 5.9
+"Schoolcraft County(6,10)",26153,***,442.4 #  ,388.8, 502.4,59,stable,3.3 ,-3.5, 10.5
+"Lenawee County(6,10)",26091,***,442.3 #  ,425.6, 459.6,558,stable,-2.3 ,-7.2, 2.8
+"Ionia County(6,10)",26067,***,439.8 #  ,417.6, 462.8,309,stable,-1.6 ,-7.5, 4.5
+"Antrim County(6,10)",26009,***,434.5 #  ,402.9, 468.3,166,stable,2.1 ,-14.0, 21.3
+"Presque Isle County(6,10)",26141,***,434.4 #  ,392.9, 480,105,stable,-0.9 ,-5.6, 4.1
+"Menominee County(6,10)",26109,***,433 #  ,401.5, 466.7,158,stable,2.3 ,-21.1, 32.6
+"Kent County(6,10)",26081,***,432.8 #  ,425.5, 440.2,2817,stable,-2.3 ,-8.7, 4.5
+"Manistee County(6,10)",26101,***,430.7 #  ,400, 463.6,168,stable,-6.0 ,-21.1, 12.1
+"Missaukee County(6,10)",26113,***,430.5 #  ,389.4, 475,88,stable,6.1 ,-8.0, 22.4
+"Montcalm County(6,10)",26117,***,427.4 #  ,406.8, 448.8,336,stable,-2.5 ,-11.5, 7.4
+"Gratiot County(6,10)",26057,***,426.8 #  ,401.1, 453.7,215,stable,1.5 ,-1.9, 5.1
+"Luce County(6,10)",26095,***,425.9 #  ,366.9, 493,40,stable,6.5 ,-1.3, 14.9
+"Delta County(6,10)",26041,***,423.8 #  ,398.8, 450.3,238,stable,3.1 ,-6.7, 13.9
+"Ogemaw County(6,10)",26129,***,420.5 #  ,388.4, 454.9,147,stable,3.9 ,-3.1, 11.4
+"Kalamazoo County(6,10)",26077,***,418.1 #  ,407.1, 429.4,1150,stable,-1.4 ,-11.0, 9.4
+"Marquette County(6,10)",26103,***,417.2 #  ,397.1, 438.2,352,stable,-1.9 ,-4.9, 1.2
+"Sanilac County(6,10)",26151,***,416.9 #  ,393, 442,246,stable,4.6 ,-5.6, 15.8
+"Washtenaw County(6,10)",26161,***,416.4 #  ,406.7, 426.3,1486,stable,-1.0 ,-8.8, 7.5
+"Mecosta County(6,10)",26107,***,414.4 #  ,389, 441.1,218,stable,4.2 ,-11.6, 22.9
+"Dickinson County(6,10)",26043,***,412.2 #  ,382.1, 444.2,156,stable,1.7 ,-14.7, 21.3
+"Mackinac County(6,10)",26097,***,411.1 #  ,367.5, 459.3,77,falling,-8.3 ,-9.9, -6.7
+"Iosco County(6,10)",26069,***,410.9 #  ,382.8, 440.9,193,stable,2.4 ,-5.7, 11.2
+"Chippewa County(6,10)",26033,***,407.8 #  ,381.8, 435.2,190,stable,3.3 ,-4.8, 12.1
+"Ontonagon County(6,10)",26131,***,407.3 #  ,354.7, 469.2,55,stable,-5.8 ,-25.4, 18.9
+"Oceana County(6,10)",26127,***,407.1 #  ,377.2, 439.1,149,stable,4.8 ,-1.0, 11.0
+"Oscoda County(6,10)",26135,***,405.4 #  ,354.3, 462.7,58,stable,2.8 ,-10.3, 17.9
+"Ottawa County(6,10)",26139,***,404.2 #  ,393.8, 414.8,1189,stable,-0.9 ,-8.1, 6.8
+"Alcona County(6,10)",26001,***,401.2 #  ,357.7, 450.2,90,stable,-0.8 ,-12.6, 12.5
+"St. Joseph County(6,10)",26149,***,400.9 #  ,380.4, 422.4,301,stable,1.0 ,-5.1, 7.6
+"Calhoun County(6,10)",26025,***,400.9 #  ,387.1, 415.1,671,stable,3.0 ,-3.4, 9.7
+"Livingston County(6,10)",26093,***,399.5 #  ,387.3, 412,888,stable,-3.6 ,-9.5, 2.7
+"Gogebic County(6,10)",26053,***,396.9 #  ,360.7, 436.3,100,stable,-0.6 ,-16.9, 18.9
+"Newaygo County(6,10)",26123,***,395.2 #  ,372.8, 418.6,251,stable,-1.5 ,-7.5, 4.9
+"Monroe County(6,10)",26115,***,392.3 #  ,379.3, 405.6,740,stable,4.4 ,-10.1, 21.2
+"Houghton County(6,10)",26061,***,388.2 #  ,361, 417.1,163,stable,2.2 ,-9.9, 15.8
+"Midland County(6,10)",26111,***,386.4 #  ,369.5, 403.9,413,stable,1.6 ,-5.4, 9.0
+"Alger County(6,10)",26003,***,381.6 #  ,336.5, 432.2,58,stable,1.9 ,-16.0, 23.7
+"Branch County(6,10)",26023,***,381.3 #  ,357.8, 405.9,208,stable,3.1 ,-3.7, 10.3
+"Isabella County(6,10)",26073,***,378.8 #  ,356.8, 401.8,234,stable,-5.1 ,-10.0, 0.1
+"Hillsdale County(6,10)",26059,***,374.5 #  ,352.3, 397.9,227,stable,6.1 ,-6.9, 20.9
+"Crawford County(6,10)",26039,***,370.7 #  ,333.4, 411.7,84,stable,2.7 ,-10.8, 18.3
+"Allegan County(6,10)",26005,***,368.6 #  ,353.8, 383.8,499,stable,4.3 ,-1.2, 10.2
+"Lake County(6,10)",26085,***,362.7 #  ,323.3, 406.5,76,stable,-3.0 ,-14.2, 9.7
+"Cass County(6,10)",26027,***,353.5 #  ,333.4, 374.6,253,stable,1.0 ,-14.4, 19.1
+"Keweenaw County(6,10)",26083,***,350.7 #  ,262, 466.6,14,stable,2.3 ,-21.9, 34.2
+"Baraga County(6,10)",26013,***,346.1 #  ,298.9, 399.3,42,stable,-3.0 ,-19.1, 16.4
+"Leelanau County(6,10)",26089,***,343.6 #  ,313.6, 376.1,128,stable,3.2 ,-9.2, 17.3
+"Iron County(6,10)",26071,***,341.1 #  ,303.5, 383.2,75,stable,1.8 ,-10.6, 15.8
+"Clinton County(6,10)",26037,***,341.1 #  ,324, 358.9,314,stable,0.9 ,-10.6, 13.9
+"Mason County(6,10)",26105,***,333.6 #  ,308.5, 360.5,146,stable,1.4 ,-3.8, 6.9
+"Barry County(6,10)",26015,***,316.5 #  ,298.2, 335.6,243,stable,2.8 ,-10.1, 17.6
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:00 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+# Data do not include cases diagnosed in other states for those states in which the data exchange agreement specifically prohibits the release of data to third parties.
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+5 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission. State rates include rates from metropolitan areas funded by SEER [http://seer.cancer.gov/registries/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+7 Source: SEER November 2018 submission.
+"8 Source: Incidence data provided by the SEER Program. ( http://seer.cancer.gov ) AAPCs are calculated by the Joinpoint Regression Program ( https://surveillance.cancer.gov/joinpoint/ ) and are based on APCs. Data are age-adjusted to the 2000 US standard population ( http://www.seer.cancer.gov/stdpopulations/single_age.html ) (19 age groups: <1, 1-4, 5-9, ... , 80-84,85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Population counts for denominators are based on Census populations as modifed by NCI. The 1969-2017 US Population Data ( http://seer.cancer.gov/popdata/ ) File is used with SEER November 2018 data. "
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

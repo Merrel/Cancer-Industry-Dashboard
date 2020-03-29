@@ -1,0 +1,99 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=06&areatype=county&cancer=020&race=00&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '06', 'areatype': 'county', 'cancer': '020', 'race': '00', 'sex': '0', 'age': '001', 'type': 'death', 'file_name': 'deathrates_007.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=06&areatype=county&cancer=020&race=00&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for California by County
+
+"Colon & Rectum, 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 14.5?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"California",06000,Yes,12.9 ,12.8, 13.1,5251,falling,-2.2 ,-2.2, -2.1
+"United States",00000,Yes,14.2 ,14.1, 14.2,51932,falling,-1.8 ,-2.3, -1.3
+"Stanislaus County",06099,No,16.4 ,14.8, 18.1,84,falling,-1.1 ,-1.8, -0.4
+"San Bernardino County",06071,No,16.4 ,15.5, 17.3,293,falling,-1.5 ,-1.9, -1.2
+"Yuba County",06115,No,15.3 ,11.3, 20.2,10,stable,-1.1 ,-2.4, 0.3
+"Shasta County",06089,No,15.3 ,13.1, 17.7,38,falling,-1.8 ,-2.7, -0.9
+"San Joaquin County",06077,No,15.1 ,13.8, 16.5,103,falling,-1.8 ,-2.3, -1.4
+"Butte County",06007,No,15 ,13, 17.3,44,falling,-2.2 ,-3.0, -1.3
+"Mariposa County",06043,No,15 ,9.3, 23.9,5,stable,-2.3 ,-4.6, 0.1
+"Lassen County",06035,No,14.8 ,9.5, 22.1,5,falling,-3.7 ,-6.1, -1.2
+"Solano County",06095,No,14.7 ,13.1, 16.4,69,falling,-2.2 ,-2.9, -1.4
+"Merced County",06047,No,14.6 ,12.5, 17,33,falling,-2.3 ,-3.1, -1.5
+"Inyo County",06027,Yes,14.3 ,8.7, 23,4,falling,-3.1 ,-5.1, -1.0
+"Sacramento County",06067,Yes,14.1 ,13.3, 15,217,falling,-1.7 ,-2.0, -1.3
+"Calaveras County",06009,Yes,14.1 ,10.4, 18.9,11,falling,-2.6 ,-4.0, -1.2
+"Amador County",06005,Yes,14 ,10.2, 19.2,9,falling,-2.4 ,-4.4, -0.3
+"Riverside County",06065,Yes,13.9 ,13.2, 14.6,334,falling,-1.8 ,-2.1, -1.5
+"Lake County",06033,Yes,13.9 ,10.7, 17.8,14,falling,-2.6 ,-3.8, -1.4
+"Kings County",06031,Yes,13.8 ,10.9, 17.1,17,falling,-2.6 ,-4.3, -0.9
+"Mendocino County",06045,Yes,13.7 ,10.7, 17.3,16,falling,-1.4 ,-2.6, -0.2
+"Tehama County",06103,Yes,13.6 ,10.1, 18,11,falling,-3.1 ,-4.1, -2.1
+"Siskiyou County",06093,Yes,13.6 ,9.8, 18.6,9,stable,-0.7 ,-2.1, 0.8
+"Los Angeles County",06037,Yes,13.5 ,13.2, 13.8,1382,falling,-2.0 ,-2.1, -1.8
+"Del Norte County",06015,Yes,13.4 ,8.3, 20.5,4,falling,-2.6 ,-4.4, -0.8
+"San Diego County",06073,Yes,13.2 ,12.6, 13.8,446,falling,-2.0 ,-2.2, -1.8
+"Sonoma County",06097,Yes,13 ,11.8, 14.4,84,falling,-2.5 ,-3.1, -1.9
+"Madera County",06039,Yes,12.9 ,10.4, 15.8,19,falling,-1.4 ,-2.2, -0.5
+"Tulare County",06107,Yes,12.9 ,11.3, 14.6,50,falling,-1.4 ,-2.2, -0.7
+"Contra Costa County",06013,Yes,12.9 ,12, 13.8,164,falling,-2.1 ,-2.6, -1.7
+"Kern County",06029,Yes,12.8 ,11.6, 14,91,falling,-2.3 ,-3.9, -0.7
+"Ventura County",06111,Yes,12.6 ,11.6, 13.7,117,falling,-1.9 ,-2.4, -1.5
+"San Francisco County",06075,Yes,12.5 ,11.5, 13.5,129,falling,-2.5 ,-3.0, -2.0
+"Fresno County",06019,Yes,12.4 ,11.3, 13.5,110,falling,-1.8 ,-2.2, -1.3
+"San Luis Obispo County",06079,Yes,12.3 ,10.7, 14,47,falling,-2.5 ,-3.4, -1.4
+"El Dorado County",06017,Yes,12.3 ,10.3, 14.5,30,falling,-2.2 ,-3.0, -1.3
+"Alameda County",06001,Yes,12.2 ,11.4, 13,205,falling,-2.8 ,-3.1, -2.4
+"Plumas County",06063,Yes,12.1 ,6.7, 20.7,4,falling,-2.5 ,-4.5, -0.6
+"Tuolumne County",06109,Yes,12 ,8.8, 16.2,10,falling,-2.2 ,-3.7, -0.7
+"Humboldt County",06023,Yes,11.9 ,9.5, 14.7,18,falling,-2.1 ,-3.1, -1.0
+"Yolo County",06113,Yes,11.5 ,9.4, 13.9,22,falling,-2.6 ,-3.5, -1.6
+"Orange County",06059,Yes,11.4 ,10.9, 12,390,falling,-2.6 ,-2.8, -2.4
+"Placer County",06061,Yes,11.1 ,9.8, 12.5,55,falling,-2.9 ,-3.5, -2.2
+"San Mateo County",06081,Yes,11 ,10.1, 12.1,100,falling,-3.1 ,-3.5, -2.7
+"Imperial County",06025,Yes,10.7 ,8.6, 13.2,18,falling,-1.5 ,-2.8, -0.2
+"Santa Barbara County",06083,Yes,10.7 ,9.4, 12.1,53,falling,-2.4 ,-3.1, -1.6
+"Santa Clara County",06085,Yes,10.5 ,9.9, 11.2,207,falling,-2.8 ,-3.2, -2.3
+"Napa County",06055,Yes,10.5 ,8.5, 12.9,20,falling,-2.5 ,-3.8, -1.3
+"Nevada County",06057,Yes,10.4 ,8.2, 13.1,17,falling,-2.5 ,-3.8, -1.3
+"Santa Cruz County",06087,Yes,10.3 ,8.7, 12.1,31,falling,-3.5 ,-4.3, -2.6
+"Glenn County",06021,Yes,10.2 ,5.9, 16.5,3,stable,-1.5 ,-3.7, 0.7
+"Monterey County",06053,Yes,9.9 ,8.5, 11.3,42,falling,-3.7 ,-4.5, -2.9
+"San Benito County",06069,Yes,9.5 ,6.1, 14.1,5,falling,-4.6 ,-6.5, -2.7
+"Marin County",06041,Yes,8.9 ,7.6, 10.4,36,falling,-3.6 ,-4.6, -2.7
+"Sutter County",06101,Yes,8.7 ,6.4, 11.6,10,falling,-4.2 ,-5.4, -2.9
+"Alpine County",06003,***,* ,*, *,3 or fewer,*,*,*,*
+"Colusa County",06011,***,* ,*, *,3 or fewer,*,*,*,*
+"Modoc County",06049,***,* ,*, *,3 or fewer,*,*,*,*
+"Mono County",06051,***,* ,*, *,3 or fewer,*,*,*,*
+"Sierra County",06091,***,* ,*, *,3 or fewer,*,*,*,*
+"Trinity County",06105,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 4:57 pm.
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

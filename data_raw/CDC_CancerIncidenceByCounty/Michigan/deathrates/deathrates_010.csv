@@ -1,0 +1,125 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=26&areatype=county&cancer=090&race=00&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '26', 'areatype': 'county', 'cancer': '090', 'race': '00', 'sex': '0', 'age': '001', 'type': 'death', 'file_name': 'deathrates_010.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=26&areatype=county&cancer=090&race=00&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for Michigan by County
+
+"Leukemia, 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Michigan",26000,***,6.9 ,6.6, 7.1,804,falling,-0.8 ,-1.1, -0.5
+"United States",00000,***,6.5 ,6.5, 6.6,23311,falling,-2.3 ,-3.1, -1.5
+"Wexford County",26165,***,13.8 ,9.1, 20.3,6,*,*,*,*
+"Van Buren County",26159,***,10.6 ,7.7, 14.3,9,stable,0.9 ,-1.1, 2.9
+"Monroe County",26115,***,10.4 ,8.4, 12.8,19,stable,0.7 ,-0.6, 1.9
+"Delta County",26041,***,9.7 ,6.2, 14.8,5,stable,1.6 ,-1.3, 4.6
+"Emmet County",26047,***,9.3 ,5.9, 14.3,5,stable,-0.7 ,-2.7, 1.4
+"Gratiot County",26057,***,9.1 ,5.7, 14,5,*,*,*,*
+"Dickinson County",26043,***,8.6 ,5, 14.4,4,stable,-5.6 ,-53.9, 93.4
+"Saginaw County",26145,***,8.5 ,7, 10.4,22,stable,-0.1 ,-1.3, 1.1
+"Antrim County",26009,***,8.5 ,4.8, 14.7,3,*,*,*,*
+"Mecosta County",26107,***,8.5 ,5.2, 13.3,4,*,*,*,*
+"Mason County",26105,***,8.4 ,4.9, 14,4,*,*,*,*
+"St. Joseph County",26149,***,8.4 ,5.6, 12,6,stable,-0.4 ,-3.0, 2.2
+"Alpena County",26007,***,8.2 ,5, 13.3,4,*,*,*,*
+"Newaygo County",26123,***,8.2 ,5.3, 12.3,5,*,*,*,*
+"Charlevoix County",26029,***,8 ,4.6, 13.5,3,*,*,*,*
+"Ottawa County",26139,***,7.8 ,6.4, 9.4,22,stable,-0.5 ,-1.7, 0.8
+"Livingston County",26093,***,7.8 ,6.1, 9.8,15,stable,-1.4 ,-3.1, 0.4
+"Ionia County",26067,***,7.7 ,4.9, 11.4,5,*,*,*,*
+"Iosco County",26069,***,7.6 ,4.2, 13.4,4,*,*,*,*
+"Gladwin County",26051,***,7.5 ,4.2, 13.1,3,*,*,*,*
+"Sanilac County",26151,***,7.4 ,4.7, 11.5,5,*,*,*,*
+"Hillsdale County",26059,***,7.4 ,4.6, 11.3,5,falling,-2.2 ,-4.2, -0.2
+"Clare County",26035,***,7.2 ,4.2, 12,3,*,*,*,*
+"Ingham County",26065,***,7.1 ,5.7, 8.8,19,stable,-0.8 ,-2.0, 0.3
+"Macomb County",26099,***,7.1 ,6.4, 7.9,74,stable,-0.7 ,-1.3, 0.0
+"Muskegon County",26121,***,7.1 ,5.5, 9,14,falling,-1.5 ,-2.5, -0.6
+"Bay County",26017,***,7.1 ,5.2, 9.4,10,stable,-1.4 ,-2.7, 0.0
+"Lenawee County",26091,***,6.9 ,4.9, 9.4,8,stable,-1.3 ,-2.8, 0.1
+"Shiawassee County",26155,***,6.8 ,4.6, 9.9,6,stable,-2.2 ,-4.3, 0.0
+"Washtenaw County",26161,***,6.7 ,5.5, 8.1,22,stable,0.3 ,-0.9, 1.5
+"Jackson County",26075,***,6.7 ,5.1, 8.6,13,stable,-0.4 ,-2.2, 1.3
+"Oakland County",26125,***,6.6 ,6, 7.3,95,falling,-1.2 ,-2.0, -0.4
+"Eaton County",26045,***,6.6 ,4.7, 9.1,8,stable,-0.9 ,-3.0, 1.2
+"Kalamazoo County",26077,***,6.6 ,5.3, 8.1,18,falling,-1.5 ,-2.7, -0.3
+"Barry County",26015,***,6.6 ,4.2, 9.9,5,stable,-1.6 ,-3.7, 0.6
+"Marquette County",26103,***,6.5 ,4.3, 9.6,6,stable,-0.4 ,-2.5, 1.8
+"Genesee County",26049,***,6.5 ,5.5, 7.7,32,falling,-7.5 ,-14.3, -0.2
+"Montcalm County",26117,***,6.5 ,4.2, 9.7,5,falling,-32.1 ,-51.8, -4.3
+"Wayne County",26163,***,6.4 ,5.9, 6.9,125,falling,-0.9 ,-1.4, -0.4
+"Lapeer County",26087,***,6.3 ,4.3, 9,7,falling,-2.1 ,-3.9, -0.3
+"Tuscola County",26157,***,6.3 ,4, 9.7,5,stable,-2.2 ,-4.9, 0.7
+"St. Clair County",26147,***,6.3 ,4.8, 8.1,13,falling,-1.5 ,-2.7, -0.2
+"Berrien County",26021,***,6.3 ,4.8, 8,14,stable,-1.1 ,-2.5, 0.4
+"Cass County",26027,***,6.3 ,3.9, 9.7,4,stable,-0.2 ,-2.6, 2.2
+"Branch County",26023,***,6.1 ,3.5, 10.1,3,stable,-2.2 ,-4.4, 0.0
+"Grand Traverse County",26055,***,6 ,4.1, 8.5,7,falling,-2.1 ,-3.7, -0.5
+"Allegan County",26005,***,5.8 ,4.1, 8.1,8,stable,-0.4 ,-2.3, 1.6
+"Kent County",26081,***,5.8 ,4.9, 6.7,36,falling,-1.2 ,-2.1, -0.4
+"Clinton County",26037,***,5.7 ,3.7, 8.5,5,*,*,*,*
+"Calhoun County",26025,***,5.7 ,4.2, 7.6,9,falling,-2.1 ,-3.7, -0.5
+"Isabella County",26073,***,5.4 ,3.1, 8.9,3,*,*,*,*
+"Midland County",26111,***,5.3 ,3.6, 7.7,6,stable,-0.6 ,-2.8, 1.8
+"Alcona County",26001,***,* ,*, *,3 or fewer,*,*,*,*
+"Alger County",26003,***,* ,*, *,3 or fewer,*,*,*,*
+"Arenac County",26011,***,* ,*, *,3 or fewer,*,*,*,*
+"Baraga County",26013,***,* ,*, *,3 or fewer,*,*,*,*
+"Benzie County",26019,***,* ,*, *,3 or fewer,*,*,*,*
+"Cheboygan County",26031,***,* ,*, *,3 or fewer,*,*,*,*
+"Chippewa County",26033,***,* ,*, *,3 or fewer,*,*,*,*
+"Crawford County",26039,***,* ,*, *,3 or fewer,*,*,*,*
+"Gogebic County",26053,***,* ,*, *,3 or fewer,*,*,*,*
+"Houghton County",26061,***,* ,*, *,3 or fewer,*,*,*,*
+"Huron County",26063,***,* ,*, *,3 or fewer,*,*,*,*
+"Iron County",26071,***,* ,*, *,3 or fewer,*,*,*,*
+"Kalkaska County",26079,***,* ,*, *,3 or fewer,*,*,*,*
+"Keweenaw County",26083,***,* ,*, *,3 or fewer,*,*,*,*
+"Lake County",26085,***,* ,*, *,3 or fewer,*,*,*,*
+"Leelanau County",26089,***,* ,*, *,3 or fewer,*,*,*,*
+"Luce County",26095,***,* ,*, *,3 or fewer,*,*,*,*
+"Mackinac County",26097,***,* ,*, *,3 or fewer,*,*,*,*
+"Manistee County",26101,***,* ,*, *,3 or fewer,*,*,*,*
+"Menominee County",26109,***,* ,*, *,3 or fewer,*,*,*,*
+"Missaukee County",26113,***,* ,*, *,3 or fewer,*,*,*,*
+"Montmorency County",26119,***,* ,*, *,3 or fewer,*,*,*,*
+"Oceana County",26127,***,* ,*, *,3 or fewer,*,*,*,*
+"Ogemaw County",26129,***,* ,*, *,3 or fewer,*,*,*,*
+"Ontonagon County",26131,***,* ,*, *,3 or fewer,*,*,*,*
+"Osceola County",26133,***,* ,*, *,3 or fewer,*,*,*,*
+"Oscoda County",26135,***,* ,*, *,3 or fewer,*,*,*,*
+"Otsego County",26137,***,* ,*, *,3 or fewer,*,*,*,*
+"Presque Isle County",26141,***,* ,*, *,3 or fewer,*,*,*,*
+"Roscommon County",26143,***,* ,*, *,3 or fewer,*,*,*,*
+"Schoolcraft County",26153,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:00 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

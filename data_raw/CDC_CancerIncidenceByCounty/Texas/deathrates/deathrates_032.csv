@@ -1,0 +1,295 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=48&areatype=county&cancer=001&race=00&sex=2&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '48', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '2', 'age': '001', 'type': 'death', 'file_name': 'deathrates_032.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=48&areatype=county&cancer=001&race=00&sex=2&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for Texas by County
+
+"All Cancer Sites, 2012-2016"
+
+"All Races (includes Hispanic), Female, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 161.4?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Texas",48000,Yes,129.4 ,128.5, 130.2,18036,falling,-1.6 ,-1.7, -1.5
+"United States",00000,Yes,137.7 ,137.4, 137.9,280047,falling,-1.4 ,-1.5, -1.4
+"Knox County",48275,No,219.1 ,145.5, 320.9,6,*,*,*,*
+"Hamilton County",48193,No,208.1 ,161.6, 266.8,16,stable,0.3 ,-1.3, 1.8
+"Sabine County",48403,No,196.9 ,156.5, 247.3,20,stable,0.0 ,-1.2, 1.3
+"Edwards County",48137,No,189.3 ,109.3, 327.1,3,*,*,*,*
+"Mitchell County",48335,No,185.5 ,134.5, 251.4,9,stable,-0.8 ,-2.5, 0.9
+"Polk County",48373,No,183.2 ,161.6, 207.2,57,stable,-0.2 ,-1.2, 0.9
+"Gray County",48179,No,182.3 ,151.4, 218,26,stable,-0.5 ,-1.7, 0.6
+"Real County",48385,No,180.7 ,119.8, 274.3,6,*,*,*,*
+"Upton County",48461,No,180.7 ,107.2, 287.9,4,stable,-0.9 ,-3.0, 1.2
+"Wilbarger County",48487,No,177.7 ,139.5, 224,16,stable,0.3 ,-1.1, 1.7
+"Callahan County",48059,No,177.5 ,142.6, 219.6,19,rising,1.6 ,0.5, 2.7
+"Coleman County",48083,No,177.3 ,132.4, 234.7,12,stable,0.3 ,-1.3, 2.0
+"Hutchinson County",48233,No,176.4 ,145.2, 212.5,24,stable,-0.1 ,-0.9, 0.7
+"Crosby County",48107,No,174.4 ,117.9, 249.7,7,stable,-0.6 ,-2.5, 1.4
+"Orange County",48361,No,172.4 ,156.9, 189.1,93,falling,-0.9 ,-1.5, -0.3
+"Clay County",48077,No,172.1 ,134.9, 218.8,15,stable,0.9 ,-0.5, 2.3
+"Runnels County",48399,No,171.8 ,133.4, 219.8,14,stable,0.8 ,-0.5, 2.1
+"Montague County",48337,No,170.4 ,140.8, 205.2,25,stable,-0.6 ,-2.0, 0.7
+"Refugio County",48391,No,169.7 ,122, 231.9,9,stable,-0.5 ,-2.4, 1.3
+"Wheeler County",48483,No,168.2 ,117, 237.4,7,stable,-0.9 ,-2.3, 0.5
+"Hall County",48191,No,168 ,101.2, 269,4,stable,1.1 ,-1.5, 3.8
+"McCulloch County",48307,No,167.3 ,125.7, 221,11,stable,0.1 ,-1.7, 1.9
+"Jim Hogg County",48247,No,167.2 ,106.5, 250.6,5,stable,-0.4 ,-2.5, 1.7
+"Leon County",48289,No,166.9 ,135.9, 204,22,stable,-0.3 ,-1.3, 0.7
+"Trinity County",48455,No,165.4 ,133.8, 203.7,21,stable,0.3 ,-0.9, 1.5
+"Ward County",48475,No,164.9 ,124.2, 215.2,11,stable,-1.1 ,-2.4, 0.3
+"Marion County",48315,No,164.5 ,128, 210.7,15,stable,-0.7 ,-2.1, 0.7
+"Eastland County",48133,No,164.1 ,136, 197.3,26,stable,-0.5 ,-1.7, 0.8
+"Floyd County",48153,No,163.2 ,112.3, 231.5,7,stable,0.2 ,-1.7, 2.2
+"Aransas County",48007,No,162 ,137.1, 191,35,stable,-1.0 ,-1.9, 0.0
+"Ochiltree County",48357,No,161.6 ,113.7, 222.4,8,stable,0.1 ,-1.6, 1.7
+"Blanco County",48031,Yes,160.6 ,120.2, 211.7,13,stable,1.2 ,-0.5, 3.0
+"Schleicher County",48413,Yes,160.1 ,90.4, 266.6,3,*,*,*,*
+"San Patricio County",48409,Yes,159.8 ,142.2, 179.1,61,falling,-0.8 ,-1.4, -0.1
+"San Augustine County",48405,Yes,159.7 ,121, 209.9,13,stable,-0.4 ,-1.6, 0.8
+"Young County",48503,Yes,159.7 ,130.9, 193.8,23,falling,-5.0 ,-8.8, -1.1
+"Gonzales County",48177,Yes,159.3 ,130, 193.8,21,stable,1.7 ,-1.0, 4.5
+"Dallam County",48111,Yes,158.7 ,101.5, 235.5,5,falling,-2.4 ,-4.3, -0.4
+"Wichita County",48485,Yes,158.1 ,145.8, 171.2,129,falling,-0.8 ,-1.3, -0.4
+"Haskell County",48207,Yes,157.5 ,107.8, 226.5,7,stable,0.6 ,-1.0, 2.3
+"Morris County",48343,Yes,157.3 ,123.4, 198.9,16,stable,-0.4 ,-1.6, 0.8
+"Freestone County",48161,Yes,157.2 ,128.1, 191.7,22,stable,0.1 ,-0.9, 1.2
+"Kleberg County",48273,Yes,156.8 ,130.4, 187.1,26,stable,-0.3 ,-1.4, 0.8
+"Milam County",48331,Yes,156.8 ,132.1, 185.3,30,stable,0.0 ,-0.8, 0.9
+"Liberty County",48291,Yes,156.5 ,140, 174.4,68,falling,-1.5 ,-2.1, -0.9
+"Moore County",48341,Yes,156 ,122.7, 195.4,15,stable,-0.1 ,-1.2, 1.0
+"Lamar County",48277,Yes,156 ,138, 176,57,falling,-0.7 ,-1.3, -0.1
+"Camp County",48063,Yes,155.6 ,119.7, 199.7,13,falling,-1.7 ,-2.8, -0.5
+"Parker County",48367,Yes,155 ,142.3, 168.6,115,stable,-0.5 ,-1.0, 0.1
+"Wharton County",48481,Yes,155 ,134.2, 178.2,42,stable,-0.5 ,-1.1, 0.2
+"Caldwell County",48055,Yes,154.4 ,132.1, 179.5,35,stable,-0.6 ,-1.9, 0.6
+"Johnson County",48251,Yes,154.2 ,142.7, 166.5,137,falling,-0.6 ,-1.0, -0.1
+"Bowie County",48037,Yes,154.1 ,140.2, 169.1,95,falling,-0.9 ,-1.6, -0.3
+"San Jacinto County",48407,Yes,153.7 ,129.3, 181.8,31,stable,-0.5 ,-1.6, 0.7
+"Howard County",48227,Yes,153.2 ,128.4, 181.5,28,falling,-0.8 ,-1.4, -0.2
+"Winkler County",48495,Yes,153 ,102.8, 219.5,6,stable,-0.6 ,-2.5, 1.4
+"Scurry County",48415,Yes,152.9 ,119.9, 192.6,16,stable,0.1 ,-1.2, 1.5
+"Gregg County",48183,Yes,152.5 ,140.3, 165.5,120,falling,-1.1 ,-1.5, -0.7
+"Lampasas County",48281,Yes,152.4 ,124.2, 185.7,22,stable,-0.4 ,-1.8, 1.0
+"Hunt County",48231,Yes,152.2 ,137.8, 167.7,85,stable,-0.2 ,-1.0, 0.6
+"Henderson County",48213,Yes,152.1 ,138.1, 167.2,95,falling,-0.8 ,-1.4, -0.2
+"Delta County",48119,Yes,151.7 ,100.1, 223.7,6,stable,-0.4 ,-2.4, 1.7
+"Limestone County",48293,Yes,151.1 ,125.4, 181.2,26,falling,-0.9 ,-1.6, -0.1
+"Castro County",48069,Yes,151 ,104.6, 212,7,stable,-1.1 ,-2.7, 0.6
+"Galveston County",48167,Yes,150.9 ,142.8, 159.3,273,falling,-1.3 ,-1.6, -0.9
+"Potter County",48375,Yes,150.6 ,137.2, 165,96,falling,-1.1 ,-1.5, -0.7
+"Baylor County",48023,Yes,150.3 ,90.5, 240.6,5,stable,0.3 ,-2.2, 2.7
+"Matagorda County",48321,Yes,149.7 ,128, 174.3,35,stable,-0.3 ,-1.2, 0.5
+"Chambers County",48071,Yes,149.3 ,124.5, 177.6,27,stable,-1.1 ,-2.4, 0.2
+"Wise County",48497,Yes,149 ,131.4, 168.3,54,stable,-0.2 ,-1.2, 0.8
+"Shelby County",48419,Yes,148 ,122.9, 177.1,25,falling,-1.2 ,-2.2, -0.2
+"Hopkins County",48223,Yes,147.4 ,126.7, 170.9,37,stable,-0.7 ,-1.5, 0.0
+"Fannin County",48147,Yes,146.9 ,125.6, 171.3,36,falling,-0.8 ,-1.4, -0.1
+"Crane County",48103,Yes,146.8 ,85.8, 234.5,4,*,*,*,*
+"Kaufman County",48257,Yes,146.8 ,133, 161.6,86,falling,-1.3 ,-1.9, -0.6
+"Grayson County",48181,Yes,146.5 ,135.1, 158.6,129,falling,-0.7 ,-1.2, -0.3
+"Menard County",48327,Yes,146.3 ,83.7, 263.1,3,*,*,*,*
+"Upshur County",48459,Yes,146.1 ,126.5, 168.2,41,stable,-0.9 ,-1.9, 0.0
+"Garza County",48169,Yes,146 ,89.9, 226.6,4,*,*,*,*
+"Victoria County",48469,Yes,145.7 ,131.7, 161,81,stable,-0.7 ,-1.4, 0.0
+"Fayette County",48149,Yes,145.6 ,123.1, 171.9,34,stable,-0.6 ,-2.0, 0.8
+"Calhoun County",48057,Yes,145.2 ,117.8, 177.5,20,stable,-0.8 ,-2.1, 0.5
+"Jefferson County",48245,Yes,145 ,136.5, 154,225,falling,-1.2 ,-1.5, -0.9
+"Bosque County",48035,Yes,144.8 ,118.2, 176.8,23,stable,-0.4 ,-1.2, 0.5
+"Coryell County",48099,Yes,143.8 ,125.4, 164.1,45,stable,-0.4 ,-1.2, 0.4
+"Rains County",48379,Yes,143.7 ,109, 188,13,falling,-4.9 ,-8.6, -1.0
+"Bell County",48027,Yes,143.7 ,135.1, 152.7,213,falling,-1.2 ,-1.7, -0.7
+"Jasper County",48241,Yes,143.5 ,122.8, 167,36,falling,-1.4 ,-2.2, -0.6
+"Jackson County",48239,Yes,143.5 ,111.3, 182.8,14,stable,0.3 ,-1.3, 2.0
+"Bastrop County",48021,Yes,143.2 ,127.5, 160.3,64,falling,-1.3 ,-2.1, -0.4
+"Navarro County",48349,Yes,142.5 ,124.4, 162.7,46,stable,-0.6 ,-1.5, 0.2
+"Kinney County",48271,Yes,142.5 ,78.9, 243.4,4,stable,-0.5 ,-3.4, 2.6
+"Palo Pinto County",48363,Yes,142.4 ,119.3, 169.1,28,falling,-1.6 ,-2.7, -0.6
+"Colorado County",48089,Yes,142.4 ,117.4, 172,25,falling,-0.9 ,-1.7, -0.1
+"Zavala County",48507,Yes,142.3 ,104.3, 190,10,stable,0.2 ,-1.5, 2.0
+"Hale County",48189,Yes,142.3 ,118.9, 169,27,stable,0.6 ,-0.1, 1.4
+"Ector County",48135,Yes,142.1 ,129.7, 155.3,99,falling,-0.9 ,-1.5, -0.2
+"Uvalde County",48463,Yes,141.6 ,117.2, 169.9,25,falling,-1.1 ,-2.1, -0.2
+"Frio County",48163,Yes,141.6 ,107.6, 183.2,12,stable,0.1 ,-1.6, 1.8
+"Cass County",48067,Yes,141 ,119.9, 165.3,34,stable,-0.8 ,-1.6, 0.1
+"Grimes County",48185,Yes,140.9 ,115.4, 170.7,23,stable,-0.4 ,-1.4, 0.7
+"Sutton County",48435,Yes,140.3 ,80.2, 230.2,3,stable,-1.4 ,-4.3, 1.6
+"Brown County",48049,Yes,140.2 ,120.6, 162.4,39,stable,-0.3 ,-1.0, 0.5
+"Bailey County",48017,Yes,140.2 ,93.5, 203.1,6,stable,-0.5 ,-2.8, 1.8
+"Harrison County",48203,Yes,140 ,124.4, 157.1,61,stable,-0.5 ,-1.2, 0.2
+"Red River County",48387,Yes,139.9 ,110.5, 176.8,16,stable,-0.9 ,-2.1, 0.3
+"Angelina County",48005,Yes,139.4 ,125.7, 154.3,77,falling,-0.9 ,-1.5, -0.3
+"Ellis County",48139,Yes,139 ,127.7, 151,117,falling,-1.3 ,-1.8, -0.9
+"DeWitt County",48123,Yes,139 ,111.8, 171.5,21,stable,-0.4 ,-1.5, 0.6
+"Brazoria County",48039,Yes,139 ,130.9, 147.4,229,falling,-1.4 ,-1.9, -0.9
+"Taylor County",48441,Yes,138 ,126.6, 150.2,113,falling,-0.7 ,-1.2, -0.3
+"Newton County",48351,Yes,137.5 ,103.7, 179.4,12,stable,-19.3 ,-47.6, 24.5
+"Houston County",48225,Yes,137.3 ,112.8, 166.4,25,stable,-0.8 ,-2.1, 0.4
+"Concho County",48095,Yes,137.1 ,78.1, 240.3,3,*,*,*,*
+"Bee County",48025,Yes,137 ,112.1, 166.1,22,falling,-1.4 ,-2.5, -0.4
+"Tyler County",48457,Yes,136.9 ,111.4, 167.5,22,falling,-1.5 ,-2.4, -0.7
+"Panola County",48365,Yes,136.4 ,111.5, 165.5,22,stable,-0.9 ,-1.8, 0.2
+"Midland County",48329,Yes,136 ,124.4, 148.3,106,falling,-0.9 ,-1.5, -0.3
+"Waller County",48473,Yes,135.6 ,114.6, 159.3,31,falling,-1.4 ,-2.1, -0.7
+"Hardin County",48199,Yes,135.4 ,118.6, 154,48,falling,-1.2 ,-2.2, -0.1
+"Falls County",48145,Yes,135.3 ,107.6, 168.7,17,stable,-0.5 ,-1.7, 0.7
+"Rusk County",48401,Yes,134.7 ,117.3, 154.2,45,stable,-0.6 ,-1.3, 0.0
+"Dimmit County",48127,Yes,134.7 ,97, 182.7,9,stable,-0.8 ,-2.6, 1.0
+"Karnes County",48255,Yes,134.4 ,101.2, 176,12,stable,-0.6 ,-2.0, 0.8
+"Nacogdoches County",48347,Yes,134.4 ,117.8, 152.6,50,stable,-0.5 ,-1.1, 0.2
+"Guadalupe County",48187,Yes,133.8 ,122.6, 145.7,109,falling,-1.4 ,-2.0, -0.8
+"Dallas County",48113,Yes,133.8 ,130.8, 136.8,1585,falling,-1.8 ,-2.1, -1.6
+"Hill County",48217,Yes,133.6 ,114.1, 155.9,36,falling,-1.0 ,-2.0, -0.1
+"Burleson County",48051,Yes,133.6 ,107.1, 165.5,19,falling,-1.2 ,-2.3, -0.2
+"Donley County",48129,Yes,133.4 ,78.5, 220.2,4,stable,-0.2 ,-2.4, 2.0
+"Dawson County",48115,Yes,133.1 ,98.7, 176.5,11,stable,-0.6 ,-1.9, 0.7
+"McLennan County",48309,Yes,133 ,124.6, 141.9,194,falling,-4.7 ,-7.7, -1.7
+"Tarrant County",48439,Yes,132.9 ,129.5, 136.3,1255,falling,-1.4 ,-1.5, -1.2
+"Lamb County",48279,Yes,132.7 ,100.3, 172.9,12,stable,-0.2 ,-1.4, 1.1
+"Montgomery County",48339,Yes,132.7 ,126.5, 139,366,falling,-2.2 ,-2.9, -1.6
+"Franklin County",48159,Yes,132.5 ,99, 175.5,11,stable,-1.2 ,-2.7, 0.4
+"Andrews County",48003,Yes,132.3 ,98.9, 173.3,11,stable,-0.4 ,-1.5, 0.7
+"Fisher County",48151,Yes,131.5 ,82.5, 207.7,5,stable,-1.2 ,-3.3, 1.0
+"Llano County",48299,Yes,131.4 ,109.2, 158.7,32,stable,-0.2 ,-1.1, 0.7
+"Tom Green County",48451,Yes,131.3 ,119.6, 143.9,96,falling,-1.1 ,-1.7, -0.6
+"Nolan County",48353,Yes,131.2 ,101.1, 168.3,14,stable,-1.0 ,-2.2, 0.3
+"Walker County",48471,Yes,131.2 ,113.6, 150.9,42,falling,-1.2 ,-1.9, -0.5
+"Harris County",48201,Yes,131.1 ,128.8, 133.4,2587,falling,-1.9 ,-2.2, -1.6
+"Hansford County",48195,Yes,131 ,82.2, 200,5,stable,-1.2 ,-2.9, 0.6
+"Stephens County",48429,Yes,130.6 ,95.3, 177.1,10,stable,-0.5 ,-1.7, 0.7
+"Washington County",48477,Yes,130.3 ,111, 152.5,37,stable,-0.8 ,-1.7, 0.1
+"Lee County",48287,Yes,130.3 ,101.8, 165,15,falling,-1.1 ,-2.0, -0.1
+"Brooks County",48047,Yes,130.1 ,87.6, 187.7,6,stable,-0.6 ,-2.8, 1.7
+"Bexar County",48029,Yes,130.1 ,126.8, 133.4,1248,falling,-1.2 ,-1.3, -1.0
+"Rockwall County",48397,Yes,129.8 ,115.1, 145.9,59,falling,-1.4 ,-2.3, -0.4
+"Reeves County",48389,Yes,129.5 ,94.6, 173.9,9,falling,-1.2 ,-2.3, -0.2
+"Comal County",48091,Yes,129.4 ,118.5, 141.2,108,stable,-0.6 ,-1.3, 0.0
+"Jim Wells County",48249,Yes,129.2 ,109.6, 151.5,32,stable,-0.9 ,-2.0, 0.1
+"Hockley County",48219,Yes,128.8 ,102.6, 159.9,17,stable,-0.7 ,-1.8, 0.5
+"Robertson County",48395,Yes,128.5 ,100.5, 162.7,15,falling,-1.3 ,-2.4, -0.1
+"Hood County",48221,Yes,128.2 ,113.4, 144.6,62,falling,-2.1 ,-3.0, -1.2
+"Comanche County",48093,Yes,128.1 ,99.3, 164.2,15,stable,-0.5 ,-1.8, 0.8
+"Lavaca County",48285,Yes,128 ,104, 156.8,23,stable,-0.2 ,-1.5, 1.2
+"Cooke County",48097,Yes,127.4 ,109, 148.4,36,falling,-1.1 ,-2.0, -0.1
+"Gillespie County",48171,Yes,127.4 ,107.3, 151.3,35,falling,-1.0 ,-1.9, -0.2
+"Atascosa County",48013,Yes,127.3 ,108.8, 148.2,35,falling,-1.0 ,-1.7, -0.3
+"Shackelford County",48417,Yes,127.3 ,75.3, 209.8,4,*,*,*,*
+"Mason County",48319,Yes,127.1 ,79.4, 202.3,5,falling,-2.0 ,-3.8, -0.2
+"Brazos County",48041,Yes,126.8 ,115.8, 138.6,100,falling,-1.2 ,-1.7, -0.7
+"Childress County",48075,Yes,126.3 ,82, 188.9,6,stable,-0.3 ,-2.7, 2.2
+"Kerr County",48265,Yes,125.7 ,112.1, 141,67,falling,-1.3 ,-2.2, -0.4
+"Jones County",48253,Yes,125.5 ,97.2, 160.7,14,stable,-0.4 ,-1.6, 0.9
+"Van Zandt County",48467,Yes,124.4 ,109.2, 141.5,51,stable,-1.0 ,-2.0, 0.1
+"Deaf Smith County",48117,Yes,124.3 ,94.8, 160.2,12,stable,0.6 ,-0.6, 1.8
+"Medina County",48325,Yes,124.1 ,106.4, 144.1,37,falling,-1.0 ,-1.8, -0.1
+"Randall County",48381,Yes,123.9 ,112.8, 135.7,95,falling,-0.8 ,-1.3, -0.4
+"Terry County",48445,Yes,123.6 ,90, 166.3,9,stable,-0.2 ,-1.8, 1.4
+"Anderson County",48001,Yes,123.1 ,105.9, 142.6,39,falling,-4.4 ,-6.2, -2.6
+"Nueces County",48355,Yes,122.7 ,115.9, 129.7,255,falling,-1.8 ,-2.1, -1.5
+"Hays County",48209,Yes,122.4 ,111.6, 133.9,100,falling,-1.2 ,-1.9, -0.5
+"Lubbock County",48303,Yes,121.9 ,114.2, 130,190,falling,-3.2 ,-5.2, -1.3
+"Maverick County",48323,Yes,121.9 ,104.1, 141.8,34,stable,-0.1 ,-1.0, 0.9
+"Jack County",48237,Yes,121.6 ,83.7, 173,7,stable,-1.0 ,-3.0, 1.2
+"Burnet County",48053,Yes,121.2 ,105.3, 139.3,44,falling,-1.3 ,-2.0, -0.7
+"Bandera County",48019,Yes,120.3 ,96.6, 149.3,21,stable,-1.3 ,-2.6, 0.0
+"Hartley County",48205,Yes,119.8 ,69.4, 194.9,4,stable,-1.3 ,-4.1, 1.6
+"Madison County",48313,Yes,119.1 ,86.4, 160.9,9,falling,-1.5 ,-2.9, -0.1
+"Somervell County",48425,Yes,118.8 ,81.2, 169.2,7,falling,-2.3 ,-4.2, -0.5
+"Gaines County",48165,Yes,118 ,86.3, 157.1,9,stable,-0.6 ,-2.3, 1.1
+"Webb County",48479,Yes,117.7 ,108.6, 127.2,129,rising,2.0 ,0.2, 3.9
+"Lynn County",48305,Yes,116.5 ,73.2, 178.8,5,stable,-1.3 ,-2.9, 0.4
+"Duval County",48131,Yes,116.1 ,83.2, 158.7,9,stable,-1.5 ,-3.2, 0.3
+"Denton County",48121,Yes,115.7 ,110.2, 121.4,361,falling,-1.8 ,-2.2, -1.5
+"El Paso County",48141,Yes,115.4 ,110.9, 120.1,499,falling,-1.4 ,-1.6, -1.1
+"Archer County",48009,Yes,115.2 ,81.6, 160.5,8,*,*,*,*
+"Travis County",48453,Yes,114.4 ,109.9, 118.9,534,falling,-1.8 ,-2.1, -1.5
+"Coke County",48081,Yes,114.1 ,69.4, 191.4,4,*,*,*,*
+"Williamson County",48491,Yes,113.9 ,107.7, 120.2,270,falling,-1.7 ,-2.1, -1.3
+"Goliad County",48175,Yes,113.7 ,77.4, 164.2,7,stable,-1.1 ,-3.0, 0.7
+"San Saba County",48411,Yes,112.9 ,70.5, 175.6,5,stable,0.5 ,-1.6, 2.6
+"Live Oak County",48297,Yes,112.9 ,83.5, 151.4,10,stable,-1.1 ,-2.9, 0.7
+"Hardeman County",48197,Yes,112.8 ,66.9, 185.2,4,stable,-1.4 ,-4.0, 1.3
+"Kendall County",48259,Yes,112.8 ,95.6, 132.6,33,falling,-2.2 ,-3.3, -1.2
+"Titus County",48449,Yes,111.6 ,90.7, 135.8,21,falling,-1.7 ,-3.1, -0.3
+"Cameron County",48061,Yes,111.1 ,104.9, 117.5,246,falling,-0.7 ,-1.1, -0.2
+"Fort Bend County",48157,Yes,111 ,105.5, 116.8,331,falling,-1.5 ,-1.9, -1.1
+"Austin County",48015,Yes,111 ,91.2, 134.3,23,falling,-1.5 ,-2.6, -0.4
+"Wood County",48499,Yes,110.4 ,95.1, 128,44,falling,-1.6 ,-2.6, -0.6
+"Erath County",48143,Yes,109.5 ,90.8, 131,25,falling,-1.3 ,-2.3, -0.2
+"Smith County",48423,Yes,109.3 ,101.6, 117.4,157,falling,-1.9 ,-2.6, -1.3
+"Val Verde County",48465,Yes,108.9 ,91.8, 128.3,30,falling,-2.1 ,-3.2, -1.1
+"Willacy County",48489,Yes,108.8 ,83.5, 139.7,13,stable,-1.1 ,-2.6, 0.4
+"Collin County",48085,Yes,107.1 ,102.5, 111.9,425,falling,-1.9 ,-2.2, -1.6
+"Yoakum County",48501,Yes,105.7 ,64.8, 162.3,4,stable,-1.8 ,-4.0, 0.4
+"Wilson County",48493,Yes,105.3 ,88.4, 124.6,29,falling,-5.2 ,-9.9, -0.3
+"Starr County",48427,Yes,104.4 ,88.4, 122.3,31,stable,0.0 ,-1.2, 1.1
+"Carson County",48065,Yes,103.3 ,64.1, 160.5,4,stable,-1.2 ,-3.2, 0.9
+"Cherokee County",48073,Yes,102.6 ,87.4, 119.8,34,falling,-2.1 ,-2.9, -1.3
+"Brewster County",48043,Yes,101.8 ,69.7, 145.5,7,falling,-1.4 ,-2.6, -0.1
+"Swisher County",48437,Yes,101.7 ,66.9, 151,6,stable,-1.1 ,-2.6, 0.5
+"Mills County",48333,Yes,99.9 ,56.4, 168.2,4,stable,-0.3 ,-3.5, 2.9
+"Hidalgo County",48215,Yes,98.6 ,94.1, 103.2,369,falling,-1.0 ,-1.3, -0.7
+"Kimble County",48267,Yes,92.4 ,57, 152,4,stable,-2.0 ,-4.2, 0.2
+"Pecos County",48371,Yes,81.3 ,55.5, 115.3,6,falling,-4.7 ,-7.1, -2.2
+"Zapata County",48505,Yes,74 ,46.8, 110.8,5,stable,-0.7 ,-3.0, 1.7
+"Parmer County",48369,Yes,73.4 ,44.3, 114.8,4,*,*,*,*
+"Presidio County",48377,Yes,70 ,41.3, 113.5,4,falling,-3.9 ,-6.4, -1.3
+"Armstrong County",48011,***,* ,*, *,3 or fewer,*,*,*,*
+"Borden County",48033,***,* ,*, *,3 or fewer,*,*,*,*
+"Briscoe County",48045,***,* ,*, *,3 or fewer,*,*,*,*
+"Cochran County",48079,***,* ,*, *,3 or fewer,*,*,*,*
+"Collingsworth County",48087,***,* ,*, *,3 or fewer,*,*,*,*
+"Cottle County",48101,***,* ,*, *,3 or fewer,*,*,*,*
+"Crockett County",48105,***,* ,*, *,3 or fewer,*,*,*,*
+"Culberson County",48109,***,* ,*, *,3 or fewer,*,*,*,*
+"Dickens County",48125,***,* ,*, *,3 or fewer,*,*,*,*
+"Foard County",48155,***,* ,*, *,3 or fewer,*,*,*,*
+"Glasscock County",48173,***,* ,*, *,3 or fewer,*,*,*,*
+"Hemphill County",48211,***,* ,*, *,3 or fewer,*,*,*,*
+"Hudspeth County",48229,***,* ,*, *,3 or fewer,*,*,*,*
+"Irion County",48235,***,* ,*, *,3 or fewer,*,*,*,*
+"Jeff Davis County",48243,***,* ,*, *,3 or fewer,*,*,*,*
+"Kenedy County",48261,***,* ,*, *,3 or fewer,*,*,*,*
+"Kent County",48263,***,* ,*, *,3 or fewer,*,*,*,*
+"King County",48269,***,* ,*, *,3 or fewer,*,*,*,*
+"La Salle County",48283,***,* ,*, *,3 or fewer,*,*,*,*
+"Lipscomb County",48295,***,* ,*, *,3 or fewer,*,*,*,*
+"Loving County",48301,***,* ,*, *,3 or fewer,*,*,*,*
+"Martin County",48317,***,* ,*, *,3 or fewer,*,*,*,*
+"McMullen County",48311,***,* ,*, *,3 or fewer,*,*,*,*
+"Motley County",48345,***,* ,*, *,3 or fewer,*,*,*,*
+"Oldham County",48359,***,* ,*, *,3 or fewer,*,*,*,*
+"Reagan County",48383,***,* ,*, *,3 or fewer,*,*,*,*
+"Roberts County",48393,***,* ,*, *,3 or fewer,*,*,*,*
+"Sherman County",48421,***,* ,*, *,3 or fewer,*,*,*,*
+"Sterling County",48431,***,* ,*, *,3 or fewer,*,*,*,*
+"Stonewall County",48433,***,* ,*, *,3 or fewer,*,*,*,*
+"Terrell County",48443,***,* ,*, *,3 or fewer,*,*,*,*
+"Throckmorton County",48447,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:02 pm.
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

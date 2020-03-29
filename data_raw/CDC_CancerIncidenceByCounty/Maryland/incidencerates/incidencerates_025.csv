@@ -1,0 +1,65 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=24&areatype=county&cancer=001&race=06&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '24', 'areatype': 'county', 'cancer': '001', 'race': '06', 'sex': '0', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_025.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=24&areatype=county&cancer=001&race=06&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Maryland by County
+
+"All Cancer Sites (All Stages^), 2012-2016"
+
+"White Hispanic, Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Maryland(6,10)",24000,***,249.4 ,239.5, 259.5,617,falling,-2.9 ,-5.1, -0.7
+"US (SEER+NPCR) &sect; (1,10)",00000,***,345.6 ,344.7, 346.5,116172,falling,-1.7 ,-2.8, -0.6
+"Wicomico County(6,10)",24045,***,497.2 ,332.8, 704.8,8,stable,4.0 ,-12.5, 23.5
+"Carroll County(6,10)",24013,***,491.9 ,361, 649.9,12,stable,-11.7 ,-37.7, 25.1
+"Cecil County(6,10)",24015,***,424.1 ,278.8, 609.8,7,falling,-19.0 ,-31.1, -4.6
+"Washington County(6,10)",24043,***,409 ,291.4, 553.4,10,stable,-14.9 ,-38.0, 16.8
+"Baltimore County(6,10)",24005,***,321.2 ,280.6, 365.4,54,stable,-0.9 ,-18.2, 20.1
+"Harford County(6,10)",24025,***,315.5 ,241.3, 403.5,15,stable,-12.4 ,-28.2, 6.8
+"St. Marys County(6,10)",24037,***,312.1 ,209.9, 443.9,7,stable,-4.1 ,-35.4, 42.2
+"Howard County(6,10)",24027,***,296.6 ,242.4, 358.2,27,stable,-6.5 ,-31.0, 26.7
+"Anne Arundel County(6,10)",24003,***,292.9 ,249.6, 340.9,45,stable,-5.3 ,-16.0, 6.6
+"Frederick County(6,10)",24021,***,279.6 ,227.4, 339.1,28,stable,-3.5 ,-25.6, 25.2
+"Baltimore City(6,10)",24510,***,259.8 ,208.4, 318.9,26,stable,13.0 ,-10.1, 42.0
+"Charles County(6,10)",24017,***,258.2 ,175.9, 362.9,8,stable,8.7 ,-26.2, 60.1
+"Calvert County(6,10)",24009,***,245.4 ,130, 411,4,*,*,*,*
+"Montgomery County(6,10)",24031,***,228.3 ,214.9, 242.3,253,stable,-3.0 ,-8.8, 3.1
+"Prince Georges County(6,10)",24033,***,189.4 ,168.5, 212,99,falling,-4.9 ,-9.4, -0.3
+"Allegany County(6,10)",24001,***,* ,*, *,3 or fewer,*,*,*,*
+"Caroline County(6,10)",24011,***,* ,*, *,3 or fewer,*,*,*,*
+"Dorchester County(6,10)",24019,***,* ,*, *,3 or fewer,*,*,*,*
+"Garrett County(6,10)",24023,***,* ,*, *,3 or fewer,*,*,*,*
+"Kent County(6,10)",24029,***,* ,*, *,3 or fewer,*,*,*,*
+"Queen Annes County(6,10)",24035,***,* ,*, *,3 or fewer,*,*,*,*
+"Somerset County(6,10)",24039,***,* ,*, *,3 or fewer,*,*,*,*
+"Talbot County(6,10)",24041,***,* ,*, *,3 or fewer,*,*,*,*
+"Worcester County(6,10)",24047,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:01 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

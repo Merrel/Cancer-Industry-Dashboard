@@ -1,0 +1,44 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=24&areatype=county&topic=pop&demo=00022&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '24', 'areatype': 'county', 'topic': 'pop', 'demo': '00022', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_021.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=24&areatype=county&topic=pop&demo=00022&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Maryland by County
+Population: Black
+"All Ages, Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Black),Rank within US
+"United States",00000,12.7,40610815,"N/A"
+"Maryland",24000,29.7,1782256,"5 of 52"
+"Garrett County",24023,0.6,170,"2440 of 3141"
+"Carroll County",24013,3.3,5585,"1352 of 3141"
+"Cecil County",24015,6.8,6972,"973 of 3141"
+"Queen Annes County",24035,7.0,3439,"957 of 3141"
+"Allegany County",24001,8.1,5899,"893 of 3141"
+"Frederick County",24021,9.0,22103,"840 of 3141"
+"Washington County",24043,10.5,15675,"774 of 3141"
+"Talbot County",24041,11.6,4342,"719 of 3141"
+"Calvert County",24009,11.9,10797,"708 of 3141"
+"Caroline County",24011,13.3,4376,"664 of 3141"
+"Harford County",24025,13.5,33702,"658 of 3141"
+"Worcester County",24047,13.5,6977,"656 of 3141"
+"St. Marys County",24037,14.3,15922,"632 of 3141"
+"Kent County",24029,14.8,2914,"616 of 3141"
+"Anne Arundel County",24003,16.2,91567,"586 of 3141"
+"Montgomery County",24031,18.1,187943,"542 of 3141"
+"Howard County",24027,18.5,57755,"537 of 3141"
+"Wicomico County",24045,25.3,25818,"401 of 3141"
+"Dorchester County",24019,27.5,8901,"363 of 3141"
+"Baltimore County",24005,27.9,231516,"354 of 3141"
+"Somerset County",24039,42.0,10845,"162 of 3141"
+"Charles County",24017,43.2,67351,"146 of 3141"
+"Baltimore City",24510,62.8,389222,"37 of 3141"
+"Prince Georges County",24033,63.2,572465,"36 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:01 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Black, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

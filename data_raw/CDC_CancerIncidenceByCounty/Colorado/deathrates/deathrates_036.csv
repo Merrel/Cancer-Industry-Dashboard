@@ -1,0 +1,107 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=08&areatype=county&cancer=001&race=00&sex=0&age=136&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '08', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '0', 'age': '136', 'type': 'death', 'file_name': 'deathrates_036.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=08&areatype=county&cancer=001&race=00&sex=0&age=136&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for Colorado by County
+
+"All Cancer Sites, 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, Ages 50+"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 161.4?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Colorado",08000,No,470.8 ,465.7, 475.8,7098,falling,-1.6 ,-1.8, -1.4
+"United States",00000,No,540.6 ,539.9, 541.2,558319,falling,-1.5 ,-1.5, -1.5
+"Kiowa County",08061,No,859.8 ,568.8, 1248,6,*,*,*,*
+"Bent County",08011,No,636.2 ,492.4, 808.8,14,stable,0.0 ,-1.5, 1.6
+"Prowers County",08099,No,627.7 ,525.3, 744.2,27,stable,-0.8 ,-1.8, 0.2
+"Morgan County",08087,No,570.6 ,503.7, 643.9,54,stable,-0.4 ,-1.3, 0.5
+"Fremont County",08043,No,562.3 ,515.9, 611.7,110,falling,-0.8 ,-1.2, -0.3
+"Logan County",08075,No,544.6 ,473.7, 623,44,stable,-0.4 ,-1.0, 0.3
+"Adams County (8)",08001,No,538.9 ,518.3, 560.2,551,falling,-1.5 ,-1.9, -1.0
+"Custer County",08027,No,530.8 ,398.7, 692.2,13,stable,-1.0 ,-3.0, 1.0
+"Chaffee County",08015,No,524.6 ,458, 598.2,46,stable,-0.9 ,-2.2, 0.4
+"Denver County",08031,No,522.6 ,506.8, 538.7,872,falling,-1.1 ,-1.3, -0.9
+"Pueblo County",08101,No,522.2 ,496.4, 549,315,falling,-0.8 ,-1.2, -0.5
+"Mesa County",08077,No,515.7 ,489, 543.6,285,falling,-1.4 ,-1.8, -1.0
+"Moffat County",08081,No,513 ,415, 626.8,21,stable,-0.5 ,-1.7, 0.8
+"Baca County",08009,No,508.1 ,370.5, 680.5,10,stable,-0.1 ,-1.7, 1.6
+"Otero County",08089,No,507.8 ,438.9, 584.5,39,falling,-2.0 ,-3.2, -0.8
+"Washington County",08121,No,505.2 ,376.5, 663.8,11,stable,22.5 ,-8.9, 64.7
+"Delta County",08029,No,504.9 ,454.3, 559.7,74,falling,-0.8 ,-1.3, -0.2
+"Las Animas County",08071,No,499.8 ,424.5, 584.6,32,stable,-0.4 ,-1.1, 0.4
+"Broomfield County (8)",08014,No,498.6 ,450.7, 550,83,falling,-6.7 ,-12.1, -0.9
+"Alamosa County",08003,No,494.4 ,405.1, 597.5,22,stable,-0.3 ,-1.3, 0.7
+"Yuma County",08125,No,493.2 ,396.6, 606.2,18,stable,-13.1 ,-27.8, 4.6
+"Montezuma County",08083,No,490.8 ,432.1, 555.1,53,falling,-1.1 ,-1.7, -0.5
+"Conejos County",08021,No,490.3 ,382.7, 618.6,14,falling,-1.6 ,-2.9, -0.3
+"El Paso County",08041,No,481.7 ,466.7, 497.1,821,falling,-1.3 ,-1.5, -1.1
+"Weld County (8)",08123,No,480.7 ,457.1, 505.2,330,falling,-1.5 ,-2.3, -0.7
+"Gilpin County",08047,No,473.3 ,303.7, 698.3,7,*,*,*,*
+"Montrose County",08085,No,468.5 ,424.4, 515.9,85,falling,-1.0 ,-1.7, -0.4
+"Rio Blanco County",08103,No,457.6 ,336.2, 608.2,10,*,*,*,*
+"Jefferson County (8)",08059,No,457.3 ,443.2, 471.7,838,falling,-1.7 ,-2.1, -1.4
+"Huerfano County",08055,No,455 ,364.6, 561.5,18,stable,-0.8 ,-2.0, 0.6
+"Arapahoe County",08005,No,451.5 ,436.5, 466.9,734,falling,-1.3 ,-1.5, -1.0
+"Larimer County",08069,No,451.2 ,432.1, 470.9,440,falling,-1.2 ,-1.6, -0.9
+"Phillips County",08095,No,448.5 ,324.7, 604.4,9,stable,-0.8 ,-2.0, 0.4
+"Lincoln County",08073,No,446.5 ,324.2, 599.2,9,stable,-1.3 ,-2.7, 0.0
+"Kit Carson County",08063,No,444.1 ,344.5, 563.8,14,falling,-1.3 ,-2.5, -0.2
+"Rio Grande County",08105,No,442.7 ,359.8, 539,21,falling,-1.5 ,-2.5, -0.6
+"Clear Creek County",08019,No,440.6 ,328.9, 575.8,13,falling,-1.9 ,-3.5, -0.2
+"Sedgwick County",08115,No,440 ,288.8, 643.9,6,stable,-1.9 ,-3.7, 0.0
+"La Plata County",08067,No,433.7 ,388.2, 482.9,73,falling,-1.7 ,-2.4, -1.1
+"Lake County",08065,No,432.4 ,299, 602.7,7,stable,-2.0 ,-4.1, 0.1
+"Garfield County",08045,No,426.2 ,377, 479.9,60,falling,-2.0 ,-2.6, -1.4
+"Elbert County",08039,No,425.7 ,353.4, 507.8,31,falling,-2.1 ,-3.3, -0.9
+"Boulder County (8)",08013,No,417 ,397.3, 437.4,358,falling,-1.9 ,-2.5, -1.3
+"Costilla County",08023,No,416.5 ,293, 575,8,stable,-0.3 ,-2.6, 2.2
+"Douglas County",08035,No,407.5 ,384.5, 431.4,268,falling,-1.7 ,-2.2, -1.2
+"Crowley County",08025,No,402.9 ,275.6, 568.3,7,stable,-1.1 ,-3.0, 1.0
+"Teller County",08119,No,402 ,336.5, 476.1,35,falling,-2.6 ,-3.7, -1.6
+"Saguache County",08109,No,393 ,286.4, 526.2,11,stable,0.4 ,-1.7, 2.6
+"Gunnison County",08051,No,389.9 ,297.6, 500.5,14,falling,-3.0 ,-4.6, -1.4
+"Park County",08093,No,380.5 ,300, 475.1,23,stable,-0.8 ,-2.6, 1.1
+"Archuleta County",08007,No,371.7 ,300.1, 455,21,falling,-2.1 ,-3.4, -0.8
+"Routt County",08107,No,363 ,291.1, 446.4,22,falling,-2.9 ,-4.2, -1.5
+"Ouray County",08091,No,359.4 ,244.2, 508.4,7,falling,-2.7 ,-5.2, -0.1
+"Grand County",08049,No,346 ,262.1, 446.7,14,stable,-1.7 ,-3.5, 0.2
+"San Miguel County",08113,No,338.5 ,202.4, 527.6,7,*,*,*,*
+"Eagle County",08037,No,249.5 ,200.8, 305.9,27,falling,-4.1 ,-5.5, -2.6
+"Pitkin County",08097,No,229.7 ,172.6, 299,13,falling,-2.9 ,-4.7, -1.1
+"Summit County",08117,No,223.5 ,163.9, 296.4,14,falling,-2.8 ,-5.3, -0.2
+"Cheyenne County",08017,***,* ,*, *,3 or fewer,*,*,*,*
+"Dolores County",08033,***,* ,*, *,3 or fewer,*,*,*,*
+"Hinsdale County",08053,***,* ,*, *,3 or fewer,*,*,*,*
+"Jackson County",08057,***,* ,*, *,3 or fewer,*,*,*,*
+"Mineral County",08079,***,* ,*, *,3 or fewer,*,*,*,*
+"San Juan County",08111,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 4:58 pm.
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"(8) Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ [ statecancerprofiles.cancer.gov/historicaltrend/differences.html ] for selected counties. 
+"
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

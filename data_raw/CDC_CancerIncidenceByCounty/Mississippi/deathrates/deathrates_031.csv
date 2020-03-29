@@ -1,0 +1,123 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=28&areatype=county&cancer=001&race=00&sex=1&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '28', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '1', 'age': '001', 'type': 'death', 'file_name': 'deathrates_031.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=28&areatype=county&cancer=001&race=00&sex=1&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for Mississippi by County
+
+"All Cancer Sites, 2012-2016"
+
+"All Races (includes Hispanic), Male, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 161.4?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Mississippi",28000,No,246.3 ,242.6, 250,3588,falling,-1.5 ,-1.7, -1.3
+"United States",00000,No,193.1 ,192.8, 193.4,310576,falling,-1.8 ,-1.8, -1.8
+"Madison County",28089,No,328 ,302, 355.6,132,falling,-3.6 ,-7.0, -0.1
+"Yazoo County",28163,No,327.8 ,282.7, 377.8,40,stable,-0.8 ,-1.9, 0.2
+"Calhoun County",28013,No,327.4 ,273.2, 389.6,27,stable,0.2 ,-0.9, 1.3
+"Bolivar County",28011,No,319.6 ,277.3, 366.4,47,stable,-0.6 ,-1.2, 0.0
+"Sunflower County",28133,No,313.6 ,268.1, 364.3,38,stable,-0.3 ,-1.0, 0.4
+"Tunica County",28143,No,313.1 ,237.2, 404.5,13,falling,-1.9 ,-3.5, -0.3
+"Coahoma County",28027,No,306.8 ,260.6, 358.8,34,stable,-0.2 ,-1.3, 0.8
+"Washington County",28151,No,306.8 ,273.5, 342.9,68,stable,-0.4 ,-0.9, 0.2
+"Lee County",28081,No,305.2 ,280.1, 331.8,118,stable,0.8 ,-0.2, 2.0
+"Humphreys County",28053,No,303.6 ,228.7, 394.8,12,stable,-0.6 ,-2.1, 0.8
+"Attala County",28007,No,302.8 ,257.8, 353.8,34,stable,-0.2 ,-1.3, 0.9
+"Leflore County",28083,No,300.3 ,258.3, 347,39,falling,-0.9 ,-1.7, -0.1
+"Noxubee County",28103,No,298.5 ,235.6, 373.2,16,stable,-1.3 ,-2.6, 0.0
+"Tallahatchie County",28135,No,291.3 ,235.3, 356.4,21,stable,-0.4 ,-1.4, 0.5
+"Pike County",28113,No,289.7 ,257.2, 325.3,60,stable,-0.7 ,-1.6, 0.2
+"Newton County",28101,No,275.1 ,232.6, 323.2,31,falling,-1.4 ,-2.4, -0.3
+"Holmes County",28051,No,274.1 ,225.9, 329.6,24,stable,-0.4 ,-1.8, 0.9
+"Jefferson Davis County",28065,No,269.2 ,215.4, 333.2,18,falling,-1.4 ,-2.4, -0.4
+"Jefferson County",28063,No,268.2 ,198.5, 354.7,10,stable,-0.9 ,-2.4, 0.6
+"Warren County",28149,No,267.8 ,237.5, 300.9,63,falling,-1.4 ,-2.1, -0.6
+"George County",28039,No,266.4 ,221, 317.8,29,falling,-1.6 ,-2.5, -0.6
+"Panola County",28107,No,266.1 ,231.8, 304,47,falling,-1.1 ,-2.1, -0.2
+"Claiborne County",28021,No,265.3 ,199.3, 346.5,12,stable,-0.8 ,-2.1, 0.5
+"Harrison County",28047,No,264.8 ,249.9, 280.4,251,falling,-1.0 ,-1.4, -0.6
+"Webster County",28155,No,264.6 ,205.8, 335.5,15,stable,-0.8 ,-2.1, 0.6
+"Scott County",28123,No,264.4 ,225.9, 307.6,36,falling,-0.8 ,-1.5, -0.1
+"Tippah County",28139,No,263.9 ,222.1, 311.4,30,stable,0.0 ,-1.0, 1.1
+"Covington County",28031,No,263.9 ,219.7, 314.4,26,stable,-0.9 ,-1.9, 0.1
+"Leake County",28079,No,260.9 ,219.3, 307.9,29,stable,-0.4 ,-1.6, 0.8
+"Clay County",28025,No,257.7 ,215.6, 305.7,28,stable,-0.9 ,-1.8, 0.0
+"Adams County",28001,No,257.4 ,224.5, 293.9,46,falling,-1.2 ,-1.9, -0.5
+"Marshall County",28093,No,256.9 ,224.5, 292.7,51,falling,-1.3 ,-2.0, -0.7
+"Yalobusha County",28161,No,256.5 ,205.7, 316.8,19,falling,-1.3 ,-2.4, -0.2
+"Alcorn County",28003,No,255.2 ,224.4, 289.1,52,stable,-0.6 ,-1.3, 0.2
+"Tishomingo County",28141,No,254.1 ,214.6, 299.3,31,falling,-1.3 ,-2.3, -0.2
+"Clarke County",28023,No,253.4 ,209.1, 304.9,24,stable,0.3 ,-0.7, 1.3
+"Hancock County",28045,No,253.3 ,226.1, 282.9,69,falling,-0.7 ,-1.3, -0.2
+"Chickasaw County",28017,No,252.5 ,205.9, 306.4,22,stable,-0.9 ,-1.8, 0.1
+"Prentiss County",28117,No,251.7 ,215, 292.9,35,stable,-0.5 ,-1.5, 0.6
+"Simpson County",28127,No,249.4 ,213.4, 289.8,36,falling,-1.7 ,-2.7, -0.8
+"DeSoto County",28033,No,248.6 ,231.2, 266.9,171,falling,-1.1 ,-1.5, -0.7
+"Quitman County",28119,No,248 ,183.9, 328.4,11,falling,-2.1 ,-3.2, -1.0
+"Wayne County",28153,No,247.1 ,205.4, 294.9,27,stable,-0.6 ,-1.5, 0.3
+"Lowndes County",28087,No,247 ,220.6, 275.8,68,falling,-1.6 ,-2.2, -1.0
+"Grenada County",28043,No,246.6 ,207.3, 291.4,30,stable,-0.5 ,-1.6, 0.6
+"Pearl River County",28109,No,245.5 ,220.8, 272.3,78,falling,-1.2 ,-1.9, -0.6
+"Lincoln County",28085,No,244.8 ,212.9, 280.3,45,falling,-1.0 ,-2.0, -0.1
+"Tate County",28137,No,243.7 ,207.7, 284.1,36,stable,-0.3 ,-1.2, 0.6
+"Neshoba County",28099,No,243.7 ,208.8, 282.7,37,stable,-0.2 ,-1.0, 0.6
+"Lawrence County",28077,No,243.5 ,193.4, 303.1,18,stable,-0.9 ,-2.2, 0.5
+"Monroe County",28095,No,242.3 ,212.2, 275.7,50,stable,-0.7 ,-1.5, 0.2
+"Wilkinson County",28157,No,240.6 ,181.8, 312.4,12,stable,-0.6 ,-2.0, 0.9
+"Union County",28145,No,239.3 ,204, 278.9,34,stable,-1.0 ,-2.1, 0.1
+"Jones County",28067,No,235.9 ,213.5, 260.2,85,falling,-1.6 ,-2.1, -1.1
+"Copiah County",28029,No,235.8 ,201.3, 274.5,36,falling,-2.2 ,-3.1, -1.3
+"Walthall County",28147,No,234.7 ,190.2, 287,20,stable,-0.8 ,-1.8, 0.1
+"Benton County",28009,No,233.4 ,176, 304.6,12,stable,-1.4 ,-2.9, 0.1
+"Smith County",28129,No,229.9 ,187.2, 279.8,22,falling,-7.4 ,-12.5, -2.0
+"Itawamba County",28057,No,229.5 ,193.5, 270.5,30,stable,-1.0 ,-2.0, 0.1
+"Kemper County",28069,No,228.8 ,177, 291.8,14,stable,-1.0 ,-2.3, 0.3
+"Stone County",28131,No,227.5 ,183.1, 279.4,21,falling,-2.0 ,-3.2, -0.8
+"Perry County",28111,No,227.5 ,177.7, 287.3,15,stable,-0.3 ,-1.8, 1.2
+"Franklin County",28037,No,226 ,166.8, 300.4,10,falling,-1.5 ,-2.9, -0.1
+"Pontotoc County",28115,No,226 ,192.6, 263.6,34,stable,-1.2 ,-2.5, 0.0
+"Forrest County",28035,No,223.7 ,200.7, 248.6,72,falling,-1.6 ,-2.4, -0.9
+"Hinds County",28049,No,222.1 ,208.8, 236,226,stable,-0.4 ,-1.4, 0.7
+"Jasper County",28061,No,219.3 ,180.9, 264.1,24,falling,-2.1 ,-3.0, -1.2
+"Carroll County",28015,No,218.4 ,171.6, 275.5,16,stable,-1.1 ,-2.3, 0.2
+"Oktibbeha County",28105,No,218.1 ,187.1, 252.6,37,stable,6.8 ,-0.5, 14.6
+"Jackson County",28059,No,217.5 ,201.8, 234.1,156,falling,-2.3 ,-2.8, -1.7
+"Marion County",28091,No,213.9 ,180.5, 251.8,31,falling,-4.0 ,-5.7, -2.3
+"Montgomery County",28097,No,213 ,164.1, 273,14,falling,-1.7 ,-3.0, -0.4
+"Lafayette County",28071,No,212.6 ,183.5, 244.8,42,falling,-1.9 ,-2.5, -1.3
+"Winston County",28159,No,208.1 ,171.2, 251.1,23,falling,-1.5 ,-2.8, -0.1
+"Lauderdale County",28075,No,200.2 ,180.8, 221.1,82,falling,-4.1 ,-5.4, -2.8
+"Amite County",28005,No,194.2 ,154.6, 242.3,18,falling,-3.7 ,-5.5, -1.9
+"Greene County",28041,No,189 ,143.3, 244.1,13,falling,-2.1 ,-3.6, -0.5
+"Rankin County",28121,No,187 ,172.1, 202.7,127,stable,0.1 ,-1.9, 2.3
+"Choctaw County",28019,No,180.6 ,132.6, 241.8,10,falling,-2.4 ,-3.8, -0.9
+"Sharkey County",28125,No,175 ,108.9, 268.5,5,falling,-3.6 ,-5.3, -2.0
+"Lamar County",28073,No,168.9 ,146.3, 193.9,43,falling,-3.9 ,-5.6, -2.3
+"Issaquena County",28055,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:00 pm.
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

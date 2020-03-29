@@ -1,0 +1,79 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=41&areatype=county&cancer=001&race=05&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '41', 'areatype': 'county', 'cancer': '001', 'race': '05', 'sex': '0', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_028.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=41&areatype=county&cancer=001&race=05&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Oregon by County
+
+"All Cancer Sites (All Stages^), 2012-2016"
+
+"Hispanic (any race), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Oregon(6,10)",41000,***,352.5 ,340, 365.4,822,falling,-3.1 ,-5.4, -0.8
+"US (SEER+NPCR) &sect; (1,10)",00000,***,346.5 ,345.6, 347.4,127249,falling,-1.2 ,-2.2, -0.2
+"Crook County(6,10)",41013,***,613.4 ,375.2, 930.6,6,stable,-27.6 ,-77.1, 128.9
+"Josephine County(6,10)",41033,***,515.8 ,423.2, 621.6,23,falling,-5.7 ,-9.4, -2.0
+"Clatsop County(6,10)",41007,***,512.4 ,292.4, 812.5,6,stable,-19.5 ,-64.1, 80.3
+"Lincoln County(6,10)",41041,***,416.2 ,285, 581.3,8,stable,-9.7 ,-34.5, 24.5
+"Klamath County(6,10)",41035,***,399.5 ,315.6, 497.2,18,rising,15.9 ,7.6, 24.8
+"Tillamook County(6,10)",41057,***,393.9 ,248.7, 589.8,5,stable,18.9 ,-14.0, 64.5
+"Polk County(6,10)",41053,***,391.1 ,305, 491.5,18,stable,-20.3 ,-46.6, 18.9
+"Clackamas County(6,10)",41005,***,387.9 ,337.6, 442.7,60,stable,-1.4 ,-12.1, 10.6
+"Multnomah County(6,10)",41051,***,380.7 ,346.1, 417.4,141,stable,-6.8 ,-18.3, 6.2
+"Jackson County(6,10)",41029,***,365.4 ,315.6, 420.3,48,stable,-0.7 ,-10.0, 9.6
+"Marion County(6,10)",41047,***,362.6 ,329, 398.3,128,stable,3.8 ,-4.9, 13.2
+"Deschutes County(6,10)",41017,***,357.6 ,288.8, 436.6,24,stable,-10.2 ,-38.5, 31.3
+"Wasco County(6,10)",41065,***,351.3 ,216.3, 531.2,7,stable,4.4 ,-42.2, 88.6
+"Washington County(6,10)",41067,***,346.7 ,315.2, 380.2,141,stable,-0.3 ,-6.9, 6.8
+"Benton County(6,10)",41003,***,345.4 ,224.6, 499.6,7,stable,-9.7 ,-32.4, 20.6
+"Jefferson County(6,10)",41031,***,344.5 ,215.1, 516.2,7,stable,0.0 ,-46.0, 85.5
+"Linn County(6,10)",41043,***,343.5 ,263.1, 438.2,16,stable,-4.9 ,-33.0, 35.2
+"Lane County(6,10)",41039,***,337.3 ,292.8, 386,52,stable,-9.2 ,-21.7, 5.3
+"Malheur County(6,10)",41045,***,325.5 ,255.7, 407,17,stable,-20.1 ,-42.5, 10.8
+"Morrow County(6,10)",41049,***,320 ,182.8, 510,5,falling,-29.5 ,-41.0, -15.7
+"Yamhill County(6,10)",41071,***,318.7 ,251.3, 396.7,24,stable,25.4 ,-15.8, 86.7
+"Coos County(6,10)",41011,***,317.3 ,229.4, 426.4,9,stable,-16.4 ,-46.2, 30.1
+"Curry County(6,10)",41015,***,302 ,179.5, 476.2,4,stable,20.7 ,-50.1, 191.8
+"Hood River County(6,10)",41027,***,264.3 ,172.9, 381.6,9,stable,17.8 ,-10.6, 55.2
+"Douglas County(6,10)",41019,***,247.4 ,182.5, 326.8,10,falling,-9.5 ,-11.6, -7.3
+"Columbia County(6,10)",41009,***,235.9 ,133.2, 384.3,3,stable,-13.4 ,-68.5, 138.3
+"Umatilla County(6,10)",41059,***,234 ,183, 293.5,20,stable,0.6 ,-34.5, 54.7
+"Baker County(6,10)",41001,***,* ,*, *,3 or fewer,*,*,*,*
+"Gilliam County(6,10)",41021,***,* ,*, *,3 or fewer,*,*,*,*
+"Grant County(6,10)",41023,***,* ,*, *,3 or fewer,*,*,*,*
+"Harney County(6,10)",41025,***,* ,*, *,3 or fewer,*,*,*,*
+"Lake County(6,10)",41037,***,* ,*, *,3 or fewer,*,*,*,*
+"Sherman County(6,10)",41055,***,* ,*, *,3 or fewer,*,*,*,*
+"Union County(6,10)",41061,***,* ,*, *,3 or fewer,*,*,*,*
+"Wallowa County(6,10)",41063,***,* ,*, *,3 or fewer,*,*,*,*
+"Wheeler County(6,10)",41069,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:00 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+NHIA (NAACCR Hispanic Identification Algorithm) was used for Hispanic Ethnicity (see Technical Notes section of the USCS [ https://www.cdc.gov/cancer/uscs/technical_notes/stat_methods/suppression.htm ]).
+ Statistics for minorities may be affected by inconsistent race identification between the cancer case reports (sources for numerator of rate) and data from the Census Bureau (source for denominator of rate); and from undercounts of some population groups in the census.
+Data for United States does not include Puerto Rico.

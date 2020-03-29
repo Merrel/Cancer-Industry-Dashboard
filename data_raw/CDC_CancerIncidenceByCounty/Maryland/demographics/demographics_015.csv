@@ -1,0 +1,44 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=24&areatype=county&topic=pop&demo=00103&race=00&sex=0&age=999&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '24', 'areatype': 'county', 'topic': 'pop', 'demo': '00103', 'race': '00', 'sex': '0', 'age': '999', 'type': 'manyareacensus', 'file_name': 'demographics_015.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=24&areatype=county&topic=pop&demo=00103&race=00&sex=0&age=999&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Maryland by County
+Population: Age 40-64
+"Age N/A, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Age 40-64),Rank within US
+"United States",00000,32.4,104105673,"N/A"
+"Maryland",24000,33.9,2032118,"46 of 52"
+"Wicomico County",24045,30.4,30968,"463 of 3141"
+"Somerset County",24039,30.4,7852,"478 of 3141"
+"Baltimore City",24510,30.5,188826,"480 of 3141"
+"Kent County",24029,30.8,6061,"557 of 3141"
+"Allegany County",24001,32.2,23361,"980 of 3141"
+"Baltimore County",24005,33.0,273600,"1344 of 3141"
+"Prince Georges County",24033,33.5,302813,"1567 of 3141"
+"St. Marys County",24037,33.6,37274,"1628 of 3141"
+"Talbot County",24041,33.7,12634,"1715 of 3141"
+"Anne Arundel County",24003,34.1,192756,"1941 of 3141"
+"Montgomery County",24031,34.2,355763,"1984 of 3141"
+"Dorchester County",24019,34.6,11192,"2142 of 3141"
+"Washington County",24043,34.7,51866,"2198 of 3141"
+"Caroline County",24011,34.8,11402,"2257 of 3141"
+"Worcester County",24047,35.0,18030,"2351 of 3141"
+"Howard County",24027,35.6,111309,"2587 of 3141"
+"Frederick County",24021,35.7,87874,"2611 of 3141"
+"Harford County",24025,35.9,89699,"2664 of 3141"
+"Garrett County",24023,36.0,10616,"2691 of 3141"
+"Charles County",24017,36.0,56133,"2697 of 3141"
+"Cecil County",24015,36.1,36948,"2734 of 3141"
+"Queen Annes County",24035,37.1,18213,"2942 of 3141"
+"Carroll County",24013,37.5,62711,"2986 of 3141"
+"Calvert County",24009,37.7,34217,"3010 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:01 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Age 40-64, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

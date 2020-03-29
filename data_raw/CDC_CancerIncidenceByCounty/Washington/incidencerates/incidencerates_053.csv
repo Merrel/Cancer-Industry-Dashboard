@@ -1,0 +1,81 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=53&areatype=county&cancer=061&stage=211&race=00&sex=2&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '53', 'areatype': 'county', 'cancer': '061', 'stage': '211', 'race': '00', 'sex': '2', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_053.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=53&areatype=county&cancer=061&stage=211&race=00&sex=2&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Washington by County
+
+"Ovary (Late Stage^), 2012-2016"
+
+"All Races (includes Hispanic), Female, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Percent of Cases with Late Stage
+"Washington(5)",53000,***,9 ,8.6, 9.5,378,79.8
+"US (SEER+NPCR)(1)",00000,***,8.4 ,8.3, 8.5,16311,76.2
+"Stevens County(6)",53065,***,11.8 ,6.6, 19.8,4,78.3
+"Jefferson County(7)",53031,***,11 ,6.4, 20.1,4,85.7
+"Snohomish County(7)",53061,***,10.9 ,9.5, 12.4,46,81.7
+"Pierce County(7)",53053,***,10.7 ,9.3, 12.1,49,80.3
+"Island County(7)",53029,***,10.6 ,6.8, 15.9,6,80.6
+"Whatcom County(7)",53073,***,10.3 ,7.9, 13.3,13,80.5
+"Spokane County(6)",53063,***,9.8 ,8.2, 11.6,29,76.3
+"Kitsap County(7)",53035,***,9.8 ,7.6, 12.3,16,81.6
+"Clallam County(7)",53009,***,9.7 ,5.9, 15.2,6,82.9
+"Thurston County(7)",53067,***,9.6 ,7.6, 12,17,79.2
+"King County(7)",53033,***,9.3 ,8.5, 10.1,108,84.9
+"Lewis County(6)",53041,***,9.2 ,5.9, 13.9,5,74.3
+"Skagit County(7)",53057,***,8.3 ,5.7, 11.9,7,82.9
+"Yakima County(6)",53077,***,8 ,6, 10.5,11,75.0
+"Benton County(6)",53005,***,7.8 ,5.5, 10.7,8,88.9
+"Chelan County(6)",53007,***,7.8 ,4.6, 12.5,4,86.4
+"Mason County(7)",53045,***,7.5 ,4.3, 12.8,4,78.3
+"Grant County(6)",53025,***,7.4 ,4.3, 12,3,77.3
+"Clark County(6)",53011,***,7.2 ,5.8, 8.8,20,74.8
+"Cowlitz County(6)",53015,***,6 ,3.6, 9.5,4,69.0
+"Adams County(6)",53001,***,* ,*, *,3 or fewer,*
+"Asotin County(6)",53003,***,* ,*, *,3 or fewer,*
+"Columbia County(6)",53013,***,* ,*, *,3 or fewer,*
+"Douglas County(6)",53017,***,* ,*, *,3 or fewer,*
+"Ferry County(6)",53019,***,* ,*, *,3 or fewer,*
+"Franklin County(6)",53021,***,* ,*, *,3 or fewer,*
+"Garfield County(6)",53023,***,* ,*, *,3 or fewer,*
+"Grays Harbor County(7)",53027,***,* ,*, *,3 or fewer,*
+"Kittitas County(6)",53037,***,* ,*, *,3 or fewer,*
+"Klickitat County(6)",53039,***,* ,*, *,3 or fewer,*
+"Lincoln County(6)",53043,***,* ,*, *,3 or fewer,*
+"Okanogan County(6)",53047,***,* ,*, *,3 or fewer,*
+"Pacific County(6)",53049,***,* ,*, *,3 or fewer,*
+"Pend Oreille County(6)",53051,***,* ,*, *,3 or fewer,*
+"San Juan County(7)",53055,***,* ,*, *,3 or fewer,*
+"Skamania County(6)",53059,***,* ,*, *,3 or fewer,*
+"Wahkiakum County(6)",53069,***,* ,*, *,3 or fewer,*
+"Walla Walla County(6)",53071,***,* ,*, *,3 or fewer,*
+"Whitman County(6)",53075,***,* ,*, *,3 or fewer,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:02 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+
+Rates are computed using cancers classified as malignant based on ICD-O-3. For more information see malignant.html.
+
+"^ Late Stage is defined as cases determined to be regional or distant. Coding is generally based on Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ] but may include other staging variables if necessary."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+5 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission. State rates include rates from metropolitan areas funded by SEER [http://seer.cancer.gov/registries/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+7 Source: SEER November 2018 submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

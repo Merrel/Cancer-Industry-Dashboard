@@ -1,0 +1,50 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=02&areatype=county&topic=lang&demo=00015&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '02', 'areatype': 'county', 'topic': 'lang', 'demo': '00015', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_007.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=02&areatype=county&topic=lang&demo=00015&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Alaska by Borough or Census Area
+Non-English Language: Language isolation
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+Borough Or Census Area, FIPS,Value (Percent),Households (language Isolation),Rank within US
+"Alaska",02900,2.2,5494,"24 of 51"
+"United States",00000,4.5,5305440,"N/A"
+"Denali Borough",02068,0.0,0,"1 of 3140"
+"Prince of Wales-Outer Ketchikan Census Area",02201,0.0,0,"1 of 3140"
+"Skagway-Hoonah-Angoon Census Area",02232,0.2,3,"676 of 3140"
+"Haines Borough",02100,0.3,3,"740 of 3140"
+"Kenai Peninsula Borough",02122,0.6,126,"1246 of 3140"
+"Valdez-Cordova Census Area",02261,0.7,19,"1371 of 3140"
+"Matanuska-Susitna Borough",02170,0.7,205,"1376 of 3140"
+"Bristol Bay Borough",02060,0.8,3,"1577 of 3140"
+"Fairbanks North Borough",02090,0.9,323,"1615 of 3140"
+"Juneau City and Borough",02110,1.5,179,"2056 of 3140"
+"Yakutat City and Borough",02282,1.6,4,"2137 of 3140"
+"Yukon-Koyukuk Census Area",02290,1.6,31,"2145 of 3140"
+"Aleutians East Borough",02013,1.6,13,"2154 of 3140"
+"Wrangell-Petersburg Census Area",02280,1.6,38,"2174 of 3140"
+"Lake and Peninsula Borough",02164,2.0,8,"2310 of 3140"
+"Nome Census Area",02180,2.0,58,"2327 of 3140"
+"Sitka City and Borough",02220,2.1,73,"2349 of 3140"
+"Southeast Fairbanks Census Area",02240,2.4,51,"2473 of 3140"
+"Ketchikan Gateway Borough",02130,2.6,137,"2540 of 3140"
+"Anchorage Municipality",02020,3.0,3138,"2627 of 3140"
+"Wade Hampton Census Area",02270,3.4,59,"2700 of 3140"
+"Northwest Arctic Borough",02188,3.6,67,"2730 of 3140"
+"Dillingham Census Area",02070,4.5,63,"2824 of 3140"
+"Kodiak Island Borough",02150,6.1,277,"2920 of 3140"
+"North Slope Borough",02185,6.3,128,"2931 of 3140"
+"Aleutians West Census Area",02016,8.5,103,"3018 of 3140"
+"Bethel Census Area",02050,8.5,385,"3020 of 3140"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 4:59 pm.
+"Alaska Census Area Name Change: please note that Wade Hampton Census Area, AK (FIPS code=02270) was renamed effective July 1, 2015, and the new name is Kusilvak Census Area (FIPS Code=02158). Due to the nature of data submissions, we will use the older code/name this year and transition to the new code/name with a future data release."
+
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Non-English Language: Language isolation, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#non-english."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+A "limited English speaking household" is one in which no member 14 years old and over (1) speaks only English or (2) speaks a non-English language and speaks English "very well."
+Data for United States does not include Puerto Rico.

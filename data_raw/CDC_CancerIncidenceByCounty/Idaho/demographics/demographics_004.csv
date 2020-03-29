@@ -1,0 +1,65 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=16&areatype=county&topic=inc&demo=00010&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '16', 'areatype': 'county', 'topic': 'inc', 'demo': '00010', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_004.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=16&areatype=county&topic=inc&demo=00010&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Idaho by County
+Income: Median family income
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Dollars),Rank within US
+"Idaho",16000,62196.000000000,"39 of 52"
+"United States",00000,70850.000000000,"N/A"
+"Clark County",16033,34750.000000000,"3101 of 3141"
+"Madison County",16065,36504.000000000,"3082 of 3141"
+"Owyhee County",16073,45767.000000000,"2795 of 3141"
+"Washington County",16087,47887.000000000,"2654 of 3141"
+"Lemhi County",16059,49895.000000000,"2518 of 3141"
+"Idaho County",16049,49955.000000000,"2514 of 3141"
+"Gem County",16045,50100.000000000,"2504 of 3141"
+"Camas County",16025,50250.000000000,"2489 of 3141"
+"Shoshone County",16079,50507.000000000,"2461 of 3141"
+"Custer County",16037,50741.000000000,"2430 of 3141"
+"Lewis County",16061,50833.000000000,"2423 of 3141"
+"Benewah County",16009,51738.000000000,"2344 of 3141"
+"Minidoka County",16067,51856.000000000,"2333 of 3141"
+"Butte County",16023,52000.000000000,"2317 of 3141"
+"Jerome County",16053,52122.000000000,"2300 of 3141"
+"Clearwater County",16035,52348.000000000,"2277 of 3141"
+"Cassia County",16031,52500.000000000,"2260 of 3141"
+"Gooding County",16047,52662.000000000,"2240 of 3141"
+"Elmore County",16039,53695.000000000,"2159 of 3141"
+"Canyon County",16027,53822.000000000,"2151 of 3141"
+"Lincoln County",16063,55078.000000000,"2052 of 3141"
+"Power County",16077,55082.000000000,"2051 of 3141"
+"Payette County",16075,55830.000000000,"1977 of 3141"
+"Adams County",16003,55833.000000000,"1975 of 3141"
+"Franklin County",16041,56944.000000000,"1871 of 3141"
+"Bonner County",16017,57959.000000000,"1769 of 3141"
+"Twin Falls County",16083,59017.000000000,"1665 of 3141"
+"Fremont County",16043,59344.000000000,"1629 of 3141"
+"Boundary County",16021,60203.000000000,"1525 of 3141"
+"Bingham County",16011,60488.000000000,"1490 of 3141"
+"Bannock County",16005,60692.000000000,"1468 of 3141"
+"Oneida County",16071,60868.000000000,"1451 of 3141"
+"Jefferson County",16051,61338.000000000,"1406 of 3141"
+"Bear Lake County",16007,61875.000000000,"1356 of 3141"
+"Bonneville County",16019,63170.000000000,"1223 of 3141"
+"Valley County",16085,63429.000000000,"1198 of 3141"
+"Kootenai County",16055,63835.000000000,"1170 of 3141"
+"Nez Perce County",16069,63867.000000000,"1166 of 3141"
+"Boise County",16015,64299.000000000,"1133 of 3141"
+"Caribou County",16029,66339.000000000,"967 of 3141"
+"Latah County",16057,66467.000000000,"960 of 3141"
+"Teton County",16081,68517.000000000,"809 of 3141"
+"Blaine County",16013,73824.000000000,"507 of 3141"
+"Ada County",16001,77222.000000000,"383 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 4:58 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Income: Median family income, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#income."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"Median Incomes over 250,000 have been coded to 250,001 by the Census Bureau. [ http://www2.census.gov/acs2012_5yr/summaryfile/ACS_2008-2012_SF_Tech_Doc.pdf ]"
+Data for United States does not include Puerto Rico.

@@ -1,0 +1,56 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=41&areatype=county&topic=mob&demo=00019&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '41', 'areatype': 'county', 'topic': 'mob', 'demo': '00019', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_010.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=41&areatype=county&topic=mob&demo=00019&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Oregon by County
+"Mobility: Moved, different county this state (in past year)"
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Moved From Different County In Same State),Rank within US
+"United States",00000,3.2,10247779,"N/A"
+"Oregon",41000,3.8,149897,"41 of 51"
+"Hood River County",41027,1.2,275,"74 of 3140"
+"Coos County",41011,2.3,1426,"492 of 3140"
+"Jackson County",41029,2.4,5006,"547 of 3140"
+"Douglas County",41019,2.6,2782,"705 of 3140"
+"Deschutes County",41017,2.6,4539,"706 of 3140"
+"Klamath County",41035,2.8,1821,"839 of 3140"
+"Curry County",41015,2.8,626,"853 of 3140"
+"Lane County",41039,2.9,10283,"882 of 3140"
+"Grant County",41023,2.9,209,"930 of 3140"
+"Josephine County",41033,3.0,2496,"965 of 3140"
+"Gilliam County",41021,3.0,58,"1010 of 3140"
+"Wallowa County",41063,3.0,208,"1011 of 3140"
+"Multnomah County",41051,3.2,24678,"1101 of 3140"
+"Wasco County",41065,3.2,823,"1152 of 3140"
+"Umatilla County",41059,3.4,2601,"1292 of 3140"
+"Washington County",41067,3.5,19833,"1353 of 3140"
+"Lincoln County",41041,3.7,1732,"1499 of 3140"
+"Tillamook County",41057,3.9,986,"1612 of 3140"
+"Union County",41061,4.2,1071,"1821 of 3140"
+"Marion County",41047,4.2,13854,"1851 of 3140"
+"Morrow County",41049,4.7,514,"2105 of 3140"
+"Columbia County",41009,4.8,2356,"2135 of 3140"
+"Malheur County",41045,4.8,1447,"2157 of 3140"
+"Clackamas County",41005,4.8,19144,"2171 of 3140"
+"Clatsop County",41007,4.8,1820,"2172 of 3140"
+"Yamhill County",41071,4.9,5004,"2223 of 3140"
+"Linn County",41043,5.0,6037,"2278 of 3140"
+"Baker County",41001,5.3,834,"2390 of 3140"
+"Sherman County",41055,6.1,99,"2656 of 3140"
+"Lake County",41037,6.2,479,"2674 of 3140"
+"Harney County",41025,6.6,469,"2757 of 3140"
+"Wheeler County",41069,6.7,95,"2786 of 3140"
+"Jefferson County",41031,7.3,1625,"2866 of 3140"
+"Crook County",41013,7.4,1602,"2890 of 3140"
+"Benton County",41003,7.8,6836,"2933 of 3140"
+"Polk County",41053,7.9,6229,"2938 of 3140"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:00 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Mobility: Moved, different county this state (in past year), see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#mobility."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

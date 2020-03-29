@@ -1,0 +1,162 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=21&areatype=county&cancer=066&race=00&sex=1&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '21', 'areatype': 'county', 'cancer': '066', 'race': '00', 'sex': '1', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_019.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=21&areatype=county&cancer=066&race=00&sex=1&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Kentucky by County
+
+"Prostate (All Stages^), 2012-2016"
+
+"All Races (includes Hispanic), Male, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Kentucky(7,8)",21000,***,104.9 ,103, 106.7,2681,falling,-3.1 ,-3.8, -2.5
+"US (SEER+NPCR)(1,10)",00000,***,104.1 ,103.8, 104.3,187184,stable,-2.2 ,-5.2, 0.9
+"Trimble County(7,8)",21223,***,143.8 ,99, 202.5,7,stable,-3.2 ,-9.4, 3.5
+"Oldham County(7,8)",21185,***,141.8 ,122.9, 162.9,49,falling,-2.7 ,-4.6, -0.7
+"Marion County(7,8)",21155,***,139.6 ,109.1, 176.3,16,stable,-2.3 ,-5.2, 0.8
+"Taylor County(7,8)",21217,***,133.2 ,108, 162.8,20,stable,-2.4 ,-5.1, 0.4
+"Washington County(7,8)",21229,***,132.6 ,97.4, 177.5,10,falling,-3.5 ,-6.7, -0.2
+"Jefferson County(7,8)",21111,***,131 ,126, 136.2,551,falling,-3.3 ,-4.5, -2.0
+"Daviess County(7,8)",21059,***,126 ,113.3, 139.8,75,falling,-5.2 ,-9.0, -1.3
+"Nelson County(7,8)",21179,***,124.9 ,105.7, 146.8,33,falling,-4.2 ,-6.3, -2.1
+"Hancock County(7,8)",21091,***,123.6 ,83.4, 177.7,7,stable,4.7 ,-0.2, 9.9
+"Clinton County(7,8)",21053,***,123.4 ,88.3, 169.2,8,stable,-3.1 ,-6.6, 0.4
+"Boyle County(7,8)",21021,***,120.7 ,98.8, 146.3,22,stable,-1.5 ,-3.6, 0.7
+"Fayette County(7,8)",21067,***,120.4 ,112.2, 129,172,falling,-3.5 ,-4.6, -2.3
+"Hardin County(7,8)",21093,***,118.2 ,105.2, 132.4,64,falling,-4.8 ,-7.6, -2.0
+"Johnson County(7,8)",21115,***,117.2 ,92.1, 147.4,16,stable,-2.2 ,-5.9, 1.8
+"Scott County(7,8)",21209,***,116.7 ,97.3, 138.9,28,falling,-4.1 ,-6.5, -1.6
+"Gallatin County(7)",21077,***,116.6 ,69.8, 181.6,5,*,*,*,*
+"Garrard County(7,8)",21079,***,116.5 ,89.5, 149.9,13,stable,-3.2 ,-7.1, 0.8
+"Monroe County(7,8)",21171,***,116.2 ,82.4, 160.3,8,stable,-2.3 ,-6.9, 2.6
+"Meade County(7,8)",21163,***,116.1 ,92.3, 144.3,18,stable,-1.2 ,-4.1, 1.9
+"Bullitt County(7,8)",21029,***,115.9 ,101.7, 131.5,54,falling,-2.5 ,-4.4, -0.6
+"Rockcastle County(7,8)",21203,***,113.5 ,86, 147.7,12,stable,-2.0 ,-5.5, 1.6
+"Laurel County(7,8)",21125,***,113.1 ,97.2, 130.9,40,falling,-3.0 ,-4.9, -1.1
+"Jessamine County(7,8)",21113,***,112.4 ,95, 132,31,stable,-0.4 ,-2.8, 2.0
+"Green County(7,8)",21087,***,112.3 ,81.1, 153.2,9,stable,-1.9 ,-5.3, 1.5
+"Spencer County(7,8)",21215,***,111.8 ,84.5, 145.7,12,stable,-3.5 ,-7.5, 0.8
+"Martin County(7,8)",21159,***,111.4 ,77.1, 155.7,8,stable,-1.8 ,-5.7, 2.2
+"Magoffin County(7,8)",21153,***,109.6 ,78.8, 149.2,9,stable,-2.7 ,-5.3, 0.0
+"Pulaski County(7,8)",21199,***,109.5 ,95.4, 125.4,45,falling,-2.9 ,-5.3, -0.3
+"Greenup County(7,8)",21089,***,108.5 ,91, 128.9,28,falling,-2.8 ,-5.2, -0.4
+"Shelby County(7,8)",21211,***,107.6 ,89.5, 128.4,27,falling,-3.6 ,-5.5, -1.6
+"Henry County(7,8)",21103,***,107.4 ,80.3, 141.8,11,falling,-3.2 ,-5.5, -0.8
+"Wolfe County(7,8)",21237,***,106.6 ,66.4, 163.6,5,stable,-2.8 ,-6.8, 1.4
+"Floyd County(7,8)",21071,***,106.1 ,87.6, 127.6,25,stable,-2.3 ,-4.7, 0.1
+"Lawrence County(7,8)",21127,***,105.3 ,77.3, 140.7,10,stable,-1.8 ,-5.1, 1.5
+"Nicholas County(7,8)",21181,***,104.4 ,65.6, 159.4,5,stable,-4.3 ,-8.8, 0.5
+"Grant County(7,8)",21081,***,104.4 ,79.4, 134.7,13,stable,-2.5 ,-5.5, 0.6
+"McCracken County(7,8)",21145,***,104.3 ,90.7, 119.6,44,falling,-2.4 ,-4.4, -0.3
+"Lincoln County(7,8)",21137,***,104.2 ,82.4, 130.4,16,falling,-2.7 ,-5.2, -0.1
+"Larue County(7,8)",21123,***,104.2 ,75.4, 141,9,stable,-1.8 ,-5.3, 1.8
+"Christian County(7,8)",21047,***,103.6 ,87.8, 121.3,32,falling,-4.2 ,-6.0, -2.3
+"Madison County(7,8)",21151,***,102.8 ,89.3, 117.7,45,falling,-5.7 ,-7.5, -3.8
+"Ohio County(7,8)",21183,***,102.5 ,80.5, 129,16,stable,-1.2 ,-4.5, 2.1
+"Woodford County(7,8)",21239,***,101.4 ,79.7, 127.6,17,falling,-5.5 ,-7.2, -3.6
+"Anderson County(7,8)",21005,***,101.3 ,75.1, 133.6,11,stable,-2.1 ,-4.8, 0.8
+"Logan County(7,8)",21141,***,101.1 ,81.1, 125.1,18,stable,-2.3 ,-6.2, 1.7
+"Warren County(7,8)",21227,***,101.1 ,89.6, 113.6,60,falling,-3.7 ,-5.6, -1.7
+"Bath County(7,8)",21011,***,101 ,70.7, 140.8,8,stable,-1.0 ,-4.7, 2.9
+"Fulton County(7)",21075,***,100.6 ,61.7, 157.2,4,*,*,*,*
+"McLean County(7,8)",21149,***,100.1 ,68.9, 142.6,7,stable,0.0 ,-3.9, 4.1
+"Boyd County(7,8)",21019,***,99.8 ,84.7, 117.1,32,falling,-3.7 ,-5.6, -1.7
+"Boone County(7,8)",21015,***,99.3 ,88, 111.6,63,falling,-2.9 ,-5.3, -0.5
+"Breckinridge County(7,8)",21027,***,99.2 ,76.9, 126.7,14,falling,-2.4 ,-4.3, -0.4
+"Casey County(7,8)",21045,***,97.9 ,72.4, 130.3,11,stable,-1.6 ,-4.5, 1.3
+"Kenton County(7,8)",21117,***,97.6 ,87.9, 108,82,stable,3.7 ,-6.8, 15.4
+"Mason County(7,8)",21161,***,96.7 ,71.4, 128.8,10,stable,-2.5 ,-5.9, 1.0
+"Russell County(7,8)",21207,***,96.6 ,73.2, 126,12,stable,-0.6 ,-4.1, 3.0
+"Carter County(7,8)",21043,***,96.5 ,76.6, 120.3,17,stable,-2.1 ,-4.8, 0.7
+"Campbell County(7,8)",21037,***,96.5 ,84.4, 109.9,49,falling,-2.3 ,-4.4, -0.2
+"Trigg County(7,8)",21221,***,96.4 ,72.9, 126.8,12,stable,14.0 ,-1.7, 32.3
+"Adair County(7,8)",21001,***,96.2 ,72.7, 125.5,12,stable,-3.1 ,-6.7, 0.5
+"Clark County(7,8)",21049,***,95.7 ,77.8, 116.9,21,falling,-5.1 ,-6.7, -3.4
+"Mercer County(7,8)",21167,***,95.6 ,73, 123.6,13,falling,-3.0 ,-5.7, -0.2
+"Union County(7,8)",21225,***,95.6 ,67.2, 132.5,8,stable,-1.5 ,-5.5, 2.7
+"Estill County(7,8)",21065,***,95.2 ,67.1, 131.7,8,falling,-5.5 ,-9.7, -1.1
+"Lyon County(7,8)",21143,***,93.4 ,63.7, 135.6,7,stable,-0.8 ,-6.4, 5.1
+"Franklin County(7,8)",21073,***,93.2 ,77.9, 110.7,28,falling,-4.2 ,-5.6, -2.8
+"Barren County(7,8)",21009,***,93.2 ,77.2, 111.7,25,stable,-1.5 ,-4.7, 1.7
+"Whitley County(7,8)",21235,***,93 ,74.8, 114.4,19,stable,-1.8 ,-4.6, 1.1
+"Caldwell County(7,8)",21033,***,92.1 ,66, 126.6,9,stable,-0.5 ,-5.4, 4.6
+"Allen County(7,8)",21003,***,91.7 ,69.6, 119.2,12,falling,-3.8 ,-6.5, -0.9
+"Lewis County(7,8)",21135,***,91.1 ,65.5, 124.7,9,stable,-1.4 ,-5.2, 2.6
+"Bourbon County(7,8)",21017,***,91.1 ,69.3, 118.4,12,stable,-3.0 ,-6.4, 0.6
+"Cumberland County(7,8)",21057,***,90.8 ,58.5, 138.6,5,stable,-2.6 ,-6.6, 1.6
+"Bracken County(7,8)",21023,***,90.3 ,57.1, 137.4,5,stable,-2.8 ,-6.1, 0.5
+"Knox County(7,8)",21121,***,89.1 ,70.5, 111.5,17,stable,-2.8 ,-5.7, 0.3
+"Leslie County(7,8)",21131,***,88.2 ,59.1, 127.9,6,stable,-2.6 ,-6.9, 1.8
+"Calloway County(7,8)",21035,***,88.1 ,71.1, 108.2,19,falling,-4.7 ,-7.2, -2.3
+"Livingston County(7,8)",21139,***,87.1 ,58.1, 127.9,6,falling,-3.9 ,-7.3, -0.3
+"Marshall County(7,8)",21157,***,85.4 ,69.6, 104.5,21,falling,-2.9 ,-5.6, -0.1
+"Graves County(7,8)",21083,***,84.4 ,68.6, 103.1,21,falling,-2.8 ,-4.7, -0.8
+"Clay County(7,8)",21051,***,84.4 ,62.9, 111.3,11,falling,-26.9 ,-38.7, -12.9
+"Muhlenberg County(7,8)",21177,***,83.5 ,66.2, 104.2,17,falling,-4.1 ,-6.2, -2.1
+"Lee County(7,8)",21129,***,83.4 ,51, 131.7,4,stable,-4.9 ,-10.3, 0.8
+"Rowan County(7,8)",21205,***,83.1 ,61.5, 110.1,10,falling,-3.5 ,-6.4, -0.5
+"Simpson County(7,8)",21213,***,83 ,60.6, 111.7,10,falling,-5.5 ,-9.2, -1.6
+"Wayne County(7,8)",21231,***,82.5 ,62.8, 107.2,12,stable,-2.5 ,-6.5, 1.7
+"Breathitt County(7,8)",21025,***,81.9 ,55.8, 116.9,7,stable,-2.5 ,-5.8, 0.8
+"Morgan County(7,8)",21175,***,81.8 ,55.9, 116.2,7,stable,-3.3 ,-7.9, 1.5
+"Owen County(7,8)",21187,***,81.5 ,52.8, 121.5,6,falling,-4.8 ,-8.3, -1.2
+"Henderson County(7,8)",21101,***,81.4 ,66.7, 98.6,23,falling,-4.5 ,-7.0, -2.0
+"Hart County(7,8)",21099,***,81.1 ,58.9, 109.5,9,falling,-3.9 ,-7.1, -0.7
+"Carroll County(7,8)",21041,***,81 ,50.5, 123.3,5,stable,-3.3 ,-8.1, 1.7
+"Powell County(7,8)",21197,***,80.8 ,53.6, 117.8,6,stable,-3.1 ,-7.4, 1.5
+"Perry County(7,8)",21193,***,80.7 ,62.1, 103.3,14,falling,-3.7 ,-6.2, -1.2
+"Montgomery County(7,8)",21173,***,80.5 ,61.5, 103.8,13,falling,-3.2 ,-5.9, -0.4
+"Ballard County(7,8)",21007,***,80.1 ,50.1, 123.6,5,stable,-4.3 ,-9.0, 0.6
+"Grayson County(7,8)",21085,***,79.9 ,61.3, 102.8,13,falling,-4.8 ,-7.7, -1.9
+"Hopkins County(7,8)",21107,***,78.1 ,64, 94.5,23,falling,-4.8 ,-7.1, -2.6
+"Harlan County(7,8)",21095,***,76.3 ,58.4, 98.5,13,falling,-2.4 ,-4.6, -0.1
+"Todd County(7,8)",21219,***,75.7 ,49.8, 110.9,6,stable,-4.3 ,-9.2, 0.8
+"Elliott County(7)",21063,***,74.8 ,43.6, 121.1,4,*,*,*,*
+"Harrison County(7,8)",21097,***,74.6 ,53.8, 101.6,9,stable,-3.6 ,-8.5, 1.4
+"Menifee County(7,8)",21165,***,73.6 ,42.2, 123,3,falling,-6.7 ,-12.2, -0.9
+"Fleming County(7,8)",21069,***,73 ,50.3, 103.6,7,falling,-4.3 ,-7.9, -0.5
+"Webster County(7,8)",21233,***,73 ,48.1, 106.8,6,falling,-6.1 ,-10.2, -1.9
+"Butler County(7,8)",21031,***,72.9 ,49.1, 105.4,6,stable,-4.8 ,-9.6, 0.1
+"Pendleton County(7,8)",21191,***,71.9 ,49.5, 102,7,stable,-3.0 ,-6.7, 0.7
+"Letcher County(7,8)",21133,***,70.9 ,52, 94.8,11,falling,-4.7 ,-8.0, -1.3
+"McCreary County(7,8)",21147,***,67.5 ,47.5, 93.7,8,falling,-11.1 ,-16.8, -5.1
+"Pike County(7,8)",21195,***,65.9 ,54.3, 79.4,25,falling,-6.4 ,-8.5, -4.4
+"Edmonson County(7,8)",21061,***,65.8 ,44.4, 96.1,6,stable,-3.5 ,-7.1, 0.2
+"Bell County(7,8)",21013,***,65.4 ,49.6, 85.2,12,falling,-9.7 ,-14.4, -4.7
+"Jackson County(7,8)",21109,***,64.6 ,41.3, 96.9,5,stable,-3.0 ,-8.6, 2.8
+"Knott County(7,8)",21119,***,59.7 ,39.3, 87.7,6,stable,-3.6 ,-8.8, 2.0
+"Metcalfe County(7,8)",21169,***,49.9 ,29.5, 81.2,4,stable,-3.8 ,-9.0, 1.7
+"Carlisle County(7)",21039,***,* ,*, *,3 or fewer,*,*,*,*
+"Crittenden County(7,8)",21055,***,* ,*, *,3 or fewer,*,*,*,*
+"Hickman County(7)",21105,***,* ,*, *,3 or fewer,*,*,*,*
+"Owsley County(7)",21189,***,* ,*, *,3 or fewer,*,*,*,*
+"Robertson County(7)",21201,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 4:59 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+7 Source: SEER November 2018 submission.
+"8 Source: Incidence data provided by the SEER Program. ( http://seer.cancer.gov ) AAPCs are calculated by the Joinpoint Regression Program ( https://surveillance.cancer.gov/joinpoint/ ) and are based on APCs. Data are age-adjusted to the 2000 US standard population ( http://www.seer.cancer.gov/stdpopulations/single_age.html ) (19 age groups: <1, 1-4, 5-9, ... , 80-84,85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Population counts for denominators are based on Census populations as modifed by NCI. The 1969-2017 US Population Data ( http://seer.cancer.gov/popdata/ ) File is used with SEER November 2018 data. "
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

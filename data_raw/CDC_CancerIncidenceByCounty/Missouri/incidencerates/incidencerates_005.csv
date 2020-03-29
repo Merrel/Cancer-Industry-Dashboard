@@ -1,0 +1,154 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=29&areatype=county&cancer=057&race=00&sex=2&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '29', 'areatype': 'county', 'cancer': '057', 'race': '00', 'sex': '2', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_005.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=29&areatype=county&cancer=057&race=00&sex=2&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Missouri by County
+
+"Cervix (All Stages^), 2012-2016"
+
+"All Races (includes Hispanic), Female, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 7.2?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Missouri(6,10)",29000,No,8.4 ,8, 8.9,263,stable,-2.4 ,-10.6, 6.6
+"US (SEER+NPCR)(1,10)",00000,No,7.6 ,7.5, 7.6,12695,stable,0.8 ,-0.6, 2.3
+"Buchanan County(6,10)",29021,No,12.9 ,8.2, 19.1,5,rising,22.8 ,9.5, 37.8
+"St. Louis City(6,10)",29510,No,12 ,9.7, 14.7,21,falling,-16.2 ,-24.4, -7.1
+"Newton County(6,10)",29145,No,11.7 ,6.5, 19.1,3,*,*,*,*
+"Cass County(6,10)",29037,No,10.7 ,7, 15.6,6,stable,2.8 ,-37.4, 68.9
+"Jefferson County(6,10)",29099,No,9.5 ,7.1, 12.4,11,stable,-1.8 ,-33.7, 45.3
+"Christian County(6,10)",29043,No,9.2 ,5.7, 14.1,4,*,*,*,*
+"Jackson County(6,10)",29095,No,8.6 ,7.2, 10.1,30,stable,-12.8 ,-24.3, 0.4
+"Franklin County(6,10)",29071,No,8.5 ,5.3, 13,5,stable,10.9 ,-19.9, 53.7
+"St. Charles County(6,10)",29183,No,8.1 ,6.4, 10.2,16,stable,-0.3 ,-25.1, 32.7
+"Jasper County(6,10)",29097,No,8.1 ,5, 12.2,4,stable,-12.8 ,-50.4, 53.2
+"Greene County(6,10)",29077,No,7.9 ,5.8, 10.4,11,stable,-14.1 ,-41.4, 25.9
+"Clay County(6,10)",29047,No,7.8 ,5.7, 10.4,9,stable,12.6 ,-7.6, 37.2
+"Cape Girardeau County(6,10)",29031,No,7.4 ,4.2, 12.2,3,*,*,*,*
+"Platte County(6,10)",29165,No,7.3 ,4.2, 11.7,3,*,*,*,*
+"Boone County(6,10)",29019,Yes,6.8 ,4.4, 10,5,stable,-29.6 ,-58.2, 18.5
+"St. Louis County(6,10)",29189,Yes,6.5 ,5.5, 7.6,36,stable,-2.0 ,-12.9, 10.3
+"Adair County(6,10)",29001,***,* ,*, *,3 or fewer,*,*,*,*
+"Andrew County(6,10)",29003,***,* ,*, *,3 or fewer,*,*,*,*
+"Atchison County(6,10)",29005,***,* ,*, *,3 or fewer,*,*,*,*
+"Audrain County(6,10)",29007,***,* ,*, *,3 or fewer,*,*,*,*
+"Barry County(6,10)",29009,***,* ,*, *,3 or fewer,*,*,*,*
+"Barton County(6,10)",29011,***,* ,*, *,3 or fewer,*,*,*,*
+"Bates County(6,10)",29013,***,* ,*, *,3 or fewer,*,*,*,*
+"Benton County(6,10)",29015,***,* ,*, *,3 or fewer,*,*,*,*
+"Bollinger County(6,10)",29017,***,* ,*, *,3 or fewer,*,*,*,*
+"Butler County(6,10)",29023,***,* ,*, *,3 or fewer,*,*,*,*
+"Caldwell County(6,10)",29025,***,* ,*, *,3 or fewer,*,*,*,*
+"Callaway County(6,10)",29027,***,* ,*, *,3 or fewer,*,*,*,*
+"Camden County(6,10)",29029,***,* ,*, *,3 or fewer,*,*,*,*
+"Carroll County(6,10)",29033,***,* ,*, *,3 or fewer,*,*,*,*
+"Carter County(6,10)",29035,***,* ,*, *,3 or fewer,*,*,*,*
+"Cedar County(6,10)",29039,***,* ,*, *,3 or fewer,*,*,*,*
+"Chariton County(6,10)",29041,***,* ,*, *,3 or fewer,*,*,*,*
+"Clark County(6,10)",29045,***,* ,*, *,3 or fewer,*,*,*,*
+"Clinton County(6,10)",29049,***,* ,*, *,3 or fewer,*,*,*,*
+"Cole County(6,10)",29051,***,* ,*, *,3 or fewer,*,*,*,*
+"Cooper County(6,10)",29053,***,* ,*, *,3 or fewer,*,*,*,*
+"Crawford County(6,10)",29055,***,* ,*, *,3 or fewer,*,*,*,*
+"Dade County(6,10)",29057,***,* ,*, *,3 or fewer,*,*,*,*
+"Dallas County(6,10)",29059,***,* ,*, *,3 or fewer,*,*,*,*
+"Daviess County(6,10)",29061,***,* ,*, *,3 or fewer,*,*,*,*
+"DeKalb County(6,10)",29063,***,* ,*, *,3 or fewer,*,*,*,*
+"Dent County(6,10)",29065,***,* ,*, *,3 or fewer,*,*,*,*
+"Douglas County(6,10)",29067,***,* ,*, *,3 or fewer,*,*,*,*
+"Dunklin County(6,10)",29069,***,* ,*, *,3 or fewer,*,*,*,*
+"Gasconade County(6,10)",29073,***,* ,*, *,3 or fewer,*,*,*,*
+"Gentry County(6,10)",29075,***,* ,*, *,3 or fewer,*,*,*,*
+"Grundy County(6,10)",29079,***,* ,*, *,3 or fewer,*,*,*,*
+"Harrison County(6,10)",29081,***,* ,*, *,3 or fewer,*,*,*,*
+"Henry County(6,10)",29083,***,* ,*, *,3 or fewer,*,*,*,*
+"Hickory County(6,10)",29085,***,* ,*, *,3 or fewer,*,*,*,*
+"Holt County(6,10)",29087,***,* ,*, *,3 or fewer,*,*,*,*
+"Howard County(6,10)",29089,***,* ,*, *,3 or fewer,*,*,*,*
+"Howell County(6,10)",29091,***,* ,*, *,3 or fewer,*,*,*,*
+"Iron County(6,10)",29093,***,* ,*, *,3 or fewer,*,*,*,*
+"Johnson County(6,10)",29101,***,* ,*, *,3 or fewer,*,*,*,*
+"Knox County(6,10)",29103,***,* ,*, *,3 or fewer,*,*,*,*
+"Laclede County(6,10)",29105,***,* ,*, *,3 or fewer,*,*,*,*
+"Lafayette County(6,10)",29107,***,* ,*, *,3 or fewer,*,*,*,*
+"Lawrence County(6,10)",29109,***,* ,*, *,3 or fewer,*,*,*,*
+"Lewis County(6,10)",29111,***,* ,*, *,3 or fewer,*,*,*,*
+"Lincoln County(6,10)",29113,***,* ,*, *,3 or fewer,*,*,*,*
+"Linn County(6,10)",29115,***,* ,*, *,3 or fewer,*,*,*,*
+"Livingston County(6,10)",29117,***,* ,*, *,3 or fewer,*,*,*,*
+"Macon County(6,10)",29121,***,* ,*, *,3 or fewer,*,*,*,*
+"Madison County(6,10)",29123,***,* ,*, *,3 or fewer,*,*,*,*
+"Maries County(6,10)",29125,***,* ,*, *,3 or fewer,*,*,*,*
+"Marion County(6,10)",29127,***,* ,*, *,3 or fewer,*,*,*,*
+"McDonald County(6,10)",29119,***,* ,*, *,3 or fewer,*,*,*,*
+"Mercer County(6,10)",29129,***,* ,*, *,3 or fewer,*,*,*,*
+"Miller County(6,10)",29131,***,* ,*, *,3 or fewer,*,*,*,*
+"Mississippi County(6,10)",29133,***,* ,*, *,3 or fewer,*,*,*,*
+"Moniteau County(6,10)",29135,***,* ,*, *,3 or fewer,*,*,*,*
+"Monroe County(6,10)",29137,***,* ,*, *,3 or fewer,*,*,*,*
+"Montgomery County(6,10)",29139,***,* ,*, *,3 or fewer,*,*,*,*
+"Morgan County(6,10)",29141,***,* ,*, *,3 or fewer,*,*,*,*
+"New Madrid County(6,10)",29143,***,* ,*, *,3 or fewer,*,*,*,*
+"Nodaway County(6,10)",29147,***,* ,*, *,3 or fewer,*,*,*,*
+"Oregon County(6,10)",29149,***,* ,*, *,3 or fewer,*,*,*,*
+"Osage County(6,10)",29151,***,* ,*, *,3 or fewer,*,*,*,*
+"Ozark County(6,10)",29153,***,* ,*, *,3 or fewer,*,*,*,*
+"Pemiscot County(6,10)",29155,***,* ,*, *,3 or fewer,*,*,*,*
+"Perry County(6,10)",29157,***,* ,*, *,3 or fewer,*,*,*,*
+"Pettis County(6,10)",29159,***,* ,*, *,3 or fewer,*,*,*,*
+"Phelps County(6,10)",29161,***,* ,*, *,3 or fewer,*,*,*,*
+"Pike County(6,10)",29163,***,* ,*, *,3 or fewer,*,*,*,*
+"Polk County(6,10)",29167,***,* ,*, *,3 or fewer,*,*,*,*
+"Pulaski County(6,10)",29169,***,* ,*, *,3 or fewer,*,*,*,*
+"Putnam County(6,10)",29171,***,* ,*, *,3 or fewer,*,*,*,*
+"Ralls County(6,10)",29173,***,* ,*, *,3 or fewer,*,*,*,*
+"Randolph County(6,10)",29175,***,* ,*, *,3 or fewer,*,*,*,*
+"Ray County(6,10)",29177,***,* ,*, *,3 or fewer,*,*,*,*
+"Reynolds County(6,10)",29179,***,* ,*, *,3 or fewer,*,*,*,*
+"Ripley County(6,10)",29181,***,* ,*, *,3 or fewer,*,*,*,*
+"Saline County(6,10)",29195,***,* ,*, *,3 or fewer,*,*,*,*
+"Schuyler County(6,10)",29197,***,* ,*, *,3 or fewer,*,*,*,*
+"Scotland County(6,10)",29199,***,* ,*, *,3 or fewer,*,*,*,*
+"Scott County(6,10)",29201,***,* ,*, *,3 or fewer,*,*,*,*
+"Shannon County(6,10)",29203,***,* ,*, *,3 or fewer,*,*,*,*
+"Shelby County(6,10)",29205,***,* ,*, *,3 or fewer,*,*,*,*
+"St. Clair County(6,10)",29185,***,* ,*, *,3 or fewer,*,*,*,*
+"St. Francois County(6,10)",29187,***,* ,*, *,3 or fewer,*,*,*,*
+"Ste. Genevieve County(6,10)",29186,***,* ,*, *,3 or fewer,*,*,*,*
+"Stoddard County(6,10)",29207,***,* ,*, *,3 or fewer,*,*,*,*
+"Stone County(6,10)",29209,***,* ,*, *,3 or fewer,*,*,*,*
+"Sullivan County(6,10)",29211,***,* ,*, *,3 or fewer,*,*,*,*
+"Taney County(6,10)",29213,***,* ,*, *,3 or fewer,*,*,*,*
+"Texas County(6,10)",29215,***,* ,*, *,3 or fewer,*,*,*,*
+"Vernon County(6,10)",29217,***,* ,*, *,3 or fewer,*,*,*,*
+"Warren County(6,10)",29219,***,* ,*, *,3 or fewer,*,*,*,*
+"Washington County(6,10)",29221,***,* ,*, *,3 or fewer,*,*,*,*
+"Wayne County(6,10)",29223,***,* ,*, *,3 or fewer,*,*,*,*
+"Webster County(6,10)",29225,***,* ,*, *,3 or fewer,*,*,*,*
+"Worth County(6,10)",29227,***,* ,*, *,3 or fewer,*,*,*,*
+"Wright County(6,10)",29229,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 4:59 pm.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

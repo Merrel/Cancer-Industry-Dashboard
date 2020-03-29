@@ -1,0 +1,45 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=24&areatype=county&topic=lang&demo=00015&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '24', 'areatype': 'county', 'topic': 'lang', 'demo': '00015', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_007.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=24&areatype=county&topic=lang&demo=00015&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Maryland by County
+Non-English Language: Language isolation
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),Households (language Isolation),Rank within US
+"Maryland",24000,3.2,69236,"36 of 51"
+"United States",00000,4.5,5305440,"N/A"
+"Garrett County",24023,0.3,39,"833 of 3140"
+"Calvert County",24009,0.3,107,"859 of 3140"
+"Carroll County",24013,0.4,233,"943 of 3140"
+"Queen Annes County",24035,0.6,102,"1229 of 3140"
+"Allegany County",24001,0.6,175,"1321 of 3140"
+"Worcester County",24047,0.6,134,"1323 of 3140"
+"Cecil County",24015,0.8,293,"1523 of 3140"
+"St. Marys County",24037,0.8,316,"1535 of 3140"
+"Washington County",24043,0.9,521,"1657 of 3140"
+"Dorchester County",24019,1.0,131,"1729 of 3140"
+"Harford County",24025,1.1,1005,"1792 of 3140"
+"Charles County",24017,1.2,650,"1872 of 3140"
+"Somerset County",24039,1.6,134,"2156 of 3140"
+"Caroline County",24011,1.7,198,"2186 of 3140"
+"Kent County",24029,1.7,129,"2209 of 3140"
+"Anne Arundel County",24003,1.8,3663,"2244 of 3140"
+"Frederick County",24021,2.1,1874,"2357 of 3140"
+"Baltimore City",24510,2.2,5290,"2400 of 3140"
+"Talbot County",24041,2.3,372,"2422 of 3140"
+"Baltimore County",24005,2.7,8463,"2565 of 3140"
+"Wicomico County",24045,2.9,1068,"2610 of 3140"
+"Howard County",24027,3.1,3408,"2646 of 3140"
+"Prince Georges County",24033,5.1,15764,"2874 of 3140"
+"Montgomery County",24031,6.8,25167,"2957 of 3140"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:01 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Non-English Language: Language isolation, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#non-english."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+A "limited English speaking household" is one in which no member 14 years old and over (1) speaks only English or (2) speaks a non-English language and speaks English "very well."
+Data for United States does not include Puerto Rico.

@@ -1,0 +1,63 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=56&areatype=county&cancer=001&race=00&sex=0&age=136&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '56', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '0', 'age': '136', 'type': 'incd', 'file_name': 'incidencerates_037.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=56&areatype=county&cancer=001&race=00&sex=0&age=136&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Wyoming by County
+
+"All Cancer Sites (All Stages^), 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, Ages 50+"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Wyoming(6,10)",56000,***,1187.4 ,1165.2, 1209.8,2305,stable,0.2 ,-2.1, 2.6
+"US (SEER+NPCR)(1,10)",00000,***,1350.2 ,1349.2, 1351.2,1428518,falling,-1.1 ,-1.8, -0.3
+"Converse County(6,10)",56009,***,1310.1 ,1166.8, 1466.1,64,stable,-2.6 ,-13.3, 9.5
+"Hot Springs County(6,10)",56017,***,1294 ,1098.5, 1514.6,32,stable,-7.3 ,-31.0, 24.5
+"Laramie County(6,10)",56021,***,1264.5 ,1208.6, 1322.4,400,rising,5.0 ,2.2, 7.9
+"Big Horn County(6,10)",56003,***,1264.2 ,1125.3, 1415.7,62,stable,-4.7 ,-13.9, 5.5
+"Natrona County(6,10)",56025,***,1258.9 ,1196.6, 1323.5,325,stable,-1.6 ,-3.9, 0.6
+"Sheridan County(6,10)",56033,***,1247.2 ,1157.6, 1341.8,151,stable,-3.6 ,-7.9, 0.9
+"Weston County(6,10)",56045,***,1238.2 ,1062.3, 1434.9,37,stable,6.4 ,-5.5, 19.9
+"Park County(6,10)",56029,***,1228.2 ,1142.8, 1318.4,159,stable,0.9 ,-11.4, 15.0
+"Fremont County(6,10)",56013,***,1213.7 ,1134.7, 1296.8,182,stable,-3.6 ,-9.2, 2.3
+"Albany County(6,10)",56001,***,1192.4 ,1088.5, 1303.5,105,stable,1.9 ,-12.5, 18.6
+"Teton County(6,10)",56039,***,1189.8 ,1069.1, 1320.3,79,stable,-2.9 ,-20.7, 18.8
+"Sweetwater County(6,10)",56037,***,1145 ,1053.6, 1242.1,134,stable,5.9 ,-0.1, 12.3
+"Johnson County(6,10)",56019,***,1114.6 ,968.5, 1276.6,43,stable,1.4 ,-11.4, 16.0
+"Campbell County(6,10)",56005,***,1110.3 ,1011.5, 1216.2,120,stable,1.1 ,-12.2, 16.5
+"Goshen County(6,10)",56015,***,1097.2 ,978.6, 1226.1,64,stable,1.2 ,-20.2, 28.4
+"Washakie County(6,10)",56043,***,1095.3 ,945.5, 1262.4,39,stable,-7.4 ,-19.5, 6.6
+"Crook County(6,10)",56011,***,1091.9 ,926.8, 1278,33,stable,10.8 ,-1.4, 24.6
+"Carbon County(6,10)",56007,***,1091.7 ,968.3, 1226.5,60,stable,2.1 ,-6.2, 11.1
+"Uinta County(6,10)",56041,***,1088.3 ,965.2, 1222.6,65,stable,-6.1 ,-17.1, 6.3
+"Platte County(6,10)",56031,***,1012.9 ,880.4, 1160,43,falling,-8.3 ,-15.1, -0.9
+"Lincoln County(6,10)",56023,***,995.9 ,887.6, 1113.9,66,stable,3.9 ,-2.9, 11.2
+"Niobrara County(6,10)",56027,***,929.4 ,692.6, 1221.9,11,stable,-14.3 ,-47.6, 40.2
+"Sublette County(6,10)",56035,***,903.1 ,762.1, 1062.8,31,stable,0.7 ,-20.9, 28.1
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:03 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

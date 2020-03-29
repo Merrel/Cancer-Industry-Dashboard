@@ -1,0 +1,135 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=47&areatype=county&cancer=001&race=00&sex=2&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '47', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '2', 'age': '001', 'type': 'death', 'file_name': 'deathrates_032.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=47&areatype=county&cancer=001&race=00&sex=2&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for Tennessee by County
+
+"All Cancer Sites, 2012-2016"
+
+"All Races (includes Hispanic), Female, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 161.4?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Tennessee",47000,Yes,151.7 ,150, 153.4,6450,falling,-0.7 ,-1.1, -0.4
+"United States",00000,Yes,137.7 ,137.4, 137.9,280047,falling,-1.4 ,-1.5, -1.4
+"Hancock County",47067,No,214.9 ,158.2, 287.4,10,stable,1.1 ,-0.6, 2.9
+"Perry County",47135,No,213.5 ,160.6, 280.1,12,stable,1.1 ,-0.5, 2.7
+"Trousdale County",47169,No,212.7 ,158.2, 280.8,11,stable,-0.6 ,-2.2, 1.1
+"Grundy County",47061,No,208.2 ,169.4, 254.4,22,stable,1.0 ,-0.4, 2.4
+"Overton County",47133,No,201.9 ,171.6, 236.7,33,stable,0.3 ,-0.8, 1.5
+"Polk County",47139,No,195.3 ,161.7, 234.8,25,stable,-0.4 ,-1.6, 0.8
+"Scott County",47151,No,194.1 ,162.4, 230.6,27,stable,0.1 ,-1.0, 1.2
+"Houston County",47083,No,193.7 ,144.6, 255.8,11,stable,0.7 ,-0.8, 2.4
+"Claiborne County",47025,No,190.9 ,165.9, 219.1,44,stable,0.3 ,-0.7, 1.2
+"Union County",47173,No,190.6 ,157.6, 229.1,24,stable,0.6 ,-0.5, 1.7
+"Benton County",47005,No,190.4 ,157.9, 228.8,27,rising,1.6 ,0.5, 2.7
+"Grainger County",47057,No,188.7 ,158.7, 223.2,30,stable,0.8 ,-0.4, 2.0
+"Sequatchie County",47153,No,188.3 ,151.7, 231.9,19,stable,1.4 ,-0.5, 3.3
+"Campbell County",47013,No,187.5 ,165.8, 211.6,57,stable,-0.2 ,-1.0, 0.7
+"Cheatham County",47021,No,186.3 ,161.2, 214.3,42,stable,-0.4 ,-1.4, 0.5
+"Lauderdale County",47097,No,183.2 ,154.5, 215.9,30,stable,-0.2 ,-1.3, 0.9
+"Meigs County",47121,No,181.2 ,141, 230.7,15,stable,0.8 ,-0.6, 2.2
+"Henderson County",47077,No,179.1 ,153.1, 208.7,35,stable,0.3 ,-0.7, 1.2
+"Lake County",47095,No,178.2 ,125.2, 249.8,8,stable,-0.4 ,-2.2, 1.4
+"Humphreys County",47085,No,177.9 ,147.2, 214,25,stable,0.0 ,-1.0, 1.1
+"Dickson County",47043,No,176.9 ,156.8, 199,58,stable,0.3 ,-0.5, 1.0
+"Marion County",47115,No,176 ,151.1, 204.4,38,stable,-0.4 ,-1.5, 0.7
+"Gibson County",47053,No,174.5 ,155.6, 195.2,65,stable,0.0 ,-0.5, 0.5
+"White County",47185,No,172.6 ,147.7, 201.2,36,stable,-0.1 ,-1.1, 0.9
+"McNairy County",47109,No,172.5 ,147, 201.7,34,stable,0.7 ,-0.4, 1.7
+"Johnson County",47091,No,171.8 ,140.9, 208.8,24,stable,0.0 ,-1.1, 1.1
+"Hickman County",47081,No,169.7 ,141.6, 202.2,27,stable,-0.4 ,-1.6, 0.9
+"Warren County",47177,No,169.1 ,147.8, 193,47,rising,0.8 ,0.1, 1.5
+"Wayne County",47181,No,168.7 ,136.3, 207.7,20,stable,0.6 ,-0.3, 1.5
+"Carroll County",47017,No,168.3 ,144.6, 195.3,38,stable,-0.5 ,-1.1, 0.1
+"Cocke County",47029,No,167.4 ,145.9, 191.6,46,falling,-0.8 ,-1.5, -0.1
+"Montgomery County",47125,No,164.7 ,151.7, 178.4,124,stable,-0.5 ,-1.1, 0.1
+"Stewart County",47161,No,164.6 ,129, 208.2,16,stable,-0.2 ,-2.0, 1.6
+"Putnam County",47141,No,163.5 ,147.5, 180.9,80,stable,-0.1 ,-0.8, 0.7
+"Macon County",47111,No,163.2 ,135.3, 195.6,25,stable,0.0 ,-1.0, 1.1
+"Obion County",47131,No,162.3 ,139.6, 188.1,39,stable,0.1 ,-0.7, 0.8
+"Shelby County",47157,No,162 ,157.2, 167,873,falling,-0.8 ,-1.0, -0.6
+"Rhea County",47143,No,161.9 ,139.2, 187.6,38,stable,-0.4 ,-1.4, 0.5
+"Monroe County",47123,No,161.7 ,142.4, 183.1,54,stable,0.0 ,-0.8, 0.7
+"Lewis County",47101,Yes,161 ,124.5, 205.9,15,stable,-0.4 ,-1.6, 0.7
+"Unicoi County",47171,Yes,160.2 ,133.1, 192.6,26,stable,-0.2 ,-1.2, 0.9
+"Roane County",47145,Yes,159.4 ,142.7, 178,71,stable,-0.1 ,-0.8, 0.5
+"Giles County",47055,Yes,159.1 ,135.5, 186,35,stable,-0.5 ,-1.3, 0.4
+"Hawkins County",47073,Yes,158.3 ,141.1, 177.3,65,stable,0.7 ,-0.1, 1.6
+"Tipton County",47167,Yes,158.3 ,140.2, 178.2,57,stable,-0.4 ,-1.2, 0.4
+"Hardeman County",47069,Yes,157.2 ,130.7, 188.2,27,stable,0.0 ,-1.4, 1.3
+"Jackson County",47087,Yes,156.9 ,121.8, 200.8,15,stable,-0.5 ,-2.0, 1.0
+"Marshall County",47117,Yes,156.5 ,132.3, 184.1,31,stable,-0.3 ,-1.1, 0.4
+"Greene County",47059,Yes,156.1 ,141.1, 172.6,83,stable,0.7 ,-2.6, 4.0
+"Henry County",47079,Yes,155.7 ,134.6, 179.7,42,stable,-0.5 ,-1.3, 0.4
+"Lincoln County",47103,Yes,155.3 ,133.5, 180,39,stable,-0.6 ,-1.4, 0.2
+"Dyer County",47045,Yes,155.1 ,134.3, 178.6,41,stable,-0.2 ,-1.2, 0.7
+"Fentress County",47049,Yes,154.9 ,126.5, 188.8,22,stable,-0.6 ,-2.0, 0.7
+"Clay County",47027,Yes,154.5 ,113.6, 208.2,10,stable,-0.2 ,-1.9, 1.5
+"Washington County",47179,Yes,154 ,142.3, 166.5,133,falling,-0.7 ,-1.3, -0.2
+"Decatur County",47039,Yes,153.9 ,120.6, 195.6,16,stable,-0.8 ,-1.9, 0.4
+"Haywood County",47075,Yes,153.7 ,123.9, 189,19,stable,-0.3 ,-1.4, 0.7
+"Robertson County",47147,Yes,152.8 ,135.8, 171.3,61,stable,-0.3 ,-1.0, 0.4
+"Sullivan County",47163,Yes,152.2 ,142.6, 162.3,199,stable,-0.3 ,-0.8, 0.1
+"Lawrence County",47099,Yes,151.6 ,132.4, 173,47,stable,-0.3 ,-1.1, 0.4
+"Hamblen County",47063,Yes,151.5 ,135.8, 168.8,70,stable,-0.6 ,-1.3, 0.1
+"McMinn County",47107,Yes,150.9 ,133.9, 169.8,60,falling,-0.8 ,-1.6, -0.1
+"Cannon County",47015,Yes,150.5 ,117.4, 191.1,15,stable,0.6 ,-0.9, 2.1
+"Loudon County",47105,Yes,150.2 ,133.6, 168.6,67,falling,-0.6 ,-1.2, -0.1
+"Carter County",47019,Yes,150.1 ,134, 167.9,67,stable,-0.1 ,-0.9, 0.8
+"Maury County",47119,Yes,150 ,135.8, 165.5,85,stable,-0.6 ,-1.3, 0.1
+"Sevier County",47155,Yes,149.3 ,136.1, 163.5,99,stable,-0.2 ,-0.7, 0.4
+"Anderson County",47001,Yes,148.6 ,134.5, 163.9,89,stable,-0.4 ,-0.9, 0.1
+"Davidson County",47037,Yes,147.4 ,141.7, 153.2,533,falling,-1.6 ,-1.9, -1.4
+"Coffee County",47031,Yes,147.4 ,130.4, 166.2,56,stable,-0.6 ,-1.3, 0.2
+"Bedford County",47003,Yes,147.2 ,127.4, 169.4,41,stable,-0.4 ,-1.3, 0.5
+"Franklin County",47051,Yes,146.9 ,128, 168.2,46,stable,-0.4 ,-1.2, 0.5
+"Weakley County",47183,Yes,146.5 ,125.1, 171,36,stable,0.0 ,-0.7, 0.7
+"Knox County",47093,Yes,145.9 ,139.6, 152.4,420,falling,-0.9 ,-1.2, -0.6
+"Morgan County",47129,Yes,145.6 ,117.3, 179.3,19,stable,-0.3 ,-1.6, 1.0
+"Bradley County",47011,Yes,144.3 ,131.6, 157.9,98,stable,-0.6 ,-1.2, 0.0
+"Wilson County",47189,Yes,143.1 ,131.1, 155.9,109,falling,-0.8 ,-1.2, -0.3
+"Sumner County",47165,Yes,142 ,132, 152.6,153,falling,-0.6 ,-1.1, -0.1
+"Chester County",47023,Yes,141.7 ,112, 177.4,16,stable,0.0 ,-1.7, 1.8
+"Rutherford County",47149,Yes,140.5 ,131.3, 150.1,182,falling,-1.1 ,-1.6, -0.7
+"DeKalb County",47041,Yes,139.8 ,112.5, 172.5,19,stable,-0.3 ,-1.6, 1.0
+"Cumberland County",47035,Yes,139.1 ,124.7, 155.1,79,stable,-0.6 ,-1.5, 0.2
+"Hamilton County",47065,Yes,137.4 ,130.9, 144.3,347,falling,-1.2 ,-1.5, -0.9
+"Hardin County",47071,Yes,136.9 ,114.5, 163,29,stable,0.0 ,-1.0, 1.1
+"Crockett County",47033,Yes,136.7 ,107, 173,15,stable,0.3 ,-0.9, 1.6
+"Madison County",47113,Yes,136.6 ,123.9, 150.3,89,falling,-1.9 ,-2.8, -1.0
+"Jefferson County",47089,Yes,132.5 ,116.4, 150.5,51,stable,-0.7 ,-1.6, 0.2
+"Van Buren County",47175,Yes,130.6 ,86.5, 193.8,6,falling,-2.2 ,-4.2, -0.1
+"Blount County",47009,Yes,129.7 ,119.5, 140.7,124,falling,-0.7 ,-1.3, -0.1
+"Fayette County",47047,Yes,128.5 ,109.9, 149.7,36,stable,-0.8 ,-1.8, 0.1
+"Moore County",47127,Yes,126.1 ,84.5, 184.7,6,stable,-1.3 ,-3.3, 0.7
+"Smith County",47159,Yes,121.1 ,94.6, 153.3,15,falling,-7.9 ,-15.0, -0.2
+"Bledsoe County",47007,Yes,118.8 ,88.2, 158.2,11,stable,-1.5 ,-3.0, 0.0
+"Pickett County",47137,Yes,111.1 ,70.4, 173.4,5,stable,0.2 ,-2.3, 2.7
+"Williamson County",47187,Yes,109.2 ,100.3, 118.6,119,falling,-1.7 ,-2.3, -1.1
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:01 pm.
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

@@ -1,0 +1,99 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=06&areatype=county&cancer=018&stage=211&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '06', 'areatype': 'county', 'cancer': '018', 'stage': '211', 'race': '00', 'sex': '0', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_056.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=06&areatype=county&cancer=018&stage=211&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for California by County
+
+"Stomach (Late Stage^), 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Percent of Cases with Late Stage
+"California(3)",06000,***,4.6 ,4.5, 4.7,1850,61.3
+"US (SEER+NPCR)(1)",00000,***,3.8 ,3.8, 3.8,13895,58.2
+"Yuba County(7)",06115,***,5.9 ,3.6, 9,4,73.3
+"San Francisco County(7)",06075,***,5.7 ,5, 6.4,57,62.2
+"Los Angeles County(7)",06037,***,5.5 ,5.3, 5.8,566,59.3
+"Imperial County(7)",06025,***,5.5 ,4, 7.4,9,57.5
+"Alameda County(7)",06001,***,5.2 ,4.7, 5.7,87,67.0
+"Santa Clara County(7)",06085,***,5.2 ,4.7, 5.7,99,67.0
+"San Mateo County(7)",06081,***,5.1 ,4.4, 5.8,45,67.2
+"Santa Barbara County(7)",06083,***,4.8 ,3.9, 5.8,22,73.0
+"Sonoma County(7)",06097,***,4.7 ,3.9, 5.6,28,67.6
+"San Joaquin County(7)",06077,***,4.6 ,3.9, 5.4,31,64.2
+"Fresno County(7)",06019,***,4.5 ,3.9, 5.2,41,61.6
+"Merced County(7)",06047,***,4.5 ,3.3, 6,10,60.0
+"Yolo County(7)",06113,***,4.4 ,3.2, 6,9,56.6
+"Orange County(7)",06059,***,4.4 ,4.1, 4.7,147,60.7
+"Kings County(7)",06031,***,4.3 ,2.8, 6.3,5,53.1
+"San Bernardino County(7)",06071,***,4.3 ,3.9, 4.7,83,60.0
+"Sacramento County(7)",06067,***,4.2 ,3.7, 4.6,64,59.7
+"Napa County(7)",06055,***,4.1 ,2.8, 5.8,7,61.4
+"San Diego County(7)",06073,***,4.1 ,3.8, 4.4,136,66.0
+"Stanislaus County(7)",06099,***,4 ,3.3, 4.9,21,58.9
+"Tulare County(7)",06107,***,4 ,3.1, 5,15,55.1
+"Kern County(7)",06029,***,3.9 ,3.3, 4.6,29,61.0
+"Madera County(7)",06039,***,3.9 ,2.6, 5.6,6,68.2
+"Monterey County(7)",06053,***,3.9 ,3.1, 4.8,16,50.9
+"Riverside County(7)",06065,***,3.9 ,3.5, 4.2,94,59.2
+"Ventura County(7)",06111,***,3.9 ,3.3, 4.5,36,61.6
+"Lake County(7)",06033,***,3.7 ,2.1, 6.2,3,51.5
+"Solano County(7)",06095,***,3.7 ,3, 4.6,18,53.9
+"Butte County(7)",06007,***,3.7 ,2.8, 4.9,11,69.7
+"Placer County(7)",06061,***,3.6 ,2.9, 4.5,18,63.3
+"Marin County(7)",06041,***,3.5 ,2.7, 4.6,13,73.0
+"Shasta County(7)",06089,***,3.5 ,2.5, 4.9,8,52.6
+"Contra Costa County(7)",06013,***,3.4 ,3, 3.9,45,56.9
+"Santa Cruz County(7)",06087,***,3.4 ,2.5, 4.5,10,63.0
+"Humboldt County(7)",06023,***,3.3 ,2.1, 4.9,6,60.9
+"San Luis Obispo County(7)",06079,***,3.3 ,2.5, 4.3,11,62.0
+"Mendocino County(7)",06045,***,3.3 ,1.9, 5.3,4,70.4
+"Nevada County(7)",06057,***,3.1 ,2, 4.9,5,66.7
+"El Dorado County(7)",06017,***,2.3 ,1.5, 3.5,6,56.9
+"Alpine County(7)",06003,***,* ,*, *,3 or fewer,*
+"Amador County(7)",06005,***,* ,*, *,3 or fewer,*
+"Calaveras County(7)",06009,***,* ,*, *,3 or fewer,*
+"Colusa County(7)",06011,***,* ,*, *,3 or fewer,*
+"Del Norte County(7)",06015,***,* ,*, *,3 or fewer,*
+"Glenn County(7)",06021,***,* ,*, *,3 or fewer,*
+"Inyo County(7)",06027,***,* ,*, *,3 or fewer,*
+"Lassen County(7)",06035,***,* ,*, *,3 or fewer,*
+"Mariposa County(7)",06043,***,* ,*, *,3 or fewer,*
+"Modoc County(7)",06049,***,* ,*, *,3 or fewer,*
+"Mono County(7)",06051,***,* ,*, *,3 or fewer,*
+"Plumas County(7)",06063,***,* ,*, *,3 or fewer,*
+"San Benito County(7)",06069,***,* ,*, *,3 or fewer,*
+"Sierra County(7)",06091,***,* ,*, *,3 or fewer,*
+"Siskiyou County(7)",06093,***,* ,*, *,3 or fewer,*
+"Sutter County(7)",06101,***,* ,*, *,3 or fewer,*
+"Tehama County(7)",06103,***,* ,*, *,3 or fewer,*
+"Trinity County(7)",06105,***,* ,*, *,3 or fewer,*
+"Tuolumne County(7)",06109,***,* ,*, *,3 or fewer,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 4:57 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+
+Rates are computed using cancers classified as malignant based on ICD-O-3. For more information see malignant.html.
+
+"^ Late Stage is defined as cases determined to be regional or distant. Coding is generally based on Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ] but may include other staging variables if necessary."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+3 Source: SEER November 2018 submission.  State Cancer Registry also receives funding from CDC's National Program of Cancer Registries.
+7 Source: SEER November 2018 submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

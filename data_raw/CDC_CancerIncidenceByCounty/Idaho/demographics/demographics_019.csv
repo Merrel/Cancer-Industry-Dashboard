@@ -1,0 +1,64 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=16&areatype=county&topic=pop&demo=00023&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '16', 'areatype': 'county', 'topic': 'pop', 'demo': '00023', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_019.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=16&areatype=county&topic=pop&demo=00023&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Idaho by County
+Population: American Indian/Alaska Native
+"All Ages, Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (AI/AN),Rank within US
+"United States",00000,0.8,2632102,"N/A"
+"Idaho",16000,1.3,21323,"10 of 52"
+"Camas County",16025,0.0,0,"2960 of 3141"
+"Madison County",16065,0.0,8,"2920 of 3141"
+"Blaine County",16013,0.0,8,"2871 of 3141"
+"Butte County",16023,0.0,1,"2864 of 3141"
+"Caribou County",16029,0.1,10,"2429 of 3141"
+"Teton County",16081,0.2,20,"2241 of 3141"
+"Valley County",16085,0.2,21,"2121 of 3141"
+"Bear Lake County",16007,0.2,13,"2076 of 3141"
+"Jefferson County",16051,0.3,87,"1646 of 3141"
+"Fremont County",16043,0.3,44,"1556 of 3141"
+"Bonneville County",16019,0.4,401,"1483 of 3141"
+"Oneida County",16071,0.4,18,"1328 of 3141"
+"Jerome County",16053,0.4,103,"1264 of 3141"
+"Lincoln County",16063,0.5,27,"1143 of 3141"
+"Ada County",16001,0.5,2369,"1092 of 3141"
+"Franklin County",16041,0.6,74,"1068 of 3141"
+"Minidoka County",16067,0.6,129,"973 of 3141"
+"Lemhi County",16059,0.7,54,"897 of 3141"
+"Bonner County",16017,0.7,295,"886 of 3141"
+"Washington County",16087,0.8,75,"840 of 3141"
+"Payette County",16075,0.8,175,"826 of 3141"
+"Latah County",16057,0.9,346,"731 of 3141"
+"Cassia County",16031,1.0,235,"664 of 3141"
+"Canyon County",16027,1.0,2103,"659 of 3141"
+"Twin Falls County",16083,1.1,912,"596 of 3141"
+"Gooding County",16047,1.2,175,"573 of 3141"
+"Custer County",16037,1.2,50,"557 of 3141"
+"Gem County",16045,1.2,204,"554 of 3141"
+"Adams County",16003,1.2,49,"539 of 3141"
+"Boise County",16015,1.4,96,"501 of 3141"
+"Boundary County",16021,1.4,156,"501 of 3141"
+"Kootenai County",16055,1.4,2124,"491 of 3141"
+"Elmore County",16039,1.7,439,"433 of 3141"
+"Clearwater County",16035,2.2,188,"361 of 3141"
+"Shoshone County",16079,2.2,281,"358 of 3141"
+"Bannock County",16005,3.1,2618,"282 of 3141"
+"Idaho County",16049,3.2,524,"276 of 3141"
+"Owyhee County",16073,3.4,385,"268 of 3141"
+"Power County",16077,4.0,304,"235 of 3141"
+"Nez Perce County",16069,5.7,2269,"184 of 3141"
+"Clark County",16033,5.7,60,"183 of 3141"
+"Bingham County",16011,6.1,2790,"177 of 3141"
+"Lewis County",16061,7.4,282,"158 of 3141"
+"Benewah County",16009,8.9,801,"132 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 4:59 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: American Indian/Alaska Native, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

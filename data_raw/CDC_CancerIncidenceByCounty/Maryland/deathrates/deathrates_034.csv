@@ -1,0 +1,64 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=24&areatype=county&cancer=001&race=00&sex=0&age=006&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '24', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '0', 'age': '006', 'type': 'death', 'file_name': 'deathrates_034.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=24&areatype=county&cancer=001&race=00&sex=0&age=006&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for Maryland by County
+
+"All Cancer Sites, 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, Ages <65"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 161.4?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Maryland",24000,Yes,50.2 ,49.4, 51,3362,falling,-1.2 ,-2.1, -0.2
+"United States",00000,Yes,51.3 ,51.2, 51.4,177172,falling,-1.4 ,-1.6, -1.3
+"Baltimore City",24510,Yes,77.5 ,74.5, 80.7,514,falling,-2.2 ,-2.4, -2.0
+"Caroline County",24011,Yes,67.4 ,55.9, 80.8,26,falling,-2.0 ,-3.1, -0.9
+"Dorchester County",24019,Yes,65.3 ,53.6, 79.1,25,falling,-2.3 ,-3.2, -1.5
+"Wicomico County",24045,Yes,65 ,58.1, 72.5,70,falling,-1.4 ,-2.2, -0.7
+"Worcester County",24047,Yes,61.8 ,52.7, 72.2,39,stable,0.8 ,-2.1, 3.7
+"Cecil County",24015,Yes,58.9 ,52.7, 65.7,71,falling,-1.3 ,-1.8, -0.9
+"Washington County",24043,Yes,58 ,52.8, 63.6,97,falling,-1.5 ,-2.1, -0.9
+"Allegany County",24001,Yes,56.6 ,49.3, 64.8,46,falling,-1.6 ,-2.3, -0.9
+"Somerset County",24039,Yes,55.3 ,43.3, 69.8,16,falling,-2.5 ,-3.7, -1.3
+"St. Marys County",24037,Yes,54.2 ,48.5, 60.6,66,falling,-1.9 ,-2.5, -1.3
+"Charles County",24017,Yes,52.1 ,47.3, 57.2,89,falling,-2.1 ,-2.7, -1.5
+"Baltimore County",24005,Yes,51.8 ,49.7, 54,484,falling,-1.9 ,-2.3, -1.6
+"Prince Georges County",24033,Yes,51.2 ,49.2, 53.3,498,falling,-2.3 ,-2.5, -2.1
+"Anne Arundel County",24003,Yes,50.4 ,47.9, 53,319,falling,-2.1 ,-2.3, -1.9
+"Carroll County",24013,Yes,49.5 ,45.2, 54.3,101,falling,-2.1 ,-2.6, -1.5
+"Harford County",24025,Yes,48.4 ,44.9, 52.2,145,falling,-1.8 ,-2.2, -1.4
+"Calvert County",24009,Yes,47.9 ,42.2, 54.3,53,falling,-2.5 ,-3.1, -1.9
+"Garrett County",24023,Yes,45.1 ,35.7, 56.7,17,stable,-1.0 ,-2.3, 0.2
+"Frederick County",24021,Yes,44.6 ,41.1, 48.4,124,falling,-2.3 ,-2.8, -1.9
+"Kent County",24029,Yes,44.6 ,32.7, 60.3,11,falling,-2.9 ,-4.3, -1.4
+"Queen Annes County",24035,Yes,44.1 ,36.9, 52.6,28,falling,-2.2 ,-3.3, -1.0
+"Talbot County",24041,Yes,36.1 ,28.1, 46.1,16,falling,-2.8 ,-3.9, -1.6
+"Montgomery County",24031,Yes,34.5 ,33, 36.1,393,falling,-1.1 ,-2.1, -0.2
+"Howard County",24027,Yes,33.7 ,30.9, 36.6,117,falling,-3.3 ,-3.9, -2.7
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:00 pm.
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

@@ -1,0 +1,49 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=02&areatype=county&topic=mob&demo=00021&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '02', 'areatype': 'county', 'topic': 'mob', 'demo': '00021', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_012.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=02&areatype=county&topic=mob&demo=00021&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Alaska by Borough or Census Area
+Mobility: Moved from outside US (in past year)
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+Borough Or Census Area, FIPS,Value (Percent),People (Moved From Outside US),Rank within US
+"United States",00000,0.7,2074097,"N/A"
+"Alaska",02900,0.8,6060,"45 of 51"
+"Bristol Bay Borough",02060,0.0,0,"1 of 3140"
+"Prince of Wales-Outer Ketchikan Census Area",02201,0.0,0,"1 of 3140"
+"Yakutat City and Borough",02282,0.0,0,"1 of 3140"
+"Wade Hampton Census Area",02270,0.0,1,"381 of 3140"
+"Bethel Census Area",02050,0.0,4,"431 of 3140"
+"Northwest Arctic Borough",02188,0.1,7,"880 of 3140"
+"Valdez-Cordova Census Area",02261,0.1,14,"1257 of 3140"
+"Lake and Peninsula Borough",02164,0.2,2,"1298 of 3140"
+"Nome Census Area",02180,0.2,18,"1502 of 3140"
+"Dillingham Census Area",02070,0.2,10,"1599 of 3140"
+"North Slope Borough",02185,0.2,20,"1614 of 3140"
+"Matanuska-Susitna Borough",02170,0.4,358,"2209 of 3140"
+"Kenai Peninsula Borough",02122,0.4,210,"2231 of 3140"
+"Wrangell-Petersburg Census Area",02280,0.5,31,"2592 of 3140"
+"Sitka City and Borough",02220,0.7,57,"2731 of 3140"
+"Juneau City and Borough",02110,0.7,226,"2779 of 3140"
+"Skagway-Hoonah-Angoon Census Area",02232,0.8,25,"2854 of 3140"
+"Haines Borough",02100,0.8,21,"2880 of 3140"
+"Ketchikan Gateway Borough",02130,0.9,117,"2901 of 3140"
+"Southeast Fairbanks Census Area",02240,0.9,59,"2906 of 3140"
+"Yukon-Koyukuk Census Area",02290,0.9,47,"2910 of 3140"
+"Anchorage Municipality",02020,1.0,2888,"2953 of 3140"
+"Kodiak Island Borough",02150,1.2,163,"3011 of 3140"
+"Fairbanks North Borough",02090,1.3,1266,"3028 of 3140"
+"Aleutians East Borough",02013,2.6,88,"3118 of 3140"
+"Aleutians West Census Area",02016,4.7,268,"3135 of 3140"
+"Denali Borough",02068,7.0,160,"3138 of 3140"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 4:59 pm.
+"Alaska Census Area Name Change: please note that Wade Hampton Census Area, AK (FIPS code=02270) was renamed effective July 1, 2015, and the new name is Kusilvak Census Area (FIPS Code=02158). Due to the nature of data submissions, we will use the older code/name this year and transition to the new code/name with a future data release."
+
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Mobility: Moved from outside US (in past year), see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#mobility."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.
