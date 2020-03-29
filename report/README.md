@@ -1,6 +1,6 @@
 # CSE 6242 - Project Progress Report
 
-*This file is a copy of [progress_report.md](https://github.com/nazanin-tabatabaei/DataVisualAnalytics_Industries-cancer/blob/progress-report-text/report/outline_progress_report.md) to facilitate easy rendering in GitHub.*
+*This file is a copy of [outline_progress_report.md](https://github.com/nazanin-tabatabaei/DataVisualAnalytics_Industries-cancer/blob/progress-report-text/report/outline_progress_report.md) to facilitate easy rendering in GitHub.*
 
 
 ## Introduction
