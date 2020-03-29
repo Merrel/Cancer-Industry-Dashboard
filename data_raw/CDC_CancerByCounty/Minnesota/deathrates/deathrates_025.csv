@@ -1,0 +1,128 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=27&areatype=county&cancer=001&race=07&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '27', 'areatype': 'county', 'cancer': '001', 'race': '07', 'sex': '0', 'age': '001', 'type': 'death', 'file_name': 'deathrates_025.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=27&areatype=county&cancer=001&race=07&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for Minnesota by County
+
+"All Cancer Sites, 2012-2016"
+
+"White Non-Hispanic, Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 161.4?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Minnesota",27000,Yes,153.3 ,151.9, 154.8,9066,falling,-1.3 ,-1.5, -1.2
+"United States (6)",00000,No,165.4 ,165.2, 165.7,465052,falling,-1.4 ,-1.4, -1.3
+"Wadena County",27159,No,200.3 ,173.1, 231.2,42,stable,0.1 ,-0.8, 1.0
+"Mille Lacs County",27095,No,195.7 ,174.7, 218.9,65,stable,-0.4 ,-1.1, 0.4
+"Carlton County",27017,No,185 ,167.1, 204.4,81,stable,-0.4 ,-1.0, 0.3
+"Pine County",27115,No,183.1 ,164.6, 203.3,74,stable,-0.6 ,-1.4, 0.1
+"Chippewa County",27023,No,182.9 ,155.4, 214.7,35,stable,-0.3 ,-1.2, 0.7
+"Koochiching County",27071,No,181.8 ,156.8, 210.6,40,stable,-0.7 ,-1.6, 0.3
+"Faribault County",27043,No,179.2 ,154.6, 207.3,42,stable,0.1 ,-0.7, 0.8
+"Clearwater County",27029,No,178.4 ,145.8, 217.4,22,stable,-0.8 ,-1.7, 0.2
+"Itasca County",27061,No,176.1 ,161.8, 191.4,121,falling,-1.1 ,-1.6, -0.6
+"Redwood County",27127,No,175.8 ,151.7, 203.2,43,stable,-0.5 ,-1.2, 0.1
+"Norman County",27107,No,174.7 ,138.6, 219.1,18,stable,-0.8 ,-2.1, 0.5
+"Wilkin County",27167,No,174.4 ,137.9, 219,17,stable,-0.4 ,-1.6, 0.8
+"St. Louis County",27137,No,174.4 ,167.1, 181.9,467,falling,-0.7 ,-1.0, -0.4
+"Aitkin County",27001,No,172.1 ,150.9, 196.7,56,falling,-1.2 ,-2.0, -0.5
+"Douglas County",27041,No,171.3 ,155.9, 188,98,stable,-0.4 ,-0.9, 0.2
+"Crow Wing County",27035,No,170.1 ,158.2, 182.9,159,falling,-0.8 ,-1.2, -0.4
+"Isanti County",27059,No,167.8 ,150.7, 186.3,73,stable,-0.3 ,-1.0, 0.5
+"Nobles County",27105,No,167.7 ,143.9, 195.2,42,stable,-0.7 ,-1.5, 0.1
+"Sibley County",27143,No,166 ,141.8, 193.9,34,stable,-0.4 ,-1.2, 0.4
+"Brown County",27015,No,165.4 ,147.1, 185.7,66,stable,-0.5 ,-1.2, 0.1
+"Clay County",27027,No,165.2 ,150.9, 180.6,102,stable,-0.3 ,-0.9, 0.3
+"Winona County",27169,No,163.8 ,149.1, 179.6,98,falling,-1.0 ,-1.4, -0.6
+"Lyon County",27083,No,162.7 ,142.3, 185.5,49,stable,0.1 ,-0.8, 0.9
+"Grant County",27051,No,161.8 ,125.9, 206.5,16,stable,-3.5 ,-6.8, 0.0
+"Cass County",27021,Yes,160.5 ,143.7, 179.4,72,falling,-0.6 ,-1.1, -0.1
+"Morrison County",27097,Yes,160 ,143.6, 177.9,73,falling,-0.8 ,-1.4, -0.1
+"Pipestone County",27117,Yes,159.5 ,130.3, 194.5,24,stable,-0.5 ,-1.5, 0.5
+"Mower County",27099,Yes,159.5 ,144.1, 176.3,89,falling,-0.8 ,-1.4, -0.1
+"Anoka County",27003,Yes,159.2 ,152.8, 165.7,504,falling,-1.0 ,-1.3, -0.7
+"Martin County",27091,Yes,159.2 ,139.8, 181,55,stable,-0.6 ,-1.5, 0.3
+"Hubbard County",27057,Yes,158.6 ,139.2, 180.5,53,falling,-1.2 ,-2.0, -0.3
+"Sherburne County",27141,Yes,158.3 ,145.2, 172.2,117,falling,-1.2 ,-1.9, -0.6
+"Benton County",27009,Yes,157.7 ,140.6, 176.2,66,falling,-1.5 ,-2.2, -0.7
+"Becker County",27005,Yes,157.3 ,140.9, 175.3,71,falling,-0.7 ,-1.2, -0.1
+"Fillmore County",27045,Yes,157.2 ,137.5, 179.4,49,falling,-0.7 ,-1.3, -0.1
+"Freeborn County",27047,Yes,156.9 ,141, 174.6,77,falling,-0.7 ,-1.2, -0.2
+"Goodhue County",27049,Yes,156.8 ,143.2, 171.5,104,falling,-0.9 ,-1.5, -0.4
+"Waseca County",27161,Yes,156.3 ,133.8, 181.8,37,falling,-1.1 ,-1.9, -0.2
+"Wabasha County",27157,Yes,155.8 ,136.5, 177.5,50,falling,-0.9 ,-1.6, -0.3
+"Yellow Medicine County",27173,Yes,155.6 ,127.9, 188.7,24,stable,-0.5 ,-1.5, 0.4
+"Lake County",27075,Yes,155.6 ,129.5, 186.4,29,falling,-1.6 ,-2.5, -0.8
+"Roseau County",27135,Yes,155.2 ,130.6, 183.6,29,falling,-1.2 ,-1.9, -0.5
+"Rice County",27131,Yes,154.7 ,141.7, 168.7,108,falling,-1.3 ,-1.9, -0.8
+"Wright County",27171,Yes,154.5 ,144.3, 165.2,179,falling,-0.8 ,-1.2, -0.4
+"Washington County",27163,Yes,153.8 ,146.7, 161.2,370,falling,-1.2 ,-1.6, -0.8
+"McLeod County",27085,Yes,153.6 ,137.7, 171,72,stable,-0.4 ,-1.1, 0.3
+"Todd County",27153,Yes,153.5 ,135.1, 174.2,53,falling,-1.0 ,-1.7, -0.3
+"Big Stone County",27011,Yes,153.1 ,117, 199.4,15,falling,-1.7 ,-2.8, -0.6
+"Ramsey County",27123,Yes,152.8 ,147.8, 158,758,falling,-1.9 ,-2.2, -1.6
+"Kittson County",27069,Yes,152.7 ,113, 204.7,12,stable,-1.1 ,-2.6, 0.4
+"Dodge County",27039,Yes,152.6 ,130.1, 178,34,stable,-0.8 ,-1.7, 0.2
+"Lincoln County",27081,Yes,152.5 ,118.7, 195,16,falling,-3.2 ,-5.7, -0.7
+"Kandiyohi County",27067,Yes,151.8 ,137.1, 167.8,85,falling,-1.0 ,-1.6, -0.5
+"Pennington County",27113,Yes,151.4 ,126.3, 180.5,27,stable,-0.9 ,-1.8, 0.1
+"Polk County",27119,Yes,151.2 ,134.5, 169.6,63,stable,0.2 ,-17.9, 22.3
+"Kanabec County",27065,Yes,151 ,128.5, 176.7,34,falling,-1.5 ,-2.5, -0.5
+"Rock County",27133,Yes,150.5 ,122.4, 184,22,stable,-0.6 ,-1.6, 0.4
+"Jackson County",27063,Yes,150.4 ,124, 181.7,26,stable,-0.4 ,-1.5, 0.8
+"Stearns County",27145,Yes,150.3 ,141.8, 159.1,243,falling,-0.9 ,-1.2, -0.6
+"Stevens County",27149,Yes,149.7 ,120, 185.5,20,stable,-0.4 ,-1.4, 0.6
+"Le Sueur County",27079,Yes,149.5 ,131.6, 169.3,52,falling,-1.0 ,-1.7, -0.2
+"Beltrami County",27007,Yes,149.2 ,133, 166.8,67,falling,-1.1 ,-1.8, -0.3
+"Otter Tail County",27111,Yes,149.1 ,137.8, 161.1,143,falling,-0.9 ,-1.4, -0.3
+"Meeker County",27093,Yes,148.9 ,130.1, 169.8,48,falling,-1.1 ,-1.7, -0.5
+"Chisago County",27025,Yes,148.8 ,134.9, 163.7,88,falling,-2.1 ,-2.7, -1.4
+"Dakota County",27037,Yes,147.9 ,142.3, 153.6,563,falling,-1.3 ,-1.5, -1.0
+"Blue Earth County",27013,Yes,146.6 ,133.6, 160.7,99,falling,-1.1 ,-1.6, -0.6
+"Scott County",27139,Yes,146.6 ,135.9, 157.9,150,falling,-1.3 ,-1.8, -0.8
+"Pope County",27121,Yes,146.1 ,120.8, 176,27,stable,-0.7 ,-1.6, 0.1
+"Cottonwood County",27033,Yes,146.1 ,120.7, 176.2,28,stable,-0.4 ,-1.2, 0.4
+"Watonwan County",27165,Yes,145.3 ,118.8, 177.6,24,stable,-1.0 ,-2.1, 0.1
+"Hennepin County",27053,Yes,145 ,141.7, 148.3,1624,falling,-2.5 ,-3.5, -1.5
+"Mahnomen County",27087,Yes,144.6 ,103.4, 203.5,8,falling,-1.8 ,-3.0, -0.6
+"Lake of the Woods County",27077,Yes,144.2 ,103.9, 199.2,9,stable,-0.5 ,-1.9, 0.9
+"Murray County",27101,Yes,143.3 ,115.9, 176.7,21,stable,-0.7 ,-2.0, 0.5
+"Carver County",27019,Yes,141.1 ,129.5, 153.5,116,falling,-1.4 ,-2.0, -0.9
+"Renville County",27129,Yes,140.8 ,119.2, 166,33,stable,-0.8 ,-1.6, 0.1
+"Steele County",27147,Yes,139 ,123.8, 155.8,64,falling,-1.5 ,-2.0, -1.0
+"Swift County",27151,Yes,138.5 ,113, 169.5,23,falling,-1.6 ,-2.3, -0.9
+"Red Lake County",27125,Yes,135.1 ,93.4, 191.2,7,stable,-0.2 ,-1.7, 1.2
+"Nicollet County",27103,Yes,134.6 ,118, 153,50,falling,-2.9 ,-4.7, -1.0
+"Houston County",27055,Yes,132.9 ,114.2, 154.3,39,falling,-1.4 ,-2.0, -0.8
+"Lac qui Parle County",27073,Yes,132 ,103.1, 168.4,18,falling,-1.8 ,-3.0, -0.5
+"Olmsted County",27109,Yes,129.8 ,121.9, 138.2,206,falling,-1.7 ,-1.9, -1.4
+"Cook County",27031,Yes,128.3 ,92.7, 176.5,10,stable,-2.2 ,-4.3, 0.0
+"Marshall County",27089,Yes,127 ,100.9, 158.6,18,falling,-1.7 ,-2.8, -0.7
+"Traverse County",27155,Yes,114.5 ,80.3, 165.2,8,stable,-1.0 ,-2.9, 0.9
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:18 pm.
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"(6) Hispanic mortality data for the United States has been excluded for the following states: Louisiana, New Hampshire, and Oklahoma. The data on Hispanic and non-Hispanic mortality for these states may be unreliable for the time period used in the generation of the recent trend (1990 - 2016) and has been excluded from the calculation of the United States recent trend. This was based on the NCHS Policy. "
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

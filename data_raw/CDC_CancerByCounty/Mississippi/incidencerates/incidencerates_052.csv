@@ -1,0 +1,122 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=28&areatype=county&cancer=003&stage=211&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '28', 'areatype': 'county', 'cancer': '003', 'stage': '211', 'race': '00', 'sex': '0', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_052.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=28&areatype=county&cancer=003&stage=211&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Mississippi by County
+
+"Oral Cavity & Pharynx (Late Stage^), 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Percent of Cases with Late Stage
+"Mississippi(6)",28000,***,8.5 ,8.1, 9,300,66.5
+"US (SEER+NPCR)(1)",00000,***,7.3 ,7.2, 7.3,27477,62.6
+"Forrest County(6)",28035,***,12.5 ,9.1, 16.8,9,69.2
+"Leflore County(6)",28083,***,12.2 ,7.3, 19.2,4,65.5
+"Union County(6)",28145,***,11.7 ,7, 18.5,4,67.9
+"Washington County(6)",28151,***,11.6 ,7.9, 16.5,7,75.6
+"Alcorn County(6)",28003,***,11.4 ,7.5, 16.8,6,70.0
+"Warren County(6)",28149,***,11.2 ,7.6, 16.1,6,72.7
+"Prentiss County(6)",28117,***,11.2 ,6.4, 18.3,3,68.0
+"Yazoo County(6)",28163,***,11.2 ,6.6, 17.9,4,75.0
+"Lafayette County(6)",28071,***,11 ,6.9, 16.6,5,79.3
+"Harrison County(6)",28047,***,10.8 ,8.9, 13,24,72.3
+"Monroe County(6)",28095,***,10.7 ,6.8, 16.1,5,71.4
+"Copiah County(6)",28029,***,10.2 ,5.9, 16.5,4,75.0
+"Marshall County(6)",28093,***,10 ,6.3, 15.3,5,71.4
+"Lauderdale County(6)",28075,***,9.6 ,7, 12.9,9,67.1
+"Lee County(6)",28081,***,9.6 ,7, 12.8,10,58.5
+"Rankin County(6)",28121,***,9.4 ,7.4, 11.8,16,65.8
+"Panola County(6)",28107,***,9.3 ,5.5, 14.8,4,61.3
+"Lowndes County(6)",28087,***,9 ,6.1, 13,6,62.0
+"Jackson County(6)",28059,***,8.9 ,6.9, 11.2,15,74.3
+"Lincoln County(6)",28085,***,8.1 ,4.6, 13.3,3,57.1
+"Oktibbeha County(6)",28105,***,8 ,4.6, 13,3,81.0
+"Hinds County(6)",28049,***,7.9 ,6.5, 9.6,21,65.6
+"Lamar County(6)",28073,***,7.8 ,4.9, 11.6,5,72.7
+"Hancock County(6)",28045,***,7.6 ,4.8, 11.8,5,56.1
+"Adams County(6)",28001,***,7.5 ,4.3, 12.4,3,73.9
+"Jones County(6)",28067,***,7.2 ,4.8, 10.5,6,58.0
+"DeSoto County(6)",28033,***,6.9 ,5.3, 8.9,13,70.3
+"Pearl River County(6)",28109,***,6 ,3.7, 9.2,4,53.7
+"Madison County(6)",28089,***,5.9 ,4, 8.4,7,63.0
+"Amite County(6)",28005,***,* ,*, *,3 or fewer,*
+"Attala County(6)",28007,***,* ,*, *,3 or fewer,*
+"Benton County(6)",28009,***,* ,*, *,3 or fewer,*
+"Bolivar County(6)",28011,***,* ,*, *,3 or fewer,*
+"Calhoun County(6)",28013,***,* ,*, *,3 or fewer,*
+"Carroll County(6)",28015,***,* ,*, *,3 or fewer,*
+"Chickasaw County(6)",28017,***,* ,*, *,3 or fewer,*
+"Choctaw County(6)",28019,***,* ,*, *,3 or fewer,*
+"Claiborne County(6)",28021,***,* ,*, *,3 or fewer,*
+"Clarke County(6)",28023,***,* ,*, *,3 or fewer,*
+"Clay County(6)",28025,***,* ,*, *,3 or fewer,*
+"Coahoma County(6)",28027,***,* ,*, *,3 or fewer,*
+"Covington County(6)",28031,***,* ,*, *,3 or fewer,*
+"Franklin County(6)",28037,***,* ,*, *,3 or fewer,*
+"George County(6)",28039,***,* ,*, *,3 or fewer,*
+"Greene County(6)",28041,***,* ,*, *,3 or fewer,*
+"Grenada County(6)",28043,***,* ,*, *,3 or fewer,*
+"Holmes County(6)",28051,***,* ,*, *,3 or fewer,*
+"Humphreys County(6)",28053,***,* ,*, *,3 or fewer,*
+"Issaquena County(6)",28055,***,* ,*, *,3 or fewer,*
+"Itawamba County(6)",28057,***,* ,*, *,3 or fewer,*
+"Jasper County(6)",28061,***,* ,*, *,3 or fewer,*
+"Jefferson County(6)",28063,***,* ,*, *,3 or fewer,*
+"Jefferson Davis County(6)",28065,***,* ,*, *,3 or fewer,*
+"Kemper County(6)",28069,***,* ,*, *,3 or fewer,*
+"Lawrence County(6)",28077,***,* ,*, *,3 or fewer,*
+"Leake County(6)",28079,***,* ,*, *,3 or fewer,*
+"Marion County(6)",28091,***,* ,*, *,3 or fewer,*
+"Montgomery County(6)",28097,***,* ,*, *,3 or fewer,*
+"Neshoba County(6)",28099,***,* ,*, *,3 or fewer,*
+"Newton County(6)",28101,***,* ,*, *,3 or fewer,*
+"Noxubee County(6)",28103,***,* ,*, *,3 or fewer,*
+"Perry County(6)",28111,***,* ,*, *,3 or fewer,*
+"Pike County(6)",28113,***,* ,*, *,3 or fewer,*
+"Pontotoc County(6)",28115,***,* ,*, *,3 or fewer,*
+"Quitman County(6)",28119,***,* ,*, *,3 or fewer,*
+"Scott County(6)",28123,***,* ,*, *,3 or fewer,*
+"Sharkey County(6)",28125,***,* ,*, *,3 or fewer,*
+"Simpson County(6)",28127,***,* ,*, *,3 or fewer,*
+"Smith County(6)",28129,***,* ,*, *,3 or fewer,*
+"Stone County(6)",28131,***,* ,*, *,3 or fewer,*
+"Sunflower County(6)",28133,***,* ,*, *,3 or fewer,*
+"Tallahatchie County(6)",28135,***,* ,*, *,3 or fewer,*
+"Tate County(6)",28137,***,* ,*, *,3 or fewer,*
+"Tippah County(6)",28139,***,* ,*, *,3 or fewer,*
+"Tishomingo County(6)",28141,***,* ,*, *,3 or fewer,*
+"Tunica County(6)",28143,***,* ,*, *,3 or fewer,*
+"Walthall County(6)",28147,***,* ,*, *,3 or fewer,*
+"Wayne County(6)",28153,***,* ,*, *,3 or fewer,*
+"Webster County(6)",28155,***,* ,*, *,3 or fewer,*
+"Wilkinson County(6)",28157,***,* ,*, *,3 or fewer,*
+"Winston County(6)",28159,***,* ,*, *,3 or fewer,*
+"Yalobusha County(6)",28161,***,* ,*, *,3 or fewer,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:19 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+
+Rates are computed using cancers classified as malignant based on ICD-O-3. For more information see malignant.html.
+
+"^ Late Stage is defined as cases determined to be regional or distant. Coding is generally based on Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ] but may include other staging variables if necessary."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

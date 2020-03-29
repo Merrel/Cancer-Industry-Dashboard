@@ -1,0 +1,49 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=49&areatype=county&topic=pop&demo=00028&race=00&sex=0&age=999&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '49', 'areatype': 'county', 'topic': 'pop', 'demo': '00028', 'race': '00', 'sex': '0', 'age': '999', 'type': 'manyareacensus', 'file_name': 'demographics_016.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=49&areatype=county&topic=pop&demo=00028&race=00&sex=0&age=999&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Utah by County
+Population: Age 40 and over
+"All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Age 40 And Over),Rank within US
+"Utah",49000,36.1,1080866,"52 of 52"
+"United States",00000,47.3,151838062,"N/A"
+"Utah County",49049,27.5,158446,"3137 of 3141"
+"Cache County",49005,29.8,35859,"3131 of 3141"
+"Uintah County",49047,34.5,12538,"3110 of 3141"
+"Tooele County",49045,35.4,22418,"3103 of 3141"
+"Davis County",49011,35.6,119376,"3101 of 3141"
+"Iron County",49021,36.1,17510,"3093 of 3141"
+"Duchesne County",49013,36.2,7334,"3092 of 3141"
+"Juab County",49023,37.4,3996,"3068 of 3141"
+"Wasatch County",49051,37.5,10979,"3064 of 3141"
+"Salt Lake County",49035,37.9,419779,"3051 of 3141"
+"Weber County",49057,38.6,94313,"3033 of 3141"
+"Morgan County",49029,39.2,4315,"3014 of 3141"
+"Sanpete County",49039,39.4,11386,"3008 of 3141"
+"Box Elder County",49003,40.1,20938,"2977 of 3141"
+"San Juan County",49037,41.2,6258,"2929 of 3141"
+"Beaver County",49001,42.3,2716,"2872 of 3141"
+"Sevier County",49041,42.8,8962,"2853 of 3141"
+"Emery County",49015,43.9,4574,"2759 of 3141"
+"Rich County",49033,44.6,1029,"2702 of 3141"
+"Washington County",49053,45.1,70136,"2652 of 3141"
+"Millard County",49027,45.1,5704,"2650 of 3141"
+"Carbon County",49007,45.2,9264,"2643 of 3141"
+"Summit County",49043,48.6,19322,"2164 of 3141"
+"Grand County",49019,49.4,4715,"2029 of 3141"
+"Wayne County",49055,50.7,1369,"1742 of 3141"
+"Garfield County",49017,50.8,2548,"1724 of 3141"
+"Piute County",49031,51.2,952,"1628 of 3141"
+"Kane County",49025,51.5,3730,"1552 of 3141"
+"Daggett County",49009,57.0,400,"491 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:21 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Age 40 and over, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

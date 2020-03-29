@@ -1,0 +1,36 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=23&areatype=county&topic=pop&demo=00102&race=00&sex=0&age=999&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '23', 'areatype': 'county', 'topic': 'pop', 'demo': '00102', 'race': '00', 'sex': '0', 'age': '999', 'type': 'manyareacensus', 'file_name': 'demographics_014.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=23&areatype=county&topic=pop&demo=00102&race=00&sex=0&age=999&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Maine by County
+Population: Age 18-39
+"Age N/A, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Age 18-39),Rank within US
+"Maine",23000,25.5,339115,"1 of 52"
+"United States",00000,29.8,95565066,"N/A"
+"Piscataquis County",23021,20.2,3430,"203 of 3141"
+"Lincoln County",23015,20.5,6980,"230 of 3141"
+"Washington County",23029,22.2,7076,"488 of 3141"
+"Oxford County",23017,22.6,12908,"569 of 3141"
+"Knox County",23013,22.6,8956,"570 of 3141"
+"Somerset County",23025,22.7,11559,"592 of 3141"
+"Aroostook County",23003,22.9,15743,"648 of 3141"
+"Sagadahoc County",23023,23.0,8085,"693 of 3141"
+"Hancock County",23009,23.1,12579,"719 of 3141"
+"Waldo County",23027,23.6,9255,"840 of 3141"
+"York County",23031,24.3,48974,"1069 of 3141"
+"Kennebec County",23011,25.3,30646,"1404 of 3141"
+"Franklin County",23007,26.2,7903,"1713 of 3141"
+"Androscoggin County",23001,27.3,29322,"2064 of 3141"
+"Cumberland County",23005,28.1,81150,"2237 of 3141"
+"Penobscot County",23019,29.3,44549,"2489 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:17 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Age 18-39, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

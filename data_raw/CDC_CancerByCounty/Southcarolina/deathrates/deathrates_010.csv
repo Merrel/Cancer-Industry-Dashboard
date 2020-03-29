@@ -1,0 +1,88 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=45&areatype=county&cancer=090&race=00&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '45', 'areatype': 'county', 'cancer': '090', 'race': '00', 'sex': '0', 'age': '001', 'type': 'death', 'file_name': 'deathrates_010.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=45&areatype=county&cancer=090&race=00&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for South Carolina by County
+
+"Leukemia, 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"South Carolina",45000,***,6.8 ,6.5, 7.1,377,falling,-0.6 ,-0.9, -0.2
+"United States",00000,***,6.5 ,6.5, 6.6,23311,falling,-2.3 ,-3.1, -1.5
+"Kershaw County",45055,***,10.4 ,7.4, 14.2,8,*,*,*,*
+"Marlboro County",45069,***,10.1 ,5.7, 16.8,3,*,*,*,*
+"Chester County",45023,***,9.5 ,5.7, 15,4,*,*,*,*
+"Darlington County",45031,***,9.3 ,6.5, 13,7,stable,-0.1 ,-2.4, 2.3
+"Union County",45087,***,9 ,5.3, 14.7,4,*,*,*,*
+"Aiken County",45003,***,8.3 ,6.6, 10.4,16,stable,0.4 ,-1.0, 1.9
+"Laurens County",45059,***,7.9 ,5.4, 11.2,7,stable,-0.2 ,-2.5, 2.2
+"Beaufort County",45013,***,7.6 ,6.1, 9.4,20,stable,0.4 ,-1.5, 2.2
+"Cherokee County",45021,***,7.6 ,4.8, 11.4,5,stable,0.0 ,-2.9, 3.0
+"Oconee County",45073,***,7.3 ,5.1, 10.3,8,stable,1.3 ,-0.7, 3.4
+"York County",45091,***,7.3 ,5.8, 9,18,stable,-0.2 ,-1.5, 1.1
+"Colleton County",45029,***,7.2 ,4.4, 11.6,4,*,*,*,*
+"Lexington County",45063,***,7.1 ,5.8, 8.6,21,stable,-1.2 ,-2.5, 0.1
+"Florence County",45041,***,7.1 ,5.3, 9.3,11,stable,-1.3 ,-3.2, 0.6
+"Greenville County",45045,***,6.9 ,5.9, 8,36,stable,-0.2 ,-1.1, 0.7
+"Lancaster County",45057,***,6.8 ,4.8, 9.5,8,stable,-0.4 ,-2.6, 1.8
+"Horry County",45051,***,6.8 ,5.6, 8.1,27,stable,0.1 ,-1.3, 1.5
+"Dorchester County",45035,***,6.8 ,4.9, 9.1,9,stable,0.6 ,-1.9, 3.1
+"Georgetown County",45043,***,6.7 ,4.5, 9.8,6,stable,-1.1 ,-3.2, 1.0
+"Anderson County",45007,***,6.7 ,5.3, 8.4,16,stable,-0.1 ,-1.5, 1.2
+"Spartanburg County",45083,***,6.6 ,5.4, 8,21,falling,-1.3 ,-2.4, -0.2
+"Berkeley County",45015,***,6.6 ,4.9, 8.6,11,stable,-0.5 ,-2.7, 1.9
+"Pickens County",45077,***,6.6 ,4.7, 8.9,9,stable,-0.1 ,-2.0, 1.8
+"Richland County",45079,***,6.6 ,5.4, 7.9,22,falling,-1.6 ,-2.7, -0.4
+"Greenwood County",45047,***,6.3 ,4.2, 9.3,6,stable,-1.2 ,-3.9, 1.4
+"Chesterfield County",45025,***,6.2 ,3.6, 10,4,*,*,*,*
+"Sumter County",45085,***,6 ,4.2, 8.4,7,stable,-1.0 ,-3.2, 1.2
+"Orangeburg County",45075,***,5.9 ,4.1, 8.3,7,stable,-1.1 ,-3.0, 0.8
+"Charleston County",45019,***,5.8 ,4.8, 6.9,24,stable,-0.9 ,-1.9, 0.1
+"Abbeville County",45001,***,* ,*, *,3 or fewer,*,*,*,*
+"Allendale County",45005,***,* ,*, *,3 or fewer,*,*,*,*
+"Bamberg County",45009,***,* ,*, *,3 or fewer,*,*,*,*
+"Barnwell County",45011,***,* ,*, *,3 or fewer,*,*,*,*
+"Calhoun County",45017,***,* ,*, *,3 or fewer,*,*,*,*
+"Clarendon County",45027,***,* ,*, *,3 or fewer,*,*,*,*
+"Dillon County",45033,***,* ,*, *,3 or fewer,*,*,*,*
+"Edgefield County",45037,***,* ,*, *,3 or fewer,*,*,*,*
+"Fairfield County",45039,***,* ,*, *,3 or fewer,*,*,*,*
+"Hampton County",45049,***,* ,*, *,3 or fewer,*,*,*,*
+"Jasper County",45053,***,* ,*, *,3 or fewer,*,*,*,*
+"Lee County",45061,***,* ,*, *,3 or fewer,*,*,*,*
+"Marion County",45067,***,* ,*, *,3 or fewer,*,*,*,*
+"McCormick County",45065,***,* ,*, *,3 or fewer,*,*,*,*
+"Newberry County",45071,***,* ,*, *,3 or fewer,*,*,*,*
+"Saluda County",45081,***,* ,*, *,3 or fewer,*,*,*,*
+"Williamsburg County",45089,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:21 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

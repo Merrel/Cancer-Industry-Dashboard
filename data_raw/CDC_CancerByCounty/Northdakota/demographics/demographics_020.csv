@@ -1,0 +1,73 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=38&areatype=county&topic=pop&demo=00024&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '38', 'areatype': 'county', 'topic': 'pop', 'demo': '00024', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_020.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=38&areatype=county&topic=pop&demo=00024&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for North Dakota by County
+Population: Asian / Pacific Islander
+"All Ages, Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (API),Rank within US
+"North Dakota",38000,1.4,10538,"43 of 52"
+"United States",00000,5.5,17756436,"N/A"
+"Billings County",38007,0.0,0,"2927 of 3141"
+"Bowman County",38011,0.0,0,"2927 of 3141"
+"Cavalier County",38019,0.0,0,"2927 of 3141"
+"Golden Valley County",38033,0.0,0,"2927 of 3141"
+"Griggs County",38039,0.0,0,"2927 of 3141"
+"LaMoure County",38045,0.0,0,"2927 of 3141"
+"McLean County",38055,0.0,0,"2927 of 3141"
+"Nelson County",38063,0.0,0,"2927 of 3141"
+"Pierce County",38069,0.0,0,"2927 of 3141"
+"Sheridan County",38083,0.0,0,"2927 of 3141"
+"Slope County",38087,0.0,0,"2927 of 3141"
+"Steele County",38091,0.0,0,"2927 of 3141"
+"Wells County",38103,0.0,0,"2927 of 3141"
+"Burke County",38013,0.0,1,"2875 of 3141"
+"Grant County",38037,0.1,2,"2816 of 3141"
+"Sioux County",38085,0.1,4,"2805 of 3141"
+"McHenry County",38049,0.1,7,"2744 of 3141"
+"Eddy County",38027,0.1,3,"2722 of 3141"
+"Benson County",38005,0.1,9,"2717 of 3141"
+"Towner County",38095,0.1,3,"2711 of 3141"
+"Morton County",38059,0.1,43,"2693 of 3141"
+"Kidder County",38043,0.2,4,"2659 of 3141"
+"Hettinger County",38041,0.2,5,"2599 of 3141"
+"Foster County",38031,0.2,8,"2506 of 3141"
+"Logan County",38047,0.3,5,"2471 of 3141"
+"Bottineau County",38009,0.3,22,"2322 of 3141"
+"Rolette County",38079,0.3,49,"2316 of 3141"
+"Mercer County",38057,0.4,33,"2197 of 3141"
+"Oliver County",38065,0.4,7,"2193 of 3141"
+"Sargent County",38081,0.4,16,"2115 of 3141"
+"Richland County",38077,0.4,70,"2073 of 3141"
+"Dickey County",38021,0.4,22,"2051 of 3141"
+"Mountrail County",38061,0.4,44,"2041 of 3141"
+"Traill County",38097,0.4,36,"2020 of 3141"
+"Pembina County",38067,0.5,32,"2000 of 3141"
+"Renville County",38075,0.5,13,"1854 of 3141"
+"Ramsey County",38071,0.6,66,"1723 of 3141"
+"McKenzie County",38053,0.6,68,"1699 of 3141"
+"Barnes County",38003,0.6,69,"1600 of 3141"
+"Ransom County",38073,0.6,35,"1568 of 3141"
+"Stutsman County",38093,0.7,137,"1559 of 3141"
+"Williams County",38105,0.7,228,"1482 of 3141"
+"Burleigh County",38015,0.8,731,"1311 of 3141"
+"Emmons County",38029,0.9,29,"1230 of 3141"
+"Walsh County",38099,1.0,109,"1080 of 3141"
+"McIntosh County",38051,1.0,27,"1068 of 3141"
+"Stark County",38089,1.2,377,"855 of 3141"
+"Divide County",38023,1.5,36,"703 of 3141"
+"Ward County",38101,1.6,1110,"663 of 3141"
+"Dunn County",38025,1.7,73,"634 of 3141"
+"Adams County",38001,2.6,62,"398 of 3141"
+"Grand Forks County",38035,2.7,1876,"382 of 3141"
+"Cass County",38017,3.0,5067,"336 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:20 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Asian / Pacific Islander, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

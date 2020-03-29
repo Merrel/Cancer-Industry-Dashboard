@@ -1,0 +1,61 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=34&areatype=county&cancer=001&race=01&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '34', 'areatype': 'county', 'cancer': '001', 'race': '01', 'sex': '0', 'age': '001', 'type': 'death', 'file_name': 'deathrates_023.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=34&areatype=county&cancer=001&race=01&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for New Jersey by County
+
+"All Cancer Sites, 2012-2016"
+
+"White (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 161.4?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"New Jersey",34000,Yes,157.5 ,156.3, 158.7,13799,falling,-1.9 ,-2.0, -1.8
+"United States",00000,No,161.5 ,161.3, 161.7,501895,falling,-1.4 ,-1.4, -1.4
+"Cumberland County",34011,No,188.7 ,178.7, 199.2,271,falling,-0.8 ,-1.1, -0.5
+"Cape May County",34009,No,185.1 ,175.3, 195.5,295,falling,-1.1 ,-1.4, -0.9
+"Salem County",34033,No,184.9 ,170.9, 199.8,137,falling,-1.0 ,-1.4, -0.5
+"Gloucester County",34015,No,183.4 ,176.4, 190.6,538,falling,-2.2 ,-2.8, -1.5
+"Camden County",34007,No,175.7 ,170.2, 181.4,817,falling,-1.8 ,-2.1, -1.5
+"Atlantic County",34001,No,175.1 ,168, 182.4,482,falling,-2.2 ,-3.0, -1.5
+"Warren County",34041,No,172 ,162, 182.6,230,falling,-1.0 ,-1.4, -0.7
+"Burlington County",34005,No,169 ,163.7, 174.6,781,falling,-1.3 ,-1.5, -1.1
+"Ocean County",34029,No,167.4 ,163.5, 171.4,1536,falling,-1.4 ,-1.6, -1.2
+"Sussex County",34037,No,166.7 ,157.7, 176.1,278,falling,-1.5 ,-1.8, -1.2
+"Middlesex County",34023,Yes,161 ,156.8, 165.4,1131,falling,-1.3 ,-1.6, -1.1
+"Passaic County",34031,Yes,152.5 ,147.3, 157.7,694,falling,-1.9 ,-2.1, -1.6
+"Monmouth County",34025,Yes,151.4 ,147.2, 155.6,1075,falling,-2.8 ,-3.1, -2.4
+"Mercer County",34021,Yes,149.9 ,143.8, 156.2,484,falling,-1.8 ,-2.1, -1.5
+"Somerset County",34035,Yes,149.5 ,143.4, 155.9,475,falling,-1.6 ,-1.8, -1.3
+"Bergen County",34003,Yes,147.7 ,144.3, 151.2,1510,falling,-1.8 ,-2.0, -1.7
+"Union County",34039,Yes,145.9 ,140.8, 151,677,falling,-1.8 ,-2.0, -1.6
+"Hudson County",34017,Yes,144.8 ,139.8, 149.8,666,falling,-2.2 ,-2.4, -2.0
+"Morris County",34027,Yes,144.5 ,140.1, 149.2,818,falling,-2.4 ,-2.9, -1.8
+"Hunterdon County",34019,Yes,143.8 ,135.1, 152.9,220,falling,-1.8 ,-2.2, -1.5
+"Essex County",34013,Yes,141.5 ,136.7, 146.5,686,falling,-2.0 ,-2.2, -1.8
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:19 pm.
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

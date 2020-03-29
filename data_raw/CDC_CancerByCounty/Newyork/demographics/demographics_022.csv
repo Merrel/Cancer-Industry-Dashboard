@@ -1,0 +1,82 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=36&areatype=county&topic=pop&demo=00014&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '36', 'areatype': 'county', 'topic': 'pop', 'demo': '00014', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_022.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=36&areatype=county&topic=pop&demo=00014&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for New York by County
+Population: Foreign born
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Foreign Born),Rank within US
+"United States",00000,13.4,43028127,"N/A"
+"New York",36000,22.7,4490656,"2 of 51"
+"Lewis County",36049,1.5,399,"2260 of 3140"
+"Chenango County",36017,1.7,815,"2128 of 3140"
+"Schuyler County",36097,1.7,305,"2123 of 3140"
+"Wyoming County",36121,1.8,728,"2043 of 3140"
+"Oswego County",36075,1.8,2213,"2018 of 3140"
+"Yates County",36123,1.9,468,"1997 of 3140"
+"Genesee County",36037,1.9,1093,"1995 of 3140"
+"Cattaraugus County",36009,2.0,1525,"1952 of 3140"
+"Cortland County",36023,2.0,961,"1935 of 3140"
+"Tioga County",36107,2.0,1007,"1913 of 3140"
+"Fulton County",36035,2.0,1105,"1906 of 3140"
+"Washington County",36115,2.1,1279,"1895 of 3140"
+"Chautauqua County",36013,2.1,2781,"1852 of 3140"
+"Cayuga County",36011,2.2,1689,"1834 of 3140"
+"Seneca County",36099,2.2,778,"1791 of 3140"
+"Madison County",36053,2.4,1742,"1707 of 3140"
+"Allegany County",36003,2.4,1154,"1704 of 3140"
+"Herkimer County",36043,2.5,1602,"1652 of 3140"
+"Steuben County",36101,2.8,2706,"1524 of 3140"
+"Chemung County",36015,2.8,2431,"1516 of 3140"
+"Hamilton County",36041,2.8,132,"1496 of 3140"
+"Wayne County",36117,2.9,2657,"1475 of 3140"
+"Schoharie County",36095,2.9,930,"1452 of 3140"
+"Essex County",36031,3.0,1140,"1430 of 3140"
+"Orleans County",36073,3.4,1406,"1298 of 3140"
+"Montgomery County",36057,3.4,1700,"1276 of 3140"
+"Warren County",36113,3.6,2303,"1241 of 3140"
+"Livingston County",36051,3.6,2292,"1240 of 3140"
+"Otsego County",36077,3.6,2202,"1223 of 3140"
+"Jefferson County",36045,3.7,4272,"1213 of 3140"
+"Ontario County",36069,3.9,4281,"1146 of 3140"
+"Niagara County",36063,4.0,8457,"1126 of 3140"
+"St. Lawrence County",36089,4.1,4493,"1098 of 3140"
+"Clinton County",36019,4.4,3558,"1026 of 3140"
+"Franklin County",36033,4.5,2296,"1009 of 3140"
+"Delaware County",36025,4.6,2112,"987 of 3140"
+"Rensselaer County",36083,4.9,7838,"935 of 3140"
+"Saratoga County",36091,5.3,12012,"868 of 3140"
+"Greene County",36039,6.1,2896,"735 of 3140"
+"Broome County",36007,6.7,13208,"644 of 3140"
+"Columbia County",36021,6.8,4185,"634 of 3140"
+"Erie County",36029,6.8,63161,"630 of 3140"
+"Oneida County",36065,7.5,17492,"552 of 3140"
+"Onondaga County",36067,7.6,35494,"546 of 3140"
+"Ulster County",36111,7.8,13983,"530 of 3140"
+"Monroe County",36055,8.5,63981,"461 of 3140"
+"Sullivan County",36105,9.4,7155,"378 of 3140"
+"Albany County",36001,9.8,30358,"364 of 3140"
+"Schenectady County",36093,10.6,16496,"312 of 3140"
+"Orange County",36071,10.8,40838,"301 of 3140"
+"Dutchess County",36027,11.3,33491,"275 of 3140"
+"Tompkins County",36109,13.2,13752,"217 of 3140"
+"Putnam County",36079,13.3,13204,"215 of 3140"
+"Suffolk County",36103,15.6,232911,"178 of 3140"
+"Rockland County",36087,21.4,69505,"94 of 3140"
+"Nassau County",36059,22.0,299616,"87 of 3140"
+"Richmond County",36085,22.2,105858,"82 of 3140"
+"Westchester County",36119,25.4,247970,"54 of 3140"
+"New York County",36061,28.9,477457,"35 of 3140"
+"Bronx County",36005,35.3,513499,"11 of 3140"
+"Kings County",36047,36.9,971504,"7 of 3140"
+"Queens County",36081,47.5,1111780,"2 of 3140"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:19 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Foreign born, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

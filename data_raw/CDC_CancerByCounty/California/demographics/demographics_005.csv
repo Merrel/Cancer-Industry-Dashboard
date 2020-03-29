@@ -1,0 +1,79 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=06&areatype=county&topic=inc&demo=00011&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '06', 'areatype': 'county', 'topic': 'inc', 'demo': '00011', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_005.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=06&areatype=county&topic=inc&demo=00011&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for California by County
+Income: Median household income
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Dollars),Rank within US
+"United States",00000,57652.000000000,"N/A"
+"California",06000,67169.000000000,"10 of 52"
+"Trinity County",06105,36563.000000000,"2756 of 3141"
+"Modoc County",06049,39296.000000000,"2533 of 3141"
+"Lake County",06033,40446.000000000,"2435 of 3141"
+"Siskiyou County",06093,40884.000000000,"2384 of 3141"
+"Del Norte County",06015,41287.000000000,"2329 of 3141"
+"Tehama County",06103,42512.000000000,"2191 of 3141"
+"Humboldt County",06023,43718.000000000,"2064 of 3141"
+"Sierra County",06091,44190.000000000,"2018 of 3141"
+"Imperial County",06025,44779.000000000,"1953 of 3141"
+"Tulare County",06107,44871.000000000,"1941 of 3141"
+"Glenn County",06021,46260.000000000,"1780 of 3141"
+"Merced County",06047,46338.000000000,"1767 of 3141"
+"Butte County",06007,46516.000000000,"1742 of 3141"
+"Mendocino County",06045,46528.000000000,"1740 of 3141"
+"Shasta County",06089,47258.000000000,"1658 of 3141"
+"Madera County",06039,48210.000000000,"1554 of 3141"
+"Fresno County",06019,48730.000000000,"1488 of 3141"
+"Kings County",06031,49742.000000000,"1387 of 3141"
+"Plumas County",06063,50266.000000000,"1329 of 3141"
+"Kern County",06029,50826.000000000,"1259 of 3141"
+"Mariposa County",06043,51385.000000000,"1192 of 3141"
+"Inyo County",06027,51500.000000000,"1171 of 3141"
+"Yuba County",06115,51776.000000000,"1142 of 3141"
+"Lassen County",06035,54083.000000000,"912 of 3141"
+"Stanislaus County",06099,54260.000000000,"899 of 3141"
+"Tuolumne County",06109,54325.000000000,"895 of 3141"
+"Sutter County",06101,54347.000000000,"893 of 3141"
+"Calaveras County",06009,54800.000000000,"852 of 3141"
+"Colusa County",06011,56481.000000000,"727 of 3141"
+"San Bernardino County",06071,57156.000000000,"691 of 3141"
+"San Joaquin County",06077,57813.000000000,"641 of 3141"
+"Sacramento County",06067,60239.000000000,"511 of 3141"
+"Mono County",06051,60595.000000000,"494 of 3141"
+"Nevada County",06057,60610.000000000,"489 of 3141"
+"Amador County",06005,60636.000000000,"487 of 3141"
+"Riverside County",06065,60807.000000000,"478 of 3141"
+"Los Angeles County",06037,61015.000000000,"465 of 3141"
+"Yolo County",06113,61621.000000000,"439 of 3141"
+"Monterey County",06053,63249.000000000,"368 of 3141"
+"Alpine County",06003,63438.000000000,"360 of 3141"
+"San Luis Obispo County",06079,67175.000000000,"266 of 3141"
+"Santa Barbara County",06083,68023.000000000,"247 of 3141"
+"San Diego County",06073,70588.000000000,"215 of 3141"
+"Sonoma County",06097,71769.000000000,"196 of 3141"
+"Solano County",06095,72950.000000000,"182 of 3141"
+"Santa Cruz County",06087,73663.000000000,"173 of 3141"
+"El Dorado County",06017,74885.000000000,"159 of 3141"
+"Napa County",06055,79637.000000000,"113 of 3141"
+"Placer County",06061,80488.000000000,"103 of 3141"
+"San Benito County",06069,80760.000000000,"101 of 3141"
+"Orange County",06059,81851.000000000,"89 of 3141"
+"Ventura County",06111,81972.000000000,"88 of 3141"
+"Alameda County",06001,85743.000000000,"64 of 3141"
+"Contra Costa County",06013,88456.000000000,"57 of 3141"
+"San Francisco County",06075,96265.000000000,"24 of 3141"
+"Marin County",06041,104703.000000000,"15 of 3141"
+"San Mateo County",06081,105667.000000000,"14 of 3141"
+"Santa Clara County",06085,106761.000000000,"11 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:14 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Income: Median household income, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#income."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"Median Incomes over 250,000 have been coded to 250,001 by the Census Bureau. [ http://www2.census.gov/acs2012_5yr/summaryfile/ACS_2008-2012_SF_Tech_Doc.pdf ]"
+Data for United States does not include Puerto Rico.

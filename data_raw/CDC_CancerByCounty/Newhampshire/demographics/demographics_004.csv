@@ -1,0 +1,31 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=33&areatype=county&topic=inc&demo=00010&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '33', 'areatype': 'county', 'topic': 'inc', 'demo': '00010', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_004.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=33&areatype=county&topic=inc&demo=00010&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for New Hampshire by County
+Income: Median family income
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Dollars),Rank within US
+"United States",00000,70850.000000000,"N/A"
+"New Hampshire",33000,86949.000000000,"8 of 52"
+"Coos County",33007,58266.000000000,"1733 of 3141"
+"Carroll County",33003,67703.000000000,"863 of 3141"
+"Sullivan County",33019,72382.000000000,"592 of 3141"
+"Cheshire County",33005,76112.000000000,"418 of 3141"
+"Belknap County",33001,77620.000000000,"370 of 3141"
+"Grafton County",33009,77742.000000000,"363 of 3141"
+"Strafford County",33017,83941.000000000,"235 of 3141"
+"Merrimack County",33013,86170.000000000,"211 of 3141"
+"Hillsborough County",33011,91499.000000000,"144 of 3141"
+"Rockingham County",33015,103321.000000000,"70 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:17 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Income: Median family income, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#income."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"Median Incomes over 250,000 have been coded to 250,001 by the Census Bureau. [ http://www2.census.gov/acs2012_5yr/summaryfile/ACS_2008-2012_SF_Tech_Doc.pdf ]"
+Data for United States does not include Puerto Rico.

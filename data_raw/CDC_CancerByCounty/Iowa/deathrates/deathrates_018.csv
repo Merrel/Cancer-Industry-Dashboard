@@ -1,0 +1,140 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=19&areatype=county&cancer=066&race=00&sex=1&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '19', 'areatype': 'county', 'cancer': '066', 'race': '00', 'sex': '1', 'age': '001', 'type': 'death', 'file_name': 'deathrates_018.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=19&areatype=county&cancer=066&race=00&sex=1&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for Iowa by County
+
+"Prostate, 2012-2016"
+
+"All Races (includes Hispanic), Male, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 21.8?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Iowa",19000,Yes,19.7 ,18.7, 20.6,324,falling,-3.0 ,-3.3, -2.7
+"United States",00000,Yes,19.2 ,19.1, 19.3,28497,stable,-0.8 ,-2.1, 0.5
+"Jackson County",19097,No,36.2 ,22.9, 55.3,5,stable,-2.3 ,-4.6, 0.0
+"Carroll County",19027,No,34.9 ,22.5, 52.6,5,*,*,*,*
+"Hardin County",19083,No,33.3 ,20.8, 52,4,stable,-0.6 ,-2.4, 1.3
+"Story County",19169,No,29.9 ,22.2, 39.4,10,falling,-2.3 ,-4.0, -0.5
+"Butler County",19023,No,27.3 ,15.5, 46.4,3,*,*,*,*
+"Fayette County",19065,No,26.8 ,15.9, 43.2,4,*,*,*,*
+"Muscatine County",19139,No,25.8 ,16.6, 38.1,5,stable,-1.2 ,-2.9, 0.5
+"Washington County",19183,No,25.1 ,14.5, 40.9,3,*,*,*,*
+"Bremer County",19017,No,24 ,14.2, 38.5,4,falling,-4.5 ,-6.8, -2.0
+"Winneshiek County",19191,No,23.2 ,13.2, 38.9,3,stable,-0.5 ,-2.8, 1.9
+"Scott County",19163,No,22.9 ,18.3, 28.3,18,falling,-2.0 ,-2.9, -1.1
+"Dickinson County",19059,No,22.6 ,12.9, 38.7,3,*,*,*,*
+"Marshall County",19127,No,22.4 ,14.9, 32.6,6,falling,-3.0 ,-5.1, -0.9
+"Sioux County",19167,No,22.1 ,13.6, 34.1,4,*,*,*,*
+"Webster County",19187,No,22 ,13.9, 33.2,5,*,*,*,*
+"Boone County",19015,Yes,21.6 ,12.3, 35.6,3,falling,-3.3 ,-5.4, -1.1
+"Johnson County",19103,Yes,21 ,15.3, 27.8,10,falling,-2.1 ,-3.9, -0.2
+"Woodbury County",19193,Yes,20.7 ,15.2, 27.6,9,stable,-1.5 ,-3.0, 0.0
+"Pottawattamie County",19155,Yes,20.4 ,15.1, 27,10,stable,-1.2 ,-2.9, 0.5
+"Polk County",19153,Yes,20.1 ,17.1, 23.4,34,falling,-3.1 ,-3.9, -2.3
+"Lee County",19111,Yes,19.9 ,11.9, 31.3,4,falling,-2.4 ,-4.4, -0.3
+"Dallas County",19049,Yes,19.4 ,12.7, 28,6,falling,-2.9 ,-4.8, -0.9
+"Marion County",19125,Yes,19 ,11, 30.7,3,falling,-2.6 ,-4.5, -0.6
+"Black Hawk County",19013,Yes,18.8 ,14.4, 24.1,13,falling,-4.3 ,-6.0, -2.6
+"Jasper County",19099,Yes,17.5 ,10.6, 27.3,4,*,*,*,*
+"Clinton County",19045,Yes,16.4 ,10.5, 24.7,5,stable,-2.1 ,-4.6, 0.5
+"Cerro Gordo County",19033,Yes,16.3 ,10.4, 24.8,5,stable,-2.0 ,-4.4, 0.4
+"Linn County",19113,Yes,16.2 ,12.9, 20.1,17,falling,-3.9 ,-4.8, -2.9
+"Warren County",19181,Yes,15.9 ,9.3, 25.3,4,*,*,*,*
+"Des Moines County",19057,Yes,15.8 ,9.5, 25.1,4,falling,-4.6 ,-6.0, -3.2
+"Dubuque County",19061,Yes,13.2 ,9.1, 18.6,7,falling,-4.1 ,-5.8, -2.4
+"Adair County",19001,***,* ,*, *,3 or fewer,*,*,*,*
+"Adams County",19003,***,* ,*, *,3 or fewer,*,*,*,*
+"Allamakee County",19005,***,* ,*, *,3 or fewer,*,*,*,*
+"Appanoose County",19007,***,* ,*, *,3 or fewer,*,*,*,*
+"Audubon County",19009,***,* ,*, *,3 or fewer,*,*,*,*
+"Benton County",19011,***,* ,*, *,3 or fewer,*,*,*,*
+"Buchanan County",19019,***,* ,*, *,3 or fewer,*,*,*,*
+"Buena Vista County",19021,***,* ,*, *,3 or fewer,*,*,*,*
+"Calhoun County",19025,***,* ,*, *,3 or fewer,*,*,*,*
+"Cass County",19029,***,* ,*, *,3 or fewer,*,*,*,*
+"Cedar County",19031,***,* ,*, *,3 or fewer,*,*,*,*
+"Cherokee County",19035,***,* ,*, *,3 or fewer,*,*,*,*
+"Chickasaw County",19037,***,* ,*, *,3 or fewer,*,*,*,*
+"Clarke County",19039,***,* ,*, *,3 or fewer,*,*,*,*
+"Clay County",19041,***,* ,*, *,3 or fewer,*,*,*,*
+"Clayton County",19043,***,* ,*, *,3 or fewer,*,*,*,*
+"Crawford County",19047,***,* ,*, *,3 or fewer,*,*,*,*
+"Davis County",19051,***,* ,*, *,3 or fewer,*,*,*,*
+"Decatur County",19053,***,* ,*, *,3 or fewer,*,*,*,*
+"Delaware County",19055,***,* ,*, *,3 or fewer,*,*,*,*
+"Emmet County",19063,***,* ,*, *,3 or fewer,*,*,*,*
+"Floyd County",19067,***,* ,*, *,3 or fewer,*,*,*,*
+"Franklin County",19069,***,* ,*, *,3 or fewer,*,*,*,*
+"Fremont County",19071,***,* ,*, *,3 or fewer,*,*,*,*
+"Greene County",19073,***,* ,*, *,3 or fewer,*,*,*,*
+"Grundy County",19075,***,* ,*, *,3 or fewer,*,*,*,*
+"Guthrie County",19077,***,* ,*, *,3 or fewer,*,*,*,*
+"Hamilton County",19079,***,* ,*, *,3 or fewer,*,*,*,*
+"Hancock County",19081,***,* ,*, *,3 or fewer,*,*,*,*
+"Harrison County",19085,***,* ,*, *,3 or fewer,*,*,*,*
+"Henry County",19087,***,* ,*, *,3 or fewer,*,*,*,*
+"Howard County",19089,***,* ,*, *,3 or fewer,*,*,*,*
+"Humboldt County",19091,***,* ,*, *,3 or fewer,*,*,*,*
+"Ida County",19093,***,* ,*, *,3 or fewer,*,*,*,*
+"Iowa County",19095,***,* ,*, *,3 or fewer,*,*,*,*
+"Jefferson County",19101,***,* ,*, *,3 or fewer,*,*,*,*
+"Jones County",19105,***,* ,*, *,3 or fewer,*,*,*,*
+"Keokuk County",19107,***,* ,*, *,3 or fewer,*,*,*,*
+"Kossuth County",19109,***,* ,*, *,3 or fewer,*,*,*,*
+"Louisa County",19115,***,* ,*, *,3 or fewer,*,*,*,*
+"Lucas County",19117,***,* ,*, *,3 or fewer,*,*,*,*
+"Lyon County",19119,***,* ,*, *,3 or fewer,*,*,*,*
+"Madison County",19121,***,* ,*, *,3 or fewer,*,*,*,*
+"Mahaska County",19123,***,* ,*, *,3 or fewer,*,*,*,*
+"Mills County",19129,***,* ,*, *,3 or fewer,*,*,*,*
+"Mitchell County",19131,***,* ,*, *,3 or fewer,*,*,*,*
+"Monona County",19133,***,* ,*, *,3 or fewer,*,*,*,*
+"Monroe County",19135,***,* ,*, *,3 or fewer,*,*,*,*
+"Montgomery County",19137,***,* ,*, *,3 or fewer,*,*,*,*
+"O'Brien County",19141,***,* ,*, *,3 or fewer,*,*,*,*
+"Osceola County",19143,***,* ,*, *,3 or fewer,*,*,*,*
+"Page County",19145,***,* ,*, *,3 or fewer,*,*,*,*
+"Palo Alto County",19147,***,* ,*, *,3 or fewer,*,*,*,*
+"Plymouth County",19149,***,* ,*, *,3 or fewer,*,*,*,*
+"Pocahontas County",19151,***,* ,*, *,3 or fewer,*,*,*,*
+"Poweshiek County",19157,***,* ,*, *,3 or fewer,*,*,*,*
+"Ringgold County",19159,***,* ,*, *,3 or fewer,*,*,*,*
+"Sac County",19161,***,* ,*, *,3 or fewer,*,*,*,*
+"Shelby County",19165,***,* ,*, *,3 or fewer,*,*,*,*
+"Tama County",19171,***,* ,*, *,3 or fewer,*,*,*,*
+"Taylor County",19173,***,* ,*, *,3 or fewer,*,*,*,*
+"Union County",19175,***,* ,*, *,3 or fewer,*,*,*,*
+"Van Buren County",19177,***,* ,*, *,3 or fewer,*,*,*,*
+"Wapello County",19179,***,* ,*, *,3 or fewer,*,*,*,*
+"Wayne County",19185,***,* ,*, *,3 or fewer,*,*,*,*
+"Winnebago County",19189,***,* ,*, *,3 or fewer,*,*,*,*
+"Worth County",19195,***,* ,*, *,3 or fewer,*,*,*,*
+"Wright County",19197,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:15 pm.
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

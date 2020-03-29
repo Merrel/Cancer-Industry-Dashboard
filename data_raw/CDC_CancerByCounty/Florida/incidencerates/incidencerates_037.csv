@@ -1,0 +1,107 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=12&areatype=county&cancer=001&race=00&sex=0&age=136&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '12', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '0', 'age': '136', 'type': 'incd', 'file_name': 'incidencerates_037.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=12&areatype=county&cancer=001&race=00&sex=0&age=136&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Florida by County
+
+"All Cancer Sites (All Stages^), 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, Ages 50+"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Florida(6,10)",12000,***,1355.8 ,1352.2, 1359.4,108853,stable,-2.0 ,-4.1, 0.2
+"US (SEER+NPCR)(1,10)",00000,***,1350.2 ,1349.2, 1351.2,1428518,falling,-1.1 ,-1.8, -0.3
+"Union County(6,10)",12125,***,2910.8 ,2702.1, 3132.1,160,stable,-3.8 ,-7.8, 0.5
+"Nassau County(6,10)",12089,***,1614.4 ,1552, 1678.7,529,stable,0.2 ,-5.9, 6.6
+"Duval County(6,10)",12031,***,1584.2 ,1562.6, 1606,4338,stable,-1.4 ,-3.4, 0.7
+"Hernando County(6,10)",12053,***,1584.1 ,1547.4, 1621.5,1489,falling,-2.2 ,-4.2, -0.3
+"Marion County(6,10)",12083,***,1542.6 ,1516.3, 1569.3,2782,stable,-1.1 ,-3.6, 1.5
+"Clay County(6,10)",12019,***,1531 ,1487.3, 1575.7,985,stable,-0.5 ,-5.2, 4.4
+"Levy County(6,10)",12075,***,1513.5 ,1434.5, 1595.7,285,falling,-3.8 ,-5.9, -1.6
+"Citrus County(6,10)",12017,***,1511.5 ,1474, 1549.6,1372,stable,-2.8 ,-6.2, 0.8
+"Lake County(6,10)",12069,***,1501.4 ,1474, 1529.1,2405,stable,-1.8 ,-5.5, 2.1
+"Dixie County(6,10)",12029,***,1499.1 ,1376, 1630.3,113,stable,-0.1 ,-11.5, 12.8
+"Pasco County(6,10)",12101,***,1488.2 ,1465.2, 1511.5,3259,stable,-2.8 ,-5.9, 0.3
+"Columbia County(6,10)",12023,***,1485.6 ,1419.4, 1554.2,388,falling,-1.9 ,-3.3, -0.4
+"Putnam County(6,10)",12107,***,1478.7 ,1419.6, 1539.6,482,stable,1.3 ,-4.3, 7.2
+"Polk County(6,10)",12105,***,1470.4 ,1449.2, 1491.8,3766,stable,-2.0 ,-6.7, 2.9
+"Bay County(6,10)",12005,***,1464.1 ,1422.1, 1507,941,stable,-1.1 ,-6.7, 4.8
+"Okeechobee County(6,10)",12093,***,1460 ,1376.2, 1547.6,230,falling,-3.4 ,-6.4, -0.3
+"Escambia County(6,10)",12033,***,1448.9 ,1416.5, 1481.8,1560,stable,-0.4 ,-2.7, 2.1
+"Flagler County(6,10)",12035,***,1445.5 ,1400.1, 1492.1,815,stable,-2.4 ,-10.4, 6.3
+"Brevard County(6,10)",12009,***,1441.9 ,1421.4, 1462.6,3830,stable,-1.3 ,-4.8, 2.3
+"St. Johns County(6,10)",12109,***,1436 ,1399.7, 1473,1233,stable,0.8 ,-4.8, 6.7
+"Hillsborough County(6,10)",12057,***,1434.9 ,1418.1, 1451.8,5810,falling,-3.1 ,-4.4, -1.7
+"Suwannee County(6,10)",12121,***,1428.4 ,1351.2, 1508.9,261,rising,6.3 ,0.6, 12.2
+"Alachua County(6,10)",12001,***,1408 ,1369.1, 1447.7,1039,stable,-1.5 ,-5.8, 3.0
+"Pinellas County(6,10)",12103,***,1379.2 ,1363.7, 1394.8,6256,stable,-1.6 ,-4.1, 0.9
+"Taylor County(6,10)",12123,***,1376 ,1266.6, 1492.3,120,falling,-4.1 ,-7.8, -0.2
+"Sarasota County(6,10)",12115,***,1373.1 ,1351.8, 1394.7,3513,stable,-1.0 ,-7.5, 6.0
+"Okaloosa County(6,10)",12091,***,1371.6 ,1331.3, 1412.7,895,stable,-2.0 ,-6.2, 2.4
+"Santa Rosa County(6,10)",12113,***,1370.8 ,1326.3, 1416.5,748,stable,-2.2 ,-6.9, 2.7
+"Gulf County(6,10)",12045,***,1366.2 ,1239.9, 1501.9,88,stable,-2.1 ,-13.7, 10.9
+"Indian River County(6,10)",12061,***,1360.9 ,1324.4, 1398.1,1142,stable,-3.6 ,-7.8, 0.8
+"Bradford County(6,10)",12007,***,1360.5 ,1260.2, 1466.6,138,stable,-0.9 ,-6.8, 5.5
+"Hardee County(6,10)",12049,***,1348.3 ,1240.3, 1463.1,116,stable,-1.4 ,-9.0, 6.9
+"Martin County(6,10)",12085,***,1342.9 ,1307.8, 1378.7,1179,stable,-0.9 ,-9.0, 8.0
+"Franklin County(6,10)",12037,***,1337.9 ,1193.1, 1495.5,66,stable,-0.9 ,-10.2, 9.4
+"Volusia County(6,10)",12127,***,1337.2 ,1316.5, 1358.2,3258,stable,-1.4 ,-6.2, 3.5
+"Broward County(6,10)",12011,***,1333.9 ,1321.2, 1346.7,8696,stable,-1.5 ,-3.6, 0.6
+"Palm Beach County(6,10)",12099,***,1328.3 ,1315.6, 1341.2,8627,falling,-2.5 ,-4.5, -0.4
+"Seminole County(6,10)",12117,***,1326.3 ,1299.4, 1353.6,1932,stable,-1.8 ,-8.5, 5.5
+"Wakulla County(6,10)",12129,***,1324.6 ,1220, 1435.8,130,stable,-1.3 ,-9.3, 7.3
+"Gadsden County(6,10)",12039,***,1321.6 ,1243.8, 1403.1,223,stable,-0.2 ,-6.9, 7.0
+"Calhoun County(6,10)",12013,***,1318.8 ,1184.4, 1464.3,71,stable,5.0 ,-12.1, 25.4
+"Baker County(6,10)",12003,***,1316.7 ,1206.7, 1434.1,111,stable,-4.5 ,-18.2, 11.5
+"St. Lucie County(6,10)",12111,***,1313.3 ,1285.6, 1341.4,1749,stable,-1.5 ,-9.1, 6.8
+"Sumter County(6,10)",12119,***,1308.9 ,1269.5, 1349.2,1285,falling,-5.1 ,-8.2, -1.9
+"Lafayette County(6,10)",12067,***,1299.2 ,1113.4, 1507.2,35,stable,8.7 ,-5.6, 25.1
+"Charlotte County(6,10)",12015,***,1295.2 ,1264.5, 1326.4,1529,stable,-2.5 ,-11.0, 6.9
+"Osceola County(6,10)",12097,***,1288.3 ,1254.7, 1322.6,1154,stable,-0.3 ,-4.2, 3.7
+"Manatee County(6,10)",12081,***,1287.9 ,1263.9, 1312.2,2297,falling,-2.5 ,-4.8, -0.2
+"Orange County(6,10)",12095,***,1282.9 ,1265.3, 1300.7,4274,falling,-3.9 ,-5.8, -1.9
+"Monroe County(6,10)",12087,***,1282.7 ,1228.5, 1338.6,445,stable,-4.1 ,-13.8, 6.8
+"Highlands County(6,10)",12055,***,1265.1 ,1222, 1309.2,760,stable,-4.5 ,-9.6, 1.0
+"Gilchrist County(6,10)",12041,***,1244.8 ,1129.8, 1368.3,88,falling,-8.4 ,-14.0, -2.5
+"Miami-Dade County(6,10)",12086,***,1243.4 ,1233.1, 1253.8,11223,stable,-1.7 ,-4.8, 1.5
+"Lee County(6,10)",12071,***,1234 ,1217.1, 1251.1,4301,stable,-2.3 ,-4.9, 0.5
+"Leon County(6,10)",12073,***,1220.6 ,1184.6, 1257.4,929,stable,-2.1 ,-7.0, 3.2
+"Hamilton County(6,10)",12047,***,1220.3 ,1086.4, 1366.3,63,stable,1.2 ,-17.6, 24.3
+"Walton County(6,10)",12131,***,1197.6 ,1136.3, 1261.4,298,stable,0.3 ,-6.7, 7.9
+"DeSoto County(6,10)",12027,***,1187.6 ,1108.7, 1270.6,172,stable,-3.8 ,-10.2, 3.2
+"Jefferson County(6,10)",12065,***,1176.4 ,1057.6, 1304.9,75,stable,-1.4 ,-12.8, 11.5
+"Hendry County(6,10)",12051,***,1175.1 ,1086.8, 1268.6,133,stable,-1.8 ,-7.9, 4.7
+"Washington County(6,10)",12133,***,1150.3 ,1052.4, 1255,104,stable,5.2 ,-3.8, 14.9
+"Liberty County(6,10)",12077,***,1132.5 ,948.9, 1341.3,28,stable,-8.0 ,-30.7, 22.2
+"Collier County(6,10)",12021,***,1096.6 ,1074.9, 1118.6,2125,stable,-1.3 ,-5.2, 2.8
+"Madison County(6,10)",12079,***,1073 ,968.6, 1185.6,80,stable,-1.7 ,-15.6, 14.5
+"Glades County(6,10)",12043,***,1054.4 ,940.2, 1178.8,65,stable,-6.6 ,-15.4, 3.2
+"Jackson County(6,10)",12063,***,998.5 ,935.3, 1064.9,189,stable,2.1 ,-2.6, 6.9
+"Holmes County(6,10)",12059,***,844.3 ,755, 941.4,66,stable,-4.4 ,-24.2, 20.6
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:15 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

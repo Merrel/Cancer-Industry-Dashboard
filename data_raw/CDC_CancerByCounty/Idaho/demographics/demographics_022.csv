@@ -1,0 +1,64 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=16&areatype=county&topic=pop&demo=00014&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '16', 'areatype': 'county', 'topic': 'pop', 'demo': '00014', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_022.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=16&areatype=county&topic=pop&demo=00014&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Idaho by County
+Population: Foreign born
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Foreign Born),Rank within US
+"Idaho",16000,5.9,98457,"30 of 51"
+"United States",00000,13.4,43028127,"N/A"
+"Valley County",16085,0.8,84,"2768 of 3140"
+"Custer County",16037,1.1,44,"2600 of 3140"
+"Butte County",16023,1.1,28,"2592 of 3140"
+"Nez Perce County",16069,1.4,556,"2325 of 3140"
+"Idaho County",16049,1.6,265,"2159 of 3140"
+"Benewah County",16009,1.7,150,"2138 of 3140"
+"Shoshone County",16079,1.7,216,"2084 of 3140"
+"Adams County",16003,1.8,70,"2050 of 3140"
+"Boise County",16015,1.9,134,"1966 of 3140"
+"Lewis County",16061,2.1,80,"1870 of 3140"
+"Clearwater County",16035,2.3,193,"1774 of 3140"
+"Kootenai County",16055,2.3,3402,"1772 of 3140"
+"Caribou County",16029,2.6,175,"1649 of 3140"
+"Bonner County",16017,2.7,1137,"1561 of 3140"
+"Bear Lake County",16007,2.7,162,"1553 of 3140"
+"Lemhi County",16059,3.0,235,"1408 of 3140"
+"Oneida County",16071,3.2,136,"1356 of 3140"
+"Franklin County",16041,3.3,436,"1312 of 3140"
+"Gem County",16045,3.5,585,"1266 of 3140"
+"Boundary County",16021,3.9,444,"1144 of 3140"
+"Bannock County",16005,4.1,3408,"1099 of 3140"
+"Jefferson County",16051,4.3,1167,"1048 of 3140"
+"Fremont County",16043,4.5,582,"1004 of 3140"
+"Madison County",16065,4.7,1781,"978 of 3140"
+"Camas County",16025,5.2,46,"888 of 3140"
+"Latah County",16057,5.5,2137,"827 of 3140"
+"Bonneville County",16019,5.5,6108,"824 of 3140"
+"Ada County",16001,5.8,25051,"781 of 3140"
+"Bingham County",16011,6.3,2851,"705 of 3140"
+"Payette County",16075,6.4,1456,"690 of 3140"
+"Washington County",16087,7.3,729,"572 of 3140"
+"Canyon County",16027,7.9,16436,"515 of 3140"
+"Twin Falls County",16083,8.2,6774,"486 of 3140"
+"Teton County",16081,8.8,953,"426 of 3140"
+"Elmore County",16039,10.0,2614,"362 of 3140"
+"Owyhee County",16073,10.5,1199,"318 of 3140"
+"Power County",16077,11.4,875,"271 of 3140"
+"Cassia County",16031,11.6,2714,"268 of 3140"
+"Lincoln County",16063,13.4,709,"209 of 3140"
+"Gooding County",16047,14.1,2136,"200 of 3140"
+"Blaine County",16013,14.2,3055,"199 of 3140"
+"Jerome County",16053,15.8,3630,"173 of 3140"
+"Minidoka County",16067,16.0,3263,"167 of 3140"
+"Clark County",16033,23.8,251,"66 of 3140"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:15 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Foreign born, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

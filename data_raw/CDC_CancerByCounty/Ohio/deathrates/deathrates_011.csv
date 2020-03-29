@@ -1,0 +1,130 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=39&areatype=county&cancer=035&race=00&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '39', 'areatype': 'county', 'cancer': '035', 'race': '00', 'sex': '0', 'age': '001', 'type': 'death', 'file_name': 'deathrates_011.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=39&areatype=county&cancer=035&race=00&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for Ohio by County
+
+"Liver & Bile Duct, 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Ohio",39000,***,5.9 ,5.7, 6.1,870,rising,2.7 ,2.5, 2.9
+"United States",00000,***,6.5 ,6.5, 6.6,24806,rising,1.3 ,0.6, 1.9
+"Gallia County",39053,***,12.1 ,7.6, 18.4,5,*,*,*,*
+"Lawrence County",39087,***,7.9 ,5.3, 11.5,6,rising,2.6 ,0.3, 5.0
+"Clark County",39023,***,7.6 ,5.9, 9.6,14,rising,3.7 ,1.8, 5.5
+"Jefferson County",39081,***,7.5 ,5.4, 10.4,8,rising,2.3 ,0.4, 4.3
+"Preble County",39135,***,7.5 ,4.6, 11.7,4,*,*,*,*
+"Shelby County",39149,***,7.2 ,4.5, 11.1,4,*,*,*,*
+"Marion County",39101,***,7.2 ,4.8, 10.4,6,*,*,*,*
+"Lucas County",39095,***,7.2 ,6.2, 8.3,38,rising,4.3 ,3.1, 5.4
+"Montgomery County",39113,***,7.1 ,6.2, 8.1,50,rising,3.1 ,2.0, 4.2
+"Logan County",39091,***,7 ,4.3, 11,4,*,*,*,*
+"Brown County",39015,***,6.9 ,4.3, 10.8,4,*,*,*,*
+"Cuyahoga County",39035,***,6.9 ,6.3, 7.4,121,rising,2.5 ,1.9, 3.1
+"Franklin County",39049,***,6.8 ,6.2, 7.6,82,rising,2.7 ,2.1, 3.3
+"Coshocton County",39031,***,6.8 ,4, 11.2,3,*,*,*,*
+"Ashtabula County",39007,***,6.5 ,4.7, 8.9,8,stable,1.3 ,-0.7, 3.3
+"Portage County",39133,***,6.5 ,4.9, 8.4,12,rising,5.3 ,2.9, 7.7
+"Hamilton County",39061,***,6.5 ,5.8, 7.3,63,rising,2.5 ,1.6, 3.3
+"Scioto County",39145,***,6.5 ,4.4, 9.2,7,*,*,*,*
+"Mahoning County",39099,***,6.3 ,5.2, 7.7,22,rising,2.7 ,1.4, 4.0
+"Washington County",39167,***,6.1 ,4, 9.1,6,stable,1.4 ,-1.3, 4.1
+"Warren County",39165,***,6.1 ,4.7, 7.7,14,stable,2.3 ,0.0, 4.7
+"Crawford County",39033,***,6.1 ,3.7, 9.7,4,*,*,*,*
+"Ottawa County",39123,***,6 ,3.7, 9.6,4,*,*,*,*
+"Wood County",39173,***,5.9 ,4.2, 8.1,8,rising,4.4 ,2.3, 6.5
+"Pickaway County",39129,***,5.9 ,3.6, 9.2,4,*,*,*,*
+"Lake County",39085,***,5.8 ,4.7, 7.1,19,rising,2.0 ,0.7, 3.2
+"Muskingum County",39119,***,5.8 ,3.9, 8.3,6,*,*,*,*
+"Butler County",39017,***,5.7 ,4.7, 6.9,24,rising,2.9 ,1.5, 4.4
+"Trumbull County",39155,***,5.7 ,4.5, 7.1,17,rising,1.9 ,0.7, 3.1
+"Lorain County",39093,***,5.5 ,4.5, 6.7,22,rising,1.8 ,0.8, 2.9
+"Clermont County",39025,***,5.3 ,4.1, 6.9,13,*,*,*,*
+"Miami County",39109,***,5.3 ,3.6, 7.5,7,*,*,*,*
+"Summit County",39153,***,5.3 ,4.5, 6.1,40,rising,2.3 ,0.9, 3.7
+"Licking County",39089,***,5.2 ,3.9, 6.9,11,stable,1.0 ,-0.8, 2.7
+"Fairfield County",39045,***,5.2 ,3.8, 6.9,10,rising,2.5 ,0.9, 4.1
+"Tuscarawas County",39157,***,5.1 ,3.5, 7.4,6,*,*,*,*
+"Stark County",39151,***,5.1 ,4.2, 6,27,rising,3.1 ,1.8, 4.4
+"Richland County",39139,***,5 ,3.6, 6.8,9,*,*,*,*
+"Belmont County",39013,***,5 ,3.3, 7.5,5,stable,1.0 ,-1.2, 3.3
+"Darke County",39037,***,4.9 ,2.9, 8,4,*,*,*,*
+"Erie County",39043,***,4.9 ,3.3, 7.2,6,*,*,*,*
+"Columbiana County",39029,***,4.9 ,3.4, 6.8,7,stable,1.6 ,-0.8, 4.1
+"Geauga County",39055,***,4.9 ,3.3, 7.1,6,stable,1.6 ,-0.5, 3.8
+"Medina County",39103,***,4.9 ,3.6, 6.4,10,*,*,*,*
+"Delaware County",39041,***,4.7 ,3.4, 6.4,9,*,*,*,*
+"Greene County",39057,***,4.6 ,3.4, 6.2,10,*,*,*,*
+"Ross County",39141,***,4.6 ,2.9, 7.1,5,*,*,*,*
+"Wayne County",39169,***,4.3 ,2.9, 6.2,6,*,*,*,*
+"Hancock County",39063,***,4 ,2.4, 6.4,4,*,*,*,*
+"Allen County",39003,***,4 ,2.6, 5.9,5,stable,1.6 ,-0.5, 3.8
+"Adams County",39001,***,* ,*, *,3 or fewer,*,*,*,*
+"Ashland County",39005,***,* ,*, *,3 or fewer,*,*,*,*
+"Athens County",39009,***,* ,*, *,3 or fewer,*,*,*,*
+"Auglaize County",39011,***,* ,*, *,3 or fewer,*,*,*,*
+"Carroll County",39019,***,* ,*, *,3 or fewer,*,*,*,*
+"Champaign County",39021,***,* ,*, *,3 or fewer,*,*,*,*
+"Clinton County",39027,***,* ,*, *,3 or fewer,*,*,*,*
+"Defiance County",39039,***,* ,*, *,3 or fewer,*,*,*,*
+"Fayette County",39047,***,* ,*, *,3 or fewer,*,*,*,*
+"Fulton County",39051,***,* ,*, *,3 or fewer,*,*,*,*
+"Guernsey County",39059,***,* ,*, *,3 or fewer,*,*,*,*
+"Hardin County",39065,***,* ,*, *,3 or fewer,*,*,*,*
+"Harrison County",39067,***,* ,*, *,3 or fewer,*,*,*,*
+"Henry County",39069,***,* ,*, *,3 or fewer,*,*,*,*
+"Highland County",39071,***,* ,*, *,3 or fewer,*,*,*,*
+"Hocking County",39073,***,* ,*, *,3 or fewer,*,*,*,*
+"Holmes County",39075,***,* ,*, *,3 or fewer,*,*,*,*
+"Huron County",39077,***,* ,*, *,3 or fewer,*,*,*,*
+"Jackson County",39079,***,* ,*, *,3 or fewer,*,*,*,*
+"Knox County",39083,***,* ,*, *,3 or fewer,*,*,*,*
+"Madison County",39097,***,* ,*, *,3 or fewer,*,*,*,*
+"Meigs County",39105,***,* ,*, *,3 or fewer,*,*,*,*
+"Mercer County",39107,***,* ,*, *,3 or fewer,*,*,*,*
+"Monroe County",39111,***,* ,*, *,3 or fewer,*,*,*,*
+"Morgan County",39115,***,* ,*, *,3 or fewer,*,*,*,*
+"Morrow County",39117,***,* ,*, *,3 or fewer,*,*,*,*
+"Noble County",39121,***,* ,*, *,3 or fewer,*,*,*,*
+"Paulding County",39125,***,* ,*, *,3 or fewer,*,*,*,*
+"Perry County",39127,***,* ,*, *,3 or fewer,*,*,*,*
+"Pike County",39131,***,* ,*, *,3 or fewer,*,*,*,*
+"Putnam County",39137,***,* ,*, *,3 or fewer,*,*,*,*
+"Sandusky County",39143,***,* ,*, *,3 or fewer,*,*,*,*
+"Seneca County",39147,***,* ,*, *,3 or fewer,*,*,*,*
+"Union County",39159,***,* ,*, *,3 or fewer,*,*,*,*
+"Van Wert County",39161,***,* ,*, *,3 or fewer,*,*,*,*
+"Vinton County",39163,***,* ,*, *,3 or fewer,*,*,*,*
+"Williams County",39171,***,* ,*, *,3 or fewer,*,*,*,*
+"Wyandot County",39175,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:20 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

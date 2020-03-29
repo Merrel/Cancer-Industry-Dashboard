@@ -1,0 +1,110 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=01&areatype=county&cancer=001&race=05&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '01', 'areatype': 'county', 'cancer': '001', 'race': '05', 'sex': '0', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_028.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=01&areatype=county&cancer=001&race=05&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Alabama by County
+
+"All Cancer Sites (All Stages^), 2012-2016"
+
+"Hispanic (any race), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Alabama(6,10)",01000,***,218.7 ,203.6, 234.5,208,stable,-0.7 ,-5.2, 4.0
+"US (SEER+NPCR) &sect; (1,10)",00000,***,346.5 ,345.6, 347.4,127249,falling,-1.2 ,-2.2, -0.2
+"Walker County(6,10)",01127,***,498.4 ,287.2, 792.6,4,*,*,*,*
+"Coffee County(6,10)",01031,***,391.4 ,232.8, 603.3,5,stable,43.5 ,-54.4, 352.1
+"Morgan County(6,10)",01103,***,387.6 ,273.3, 527.6,11,stable,8.2 ,-25.3, 56.8
+"DeKalb County(6,10)",01049,***,347.9 ,216.3, 520.6,8,stable,2.3 ,-52.1, 118.4
+"Chilton County(6,10)",01021,***,346.8 ,168.3, 607.3,3,*,*,*,*
+"Shelby County(6,10)",01117,***,338.7 ,262.6, 428.1,19,stable,-11.1 ,-22.0, 1.4
+"Limestone County(6,10)",01083,***,269.8 ,160.7, 422.1,5,stable,-0.6 ,-41.9, 70.1
+"Dale County(6,10)",01045,***,256.1 ,147.7, 407.2,4,stable,5.8 ,-14.7, 31.1
+"Etowah County(6,10)",01055,***,254.4 ,137.4, 421,4,stable,3.1 ,-35.2, 64.1
+"Jefferson County(6,10)",01073,***,252.8 ,203.6, 309.2,29,stable,-0.8 ,-13.5, 13.8
+"Blount County(6,10)",01009,***,251.2 ,152.7, 384.9,7,stable,-0.1 ,-34.1, 51.4
+"Franklin County(6,10)",01059,***,227.1 ,113.3, 404.7,4,*,*,*,*
+"Elmore County(6,10)",01051,***,225.8 ,125.3, 377.8,3,*,*,*,*
+"Calhoun County(6,10)",01015,***,216.5 ,130.6, 333.2,5,stable,9.5 ,-27.4, 65.2
+"Madison County(6,10)",01089,***,208.1 ,158.7, 266.6,17,stable,-0.4 ,-9.6, 9.8
+"Marshall County(6,10)",01095,***,194 ,124.8, 285.3,9,stable,-12.1 ,-44.8, 40.1
+"Montgomery County(6,10)",01101,***,186.4 ,118.7, 275.6,7,stable,14.6 ,-45.1, 139.4
+"Tuscaloosa County(6,10)",01125,***,170.4 ,93.7, 277.1,4,stable,-12.9 ,-39.8, 26.0
+"Baldwin County(6,10)",01003,***,143.4 ,93.3, 208.5,7,stable,-3.1 ,-24.0, 23.6
+"Mobile County(6,10)",01097,***,112.3 ,81.1, 151,9,stable,-14.9 ,-45.1, 31.9
+"Lee County(6,10)",01081,***,104.8 ,52.4, 184.8,4,stable,2.1 ,-48.0, 100.4
+"Autauga County(6,10)",01001,***,* ,*, *,3 or fewer,*,*,*,*
+"Barbour County(6,10)",01005,***,* ,*, *,3 or fewer,*,*,*,*
+"Bibb County(6,10)",01007,***,* ,*, *,3 or fewer,*,*,*,*
+"Bullock County(6,10)",01011,***,* ,*, *,3 or fewer,*,*,*,*
+"Butler County(6,10)",01013,***,* ,*, *,3 or fewer,*,*,*,*
+"Chambers County(6,10)",01017,***,* ,*, *,3 or fewer,*,*,*,*
+"Cherokee County(6,10)",01019,***,* ,*, *,3 or fewer,*,*,*,*
+"Choctaw County(6,10)",01023,***,* ,*, *,3 or fewer,*,*,*,*
+"Clarke County(6,10)",01025,***,* ,*, *,3 or fewer,*,*,*,*
+"Clay County(6,10)",01027,***,* ,*, *,3 or fewer,*,*,*,*
+"Cleburne County(6,10)",01029,***,* ,*, *,3 or fewer,*,*,*,*
+"Colbert County(6,10)",01033,***,* ,*, *,3 or fewer,*,*,*,*
+"Conecuh County(6,10)",01035,***,* ,*, *,3 or fewer,*,*,*,*
+"Coosa County(6,10)",01037,***,* ,*, *,3 or fewer,*,*,*,*
+"Covington County(6,10)",01039,***,* ,*, *,3 or fewer,*,*,*,*
+"Crenshaw County(6,10)",01041,***,* ,*, *,3 or fewer,*,*,*,*
+"Cullman County(6,10)",01043,***,* ,*, *,3 or fewer,*,*,*,*
+"Dallas County(6,10)",01047,***,* ,*, *,3 or fewer,*,*,*,*
+"Escambia County(6,10)",01053,***,* ,*, *,3 or fewer,*,*,*,*
+"Fayette County(6,10)",01057,***,* ,*, *,3 or fewer,*,*,*,*
+"Geneva County(6,10)",01061,***,* ,*, *,3 or fewer,*,*,*,*
+"Greene County(6,10)",01063,***,* ,*, *,3 or fewer,*,*,*,*
+"Hale County(6,10)",01065,***,* ,*, *,3 or fewer,*,*,*,*
+"Henry County(6,10)",01067,***,* ,*, *,3 or fewer,*,*,*,*
+"Houston County(6,10)",01069,***,* ,*, *,3 or fewer,*,*,*,*
+"Jackson County(6,10)",01071,***,* ,*, *,3 or fewer,*,*,*,*
+"Lamar County(6,10)",01075,***,* ,*, *,3 or fewer,*,*,*,*
+"Lauderdale County(6,10)",01077,***,* ,*, *,3 or fewer,*,*,*,*
+"Lawrence County(6,10)",01079,***,* ,*, *,3 or fewer,*,*,*,*
+"Lowndes County(6,10)",01085,***,* ,*, *,3 or fewer,*,*,*,*
+"Macon County(6,10)",01087,***,* ,*, *,3 or fewer,*,*,*,*
+"Marengo County(6,10)",01091,***,* ,*, *,3 or fewer,*,*,*,*
+"Marion County(6,10)",01093,***,* ,*, *,3 or fewer,*,*,*,*
+"Monroe County(6,10)",01099,***,* ,*, *,3 or fewer,*,*,*,*
+"Perry County(6,10)",01105,***,* ,*, *,3 or fewer,*,*,*,*
+"Pickens County(6,10)",01107,***,* ,*, *,3 or fewer,*,*,*,*
+"Pike County(6,10)",01109,***,* ,*, *,3 or fewer,*,*,*,*
+"Randolph County(6,10)",01111,***,* ,*, *,3 or fewer,*,*,*,*
+"Russell County(6,10)",01113,***,* ,*, *,3 or fewer,*,*,*,*
+"St. Clair County(6,10)",01115,***,* ,*, *,3 or fewer,*,*,*,*
+"Sumter County(6,10)",01119,***,* ,*, *,3 or fewer,*,*,*,*
+"Talladega County(6,10)",01121,***,* ,*, *,3 or fewer,*,*,*,*
+"Tallapoosa County(6,10)",01123,***,* ,*, *,3 or fewer,*,*,*,*
+"Washington County(6,10)",01129,***,* ,*, *,3 or fewer,*,*,*,*
+"Wilcox County(6,10)",01131,***,* ,*, *,3 or fewer,*,*,*,*
+"Winston County(6,10)",01133,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:15 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+NHIA (NAACCR Hispanic Identification Algorithm) was used for Hispanic Ethnicity (see Technical Notes section of the USCS [ https://www.cdc.gov/cancer/uscs/technical_notes/stat_methods/suppression.htm ]).
+ Statistics for minorities may be affected by inconsistent race identification between the cancer case reports (sources for numerator of rate) and data from the Census Bureau (source for denominator of rate); and from undercounts of some population groups in the census.
+Data for United States does not include Puerto Rico.

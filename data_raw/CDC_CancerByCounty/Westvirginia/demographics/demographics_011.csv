@@ -1,0 +1,75 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=54&areatype=county&topic=mob&demo=00020&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '54', 'areatype': 'county', 'topic': 'mob', 'demo': '00020', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_011.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=54&areatype=county&topic=mob&demo=00020&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for West Virginia by County
+"Mobility: Moved, different state (in past year)"
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Moved From Different State),Rank within US
+"United States",00000,2.3,7354769,"N/A"
+"West Virginia",54000,2.5,44995,"18 of 51"
+"Logan County",54045,0.3,106,"91 of 3140"
+"Clay County",54015,0.4,37,"130 of 3140"
+"Wyoming County",54109,0.4,97,"146 of 3140"
+"Fayette County",54019,0.7,298,"311 of 3140"
+"Putnam County",54079,0.7,390,"333 of 3140"
+"Boone County",54005,0.7,164,"348 of 3140"
+"Jackson County",54035,0.9,252,"497 of 3140"
+"Marshall County",54051,0.9,287,"540 of 3140"
+"Grant County",54023,0.9,104,"542 of 3140"
+"Braxton County",54007,1.1,151,"719 of 3140"
+"Tucker County",54093,1.1,75,"726 of 3140"
+"Randolph County",54083,1.1,311,"728 of 3140"
+"Roane County",54087,1.1,155,"750 of 3140"
+"Wirt County",54105,1.2,69,"906 of 3140"
+"Lewis County",54041,1.2,199,"935 of 3140"
+"Webster County",54101,1.3,114,"1053 of 3140"
+"Harrison County",54033,1.4,917,"1070 of 3140"
+"Lincoln County",54043,1.4,292,"1123 of 3140"
+"Wetzel County",54103,1.5,230,"1225 of 3140"
+"Hampshire County",54027,1.5,349,"1259 of 3140"
+"Mason County",54053,1.5,407,"1285 of 3140"
+"Ritchie County",54085,1.5,153,"1303 of 3140"
+"Raleigh County",54081,1.6,1193,"1327 of 3140"
+"Pendleton County",54071,1.6,112,"1352 of 3140"
+"Mineral County",54057,1.6,430,"1359 of 3140"
+"Taylor County",54091,1.6,272,"1399 of 3140"
+"McDowell County",54047,1.7,324,"1449 of 3140"
+"Nicholas County",54067,1.7,422,"1454 of 3140"
+"Pocahontas County",54075,1.7,142,"1459 of 3140"
+"Kanawha County",54039,1.7,3217,"1527 of 3140"
+"Preston County",54077,1.8,593,"1574 of 3140"
+"Mingo County",54059,1.8,444,"1583 of 3140"
+"Wayne County",54099,1.9,778,"1703 of 3140"
+"Tyler County",54095,2.1,182,"1830 of 3140"
+"Calhoun County",54013,2.1,152,"1836 of 3140"
+"Doddridge County",54017,2.4,203,"2094 of 3140"
+"Marion County",54049,2.4,1349,"2105 of 3140"
+"Wood County",54107,2.5,2102,"2139 of 3140"
+"Upshur County",54097,2.5,618,"2187 of 3140"
+"Hardy County",54031,2.6,355,"2226 of 3140"
+"Pleasants County",54073,2.7,201,"2277 of 3140"
+"Greenbrier County",54025,2.8,969,"2318 of 3140"
+"Mercer County",54055,2.8,1683,"2335 of 3140"
+"Cabell County",54011,2.8,2686,"2352 of 3140"
+"Barbour County",54001,2.9,476,"2386 of 3140"
+"Brooke County",54009,3.3,753,"2591 of 3140"
+"Monroe County",54063,3.4,461,"2640 of 3140"
+"Ohio County",54069,3.9,1653,"2770 of 3140"
+"Hancock County",54029,4.1,1212,"2814 of 3140"
+"Morgan County",54065,4.2,735,"2844 of 3140"
+"Summers County",54089,4.9,636,"2952 of 3140"
+"Berkeley County",54003,5.2,5673,"2985 of 3140"
+"Jefferson County",54037,5.3,2929,"3002 of 3140"
+"Gilmer County",54021,5.6,461,"3022 of 3140"
+"Monongalia County",54061,6.2,6422,"3058 of 3140"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:21 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Mobility: Moved, different state (in past year), see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#mobility."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

@@ -1,0 +1,35 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=04&areatype=county&topic=crowd&demo=00027&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '04', 'areatype': 'county', 'topic': 'crowd', 'demo': '00027', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_000.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=04&areatype=county&topic=crowd&demo=00027&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Arizona by County
+Crowding: Households with >1 person per room
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),Households (with >1 Person Per Room),Rank within US
+"United States",00000,3.3,3975282,"N/A"
+"Arizona",04000,4.4,110426,"6 of 52"
+"Yavapai County",04025,2.4,2259,"1110 of 3141"
+"Cochise County",04003,2.6,1299,"931 of 3141"
+"Pinal County",04021,3.7,4884,"474 of 3141"
+"Pima County",04019,3.8,15202,"425 of 3141"
+"Gila County",04007,4.0,863,"384 of 3141"
+"Mohave County",04015,4.2,3504,"339 of 3141"
+"Greenlee County",04011,4.3,146,"311 of 3141"
+"Maricopa County",04013,4.5,66592,"286 of 3141"
+"La Paz County",04012,4.8,426,"237 of 3141"
+"Santa Cruz County",04023,5.4,845,"190 of 3141"
+"Graham County",04009,5.7,628,"167 of 3141"
+"Yuma County",04027,6.6,4719,"123 of 3141"
+"Coconino County",04005,7.3,3468,"96 of 3141"
+"Navajo County",04017,8.3,2848,"76 of 3141"
+"Apache County",04001,14.0,2743,"13 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:14 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Crowding: Households with >1 person per room, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#crowding."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

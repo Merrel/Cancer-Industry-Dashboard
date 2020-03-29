@@ -1,0 +1,41 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=34&areatype=county&topic=pop&demo=00023&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '34', 'areatype': 'county', 'topic': 'pop', 'demo': '00023', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_019.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=34&areatype=county&topic=pop&demo=00023&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for New Jersey by County
+Population: American Indian/Alaska Native
+"All Ages, Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (AI/AN),Rank within US
+"New Jersey",34000,0.2,18006,"47 of 52"
+"United States",00000,0.8,2632102,"N/A"
+"Sussex County",34037,0.0,38,"2905 of 3141"
+"Gloucester County",34015,0.0,87,"2893 of 3141"
+"Cape May County",34009,0.0,37,"2860 of 3141"
+"Ocean County",34029,0.1,310,"2809 of 3141"
+"Hunterdon County",34019,0.1,70,"2800 of 3141"
+"Burlington County",34005,0.1,334,"2724 of 3141"
+"Mercer County",34021,0.1,322,"2681 of 3141"
+"Morris County",34027,0.1,592,"2548 of 3141"
+"Warren County",34041,0.1,129,"2542 of 3141"
+"Monmouth County",34025,0.2,967,"2393 of 3141"
+"Bergen County",34003,0.2,1627,"2308 of 3141"
+"Middlesex County",34023,0.2,1582,"2220 of 3141"
+"Salem County",34033,0.2,127,"2165 of 3141"
+"Camden County",34007,0.2,1122,"2071 of 3141"
+"Somerset County",34035,0.2,764,"2031 of 3141"
+"Essex County",34013,0.3,2035,"1932 of 3141"
+"Union County",34039,0.3,1509,"1848 of 3141"
+"Hudson County",34017,0.3,2132,"1661 of 3141"
+"Atlantic County",34001,0.3,908,"1585 of 3141"
+"Passaic County",34031,0.4,2085,"1360 of 3141"
+"Cumberland County",34011,0.8,1229,"807 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:18 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: American Indian/Alaska Native, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

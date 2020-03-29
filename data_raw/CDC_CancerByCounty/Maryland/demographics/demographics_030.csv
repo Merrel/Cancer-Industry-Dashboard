@@ -1,0 +1,44 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=24&areatype=county&topic=pov&demo=00009&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '24', 'areatype': 'county', 'topic': 'pov', 'demo': '00009', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_030.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=24&areatype=county&topic=pov&demo=00009&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Maryland by County
+Poverty: Persons below 150% of poverty
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (<150% Of Poverty),Rank within US
+"Maryland",24000,15.8,927558,"2 of 52"
+"United States",00000,23.7,74202606,"N/A"
+"Howard County",24027,8.9,27489,"20 of 3141"
+"Carroll County",24013,9.2,15095,"30 of 3141"
+"Calvert County",24009,10.1,9065,"46 of 3141"
+"Anne Arundel County",24003,10.4,56964,"52 of 3141"
+"Queen Annes County",24035,10.7,5188,"58 of 3141"
+"Frederick County",24021,11.7,28115,"79 of 3141"
+"Charles County",24017,11.8,18182,"89 of 3141"
+"Harford County",24025,12.3,30467,"109 of 3141"
+"Montgomery County",24031,12.3,127019,"111 of 3141"
+"St. Marys County",24037,13.1,14089,"137 of 3141"
+"Baltimore County",24005,15.0,121527,"243 of 3141"
+"Prince Georges County",24033,15.9,140628,"294 of 3141"
+"Cecil County",24015,16.8,16976,"367 of 3141"
+"Worcester County",24047,18.4,9374,"530 of 3141"
+"Talbot County",24041,18.5,6840,"536 of 3141"
+"Washington County",24043,20.5,28916,"820 of 3141"
+"Kent County",24029,21.6,3904,"961 of 3141"
+"Garrett County",24023,23.3,6705,"1178 of 3141"
+"Wicomico County",24045,24.9,24457,"1432 of 3141"
+"Caroline County",24011,25.5,8222,"1508 of 3141"
+"Dorchester County",24019,26.4,8443,"1652 of 3141"
+"Allegany County",24001,28.4,18464,"1936 of 3141"
+"Baltimore City",24510,32.6,194547,"2417 of 3141"
+"Somerset County",24039,35.0,6882,"2633 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:18 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Poverty: Persons below 150% of poverty, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#poverty."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

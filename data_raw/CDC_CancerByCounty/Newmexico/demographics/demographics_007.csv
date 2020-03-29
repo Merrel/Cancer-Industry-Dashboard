@@ -1,0 +1,54 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=35&areatype=county&topic=lang&demo=00015&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '35', 'areatype': 'county', 'topic': 'lang', 'demo': '00015', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_007.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=35&areatype=county&topic=lang&demo=00015&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for New Mexico by County
+Non-English Language: Language isolation
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),Households (language Isolation),Rank within US
+"United States",00000,4.5,5305440,"N/A"
+"New Mexico",35000,5.2,40182,"42 of 51"
+"De Baca County",35011,0.9,6,"1632 of 3140"
+"Catron County",35003,1.1,16,"1817 of 3140"
+"Sierra County",35051,1.6,87,"2164 of 3140"
+"Harding County",35021,2.0,4,"2314 of 3140"
+"Grant County",35017,2.0,239,"2330 of 3140"
+"Torrance County",35057,2.1,116,"2354 of 3140"
+"Sandoval County",35043,2.3,1155,"2456 of 3140"
+"Los Alamos County",35028,2.6,194,"2535 of 3140"
+"Eddy County",35015,2.7,584,"2576 of 3140"
+"Quay County",35037,3.0,93,"2636 of 3140"
+"Lincoln County",35027,3.3,259,"2688 of 3140"
+"Colfax County",35007,3.3,187,"2696 of 3140"
+"Rio Arriba County",35039,3.5,448,"2716 of 3140"
+"San Juan County",35045,3.7,1546,"2740 of 3140"
+"Santa Fe County",35049,4.1,2497,"2778 of 3140"
+"Taos County",35055,4.2,533,"2793 of 3140"
+"Valencia County",35061,4.5,1209,"2823 of 3140"
+"Bernalillo County",35001,4.5,11974,"2827 of 3140"
+"Otero County",35035,4.7,1113,"2840 of 3140"
+"Hidalgo County",35023,4.7,83,"2842 of 3140"
+"Curry County",35009,5.0,923,"2868 of 3140"
+"Lea County",35025,6.3,1391,"2936 of 3140"
+"Cibola County",35006,6.4,584,"2944 of 3140"
+"Roosevelt County",35041,6.5,463,"2947 of 3140"
+"Chaves County",35005,7.4,1719,"2984 of 3140"
+"Mora County",35033,8.4,127,"3016 of 3140"
+"McKinley County",35031,8.6,1698,"3026 of 3140"
+"Dona Ana County",35013,9.4,7221,"3045 of 3140"
+"Union County",35059,9.4,134,"3046 of 3140"
+"Guadalupe County",35019,10.9,136,"3072 of 3140"
+"Luna County",35029,13.0,1179,"3095 of 3140"
+"San Miguel County",35047,13.1,1449,"3098 of 3140"
+"Socorro County",35053,17.3,815,"3120 of 3140"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:18 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Non-English Language: Language isolation, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#non-english."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+A "limited English speaking household" is one in which no member 14 years old and over (1) speaks only English or (2) speaks a non-English language and speaks English "very well."
+Data for United States does not include Puerto Rico.

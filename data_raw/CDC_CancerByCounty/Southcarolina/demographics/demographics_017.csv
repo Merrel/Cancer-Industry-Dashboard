@@ -1,0 +1,66 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=45&areatype=county&topic=pop&demo=00029&race=00&sex=0&age=999&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '45', 'areatype': 'county', 'topic': 'pop', 'demo': '00029', 'race': '00', 'sex': '0', 'age': '999', 'type': 'manyareacensus', 'file_name': 'demographics_017.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=45&areatype=county&topic=pop&demo=00029&race=00&sex=0&age=999&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for South Carolina by County
+Population: Age 50 and over
+"All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Age 50 And Over),Rank within US
+"United States",00000,34.5,110609456,"N/A"
+"South Carolina",45000,36.3,1774970,"15 of 52"
+"Richland County",45079,29.0,117454,"2944 of 3141"
+"Berkeley County",45015,31.5,64513,"2767 of 3141"
+"Dorchester County",45035,31.9,48371,"2741 of 3141"
+"York County",45091,33.1,83198,"2609 of 3141"
+"Greenville County",45045,34.0,166475,"2504 of 3141"
+"Sumter County",45085,34.1,36567,"2494 of 3141"
+"Pickens County",45077,34.2,41548,"2468 of 3141"
+"Charleston County",45019,34.6,134098,"2430 of 3141"
+"Lexington County",45063,35.0,98643,"2358 of 3141"
+"Spartanburg County",45083,35.1,104422,"2339 of 3141"
+"Florence County",45041,35.2,48783,"2321 of 3141"
+"Dillon County",45033,35.4,10990,"2300 of 3141"
+"Cherokee County",45021,35.4,20025,"2293 of 3141"
+"Greenwood County",45047,36.6,25620,"2102 of 3141"
+"Marlboro County",45069,37.0,10189,"2008 of 3141"
+"Jasper County",45053,37.3,10251,"1948 of 3141"
+"Hampton County",45049,37.4,7507,"1919 of 3141"
+"Anderson County",45007,37.7,73216,"1851 of 3141"
+"Barnwell County",45011,38.1,8301,"1764 of 3141"
+"Chesterfield County",45025,38.1,17584,"1759 of 3141"
+"Laurens County",45059,38.5,25600,"1684 of 3141"
+"Darlington County",45031,38.7,26153,"1642 of 3141"
+"Orangeburg County",45075,38.7,34514,"1633 of 3141"
+"Lee County",45061,38.9,6968,"1592 of 3141"
+"Saluda County",45081,39.0,7890,"1577 of 3141"
+"Lancaster County",45057,39.1,33801,"1567 of 3141"
+"Kershaw County",45055,39.1,24914,"1561 of 3141"
+"Allendale County",45005,39.1,3680,"1548 of 3141"
+"Aiken County",45003,39.2,64891,"1542 of 3141"
+"Marion County",45067,39.4,12524,"1474 of 3141"
+"Newberry County",45071,39.5,14980,"1453 of 3141"
+"Edgefield County",45037,39.8,10589,"1397 of 3141"
+"Chester County",45023,39.8,12907,"1393 of 3141"
+"Williamsburg County",45089,40.0,12918,"1328 of 3141"
+"Colleton County",45029,40.5,15221,"1217 of 3141"
+"Bamberg County",45009,40.8,6052,"1153 of 3141"
+"Abbeville County",45001,41.6,10323,"982 of 3141"
+"Union County",45087,41.7,11581,"977 of 3141"
+"Clarendon County",45027,43.1,14731,"744 of 3141"
+"Horry County",45051,43.2,133944,"737 of 3141"
+"Oconee County",45073,43.8,33226,"651 of 3141"
+"Beaufort County",45013,43.8,78601,"643 of 3141"
+"Fairfield County",45039,43.9,10047,"629 of 3141"
+"Calhoun County",45017,44.6,6599,"560 of 3141"
+"Georgetown County",45043,47.9,29244,"277 of 3141"
+"McCormick County",45065,54.8,5317,"48 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:20 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Age 50 and over, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

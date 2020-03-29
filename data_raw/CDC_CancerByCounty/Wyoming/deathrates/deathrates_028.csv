@@ -1,0 +1,65 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=56&areatype=county&cancer=001&race=03&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '56', 'areatype': 'county', 'cancer': '001', 'race': '03', 'sex': '0', 'age': '001', 'type': 'death', 'file_name': 'deathrates_028.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=56&areatype=county&cancer=001&race=03&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for Wyoming by County
+
+"All Cancer Sites, 2012-2016"
+
+"Amer. Indian/Alaskan Native (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 161.4?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Wyoming",56000,No,171.5 ,132.3, 217.5,15,stable,-1.4 ,-3.4, 0.5
+"United States",00000,Yes,108.8 ,107, 110.6,3209,falling,-1.6 ,-1.9, -1.3
+"Fremont County",56013,No,203.6 ,147.3, 272.4,10,stable,-0.9 ,-3.0, 1.2
+"Albany County",56001,***,* ,*, *,3 or fewer,*,*,*,*
+"Big Horn County",56003,***,* ,*, *,3 or fewer,*,*,*,*
+"Campbell County",56005,***,* ,*, *,3 or fewer,*,*,*,*
+"Carbon County",56007,***,* ,*, *,3 or fewer,*,*,*,*
+"Converse County",56009,***,* ,*, *,3 or fewer,*,*,*,*
+"Crook County",56011,***,* ,*, *,3 or fewer,*,*,*,*
+"Goshen County",56015,***,* ,*, *,3 or fewer,*,*,*,*
+"Hot Springs County",56017,***,* ,*, *,3 or fewer,*,*,*,*
+"Johnson County",56019,***,* ,*, *,3 or fewer,*,*,*,*
+"Laramie County",56021,***,* ,*, *,3 or fewer,*,*,*,*
+"Lincoln County",56023,***,* ,*, *,3 or fewer,*,*,*,*
+"Natrona County",56025,***,* ,*, *,3 or fewer,*,*,*,*
+"Niobrara County",56027,***,* ,*, *,3 or fewer,*,*,*,*
+"Park County",56029,***,* ,*, *,3 or fewer,*,*,*,*
+"Platte County",56031,***,* ,*, *,3 or fewer,*,*,*,*
+"Sheridan County",56033,***,* ,*, *,3 or fewer,*,*,*,*
+"Sublette County",56035,***,* ,*, *,3 or fewer,*,*,*,*
+"Sweetwater County",56037,***,* ,*, *,3 or fewer,*,*,*,*
+"Teton County",56039,***,* ,*, *,3 or fewer,*,*,*,*
+"Uinta County",56041,***,* ,*, *,3 or fewer,*,*,*,*
+"Washakie County",56043,***,* ,*, *,3 or fewer,*,*,*,*
+"Weston County",56045,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:23 pm.
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+ Statistics for minorities may be affected by inconsistent race identification between the cancer case reports (sources for numerator of rate) and data from the Census Bureau (source for denominator of rate); and from undercounts of some population groups in the census.
+Data for United States does not include Puerto Rico.

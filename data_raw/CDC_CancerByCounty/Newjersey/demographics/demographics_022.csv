@@ -1,0 +1,41 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=34&areatype=county&topic=pop&demo=00014&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '34', 'areatype': 'county', 'topic': 'pop', 'demo': '00014', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_022.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=34&areatype=county&topic=pop&demo=00014&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for New Jersey by County
+Population: Foreign born
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Foreign Born),Rank within US
+"United States",00000,13.4,43028127,"N/A"
+"New Jersey",34000,22.1,1979156,"3 of 51"
+"Cape May County",34009,4.8,4562,"945 of 3140"
+"Salem County",34033,4.9,3137,"934 of 3140"
+"Gloucester County",34015,5.5,15982,"836 of 3140"
+"Sussex County",34037,8.0,11453,"512 of 3140"
+"Ocean County",34029,8.0,47260,"506 of 3140"
+"Hunterdon County",34019,8.8,11045,"432 of 3140"
+"Warren County",34041,9.3,9944,"396 of 3140"
+"Burlington County",34005,9.4,42078,"387 of 3140"
+"Cumberland County",34011,10.5,16232,"324 of 3140"
+"Camden County",34007,11.1,56468,"286 of 3140"
+"Monmouth County",34025,13.5,84629,"208 of 3140"
+"Atlantic County",34001,16.3,44371,"162 of 3140"
+"Morris County",34027,19.0,94625,"121 of 3140"
+"Mercer County",34021,22.2,82923,"84 of 3140"
+"Somerset County",34035,24.6,82008,"59 of 3140"
+"Essex County",34013,25.8,206581,"50 of 3140"
+"Passaic County",34031,29.1,148414,"34 of 3140"
+"Union County",34039,29.9,166666,"30 of 3140"
+"Bergen County",34003,30.5,285803,"27 of 3140"
+"Middlesex County",34023,32.6,272633,"18 of 3140"
+"Hudson County",34017,43.0,292342,"3 of 3140"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:18 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Foreign born, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

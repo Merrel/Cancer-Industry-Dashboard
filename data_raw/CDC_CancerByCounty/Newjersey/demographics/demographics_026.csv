@@ -1,0 +1,41 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=34&areatype=county&topic=pop&demo=00105&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '34', 'areatype': 'county', 'topic': 'pop', 'demo': '00105', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_026.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=34&areatype=county&topic=pop&demo=00105&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for New Jersey by County
+Population: Sex - Female
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Female),Rank within US
+"United States",00000,50.8,162985654,"N/A"
+"New Jersey",34000,51.2,4587840,"39 of 52"
+"Cumberland County",34011,48.7,75402,"497 of 3141"
+"Hunterdon County",34019,50.0,62816,"1166 of 3141"
+"Sussex County",34037,50.2,72095,"1388 of 3141"
+"Hudson County",34017,50.4,342411,"1542 of 3141"
+"Middlesex County",34023,50.8,425161,"2030 of 3141"
+"Burlington County",34005,50.8,228197,"2056 of 3141"
+"Morris County",34027,51.0,254367,"2242 of 3141"
+"Mercer County",34021,51.1,190669,"2320 of 3141"
+"Somerset County",34035,51.2,170541,"2414 of 3141"
+"Cape May County",34009,51.2,48391,"2430 of 3141"
+"Warren County",34041,51.2,54858,"2471 of 3141"
+"Salem County",34033,51.2,32671,"2472 of 3141"
+"Union County",34039,51.3,285713,"2498 of 3141"
+"Passaic County",34031,51.4,262255,"2566 of 3141"
+"Monmouth County",34025,51.4,322359,"2570 of 3141"
+"Gloucester County",34015,51.4,149783,"2597 of 3141"
+"Atlantic County",34001,51.6,140755,"2700 of 3141"
+"Bergen County",34003,51.6,483716,"2701 of 3141"
+"Camden County",34007,51.7,264054,"2759 of 3141"
+"Ocean County",34029,51.8,305740,"2843 of 3141"
+"Essex County",34013,52.0,415886,"2880 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:18 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Sex - Female, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

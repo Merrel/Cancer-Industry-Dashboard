@@ -1,0 +1,44 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=24&areatype=county&topic=pop&demo=00024&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '24', 'areatype': 'county', 'topic': 'pop', 'demo': '00024', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_020.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=24&areatype=county&topic=pop&demo=00024&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Maryland by County
+Population: Asian / Pacific Islander
+"All Ages, Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (API),Rank within US
+"United States",00000,5.5,17756436,"N/A"
+"Maryland",24000,6.3,375895,"10 of 52"
+"Garrett County",24023,0.4,111,"2216 of 3141"
+"Caroline County",24011,0.6,208,"1587 of 3141"
+"Queen Annes County",24035,0.7,335,"1503 of 3141"
+"Allegany County",24001,0.9,618,"1239 of 3141"
+"Dorchester County",24019,1.0,325,"1070 of 3141"
+"Somerset County",24039,1.1,279,"993 of 3141"
+"Kent County",24029,1.1,218,"970 of 3141"
+"Worcester County",24047,1.5,765,"725 of 3141"
+"Cecil County",24015,1.5,1540,"709 of 3141"
+"Talbot County",24041,1.5,565,"706 of 3141"
+"Calvert County",24009,1.7,1538,"624 of 3141"
+"Carroll County",24013,1.7,2837,"623 of 3141"
+"Washington County",24043,1.8,2698,"595 of 3141"
+"Baltimore City",24510,2.6,16164,"401 of 3141"
+"Harford County",24025,2.6,6575,"396 of 3141"
+"St. Marys County",24037,2.8,3107,"365 of 3141"
+"Charles County",24017,3.3,5079,"295 of 3141"
+"Wicomico County",24045,3.3,3410,"288 of 3141"
+"Anne Arundel County",24003,3.8,21226,"249 of 3141"
+"Prince Georges County",24033,4.3,39144,"203 of 3141"
+"Frederick County",24021,4.6,11360,"182 of 3141"
+"Baltimore County",24005,6.0,49443,"119 of 3141"
+"Montgomery County",24031,14.8,153981,"30 of 3141"
+"Howard County",24027,17.4,54369,"18 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:18 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Asian / Pacific Islander, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

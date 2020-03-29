@@ -1,0 +1,41 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=34&areatype=county&topic=mob&demo=00019&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '34', 'areatype': 'county', 'topic': 'mob', 'demo': '00019', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_010.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=34&areatype=county&topic=mob&demo=00019&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for New Jersey by County
+"Mobility: Moved, different county this state (in past year)"
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Moved From Different County In Same State),Rank within US
+"New Jersey",34000,2.3,203535,"9 of 51"
+"United States",00000,3.2,10247779,"N/A"
+"Bergen County",34003,1.5,14391,"163 of 3140"
+"Hudson County",34017,1.6,10398,"164 of 3140"
+"Essex County",34013,1.8,14496,"259 of 3140"
+"Passaic County",34031,1.9,9561,"288 of 3140"
+"Monmouth County",34025,2.1,13009,"382 of 3140"
+"Cape May County",34009,2.1,1970,"388 of 3140"
+"Morris County",34027,2.3,11273,"491 of 3140"
+"Union County",34039,2.3,12707,"503 of 3140"
+"Ocean County",34029,2.3,13471,"507 of 3140"
+"Burlington County",34005,2.4,10769,"566 of 3140"
+"Atlantic County",34001,2.4,6541,"567 of 3140"
+"Salem County",34033,2.4,1537,"575 of 3140"
+"Middlesex County",34023,2.4,20250,"582 of 3140"
+"Sussex County",34037,2.6,3749,"725 of 3140"
+"Camden County",34007,2.7,13450,"747 of 3140"
+"Somerset County",34035,3.2,10424,"1089 of 3140"
+"Gloucester County",34015,3.2,9375,"1167 of 3140"
+"Warren County",34041,3.3,3478,"1181 of 3140"
+"Cumberland County",34011,3.4,5151,"1232 of 3140"
+"Mercer County",34021,3.4,12743,"1302 of 3140"
+"Hunterdon County",34019,3.8,4792,"1603 of 3140"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:18 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Mobility: Moved, different county this state (in past year), see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#mobility."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

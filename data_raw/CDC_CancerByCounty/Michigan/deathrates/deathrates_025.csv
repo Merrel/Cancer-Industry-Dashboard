@@ -1,0 +1,124 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=26&areatype=county&cancer=001&race=07&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '26', 'areatype': 'county', 'cancer': '001', 'race': '07', 'sex': '0', 'age': '001', 'type': 'death', 'file_name': 'deathrates_025.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=26&areatype=county&cancer=001&race=07&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for Michigan by County
+
+"All Cancer Sites, 2012-2016"
+
+"White Non-Hispanic, Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 161.4?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Michigan",26000,No,168.3 ,167.2, 169.5,17423,falling,-1.0 ,-1.1, -0.9
+"United States (6)",00000,No,165.4 ,165.2, 165.7,465052,falling,-1.4 ,-1.4, -1.3
+"Roscommon County",26143,No,215.1 ,194.4, 238.1,101,stable,0.1 ,-0.6, 0.7
+"Schoolcraft County",26153,No,208.7 ,174.1, 250.4,28,stable,0.2 ,-0.6, 1.0
+"Alger County",26003,No,204.4 ,169.9, 245.5,29,stable,-0.6 ,-1.6, 0.5
+"Clare County",26035,No,201.9 ,183.4, 222.2,94,falling,-0.8 ,-1.3, -0.3
+"Wexford County",26165,No,199.7 ,180.9, 220,86,stable,-0.2 ,-0.8, 0.4
+"Jackson County",26075,No,191.3 ,182.3, 200.6,358,falling,-0.7 ,-1.0, -0.3
+"Oscoda County",26135,No,189.8 ,158.7, 227.1,29,stable,-0.8 ,-2.0, 0.3
+"Van Buren County",26159,No,189.4 ,176.2, 203.4,161,stable,-0.4 ,-0.9, 0.0
+"Newaygo County",26123,No,189.1 ,173.8, 205.4,118,falling,-0.7 ,-1.3, -0.1
+"Ontonagon County",26131,No,187.4 ,152.6, 232.6,25,stable,-0.4 ,-1.6, 0.8
+"Ogemaw County",26129,No,187.3 ,166.7, 210.4,67,falling,-1.4 ,-2.1, -0.7
+"Monroe County",26115,No,187 ,178, 196.4,339,falling,-1.0 ,-1.3, -0.7
+"Calhoun County",26025,No,186.9 ,177, 197.2,282,falling,-0.6 ,-0.9, -0.3
+"Iosco County",26069,No,186.7 ,168.7, 206.7,90,falling,-1.3 ,-1.9, -0.7
+"Shiawassee County",26155,No,185.7 ,172.9, 199.2,162,falling,-0.7 ,-1.1, -0.3
+"Gladwin County",26051,No,185.1 ,166.7, 205.4,81,falling,-1.0 ,-1.6, -0.4
+"Montmorency County",26119,No,184.7 ,156.7, 218.3,36,stable,-0.9 ,-2.0, 0.3
+"Lenawee County",26091,No,184.7 ,173.7, 196.2,222,stable,-0.3 ,-0.6, 0.1
+"Alcona County",26001,No,184.1 ,158.2, 215.5,44,falling,-0.9 ,-1.5, -0.2
+"Ionia County",26067,No,183.7 ,169, 199.4,120,falling,-0.9 ,-1.4, -0.4
+"St. Joseph County",26149,No,182.9 ,169, 197.8,134,falling,-0.8 ,-1.3, -0.4
+"Lake County",26085,No,182.8 ,154.5, 216.2,35,falling,-1.6 ,-2.4, -0.8
+"Mecosta County",26107,No,182.7 ,166.2, 200.5,95,falling,-0.7 ,-1.3, -0.2
+"Lapeer County",26087,No,182.6 ,171, 195,193,falling,-0.7 ,-1.2, -0.2
+"Manistee County",26101,No,182.5 ,163.7, 203.4,74,falling,-1.2 ,-1.7, -0.7
+"Cheboygan County",26031,No,182.2 ,163.8, 202.7,79,stable,-0.8 ,-1.6, 0.0
+"Osceola County",26133,No,182 ,161.3, 204.9,59,falling,-0.7 ,-1.3, -0.2
+"Kalkaska County",26079,No,181.6 ,157.5, 208.8,44,stable,-0.6 ,-1.4, 0.1
+"Huron County",26063,No,181.1 ,164.6, 199.1,98,falling,-0.5 ,-0.9, -0.1
+"Alpena County",26007,No,180.9 ,163.7, 199.9,85,falling,-1.1 ,-1.6, -0.5
+"Muskegon County",26121,No,180.4 ,171.6, 189.6,329,falling,-0.7 ,-0.9, -0.4
+"Arenac County",26011,No,180.4 ,156.7, 207.4,45,falling,-0.8 ,-1.5, -0.1
+"Tuscola County",26157,No,179.2 ,165.5, 193.9,132,stable,-0.6 ,-1.1, 0.0
+"Baraga County",26013,No,178.6 ,143.7, 221.4,20,stable,-0.7 ,-1.5, 0.1
+"St. Clair County",26147,No,178.1 ,169.9, 186.7,364,falling,-1.0 ,-1.2, -0.8
+"Oceana County",26127,No,177.9 ,157.9, 200.2,62,stable,9.4 ,-2.2, 22.3
+"Genesee County",26049,No,177.8 ,172, 183.8,736,falling,-0.7 ,-1.0, -0.5
+"Wayne County",26163,No,177.7 ,174.3, 181.2,2148,falling,-1.0 ,-1.1, -0.9
+"Crawford County",26039,No,177.6 ,152.6, 206.4,40,falling,-1.0 ,-1.6, -0.4
+"Sanilac County",26151,No,176.7 ,161.8, 192.9,107,stable,5.9 ,-4.7, 17.6
+"Otsego County",26137,No,176.6 ,156.3, 199.2,59,stable,-0.7 ,-1.5, 0.1
+"Hillsdale County",26059,No,176.6 ,161.6, 192.8,107,falling,-0.8 ,-1.3, -0.3
+"Bay County",26017,No,175.8 ,165.9, 186.2,251,falling,-0.9 ,-1.1, -0.6
+"Cass County",26027,No,175.5 ,161.1, 191,117,falling,-3.8 ,-5.6, -2.0
+"Branch County",26023,No,175.3 ,159.5, 192.4,94,stable,-0.5 ,-1.2, 0.1
+"Macomb County",26099,No,174.8 ,171, 178.6,1712,falling,-0.9 ,-1.1, -0.8
+"Missaukee County",26113,No,174.4 ,149.6, 202.6,37,stable,-0.2 ,-1.2, 0.7
+"Isabella County",26073,No,171.7 ,156.7, 187.8,100,stable,-0.7 ,-1.4, 0.0
+"Luce County",26095,No,171.7 ,134.8, 218,16,stable,-1.3 ,-2.5, 0.0
+"Berrien County",26021,No,170.8 ,162.3, 179.6,322,falling,-1.0 ,-1.3, -0.6
+"Houghton County",26061,No,170.3 ,152.8, 189.3,74,falling,-1.1 ,-1.6, -0.5
+"Dickinson County",26043,No,169.7 ,151.7, 189.6,69,falling,-0.9 ,-1.4, -0.4
+"Mason County",26105,No,169.5 ,152, 188.8,74,stable,-0.7 ,-1.5, 0.0
+"Montcalm County",26117,No,169.5 ,156.5, 183.2,131,falling,-1.1 ,-1.5, -0.6
+"Allegan County",26005,No,169.3 ,159.1, 180.1,213,falling,-0.9 ,-1.3, -0.6
+"Antrim County",26009,No,167.8 ,149.7, 188.1,68,falling,-1.3 ,-1.9, -0.8
+"Gogebic County",26053,No,167.6 ,145.5, 193,46,falling,-0.9 ,-1.6, -0.1
+"Saginaw County",26145,No,166.5 ,158.6, 174.7,353,falling,-1.1 ,-1.4, -0.8
+"Chippewa County",26033,No,165.2 ,147.9, 184.4,69,falling,-0.8 ,-1.4, -0.3
+"Marquette County",26103,No,165.2 ,152.9, 178.3,141,falling,-0.7 ,-1.2, -0.2
+"Menominee County",26109,No,165 ,146.6, 185.6,63,stable,-0.6 ,-1.4, 0.2
+"Presque Isle County",26141,No,164.3 ,141.5, 191.1,44,falling,-1.1 ,-2.0, -0.2
+"Delta County",26041,No,163.5 ,148.9, 179.5,97,falling,-1.1 ,-1.6, -0.6
+"Emmet County",26047,Yes,161.2 ,145, 179,77,falling,-0.8 ,-1.3, -0.3
+"Charlevoix County",26029,Yes,160.9 ,142.9, 180.8,64,falling,-1.0 ,-1.7, -0.4
+"Eaton County",26045,Yes,160.3 ,150.3, 170.8,203,falling,-0.7 ,-1.1, -0.2
+"Gratiot County",26057,Yes,158.7 ,143, 175.9,78,falling,-0.7 ,-1.4, -0.1
+"Ingham County",26065,Yes,158.5 ,151.1, 166.1,370,falling,-1.1 ,-1.4, -0.8
+"Barry County",26015,Yes,157.6 ,145, 171.1,121,falling,-1.9 ,-2.9, -0.9
+"Kalamazoo County",26077,Yes,156.8 ,149.8, 164.1,394,falling,-1.0 ,-1.3, -0.7
+"Kent County",26081,Yes,156.5 ,151.8, 161.3,884,falling,-1.1 ,-1.2, -0.9
+"Benzie County",26019,Yes,154.4 ,133.8, 177.9,44,stable,-1.0 ,-2.1, 0.0
+"Iron County",26071,Yes,153.5 ,130.9, 180.5,37,falling,-1.7 ,-2.5, -0.9
+"Mackinac County",26097,Yes,153.1 ,128, 184.1,28,falling,-1.8 ,-2.8, -0.9
+"Oakland County",26125,Yes,151.7 ,148.6, 154.9,1867,falling,-1.3 ,-1.5, -1.2
+"Livingston County",26093,Yes,150 ,142.4, 157.9,313,falling,-1.7 ,-2.1, -1.4
+"Grand Traverse County",26055,Yes,150 ,140, 160.5,178,falling,-1.4 ,-1.9, -0.8
+"Washtenaw County",26161,Yes,149 ,142.5, 155.6,427,falling,-1.3 ,-1.5, -1.0
+"Clinton County",26037,Yes,145.4 ,134, 157.6,125,falling,-1.4 ,-1.9, -0.9
+"Ottawa County",26139,Yes,142.9 ,136.6, 149.5,400,falling,-1.0 ,-1.2, -0.7
+"Midland County",26111,Yes,138.4 ,128.4, 149.1,147,falling,-3.5 ,-4.9, -2.1
+"Leelanau County",26089,Yes,133.1 ,116.3, 152.6,54,falling,-1.5 ,-2.3, -0.8
+"Keweenaw County",26083,Yes,124 ,81, 194.3,6,falling,-2.3 ,-4.0, -0.5
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:19 pm.
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"(6) Hispanic mortality data for the United States has been excluded for the following states: Louisiana, New Hampshire, and Oklahoma. The data on Hispanic and non-Hispanic mortality for these states may be unreliable for the time period used in the generation of the recent trend (1990 - 2016) and has been excluded from the calculation of the United States recent trend. This was based on the NCHS Policy. "
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

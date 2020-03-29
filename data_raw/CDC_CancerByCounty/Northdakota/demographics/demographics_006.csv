@@ -1,0 +1,72 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=38&areatype=county&topic=ins&demo=00043&race=00&sex=0&age=006&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '38', 'areatype': 'county', 'topic': 'ins', 'demo': '00043', 'race': '00', 'sex': '0', 'age': '006', 'type': 'manyareacensus', 'file_name': 'demographics_006.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=38&areatype=county&topic=ins&demo=00043&race=00&sex=0&age=006&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for North Dakota by County
+"Insurance: Percent uninsured in demographic group, people at or below 138% of poverty"
+"Ages <65, All Races (includes Hispanic), Both Sexes"
+2017 Small Area Health Insurance Estimates Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Uninsured),Rank within US
+"North Dakota",38000,16.7,15713,"29 of 51"
+"Benson County",38005,13.5,328,"1080 of 3139"
+"Barnes County",38003,14.5,170,"1195 of 3139"
+"Grand Forks County",38035,14.7,1764,"1221 of 3139"
+"Ramsey County",38071,14.7,221,"1221 of 3139"
+"Cass County",38017,14.8,3417,"1230 of 3139"
+"Burleigh County",38015,15.0,1216,"1247 of 3139"
+"Richland County",38077,15.0,265,"1247 of 3139"
+"Traill County",38097,15.2,117,"1273 of 3139"
+"Morton County",38059,15.4,486,"1303 of 3139"
+"Ward County",38101,15.6,1192,"1324 of 3139"
+"Griggs County",38039,15.9,37,"1363 of 3139"
+"Stutsman County",38093,16.1,375,"1385 of 3139"
+"Dickey County",38021,16.2,104,"1399 of 3139"
+"Wells County",38103,16.4,71,"1420 of 3139"
+"Ransom County",38073,16.5,98,"1433 of 3139"
+"Sioux County",38085,16.8,329,"1464 of 3139"
+"Foster County",38031,17.0,56,"1483 of 3139"
+"Renville County",38075,17.3,43,"1541 of 3139"
+"Pierce County",38069,17.5,90,"1575 of 3139"
+"Rolette County",38079,17.7,877,"1606 of 3139"
+"Walsh County",38099,18.1,272,"1660 of 3139"
+"Bottineau County",38009,18.8,129,"1765 of 3139"
+"Eddy County",38027,19.0,54,"1796 of 3139"
+"Golden Valley County",38033,19.2,40,"1823 of 3139"
+"Mercer County",38057,19.6,113,"1895 of 3139"
+"McLean County",38055,19.7,182,"1917 of 3139"
+"Stark County",38089,19.9,557,"1948 of 3139"
+"McHenry County",38049,20.4,134,"2024 of 3139"
+"Pembina County",38067,20.4,133,"2024 of 3139"
+"Steele County",38091,20.6,35,"2053 of 3139"
+"Sargent County",38081,20.9,74,"2105 of 3139"
+"Cavalier County",38019,21.1,68,"2120 of 3139"
+"Bowman County",38011,21.2,65,"2133 of 3139"
+"Williams County",38105,22.0,736,"2232 of 3139"
+"Nelson County",38063,22.2,68,"2259 of 3139"
+"McKenzie County",38053,22.6,310,"2311 of 3139"
+"LaMoure County",38045,22.8,93,"2337 of 3139"
+"Towner County",38095,22.8,66,"2337 of 3139"
+"Mountrail County",38061,23.1,296,"2373 of 3139"
+"Adams County",38001,23.4,64,"2406 of 3139"
+"Oliver County",38065,23.6,42,"2427 of 3139"
+"Emmons County",38029,23.7,101,"2439 of 3139"
+"Hettinger County",38041,23.9,61,"2457 of 3139"
+"Divide County",38023,25.4,54,"2596 of 3139"
+"Sheridan County",38083,25.4,50,"2596 of 3139"
+"Billings County",38007,25.8,24,"2616 of 3139"
+"McIntosh County",38051,27.0,91,"2719 of 3139"
+"Kidder County",38043,27.6,101,"2778 of 3139"
+"Dunn County",38025,27.9,133,"2793 of 3139"
+"Burke County",38013,28.2,55,"2810 of 3139"
+"Grant County",38037,29.8,122,"2885 of 3139"
+"Slope County",38087,33.3,27,"3017 of 3139"
+"Logan County",38047,36.0,107,"3079 of 3139"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:20 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & Small Area Health Insurance Estimates (https://www.census.gov/programs-surveys/sahie.html).
+"For more information about Insurance: Percent uninsured in demographic group, people at or below 138% of poverty, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#insurance."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

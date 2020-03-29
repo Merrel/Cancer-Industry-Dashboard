@@ -1,0 +1,30 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=33&areatype=county&topic=mob&demo=00017&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '33', 'areatype': 'county', 'topic': 'mob', 'demo': '00017', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_008.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=33&areatype=county&topic=mob&demo=00017&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for New Hampshire by County
+Mobility: Haven't moved (in past year)
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Haven't Moved),Rank within US
+"United States",00000,85.4,270854872,"N/A"
+"New Hampshire",33000,85.8,1132133,"19 of 51"
+"Strafford County",33017,80.4,100708,"2907 of 3140"
+"Cheshire County",33005,83.2,62858,"2591 of 3140"
+"Grafton County",33009,83.5,74025,"2543 of 3140"
+"Hillsborough County",33011,84.9,340959,"2251 of 3140"
+"Coos County",33007,86.5,27584,"1788 of 3140"
+"Sullivan County",33019,87.0,37205,"1621 of 3140"
+"Merrimack County",33013,87.2,127908,"1532 of 3140"
+"Carroll County",33003,87.5,41331,"1453 of 3140"
+"Rockingham County",33015,88.8,266084,"1007 of 3140"
+"Belknap County",33001,89.3,53471,"824 of 3140"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:17 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Mobility: Haven't moved (in past year), see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#mobility."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

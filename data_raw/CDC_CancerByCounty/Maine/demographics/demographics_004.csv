@@ -1,0 +1,37 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=23&areatype=county&topic=inc&demo=00010&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '23', 'areatype': 'county', 'topic': 'inc', 'demo': '00010', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_004.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=23&areatype=county&topic=inc&demo=00010&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Maine by County
+Income: Median family income
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Dollars),Rank within US
+"Maine",23000,67340.000000000,"30 of 52"
+"United States",00000,70850.000000000,"N/A"
+"Piscataquis County",23021,49721.000000000,"2531 of 3141"
+"Washington County",23029,50663.000000000,"2444 of 3141"
+"Aroostook County",23003,52023.000000000,"2312 of 3141"
+"Somerset County",23025,54148.000000000,"2126 of 3141"
+"Oxford County",23017,54970.000000000,"2060 of 3141"
+"Franklin County",23007,57183.000000000,"1847 of 3141"
+"Penobscot County",23019,61325.000000000,"1410 of 3141"
+"Waldo County",23027,61640.000000000,"1375 of 3141"
+"Androscoggin County",23001,63360.000000000,"1204 of 3141"
+"Knox County",23013,64176.000000000,"1140 of 3141"
+"Kennebec County",23011,65348.000000000,"1041 of 3141"
+"Hancock County",23009,66242.000000000,"975 of 3141"
+"Lincoln County",23015,69352.000000000,"762 of 3141"
+"Sagadahoc County",23023,73913.000000000,"499 of 3141"
+"York County",23031,74865.000000000,"465 of 3141"
+"Cumberland County",23005,85525.000000000,"219 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:17 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Income: Median family income, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#income."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"Median Incomes over 250,000 have been coded to 250,001 by the Census Bureau. [ http://www2.census.gov/acs2012_5yr/summaryfile/ACS_2008-2012_SF_Tech_Doc.pdf ]"
+Data for United States does not include Puerto Rico.

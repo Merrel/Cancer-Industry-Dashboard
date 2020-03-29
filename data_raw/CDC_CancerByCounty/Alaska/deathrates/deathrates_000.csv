@@ -1,0 +1,72 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=02&areatype=county&cancer=001&race=00&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '02', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '0', 'age': '001', 'type': 'death', 'file_name': 'deathrates_000.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=02&areatype=county&cancer=001&race=00&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for  by Borough or Census Area
+
+"All Cancer Sites, 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+Borough Or Census Area, FIPS,Met Healthy People Objective of 161.4?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Alaska",02900,No,164.9 ,159.9, 169.9,977,falling,-1.2 ,-1.4, -1.1
+"United States",00000,Yes,161 ,160.8, 161.1,590623,falling,-1.5 ,-1.6, -1.5
+"Yukon-Koyukuk Census Area",02290,No,277.3 ,214.8, 351.9,15,stable,0.7 ,-1.1, 2.6
+"Lake and Peninsula Borough (3)",02164,No,271.4 ,150.5, 444.8,3,*,*,*,*
+"North Slope Borough",02185,No,265.8 ,197, 348.2,14,stable,-0.3 ,-2.3, 1.8
+"Nome Census Area",02180,No,255.1 ,196.2, 324.6,16,stable,0.7 ,-1.0, 2.5
+"Wade Hampton Census Area",02270,No,197 ,135.2, 274.5,8,stable,-0.9 ,-3.1, 1.3
+"Southeast Fairbanks Census Area",02240,No,192.7 ,142.5, 254,11,stable,-0.8 ,-2.6, 1.0
+"Aleutians West Census Area (3)",02016,No,191.7 ,87.8, 345.3,4,*,*,*,*
+"Prince of Wales-Outer Ketchikan Census Area",02201,No,187.1 ,134.5, 252.6,11,stable,-0.3 ,-2.5, 1.9
+"Bethel Census Area",02050,No,182.3 ,142, 229.3,18,stable,-0.1 ,-1.4, 1.3
+"Wrangell-Petersburg Census Area",02280,No,179.8 ,138.6, 230.5,14,stable,-0.2 ,-1.5, 1.2
+"Dillingham Census Area (3)",02070,No,178.4 ,114.3, 262.2,6,stable,0.1 ,-2.8, 3.1
+"Valdez-Cordova Census Area",02261,No,174.5 ,131.8, 225.8,15,falling,-2.1 ,-3.6, -0.5
+"Matanuska-Susitna Borough",02170,No,173.7 ,159.8, 188.4,140,falling,-1.0 ,-1.8, -0.2
+"Juneau City and Borough",02110,No,173.5 ,150.1, 199.4,48,stable,-0.8 ,-1.7, 0.1
+"Skagway-Hoonah-Angoon Census Area (3)",02232,No,170.5 ,115.9, 244.5,7,*,*,*,*
+"Kodiak Island Borough",02150,No,168.8 ,129.1, 215.6,16,falling,-2.0 ,-3.5, -0.4
+"Fairbanks North Borough",02090,Yes,161.1 ,146.5, 176.6,109,falling,-1.2 ,-1.8, -0.5
+"Haines Borough",02100,Yes,159.9 ,99.6, 246.1,5,*,*,*,*
+"Northwest Arctic Borough",02188,Yes,157.4 ,109.6, 217.3,8,stable,-1.7 ,-3.7, 0.4
+"Kenai Peninsula Borough",02122,Yes,157.3 ,142.9, 172.7,102,falling,-1.8 ,-2.5, -1.1
+"Anchorage Municipality",02020,Yes,157.3 ,149.6, 165.2,366,falling,-1.4 ,-1.8, -1.0
+"Sitka City and Borough",02220,Yes,146.1 ,112.9, 186.2,14,stable,-1.4 ,-2.8, 0.0
+"Ketchikan Gateway Borough",02130,Yes,145.7 ,117.2, 179,20,falling,-1.4 ,-2.7, -0.2
+"Aleutians East Borough (3)",02013,***,* ,*, *,3 or fewer,*,*,*,*
+"Bristol Bay Borough",02060,***,* ,*, *,3 or fewer,*,*,*,*
+"Denali Borough",02068,***,* ,*, *,3 or fewer,*,*,*,*
+"Yakutat City and Borough (3)",02282,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:17 pm.
+
+"Alaska Census Area Name Change: please note that Wade Hampton Census Area, AK (FIPS code=02270) was renamed effective July 1, 2015, and the new name is Kusilvak Census Area (FIPS Code=02158). Due to the nature of data submissions, we will use the older code/name this year and transition to the new code/name with a future data release."
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"(3) Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties.
+"
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

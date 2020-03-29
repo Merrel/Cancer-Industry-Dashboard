@@ -1,0 +1,73 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=38&areatype=county&topic=mob&demo=00017&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '38', 'areatype': 'county', 'topic': 'mob', 'demo': '00017', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_008.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=38&areatype=county&topic=mob&demo=00017&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for North Dakota by County
+Mobility: Haven't moved (in past year)
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Haven't Moved),Rank within US
+"North Dakota",38000,82.3,604729,"45 of 51"
+"United States",00000,85.4,270854872,"N/A"
+"Grand Forks County",38035,76.2,52768,"3070 of 3140"
+"Cass County",38017,76.7,129021,"3055 of 3140"
+"Ward County",38101,78.1,53499,"3028 of 3140"
+"Williams County",38105,79.2,25704,"2980 of 3140"
+"Stark County",38089,82.4,24571,"2703 of 3140"
+"McKenzie County",38053,82.5,9454,"2684 of 3140"
+"Pierce County",38069,82.8,3505,"2642 of 3140"
+"Kidder County",38043,83.1,2022,"2604 of 3140"
+"Stutsman County",38093,83.3,17328,"2569 of 3140"
+"Golden Valley County",38033,84.1,1561,"2423 of 3140"
+"Barnes County",38003,84.5,9112,"2338 of 3140"
+"Burleigh County",38015,84.5,76991,"2327 of 3140"
+"Bottineau County",38009,85.0,5599,"2213 of 3140"
+"Hettinger County",38041,85.3,2179,"2138 of 3140"
+"Richland County",38077,85.4,13826,"2102 of 3140"
+"Ramsey County",38071,85.6,9824,"2060 of 3140"
+"Renville County",38075,86.7,2167,"1696 of 3140"
+"Mountrail County",38061,86.8,8579,"1665 of 3140"
+"Griggs County",38039,86.9,1949,"1633 of 3140"
+"Dunn County",38025,87.0,3712,"1608 of 3140"
+"Eddy County",38027,87.1,1993,"1577 of 3140"
+"Morton County",38059,87.2,25745,"1562 of 3140"
+"Dickey County",38021,87.2,4319,"1539 of 3140"
+"Traill County",38097,87.3,6979,"1524 of 3140"
+"Nelson County",38063,87.7,2574,"1373 of 3140"
+"Cavalier County",38019,88.5,3339,"1117 of 3140"
+"Foster County",38031,88.6,2905,"1063 of 3140"
+"Pembina County",38067,88.8,6171,"1008 of 3140"
+"Divide County",38023,88.8,2041,"1005 of 3140"
+"Oliver County",38065,88.9,1608,"971 of 3140"
+"Grant County",38037,89.0,2105,"897 of 3140"
+"Sargent County",38081,89.2,3434,"851 of 3140"
+"Burke County",38013,89.5,2000,"764 of 3140"
+"Bowman County",38011,89.7,2826,"713 of 3140"
+"Mercer County",38057,89.8,7660,"675 of 3140"
+"Ransom County",38073,89.9,4816,"651 of 3140"
+"Sioux County",38085,90.2,3935,"585 of 3140"
+"McLean County",38055,90.8,8643,"456 of 3140"
+"McHenry County",38049,90.9,5313,"429 of 3140"
+"Adams County",38001,91.0,2135,"405 of 3140"
+"Walsh County",38099,91.1,9839,"396 of 3140"
+"Wells County",38103,91.5,3684,"323 of 3140"
+"Logan County",38047,91.5,1748,"321 of 3140"
+"Rolette County",38079,91.6,13211,"298 of 3140"
+"Sheridan County",38083,91.8,1268,"268 of 3140"
+"Benson County",38005,91.8,6180,"253 of 3140"
+"Billings County",38007,91.9,899,"240 of 3140"
+"McIntosh County",38051,92.2,2462,"216 of 3140"
+"LaMoure County",38045,92.8,3772,"159 of 3140"
+"Towner County",38095,93.2,2080,"124 of 3140"
+"Steele County",38091,93.6,1771,"102 of 3140"
+"Slope County",38087,96.4,649,"15 of 3140"
+"Emmons County",38029,96.5,3254,"14 of 3140"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:20 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Mobility: Haven't moved (in past year), see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#mobility."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

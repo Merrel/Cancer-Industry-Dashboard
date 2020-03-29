@@ -1,0 +1,49 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=49&areatype=county&topic=pop&demo=00026&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '49', 'areatype': 'county', 'topic': 'pop', 'demo': '00026', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_023.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=49&areatype=county&topic=pop&demo=00026&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Utah by County
+Population: Hispanic
+"All Ages, Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Hispanic),Rank within US
+"Utah",49000,13.7,409311,"14 of 52"
+"United States",00000,17.6,56510571,"N/A"
+"Morgan County",49029,2.6,290,"2056 of 3141"
+"Daggett County",49009,3.3,23,"1763 of 3141"
+"Piute County",49031,3.6,67,"1672 of 3141"
+"Kane County",49025,4.5,327,"1424 of 3141"
+"Juab County",49023,4.6,487,"1414 of 3141"
+"Sevier County",49041,5.0,1039,"1329 of 3141"
+"San Juan County",49037,5.3,809,"1255 of 3141"
+"Wayne County",49055,5.4,145,"1244 of 3141"
+"Garfield County",49017,5.6,282,"1197 of 3141"
+"Emery County",49015,6.2,647,"1096 of 3141"
+"Duchesne County",49013,8.1,1644,"887 of 3141"
+"Uintah County",49047,8.2,2998,"878 of 3141"
+"Iron County",49021,8.5,4102,"853 of 3141"
+"Rich County",49033,8.9,206,"815 of 3141"
+"Box Elder County",49003,9.1,4761,"802 of 3141"
+"Davis County",49011,9.2,30912,"792 of 3141"
+"Sanpete County",49039,9.5,2757,"771 of 3141"
+"Grand County",49019,10.0,955,"733 of 3141"
+"Washington County",49053,10.1,15655,"724 of 3141"
+"Cache County",49005,10.5,12656,"703 of 3141"
+"Beaver County",49001,10.9,700,"680 of 3141"
+"Utah County",49049,11.4,65539,"655 of 3141"
+"Summit County",49043,11.4,4522,"653 of 3141"
+"Tooele County",49045,12.0,7622,"625 of 3141"
+"Millard County",49027,13.0,1643,"578 of 3141"
+"Carbon County",49007,13.2,2708,"571 of 3141"
+"Wasatch County",49051,13.5,3960,"559 of 3141"
+"Weber County",49057,17.9,43633,"433 of 3141"
+"Salt Lake County",49035,17.9,198222,"431 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:21 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Hispanic, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

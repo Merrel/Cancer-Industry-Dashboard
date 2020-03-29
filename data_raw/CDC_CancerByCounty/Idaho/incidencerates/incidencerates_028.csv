@@ -1,0 +1,88 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=16&areatype=county&cancer=001&race=05&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '16', 'areatype': 'county', 'cancer': '001', 'race': '05', 'sex': '0', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_028.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=16&areatype=county&cancer=001&race=05&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Idaho by County
+
+"All Cancer Sites (All Stages^), 2012-2016"
+
+"Hispanic (any race), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Idaho(7,8)",16000,***,340.9 ,322, 360.5,322,falling,-1.8 ,-2.9, -0.8
+"US (SEER+NPCR) &sect; (1,10)",00000,***,346.5 ,345.6, 347.4,127249,falling,-1.2 ,-2.2, -0.2
+"Washington County(7,8)",16087,***,495.9 ,307.6, 746.9,5,stable,1.1 ,-6.2, 8.9
+"Bonner County(7)",16017,***,453.5 ,264.2, 724.4,4,*,*,*,*
+"Kootenai County(7,8)",16055,***,411.1 ,313.9, 526.1,14,stable,0.4 ,-3.3, 4.2
+"Canyon County(7,8)",16027,***,399.2 ,358.3, 443.2,93,stable,-0.1 ,-1.8, 1.6
+"Bingham County(7,8)",16011,***,391.5 ,302.9, 495.7,17,stable,2.9 ,-0.5, 6.3
+"Power County(7)",16077,***,389 ,177.6, 705.6,4,*,*,*,*
+"Payette County(7)",16075,***,387 ,257.2, 553.9,7,*,*,*,*
+"Ada County(7,8)",16001,***,362.4 ,313.2, 416.3,55,falling,-3.5 ,-5.0, -1.9
+"Bannock County(7,8)",16005,***,354 ,263.2, 463.4,12,stable,0.4 ,-3.5, 4.6
+"Blaine County(7,8)",16013,***,331.2 ,190.8, 524.1,6,stable,-1.8 ,-8.7, 5.7
+"Jerome County(7)",16053,***,324.9 ,198.8, 489.9,8,*,*,*,*
+"Elmore County(7,8)",16039,***,291.4 ,188.5, 426.1,6,falling,-7.7 ,-11.7, -3.5
+"Twin Falls County(7,8)",16083,***,287.4 ,222.9, 363.2,18,falling,-5.9 ,-9.4, -2.3
+"Bonneville County(7,8)",16019,***,282.4 ,214.3, 363.6,18,stable,-1.4 ,-5.5, 2.8
+"Cassia County(7,8)",16031,***,278.7 ,185.8, 396.6,8,stable,-1.8 ,-5.7, 2.3
+"Gooding County(7,8)",16047,***,276.2 ,162.5, 430.1,5,stable,-4.1 ,-11.0, 3.4
+"Owyhee County(7,8)",16073,***,237.6 ,139.3, 374.9,4,stable,-4.0 ,-9.9, 2.4
+"Minidoka County(7,8)",16067,***,231.9 ,167.2, 311.6,10,stable,-4.0 ,-8.4, 0.6
+"Adams County(7)",16003,***,* ,*, *,3 or fewer,*,*,*,*
+"Bear Lake County(7)",16007,***,* ,*, *,3 or fewer,*,*,*,*
+"Benewah County(7)",16009,***,* ,*, *,3 or fewer,*,*,*,*
+"Boise County(7)",16015,***,* ,*, *,3 or fewer,*,*,*,*
+"Boundary County(7)",16021,***,* ,*, *,3 or fewer,*,*,*,*
+"Butte County(7)",16023,***,* ,*, *,3 or fewer,*,*,*,*
+"Camas County(7)",16025,***,* ,*, *,3 or fewer,*,*,*,*
+"Caribou County(7)",16029,***,* ,*, *,3 or fewer,*,*,*,*
+"Clark County(7)",16033,***,* ,*, *,3 or fewer,*,*,*,*
+"Clearwater County(7)",16035,***,* ,*, *,3 or fewer,*,*,*,*
+"Custer County(7)",16037,***,* ,*, *,3 or fewer,*,*,*,*
+"Franklin County(7)",16041,***,* ,*, *,3 or fewer,*,*,*,*
+"Fremont County(7)",16043,***,* ,*, *,3 or fewer,*,*,*,*
+"Gem County(7)",16045,***,* ,*, *,3 or fewer,*,*,*,*
+"Idaho County(7)",16049,***,* ,*, *,3 or fewer,*,*,*,*
+"Jefferson County(7)",16051,***,* ,*, *,3 or fewer,*,*,*,*
+"Latah County(7)",16057,***,* ,*, *,3 or fewer,*,*,*,*
+"Lemhi County(7)",16059,***,* ,*, *,3 or fewer,*,*,*,*
+"Lewis County(7)",16061,***,* ,*, *,3 or fewer,*,*,*,*
+"Lincoln County(7)",16063,***,* ,*, *,3 or fewer,*,*,*,*
+"Madison County(7)",16065,***,* ,*, *,3 or fewer,*,*,*,*
+"Nez Perce County(7,8)",16069,***,* ,*, *,3 or fewer,*,*,*,*
+"Oneida County(7)",16071,***,* ,*, *,3 or fewer,*,*,*,*
+"Shoshone County(7)",16079,***,* ,*, *,3 or fewer,*,*,*,*
+"Teton County(7)",16081,***,* ,*, *,3 or fewer,*,*,*,*
+"Valley County(7)",16085,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:16 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+7 Source: SEER November 2018 submission.
+"8 Source: Incidence data provided by the SEER Program. ( http://seer.cancer.gov ) AAPCs are calculated by the Joinpoint Regression Program ( https://surveillance.cancer.gov/joinpoint/ ) and are based on APCs. Data are age-adjusted to the 2000 US standard population ( http://www.seer.cancer.gov/stdpopulations/single_age.html ) (19 age groups: <1, 1-4, 5-9, ... , 80-84,85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Population counts for denominators are based on Census populations as modifed by NCI. The 1969-2017 US Population Data ( http://seer.cancer.gov/popdata/ ) File is used with SEER November 2018 data. "
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+NHIA (NAACCR Hispanic Identification Algorithm) was used for Hispanic Ethnicity (see Technical Notes section of the USCS [ https://www.cdc.gov/cancer/uscs/technical_notes/stat_methods/suppression.htm ]).
+ Statistics for minorities may be affected by inconsistent race identification between the cancer case reports (sources for numerator of rate) and data from the Census Bureau (source for denominator of rate); and from undercounts of some population groups in the census.
+Data for United States does not include Puerto Rico.

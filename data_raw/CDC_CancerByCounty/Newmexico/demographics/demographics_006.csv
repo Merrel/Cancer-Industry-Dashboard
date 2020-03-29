@@ -1,0 +1,52 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=35&areatype=county&topic=ins&demo=00043&race=00&sex=0&age=006&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '35', 'areatype': 'county', 'topic': 'ins', 'demo': '00043', 'race': '00', 'sex': '0', 'age': '006', 'type': 'manyareacensus', 'file_name': 'demographics_006.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=35&areatype=county&topic=ins&demo=00043&race=00&sex=0&age=006&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for New Mexico by County
+"Insurance: Percent uninsured in demographic group, people at or below 138% of poverty"
+"Ages <65, All Races (includes Hispanic), Both Sexes"
+2017 Small Area Health Insurance Estimates Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Uninsured),Rank within US
+"New Mexico",35000,16.0,76886,"27 of 51"
+"Guadalupe County",35019,9.9,104,"446 of 3139"
+"Grant County",35017,10.9,624,"657 of 3139"
+"Quay County",35037,11.1,250,"697 of 3139"
+"San Miguel County",35047,11.7,923,"806 of 3139"
+"Sierra County",35051,12.5,334,"933 of 3139"
+"Curry County",35009,12.7,1645,"966 of 3139"
+"Colfax County",35007,13.3,363,"1050 of 3139"
+"Torrance County",35057,13.5,596,"1080 of 3139"
+"Mora County",35033,13.8,175,"1117 of 3139"
+"Hidalgo County",35023,14.0,160,"1139 of 3139"
+"Otero County",35035,14.7,2495,"1221 of 3139"
+"Eddy County",35015,14.8,1449,"1230 of 3139"
+"Socorro County",35053,15.1,725,"1259 of 3139"
+"Bernalillo County",35001,15.2,21008,"1273 of 3139"
+"Catron County",35003,15.3,104,"1286 of 3139"
+"Cibola County",35006,15.3,1167,"1286 of 3139"
+"Dona Ana County",35013,15.4,10306,"1303 of 3139"
+"Valencia County",35061,15.6,2822,"1324 of 3139"
+"Harding County",35021,15.7,19,"1340 of 3139"
+"Rio Arriba County",35039,15.9,1615,"1363 of 3139"
+"Chaves County",35005,16.2,2690,"1399 of 3139"
+"Luna County",35029,16.2,1241,"1399 of 3139"
+"Taos County",35055,16.7,1327,"1453 of 3139"
+"De Baca County",35011,17.0,76,"1483 of 3139"
+"Union County",35059,17.5,135,"1575 of 3139"
+"Sandoval County",35043,17.6,4062,"1590 of 3139"
+"McKinley County",35031,17.7,5184,"1606 of 3139"
+"San Juan County",35045,17.7,5425,"1606 of 3139"
+"Lea County",35025,17.9,2501,"1636 of 3139"
+"Lincoln County",35027,18.2,767,"1677 of 3139"
+"Los Alamos County",35028,18.2,150,"1677 of 3139"
+"Roosevelt County",35041,18.7,1023,"1754 of 3139"
+"Santa Fe County",35049,21.9,5421,"2217 of 3139"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:18 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & Small Area Health Insurance Estimates (https://www.census.gov/programs-surveys/sahie.html).
+"For more information about Insurance: Percent uninsured in demographic group, people at or below 138% of poverty, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#insurance."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

@@ -1,0 +1,35 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=04&areatype=county&topic=mob&demo=00018&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '04', 'areatype': 'county', 'topic': 'mob', 'demo': '00018', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_009.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=04&areatype=county&topic=mob&demo=00018&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Arizona by County
+"Mobility: Moved, same county (in past year)"
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Moved Within County),Rank within US
+"United States",00000,8.4,26717038,"N/A"
+"Arizona",04000,11.9,798238,"50 of 51"
+"Apache County",04001,3.2,2240,"298 of 3140"
+"La Paz County",04012,4.1,833,"565 of 3140"
+"Navajo County",04017,7.0,7393,"1847 of 3140"
+"Graham County",04009,7.0,2596,"1856 of 3140"
+"Santa Cruz County",04023,7.2,3311,"1980 of 3140"
+"Greenlee County",04011,7.3,676,"2026 of 3140"
+"Cochise County",04003,7.6,9447,"2110 of 3140"
+"Pinal County",04021,8.1,32432,"2299 of 3140"
+"Gila County",04007,8.2,4331,"2338 of 3140"
+"Yavapai County",04025,8.6,18813,"2424 of 3140"
+"Coconino County",04005,10.0,13760,"2788 of 3140"
+"Yuma County",04027,10.6,21420,"2887 of 3140"
+"Mohave County",04015,10.8,21843,"2897 of 3140"
+"Maricopa County",04013,12.5,512911,"3066 of 3140"
+"Pima County",04019,14.7,146232,"3122 of 3140"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:14 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Mobility: Moved, same county (in past year), see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#mobility."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

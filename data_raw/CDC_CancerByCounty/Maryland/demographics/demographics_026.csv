@@ -1,0 +1,44 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=24&areatype=county&topic=pop&demo=00105&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '24', 'areatype': 'county', 'topic': 'pop', 'demo': '00105', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_026.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=24&areatype=county&topic=pop&demo=00105&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Maryland by County
+Population: Sex - Female
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Female),Rank within US
+"United States",00000,50.8,162985654,"N/A"
+"Maryland",24000,51.5,3089802,"48 of 52"
+"Somerset County",24039,46.4,11980,"191 of 3141"
+"Allegany County",24001,47.8,34699,"329 of 3141"
+"Washington County",24043,49.2,73588,"668 of 3141"
+"St. Marys County",24037,50.1,55559,"1254 of 3141"
+"Calvert County",24009,50.3,45640,"1423 of 3141"
+"Cecil County",24015,50.3,51538,"1500 of 3141"
+"Garrett County",24023,50.5,14898,"1654 of 3141"
+"Anne Arundel County",24003,50.5,285019,"1661 of 3141"
+"Carroll County",24013,50.5,84535,"1705 of 3141"
+"Queen Annes County",24035,50.6,24841,"1835 of 3141"
+"Frederick County",24021,50.7,124800,"1953 of 3141"
+"Harford County",24025,51.1,127788,"2338 of 3141"
+"Howard County",24027,51.1,159652,"2339 of 3141"
+"Worcester County",24047,51.1,26354,"2365 of 3141"
+"Caroline County",24011,51.3,16814,"2512 of 3141"
+"Charles County",24017,51.7,80653,"2771 of 3141"
+"Montgomery County",24031,51.7,537627,"2788 of 3141"
+"Prince Georges County",24033,51.8,469283,"2842 of 3141"
+"Kent County",24029,52.1,10240,"2913 of 3141"
+"Dorchester County",24019,52.2,16910,"2954 of 3141"
+"Wicomico County",24045,52.3,53392,"2974 of 3141"
+"Baltimore County",24005,52.6,435707,"3016 of 3141"
+"Baltimore City",24510,53.0,328419,"3060 of 3141"
+"Talbot County",24041,53.0,19866,"3068 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:18 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Sex - Female, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

@@ -1,0 +1,36 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=23&areatype=county&topic=pop&demo=00014&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '23', 'areatype': 'county', 'topic': 'pop', 'demo': '00014', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_022.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=23&areatype=county&topic=pop&demo=00014&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Maine by County
+Population: Foreign born
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Foreign Born),Rank within US
+"Maine",23000,3.6,47556,"45 of 51"
+"United States",00000,13.4,43028127,"N/A"
+"Somerset County",23025,1.8,915,"2039 of 3140"
+"Franklin County",23007,1.8,553,"2026 of 3140"
+"Oxford County",23017,1.8,1056,"2019 of 3140"
+"Piscataquis County",23021,1.9,319,"1993 of 3140"
+"Kennebec County",23011,2.5,3002,"1682 of 3140"
+"Waldo County",23027,2.5,982,"1671 of 3140"
+"Penobscot County",23019,2.6,4030,"1597 of 3140"
+"Sagadahoc County",23023,2.7,955,"1560 of 3140"
+"Knox County",23013,2.8,1129,"1493 of 3140"
+"Lincoln County",23015,2.8,969,"1492 of 3140"
+"Androscoggin County",23001,3.0,3179,"1440 of 3140"
+"Hancock County",23009,3.2,1750,"1348 of 3140"
+"York County",23031,3.3,6593,"1326 of 3140"
+"Washington County",23029,4.0,1265,"1127 of 3140"
+"Aroostook County",23003,4.4,3021,"1025 of 3140"
+"Cumberland County",23005,6.2,17838,"721 of 3140"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:17 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Foreign born, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

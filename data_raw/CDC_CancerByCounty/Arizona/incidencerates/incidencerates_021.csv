@@ -1,0 +1,56 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=04&areatype=county&cancer=080&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '04', 'areatype': 'county', 'cancer': '080', 'race': '00', 'sex': '0', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_021.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=04&areatype=county&cancer=080&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Arizona by County
+
+"Thyroid (All Stages^), 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Arizona(6,10)",04000,***,14.6 ,14.1, 15,1007,falling,-5.1 ,-6.4, -3.8
+"US (SEER+NPCR)(1,10)",00000,***,14.5 ,14.4, 14.6,48388,stable,-0.8 ,-2.5, 1.1
+"Coconino County(6,10)",04005,***,17.4 ,14.2, 21,23,falling,-17.2 ,-30.2, -1.8
+"Maricopa County(6,10)",04013,***,15.6 ,15.1, 16.2,646,falling,-6.6 ,-8.6, -4.5
+"Graham County(6,10)",04009,***,15.3 ,10.1, 22.2,6,stable,-11.6 ,-47.9, 50.2
+"Navajo County(6,10)",04017,***,15.1 ,11.9, 19,16,stable,-12.2 ,-28.2, 7.3
+"Yavapai County(6,10)",04025,***,14.7 ,12.4, 17.2,41,stable,4.3 ,-9.9, 20.7
+"Pima County(6,10)",04019,***,13.6 ,12.6, 14.7,139,stable,-5.5 ,-10.8, 0.1
+"Gila County(6,10)",04007,***,13.6 ,9.1, 19.3,8,stable,12.2 ,-34.3, 91.6
+"Santa Cruz County(6,10)",04023,***,13.4 ,9.1, 19,7,stable,-4.5 ,-41.5, 55.8
+"Pinal County(6,10)",04021,***,12.9 ,11.3, 14.6,54,stable,3.5 ,-15.5, 26.9
+"Apache County(6,10)",04001,***,11.2 ,7.9, 15.2,8,stable,-1.3 ,-25.2, 30.4
+"Cochise County(6,10)",04003,***,11 ,8.5, 14,15,stable,5.6 ,-9.9, 23.9
+"Mohave County(6,10)",04015,***,9.6 ,7.7, 11.8,24,stable,-7.9 ,-31.5, 23.8
+"Yuma County(6,10)",04027,***,9.3 ,7.4, 11.4,19,stable,17.7 ,-4.5, 45.0
+"Greenlee County(6,10)",04011,***,* ,*, *,3 or fewer,*,*,*,*
+"La Paz County(6,10)",04012,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:15 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

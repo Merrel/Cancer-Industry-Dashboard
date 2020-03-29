@@ -1,0 +1,35 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=04&areatype=county&topic=pov&demo=00009&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '04', 'areatype': 'county', 'topic': 'pov', 'demo': '00009', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_030.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=04&areatype=county&topic=pov&demo=00009&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Arizona by County
+Poverty: Persons below 150% of poverty
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (<150% Of Poverty),Rank within US
+"United States",00000,23.7,74202606,"N/A"
+"Arizona",04000,27.0,1798195,"42 of 52"
+"Greenlee County",04011,22.7,2101,"1103 of 3141"
+"Maricopa County",04013,24.9,1020311,"1427 of 3141"
+"Yavapai County",04025,25.0,54077,"1443 of 3141"
+"Pinal County",04021,25.8,97826,"1556 of 3141"
+"Pima County",04019,29.2,285638,"2036 of 3141"
+"Cochise County",04003,29.8,34624,"2111 of 3141"
+"Mohave County",04015,30.8,61495,"2235 of 3141"
+"Coconino County",04005,31.1,39472,"2263 of 3141"
+"Graham County",04009,32.0,10616,"2358 of 3141"
+"La Paz County",04012,33.7,6816,"2527 of 3141"
+"Yuma County",04027,34.8,69075,"2618 of 3141"
+"Gila County",04007,35.1,18323,"2640 of 3141"
+"Santa Cruz County",04023,39.5,18172,"2899 of 3141"
+"Navajo County",04017,42.1,44207,"2985 of 3141"
+"Apache County",04001,50.5,35442,"3099 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:14 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Poverty: Persons below 150% of poverty, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#poverty."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

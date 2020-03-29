@@ -1,0 +1,75 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=54&areatype=county&topic=pop&demo=00028&race=00&sex=0&age=999&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '54', 'areatype': 'county', 'topic': 'pop', 'demo': '00028', 'race': '00', 'sex': '0', 'age': '999', 'type': 'manyareacensus', 'file_name': 'demographics_016.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=54&areatype=county&topic=pop&demo=00028&race=00&sex=0&age=999&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for West Virginia by County
+Population: Age 40 and over
+"All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Age 40 And Over),Rank within US
+"United States",00000,47.3,151838062,"N/A"
+"West Virginia",54000,52.7,967295,"4 of 52"
+"Monongalia County",54061,38.2,39648,"3043 of 3141"
+"Gilmer County",54021,47.8,3970,"2308 of 3141"
+"Cabell County",54011,48.2,46292,"2239 of 3141"
+"Berkeley County",54003,48.4,53996,"2209 of 3141"
+"Jefferson County",54037,50.3,28013,"1842 of 3141"
+"Barbour County",54001,51.3,8605,"1609 of 3141"
+"Marion County",54049,51.5,29155,"1540 of 3141"
+"Mingo County",54059,52.1,13100,"1406 of 3141"
+"Putnam County",54079,52.1,29533,"1393 of 3141"
+"Harrison County",54033,52.5,35947,"1291 of 3141"
+"Upshur County",54097,52.6,12937,"1275 of 3141"
+"Raleigh County",54081,52.6,40553,"1268 of 3141"
+"Preston County",54077,52.9,17862,"1197 of 3141"
+"Lewis County",54041,53.4,8749,"1082 of 3141"
+"Lincoln County",54043,53.5,11355,"1074 of 3141"
+"Mercer County",54055,53.5,32590,"1073 of 3141"
+"Ohio County",54069,53.6,23014,"1026 of 3141"
+"Kanawha County",54039,53.7,100885,"1013 of 3141"
+"Boone County",54005,53.9,12520,"982 of 3141"
+"Wood County",54107,54.0,46419,"968 of 3141"
+"Jackson County",54035,54.0,15726,"958 of 3141"
+"Randolph County",54083,54.1,15768,"940 of 3141"
+"Fayette County",54019,54.1,24125,"939 of 3141"
+"Wayne County",54099,54.1,22228,"927 of 3141"
+"Mason County",54053,54.5,14702,"867 of 3141"
+"Mineral County",54057,54.5,14935,"865 of 3141"
+"Taylor County",54091,54.5,9259,"849 of 3141"
+"Wyoming County",54109,54.6,12088,"829 of 3141"
+"Logan County",54045,54.7,18830,"818 of 3141"
+"Pleasants County",54073,54.9,4131,"791 of 3141"
+"Roane County",54087,55.2,7927,"719 of 3141"
+"McDowell County",54047,55.3,10890,"717 of 3141"
+"Wetzel County",54103,55.5,8765,"684 of 3141"
+"Clay County",54015,55.7,4955,"654 of 3141"
+"Marshall County",54051,55.8,17854,"639 of 3141"
+"Braxton County",54007,55.8,8003,"637 of 3141"
+"Doddridge County",54017,56.0,4796,"616 of 3141"
+"Wirt County",54105,56.1,3255,"596 of 3141"
+"Nicholas County",54067,56.1,14310,"595 of 3141"
+"Hardy County",54031,56.2,7759,"584 of 3141"
+"Grant County",54023,57.1,6665,"471 of 3141"
+"Greenbrier County",54025,57.2,20310,"463 of 3141"
+"Tyler County",54095,57.3,5130,"437 of 3141"
+"Ritchie County",54085,57.4,5745,"423 of 3141"
+"Webster County",54101,57.9,4997,"387 of 3141"
+"Brooke County",54009,57.9,13352,"383 of 3141"
+"Hampshire County",54027,58.0,13590,"370 of 3141"
+"Summers County",54089,58.2,7691,"352 of 3141"
+"Morgan County",54065,58.7,10285,"302 of 3141"
+"Hancock County",54029,59.0,17656,"283 of 3141"
+"Pocahontas County",54075,59.1,5066,"281 of 3141"
+"Monroe County",54063,59.8,8089,"232 of 3141"
+"Calhoun County",54013,60.3,4494,"205 of 3141"
+"Tucker County",54093,61.3,4315,"169 of 3141"
+"Pendleton County",54071,62.5,4461,"120 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:21 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Age 40 and over, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

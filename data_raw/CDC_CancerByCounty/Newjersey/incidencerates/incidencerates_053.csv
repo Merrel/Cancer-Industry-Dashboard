@@ -1,0 +1,61 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=34&areatype=county&cancer=061&stage=211&race=00&sex=2&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '34', 'areatype': 'county', 'cancer': '061', 'stage': '211', 'race': '00', 'sex': '2', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_053.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=34&areatype=county&cancer=061&stage=211&race=00&sex=2&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for New Jersey by County
+
+"Ovary (Late Stage^), 2012-2016"
+
+"All Races (includes Hispanic), Female, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Percent of Cases with Late Stage
+"New Jersey(3)",34000,***,9 ,8.6, 9.3,519,75.6
+"US (SEER+NPCR)(1)",00000,***,8.4 ,8.3, 8.5,16311,76.2
+"Cape May County(7)",34009,***,13 ,9.3, 17.8,10,79.4
+"Mercer County(7)",34021,***,11.4 ,9.5, 13.6,26,77.5
+"Somerset County(7)",34035,***,10.6 ,8.7, 12.8,23,82.6
+"Camden County(7)",34007,***,10 ,8.4, 11.7,32,74.9
+"Ocean County(7)",34029,***,9.8 ,8.5, 11.3,45,79.4
+"Essex County(7)",34013,***,9.5 ,8.3, 10.8,45,77.2
+"Burlington County(7)",34005,***,9.3 ,7.8, 11,29,72.9
+"Morris County(7)",34027,***,9.1 ,7.7, 10.8,31,77.1
+"Passaic County(7)",34031,***,8.9 ,7.4, 10.6,27,75.8
+"Gloucester County(7)",34015,***,8.8 ,6.9, 10.9,17,72.4
+"Monmouth County(7)",34025,***,8.7 ,7.5, 10.1,38,77.9
+"Warren County(7)",34041,***,8.7 ,5.8, 12.6,6,71.1
+"Sussex County(7)",34037,***,8.6 ,6.1, 11.9,9,72.9
+"Hunterdon County(7)",34019,***,8.5 ,5.9, 11.9,8,73.6
+"Atlantic County(7)",34001,***,8.4 ,6.6, 10.6,15,76.0
+"Bergen County(7)",34003,***,8.4 ,7.4, 9.5,53,76.3
+"Middlesex County(7)",34023,***,8.2 ,7.1, 9.4,41,68.9
+"Salem County(7)",34033,***,8 ,4.6, 13,4,75.0
+"Hudson County(7)",34017,***,7.9 ,6.7, 9.4,28,69.5
+"Union County(7)",34039,***,7.6 ,6.4, 9.1,26,77.8
+"Cumberland County(7)",34011,***,7.3 ,5, 10.3,7,81.0
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:19 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+
+Rates are computed using cancers classified as malignant based on ICD-O-3. For more information see malignant.html.
+
+"^ Late Stage is defined as cases determined to be regional or distant. Coding is generally based on Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ] but may include other staging variables if necessary."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+3 Source: SEER November 2018 submission.  State Cancer Registry also receives funding from CDC's National Program of Cancer Registries.
+7 Source: SEER November 2018 submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

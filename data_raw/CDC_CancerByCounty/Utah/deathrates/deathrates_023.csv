@@ -1,0 +1,70 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=49&areatype=county&cancer=001&race=01&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '49', 'areatype': 'county', 'cancer': '001', 'race': '01', 'sex': '0', 'age': '001', 'type': 'death', 'file_name': 'deathrates_023.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=49&areatype=county&cancer=001&race=01&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for Utah by County
+
+"All Cancer Sites, 2012-2016"
+
+"White (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 161.4?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Utah",49000,Yes,127.3 ,125.2, 129.5,2900,falling,-1.0 ,-1.2, -0.9
+"United States",00000,No,161.5 ,161.3, 161.7,501895,falling,-1.4 ,-1.4, -1.4
+"Beaver County",49001,No,191.9 ,146.2, 247.6,12,stable,-0.6 ,-2.0, 0.8
+"Grand County",49019,No,174.7 ,141.1, 214.4,20,falling,-1.5 ,-2.6, -0.4
+"Carbon County",49007,Yes,160.7 ,138.1, 186,38,stable,-0.6 ,-1.5, 0.3
+"Iron County",49021,Yes,150.6 ,133.5, 169.3,59,stable,-0.5 ,-1.5, 0.6
+"Duchesne County",49013,Yes,142.7 ,117.7, 171.3,23,stable,-0.8 ,-2.0, 0.5
+"Kane County",49025,Yes,140.8 ,109.7, 179.3,15,stable,-1.3 ,-3.0, 0.4
+"San Juan County",49037,Yes,139.2 ,104.3, 182.4,11,stable,-0.8 ,-2.5, 0.9
+"Sevier County",49041,Yes,138.2 ,117.5, 161.5,33,stable,-0.5 ,-1.4, 0.5
+"Wayne County",49055,Yes,137.7 ,86.1, 211.5,5,stable,-1.1 ,-3.4, 1.3
+"Tooele County",49045,Yes,136.7 ,121, 153.6,59,falling,-1.3 ,-2.1, -0.5
+"Salt Lake County",49035,Yes,133.5 ,129.9, 137.1,1103,falling,-1.0 ,-1.3, -0.8
+"Weber County",49057,Yes,133.1 ,126.1, 140.5,274,falling,-0.9 ,-1.2, -0.6
+"Millard County",49027,Yes,131.8 ,106.5, 161.7,20,stable,-0.4 ,-1.8, 1.0
+"Sanpete County",49039,Yes,128.9 ,110, 150.1,34,falling,-1.2 ,-2.1, -0.2
+"Box Elder County",49003,Yes,125.6 ,111.7, 140.8,60,stable,-0.9 ,-1.7, 0.0
+"Uintah County",49047,Yes,123.2 ,104.6, 144,32,falling,-1.3 ,-2.2, -0.3
+"Utah County",49049,Yes,120.8 ,115.4, 126.4,387,falling,-0.7 ,-1.0, -0.4
+"Davis County",49011,Yes,120.7 ,114.4, 127.2,288,falling,-1.1 ,-1.4, -0.7
+"Washington County",49053,Yes,117.5 ,110.6, 124.8,235,falling,-1.2 ,-1.7, -0.7
+"Wasatch County",49051,Yes,116 ,95.2, 139.7,24,falling,-1.4 ,-2.6, -0.2
+"Emery County",49015,Yes,114.3 ,88.5, 145.6,14,falling,-1.9 ,-3.5, -0.4
+"Cache County",49005,Yes,111.2 ,101, 122,89,falling,-0.9 ,-1.5, -0.3
+"Rich County",49033,Yes,110.4 ,61.2, 186.2,3,*,*,*,*
+"Morgan County",49029,Yes,107.3 ,78.3, 143.3,9,falling,-2.4 ,-3.7, -1.0
+"Garfield County",49017,Yes,103.9 ,70.4, 149.2,7,falling,-2.2 ,-4.1, -0.4
+"Juab County",49023,Yes,100.7 ,72.9, 135.2,9,stable,-1.5 ,-3.3, 0.2
+"Summit County",49043,Yes,98.5 ,81.6, 117.6,31,falling,-1.4 ,-2.7, -0.1
+"Daggett County",49009,***,* ,*, *,3 or fewer,*,*,*,*
+"Piute County",49031,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:22 pm.
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

@@ -1,0 +1,76 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=54&areatype=county&topic=inc&demo=00011&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '54', 'areatype': 'county', 'topic': 'inc', 'demo': '00011', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_005.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=54&areatype=county&topic=inc&demo=00011&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for West Virginia by County
+Income: Median household income
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Dollars),Rank within US
+"West Virginia",54000,44061.000000000,"49 of 52"
+"United States",00000,57652.000000000,"N/A"
+"McDowell County",54047,25595.000000000,"3117 of 3141"
+"Mingo County",54059,31227.000000000,"3024 of 3141"
+"Webster County",54101,33390.000000000,"2944 of 3141"
+"Clay County",54015,34242.000000000,"2909 of 3141"
+"Summers County",54089,35218.000000000,"2861 of 3141"
+"Calhoun County",54013,36279.000000000,"2782 of 3141"
+"Hampshire County",54027,36575.000000000,"2753 of 3141"
+"Monroe County",54063,36684.000000000,"2746 of 3141"
+"Lincoln County",54043,37075.000000000,"2718 of 3141"
+"Pocahontas County",54075,37111.000000000,"2711 of 3141"
+"Gilmer County",54021,37175.000000000,"2706 of 3141"
+"Barbour County",54001,37516.000000000,"2672 of 3141"
+"Wyoming County",54109,37644.000000000,"2664 of 3141"
+"Mercer County",54055,37763.000000000,"2656 of 3141"
+"Cabell County",54011,37816.000000000,"2652 of 3141"
+"Logan County",54045,37859.000000000,"2648 of 3141"
+"Roane County",54087,37931.000000000,"2642 of 3141"
+"Boone County",54005,37955.000000000,"2641 of 3141"
+"Wayne County",54099,38905.000000000,"2567 of 3141"
+"Wirt County",54105,38936.000000000,"2563 of 3141"
+"Mason County",54053,38977.000000000,"2560 of 3141"
+"Nicholas County",54067,39037.000000000,"2555 of 3141"
+"Fayette County",54019,39297.000000000,"2531 of 3141"
+"Upshur County",54097,39434.000000000,"2515 of 3141"
+"Pendleton County",54071,39554.000000000,"2502 of 3141"
+"Lewis County",54041,39793.000000000,"2484 of 3141"
+"Grant County",54023,40093.000000000,"2461 of 3141"
+"Randolph County",54083,40094.000000000,"2460 of 3141"
+"Greenbrier County",54025,40483.000000000,"2428 of 3141"
+"Wetzel County",54103,40694.000000000,"2403 of 3141"
+"Mineral County",54057,40749.000000000,"2393 of 3141"
+"Tyler County",54095,40902.000000000,"2383 of 3141"
+"Braxton County",54007,41266.000000000,"2333 of 3141"
+"Ritchie County",54085,41497.000000000,"2305 of 3141"
+"Jackson County",54035,41731.000000000,"2274 of 3141"
+"Raleigh County",54081,42386.000000000,"2205 of 3141"
+"Marshall County",54051,42473.000000000,"2195 of 3141"
+"Hardy County",54031,42573.000000000,"2185 of 3141"
+"Tucker County",54093,43294.000000000,"2113 of 3141"
+"Hancock County",54029,43634.000000000,"2072 of 3141"
+"Doddridge County",54017,44437.000000000,"1998 of 3141"
+"Pleasants County",54073,45152.000000000,"1909 of 3141"
+"Wood County",54107,45537.000000000,"1867 of 3141"
+"Ohio County",54069,45777.000000000,"1837 of 3141"
+"Taylor County",54091,45916.000000000,"1822 of 3141"
+"Morgan County",54065,46346.000000000,"1766 of 3141"
+"Preston County",54077,46673.000000000,"1717 of 3141"
+"Kanawha County",54039,46859.000000000,"1696 of 3141"
+"Marion County",54049,48158.000000000,"1563 of 3141"
+"Harrison County",54033,48315.000000000,"1541 of 3141"
+"Brooke County",54009,48835.000000000,"1481 of 3141"
+"Monongalia County",54061,49624.000000000,"1409 of 3141"
+"Putnam County",54079,59113.000000000,"571 of 3141"
+"Berkeley County",54003,59480.000000000,"545 of 3141"
+"Jefferson County",54037,72526.000000000,"186 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:21 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Income: Median household income, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#income."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"Median Incomes over 250,000 have been coded to 250,001 by the Census Bureau. [ http://www2.census.gov/acs2012_5yr/summaryfile/ACS_2008-2012_SF_Tech_Doc.pdf ]"
+Data for United States does not include Puerto Rico.

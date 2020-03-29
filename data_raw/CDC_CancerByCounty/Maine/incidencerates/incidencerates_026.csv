@@ -1,0 +1,56 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=23&areatype=county&cancer=001&race=07&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '23', 'areatype': 'county', 'cancer': '001', 'race': '07', 'sex': '0', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_026.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=23&areatype=county&cancer=001&race=07&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Maine by County
+
+"All Cancer Sites (All Stages^), 2012-2016"
+
+"White Non-Hispanic, Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Maine(6,10)",23000,***,477.1 ,472.4, 481.8,8500,stable,-0.1 ,-1.2, 1.0
+"US (SEER+NPCR) &sect; (1,10)",00000,***,464.2 ,463.8, 464.6,1254697,stable,-0.7 ,-1.6, 0.1
+"Washington County(6,10)",23029,***,504.3 ,474.2, 536.2,240,stable,1.0 ,-5.8, 8.3
+"Penobscot County(6,10)",23019,***,502.9 ,488.3, 517.9,955,stable,0.7 ,-2.1, 3.7
+"Piscataquis County(6,10)",23021,***,493.4 ,454.1, 535.8,137,stable,-2.0 ,-11.5, 8.5
+"Oxford County(6,10)",23017,***,492.3 ,470.1, 515.5,404,stable,-0.5 ,-6.5, 5.8
+"York County(6,10)",23031,***,488.1 ,475.9, 500.6,1305,stable,0.2 ,-5.9, 6.6
+"Aroostook County(6,10)",23003,***,481.2 ,461.4, 501.7,499,stable,0.3 ,-2.7, 3.4
+"Waldo County(6,10)",23027,***,481 ,454.1, 509.3,266,stable,-0.8 ,-5.4, 3.9
+"Hancock County(6,10)",23009,***,480.8 ,458.7, 503.9,400,stable,0.5 ,-4.5, 5.8
+"Androscoggin County(6,10)",23001,***,477.2 ,460, 494.8,618,stable,2.0 ,-1.4, 5.6
+"Knox County(6,10)",23013,***,476.1 ,450.4, 503.1,291,stable,3.2 ,-0.7, 7.3
+"Cumberland County(6,10)",23005,***,469.4 ,459, 480,1657,stable,-0.8 ,-2.8, 1.1
+"Kennebec County(6,10)",23011,***,465.4 ,450.1, 481.2,751,stable,-1.8 ,-4.5, 1.0
+"Somerset County(6,10)",23025,***,453.4 ,430.6, 477.1,322,stable,-0.3 ,-4.5, 4.1
+"Franklin County(6,10)",23007,***,450.2 ,420.1, 482.1,188,stable,3.6 ,-1.4, 8.8
+"Lincoln County(6,10)",23015,***,447.2 ,420.3, 475.7,248,stable,-0.4 ,-4.2, 3.7
+"Sagadahoc County(6,10)",23023,***,437.2 ,410.5, 465.4,217,falling,-8.1 ,-12.8, -3.1
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:17 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

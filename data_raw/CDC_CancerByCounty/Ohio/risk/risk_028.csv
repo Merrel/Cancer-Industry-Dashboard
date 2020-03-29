@@ -1,0 +1,26 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/risk/index.php?stateFIPS=00&topic=vaccine&risk=v91&race=00&sex=1&type=risk&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '00', 'topic': 'vaccine', 'risk': 'v91', 'race': '00', 'sex': '1', 'type': 'risk', 'file_name': 'risk_028.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/risk/index.php?stateFIPS=00&topic=vaccine&risk=v91&race=00&sex=1&type=risk&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+
+	Screening and Risk Factors Report by State
+(2017 National Immunization Survey)
+
+Percent who received 2+ doses of HPV Vaccine
+"All Races (includes Hispanic), Male, Ages 13-17"
+Healthy People 2020 Objective Number: n/a
+
+Sorted by Rate
+
+State, FIPS,Met Objective?(1),"Percent(2)","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Number of Respondents with Screening or Risk Factor
+"United States",00,n/a,48.8 ,47.1, 50.6,5548
+"Puerto Rico",72,data not available,data not available,data not available
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:20 pm.
+Data not available [http://statecancerprofiles.cancer.gov/datanotavailable.html] for this combination of data selections.
+
+(1) n/a - There is not a specific Healthy People 2020 Objective for this data item.
+"(2) Source: The National Immunization Survey - Teen [ https://www.cdc.gov/vaccines/imz-managers/coverage/nis/teen/ ] , Hyattsville, MD: Centers for Disease Control and Prevention."
+
+Data for United States does not include Puerto Rico.

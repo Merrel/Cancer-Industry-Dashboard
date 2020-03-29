@@ -1,0 +1,88 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=12&areatype=county&topic=ed&demo=00006&race=00&sex=0&age=081&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '12', 'areatype': 'county', 'topic': 'ed', 'demo': '00006', 'race': '00', 'sex': '0', 'age': '081', 'type': 'manyareacensus', 'file_name': 'demographics_003.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=12&areatype=county&topic=ed&demo=00006&race=00&sex=0&age=081&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Florida by County
+Education: At least bachelors degree
+Population Ages 25+
+"All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Education: At Least Bachelors Degree),Rank within US
+"Florida",12000,28.5,4095858,"31 of 52"
+"United States",00000,30.9,66887603,"N/A"
+"Union County",12125,8.3,937,"3111 of 3141"
+"Hendry County",12051,8.4,2061,"3107 of 3141"
+"Taylor County",12123,8.6,1390,"3101 of 3141"
+"Dixie County",12029,9.1,1126,"3076 of 3141"
+"Calhoun County",12013,9.6,982,"3053 of 3141"
+"Hamilton County",12047,10.2,1009,"3020 of 3141"
+"Bradford County",12007,10.4,2016,"3007 of 3141"
+"Hardee County",12049,10.5,1819,"2998 of 3141"
+"Glades County",12043,10.9,1077,"2967 of 3141"
+"Okeechobee County",12093,11.0,3062,"2957 of 3141"
+"Liberty County",12077,11.1,630,"2937 of 3141"
+"Washington County",12133,11.3,1973,"2919 of 3141"
+"Holmes County",12059,11.5,1600,"2892 of 3141"
+"DeSoto County",12027,11.5,2895,"2891 of 3141"
+"Levy County",12075,11.9,3445,"2841 of 3141"
+"Gilchrist County",12041,12.4,1436,"2774 of 3141"
+"Putnam County",12107,12.5,6400,"2751 of 3141"
+"Madison County",12079,12.5,1671,"2747 of 3141"
+"Baker County",12003,13.1,2395,"2647 of 3141"
+"Suwannee County",12121,13.7,4197,"2545 of 3141"
+"Lafayette County",12067,14.0,860,"2499 of 3141"
+"Jackson County",12063,14.0,4955,"2493 of 3141"
+"Gadsden County",12039,16.3,5197,"2053 of 3141"
+"Columbia County",12023,16.4,7751,"2031 of 3141"
+"Hernando County",12053,17.1,22780,"1922 of 3141"
+"Highlands County",12055,17.1,13053,"1913 of 3141"
+"Wakulla County",12129,17.8,4048,"1802 of 3141"
+"Citrus County",12017,17.8,19994,"1782 of 3141"
+"Franklin County",12037,18.4,1639,"1684 of 3141"
+"Gulf County",12045,18.5,2249,"1661 of 3141"
+"Osceola County",12097,19.0,40391,"1573 of 3141"
+"Marion County",12083,19.4,49412,"1513 of 3141"
+"Polk County",12105,19.5,87405,"1490 of 3141"
+"St. Lucie County",12111,19.6,41982,"1473 of 3141"
+"Jefferson County",12065,21.2,2313,"1209 of 3141"
+"Bay County",12005,22.4,28085,"1067 of 3141"
+"Lake County",12069,22.4,53520,"1065 of 3141"
+"Charlotte County",12015,22.4,31643,"1063 of 3141"
+"Pasco County",12101,22.7,81795,"1021 of 3141"
+"Volusia County",12127,22.7,86516,"1016 of 3141"
+"Flagler County",12035,23.6,18686,"921 of 3141"
+"Clay County",12019,23.7,32556,"907 of 3141"
+"Escambia County",12033,26.0,53465,"730 of 3141"
+"Walton County",12131,26.7,12381,"669 of 3141"
+"Santa Rosa County",12113,27.1,31247,"639 of 3141"
+"Nassau County",12089,27.2,15459,"636 of 3141"
+"Lee County",12071,27.2,142016,"632 of 3141"
+"Miami-Dade County",12086,27.8,530196,"597 of 3141"
+"Indian River County",12061,27.8,31330,"596 of 3141"
+"Brevard County",12009,28.4,118861,"570 of 3141"
+"Duval County",12031,28.7,177121,"550 of 3141"
+"Manatee County",12081,29.1,78176,"533 of 3141"
+"Okaloosa County",12091,29.8,40112,"500 of 3141"
+"Pinellas County",12103,30.1,217265,"482 of 3141"
+"Sumter County",12119,30.9,32228,"428 of 3141"
+"Broward County",12011,31.5,417852,"398 of 3141"
+"Monroe County",12087,31.8,18992,"385 of 3141"
+"Hillsborough County",12057,32.0,291612,"374 of 3141"
+"Martin County",12085,32.3,38583,"361 of 3141"
+"Orange County",12095,32.7,279550,"347 of 3141"
+"Sarasota County",12115,33.9,108780,"306 of 3141"
+"Palm Beach County",12099,34.8,360746,"271 of 3141"
+"Collier County",12021,34.9,93730,"267 of 3141"
+"Seminole County",12117,37.6,117681,"204 of 3141"
+"Alachua County",12001,41.4,64670,"136 of 3141"
+"St. Johns County",12109,43.0,68621,"111 of 3141"
+"Leon County",12073,45.5,76233,"88 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:14 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Education: At least bachelors degree, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#education."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

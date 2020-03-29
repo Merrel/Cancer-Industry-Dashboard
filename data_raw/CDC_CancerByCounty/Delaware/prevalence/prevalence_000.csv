@@ -1,0 +1,73 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/prevalence/index.php?stateFIPS=00&cancer=001&duration=0&statistics=0&sex=1&type=prev&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '00', 'cancer': '001', 'duration': '0', 'statistics': '0', 'sex': '1', 'type': 'prev', 'file_name': 'prevalence_000.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/prevalence/index.php?stateFIPS=00&cancer=001&duration=0&statistics=0&sex=1&type=prev&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+	Prevalence Projections Report by State
+Complete Prevalence Counts
+
+"Male, All Cancer Sites, All Ages"
+Sorted by Projected Counts 2017
+
+State,Projected Counts 2017
+United States,7599300
+California,842700
+Florida,701800
+Texas,511500
+New York,472600
+Pennsylvania,352400
+Illinois,284300
+Ohio,268900
+Michigan,261400
+New Jersey,239100
+Georgia,205200
+North Carolina,201200
+Massachusetts,185400
+Arizona,182700
+Virginia,181800
+Washington,171100
+Tennessee,149500
+Wisconsin,141300
+Minnesota,137700
+Missouri,134400
+Indiana,133900
+South Carolina,127500
+Kentucky,115000
+Maryland,109300
+Louisiana,108400
+Connecticut,103800
+Colorado,103300
+Alabama,103000
+Oregon,95800
+Oklahoma,92600
+Iowa,80100
+Kansas,73600
+Arkansas,67700
+Mississippi,67100
+Nevada,61300
+Utah,53700
+West Virginia,52800
+Nebraska,52700
+New Mexico,49200
+Maine,42600
+New Hampshire,37600
+Idaho,36400
+Hawaii,34600
+Rhode Island,29300
+Montana,27900
+Delaware,25200
+South Dakota,20700
+North Dakota,17400
+Alaska,16200
+Vermont,14400
+Wyoming,13300
+District of Columbia,8100
+Puerto Rico,data not available
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:16 pm.
+State Cancer Registries may provide more current or more local data.
+"Methodology: Cancer prevalence estimates are derived from state specific cancer mortality and survival data using a statistical package called MIAMOD (Mortality-Incidence Analysis MODEL). Cancer survival models are derived from the Surveillance, Epidemiology, and End Results (SEER) [https://seer.cancer.gov/] Program data and adjusted to represent state specific survival."
+"For more information on prevalence, please see the about this table web page [http://statecancerprofiles.cancer.gov/help/about/prevalence.html]."
+"Source: Single age and year state specific mortality data for cancer and all causes of death from the National Center for Health Statistics (NCHS) [https://www.cdc.gov/nchs/], and respective populations from the US Census Bureau [http://www.census.gov/], are available for calendar years 1969-2007 from SEER*Stat. The population projections were obtained from the US Census Bureau [http://www.census.gov/]."
+Note: The sum total of the individual states may not equal the total U.S. statistic due to rounding.
+Prevalance data is not avaiable for Puerto Rico

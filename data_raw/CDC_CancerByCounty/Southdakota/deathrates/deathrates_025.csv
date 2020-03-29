@@ -1,0 +1,110 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=46&areatype=county&cancer=001&race=07&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '46', 'areatype': 'county', 'cancer': '001', 'race': '07', 'sex': '0', 'age': '001', 'type': 'death', 'file_name': 'deathrates_025.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=46&areatype=county&cancer=001&race=07&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for South Dakota by County
+
+"All Cancer Sites, 2012-2016"
+
+"White Non-Hispanic, Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 161.4?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"South Dakota",46000,Yes,158.2 ,154.6, 161.9,1535,falling,-0.9 ,-1.1, -0.7
+"United States (6)",00000,No,165.4 ,165.2, 165.7,465052,falling,-1.4 ,-1.4, -1.3
+"Bennett County",46007,No,242.9 ,160.2, 372.9,6,*,*,*,*
+"McCook County",46087,No,240.8 ,192.5, 298.9,19,stable,0.9 ,-0.5, 2.3
+"Dewey County",46041,No,218 ,134.3, 348,4,*,*,*,*
+"Hanson County",46061,No,199.2 ,131.9, 287.8,6,stable,0.3 ,-1.2, 1.9
+"Kingsbury County",46077,No,196.5 ,153.8, 249.5,16,stable,-0.3 ,-1.5, 0.9
+"Miner County",46097,No,192.8 ,128.3, 282.8,7,stable,0.5 ,-1.3, 2.3
+"Clay County",46027,No,188.7 ,154.1, 229,22,stable,-0.5 ,-1.7, 0.7
+"Fall River County",46047,No,184.9 ,149.7, 228.8,22,stable,-0.6 ,-1.6, 0.4
+"Codington County",46029,No,181.2 ,161.5, 202.9,64,falling,-0.7 ,-1.3, -0.1
+"Corson County",46031,No,179.2 ,104.5, 298.8,4,stable,0.3 ,-2.2, 2.8
+"Roberts County",46109,No,176.4 ,139.8, 221.7,20,stable,-0.8 ,-1.9, 0.3
+"Minnehaha County",46099,No,176.1 ,167, 185.5,301,falling,-0.8 ,-1.1, -0.4
+"Faulk County",46049,No,175.6 ,120.2, 253.4,7,stable,-1.4 ,-3.4, 0.6
+"Sanborn County",46111,No,173.1 ,113.5, 256.7,6,stable,-1.3 ,-3.3, 0.7
+"Beadle County",46005,No,167.2 ,144.3, 193.2,41,falling,-0.9 ,-1.7, -0.1
+"Brule County",46015,No,167.1 ,125.8, 219.4,12,stable,-0.6 ,-2.1, 0.9
+"Davison County",46035,No,167 ,145.3, 191.3,47,stable,-0.9 ,-1.8, 0.1
+"Brown County",46013,No,166.6 ,150, 184.6,80,falling,-0.9 ,-1.6, -0.2
+"Brookings County",46011,No,166.4 ,145.5, 189.6,47,stable,-0.3 ,-1.1, 0.4
+"Stanley County",46117,No,166.2 ,108.9, 245.2,6,falling,-2.1 ,-3.8, -0.4
+"Turner County",46125,No,165.2 ,133.2, 203.5,20,falling,-1.9 ,-3.0, -0.7
+"Douglas County",46043,No,164 ,113, 234.2,9,stable,-0.7 ,-2.6, 1.2
+"Gregory County",46053,No,162.1 ,122.9, 214.1,13,stable,-0.3 ,-1.4, 0.8
+"Hughes County",46065,Yes,161.1 ,136.5, 189.1,32,stable,-0.1 ,-1.0, 0.9
+"Perkins County",46105,Yes,160.9 ,111.6, 228.7,8,stable,1.1 ,-1.0, 3.3
+"Sully County",46119,Yes,160.3 ,94.5, 266.4,4,stable,-2.0 ,-4.7, 0.7
+"Spink County",46115,Yes,158.9 ,124.3, 201.6,16,falling,-1.4 ,-2.6, -0.1
+"Meade County",46093,Yes,157.1 ,136.4, 180.2,43,stable,-1.0 ,-2.0, 0.0
+"Lyman County",46085,Yes,157 ,106.5, 230.4,6,stable,-1.2 ,-3.4, 1.0
+"Hamlin County",46057,Yes,153.8 ,116, 201.1,12,stable,-0.5 ,-1.5, 0.6
+"Jackson County",46071,Yes,153.6 ,94.1, 250.4,4,stable,-1.5 ,-3.7, 0.7
+"Marshall County",46091,Yes,152.8 ,111.8, 206.7,10,stable,0.1 ,-1.3, 1.6
+"Butte County",46019,Yes,152.6 ,124, 186.6,21,stable,-0.7 ,-2.3, 0.9
+"Pennington County",46103,Yes,152.6 ,142.5, 163.2,181,falling,-1.3 ,-1.8, -0.9
+"Walworth County",46129,Yes,152.3 ,115.1, 200.8,14,stable,-20.8 ,-44.1, 12.0
+"Haakon County",46055,Yes,151.9 ,90.4, 246.5,5,stable,-1.2 ,-3.6, 1.4
+"Lawrence County",46081,Yes,150.5 ,132.1, 171,52,falling,-0.9 ,-1.7, -0.2
+"Moody County",46101,Yes,150.3 ,113.1, 197.6,12,stable,0.3 ,-1.0, 1.6
+"Charles Mix County",46023,Yes,150.2 ,119.2, 189.2,18,stable,-0.8 ,-2.3, 0.8
+"Jerauld County",46073,Yes,147.5 ,96.7, 225.6,6,stable,0.7 ,-1.2, 2.6
+"Lake County",46079,Yes,145.7 ,120.5, 175.3,25,stable,-0.8 ,-1.9, 0.2
+"Union County",46127,Yes,145.5 ,121.5, 173.3,27,falling,-1.6 ,-2.6, -0.6
+"Yankton County",46135,Yes,144.6 ,125.7, 165.9,45,falling,-1.0 ,-1.8, -0.2
+"Hand County",46059,Yes,144.6 ,100.5, 205.3,9,stable,-1.1 ,-2.5, 0.4
+"Potter County",46107,Yes,140.3 ,96, 207.9,7,stable,-0.8 ,-2.6, 1.0
+"Custer County",46033,Yes,140 ,113.3, 173.6,21,stable,-1.1 ,-2.1, 0.0
+"Bon Homme County",46009,Yes,136.8 ,106.2, 175.3,15,stable,-0.5 ,-1.9, 0.8
+"Clark County",46025,Yes,135 ,96.6, 187.4,9,stable,-0.6 ,-2.4, 1.1
+"Tripp County",46123,Yes,132.9 ,99.5, 177.3,13,stable,-1.4 ,-2.9, 0.1
+"Day County",46037,Yes,131.7 ,97.1, 177.3,12,falling,-1.5 ,-2.7, -0.2
+"Grant County",46051,Yes,131.6 ,102.5, 168,15,stable,-0.7 ,-1.8, 0.3
+"McPherson County",46089,Yes,129.3 ,88.1, 192.1,7,stable,-1.3 ,-3.3, 0.7
+"Aurora County",46003,Yes,126.6 ,82.3, 191.4,6,stable,-1.3 ,-3.2, 0.7
+"Edmunds County",46045,Yes,125 ,89.1, 173.8,8,falling,-2.2 ,-3.8, -0.6
+"Hutchinson County",46067,Yes,121 ,93.7, 155.3,17,falling,-1.8 ,-3.3, -0.4
+"Deuel County",46039,Yes,119.8 ,86.3, 165.1,9,stable,10.5 ,-18.2, 49.2
+"Lincoln County",46083,Yes,117.2 ,103.1, 132.8,52,falling,-5.1 ,-7.2, -2.9
+"Campbell County",46021,Yes,114.5 ,66.4, 209.5,3,stable,-1.7 ,-3.6, 0.3
+"Buffalo County",46017,***,* ,*, *,3 or fewer,*,*,*,*
+"Harding County",46063,***,* ,*, *,3 or fewer,*,*,*,*
+"Hyde County",46069,***,* ,*, *,3 or fewer,*,*,*,*
+"Jones County",46075,***,* ,*, *,3 or fewer,*,*,*,*
+"Mellette County",46095,***,* ,*, *,3 or fewer,*,*,*,*
+"Shannon County",46113,***,* ,*, *,3 or fewer,*,*,*,*
+"Todd County",46121,***,* ,*, *,3 or fewer,*,*,*,*
+"Ziebach County",46137,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:21 pm.
+
+"South Dakota County Name Change: please note that Shannon County, SD (FIPS code=46113) was renamed effective May 1, 2015, and the new name is Oglala Lakota County (FIPS Code=46102). Due to the nature of data submissions, we will use the older code/name this year and transition to the new code/name with a future data release."
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"(6) Hispanic mortality data for the United States has been excluded for the following states: Louisiana, New Hampshire, and Oklahoma. The data on Hispanic and non-Hispanic mortality for these states may be unreliable for the time period used in the generation of the recent trend (1990 - 2016) and has been excluded from the calculation of the United States recent trend. This was based on the NCHS Policy. "
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

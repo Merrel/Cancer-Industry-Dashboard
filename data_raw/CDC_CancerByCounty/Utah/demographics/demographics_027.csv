@@ -1,0 +1,49 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=49&areatype=county&topic=pop&demo=00104&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '49', 'areatype': 'county', 'topic': 'pop', 'demo': '00104', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_027.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=49&areatype=county&topic=pop&demo=00104&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Utah by County
+Population: Sex - Male
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Male),Rank within US
+"United States",00000,49.2,158018753,"N/A"
+"Utah",49000,50.3,1506614,"48 of 52"
+"Rich County",49033,48.3,1114,"362 of 3141"
+"Carbon County",49007,49.2,10088,"1066 of 3141"
+"Washington County",49053,49.6,77178,"1579 of 3141"
+"Iron County",49021,49.7,24108,"1675 of 3141"
+"Cache County",49005,50.1,60247,"2009 of 3141"
+"Weber County",49057,50.2,122542,"2117 of 3141"
+"Salt Lake County",49035,50.2,555589,"2119 of 3141"
+"Davis County",49011,50.3,168534,"2207 of 3141"
+"San Juan County",49037,50.4,7654,"2256 of 3141"
+"Tooele County",49045,50.4,31942,"2287 of 3141"
+"Kane County",49025,50.5,3656,"2302 of 3141"
+"Utah County",49049,50.5,290874,"2303 of 3141"
+"Grand County",49019,50.5,4823,"2339 of 3141"
+"Box Elder County",49003,50.6,26423,"2390 of 3141"
+"Uintah County",49047,50.8,18454,"2472 of 3141"
+"Wasatch County",49051,50.9,14903,"2493 of 3141"
+"Duchesne County",49013,50.9,10320,"2521 of 3141"
+"Emery County",49015,51.0,5306,"2528 of 3141"
+"Morgan County",49029,51.0,5617,"2536 of 3141"
+"Millard County",49027,51.1,6462,"2566 of 3141"
+"Sevier County",49041,51.3,10756,"2635 of 3141"
+"Juab County",49023,51.3,5491,"2647 of 3141"
+"Beaver County",49001,51.4,3296,"2661 of 3141"
+"Summit County",49043,51.6,20499,"2700 of 3141"
+"Piute County",49031,51.9,966,"2763 of 3141"
+"Wayne County",49055,52.0,1403,"2773 of 3141"
+"Garfield County",49017,52.5,2633,"2851 of 3141"
+"Sanpete County",49039,53.0,15311,"2896 of 3141"
+"Daggett County",49009,60.5,425,"3110 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:21 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Sex - Male, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

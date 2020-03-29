@@ -1,0 +1,80 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=53&areatype=county&cancer=001&race=00&sex=1&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '53', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '1', 'age': '001', 'type': 'death', 'file_name': 'deathrates_031.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=53&areatype=county&cancer=001&race=00&sex=1&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for Washington by County
+
+"All Cancer Sites, 2012-2016"
+
+"All Races (includes Hispanic), Male, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 161.4?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Washington",53000,No,184.6 ,182.6, 186.7,6451,falling,-1.7 ,-1.9, -1.5
+"United States",00000,No,193.1 ,192.8, 193.4,310576,falling,-1.8 ,-1.8, -1.8
+"Pend Oreille County",53051,No,221.4 ,179.8, 271.3,23,stable,0.1 ,-1.4, 1.5
+"Lewis County",53041,No,215.2 ,197.2, 234.6,110,falling,-1.1 ,-1.6, -0.5
+"Columbia County",53013,No,209.8 ,144.1, 302.7,7,falling,-2.6 ,-4.6, -0.6
+"Grays Harbor County",53027,No,208.6 ,190.3, 228.4,102,falling,-1.6 ,-2.1, -1.0
+"Cowlitz County",53015,No,206.3 ,190.5, 223.3,132,falling,-1.0 ,-1.5, -0.5
+"Mason County",53045,No,206.3 ,187, 227.2,90,falling,-1.0 ,-1.7, -0.4
+"Okanogan County",53047,No,204.7 ,181.1, 230.8,59,falling,-1.1 ,-1.7, -0.4
+"Klickitat County",53039,No,204 ,171.6, 241.5,31,falling,-1.3 ,-2.4, -0.2
+"Stevens County",53065,No,201.9 ,178.6, 227.6,62,falling,-0.9 ,-1.5, -0.2
+"Pierce County",53053,No,201.7 ,195, 208.5,747,falling,-1.3 ,-1.5, -1.1
+"Spokane County",53063,No,201.5 ,193.4, 209.7,502,falling,-1.3 ,-1.5, -1.0
+"Pacific County",53049,No,201 ,172.8, 233.7,39,falling,-1.1 ,-2.0, -0.2
+"Wahkiakum County",53069,No,200.5 ,140.5, 288.1,8,*,*,*,*
+"Clark County",53011,No,197.4 ,188.7, 206.4,419,falling,-1.4 ,-1.7, -1.2
+"Clallam County",53009,No,194.5 ,178.8, 211.5,125,falling,-1.0 ,-1.5, -0.5
+"Yakima County",53077,No,194 ,182.5, 206.2,217,falling,-1.0 ,-1.2, -0.7
+"Skagit County",53057,No,192.5 ,178.6, 207.2,148,falling,-0.6 ,-1.1, -0.1
+"Grant County",53025,No,192.2 ,173.7, 212.1,83,falling,-0.8 ,-1.5, -0.2
+"Kitsap County",53035,No,190 ,179.5, 201,265,falling,-1.5 ,-1.9, -1.1
+"Ferry County",53019,No,187.6 ,135.9, 254.7,11,stable,-1.5 ,-4.1, 1.1
+"Snohomish County",53061,No,186.5 ,179.6, 193.6,612,falling,-1.4 ,-1.7, -1.2
+"Thurston County",53067,No,185 ,174.6, 195.8,253,falling,-2.6 ,-3.7, -1.5
+"Douglas County",53017,No,184.5 ,159.3, 212.7,40,stable,-0.3 ,-1.3, 0.8
+"Whatcom County",53073,No,183.8 ,172.4, 195.7,204,falling,-1.2 ,-1.6, -0.7
+"Benton County",53005,No,183.1 ,170.3, 196.5,163,falling,-1.5 ,-2.0, -1.1
+"Chelan County",53007,No,182.5 ,165, 201.4,83,falling,-1.7 ,-2.4, -1.1
+"Walla Walla County",53071,No,180.8 ,160.8, 202.6,62,falling,-1.0 ,-1.5, -0.4
+"Jefferson County",53031,No,179.7 ,158.1, 204.7,56,falling,-1.5 ,-2.3, -0.7
+"Whitman County",53075,No,170.4 ,143, 201.4,28,stable,-0.8 ,-1.6, 0.1
+"Lincoln County",53043,No,165.9 ,129, 212.5,15,stable,-1.1 ,-2.2, 0.2
+"King County",53033,No,165.7 ,161.8, 169.6,1511,falling,-1.9 ,-2.1, -1.7
+"Island County",53029,No,163.7 ,148.7, 180,94,falling,-1.5 ,-2.0, -1.1
+"Asotin County",53003,Yes,159.8 ,133.7, 190.4,27,falling,-2.5 ,-3.4, -1.6
+"Kittitas County",53037,Yes,158.3 ,135.2, 184.4,36,falling,-2.1 ,-3.0, -1.3
+"Skamania County",53059,Yes,157 ,118.1, 206,12,falling,-2.7 ,-4.4, -1.1
+"Franklin County",53021,Yes,152 ,131, 175,43,falling,-2.5 ,-3.5, -1.6
+"Adams County",53001,Yes,148.5 ,112.1, 192.5,12,falling,-2.7 ,-3.8, -1.5
+"San Juan County",53055,Yes,139.9 ,112.8, 174,21,falling,-1.6 ,-2.5, -0.7
+"Garfield County",53023,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:21 pm.
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

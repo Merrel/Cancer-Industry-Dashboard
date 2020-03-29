@@ -1,0 +1,94 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=38&areatype=county&cancer=001&race=00&sex=2&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '38', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '2', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_033.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=38&areatype=county&cancer=001&race=00&sex=2&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for North Dakota by County
+
+"All Cancer Sites (All Stages^), 2012-2016"
+
+"All Races (includes Hispanic), Female, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"North Dakota(6,10)",38000,***,424.9 ,415.7, 434.2,1769,stable,0.3 ,-0.5, 1.2
+"US (SEER+NPCR)(1,10)",00000,***,420.9 ,420.5, 421.3,813914,stable,-0.4 ,-1.3, 0.6
+"Sargent County(6,10)",38081,***,627.2 ,482.2, 804,15,stable,0.0 ,-43.9, 78.3
+"Oliver County(6,10)",38065,***,627 ,416.6, 908.8,7,stable,-5.2 ,-27.1, 23.2
+"Renville County(6,10)",38075,***,559 ,406.4, 755.4,10,stable,2.6 ,-8.8, 15.6
+"McLean County(6,10)",38055,***,500.4 ,420.1, 592.7,33,stable,-3.0 ,-25.8, 26.7
+"Rolette County(6,10)",38079,***,494.6 ,422.2, 575.5,35,stable,-0.8 ,-23.2, 28.3
+"Barnes County(6,10)",38003,***,494.2 ,420.1, 578.5,38,stable,-1.2 ,-10.2, 8.8
+"Ransom County(6,10)",38073,***,492.9 ,384.9, 622.8,17,stable,-6.0 ,-22.8, 14.4
+"Mountrail County(6,10)",38061,***,492.4 ,401.8, 597,22,stable,5.1 ,-18.4, 35.3
+"Foster County(6,10)",38031,***,489.8 ,365.8, 646.5,12,stable,-23.2 ,-44.6, 6.3
+"Adams County(6,10)",38001,***,485.1 ,342.1, 676,10,stable,-1.1 ,-14.1, 14.0
+"Traill County(6,10)",38097,***,476.9 ,391.9, 575.9,25,stable,0.9 ,-11.8, 15.5
+"Dickey County(6,10)",38021,***,469.9 ,365.5, 596.3,17,stable,9.0 ,-22.3, 52.9
+"Kidder County(6,10)",38043,***,469.2 ,318.9, 669.8,8,stable,9.7 ,-33.3, 80.4
+"McIntosh County(6,10)",38051,***,460.3 ,319.7, 648.7,10,stable,-0.5 ,-49.2, 94.9
+"Cass County(6,10)",38017,***,451.9 ,430.6, 474,359,stable,2.0 ,-0.9, 5.0
+"Burleigh County(6,10)",38015,***,443 ,417.2, 470,238,stable,-2.0 ,-7.3, 3.6
+"Morton County(6,10)",38059,***,441.8 ,397.5, 489.9,78,stable,-0.4 ,-18.5, 21.6
+"Cavalier County(6,10)",38019,***,440.8 ,323, 590.6,13,stable,3.2 ,-17.1, 28.5
+"Ward County(6,10)",38101,***,435.5 ,403.8, 469,148,stable,3.3 ,-4.7, 12.0
+"Wells County(6,10)",38103,***,429.3 ,330.1, 555.1,16,stable,10.5 ,-17.2, 47.5
+"Grand Forks County(6,10)",38035,***,422.4 ,390.7, 456,141,stable,5.1 ,-6.1, 17.7
+"Burke County(6,10)",38013,***,421.7 ,261.8, 641.7,5,stable,28.5 ,-15.5, 95.4
+"McHenry County(6,10)",38049,***,419 ,327.9, 529.3,16,stable,1.3 ,-27.4, 41.3
+"Golden Valley County(6,10)",38033,***,411.3 ,264.4, 619.6,6,stable,1.9 ,-17.0, 25.1
+"Pembina County(6,10)",38067,***,409.8 ,328.9, 506.6,21,stable,-4.7 ,-23.3, 18.5
+"Mercer County(6,10)",38057,***,409.2 ,333.6, 498,23,stable,-2.5 ,-29.0, 33.9
+"Benson County(6,10)",38005,***,407.5 ,314.5, 519.3,14,stable,10.5 ,-9.1, 34.4
+"Stutsman County(6,10)",38093,***,405.7 ,356.9, 459.8,56,stable,-5.1 ,-18.8, 11.0
+"Richland County(6,10)",38077,***,392.3 ,337.4, 454.2,40,stable,7.8 ,-3.5, 20.5
+"LaMoure County(6,10)",38045,***,388.8 ,296.8, 507.1,15,stable,-4.2 ,-44.3, 64.8
+"Bottineau County(6,10)",38009,***,386.3 ,307.3, 481.9,20,stable,-4.4 ,-15.4, 8.0
+"Pierce County(6,10)",38069,***,381.7 ,279.4, 511.4,13,stable,12.1 ,-17.9, 53.1
+"Walsh County(6,10)",38099,***,380.7 ,319.9, 450.9,33,stable,-4.9 ,-28.2, 25.8
+"Dunn County(6,10)",38025,***,379.7 ,267.4, 523,9,stable,15.1 ,-13.9, 53.9
+"Eddy County(6,10)",38027,***,375.4 ,252.9, 546.2,7,stable,-10.4 ,-40.2, 34.4
+"Hettinger County(6,10)",38041,***,374.6 ,257.6, 531.6,7,stable,-16.0 ,-34.7, 8.1
+"Williams County(6,10)",38105,***,369.4 ,324.5, 418.7,52,stable,-5.4 ,-15.8, 6.3
+"Sheridan County(6,10)",38083,***,367 ,226.6, 600,5,stable,-10.5 ,-43.9, 43.0
+"Towner County(6,10)",38095,***,365.7 ,249.7, 531.5,7,stable,-4.4 ,-22.6, 18.2
+"Grant County(6,10)",38037,***,365.1 ,263.4, 509.8,9,stable,-1.7 ,-14.2, 12.7
+"Sioux County(6,10)",38085,***,364.2 ,237, 532.5,6,stable,9.9 ,-38.8, 97.3
+"Bowman County(6,10)",38011,***,362.1 ,254.5, 504.6,9,*,*,*,*
+"Ramsey County(6,10)",38071,***,358.7 ,299.3, 427.2,29,rising,15.1 ,4.8, 26.4
+"Emmons County(6,10)",38029,***,357.5 ,257.1, 492.2,11,stable,20.5 ,-17.2, 75.3
+"Stark County(6,10)",38089,***,353.4 ,311.4, 399.5,56,stable,-6.7 ,-18.8, 7.1
+"Logan County(6,10)",38047,***,339.9 ,194.5, 557.6,5,stable,2.1 ,-58.8, 152.8
+"Nelson County(6,10)",38063,***,326.2 ,237.2, 451.2,10,stable,-5.8 ,-20.1, 11.1
+"Griggs County(6,10)",38039,***,313.4 ,187.1, 500.4,6,stable,-11.7 ,-64.3, 118.2
+"McKenzie County(6,10)",38053,***,311.3 ,243.2, 392.3,15,stable,-5.9 ,-35.0, 36.3
+"Steele County(6,10)",38091,***,280.8 ,176.5, 441.2,5,rising,12.1 ,0.8, 24.7
+"Divide County(6,10)",38023,***,220.5 ,133.3, 356,5,*,*,*,*
+"Billings County(6,10)",38007,***,* ,*, *,3 or fewer,*,*,*,*
+"Slope County(6,10)",38087,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:21 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

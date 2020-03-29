@@ -1,0 +1,50 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=49&areatype=county&topic=ed&demo=00006&race=00&sex=0&age=081&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '49', 'areatype': 'county', 'topic': 'ed', 'demo': '00006', 'race': '00', 'sex': '0', 'age': '081', 'type': 'manyareacensus', 'file_name': 'demographics_003.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=49&areatype=county&topic=ed&demo=00006&race=00&sex=0&age=081&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Utah by County
+Education: At least bachelors degree
+Population Ages 25+
+"All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Education: At Least Bachelors Degree),Rank within US
+"United States",00000,30.9,66887603,"N/A"
+"Utah",49000,32.5,567151,"16 of 52"
+"Daggett County",49009,9.3,46,"3067 of 3141"
+"Uintah County",49047,14.3,2966,"2445 of 3141"
+"Duchesne County",49013,14.5,1683,"2392 of 3141"
+"Emery County",49015,15.0,956,"2302 of 3141"
+"Carbon County",49007,15.7,2052,"2188 of 3141"
+"Juab County",49023,16.8,1005,"1973 of 3141"
+"Sevier County",49041,16.8,2164,"1965 of 3141"
+"San Juan County",49037,17.3,1526,"1884 of 3141"
+"Beaver County",49001,18.5,702,"1677 of 3141"
+"Sanpete County",49039,19.2,3205,"1538 of 3141"
+"Garfield County",49017,21.1,712,"1219 of 3141"
+"Millard County",49027,21.4,1642,"1187 of 3141"
+"Tooele County",49045,22.6,8153,"1042 of 3141"
+"Piute County",49031,22.7,308,"1027 of 3141"
+"Box Elder County",49003,22.7,6930,"1023 of 3141"
+"Rich County",49033,22.8,317,"1004 of 3141"
+"Weber County",49057,24.0,35824,"879 of 3141"
+"Wayne County",49055,26.0,467,"724 of 3141"
+"Kane County",49025,27.0,1358,"646 of 3141"
+"Grand County",49019,27.8,1822,"599 of 3141"
+"Washington County",49053,28.1,27659,"580 of 3141"
+"Iron County",49021,28.7,7729,"547 of 3141"
+"Salt Lake County",49035,33.6,231899,"316 of 3141"
+"Davis County",49011,36.2,70017,"234 of 3141"
+"Cache County",49005,36.9,22167,"222 of 3141"
+"Wasatch County",49051,38.7,6713,"185 of 3141"
+"Utah County",49049,39.4,110525,"172 of 3141"
+"Morgan County",49029,40.0,2484,"160 of 3141"
+"Summit County",49043,53.5,14120,"29 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:21 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Education: At least bachelors degree, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#education."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

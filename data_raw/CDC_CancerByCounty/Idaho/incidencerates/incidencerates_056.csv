@@ -1,0 +1,85 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=16&areatype=county&cancer=018&stage=211&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '16', 'areatype': 'county', 'cancer': '018', 'stage': '211', 'race': '00', 'sex': '0', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_056.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=16&areatype=county&cancer=018&stage=211&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Idaho by County
+
+"Stomach (Late Stage^), 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Percent of Cases with Late Stage
+"Idaho(3)",16000,***,3.1 ,2.8, 3.5,56,60.7
+"US (SEER+NPCR)(1)",00000,***,3.8 ,3.8, 3.8,13895,58.2
+"Canyon County(7)",16027,***,4.1 ,2.9, 5.6,8,68.3
+"Kootenai County(7)",16055,***,3.6 ,2.5, 5.1,7,73.3
+"Twin Falls County(7)",16083,***,3.6 ,2, 5.8,3,55.2
+"Ada County(7)",16001,***,2.6 ,1.9, 3.3,11,50.5
+"Adams County(7)",16003,***,* ,*, *,3 or fewer,*
+"Bannock County(7)",16005,***,* ,*, *,3 or fewer,*
+"Bear Lake County(7)",16007,***,* ,*, *,3 or fewer,*
+"Benewah County(7)",16009,***,* ,*, *,3 or fewer,*
+"Bingham County(7)",16011,***,* ,*, *,3 or fewer,*
+"Blaine County(7)",16013,***,* ,*, *,3 or fewer,*
+"Boise County(7)",16015,***,* ,*, *,3 or fewer,*
+"Bonner County(7)",16017,***,* ,*, *,3 or fewer,*
+"Bonneville County(7)",16019,***,* ,*, *,3 or fewer,*
+"Boundary County(7)",16021,***,* ,*, *,3 or fewer,*
+"Butte County(7)",16023,***,* ,*, *,3 or fewer,*
+"Camas County(7)",16025,***,* ,*, *,3 or fewer,*
+"Caribou County(7)",16029,***,* ,*, *,3 or fewer,*
+"Cassia County(7)",16031,***,* ,*, *,3 or fewer,*
+"Clark County(7)",16033,***,* ,*, *,3 or fewer,*
+"Clearwater County(7)",16035,***,* ,*, *,3 or fewer,*
+"Custer County(7)",16037,***,* ,*, *,3 or fewer,*
+"Elmore County(7)",16039,***,* ,*, *,3 or fewer,*
+"Franklin County(7)",16041,***,* ,*, *,3 or fewer,*
+"Fremont County(7)",16043,***,* ,*, *,3 or fewer,*
+"Gem County(7)",16045,***,* ,*, *,3 or fewer,*
+"Gooding County(7)",16047,***,* ,*, *,3 or fewer,*
+"Idaho County(7)",16049,***,* ,*, *,3 or fewer,*
+"Jefferson County(7)",16051,***,* ,*, *,3 or fewer,*
+"Jerome County(7)",16053,***,* ,*, *,3 or fewer,*
+"Latah County(7)",16057,***,* ,*, *,3 or fewer,*
+"Lemhi County(7)",16059,***,* ,*, *,3 or fewer,*
+"Lewis County(7)",16061,***,* ,*, *,3 or fewer,*
+"Lincoln County(7)",16063,***,* ,*, *,3 or fewer,*
+"Madison County(7)",16065,***,* ,*, *,3 or fewer,*
+"Minidoka County(7)",16067,***,* ,*, *,3 or fewer,*
+"Nez Perce County(7)",16069,***,* ,*, *,3 or fewer,*
+"Oneida County(7)",16071,***,* ,*, *,3 or fewer,*
+"Owyhee County(7)",16073,***,* ,*, *,3 or fewer,*
+"Payette County(7)",16075,***,* ,*, *,3 or fewer,*
+"Power County(7)",16077,***,* ,*, *,3 or fewer,*
+"Shoshone County(7)",16079,***,* ,*, *,3 or fewer,*
+"Teton County(7)",16081,***,* ,*, *,3 or fewer,*
+"Valley County(7)",16085,***,* ,*, *,3 or fewer,*
+"Washington County(7)",16087,***,* ,*, *,3 or fewer,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:16 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+
+Rates are computed using cancers classified as malignant based on ICD-O-3. For more information see malignant.html.
+
+"^ Late Stage is defined as cases determined to be regional or distant. Coding is generally based on Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ] but may include other staging variables if necessary."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+3 Source: SEER November 2018 submission.  State Cancer Registry also receives funding from CDC's National Program of Cancer Registries.
+7 Source: SEER November 2018 submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

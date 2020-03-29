@@ -1,0 +1,73 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=38&areatype=county&topic=pop&demo=00014&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '38', 'areatype': 'county', 'topic': 'pop', 'demo': '00014', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_022.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=38&areatype=county&topic=pop&demo=00014&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for North Dakota by County
+Population: Foreign born
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Foreign Born),Rank within US
+"North Dakota",38000,3.6,26715,"44 of 51"
+"United States",00000,13.4,43028127,"N/A"
+"Pierce County",38069,0.1,5,"3116 of 3140"
+"Golden Valley County",38033,0.2,3,"3106 of 3140"
+"Slope County",38087,0.3,2,"3072 of 3140"
+"Griggs County",38039,0.5,12,"2979 of 3140"
+"Oliver County",38065,0.5,10,"2965 of 3140"
+"Sioux County",38085,0.6,25,"2955 of 3140"
+"Wells County",38103,0.6,25,"2931 of 3140"
+"Rolette County",38079,0.6,94,"2908 of 3140"
+"Sheridan County",38083,0.6,9,"2907 of 3140"
+"Benson County",38005,0.7,45,"2898 of 3140"
+"Grant County",38037,0.7,17,"2850 of 3140"
+"Eddy County",38027,0.7,17,"2837 of 3140"
+"Cavalier County",38019,0.8,29,"2817 of 3140"
+"Foster County",38031,0.9,30,"2720 of 3140"
+"McLean County",38055,1.1,106,"2562 of 3140"
+"Morton County",38059,1.1,335,"2556 of 3140"
+"Bowman County",38011,1.1,36,"2553 of 3140"
+"Barnes County",38003,1.2,136,"2444 of 3140"
+"McHenry County",38049,1.3,79,"2373 of 3140"
+"Logan County",38047,1.3,26,"2362 of 3140"
+"Hettinger County",38041,1.4,36,"2329 of 3140"
+"Mercer County",38057,1.4,121,"2318 of 3140"
+"Emmons County",38029,1.4,49,"2288 of 3140"
+"LaMoure County",38045,1.5,60,"2277 of 3140"
+"Richland County",38077,1.5,250,"2224 of 3140"
+"Ramsey County",38071,1.6,184,"2187 of 3140"
+"Steele County",38091,1.6,31,"2168 of 3140"
+"Kidder County",38043,1.6,40,"2160 of 3140"
+"Traill County",38097,1.7,140,"2076 of 3140"
+"Adams County",38001,1.9,44,"2011 of 3140"
+"Ransom County",38073,1.9,101,"1996 of 3140"
+"Billings County",38007,2.0,20,"1916 of 3140"
+"Towner County",38095,2.0,46,"1915 of 3140"
+"Stutsman County",38093,2.1,436,"1887 of 3140"
+"Burke County",38013,2.1,48,"1850 of 3140"
+"Mountrail County",38061,2.2,220,"1808 of 3140"
+"Burleigh County",38015,2.2,2049,"1796 of 3140"
+"Nelson County",38063,2.3,67,"1777 of 3140"
+"McIntosh County",38051,2.5,66,"1690 of 3140"
+"Dickey County",38021,2.5,128,"1657 of 3140"
+"Bottineau County",38009,2.6,176,"1598 of 3140"
+"Sargent County",38081,2.7,103,"1594 of 3140"
+"Dunn County",38025,2.9,126,"1477 of 3140"
+"McKenzie County",38053,3.0,347,"1434 of 3140"
+"Stark County",38089,3.0,920,"1404 of 3140"
+"Renville County",38075,3.4,87,"1283 of 3140"
+"Williams County",38105,4.0,1318,"1114 of 3140"
+"Divide County",38023,4.2,99,"1076 of 3140"
+"Ward County",38101,4.5,3132,"1007 of 3140"
+"Walsh County",38099,4.5,493,"1005 of 3140"
+"Grand Forks County",38035,4.6,3227,"986 of 3140"
+"Pembina County",38067,4.7,334,"961 of 3140"
+"Cass County",38017,6.6,11176,"664 of 3140"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:20 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Foreign born, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

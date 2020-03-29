@@ -1,0 +1,54 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=35&areatype=county&topic=inc&demo=00010&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '35', 'areatype': 'county', 'topic': 'inc', 'demo': '00010', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_004.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=35&areatype=county&topic=inc&demo=00010&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for New Mexico by County
+Income: Median family income
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Dollars),Rank within US
+"New Mexico",35000,57436.000000000,"48 of 52"
+"United States",00000,70850.000000000,"N/A"
+"Mora County",35033,33243.000000000,"3109 of 3141"
+"Luna County",35029,36007.000000000,"3089 of 3141"
+"McKinley County",35031,36537.000000000,"3081 of 3141"
+"Quay County",35037,39087.000000000,"3053 of 3141"
+"Guadalupe County",35019,40139.000000000,"3032 of 3141"
+"San Miguel County",35047,40559.000000000,"3020 of 3141"
+"Sierra County",35051,40833.000000000,"3006 of 3141"
+"Union County",35059,42461.000000000,"2940 of 3141"
+"Socorro County",35053,44145.000000000,"2874 of 3141"
+"Roosevelt County",35041,44263.000000000,"2869 of 3141"
+"Rio Arriba County",35039,45349.000000000,"2816 of 3141"
+"Cibola County",35006,45667.000000000,"2799 of 3141"
+"Taos County",35055,45990.000000000,"2773 of 3141"
+"Dona Ana County",35013,46567.000000000,"2734 of 3141"
+"Colfax County",35007,46817.000000000,"2721 of 3141"
+"Hidalgo County",35023,47026.000000000,"2706 of 3141"
+"Harding County",35021,48594.000000000,"2614 of 3141"
+"Curry County",35009,48707.000000000,"2608 of 3141"
+"Torrance County",35057,49514.000000000,"2551 of 3141"
+"Valencia County",35061,50513.000000000,"2460 of 3141"
+"Catron County",35003,50603.000000000,"2450 of 3141"
+"Grant County",35017,50621.000000000,"2447 of 3141"
+"Chaves County",35005,50673.000000000,"2443 of 3141"
+"Otero County",35035,52040.000000000,"2310 of 3141"
+"Lincoln County",35027,56518.000000000,"1917 of 3141"
+"De Baca County",35011,58125.000000000,"1747 of 3141"
+"San Juan County",35045,58326.000000000,"1727 of 3141"
+"Bernalillo County",35001,64060.000000000,"1148 of 3141"
+"Lea County",35025,65120.000000000,"1060 of 3141"
+"Eddy County",35015,66538.000000000,"954 of 3141"
+"Santa Fe County",35049,68940.000000000,"787 of 3141"
+"Sandoval County",35043,70381.000000000,"702 of 3141"
+"Los Alamos County",35028,133523.000000000,"8 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:18 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Income: Median family income, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#income."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"Median Incomes over 250,000 have been coded to 250,001 by the Census Bureau. [ http://www2.census.gov/acs2012_5yr/summaryfile/ACS_2008-2012_SF_Tech_Doc.pdf ]"
+Data for United States does not include Puerto Rico.

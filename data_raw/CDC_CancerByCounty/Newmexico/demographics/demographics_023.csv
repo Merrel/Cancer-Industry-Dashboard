@@ -1,0 +1,53 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=35&areatype=county&topic=pop&demo=00026&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '35', 'areatype': 'county', 'topic': 'pop', 'demo': '00026', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_023.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=35&areatype=county&topic=pop&demo=00026&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for New Mexico by County
+Population: Hispanic
+"All Ages, Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Hispanic),Rank within US
+"United States",00000,17.6,56510571,"N/A"
+"New Mexico",35000,48.2,1004103,"2 of 52"
+"McKinley County",35031,14.1,10297,"546 of 3141"
+"Catron County",35003,15.8,559,"486 of 3141"
+"Los Alamos County",35028,17.2,3110,"450 of 3141"
+"San Juan County",35045,19.9,25468,"383 of 3141"
+"Sierra County",35051,29.9,3367,"228 of 3141"
+"Lincoln County",35027,31.9,6224,"211 of 3141"
+"Harding County",35021,37.4,204,"169 of 3141"
+"Otero County",35035,37.5,24415,"168 of 3141"
+"Sandoval County",35043,37.9,52572,"164 of 3141"
+"Cibola County",35006,38.0,10269,"163 of 3141"
+"Curry County",35009,41.0,20602,"146 of 3141"
+"Roosevelt County",35041,41.0,7917,"145 of 3141"
+"Union County",35059,41.3,1740,"143 of 3141"
+"Torrance County",35057,42.1,6537,"139 of 3141"
+"Quay County",35037,44.7,3775,"125 of 3141"
+"De Baca County",35011,46.0,928,"118 of 3141"
+"Eddy County",35015,47.5,26982,"111 of 3141"
+"Colfax County",35007,49.2,6159,"105 of 3141"
+"Bernalillo County",35001,49.5,334067,"104 of 3141"
+"Socorro County",35053,49.7,8497,"103 of 3141"
+"Grant County",35017,50.0,14190,"100 of 3141"
+"Santa Fe County",35049,51.2,75514,"96 of 3141"
+"Chaves County",35005,55.6,36365,"74 of 3141"
+"Taos County",35055,56.8,18624,"70 of 3141"
+"Lea County",35025,56.8,39501,"69 of 3141"
+"Hidalgo County",35023,57.9,2576,"62 of 3141"
+"Valencia County",35061,60.0,45505,"51 of 3141"
+"Luna County",35029,65.9,16031,"38 of 3141"
+"Dona Ana County",35013,67.7,144782,"35 of 3141"
+"Rio Arriba County",35039,71.4,28175,"31 of 3141"
+"San Miguel County",35047,77.6,21879,"27 of 3141"
+"Mora County",35033,79.0,3639,"24 of 3141"
+"Guadalupe County",35019,82.1,3633,"18 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:18 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Hispanic, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

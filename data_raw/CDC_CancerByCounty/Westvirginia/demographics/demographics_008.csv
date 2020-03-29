@@ -1,0 +1,75 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=54&areatype=county&topic=mob&demo=00017&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '54', 'areatype': 'county', 'topic': 'mob', 'demo': '00017', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_008.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=54&areatype=county&topic=mob&demo=00017&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for West Virginia by County
+Mobility: Haven't moved (in past year)
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Haven't Moved),Rank within US
+"United States",00000,85.4,270854872,"N/A"
+"West Virginia",54000,88.3,1605581,"3 of 51"
+"Monongalia County",54061,79.3,81525,"2978 of 3140"
+"Gilmer County",54021,82.6,6818,"2681 of 3140"
+"Cabell County",54011,82.9,78814,"2641 of 3140"
+"Pleasants County",54073,84.6,6314,"2322 of 3140"
+"Lewis County",54041,84.6,13660,"2309 of 3140"
+"Doddridge County",54017,86.1,7303,"1917 of 3140"
+"Mercer County",54055,86.1,51926,"1910 of 3140"
+"Jefferson County",54037,86.4,47650,"1842 of 3140"
+"Marion County",54049,86.4,48365,"1832 of 3140"
+"Berkeley County",54003,86.5,95250,"1797 of 3140"
+"Upshur County",54097,86.5,21040,"1779 of 3140"
+"Greenbrier County",54025,86.5,30474,"1777 of 3140"
+"Barbour County",54001,86.9,14376,"1648 of 3140"
+"Summers County",54089,86.9,11374,"1646 of 3140"
+"Hancock County",54029,87.3,25905,"1504 of 3140"
+"Kanawha County",54039,87.7,163055,"1372 of 3140"
+"Raleigh County",54081,88.0,67353,"1258 of 3140"
+"Harrison County",54033,88.6,60143,"1075 of 3140"
+"Braxton County",54007,88.7,12559,"1039 of 3140"
+"Boone County",54005,88.7,20416,"1030 of 3140"
+"Mingo County",54059,88.9,22129,"984 of 3140"
+"Randolph County",54083,89.1,25775,"885 of 3140"
+"Preston County",54077,89.2,29844,"850 of 3140"
+"Wayne County",54099,89.2,36245,"849 of 3140"
+"Wood County",54107,89.2,75867,"844 of 3140"
+"Taylor County",54091,89.2,14954,"841 of 3140"
+"Ohio County",54069,89.4,38021,"801 of 3140"
+"Logan County",54045,89.6,30486,"732 of 3140"
+"Roane County",54087,89.8,12784,"672 of 3140"
+"Monroe County",54063,90.3,12121,"546 of 3140"
+"Pendleton County",54071,90.4,6378,"541 of 3140"
+"Brooke County",54009,90.4,20667,"528 of 3140"
+"Pocahontas County",54075,90.5,7688,"518 of 3140"
+"Hardy County",54031,90.8,12360,"444 of 3140"
+"Mason County",54053,91.1,24355,"387 of 3140"
+"Wetzel County",54103,91.3,14193,"364 of 3140"
+"Morgan County",54065,91.4,15843,"345 of 3140"
+"Webster County",54101,91.4,7810,"327 of 3140"
+"Jackson County",54035,91.7,26490,"271 of 3140"
+"Clay County",54015,91.7,8118,"270 of 3140"
+"Hampshire County",54027,91.9,21344,"243 of 3140"
+"Calhoun County",54013,92.0,6806,"236 of 3140"
+"Tucker County",54093,92.2,6444,"214 of 3140"
+"Nicholas County",54067,92.5,23407,"182 of 3140"
+"Ritchie County",54085,92.6,9193,"179 of 3140"
+"Putnam County",54079,92.8,52107,"161 of 3140"
+"Grant County",54023,93.3,10752,"120 of 3140"
+"Lincoln County",54043,93.4,19606,"113 of 3140"
+"McDowell County",54047,93.6,18226,"104 of 3140"
+"Marshall County",54051,93.6,29829,"99 of 3140"
+"Wyoming County",54109,93.9,20570,"88 of 3140"
+"Wirt County",54105,93.9,5373,"86 of 3140"
+"Tyler County",54095,93.9,8336,"82 of 3140"
+"Fayette County",54019,94.3,41519,"63 of 3140"
+"Mineral County",54057,94.8,25621,"45 of 3140"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:21 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Mobility: Haven't moved (in past year), see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#mobility."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

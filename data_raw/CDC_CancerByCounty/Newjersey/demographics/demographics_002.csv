@@ -1,0 +1,42 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=34&areatype=county&topic=ed&demo=00005&race=00&sex=0&age=081&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '34', 'areatype': 'county', 'topic': 'ed', 'demo': '00005', 'race': '00', 'sex': '0', 'age': '081', 'type': 'manyareacensus', 'file_name': 'demographics_002.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=34&areatype=county&topic=ed&demo=00005&race=00&sex=0&age=081&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for New Jersey by County
+Education: Less than High School
+Population Ages 25+
+"All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People(Education: Less Than High School),Rank within US
+"New Jersey",34000,10.8,666782,"29 of 52"
+"United States",00000,12.7,27437114,"N/A"
+"Hunterdon County",34019,5.1,4481,"106 of 3141"
+"Sussex County",34037,5.6,5677,"160 of 3141"
+"Somerset County",34035,5.7,13038,"163 of 3141"
+"Morris County",34027,6.0,20949,"199 of 3141"
+"Burlington County",34005,6.6,20696,"293 of 3141"
+"Monmouth County",34025,7.2,31229,"371 of 3141"
+"Gloucester County",34015,7.5,14834,"444 of 3141"
+"Bergen County",34003,8.0,52700,"574 of 3141"
+"Ocean County",34029,8.8,35850,"748 of 3141"
+"Cape May County",34009,9.2,6436,"835 of 3141"
+"Warren County",34041,9.2,6939,"839 of 3141"
+"Middlesex County",34023,10.7,61515,"1219 of 3141"
+"Camden County",34007,11.6,40291,"1399 of 3141"
+"Mercer County",34021,12.1,30352,"1512 of 3141"
+"Salem County",34033,12.9,5732,"1659 of 3141"
+"Atlantic County",34001,13.7,25650,"1780 of 3141"
+"Union County",34039,14.0,52951,"1835 of 3141"
+"Essex County",34013,14.7,78743,"1945 of 3141"
+"Hudson County",34017,16.3,78305,"2167 of 3141"
+"Passaic County",34031,17.0,57288,"2276 of 3141"
+"Cumberland County",34011,22.1,23126,"2798 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:18 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Education: Less than High School, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#education."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

@@ -1,0 +1,88 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=46&areatype=county&topic=pop&demo=00028&race=00&sex=0&age=999&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '46', 'areatype': 'county', 'topic': 'pop', 'demo': '00028', 'race': '00', 'sex': '0', 'age': '999', 'type': 'manyareacensus', 'file_name': 'demographics_016.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=46&areatype=county&topic=pop&demo=00028&race=00&sex=0&age=999&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for South Dakota by County
+Population: Age 40 and over
+"All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Age 40 And Over),Rank within US
+"South Dakota",46000,46.3,396307,"38 of 52"
+"United States",00000,47.3,151838062,"N/A"
+"Shannon County",46113,29.5,4212,"3132 of 3141"
+"Todd County",46121,30.0,3009,"3130 of 3141"
+"Buffalo County",46017,30.6,626,"3128 of 3141"
+"Clay County",46027,33.4,4638,"3117 of 3141"
+"Brookings County",46011,34.1,11505,"3114 of 3141"
+"Bennett County",46007,36.6,1260,"3079 of 3141"
+"Dewey County",46041,36.8,2103,"3077 of 3141"
+"Ziebach County",46137,37.8,1072,"3058 of 3141"
+"Corson County",46031,38.2,1594,"3046 of 3141"
+"Lincoln County",46083,41.4,22024,"2919 of 3141"
+"Minnehaha County",46099,42.8,78619,"2850 of 3141"
+"Jackson County",46071,42.8,1402,"2849 of 3141"
+"Mellette County",46095,43.2,891,"2822 of 3141"
+"Hamlin County",46057,44.5,2633,"2707 of 3141"
+"Meade County",46093,45.0,12183,"2662 of 3141"
+"Lyman County",46085,45.4,1761,"2625 of 3141"
+"Hanson County",46061,45.6,1552,"2602 of 3141"
+"Charles Mix County",46023,46.5,4335,"2493 of 3141"
+"Brown County",46013,46.8,18090,"2459 of 3141"
+"Pennington County",46103,47.5,51364,"2359 of 3141"
+"Codington County",46029,47.6,13321,"2336 of 3141"
+"Beadle County",46005,47.7,8662,"2327 of 3141"
+"Hughes County",46065,48.1,8455,"2250 of 3141"
+"Davison County",46035,48.7,9625,"2152 of 3141"
+"Roberts County",46109,48.8,4998,"2148 of 3141"
+"Harding County",46063,49.5,634,"2014 of 3141"
+"Aurora County",46003,49.9,1368,"1915 of 3141"
+"Butte County",46019,50.1,5110,"1882 of 3141"
+"Marshall County",46091,50.2,2390,"1860 of 3141"
+"Moody County",46101,50.3,3269,"1838 of 3141"
+"Brule County",46015,50.5,2664,"1802 of 3141"
+"McCook County",46087,50.6,2789,"1774 of 3141"
+"Union County",46127,51.5,7687,"1548 of 3141"
+"Clark County",46025,51.5,1877,"1539 of 3141"
+"Lake County",46079,52.0,6418,"1439 of 3141"
+"Lawrence County",46081,52.0,13009,"1433 of 3141"
+"Stanley County",46117,52.2,1564,"1366 of 3141"
+"Yankton County",46135,52.6,11926,"1263 of 3141"
+"Miner County",46097,52.8,1191,"1222 of 3141"
+"Sully County",46119,53.2,740,"1123 of 3141"
+"Turner County",46125,53.4,4402,"1087 of 3141"
+"Edmunds County",46045,53.4,2121,"1086 of 3141"
+"Spink County",46115,54.0,3497,"964 of 3141"
+"Bon Homme County",46009,54.0,3768,"948 of 3141"
+"Hutchinson County",46067,54.3,3948,"914 of 3141"
+"Deuel County",46039,55.0,2353,"779 of 3141"
+"Sanborn County",46111,55.1,1303,"761 of 3141"
+"Haakon County",46055,55.4,1155,"693 of 3141"
+"Grant County",46051,55.6,3968,"660 of 3141"
+"Hand County",46059,55.7,1840,"652 of 3141"
+"Tripp County",46123,55.7,3053,"650 of 3141"
+"Kingsbury County",46077,55.8,2792,"632 of 3141"
+"Walworth County",46129,56.1,3086,"603 of 3141"
+"Faulk County",46049,56.2,1308,"577 of 3141"
+"Perkins County",46105,56.7,1681,"528 of 3141"
+"Gregory County",46053,56.9,2397,"500 of 3141"
+"Douglas County",46043,57.0,1677,"482 of 3141"
+"Jerauld County",46073,57.2,1164,"452 of 3141"
+"Day County",46037,57.3,3163,"447 of 3141"
+"Potter County",46107,59.9,1388,"229 of 3141"
+"Hyde County",46069,60.1,825,"218 of 3141"
+"McPherson County",46089,62.6,1481,"114 of 3141"
+"Campbell County",46021,63.5,916,"84 of 3141"
+"Fall River County",46047,64.0,4341,"72 of 3141"
+"Custer County",46033,65.9,5610,"44 of 3141"
+"Jones County",46075,67.6,500,"23 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:19 pm.
+"South Dakota County Name Change: please note that Shannon County, SD (FIPS code=46113) was renamed effective May 1, 2015, and the new name is Oglala Lakota County (FIPS Code=46102). Due to the nature of data submissions, we will use the older code/name this year and transition to the new code/name with a future data release."
+
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Age 40 and over, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

@@ -1,0 +1,53 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=35&areatype=county&topic=pop&demo=00104&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '35', 'areatype': 'county', 'topic': 'pop', 'demo': '00104', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_027.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=35&areatype=county&topic=pop&demo=00104&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for New Mexico by County
+Population: Sex - Male
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Male),Rank within US
+"United States",00000,49.2,158018753,"N/A"
+"New Mexico",35000,49.5,1032086,"31 of 52"
+"De Baca County",35011,45.9,926,"25 of 3141"
+"Quay County",35037,48.0,4057,"258 of 3141"
+"Lincoln County",35027,48.2,9399,"324 of 3141"
+"McKinley County",35031,48.3,35209,"388 of 3141"
+"Santa Fe County",35049,48.7,71878,"636 of 3141"
+"Taos County",35055,48.9,16054,"821 of 3141"
+"Sandoval County",35043,48.9,67939,"838 of 3141"
+"Sierra County",35051,49.0,5513,"889 of 3141"
+"Bernalillo County",35001,49.0,330743,"901 of 3141"
+"Hidalgo County",35023,49.0,2179,"902 of 3141"
+"Rio Arriba County",35039,49.0,19338,"904 of 3141"
+"Grant County",35017,49.1,13940,"1002 of 3141"
+"Dona Ana County",35013,49.1,105094,"1029 of 3141"
+"San Juan County",35045,49.5,63529,"1517 of 3141"
+"Luna County",35029,49.6,12057,"1553 of 3141"
+"Mora County",35033,49.6,2286,"1615 of 3141"
+"Chaves County",35005,49.7,32536,"1681 of 3141"
+"Roosevelt County",35041,50.0,9665,"1979 of 3141"
+"San Miguel County",35047,50.0,14114,"1980 of 3141"
+"Valencia County",35061,50.1,38013,"2040 of 3141"
+"Colfax County",35007,50.4,6317,"2299 of 3141"
+"Cibola County",35006,50.6,13678,"2351 of 3141"
+"Los Alamos County",35028,50.7,9135,"2411 of 3141"
+"Eddy County",35015,50.7,28792,"2430 of 3141"
+"Otero County",35035,51.4,33478,"2666 of 3141"
+"Lea County",35025,51.5,35804,"2684 of 3141"
+"Curry County",35009,52.0,26139,"2777 of 3141"
+"Torrance County",35057,52.3,8126,"2830 of 3141"
+"Catron County",35003,52.5,1861,"2854 of 3141"
+"Socorro County",35053,53.0,9066,"2901 of 3141"
+"Harding County",35021,53.3,291,"2924 of 3141"
+"Union County",35059,54.2,2285,"2991 of 3141"
+"Guadalupe County",35019,59.8,2645,"3104 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:18 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Sex - Male, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

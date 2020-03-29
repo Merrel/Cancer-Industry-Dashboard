@@ -1,0 +1,49 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=49&areatype=county&topic=pop&demo=00022&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '49', 'areatype': 'county', 'topic': 'pop', 'demo': '00022', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_021.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=49&areatype=county&topic=pop&demo=00022&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Utah by County
+Population: Black
+"All Ages, Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Black),Rank within US
+"Utah",49000,1.1,33619,"49 of 52"
+"United States",00000,12.7,40610815,"N/A"
+"Beaver County",49001,0.0,0,"3052 of 3141"
+"Rich County",49033,0.1,2,"2978 of 3141"
+"Wasatch County",49051,0.1,26,"2976 of 3141"
+"Emery County",49015,0.1,13,"2936 of 3141"
+"Daggett County",49009,0.1,1,"2909 of 3141"
+"Wayne County",49055,0.1,4,"2906 of 3141"
+"Piute County",49031,0.2,3,"2896 of 3141"
+"Garfield County",49017,0.2,9,"2880 of 3141"
+"Duchesne County",49013,0.2,40,"2862 of 3141"
+"Juab County",49023,0.2,24,"2836 of 3141"
+"San Juan County",49037,0.2,36,"2822 of 3141"
+"Grand County",49019,0.2,23,"2816 of 3141"
+"Kane County",49025,0.3,21,"2775 of 3141"
+"Morgan County",49029,0.4,39,"2698 of 3141"
+"Millard County",49027,0.4,45,"2694 of 3141"
+"Sevier County",49041,0.4,93,"2602 of 3141"
+"Tooele County",49045,0.5,321,"2517 of 3141"
+"Uintah County",49047,0.5,189,"2503 of 3141"
+"Box Elder County",49003,0.5,278,"2490 of 3141"
+"Iron County",49021,0.6,281,"2434 of 3141"
+"Utah County",49049,0.6,3434,"2410 of 3141"
+"Carbon County",49007,0.7,136,"2333 of 3141"
+"Summit County",49043,0.7,265,"2324 of 3141"
+"Washington County",49053,0.7,1066,"2300 of 3141"
+"Cache County",49005,0.8,955,"2200 of 3141"
+"Sanpete County",49039,0.9,274,"2076 of 3141"
+"Weber County",49057,1.1,2571,"2006 of 3141"
+"Davis County",49011,1.3,4372,"1897 of 3141"
+"Salt Lake County",49035,1.7,19098,"1708 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:21 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Black, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

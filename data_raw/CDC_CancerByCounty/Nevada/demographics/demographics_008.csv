@@ -1,0 +1,37 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=32&areatype=county&topic=mob&demo=00017&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '32', 'areatype': 'county', 'topic': 'mob', 'demo': '00017', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_008.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=32&areatype=county&topic=mob&demo=00017&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Nevada by County
+Mobility: Haven't moved (in past year)
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Haven't Moved),Rank within US
+"Nevada",32000,80.6,2301557,"50 of 51"
+"United States",00000,85.4,270854872,"N/A"
+"Churchill County",32001,79.1,18782,"2986 of 3140"
+"Carson City",32510,79.6,42843,"2961 of 3140"
+"Washoe County",32031,80.3,353279,"2914 of 3140"
+"Clark County",32003,80.3,1677092,"2913 of 3140"
+"Lander County",32015,80.3,4611,"2910 of 3140"
+"Lyon County",32019,83.0,43080,"2618 of 3140"
+"Storey County",32029,83.2,3209,"2594 of 3140"
+"Elko County",32007,83.6,43124,"2521 of 3140"
+"Humboldt County",32013,83.9,13955,"2452 of 3140"
+"White Pine County",32033,84.1,8240,"2424 of 3140"
+"Lincoln County",32017,84.4,4361,"2358 of 3140"
+"Douglas County",32005,85.1,40230,"2201 of 3140"
+"Nye County",32023,85.2,36596,"2159 of 3140"
+"Eureka County",32011,85.9,1485,"1964 of 3140"
+"Pershing County",32027,85.9,5684,"1962 of 3140"
+"Esmeralda County",32009,88.8,972,"987 of 3140"
+"Mineral County",32021,90.6,4014,"488 of 3140"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:18 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Mobility: Haven't moved (in past year), see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#mobility."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

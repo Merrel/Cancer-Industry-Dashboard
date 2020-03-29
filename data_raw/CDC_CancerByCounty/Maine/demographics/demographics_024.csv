@@ -1,0 +1,36 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=23&areatype=county&topic=pop&demo=00101&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '23', 'areatype': 'county', 'topic': 'pop', 'demo': '00101', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_024.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=23&areatype=county&topic=pop&demo=00101&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Maine by County
+Population: Non-Hispanic (Origin Recode)
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Non-Hispanic [Origin Recode]),Rank within US
+"United States",00000,82.4,264493836,"N/A"
+"Maine",23000,98.5,1309731,"51 of 52"
+"Cumberland County",23005,98.0,283421,"2387 of 3141"
+"Washington County",23029,98.1,31212,"2428 of 3141"
+"Androscoggin County",23001,98.2,105390,"2494 of 3141"
+"York County",23031,98.4,198252,"2612 of 3141"
+"Sagadahoc County",23023,98.4,34604,"2646 of 3141"
+"Kennebec County",23011,98.5,119510,"2708 of 3141"
+"Piscataquis County",23021,98.6,16730,"2772 of 3141"
+"Hancock County",23009,98.7,53741,"2783 of 3141"
+"Franklin County",23007,98.7,29787,"2808 of 3141"
+"Penobscot County",23019,98.7,150349,"2822 of 3141"
+"Knox County",23013,98.7,39202,"2835 of 3141"
+"Oxford County",23017,98.8,56521,"2845 of 3141"
+"Waldo County",23027,98.8,38817,"2869 of 3141"
+"Aroostook County",23003,98.9,68073,"2891 of 3141"
+"Lincoln County",23015,98.9,33642,"2892 of 3141"
+"Somerset County",23025,99.0,50480,"2928 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:17 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Non-Hispanic (Origin Recode), see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

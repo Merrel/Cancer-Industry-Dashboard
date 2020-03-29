@@ -1,0 +1,53 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=35&areatype=county&topic=pop&demo=00023&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '35', 'areatype': 'county', 'topic': 'pop', 'demo': '00023', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_019.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=35&areatype=county&topic=pop&demo=00023&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for New Mexico by County
+Population: American Indian/Alaska Native
+"All Ages, Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (AI/AN),Rank within US
+"United States",00000,0.8,2632102,"N/A"
+"New Mexico",35000,9.5,197191,"2 of 52"
+"De Baca County",35011,0.0,0,"2960 of 3141"
+"Catron County",35003,0.1,2,"2797 of 3141"
+"Mora County",35033,0.1,3,"2762 of 3141"
+"Harding County",35021,0.2,1,"2253 of 3141"
+"Hidalgo County",35023,0.6,26,"1041 of 3141"
+"Roosevelt County",35041,0.7,144,"845 of 3141"
+"Lea County",35025,0.8,586,"770 of 3141"
+"Luna County",35029,1.1,258,"626 of 3141"
+"Curry County",35009,1.1,542,"613 of 3141"
+"Dona Ana County",35013,1.1,2404,"589 of 3141"
+"Torrance County",35057,1.1,177,"584 of 3141"
+"Los Alamos County",35028,1.2,212,"570 of 3141"
+"San Miguel County",35047,1.3,364,"523 of 3141"
+"Eddy County",35015,1.4,793,"495 of 3141"
+"Quay County",35037,1.4,118,"494 of 3141"
+"Chaves County",35005,1.5,989,"461 of 3141"
+"Lincoln County",35027,1.8,344,"420 of 3141"
+"Guadalupe County",35019,1.8,80,"416 of 3141"
+"Grant County",35017,1.9,530,"408 of 3141"
+"Colfax County",35007,2.0,253,"381 of 3141"
+"Sierra County",35051,2.1,233,"374 of 3141"
+"Santa Fe County",35049,3.5,5163,"261 of 3141"
+"Union County",35059,3.7,158,"247 of 3141"
+"Valencia County",35061,4.4,3302,"223 of 3141"
+"Bernalillo County",35001,4.7,31773,"211 of 3141"
+"Otero County",35035,6.8,4399,"171 of 3141"
+"Taos County",35055,7.3,2384,"161 of 3141"
+"Socorro County",35053,11.4,1950,"107 of 3141"
+"Sandoval County",35043,12.5,17318,"98 of 3141"
+"Rio Arriba County",35039,15.8,6232,"71 of 3141"
+"San Juan County",35045,39.0,50052,"36 of 3141"
+"Cibola County",35006,41.6,11251,"33 of 3141"
+"McKinley County",35031,75.7,55150,"11 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:18 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: American Indian/Alaska Native, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

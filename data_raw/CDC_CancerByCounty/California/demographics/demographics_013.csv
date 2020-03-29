@@ -1,0 +1,78 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=06&areatype=county&topic=pop&demo=00002&race=00&sex=0&age=999&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '06', 'areatype': 'county', 'topic': 'pop', 'demo': '00002', 'race': '00', 'sex': '0', 'age': '999', 'type': 'manyareacensus', 'file_name': 'demographics_013.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=06&areatype=county&topic=pop&demo=00002&race=00&sex=0&age=999&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for California by County
+Population: Age under 18
+"All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Age Under 18),Rank within US
+"United States",00000,22.9,73601279,"N/A"
+"California",06000,23.4,9114720,"18 of 52"
+"San Francisco County",06075,13.4,115952,"3122 of 3141"
+"Sierra County",06091,14.8,426,"3104 of 3141"
+"Amador County",06005,15.4,5731,"3085 of 3141"
+"Lassen County",06035,16.0,5025,"3061 of 3141"
+"Plumas County",06063,16.4,3066,"3037 of 3141"
+"Mariposa County",06043,16.4,2902,"3032 of 3141"
+"Trinity County",06105,16.6,2163,"3024 of 3141"
+"Tuolumne County",06109,16.8,9047,"3004 of 3141"
+"Nevada County",06057,17.6,17372,"2946 of 3141"
+"Calaveras County",06009,17.6,7945,"2937 of 3141"
+"San Luis Obispo County",06079,18.1,50766,"2877 of 3141"
+"Humboldt County",06023,19.5,26358,"2633 of 3141"
+"Mono County",06051,19.5,2738,"2628 of 3141"
+"Modoc County",06049,19.5,1758,"2618 of 3141"
+"Santa Cruz County",06087,19.9,54347,"2520 of 3141"
+"Butte County",06007,20.2,45454,"2436 of 3141"
+"Siskiyou County",06093,20.3,8815,"2414 of 3141"
+"Sonoma County",06097,20.4,101946,"2383 of 3141"
+"Marin County",06041,20.4,53113,"2379 of 3141"
+"Inyo County",06027,20.4,3708,"2373 of 3141"
+"Lake County",06033,20.5,13128,"2330 of 3141"
+"El Dorado County",06017,20.6,38163,"2296 of 3141"
+"Alameda County",06001,21.2,344912,"2096 of 3141"
+"Del Norte County",06015,21.2,5827,"2075 of 3141"
+"San Mateo County",06081,21.3,162234,"2071 of 3141"
+"Alpine County",06003,21.4,258,"2000 of 3141"
+"Yolo County",06113,21.5,45711,"1981 of 3141"
+"Napa County",06055,21.5,30346,"1973 of 3141"
+"Shasta County",06089,21.7,38767,"1926 of 3141"
+"Mendocino County",06045,21.8,19038,"1880 of 3141"
+"San Diego County",06073,22.2,728462,"1681 of 3141"
+"Santa Barbara County",06083,22.4,99286,"1571 of 3141"
+"Los Angeles County",06037,22.5,2273580,"1536 of 3141"
+"Orange County",06059,22.7,716767,"1452 of 3141"
+"Solano County",06095,22.7,98898,"1443 of 3141"
+"Placer County",06061,22.7,85279,"1438 of 3141"
+"Santa Clara County",06085,22.8,435016,"1433 of 3141"
+"Contra Costa County",06013,23.3,261503,"1191 of 3141"
+"Ventura County",06111,23.9,202341,"938 of 3141"
+"Tehama County",06103,23.9,15127,"918 of 3141"
+"Sacramento County",06067,24.2,361889,"784 of 3141"
+"Riverside County",06065,26.1,613721,"353 of 3141"
+"Sutter County",06101,26.3,25120,"333 of 3141"
+"Monterey County",06053,26.4,114309,"325 of 3141"
+"San Benito County",06069,26.6,15629,"296 of 3141"
+"Glenn County",06021,26.9,7508,"270 of 3141"
+"San Bernardino County",06071,27.0,573723,"247 of 3141"
+"Stanislaus County",06099,27.3,146335,"224 of 3141"
+"Kings County",06031,27.4,41163,"214 of 3141"
+"San Joaquin County",06077,27.7,200364,"194 of 3141"
+"Madera County",06039,27.7,42747,"193 of 3141"
+"Yuba County",06115,27.7,20665,"191 of 3141"
+"Colusa County",06011,27.8,5964,"180 of 3141"
+"Fresno County",06019,28.7,279215,"129 of 3141"
+"Imperial County",06025,28.7,51734,"128 of 3141"
+"Kern County",06029,29.3,257652,"106 of 3141"
+"Merced County",06047,29.9,79864,"93 of 3141"
+"Tulare County",06107,31.4,143843,"61 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:14 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Age under 18, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

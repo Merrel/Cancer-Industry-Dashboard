@@ -1,0 +1,118 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=40&areatype=county&cancer=090&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '40', 'areatype': 'county', 'cancer': '090', 'race': '00', 'sex': '0', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_011.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=40&areatype=county&cancer=090&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Oklahoma by County
+
+"Leukemia (All Stages^), 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Oklahoma(6,10)",40000,***,14.4 ,13.9, 14.9,614,stable,-1.5 ,-8.0, 5.3
+"US (SEER+NPCR)(1,10)",00000,***,14.1 ,14.1, 14.2,50013,stable,-2.1 ,-5.0, 0.9
+"Pawnee County(6,10)",40117,***,21.1 ,13, 32.6,4,stable,-9.3 ,-36.4, 29.1
+"Pontotoc County(6,10)",40123,***,20.8 ,15.2, 28,9,stable,4.8 ,-27.9, 52.3
+"Hughes County(6,10)",40063,***,19.5 ,11.2, 31.9,3,*,*,*,*
+"Muskogee County(6,10)",40101,***,18.6 ,14.7, 23.4,15,stable,5.0 ,-23.0, 43.3
+"Craig County(6,10)",40035,***,18.3 ,10.2, 30.5,3,*,*,*,*
+"Okmulgee County(6,10)",40111,***,17.6 ,12.6, 24.1,8,stable,-0.5 ,-27.8, 37.1
+"McCurtain County(6,10)",40089,***,16.9 ,11.4, 24.2,6,stable,-4.7 ,-21.3, 15.2
+"Marshall County(6,10)",40095,***,16.6 ,9.6, 27.1,4,stable,7.2 ,-54.8, 153.9
+"Rogers County(6,10)",40131,***,16.4 ,13, 20.5,16,stable,4.5 ,-23.8, 43.2
+"Garvin County(6,10)",40049,***,16.3 ,10.6, 24.2,5,stable,-20.2 ,-47.9, 22.3
+"Tulsa County(6,10)",40143,***,16.3 ,14.9, 17.7,109,stable,-1.1 ,-13.1, 12.7
+"Cherokee County(6,10)",40021,***,16.1 ,11.5, 21.9,8,stable,-6.4 ,-31.8, 28.5
+"Kay County(6,10)",40071,***,15.8 ,11.4, 21.3,9,stable,7.6 ,-20.4, 45.4
+"McClain County(6,10)",40087,***,15.7 ,10.6, 22.5,6,stable,18.8 ,-7.9, 53.2
+"Wagoner County(6,10)",40145,***,15.4 ,11.7, 19.9,13,stable,-14.0 ,-30.3, 6.2
+"Beckham County(6,10)",40009,***,15.4 ,9.1, 24.4,4,*,*,*,*
+"Oklahoma County(6,10)",40109,***,15.3 ,14, 16.6,119,stable,-2.6 ,-15.7, 12.6
+"Jackson County(6,10)",40065,***,15.1 ,9.1, 23.5,4,stable,-3.9 ,-46.5, 72.6
+"Garfield County(6,10)",40047,***,15.1 ,11.3, 19.8,11,stable,2.0 ,-29.7, 48.0
+"Grady County(6,10)",40051,***,15.1 ,10.9, 20.3,9,falling,-12.8 ,-21.9, -2.5
+"Stephens County(6,10)",40137,***,14.4 ,10.2, 19.9,8,stable,16.0 ,-31.1, 95.3
+"Adair County(6,10)",40001,***,14.3 ,8, 23.4,3,stable,-14.1 ,-65.2, 112.0
+"Ottawa County(6,10)",40115,***,14 ,9.2, 20.6,6,stable,13.6 ,-22.4, 66.4
+"Cleveland County(6,10)",40027,***,13.8 ,11.8, 16,35,stable,3.1 ,-24.0, 40.0
+"Canadian County(6,10)",40017,***,13.6 ,10.8, 16.9,17,stable,-13.3 ,-32.8, 12.0
+"Comanche County(6,10)",40031,***,13.3 ,10.5, 16.6,16,stable,2.3 ,-32.1, 54.2
+"Woodward County(6,10)",40153,***,13.2 ,7.5, 21.7,3,*,*,*,*
+"Custer County(6,10)",40039,***,13.2 ,8, 20.6,4,stable,-19.2 ,-43.9, 16.4
+"McIntosh County(6,10)",40091,***,13.1 ,7.5, 21.5,4,stable,5.5 ,-19.8, 38.6
+"Washington County(6,10)",40147,***,13 ,9.3, 17.8,9,stable,-25.5 ,-49.1, 9.0
+"Osage County(6,10)",40113,***,12.8 ,8.7, 18.2,7,stable,-4.1 ,-33.2, 37.6
+"Delaware County(6,10)",40041,***,12.7 ,8.8, 18.1,8,stable,-12.6 ,-57.2, 78.6
+"Pittsburg County(6,10)",40121,***,12.1 ,8.3, 17.1,7,stable,6.2 ,-44.8, 104.4
+"Sequoyah County(6,10)",40135,***,11.9 ,7.9, 17.2,6,stable,-0.2 ,-15.8, 18.2
+"Creek County(6,10)",40037,***,11.8 ,8.7, 15.6,10,falling,-11.0 ,-13.3, -8.7
+"Seminole County(6,10)",40133,***,11.7 ,7, 18.6,4,stable,7.1 ,-15.9, 36.2
+"Bryan County(6,10)",40013,***,11.7 ,7.9, 16.8,6,stable,-5.8 ,-39.4, 46.5
+"Logan County(6,10)",40083,***,11.6 ,7.7, 16.8,6,stable,-3.4 ,-41.4, 59.5
+"Carter County(6,10)",40019,***,11.4 ,7.8, 16.2,7,stable,13.6 ,-19.5, 60.3
+"Payne County(6,10)",40119,***,11.3 ,8, 15.6,8,stable,3.2 ,-10.6, 19.2
+"Caddo County(6,10)",40015,***,11.3 ,6.7, 17.8,4,*,*,*,*
+"Pottawatomie County(6,10)",40125,***,10.9 ,7.9, 14.7,9,stable,-4.0 ,-12.7, 5.5
+"Lincoln County(6,10)",40081,***,10.8 ,6.8, 16.5,5,falling,-16.2 ,-22.1, -10.0
+"Le Flore County(6,10)",40079,***,10.5 ,7.1, 15,6,stable,-6.9 ,-34.3, 31.7
+"Mayes County(6,10)",40097,***,9.2 ,5.6, 14.2,4,rising,25.8 ,8.7, 45.7
+"Alfalfa County(6,10)",40003,***,* ,*, *,3 or fewer,*,*,*,*
+"Atoka County(6,10)",40005,***,* ,*, *,3 or fewer,*,*,*,*
+"Beaver County(6,10)",40007,***,* ,*, *,3 or fewer,*,*,*,*
+"Blaine County(6,10)",40011,***,* ,*, *,3 or fewer,*,*,*,*
+"Choctaw County(6,10)",40023,***,* ,*, *,3 or fewer,*,*,*,*
+"Cimarron County(6,10)",40025,***,* ,*, *,3 or fewer,*,*,*,*
+"Coal County(6,10)",40029,***,* ,*, *,3 or fewer,*,*,*,*
+"Cotton County(6,10)",40033,***,* ,*, *,3 or fewer,*,*,*,*
+"Dewey County(6,10)",40043,***,* ,*, *,3 or fewer,*,*,*,*
+"Ellis County(6,10)",40045,***,* ,*, *,3 or fewer,*,*,*,*
+"Grant County(6,10)",40053,***,* ,*, *,3 or fewer,*,*,*,*
+"Greer County(6,10)",40055,***,* ,*, *,3 or fewer,*,*,*,*
+"Harmon County(6,10)",40057,***,* ,*, *,3 or fewer,*,*,*,*
+"Harper County(6,10)",40059,***,* ,*, *,3 or fewer,*,*,*,*
+"Haskell County(6,10)",40061,***,* ,*, *,3 or fewer,*,*,*,*
+"Jefferson County(6,10)",40067,***,* ,*, *,3 or fewer,*,*,*,*
+"Johnston County(6,10)",40069,***,* ,*, *,3 or fewer,*,*,*,*
+"Kingfisher County(6,10)",40073,***,* ,*, *,3 or fewer,*,*,*,*
+"Kiowa County(6,10)",40075,***,* ,*, *,3 or fewer,*,*,*,*
+"Latimer County(6,10)",40077,***,* ,*, *,3 or fewer,*,*,*,*
+"Love County(6,10)",40085,***,* ,*, *,3 or fewer,*,*,*,*
+"Major County(6,10)",40093,***,* ,*, *,3 or fewer,*,*,*,*
+"Murray County(6,10)",40099,***,* ,*, *,3 or fewer,*,*,*,*
+"Noble County(6,10)",40103,***,* ,*, *,3 or fewer,*,*,*,*
+"Nowata County(6,10)",40105,***,* ,*, *,3 or fewer,*,*,*,*
+"Okfuskee County(6,10)",40107,***,* ,*, *,3 or fewer,*,*,*,*
+"Pushmataha County(6,10)",40127,***,* ,*, *,3 or fewer,*,*,*,*
+"Roger Mills County(6,10)",40129,***,* ,*, *,3 or fewer,*,*,*,*
+"Texas County(6,10)",40139,***,* ,*, *,3 or fewer,*,*,*,*
+"Tillman County(6,10)",40141,***,* ,*, *,3 or fewer,*,*,*,*
+"Washita County(6,10)",40149,***,* ,*, *,3 or fewer,*,*,*,*
+"Woods County(6,10)",40151,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:21 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

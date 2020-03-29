@@ -1,0 +1,108 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=12&areatype=county&cancer=001&race=02&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '12', 'areatype': 'county', 'cancer': '001', 'race': '02', 'sex': '0', 'age': '001', 'type': 'death', 'file_name': 'deathrates_026.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=12&areatype=county&cancer=001&race=02&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for Florida by County
+
+"All Cancer Sites, 2012-2016"
+
+"Black (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 161.4?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Florida",12000,Yes,158.5 ,156.4, 160.7,4509,falling,-2.4 ,-2.5, -2.3
+"United States",00000,No,185.6 ,184.9, 186.2,68886,falling,-2.1 ,-2.2, -2.0
+"Union County",12125,No,540.3 ,409, 701.2,19,stable,0.5 ,-0.7, 1.8
+"Gulf County",12045,No,238.2 ,154.2, 351,5,stable,-1.0 ,-3.3, 1.3
+"Putnam County",12107,No,221.5 ,184.2, 264.1,26,falling,-1.3 ,-2.3, -0.3
+"Jackson County",12063,No,214.3 ,180.8, 252.3,30,stable,-0.9 ,-1.9, 0.2
+"Alachua County",12001,No,213.4 ,192.9, 235.3,87,falling,-1.2 ,-1.8, -0.6
+"Baker County",12003,No,211.5 ,130.7, 319.4,5,falling,-3.1 ,-5.2, -1.0
+"Columbia County",12023,No,209.3 ,171, 253.3,23,falling,-1.4 ,-2.5, -0.4
+"Nassau County",12089,No,206.4 ,158.7, 265.1,13,stable,-1.6 ,-3.5, 0.4
+"Bradford County",12007,No,203.7 ,144.2, 278.2,8,stable,-1.0 ,-3.1, 1.2
+"Indian River County",12061,No,199.4 ,164.2, 239.7,24,falling,-2.4 ,-3.6, -1.2
+"Taylor County",12123,No,199.4 ,139.8, 274.8,8,falling,-3.4 ,-4.8, -1.9
+"Highlands County",12055,No,193.7 ,157.5, 235.8,21,falling,-2.4 ,-3.6, -1.1
+"Levy County",12075,No,193.5 ,137.2, 265.2,8,falling,-2.4 ,-4.1, -0.6
+"Escambia County",12033,No,187.3 ,172.3, 203.3,120,falling,-1.9 ,-2.3, -1.4
+"Hamilton County",12047,No,187.2 ,134, 254.4,9,stable,-1.3 ,-3.2, 0.6
+"Pinellas County",12103,No,186.4 ,173.8, 199.5,174,falling,-1.8 ,-2.3, -1.4
+"Gadsden County",12039,No,186 ,163.4, 211,51,falling,-1.7 ,-2.4, -0.9
+"Okaloosa County",12091,No,185.9 ,152.2, 224.3,25,falling,-2.2 ,-3.6, -0.8
+"Duval County",12031,No,180.1 ,171.9, 188.7,392,falling,-1.9 ,-2.3, -1.6
+"Citrus County",12017,No,178.6 ,129.1, 241,9,falling,-2.7 ,-4.7, -0.7
+"Leon County",12073,No,178.5 ,162.5, 195.4,101,falling,-1.9 ,-2.4, -1.3
+"Madison County",12079,No,177.9 ,136.8, 227.5,14,stable,-1.1 ,-2.7, 0.6
+"Sumter County",12119,No,177.6 ,136.6, 226.7,14,stable,-1.0 ,-2.7, 0.6
+"Hillsborough County",12057,No,175.6 ,166.4, 185.2,302,falling,-2.3 ,-2.7, -2.0
+"Walton County",12131,No,172.6 ,108.9, 257.8,5,stable,-1.7 ,-3.9, 0.4
+"Martin County",12085,No,172.5 ,131.9, 221,13,falling,-2.3 ,-3.4, -1.2
+"Seminole County",12117,No,168.6 ,151.6, 186.9,76,falling,-2.3 ,-2.9, -1.6
+"Polk County",12105,No,168 ,155.4, 181.3,141,falling,-2.2 ,-2.7, -1.7
+"Santa Rosa County",12113,No,167 ,121.8, 222,11,stable,-1.2 ,-3.2, 0.9
+"St. Lucie County",12111,No,165.2 ,150.5, 181,96,falling,-2.6 ,-3.3, -2.0
+"Suwannee County",12121,No,162.6 ,117.7, 218.6,9,falling,-1.6 ,-3.2, -0.1
+"Hendry County",12051,No,162.1 ,114.1, 222.9,8,falling,-1.9 ,-3.6, -0.1
+"Monroe County",12087,Yes,160.6 ,108.4, 227.5,6,falling,-3.7 ,-5.5, -1.9
+"Brevard County",12009,Yes,160.5 ,146.8, 175.2,103,falling,-1.8 ,-2.4, -1.2
+"Manatee County",12081,Yes,158.4 ,137.3, 181.7,44,falling,-3.0 ,-3.8, -2.3
+"Sarasota County",12115,Yes,157.5 ,134.3, 183.5,34,falling,-2.0 ,-3.0, -1.1
+"Jefferson County",12065,Yes,156.7 ,114.5, 210,10,stable,-1.6 ,-3.4, 0.2
+"Flagler County",12035,Yes,156.5 ,130.4, 186.9,28,falling,-2.2 ,-3.4, -1.0
+"Volusia County",12127,Yes,155.5 ,140.4, 171.8,80,falling,-2.7 ,-3.2, -2.2
+"Lake County",12069,Yes,154.3 ,135.4, 175.1,50,falling,-2.9 ,-3.5, -2.2
+"DeSoto County",12027,Yes,154 ,101.3, 223.2,6,falling,-3.3 ,-4.7, -2.0
+"Orange County",12095,Yes,153.4 ,145.6, 161.6,315,falling,-2.5 ,-2.8, -2.2
+"Wakulla County",12129,Yes,153.1 ,95.4, 230.8,5,*,*,*,*
+"Miami-Dade County",12086,Yes,152.9 ,147.8, 158.1,721,falling,-2.3 ,-2.5, -2.0
+"Clay County",12019,Yes,150.6 ,120.4, 185.5,21,falling,-3.3 ,-4.7, -1.8
+"St. Johns County",12109,Yes,147 ,117.2, 181.9,18,falling,-3.3 ,-4.2, -2.3
+"Lee County",12071,Yes,145.8 ,130.9, 161.9,74,falling,-2.8 ,-3.5, -2.2
+"Hernando County",12053,Yes,144.2 ,114.2, 179.7,16,falling,-2.5 ,-4.0, -0.9
+"Pasco County",12101,Yes,142.3 ,117.8, 169.9,27,falling,-2.5 ,-3.9, -1.0
+"Marion County",12083,Yes,141.6 ,126.5, 157.9,66,falling,-4.4 ,-5.8, -3.0
+"Palm Beach County",12099,Yes,141.1 ,133.8, 148.7,303,falling,-2.9 ,-3.2, -2.6
+"Broward County",12011,Yes,141 ,135.8, 146.3,619,falling,-2.5 ,-2.8, -2.2
+"Okeechobee County",12093,Yes,140.1 ,79.5, 225.8,3,falling,-4.3 ,-6.9, -1.7
+"Bay County",12005,Yes,134.9 ,110.1, 163.2,22,falling,-3.4 ,-4.5, -2.4
+"Washington County",12133,Yes,130.5 ,77, 204.8,4,stable,-2.2 ,-4.6, 0.2
+"Osceola County",12097,Yes,103.6 ,88.7, 120.3,37,falling,-2.9 ,-4.1, -1.6
+"Charlotte County",12015,Yes,100.6 ,79, 126.9,16,falling,-3.9 ,-5.5, -2.2
+"Collier County",12021,Yes,97.6 ,78.6, 119.6,20,falling,-4.9 ,-6.1, -3.6
+"Calhoun County",12013,***,* ,*, *,3 or fewer,*,*,*,*
+"Dixie County",12029,***,* ,*, *,3 or fewer,*,*,*,*
+"Franklin County",12037,***,* ,*, *,3 or fewer,*,*,*,*
+"Gilchrist County",12041,***,* ,*, *,3 or fewer,*,*,*,*
+"Glades County",12043,***,* ,*, *,3 or fewer,*,*,*,*
+"Hardee County",12049,***,* ,*, *,3 or fewer,*,*,*,*
+"Holmes County",12059,***,* ,*, *,3 or fewer,*,*,*,*
+"Lafayette County",12067,***,* ,*, *,3 or fewer,*,*,*,*
+"Liberty County",12077,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:15 pm.
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

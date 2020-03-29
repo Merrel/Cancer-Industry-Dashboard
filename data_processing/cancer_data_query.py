@@ -54,7 +54,7 @@ class CancerDataQuery(object):
     def download_cancer_data(self, data_type):
 
         # Set the proper paths
-        raw_data_dir = self.data_dir / 'CDC_CancerIncidenceByCounty' / str.title(self.state) / data_type
+        raw_data_dir = self.data_dir / 'CDC_CancerByCounty' / str.title(self.state) / data_type
 
         # print(raw_data_dir)
 
@@ -140,6 +140,8 @@ if __name__ == "__main__":
     
     # Convert to lower case
     states_list = [str.lower(state) for state in states_list]
+    states_list = [s.replace(' ', '') for s in states_list]
+    # states_list = ['arkansas']
 
     query_func = partial(query_state_data, data_dir=raw_data_dir)
 
