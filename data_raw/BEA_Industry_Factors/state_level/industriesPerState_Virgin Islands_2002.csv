@@ -1,0 +1,12 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>Too Many Requests</title>
+	</head>
+	<body>
+	<h1>Too Many Requests</h1>
+	<p>You've exceeded the limit for queries without a key.  If you wish to
+	continue using the Census Data API please
+	<a href="http://www.census.gov/developers/">sign up</a> for a key.</p>
+	</body>
+</html>
