@@ -1,0 +1,83 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=36&areatype=county&topic=inc&demo=00011&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '36', 'areatype': 'county', 'topic': 'inc', 'demo': '00011', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_005.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=36&areatype=county&topic=inc&demo=00011&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for New York by County
+Income: Median household income
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Dollars),Rank within US
+"United States",00000,57652.000000000,"N/A"
+"New York",36000,62765.000000000,"16 of 52"
+"Bronx County",36005,36593.000000000,"2751 of 3141"
+"Chautauqua County",36013,44304.000000000,"2009 of 3141"
+"Allegany County",36003,45359.000000000,"1888 of 3141"
+"Cattaraugus County",36009,45571.000000000,"1859 of 3141"
+"Montgomery County",36057,47449.000000000,"1633 of 3141"
+"Schuyler County",36097,47810.000000000,"1599 of 3141"
+"Delaware County",36025,47921.000000000,"1583 of 3141"
+"Fulton County",36035,48033.000000000,"1572 of 3141"
+"St. Lawrence County",36089,48330.000000000,"1540 of 3141"
+"Chenango County",36017,48567.000000000,"1506 of 3141"
+"Broome County",36007,49064.000000000,"1463 of 3141"
+"Herkimer County",36043,49077.000000000,"1462 of 3141"
+"Orleans County",36073,49223.000000000,"1446 of 3141"
+"Steuben County",36101,50157.000000000,"1342 of 3141"
+"Jefferson County",36045,50322.000000000,"1317 of 3141"
+"Franklin County",36033,50733.000000000,"1268 of 3141"
+"Chemung County",36015,51251.000000000,"1205 of 3141"
+"Otsego County",36077,51254.000000000,"1204 of 3141"
+"Oneida County",36065,51316.000000000,"1198 of 3141"
+"Lewis County",36049,51475.000000000,"1175 of 3141"
+"Seneca County",36099,51601.000000000,"1160 of 3141"
+"Niagara County",36063,51656.000000000,"1158 of 3141"
+"Oswego County",36075,51755.000000000,"1146 of 3141"
+"Yates County",36123,51758.000000000,"1145 of 3141"
+"Schoharie County",36095,51842.000000000,"1136 of 3141"
+"Cortland County",36023,52451.000000000,"1066 of 3141"
+"Washington County",36115,52527.000000000,"1058 of 3141"
+"Clinton County",36019,52759.000000000,"1037 of 3141"
+"Kings County",36047,52782.000000000,"1035 of 3141"
+"Greene County",36039,53214.000000000,"998 of 3141"
+"Livingston County",36051,53654.000000000,"964 of 3141"
+"Wayne County",36117,53693.000000000,"959 of 3141"
+"Sullivan County",36105,53877.000000000,"934 of 3141"
+"Erie County",36029,54006.000000000,"919 of 3141"
+"Genesee County",36037,54033.000000000,"916 of 3141"
+"Cayuga County",36011,54664.000000000,"863 of 3141"
+"Monroe County",36055,55272.000000000,"819 of 3141"
+"Essex County",36031,55294.000000000,"816 of 3141"
+"Wyoming County",36121,55459.000000000,"804 of 3141"
+"Hamilton County",36041,55587.000000000,"800 of 3141"
+"Tompkins County",36109,56200.000000000,"754 of 3141"
+"Tioga County",36107,57153.000000000,"692 of 3141"
+"Onondaga County",36067,57271.000000000,"678 of 3141"
+"Madison County",36053,58365.000000000,"607 of 3141"
+"Warren County",36113,60222.000000000,"513 of 3141"
+"Columbia County",36021,61093.000000000,"463 of 3141"
+"Schenectady County",36093,61315.000000000,"455 of 3141"
+"Ulster County",36111,61652.000000000,"437 of 3141"
+"Ontario County",36069,61710.000000000,"434 of 3141"
+"Queens County",36081,62008.000000000,"423 of 3141"
+"Albany County",36001,62293.000000000,"412 of 3141"
+"Rensselaer County",36083,63166.000000000,"372 of 3141"
+"Orange County",36071,75146.000000000,"157 of 3141"
+"Dutchess County",36027,75585.000000000,"152 of 3141"
+"Richmond County",36085,76244.000000000,"144 of 3141"
+"Saratoga County",36091,77548.000000000,"132 of 3141"
+"New York County",36061,79781.000000000,"112 of 3141"
+"Rockland County",36087,88571.000000000,"55 of 3141"
+"Westchester County",36119,89968.000000000,"48 of 3141"
+"Suffolk County",36103,92838.000000000,"37 of 3141"
+"Putnam County",36079,99608.000000000,"22 of 3141"
+"Nassau County",36059,105744.000000000,"13 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:19 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Income: Median household income, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#income."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"Median Incomes over 250,000 have been coded to 250,001 by the Census Bureau. [ http://www2.census.gov/acs2012_5yr/summaryfile/ACS_2008-2012_SF_Tech_Doc.pdf ]"
+Data for United States does not include Puerto Rico.

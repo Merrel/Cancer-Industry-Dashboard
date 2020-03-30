@@ -1,0 +1,25 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=15&areatype=county&topic=pop&demo=00101&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '15', 'areatype': 'county', 'topic': 'pop', 'demo': '00101', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_024.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=15&areatype=county&topic=pop&demo=00101&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Hawaii by County
+Population: Non-Hispanic (Origin Recode)
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Non-Hispanic [Origin Recode]),Rank within US
+"United States",00000,82.4,264493836,"N/A"
+"Hawaii",15000,89.8,1276277,"22 of 52"
+"Hawaii County",15001,87.5,171802,"599 of 3141"
+"Maui County",15009,89.0,145964,"675 of 3141"
+"Kauai County",15007,89.2,63439,"686 of 3141"
+"Honolulu County",15003,90.4,894990,"767 of 3141"
+"Kalawao County",15005,95.3,82,"1391 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:14 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Non-Hispanic (Origin Recode), see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

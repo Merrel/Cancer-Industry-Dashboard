@@ -1,0 +1,36 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=04&areatype=county&topic=lang&demo=00015&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '04', 'areatype': 'county', 'topic': 'lang', 'demo': '00015', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_007.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=04&areatype=county&topic=lang&demo=00015&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Arizona by County
+Non-English Language: Language isolation
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),Households (language Isolation),Rank within US
+"Arizona",04000,4.4,108133,"39 of 51"
+"United States",00000,4.5,5305440,"N/A"
+"Mohave County",04015,1.6,1324,"2144 of 3140"
+"Graham County",04009,1.9,206,"2284 of 3140"
+"Yavapai County",04025,1.9,1800,"2292 of 3140"
+"Greenlee County",04011,2.3,79,"2457 of 3140"
+"Pinal County",04021,2.5,3399,"2526 of 3140"
+"Gila County",04007,2.5,550,"2527 of 3140"
+"Coconino County",04005,2.9,1393,"2622 of 3140"
+"Pima County",04019,4.1,16400,"2783 of 3140"
+"La Paz County",04012,4.3,376,"2799 of 3140"
+"Maricopa County",04013,4.3,64013,"2806 of 3140"
+"Cochise County",04003,4.9,2391,"2855 of 3140"
+"Navajo County",04017,6.3,2151,"2933 of 3140"
+"Yuma County",04027,12.6,9050,"3092 of 3140"
+"Apache County",04001,14.1,2755,"3105 of 3140"
+"Santa Cruz County",04023,14.4,2246,"3107 of 3140"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:14 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Non-English Language: Language isolation, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#non-english."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+A "limited English speaking household" is one in which no member 14 years old and over (1) speaks only English or (2) speaks a non-English language and speaks English "very well."
+Data for United States does not include Puerto Rico.

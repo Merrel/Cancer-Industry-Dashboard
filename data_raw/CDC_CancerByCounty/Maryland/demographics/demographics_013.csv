@@ -1,0 +1,44 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=24&areatype=county&topic=pop&demo=00002&race=00&sex=0&age=999&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '24', 'areatype': 'county', 'topic': 'pop', 'demo': '00002', 'race': '00', 'sex': '0', 'age': '999', 'type': 'manyareacensus', 'file_name': 'demographics_013.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=24&areatype=county&topic=pop&demo=00002&race=00&sex=0&age=999&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Maryland by County
+Population: Age under 18
+"All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Age Under 18),Rank within US
+"Maryland",24000,22.5,1347613,"31 of 52"
+"United States",00000,22.9,73601279,"N/A"
+"Kent County",24029,16.3,3199,"3044 of 3141"
+"Somerset County",24039,16.8,4344,"3000 of 3141"
+"Allegany County",24001,17.6,12803,"2935 of 3141"
+"Worcester County",24047,17.7,9132,"2927 of 3141"
+"Talbot County",24041,18.5,6932,"2816 of 3141"
+"Garrett County",24023,19.3,5709,"2666 of 3141"
+"Baltimore City",24510,21.0,129901,"2180 of 3141"
+"Dorchester County",24019,21.2,6857,"2094 of 3141"
+"Baltimore County",24005,21.6,179025,"1946 of 3141"
+"Wicomico County",24045,22.0,22476,"1756 of 3141"
+"Queen Annes County",24035,22.1,10825,"1748 of 3141"
+"Washington County",24043,22.3,33290,"1649 of 3141"
+"Carroll County",24013,22.3,37339,"1618 of 3141"
+"Anne Arundel County",24003,22.5,126857,"1552 of 3141"
+"Prince Georges County",24033,22.5,203800,"1533 of 3141"
+"Harford County",24025,22.8,57038,"1410 of 3141"
+"Cecil County",24015,23.3,23838,"1189 of 3141"
+"Montgomery County",24031,23.4,243654,"1123 of 3141"
+"Frederick County",24021,23.7,58317,"1015 of 3141"
+"Caroline County",24011,23.8,7819,"946 of 3141"
+"Calvert County",24009,23.9,21739,"909 of 3141"
+"Howard County",24027,24.6,76848,"659 of 3141"
+"Charles County",24017,24.6,38383,"655 of 3141"
+"St. Marys County",24037,24.8,27488,"614 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:18 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Age under 18, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

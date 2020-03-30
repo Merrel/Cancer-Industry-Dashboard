@@ -1,0 +1,59 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=53&areatype=county&topic=pov&demo=00007&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '53', 'areatype': 'county', 'topic': 'pov', 'demo': '00007', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_028.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=53&areatype=county&topic=pov&demo=00007&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Washington by County
+Poverty: Families below poverty
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),Families (Below Poverty),Rank within US
+"Washington",53000,8.0,142892,"16 of 52"
+"United States",00000,10.5,8253388,"N/A"
+"Garfield County",53023,4.4,29,"176 of 3141"
+"Snohomish County",53061,5.9,11403,"382 of 3141"
+"King County",53033,6.4,32539,"490 of 3141"
+"Kitsap County",53035,6.7,4565,"561 of 3141"
+"Island County",53029,6.7,1557,"567 of 3141"
+"Clark County",53011,6.7,7900,"568 of 3141"
+"San Juan County",53055,7.1,331,"648 of 3141"
+"Jefferson County",53031,7.4,635,"722 of 3141"
+"Asotin County",53003,7.9,457,"856 of 3141"
+"Thurston County",53067,8.0,5630,"882 of 3141"
+"Pierce County",53053,8.3,17303,"975 of 3141"
+"Klickitat County",53039,8.5,457,"1030 of 3141"
+"Whatcom County",53073,8.6,4384,"1060 of 3141"
+"Wahkiakum County",53069,8.8,113,"1101 of 3141"
+"Columbia County",53013,8.8,96,"1110 of 3141"
+"Walla Walla County",53071,9.0,1295,"1150 of 3141"
+"Lincoln County",53043,9.0,272,"1152 of 3141"
+"Kittitas County",53037,9.1,868,"1157 of 3141"
+"Skagit County",53057,9.1,2924,"1177 of 3141"
+"Skamania County",53059,9.2,286,"1184 of 3141"
+"Spokane County",53063,9.5,11719,"1275 of 3141"
+"Douglas County",53017,9.6,1034,"1304 of 3141"
+"Benton County",53005,9.6,4652,"1307 of 3141"
+"Chelan County",53007,9.7,1758,"1324 of 3141"
+"Grays Harbor County",53027,10.1,1803,"1452 of 3141"
+"Mason County",53045,10.4,1577,"1504 of 3141"
+"Pacific County",53049,10.4,567,"1510 of 3141"
+"Lewis County",53041,10.5,2095,"1526 of 3141"
+"Clallam County",53009,10.8,2096,"1602 of 3141"
+"Stevens County",53065,10.9,1323,"1640 of 3141"
+"Pend Oreille County",53051,10.9,420,"1645 of 3141"
+"Whitman County",53075,11.0,941,"1677 of 3141"
+"Grant County",53025,11.4,2526,"1765 of 3141"
+"Cowlitz County",53015,12.3,3285,"1948 of 3141"
+"Franklin County",53021,13.4,2664,"2178 of 3141"
+"Yakima County",53077,14.6,8550,"2384 of 3141"
+"Okanogan County",53047,15.3,1765,"2493 of 3141"
+"Ferry County",53019,15.6,307,"2533 of 3141"
+"Adams County",53001,17.3,766,"2711 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:20 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Poverty: Families below poverty, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#poverty."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

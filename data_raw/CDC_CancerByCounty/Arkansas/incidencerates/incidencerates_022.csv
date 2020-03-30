@@ -1,0 +1,116 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=05&areatype=county&cancer=058&race=00&sex=2&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '05', 'areatype': 'county', 'cancer': '058', 'race': '00', 'sex': '2', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_022.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=05&areatype=county&cancer=058&race=00&sex=2&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Arkansas by County
+
+"Uterus (Corpus & Uterus, NOS) (All Stages^), 2012-2016"
+
+"All Races (includes Hispanic), Female, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Arkansas(6,10)",05000,***,23.2 ,22.2, 24.2,437,rising,4.7 ,3.7, 5.7
+"US (SEER+NPCR)(1,10)",00000,***,26.6 ,26.5, 26.7,53371,rising,1.4 ,1.0, 1.9
+"Stone County(6,10)",05137,***,44.3 ,25.3, 73.2,4,*,*,*,*
+"Randolph County(6,10)",05121,***,37.9 ,23.4, 58.7,5,stable,-11.0 ,-60.8, 102.0
+"Pope County(6,10)",05115,***,35.2 ,27, 45,13,stable,-0.6 ,-16.0, 17.6
+"Grant County(6,10)",05053,***,34.2 ,20.1, 54.8,4,*,*,*,*
+"Madison County(6,10)",05087,***,34 ,19.7, 55.4,4,*,*,*,*
+"Clay County(6,10)",05021,***,33.9 ,20.2, 54.6,4,stable,-9.4 ,-39.9, 36.4
+"Van Buren County(6,10)",05141,***,32.6 ,18.5, 54,4,*,*,*,*
+"Johnson County(6,10)",05071,***,31.8 ,20, 48,5,stable,21.5 ,-18.3, 80.9
+"Poinsett County(6,10)",05111,***,30.7 ,18.9, 47.2,5,stable,10.6 ,-29.7, 74.2
+"Carroll County(6,10)",05015,***,29.3 ,18.9, 43.8,6,rising,45.3 ,4.3, 102.3
+"Clark County(6,10)",05019,***,29.2 ,17.9, 45.6,4,stable,-15.1 ,-42.1, 24.5
+"Hempstead County(6,10)",05057,***,27.9 ,16.6, 44.2,4,*,*,*,*
+"Cross County(6,10)",05037,***,27.7 ,15.7, 45.8,3,*,*,*,*
+"Lonoke County(6,10)",05085,***,27.5 ,20.6, 36.1,11,stable,11.0 ,-26.7, 68.2
+"Crittenden County(6,10)",05035,***,27.3 ,19.4, 37.5,8,falling,-6.1 ,-10.5, -1.5
+"Phillips County(6,10)",05107,***,27.3 ,15.7, 44.4,4,*,*,*,*
+"Mississippi County(6,10)",05093,***,27.1 ,18.8, 37.8,7,stable,-13.6 ,-50.8, 51.7
+"Craighead County(6,10)",05031,***,26.9 ,21.2, 33.8,16,stable,-5.2 ,-14.4, 5.0
+"Independence County(6,10)",05063,***,26.4 ,17.7, 38.1,6,rising,36.8 ,17.8, 58.9
+"Crawford County(6,10)",05033,***,25.8 ,19, 34.5,10,stable,13.2 ,-18.6, 57.5
+"Washington County(6,10)",05143,***,25.8 ,21.6, 30.6,27,stable,15.5 ,-4.1, 39.1
+"White County(6,10)",05145,***,25.2 ,19, 32.9,12,stable,6.6 ,-16.2, 35.7
+"Benton County(6,10)",05007,***,25 ,21.3, 29.2,33,stable,6.4 ,-1.1, 14.5
+"Yell County(6,10)",05149,***,24.9 ,14.1, 41,3,*,*,*,*
+"Boone County(6,10)",05009,***,24.6 ,17.2, 34.7,7,stable,3.9 ,-19.8, 34.6
+"Baxter County(6,10)",05005,***,24.5 ,16.3, 35.7,8,stable,-8.2 ,-17.3, 2.0
+"Saline County(6,10)",05125,***,23.9 ,19.1, 29.6,18,stable,12.4 ,-7.8, 37.1
+"Greene County(6,10)",05055,***,22.8 ,15.4, 32.7,6,stable,2.1 ,-42.7, 81.9
+"Columbia County(6,10)",05027,***,22.4 ,13.1, 36.4,4,*,*,*,*
+"Miller County(6,10)",05091,***,21.1 ,14, 30.6,6,stable,-4.4 ,-23.5, 19.5
+"Sebastian County(6,10)",05131,***,20.9 ,16.6, 26,17,stable,11.0 ,-17.5, 49.4
+"Pulaski County(6,10)",05119,***,20.8 ,18.3, 23.6,52,stable,2.2 ,-7.9, 13.4
+"Jefferson County(6,10)",05069,***,20.7 ,15.3, 27.6,10,stable,-11.7 ,-29.6, 10.8
+"Ouachita County(6,10)",05103,***,20.6 ,11.8, 33.9,4,*,*,*,*
+"Garland County(6,10)",05051,***,19.9 ,15.5, 25.4,15,stable,10.7 ,-2.4, 25.5
+"Sharp County(6,10)",05135,***,19.3 ,10.9, 34,3,stable,-10.0 ,-41.5, 38.6
+"Union County(6,10)",05139,***,18.6 ,11.8, 28.1,5,stable,7.5 ,-42.0, 99.4
+"Cleburne County(6,10)",05023,***,18.4 ,11.2, 29.7,4,stable,9.5 ,-17.2, 44.8
+"Hot Spring County(6,10)",05059,***,18.2 ,10.8, 29.1,4,stable,7.6 ,-12.1, 31.8
+"Faulkner County(6,10)",05045,***,14.7 ,10.8, 19.7,9,stable,-6.4 ,-46.8, 64.6
+"Arkansas County(6,10)",05001,***,* ,*, *,3 or fewer,*,*,*,*
+"Ashley County(6,10)",05003,***,* ,*, *,3 or fewer,*,*,*,*
+"Bradley County(6,10)",05011,***,* ,*, *,3 or fewer,*,*,*,*
+"Calhoun County(6,10)",05013,***,* ,*, *,3 or fewer,*,*,*,*
+"Chicot County(6,10)",05017,***,* ,*, *,3 or fewer,*,*,*,*
+"Cleveland County(6,10)",05025,***,* ,*, *,3 or fewer,*,*,*,*
+"Conway County(6,10)",05029,***,* ,*, *,3 or fewer,*,*,*,*
+"Dallas County(6,10)",05039,***,* ,*, *,3 or fewer,*,*,*,*
+"Desha County(6,10)",05041,***,* ,*, *,3 or fewer,*,*,*,*
+"Drew County(6,10)",05043,***,* ,*, *,3 or fewer,*,*,*,*
+"Franklin County(6,10)",05047,***,* ,*, *,3 or fewer,*,*,*,*
+"Fulton County(6,10)",05049,***,* ,*, *,3 or fewer,*,*,*,*
+"Howard County(6,10)",05061,***,* ,*, *,3 or fewer,*,*,*,*
+"Izard County(6,10)",05065,***,* ,*, *,3 or fewer,*,*,*,*
+"Jackson County(6,10)",05067,***,* ,*, *,3 or fewer,*,*,*,*
+"Lafayette County(6,10)",05073,***,* ,*, *,3 or fewer,*,*,*,*
+"Lawrence County(6,10)",05075,***,* ,*, *,3 or fewer,*,*,*,*
+"Lee County(6,10)",05077,***,* ,*, *,3 or fewer,*,*,*,*
+"Lincoln County(6,10)",05079,***,* ,*, *,3 or fewer,*,*,*,*
+"Little River County(6,10)",05081,***,* ,*, *,3 or fewer,*,*,*,*
+"Logan County(6,10)",05083,***,* ,*, *,3 or fewer,*,*,*,*
+"Marion County(6,10)",05089,***,* ,*, *,3 or fewer,*,*,*,*
+"Monroe County(6,10)",05095,***,* ,*, *,3 or fewer,*,*,*,*
+"Montgomery County(6,10)",05097,***,* ,*, *,3 or fewer,*,*,*,*
+"Nevada County(6,10)",05099,***,* ,*, *,3 or fewer,*,*,*,*
+"Newton County(6,10)",05101,***,* ,*, *,3 or fewer,*,*,*,*
+"Perry County(6,10)",05105,***,* ,*, *,3 or fewer,*,*,*,*
+"Pike County(6,10)",05109,***,* ,*, *,3 or fewer,*,*,*,*
+"Polk County(6,10)",05113,***,* ,*, *,3 or fewer,*,*,*,*
+"Prairie County(6,10)",05117,***,* ,*, *,3 or fewer,*,*,*,*
+"Scott County(6,10)",05127,***,* ,*, *,3 or fewer,*,*,*,*
+"Searcy County(6,10)",05129,***,* ,*, *,3 or fewer,*,*,*,*
+"Sevier County(6,10)",05133,***,* ,*, *,3 or fewer,*,*,*,*
+"St. Francis County(6,10)",05123,***,* ,*, *,3 or fewer,*,*,*,*
+"Woodruff County(6,10)",05147,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:16 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

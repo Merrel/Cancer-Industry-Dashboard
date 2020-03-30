@@ -1,0 +1,41 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=34&areatype=county&topic=pov&demo=00009&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '34', 'areatype': 'county', 'topic': 'pov', 'demo': '00009', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_030.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=34&areatype=county&topic=pov&demo=00009&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for New Jersey by County
+Poverty: Persons below 150% of poverty
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (<150% Of Poverty),Rank within US
+"New Jersey",34000,17.3,1522422,"5 of 52"
+"United States",00000,23.7,74202606,"N/A"
+"Hunterdon County",34019,7.3,8822,"7 of 3141"
+"Somerset County",34035,8.1,26863,"12 of 3141"
+"Morris County",34027,8.4,41450,"14 of 3141"
+"Sussex County",34037,9.2,13144,"32 of 3141"
+"Burlington County",34005,10.9,47594,"64 of 3141"
+"Bergen County",34003,12.4,114736,"112 of 3141"
+"Monmouth County",34025,12.4,77212,"116 of 3141"
+"Gloucester County",34015,12.6,36162,"126 of 3141"
+"Warren County",34041,13.6,14278,"160 of 3141"
+"Middlesex County",34023,14.2,114513,"189 of 3141"
+"Cape May County",34009,18.0,16607,"491 of 3141"
+"Ocean County",34029,18.4,107156,"527 of 3141"
+"Mercer County",34021,18.5,65922,"542 of 3141"
+"Union County",34039,18.7,102946,"578 of 3141"
+"Camden County",34007,20.3,102553,"790 of 3141"
+"Salem County",34033,21.5,13427,"945 of 3141"
+"Atlantic County",34001,23.6,62930,"1224 of 3141"
+"Essex County",34013,25.9,202347,"1569 of 3141"
+"Hudson County",34017,26.2,176058,"1606 of 3141"
+"Passaic County",34031,26.8,134526,"1706 of 3141"
+"Cumberland County",34011,30.3,43176,"2175 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:18 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Poverty: Persons below 150% of poverty, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#poverty."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

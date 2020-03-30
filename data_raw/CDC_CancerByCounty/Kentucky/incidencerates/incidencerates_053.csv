@@ -1,0 +1,161 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=21&areatype=county&cancer=061&stage=211&race=00&sex=2&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '21', 'areatype': 'county', 'cancer': '061', 'stage': '211', 'race': '00', 'sex': '2', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_053.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=21&areatype=county&cancer=061&stage=211&race=00&sex=2&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Kentucky by County
+
+"Ovary (Late Stage^), 2012-2016"
+
+"All Races (includes Hispanic), Female, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Percent of Cases with Late Stage
+"Kentucky(3)",21000,***,7.9 ,7.4, 8.4,216,76.4
+"US (SEER+NPCR)(1)",00000,***,8.4 ,8.3, 8.5,16311,76.2
+"Kenton County(7)",21117,***,14.5 ,11.2, 18.6,13,84.6
+"Scott County(7)",21209,***,12.2 ,6.9, 20,3,84.2
+"Pulaski County(7)",21199,***,10.8 ,6.7, 16.6,5,85.2
+"Pike County(7)",21195,***,10.3 ,6.2, 16.2,4,95.2
+"Jefferson County(7)",21111,***,8.7 ,7.5, 10,43,80.4
+"Daviess County(7)",21059,***,8.3 ,5.5, 12.2,6,75.7
+"Campbell County(7)",21037,***,7.9 ,4.9, 12.2,4,81.5
+"Madison County(7)",21151,***,7.8 ,4.7, 12.4,4,76.0
+"Fayette County(7)",21067,***,7.6 ,5.9, 9.7,14,75.0
+"Bullitt County(7)",21029,***,7.3 ,4.1, 12.1,3,72.7
+"Boone County(7)",21015,***,7.1 ,4.5, 10.6,5,71.4
+"Hardin County(7)",21093,***,6.8 ,4.1, 10.5,4,70.0
+"Warren County(7)",21227,***,5.7 ,3.4, 8.9,4,73.1
+"Adair County(7)",21001,***,* ,*, *,3 or fewer,*
+"Allen County(7)",21003,***,* ,*, *,3 or fewer,*
+"Anderson County(7)",21005,***,* ,*, *,3 or fewer,*
+"Ballard County(7)",21007,***,* ,*, *,3 or fewer,*
+"Barren County(7)",21009,***,* ,*, *,3 or fewer,*
+"Bath County(7)",21011,***,* ,*, *,3 or fewer,*
+"Bell County(7)",21013,***,* ,*, *,3 or fewer,*
+"Bourbon County(7)",21017,***,* ,*, *,3 or fewer,*
+"Boyd County(7)",21019,***,* ,*, *,3 or fewer,*
+"Boyle County(7)",21021,***,* ,*, *,3 or fewer,*
+"Bracken County(7)",21023,***,* ,*, *,3 or fewer,*
+"Breathitt County(7)",21025,***,* ,*, *,3 or fewer,*
+"Breckinridge County(7)",21027,***,* ,*, *,3 or fewer,*
+"Butler County(7)",21031,***,* ,*, *,3 or fewer,*
+"Caldwell County(7)",21033,***,* ,*, *,3 or fewer,*
+"Calloway County(7)",21035,***,* ,*, *,3 or fewer,*
+"Carlisle County(7)",21039,***,* ,*, *,3 or fewer,*
+"Carroll County(7)",21041,***,* ,*, *,3 or fewer,*
+"Carter County(7)",21043,***,* ,*, *,3 or fewer,*
+"Casey County(7)",21045,***,* ,*, *,3 or fewer,*
+"Christian County(7)",21047,***,* ,*, *,3 or fewer,*
+"Clark County(7)",21049,***,* ,*, *,3 or fewer,*
+"Clay County(7)",21051,***,* ,*, *,3 or fewer,*
+"Clinton County(7)",21053,***,* ,*, *,3 or fewer,*
+"Crittenden County(7)",21055,***,* ,*, *,3 or fewer,*
+"Cumberland County(7)",21057,***,* ,*, *,3 or fewer,*
+"Edmonson County(7)",21061,***,* ,*, *,3 or fewer,*
+"Elliott County(7)",21063,***,* ,*, *,3 or fewer,*
+"Estill County(7)",21065,***,* ,*, *,3 or fewer,*
+"Fleming County(7)",21069,***,* ,*, *,3 or fewer,*
+"Floyd County(7)",21071,***,* ,*, *,3 or fewer,*
+"Franklin County(7)",21073,***,* ,*, *,3 or fewer,*
+"Fulton County(7)",21075,***,* ,*, *,3 or fewer,*
+"Gallatin County(7)",21077,***,* ,*, *,3 or fewer,*
+"Garrard County(7)",21079,***,* ,*, *,3 or fewer,*
+"Grant County(7)",21081,***,* ,*, *,3 or fewer,*
+"Graves County(7)",21083,***,* ,*, *,3 or fewer,*
+"Grayson County(7)",21085,***,* ,*, *,3 or fewer,*
+"Green County(7)",21087,***,* ,*, *,3 or fewer,*
+"Greenup County(7)",21089,***,* ,*, *,3 or fewer,*
+"Hancock County(7)",21091,***,* ,*, *,3 or fewer,*
+"Harlan County(7)",21095,***,* ,*, *,3 or fewer,*
+"Harrison County(7)",21097,***,* ,*, *,3 or fewer,*
+"Hart County(7)",21099,***,* ,*, *,3 or fewer,*
+"Henderson County(7)",21101,***,* ,*, *,3 or fewer,*
+"Henry County(7)",21103,***,* ,*, *,3 or fewer,*
+"Hickman County(7)",21105,***,* ,*, *,3 or fewer,*
+"Hopkins County(7)",21107,***,* ,*, *,3 or fewer,*
+"Jackson County(7)",21109,***,* ,*, *,3 or fewer,*
+"Jessamine County(7)",21113,***,* ,*, *,3 or fewer,*
+"Johnson County(7)",21115,***,* ,*, *,3 or fewer,*
+"Knott County(7)",21119,***,* ,*, *,3 or fewer,*
+"Knox County(7)",21121,***,* ,*, *,3 or fewer,*
+"Larue County(7)",21123,***,* ,*, *,3 or fewer,*
+"Laurel County(7)",21125,***,* ,*, *,3 or fewer,*
+"Lawrence County(7)",21127,***,* ,*, *,3 or fewer,*
+"Lee County(7)",21129,***,* ,*, *,3 or fewer,*
+"Leslie County(7)",21131,***,* ,*, *,3 or fewer,*
+"Letcher County(7)",21133,***,* ,*, *,3 or fewer,*
+"Lewis County(7)",21135,***,* ,*, *,3 or fewer,*
+"Lincoln County(7)",21137,***,* ,*, *,3 or fewer,*
+"Livingston County(7)",21139,***,* ,*, *,3 or fewer,*
+"Logan County(7)",21141,***,* ,*, *,3 or fewer,*
+"Lyon County(7)",21143,***,* ,*, *,3 or fewer,*
+"Magoffin County(7)",21153,***,* ,*, *,3 or fewer,*
+"Marion County(7)",21155,***,* ,*, *,3 or fewer,*
+"Marshall County(7)",21157,***,* ,*, *,3 or fewer,*
+"Martin County(7)",21159,***,* ,*, *,3 or fewer,*
+"Mason County(7)",21161,***,* ,*, *,3 or fewer,*
+"McCracken County(7)",21145,***,* ,*, *,3 or fewer,*
+"McCreary County(7)",21147,***,* ,*, *,3 or fewer,*
+"McLean County(7)",21149,***,* ,*, *,3 or fewer,*
+"Meade County(7)",21163,***,* ,*, *,3 or fewer,*
+"Menifee County(7)",21165,***,* ,*, *,3 or fewer,*
+"Mercer County(7)",21167,***,* ,*, *,3 or fewer,*
+"Metcalfe County(7)",21169,***,* ,*, *,3 or fewer,*
+"Monroe County(7)",21171,***,* ,*, *,3 or fewer,*
+"Montgomery County(7)",21173,***,* ,*, *,3 or fewer,*
+"Morgan County(7)",21175,***,* ,*, *,3 or fewer,*
+"Muhlenberg County(7)",21177,***,* ,*, *,3 or fewer,*
+"Nelson County(7)",21179,***,* ,*, *,3 or fewer,*
+"Nicholas County(7)",21181,***,* ,*, *,3 or fewer,*
+"Ohio County(7)",21183,***,* ,*, *,3 or fewer,*
+"Oldham County(7)",21185,***,* ,*, *,3 or fewer,*
+"Owen County(7)",21187,***,* ,*, *,3 or fewer,*
+"Owsley County(7)",21189,***,* ,*, *,3 or fewer,*
+"Pendleton County(7)",21191,***,* ,*, *,3 or fewer,*
+"Perry County(7)",21193,***,* ,*, *,3 or fewer,*
+"Powell County(7)",21197,***,* ,*, *,3 or fewer,*
+"Robertson County(7)",21201,***,* ,*, *,3 or fewer,*
+"Rockcastle County(7)",21203,***,* ,*, *,3 or fewer,*
+"Rowan County(7)",21205,***,* ,*, *,3 or fewer,*
+"Russell County(7)",21207,***,* ,*, *,3 or fewer,*
+"Shelby County(7)",21211,***,* ,*, *,3 or fewer,*
+"Simpson County(7)",21213,***,* ,*, *,3 or fewer,*
+"Spencer County(7)",21215,***,* ,*, *,3 or fewer,*
+"Taylor County(7)",21217,***,* ,*, *,3 or fewer,*
+"Todd County(7)",21219,***,* ,*, *,3 or fewer,*
+"Trigg County(7)",21221,***,* ,*, *,3 or fewer,*
+"Trimble County(7)",21223,***,* ,*, *,3 or fewer,*
+"Union County(7)",21225,***,* ,*, *,3 or fewer,*
+"Washington County(7)",21229,***,* ,*, *,3 or fewer,*
+"Wayne County(7)",21231,***,* ,*, *,3 or fewer,*
+"Webster County(7)",21233,***,* ,*, *,3 or fewer,*
+"Whitley County(7)",21235,***,* ,*, *,3 or fewer,*
+"Wolfe County(7)",21237,***,* ,*, *,3 or fewer,*
+"Woodford County(7)",21239,***,* ,*, *,3 or fewer,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:17 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+
+Rates are computed using cancers classified as malignant based on ICD-O-3. For more information see malignant.html.
+
+"^ Late Stage is defined as cases determined to be regional or distant. Coding is generally based on Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ] but may include other staging variables if necessary."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+3 Source: SEER November 2018 submission.  State Cancer Registry also receives funding from CDC's National Program of Cancer Registries.
+7 Source: SEER November 2018 submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

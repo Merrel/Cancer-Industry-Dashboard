@@ -1,0 +1,66 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=45&areatype=county&topic=pop&demo=00014&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '45', 'areatype': 'county', 'topic': 'pop', 'demo': '00014', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_022.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=45&areatype=county&topic=pop&demo=00014&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for South Carolina by County
+Population: Foreign born
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Foreign Born),Rank within US
+"South Carolina",45000,4.9,237789,"37 of 51"
+"United States",00000,13.4,43028127,"N/A"
+"Lee County",45061,0.5,96,"2973 of 3140"
+"Union County",45087,0.8,224,"2786 of 3140"
+"Abbeville County",45001,0.9,231,"2698 of 3140"
+"Chester County",45023,1.0,313,"2674 of 3140"
+"Allendale County",45005,1.2,113,"2479 of 3140"
+"Barnwell County",45011,1.4,310,"2305 of 3140"
+"Clarendon County",45027,1.6,536,"2197 of 3140"
+"McCormick County",45065,1.6,155,"2177 of 3140"
+"Fairfield County",45039,1.7,394,"2094 of 3140"
+"Bamberg County",45009,1.7,256,"2090 of 3140"
+"Darlington County",45031,1.8,1193,"2058 of 3140"
+"Williamsburg County",45089,1.8,575,"2041 of 3140"
+"Orangeburg County",45075,2.1,1834,"1894 of 3140"
+"Cherokee County",45021,2.1,1194,"1860 of 3140"
+"Colleton County",45029,2.2,808,"1839 of 3140"
+"Kershaw County",45055,2.2,1374,"1835 of 3140"
+"Laurens County",45059,2.4,1595,"1717 of 3140"
+"Marion County",45067,2.4,770,"1708 of 3140"
+"Georgetown County",45043,2.5,1512,"1680 of 3140"
+"Hampton County",45049,2.6,512,"1647 of 3140"
+"Marlboro County",45069,2.6,712,"1625 of 3140"
+"Florence County",45041,2.7,3780,"1550 of 3140"
+"Anderson County",45007,2.7,5320,"1540 of 3140"
+"Dillon County",45033,2.7,852,"1539 of 3140"
+"Calhoun County",45017,2.8,414,"1517 of 3140"
+"Sumter County",45085,3.3,3495,"1331 of 3140"
+"Chesterfield County",45025,3.3,1527,"1316 of 3140"
+"Pickens County",45077,3.8,4607,"1182 of 3140"
+"Oconee County",45073,3.9,2931,"1163 of 3140"
+"Lancaster County",45057,3.9,3398,"1142 of 3140"
+"Edgefield County",45037,4.0,1054,"1131 of 3140"
+"Greenwood County",45047,4.2,2935,"1061 of 3140"
+"Newberry County",45071,4.4,1668,"1024 of 3140"
+"Aiken County",45003,4.5,7423,"1015 of 3140"
+"Dorchester County",45035,4.7,7070,"976 of 3140"
+"York County",45091,4.9,12448,"933 of 3140"
+"Charleston County",45019,5.0,19220,"930 of 3140"
+"Lexington County",45063,5.2,14650,"887 of 3140"
+"Berkeley County",45015,5.3,10771,"874 of 3140"
+"Richland County",45079,5.6,22557,"814 of 3140"
+"Horry County",45051,6.3,19599,"700 of 3140"
+"Spartanburg County",45083,6.4,19174,"682 of 3140"
+"Greenville County",45045,7.9,38721,"516 of 3140"
+"Jasper County",45053,8.4,2307,"472 of 3140"
+"Beaufort County",45013,8.6,15341,"459 of 3140"
+"Saluda County",45081,9.0,1820,"418 of 3140"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:20 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Foreign born, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

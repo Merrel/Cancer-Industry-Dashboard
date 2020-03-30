@@ -1,0 +1,58 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=32&areatype=county&cancer=001&race=00&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '32', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '0', 'age': '001', 'type': 'death', 'file_name': 'deathrates_033.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=32&areatype=county&cancer=001&race=00&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for Nevada by County
+
+"All Cancer Sites, 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 161.4?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Nevada",32000,No,162.3 ,160.2, 164.4,4934,falling,-1.8 ,-2.0, -1.6
+"United States",00000,Yes,161 ,160.8, 161.1,590623,falling,-1.5 ,-1.6, -1.5
+"Nye County",32023,No,207.8 ,193.3, 223.4,168,stable,0.0 ,-0.7, 0.7
+"Mineral County",32021,No,196.4 ,154, 249.7,16,stable,-0.5 ,-1.8, 0.8
+"Carson City",32510,No,193.3 ,179.4, 208.1,149,falling,-1.1 ,-1.5, -0.6
+"Lyon County",32019,No,184.3 ,169.9, 199.8,132,falling,-1.2 ,-1.9, -0.6
+"Churchill County",32001,No,176.1 ,155.4, 198.9,54,stable,-0.3 ,-1.2, 0.6
+"Humboldt County",32013,No,171.7 ,143.1, 204.3,28,falling,-1.0 ,-1.7, -0.3
+"Washoe County",32031,No,161.7 ,156.5, 167,783,falling,-1.3 ,-1.6, -1.1
+"White Pine County",32033,No,161.7 ,131.5, 197.2,20,stable,-0.5 ,-1.7, 0.8
+"Clark County",32003,Yes,160.9 ,158.4, 163.4,3378,falling,-1.8 ,-1.9, -1.7
+"Lander County",32015,Yes,158.1 ,116.3, 210.2,10,stable,-2.4 ,-4.7, 0.0
+"Elko County",32007,Yes,145.6 ,128.9, 163.8,61,falling,-1.4 ,-2.1, -0.6
+"Douglas County",32005,Yes,126.4 ,115.2, 138.7,103,falling,-1.7 ,-2.2, -1.1
+"Lincoln County",32017,Yes,108.4 ,77.2, 150,9,falling,-2.9 ,-4.0, -1.7
+"Storey County",32029,Yes,104.2 ,71.7, 153.1,8,falling,-2.9 ,-5.4, -0.4
+"Pershing County",32027,Yes,99.1 ,69.3, 138.2,8,falling,-2.9 ,-4.5, -1.3
+"Esmeralda County",32009,***,* ,*, *,3 or fewer,*,*,*,*
+"Eureka County",32011,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:19 pm.
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

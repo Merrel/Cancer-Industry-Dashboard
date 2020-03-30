@@ -1,0 +1,74 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=35&areatype=county&cancer=035&stage=211&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '35', 'areatype': 'county', 'cancer': '035', 'stage': '211', 'race': '00', 'sex': '0', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_048.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=35&areatype=county&cancer=035&stage=211&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for New Mexico by County
+
+"Liver & Bile Duct (Late Stage^), 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Percent of Cases with Late Stage
+"New Mexico(3)",35000,***,3.3 ,3, 3.7,86,32.8
+"US (SEER+NPCR)(1)",00000,***,3.6 ,3.5, 3.6,13676,42.7
+"Valencia County(7)",35061,***,5.4 ,3.4, 8.1,5,40.3
+"Otero County(7)",35035,***,3.7 ,2.1, 6.1,3,36.4
+"Dona Ana County(7)",35013,***,3.5 ,2.5, 4.8,8,36.9
+"Bernalillo County(7)",35001,***,3.4 ,2.8, 4.1,27,32.4
+"San Juan County(7)",35045,***,2.9 ,1.8, 4.5,4,35.0
+"Sandoval County(7)",35043,***,2.8 ,1.8, 4.2,5,31.3
+"Santa Fe County(7)",35049,***,2.6 ,1.7, 3.8,6,32.6
+"Catron County(7)",35003,***,* ,*, *,3 or fewer,*
+"Chaves County(7)",35005,***,* ,*, *,3 or fewer,*
+"Cibola County(7)",35006,***,* ,*, *,3 or fewer,*
+"Colfax County(7)",35007,***,* ,*, *,3 or fewer,*
+"Curry County(7)",35009,***,* ,*, *,3 or fewer,*
+"De Baca County(7)",35011,***,* ,*, *,3 or fewer,*
+"Eddy County(7)",35015,***,* ,*, *,3 or fewer,*
+"Grant County(7)",35017,***,* ,*, *,3 or fewer,*
+"Guadalupe County(7)",35019,***,* ,*, *,3 or fewer,*
+"Harding County(7)",35021,***,* ,*, *,3 or fewer,*
+"Hidalgo County(7)",35023,***,* ,*, *,3 or fewer,*
+"Lea County(7)",35025,***,* ,*, *,3 or fewer,*
+"Lincoln County(7)",35027,***,* ,*, *,3 or fewer,*
+"Los Alamos County(7)",35028,***,* ,*, *,3 or fewer,*
+"Luna County(7)",35029,***,* ,*, *,3 or fewer,*
+"McKinley County(7)",35031,***,* ,*, *,3 or fewer,*
+"Mora County(7)",35033,***,* ,*, *,3 or fewer,*
+"Quay County(7)",35037,***,* ,*, *,3 or fewer,*
+"Rio Arriba County(7)",35039,***,* ,*, *,3 or fewer,*
+"Roosevelt County(7)",35041,***,* ,*, *,3 or fewer,*
+"San Miguel County(7)",35047,***,* ,*, *,3 or fewer,*
+"Sierra County(7)",35051,***,* ,*, *,3 or fewer,*
+"Socorro County(7)",35053,***,* ,*, *,3 or fewer,*
+"Taos County(7)",35055,***,* ,*, *,3 or fewer,*
+"Torrance County(7)",35057,***,* ,*, *,3 or fewer,*
+"Union County(7)",35059,***,* ,*, *,3 or fewer,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:18 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+
+Rates are computed using cancers classified as malignant based on ICD-O-3. For more information see malignant.html.
+
+"^ Late Stage is defined as cases determined to be regional or distant. Coding is generally based on Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ] but may include other staging variables if necessary."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+3 Source: SEER November 2018 submission.  State Cancer Registry also receives funding from CDC's National Program of Cancer Registries.
+7 Source: SEER November 2018 submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

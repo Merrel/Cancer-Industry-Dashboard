@@ -1,0 +1,115 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=05&areatype=county&cancer=001&race=01&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '05', 'areatype': 'county', 'cancer': '001', 'race': '01', 'sex': '0', 'age': '001', 'type': 'death', 'file_name': 'deathrates_023.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=05&areatype=county&cancer=001&race=01&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for Arkansas by County
+
+"All Cancer Sites, 2012-2016"
+
+"White (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 161.4?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Arkansas",05000,No,183.2 ,181.1, 185.4,5732,falling,-0.7 ,-0.8, -0.6
+"United States",00000,No,161.5 ,161.3, 161.7,501895,falling,-1.4 ,-1.4, -1.4
+"Monroe County",05095,No,271 ,218.4, 335.1,20,stable,0.4 ,-0.9, 1.7
+"Calhoun County",05013,No,265.3 ,208.7, 334.7,16,stable,6.5 ,-1.3, 15.0
+"Poinsett County",05111,No,247.4 ,222.3, 274.7,74,stable,-0.1 ,-0.7, 0.5
+"Woodruff County",05147,No,247.4 ,199.3, 305.4,20,stable,-0.3 ,-1.8, 1.1
+"Clay County",05021,No,243.9 ,216, 274.9,57,stable,0.0 ,-0.6, 0.7
+"Cross County",05037,No,237.3 ,206, 272.4,43,stable,-0.2 ,-0.9, 0.6
+"Jackson County",05067,No,234.3 ,204.7, 267.4,47,stable,0.7 ,-0.1, 1.5
+"Crittenden County",05035,No,221 ,197.5, 246.6,67,stable,-0.3 ,-1.1, 0.4
+"Phillips County",05107,No,217.8 ,179.8, 262.9,26,falling,-1.1 ,-1.8, -0.4
+"Scott County",05127,No,213 ,179.6, 251.4,30,stable,-0.4 ,-1.4, 0.7
+"Lee County",05077,No,212 ,163.3, 273,14,stable,-0.6 ,-1.7, 0.5
+"Mississippi County",05093,No,210.8 ,189.5, 233.9,74,stable,-0.3 ,-0.9, 0.3
+"Miller County",05091,No,210.1 ,190.3, 231.4,86,stable,-0.4 ,-1.0, 0.3
+"Dallas County",05039,No,210 ,163.9, 267.6,16,stable,0.0 ,-1.2, 1.2
+"Union County",05139,No,207.2 ,186.9, 229.3,80,stable,-0.5 ,-1.0, 0.1
+"Logan County",05083,No,206.7 ,183.7, 232.2,61,stable,-0.3 ,-0.9, 0.3
+"Lawrence County",05075,No,206.3 ,181.1, 234.4,49,stable,-0.1 ,-0.9, 0.7
+"Yell County",05149,No,203.9 ,180.1, 230.1,54,falling,-1.0 ,-1.6, -0.4
+"Nevada County",05099,No,203 ,160.2, 254.8,17,stable,-1.1 ,-2.1, 0.0
+"Grant County",05053,No,202.6 ,176.5, 231.9,45,stable,0.1 ,-0.7, 1.0
+"Marion County",05089,No,202.3 ,178.4, 229.2,60,stable,-0.5 ,-1.2, 0.1
+"Bradley County",05011,No,201.4 ,166, 243,24,stable,-0.6 ,-1.8, 0.6
+"Sharp County",05135,No,199.7 ,176, 226.4,57,stable,0.0 ,-0.7, 0.7
+"White County",05145,No,199.5 ,186.3, 213.4,173,falling,-1.0 ,-1.3, -0.6
+"Searcy County",05129,No,198.6 ,165.7, 237.6,27,falling,-0.8 ,-1.4, -0.2
+"Randolph County",05121,No,198.3 ,173.9, 225.6,50,stable,-0.1 ,-0.9, 0.8
+"Franklin County",05047,No,197.4 ,172.9, 224.8,48,stable,-0.4 ,-1.1, 0.4
+"Polk County",05113,No,196.6 ,173.9, 221.7,59,falling,-0.7 ,-1.4, -0.1
+"Prairie County",05117,No,195.9 ,159.5, 239.4,22,stable,-0.5 ,-1.8, 0.8
+"Chicot County",05017,No,195.8 ,155.5, 246,18,stable,-0.6 ,-2.1, 0.8
+"Lonoke County",05085,No,195.2 ,180.1, 211.3,127,stable,-0.6 ,-1.2, 0.0
+"Jefferson County",05069,No,195.2 ,177.6, 214.3,96,falling,-0.7 ,-1.2, -0.2
+"Crawford County",05033,No,194.3 ,179.8, 209.7,137,falling,-0.9 ,-1.3, -0.5
+"Arkansas County",05001,No,192.6 ,165.9, 222.9,39,stable,-0.4 ,-1.2, 0.3
+"Lincoln County",05079,No,190.9 ,157.3, 230,23,stable,0.2 ,-0.5, 1.0
+"Madison County",05087,No,189.8 ,163.5, 219.4,39,stable,-0.5 ,-1.3, 0.2
+"Pope County",05115,No,189.7 ,175.1, 205.2,129,stable,-0.6 ,-1.1, 0.0
+"Cleburne County",05023,No,189.2 ,171, 209.1,86,stable,0.0 ,-0.6, 0.6
+"Greene County",05055,No,188.5 ,171.8, 206.4,95,stable,-0.2 ,-0.9, 0.5
+"Howard County",05061,No,188 ,157.2, 223.6,27,falling,-4.4 ,-7.9, -0.7
+"St. Francis County",05123,No,187.3 ,159.7, 219.1,34,stable,-0.8 ,-1.8, 0.2
+"Perry County",05105,No,187.1 ,155.8, 223.5,26,stable,0.2 ,-0.7, 1.0
+"Ashley County",05003,No,187.1 ,161.9, 215.4,41,falling,-1.2 ,-2.0, -0.3
+"Hot Spring County",05059,No,186.8 ,168.1, 207.3,75,stable,-0.5 ,-1.0, 0.1
+"Sebastian County",05131,No,186.8 ,176.3, 197.8,244,falling,-0.7 ,-1.1, -0.3
+"Baxter County",05005,No,185.1 ,171, 200.4,150,falling,-0.6 ,-1.0, -0.3
+"Boone County",05009,No,184.6 ,168, 202.6,96,falling,-0.6 ,-1.1, -0.1
+"Ouachita County",05103,No,184.5 ,159.9, 212.5,43,stable,-0.1 ,-0.9, 0.7
+"Independence County",05063,No,184.1 ,166.6, 203,84,falling,-0.8 ,-1.4, -0.1
+"Conway County",05029,No,180.6 ,157.9, 206,47,stable,-0.6 ,-1.3, 0.0
+"Newton County",05101,No,180.4 ,146.1, 221.3,23,stable,-0.5 ,-1.5, 0.5
+"Craighead County",05031,No,179.6 ,167.9, 192.1,177,falling,-0.7 ,-1.1, -0.3
+"Stone County",05137,No,179.4 ,153.1, 209.7,37,falling,-1.4 ,-2.3, -0.5
+"Pike County",05109,No,179.4 ,150, 213.5,27,stable,-0.3 ,-1.5, 0.9
+"Garland County",05051,No,179.2 ,169.2, 189.6,263,falling,-0.7 ,-1.2, -0.2
+"Lafayette County",05073,No,176.1 ,134.2, 229.7,13,stable,-0.4 ,-1.9, 1.1
+"Desha County",05041,No,176.1 ,139.8, 220.4,17,falling,-1.4 ,-2.3, -0.5
+"Columbia County",05027,No,176 ,151.2, 204.2,38,stable,-0.5 ,-1.3, 0.2
+"Sevier County",05133,No,175.4 ,148, 206.6,29,falling,-1.2 ,-2.1, -0.2
+"Drew County",05043,No,175.2 ,148.4, 206,31,stable,-0.6 ,-1.5, 0.3
+"Fulton County",05049,No,174.3 ,149.7, 202.9,37,stable,-0.4 ,-1.4, 0.6
+"Saline County",05125,No,173.9 ,163.8, 184.4,233,falling,-0.6 ,-0.9, -0.2
+"Johnson County",05071,No,173.7 ,152.9, 196.7,52,stable,-0.2 ,-0.9, 0.6
+"Izard County",05065,No,171.1 ,147.4, 198.3,40,falling,-1.3 ,-2.2, -0.3
+"Clark County",05019,No,171 ,146.7, 198.5,37,stable,-0.7 ,-1.4, 0.1
+"Faulkner County",05045,No,170.8 ,159.3, 182.8,171,falling,-0.7 ,-1.1, -0.3
+"Washington County",05143,No,168.7 ,160.2, 177.5,309,falling,-1.8 ,-2.5, -1.1
+"Van Buren County",05141,No,168.1 ,147, 192,49,falling,-1.1 ,-1.8, -0.4
+"Benton County",05007,No,164.7 ,157.5, 172.2,395,falling,-0.6 ,-0.9, -0.4
+"Cleveland County",05025,No,163 ,129.6, 203.5,17,stable,-1.4 ,-2.8, 0.0
+"Pulaski County",05119,No,162.5 ,156.2, 169.1,516,falling,-1.4 ,-1.6, -1.1
+"Carroll County",05015,No,162 ,144.5, 181.3,67,falling,-1.2 ,-1.9, -0.6
+"Montgomery County",05097,Yes,159.4 ,130.6, 194,25,stable,-0.3 ,-1.3, 0.7
+"Little River County",05081,Yes,157.8 ,130, 190.7,23,stable,-1.1 ,-2.1, 0.0
+"Hempstead County",05057,Yes,156.6 ,133, 183.5,33,falling,-1.1 ,-1.8, -0.4
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:17 pm.
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

@@ -1,0 +1,86 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=45&areatype=county&cancer=001&race=00&sex=2&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '45', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '2', 'age': '001', 'type': 'death', 'file_name': 'deathrates_032.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=45&areatype=county&cancer=001&race=00&sex=2&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for South Carolina by County
+
+"All Cancer Sites, 2012-2016"
+
+"All Races (includes Hispanic), Female, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 161.4?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"South Carolina",45000,Yes,141.4 ,139.5, 143.3,4526,falling,-1.1 ,-1.3, -0.9
+"United States",00000,Yes,137.7 ,137.4, 137.9,280047,falling,-1.4 ,-1.5, -1.4
+"Union County",45087,No,175.6 ,151, 203.5,39,stable,0.0 ,-0.8, 0.7
+"Lee County",45061,No,172.8 ,140.7, 210.8,22,stable,0.9 ,-0.4, 2.3
+"Williamsburg County",45089,No,171.6 ,147.9, 198.2,42,stable,0.6 ,-0.4, 1.6
+"Marlboro County",45069,No,171.3 ,145.3, 201.2,32,stable,0.4 ,-0.8, 1.6
+"Colleton County",45029,No,169.1 ,147.7, 193.1,47,stable,0.0 ,-0.8, 0.8
+"Barnwell County",45011,No,168.9 ,140.5, 201.9,26,stable,-0.2 ,-1.3, 0.9
+"Chester County",45023,No,168.3 ,145.2, 194.3,40,stable,-0.4 ,-1.3, 0.5
+"Allendale County",45005,No,165.9 ,122.9, 220.8,11,stable,-1.4 ,-2.9, 0.1
+"Kershaw County",45055,No,163.7 ,147, 181.9,73,stable,-0.5 ,-1.2, 0.2
+"McCormick County",45065,No,162.9 ,122.2, 216.9,14,stable,-1.6 ,-3.1, 0.0
+"Dillon County",45033,No,161.5 ,137.3, 189,33,stable,-0.7 ,-1.8, 0.4
+"Hampton County",45049,Yes,159.1 ,130.2, 193.3,22,stable,-0.7 ,-1.9, 0.5
+"Darlington County",45031,Yes,158.2 ,142.5, 175.4,78,falling,-0.5 ,-1.0, -0.1
+"Newberry County",45071,Yes,154.9 ,134.3, 178.1,43,stable,-0.4 ,-0.9, 0.2
+"Abbeville County",45001,Yes,154 ,129.6, 182.4,30,stable,-0.2 ,-1.2, 0.8
+"Richland County",45079,Yes,153.4 ,145.9, 161.3,322,stable,-3.6 ,-8.4, 1.4
+"Laurens County",45059,Yes,153 ,137.1, 170.3,73,stable,-0.3 ,-0.8, 0.3
+"Chesterfield County",45025,Yes,152.8 ,133.6, 174.1,48,stable,-0.5 ,-1.3, 0.3
+"Orangeburg County",45075,Yes,150.8 ,137.2, 165.4,98,falling,-0.6 ,-1.2, -0.1
+"York County",45091,Yes,149.9 ,140.9, 159.4,213,falling,-0.6 ,-1.1, -0.2
+"Fairfield County",45039,Yes,149.9 ,124.7, 179.3,27,falling,-1.5 ,-2.7, -0.3
+"Marion County",45067,Yes,147 ,125.3, 171.8,36,stable,-0.8 ,-1.5, 0.0
+"Aiken County",45003,Yes,146.4 ,136.5, 156.9,171,falling,-0.8 ,-1.3, -0.2
+"Horry County",45051,Yes,146.1 ,138.8, 153.7,329,falling,-0.6 ,-1.0, -0.2
+"Jasper County",45053,Yes,145.9 ,119.6, 176.5,24,stable,-0.3 ,-1.5, 0.9
+"Spartanburg County",45083,Yes,145.5 ,137.8, 153.5,277,falling,-0.8 ,-1.2, -0.4
+"Cherokee County",45021,Yes,144.9 ,127.9, 163.7,54,stable,-0.4 ,-1.4, 0.6
+"Oconee County",45073,Yes,142.9 ,129.2, 157.9,86,falling,-1.1 ,-1.9, -0.3
+"Sumter County",45085,Yes,142.1 ,129.7, 155.4,100,falling,-0.7 ,-1.4, -0.1
+"Florence County",45041,Yes,141.8 ,130.9, 153.4,130,falling,-0.9 ,-1.4, -0.4
+"Berkeley County",45015,Yes,141 ,130.6, 152.1,144,falling,-1.4 ,-1.8, -1.0
+"Dorchester County",45035,Yes,140 ,128.2, 152.5,110,falling,-1.2 ,-1.9, -0.4
+"Clarendon County",45027,Yes,137.5 ,117.1, 160.9,36,falling,-1.4 ,-2.3, -0.5
+"Georgetown County",45043,Yes,137.2 ,122.8, 153.2,74,stable,-0.5 ,-1.0, 0.1
+"Bamberg County",45009,Yes,136 ,106.3, 172.6,16,stable,-0.5 ,-1.9, 1.0
+"Greenwood County",45047,Yes,136 ,121.5, 151.8,68,falling,-1.2 ,-1.8, -0.6
+"Saluda County",45081,Yes,134.9 ,109.6, 165,21,stable,-0.6 ,-1.7, 0.5
+"Edgefield County",45037,Yes,134.8 ,111.6, 162,25,stable,-1.2 ,-2.4, 0.0
+"Lancaster County",45057,Yes,134.6 ,121.5, 149,82,falling,-0.8 ,-1.3, -0.3
+"Anderson County",45007,Yes,134 ,125.3, 143.2,182,stable,2.6 ,-6.2, 12.3
+"Greenville County",45045,Yes,133.8 ,127.9, 139.9,403,falling,-0.8 ,-1.2, -0.4
+"Charleston County",45019,Yes,132.7 ,126.1, 139.5,321,falling,-1.0 ,-1.4, -0.7
+"Pickens County",45077,Yes,132.7 ,121.1, 145.1,101,falling,-1.0 ,-1.5, -0.5
+"Lexington County",45063,Yes,129.4 ,121.7, 137.4,222,falling,-1.1 ,-1.6, -0.6
+"Calhoun County",45017,Yes,123.7 ,96.8, 157.1,15,stable,0.0 ,-1.7, 1.8
+"Beaufort County",45013,Yes,115.5 ,107.3, 124.2,168,falling,-1.9 ,-2.4, -1.4
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:21 pm.
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

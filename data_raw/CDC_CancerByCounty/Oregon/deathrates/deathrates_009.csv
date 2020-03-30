@@ -1,0 +1,78 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=41&areatype=county&cancer=072&race=00&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '41', 'areatype': 'county', 'cancer': '072', 'race': '00', 'sex': '0', 'age': '001', 'type': 'death', 'file_name': 'deathrates_009.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=41&areatype=county&cancer=072&race=00&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for Oregon by County
+
+"Kidney & Renal Pelvis, 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Oregon",41000,***,3.7 ,3.5, 4,182,falling,-0.5 ,-0.9, -0.2
+"United States",00000,***,3.8 ,3.7, 3.8,13926,falling,-0.9 ,-1.1, -0.7
+"Wasco County",41065,***,9.4 ,5.5, 15.4,4,*,*,*,*
+"Umatilla County",41059,***,6 ,3.8, 8.9,5,stable,0.7 ,-2.0, 3.4
+"Coos County",41011,***,5.5 ,3.6, 8.3,6,stable,1.2 ,-0.5, 3.0
+"Josephine County",41033,***,4.4 ,2.9, 6.5,6,stable,0.4 ,-1.9, 2.8
+"Jackson County",41029,***,4.3 ,3.3, 5.6,13,stable,0.4 ,-1.1, 1.9
+"Linn County",41043,***,4.1 ,2.8, 5.9,7,stable,0.0 ,-2.4, 2.3
+"Benton County",41003,***,4.1 ,2.4, 6.5,4,*,*,*,*
+"Douglas County",41019,***,4 ,2.8, 5.7,8,stable,-1.3 ,-3.4, 0.9
+"Multnomah County",41051,***,3.5 ,2.9, 4.1,26,falling,-1.0 ,-1.9, -0.1
+"Marion County",41047,***,3.4 ,2.6, 4.4,13,stable,-0.9 ,-2.3, 0.4
+"Deschutes County",41017,***,3.4 ,2.3, 4.7,7,stable,-1.3 ,-3.1, 0.7
+"Klamath County",41035,***,3.3 ,1.9, 5.6,3,stable,-1.2 ,-3.9, 1.6
+"Lane County",41039,***,3.3 ,2.6, 4.2,16,stable,-1.1 ,-2.4, 0.3
+"Yamhill County",41071,***,3.2 ,2, 5.1,4,*,*,*,*
+"Washington County",41067,***,3.1 ,2.4, 3.8,17,stable,-0.7 ,-1.8, 0.5
+"Clackamas County",41005,***,3 ,2.3, 3.8,15,stable,-0.9 ,-2.6, 0.8
+"Baker County",41001,***,* ,*, *,3 or fewer,*,*,*,*
+"Clatsop County",41007,***,* ,*, *,3 or fewer,*,*,*,*
+"Columbia County",41009,***,* ,*, *,3 or fewer,*,*,*,*
+"Crook County",41013,***,* ,*, *,3 or fewer,*,*,*,*
+"Curry County",41015,***,* ,*, *,3 or fewer,*,*,*,*
+"Gilliam County",41021,***,* ,*, *,3 or fewer,*,*,*,*
+"Grant County",41023,***,* ,*, *,3 or fewer,*,*,*,*
+"Harney County",41025,***,* ,*, *,3 or fewer,*,*,*,*
+"Hood River County",41027,***,* ,*, *,3 or fewer,*,*,*,*
+"Jefferson County",41031,***,* ,*, *,3 or fewer,*,*,*,*
+"Lake County",41037,***,* ,*, *,3 or fewer,*,*,*,*
+"Lincoln County",41041,***,* ,*, *,3 or fewer,*,*,*,*
+"Malheur County",41045,***,* ,*, *,3 or fewer,*,*,*,*
+"Morrow County",41049,***,* ,*, *,3 or fewer,*,*,*,*
+"Polk County",41053,***,* ,*, *,3 or fewer,*,*,*,*
+"Sherman County",41055,***,* ,*, *,3 or fewer,*,*,*,*
+"Tillamook County",41057,***,* ,*, *,3 or fewer,*,*,*,*
+"Union County",41061,***,* ,*, *,3 or fewer,*,*,*,*
+"Wallowa County",41063,***,* ,*, *,3 or fewer,*,*,*,*
+"Wheeler County",41069,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 4:59 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

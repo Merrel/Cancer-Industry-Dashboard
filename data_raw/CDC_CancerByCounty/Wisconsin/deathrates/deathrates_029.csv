@@ -1,0 +1,114 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=55&areatype=county&cancer=001&race=04&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '55', 'areatype': 'county', 'cancer': '001', 'race': '04', 'sex': '0', 'age': '001', 'type': 'death', 'file_name': 'deathrates_029.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=55&areatype=county&cancer=001&race=04&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for Wisconsin by County
+
+"All Cancer Sites, 2012-2016"
+
+"Asian or Pacific Islander (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 161.4?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Wisconsin",55000,Yes,115.3 ,104, 127.3,87,stable,-0.9 ,-1.7, 0.0
+"United States",00000,Yes,100 ,99.3, 100.7,16633,falling,-1.4 ,-1.4, -1.3
+"Winnebago County",55139,Yes,140.9 ,77, 232.9,3,*,*,*,*
+"Milwaukee County",55079,Yes,133 ,110.3, 158.6,26,rising,6.9 ,2.9, 11.0
+"Brown County",55009,Yes,130.6 ,78.1, 201.5,5,*,*,*,*
+"Outagamie County",55087,Yes,127.5 ,71.1, 206.1,4,*,*,*,*
+"Dane County",55025,Yes,118.5 ,89.1, 153.1,13,stable,-0.8 ,-2.7, 1.1
+"Marathon County",55073,Yes,112.2 ,63.3, 180.2,4,*,*,*,*
+"Waukesha County",55133,Yes,106.9 ,73.5, 148.5,8,*,*,*,*
+"Adams County",55001,***,* ,*, *,3 or fewer,*,*,*,*
+"Ashland County",55003,***,* ,*, *,3 or fewer,*,*,*,*
+"Barron County",55005,***,* ,*, *,3 or fewer,*,*,*,*
+"Bayfield County",55007,***,* ,*, *,3 or fewer,*,*,*,*
+"Buffalo County",55011,***,* ,*, *,3 or fewer,*,*,*,*
+"Burnett County",55013,***,* ,*, *,3 or fewer,*,*,*,*
+"Calumet County",55015,***,* ,*, *,3 or fewer,*,*,*,*
+"Chippewa County",55017,***,* ,*, *,3 or fewer,*,*,*,*
+"Clark County",55019,***,* ,*, *,3 or fewer,*,*,*,*
+"Columbia County",55021,***,* ,*, *,3 or fewer,*,*,*,*
+"Crawford County",55023,***,* ,*, *,3 or fewer,*,*,*,*
+"Dodge County",55027,***,* ,*, *,3 or fewer,*,*,*,*
+"Door County",55029,***,* ,*, *,3 or fewer,*,*,*,*
+"Douglas County",55031,***,* ,*, *,3 or fewer,*,*,*,*
+"Dunn County",55033,***,* ,*, *,3 or fewer,*,*,*,*
+"Eau Claire County",55035,***,* ,*, *,3 or fewer,*,*,*,*
+"Florence County",55037,***,* ,*, *,3 or fewer,*,*,*,*
+"Fond du Lac County",55039,***,* ,*, *,3 or fewer,*,*,*,*
+"Forest County",55041,***,* ,*, *,3 or fewer,*,*,*,*
+"Grant County",55043,***,* ,*, *,3 or fewer,*,*,*,*
+"Green County",55045,***,* ,*, *,3 or fewer,*,*,*,*
+"Green Lake County",55047,***,* ,*, *,3 or fewer,*,*,*,*
+"Iowa County",55049,***,* ,*, *,3 or fewer,*,*,*,*
+"Iron County",55051,***,* ,*, *,3 or fewer,*,*,*,*
+"Jackson County",55053,***,* ,*, *,3 or fewer,*,*,*,*
+"Jefferson County",55055,***,* ,*, *,3 or fewer,*,*,*,*
+"Juneau County",55057,***,* ,*, *,3 or fewer,*,*,*,*
+"Kenosha County",55059,***,* ,*, *,3 or fewer,*,*,*,*
+"Kewaunee County",55061,***,* ,*, *,3 or fewer,*,*,*,*
+"La Crosse County",55063,***,* ,*, *,3 or fewer,*,*,*,*
+"Lafayette County",55065,***,* ,*, *,3 or fewer,*,*,*,*
+"Langlade County",55067,***,* ,*, *,3 or fewer,*,*,*,*
+"Lincoln County",55069,***,* ,*, *,3 or fewer,*,*,*,*
+"Manitowoc County",55071,***,* ,*, *,3 or fewer,*,*,*,*
+"Marinette County",55075,***,* ,*, *,3 or fewer,*,*,*,*
+"Marquette County",55077,***,* ,*, *,3 or fewer,*,*,*,*
+"Menominee County",55078,***,* ,*, *,3 or fewer,*,*,*,*
+"Monroe County",55081,***,* ,*, *,3 or fewer,*,*,*,*
+"Oconto County",55083,***,* ,*, *,3 or fewer,*,*,*,*
+"Oneida County",55085,***,* ,*, *,3 or fewer,*,*,*,*
+"Ozaukee County",55089,***,* ,*, *,3 or fewer,*,*,*,*
+"Pepin County",55091,***,* ,*, *,3 or fewer,*,*,*,*
+"Pierce County",55093,***,* ,*, *,3 or fewer,*,*,*,*
+"Polk County",55095,***,* ,*, *,3 or fewer,*,*,*,*
+"Portage County",55097,***,* ,*, *,3 or fewer,*,*,*,*
+"Price County",55099,***,* ,*, *,3 or fewer,*,*,*,*
+"Racine County",55101,***,* ,*, *,3 or fewer,*,*,*,*
+"Richland County",55103,***,* ,*, *,3 or fewer,*,*,*,*
+"Rock County",55105,***,* ,*, *,3 or fewer,*,*,*,*
+"Rusk County",55107,***,* ,*, *,3 or fewer,*,*,*,*
+"Sauk County",55111,***,* ,*, *,3 or fewer,*,*,*,*
+"Sawyer County",55113,***,* ,*, *,3 or fewer,*,*,*,*
+"Shawano County",55115,***,* ,*, *,3 or fewer,*,*,*,*
+"Sheboygan County",55117,***,* ,*, *,3 or fewer,*,*,*,*
+"St. Croix County",55109,***,* ,*, *,3 or fewer,*,*,*,*
+"Taylor County",55119,***,* ,*, *,3 or fewer,*,*,*,*
+"Trempealeau County",55121,***,* ,*, *,3 or fewer,*,*,*,*
+"Vernon County",55123,***,* ,*, *,3 or fewer,*,*,*,*
+"Vilas County",55125,***,* ,*, *,3 or fewer,*,*,*,*
+"Walworth County",55127,***,* ,*, *,3 or fewer,*,*,*,*
+"Washburn County",55129,***,* ,*, *,3 or fewer,*,*,*,*
+"Washington County",55131,***,* ,*, *,3 or fewer,*,*,*,*
+"Waupaca County",55135,***,* ,*, *,3 or fewer,*,*,*,*
+"Waushara County",55137,***,* ,*, *,3 or fewer,*,*,*,*
+"Wood County",55141,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:22 pm.
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+ Statistics for minorities may be affected by inconsistent race identification between the cancer case reports (sources for numerator of rate) and data from the Census Bureau (source for denominator of rate); and from undercounts of some population groups in the census.
+Data for United States does not include Puerto Rico.

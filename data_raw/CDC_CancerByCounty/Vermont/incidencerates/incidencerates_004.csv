@@ -1,0 +1,55 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=50&areatype=county&cancer=400&race=00&sex=2&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '50', 'areatype': 'county', 'cancer': '400', 'race': '00', 'sex': '2', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_004.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=50&areatype=county&cancer=400&race=00&sex=2&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Vermont by County
+
+"Breast (in situ) (All Stages^), 2012-2016"
+
+"All Races (includes Hispanic), Female, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Vermont(6,10)",50000,***,29.6 ,27.2, 32.2,122,stable,-5.5 ,-15.0, 5.2
+"US (SEER+NPCR)(1,10)",00000,***,30.1 ,30, 30.2,56702,stable,-2.0 ,-4.2, 0.3
+"Washington County(6,10)",50023,***,39.9 ,31, 50.8,15,stable,-5.5 ,-33.7, 34.8
+"Lamoille County(6,10)",50015,***,37.7 ,25.1, 54.8,6,stable,-15.8 ,-38.7, 15.7
+"Orange County(6,10)",50017,***,37.5 ,25.7, 53.4,7,stable,-19.8 ,-58.0, 53.2
+"Chittenden County(6,10)",50007,***,32.6 ,27.3, 38.5,29,stable,-6.4 ,-26.6, 19.5
+"Windsor County(6,10)",50027,***,30.2 ,22.8, 39.6,12,stable,-5.0 ,-19.0, 11.4
+"Rutland County(6,10)",50021,***,29.9 ,22.4, 39.3,13,stable,9.2 ,-14.8, 39.9
+"Bennington County(6,10)",50003,***,28.1 ,19.3, 39.9,8,stable,4.1 ,-25.1, 44.6
+"Addison County(6,10)",50001,***,27.9 ,19.4, 39.4,7,stable,-11.1 ,-37.4, 26.2
+"Windham County(6,10)",50025,***,26.3 ,18.5, 36.5,9,stable,2.7 ,-34.8, 61.8
+"Franklin County(6,10)",50011,***,22.2 ,15.1, 31.6,7,stable,-4.5 ,-36.0, 42.4
+"Caledonia County(6,10)",50005,***,19.9 ,11.5, 32.3,4,stable,-30.4 ,-59.8, 20.4
+"Orleans County(6,10)",50019,***,15.7 ,8.8, 26.7,3,stable,-9.9 ,-43.2, 42.8
+"Essex County(6,10)",50009,***,* ,*, *,3 or fewer,*,*,*,*
+"Grand Isle County(6,10)",50013,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:20 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

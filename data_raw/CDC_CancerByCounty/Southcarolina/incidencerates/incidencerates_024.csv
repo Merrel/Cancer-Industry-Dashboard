@@ -1,0 +1,86 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=45&areatype=county&cancer=001&race=01&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '45', 'areatype': 'county', 'cancer': '001', 'race': '01', 'sex': '0', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_024.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=45&areatype=county&cancer=001&race=01&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for South Carolina by County
+
+"All Cancer Sites (All Stages^), 2012-2016"
+
+"White (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"South Carolina(6,10)",45000,***,458.8 ,455.9, 461.7,20115,stable,-0.7 ,-2.4, 1.1
+"US (SEER+NPCR)(1,10)",00000,***,450.1 ,449.8, 450.5,1370927,stable,-0.9 ,-1.8, 0.0
+"Union County(6,10)",45087,***,512.2 ,474.3, 552.7,145,stable,4.4 ,-9.0, 19.8
+"Chester County(6,10)",45023,***,502.8 ,465.4, 542.7,145,stable,-1.9 ,-8.7, 5.4
+"Marlboro County(6,10)",45069,***,493 ,445.5, 544.7,85,stable,-5.4 ,-19.1, 10.5
+"Sumter County(6,10)",45085,***,490.8 ,466.6, 515.9,321,stable,-1.8 ,-5.8, 2.3
+"Colleton County(6,10)",45029,***,489.6 ,455, 526.4,160,stable,0.4 ,-3.9, 4.9
+"Berkeley County(6,10)",45015,***,486.8 ,470.4, 503.8,718,stable,-3.6 ,-9.5, 2.7
+"Williamsburg County(6,10)",45089,***,486.1 ,437.1, 539.8,81,stable,-3.1 ,-11.8, 6.6
+"Lee County(6,10)",45061,***,484.8 ,421.3, 556.6,47,stable,-4.5 ,-18.6, 12.1
+"Pickens County(6,10)",45077,***,479.1 ,461.9, 496.8,621,stable,-1.6 ,-6.0, 3.1
+"Spartanburg County(6,10)",45083,***,478.9 ,467.2, 490.8,1339,stable,0.3 ,-4.7, 5.5
+"Dorchester County(6,10)",45035,***,478.3 ,460.1, 497,553,stable,-3.3 ,-7.2, 0.8
+"Laurens County(6,10)",45059,***,476.3 ,452.1, 501.6,310,stable,2.3 ,-4.2, 9.3
+"Florence County(6,10)",45041,***,470.4 ,451.2, 490.3,478,stable,-1.6 ,-4.9, 1.8
+"Anderson County(6,10)",45007,***,470.3 ,456.8, 484,978,stable,-0.8 ,-5.7, 4.3
+"Greenville County(6,10)",45045,***,470.1 ,461.1, 479.3,2135,stable,-0.5 ,-1.6, 0.6
+"Cherokee County(6,10)",45021,***,469.2 ,443.5, 496.1,262,stable,-3.7 ,-9.4, 2.3
+"Clarendon County(6,10)",45027,***,466.9 ,428.3, 508.4,130,falling,-7.2 ,-10.8, -3.5
+"Darlington County(6,10)",45031,***,466.4 ,440.3, 493.8,258,stable,-2.1 ,-12.2, 9.2
+"York County(6,10)",45091,***,466.4 ,453.4, 479.7,1026,stable,2.2 ,-1.7, 6.3
+"Dillon County(6,10)",45033,***,464.8 ,423.2, 509.7,99,stable,-0.5 ,-10.5, 10.6
+"Georgetown County(6,10)",45043,***,463.8 ,439.1, 489.7,334,stable,0.1 ,-7.0, 7.7
+"Charleston County(6,10)",45019,***,463.3 ,452.4, 474.5,1436,falling,-2.7 ,-4.0, -1.3
+"Horry County(6,10)",45051,***,463.2 ,453, 473.6,1788,stable,-1.9 ,-7.8, 4.3
+"Jasper County(6,10)",45053,***,462.9 ,418.6, 510.9,88,stable,-0.8 ,-12.7, 12.7
+"Marion County(6,10)",45067,***,461.2 ,418.5, 507.6,96,stable,1.3 ,-6.0, 9.1
+"Kershaw County(6,10)",45055,***,454.7 ,430.3, 480.2,278,stable,-2.1 ,-10.6, 7.1
+"Calhoun County(6,10)",45017,***,452.1 ,398.5, 511.8,58,stable,-5.2 ,-17.5, 8.9
+"Lexington County(6,10)",45063,***,451.5 ,440.1, 463.1,1258,stable,3.6 ,-0.8, 8.3
+"Lancaster County(6,10)",45057,***,451 ,430.9, 471.9,416,stable,0.8 ,-7.7, 10.1
+"Chesterfield County(6,10)",45025,***,448.5 ,419.1, 479.6,184,stable,1.0 ,-7.1, 9.7
+"Oconee County(6,10)",45073,***,448.2 ,429.1, 468,468,stable,2.2 ,-2.8, 7.4
+"McCormick County(6,10)",45065,***,447.2 ,381.5, 526.8,53,stable,5.8 ,-6.1, 19.2
+"Greenwood County(6,10)",45047,***,445.6 ,421.8, 470.5,283,stable,-2.3 ,-8.9, 4.6
+"Orangeburg County(6,10)",45075,***,443.1 ,415.7, 472.1,224,stable,-2.7 ,-6.5, 1.2
+"Richland County(6,10)",45079,***,440.3 ,427.5, 453.5,933,stable,-0.1 ,-5.5, 5.6
+"Fairfield County(6,10)",45039,***,433.7 ,385.3, 487.9,69,stable,1.8 ,-10.9, 16.4
+"Barnwell County(6,10)",45011,***,429.5 ,384.2, 479.1,72,stable,1.2 ,-12.3, 16.7
+"Hampton County(6,10)",45049,***,424.8 ,373.2, 482.1,53,stable,-1.2 ,-10.6, 9.2
+"Bamberg County(6,10)",45009,***,423.8 ,361.8, 494.9,39,stable,4.8 ,-10.9, 23.3
+"Abbeville County(6,10)",45001,***,421.3 ,384.3, 461.3,106,stable,1.3 ,-9.9, 13.9
+"Saluda County(6,10)",45081,***,415.7 ,374.6, 460.4,81,stable,10.0 ,-10.6, 35.3
+"Newberry County(6,10)",45071,***,414.5 ,384.3, 446.7,153,stable,2.4 ,-8.2, 14.2
+"Aiken County(6,10)",45003,***,409.9 ,395.7, 424.5,686,stable,-1.1 ,-3.8, 1.6
+"Beaufort County(6,10)",45013,***,405.2 ,392.5, 418.3,943,falling,-3.1 ,-5.1, -1.1
+"Edgefield County(6,10)",45037,***,382.1 ,345.7, 421.7,87,stable,2.8 ,-14.1, 23.2
+"Allendale County(6,10)",45005,***,380.1 ,297.4, 485.2,16,stable,14.9 ,-14.1, 53.7
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:21 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

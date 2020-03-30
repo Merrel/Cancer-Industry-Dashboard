@@ -1,0 +1,132 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=18&areatype=county&cancer=001&race=00&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '18', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '0', 'age': '001', 'type': 'death', 'file_name': 'deathrates_030.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=18&areatype=county&cancer=001&race=00&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for Indiana by County
+
+"All Cancer Sites, 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 161.4?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Indiana",18000,No,178.4 ,177, 179.8,13416,falling,-1.3 ,-1.4, -1.2
+"United States",00000,Yes,161 ,160.8, 161.1,590623,falling,-1.5 ,-1.6, -1.5
+"Martin County",18101,No,225.9 ,191.5, 265.4,31,stable,-0.5 ,-1.5, 0.6
+"Starke County",18149,No,220.5 ,196.9, 246.3,66,stable,-0.1 ,-0.8, 0.6
+"Jackson County",18071,No,214.7 ,197.2, 233.3,114,stable,0.0 ,-0.5, 0.4
+"Scott County",18143,No,214.4 ,190.5, 240.7,61,stable,-0.7 ,-1.6, 0.3
+"Perry County",18123,No,213.3 ,188.2, 241.1,54,stable,-0.1 ,-1.0, 0.8
+"Jay County",18075,No,212.8 ,188.5, 239.5,57,stable,0.2 ,-0.5, 1.0
+"Clay County",18021,No,212.1 ,190.6, 235.6,73,stable,-0.5 ,-1.2, 0.2
+"Orange County",18117,No,210.6 ,185.9, 237.9,55,stable,-0.2 ,-0.9, 0.5
+"Sullivan County",18153,No,207.7 ,183.3, 234.7,54,stable,-0.4 ,-1.1, 0.2
+"Fountain County",18045,No,203.2 ,177.8, 231.5,48,stable,-0.5 ,-1.2, 0.2
+"Grant County",18053,No,202.7 ,189.6, 216.6,185,stable,-0.4 ,-0.8, 0.0
+"Washington County",18175,No,200.9 ,179.7, 224.1,68,stable,-0.5 ,-1.0, 0.0
+"Jennings County",18079,No,199.8 ,177.7, 223.9,63,falling,-0.8 ,-1.5, -0.1
+"Owen County",18119,No,198.8 ,175.5, 224.6,56,stable,0.2 ,-0.6, 1.0
+"Jasper County",18073,No,196.9 ,177.8, 217.7,80,stable,-0.7 ,-1.3, 0.0
+"Fayette County",18041,No,196.1 ,174.7, 219.6,64,falling,-0.8 ,-1.4, -0.2
+"Knox County",18083,No,195 ,177.5, 213.9,94,falling,-0.8 ,-1.4, -0.3
+"Blackford County",18009,No,194.6 ,166.4, 226.8,35,falling,-0.9 ,-1.6, -0.2
+"Wayne County",18177,No,194.5 ,181.7, 207.9,181,falling,-0.6 ,-1.0, -0.1
+"Vermillion County",18165,No,194 ,168.2, 223,43,falling,-1.1 ,-1.9, -0.4
+"Morgan County",18109,No,193.7 ,180, 208.2,157,falling,-0.6 ,-1.1, -0.2
+"Putnam County",18133,No,192.7 ,174.6, 212.2,86,stable,-0.6 ,-1.1, 0.0
+"Clinton County",18023,No,191.6 ,172.6, 212.3,77,stable,-0.2 ,-0.8, 0.4
+"Henry County",18065,No,191.3 ,176.5, 207.2,126,falling,-0.4 ,-0.8, -0.1
+"Greene County",18055,No,191.2 ,173.1, 210.8,85,stable,0.0 ,-0.8, 0.7
+"Jefferson County",18077,No,190.2 ,171.3, 210.8,77,falling,-0.8 ,-1.4, -0.2
+"Marion County",18097,No,190 ,185.9, 194.1,1715,falling,-1.1 ,-1.3, -1.0
+"LaPorte County",18091,No,189.8 ,179.6, 200.6,266,falling,-0.9 ,-1.3, -0.6
+"Harrison County",18061,No,189.7 ,172.4, 208.4,92,falling,-0.8 ,-1.4, -0.1
+"Fulton County",18049,No,188.9 ,166.3, 214,52,falling,-0.8 ,-1.4, -0.1
+"Vigo County",18167,No,187.9 ,177.1, 199.3,233,falling,-0.8 ,-1.2, -0.4
+"Madison County",18095,No,187.4 ,178.1, 197.1,315,falling,-0.8 ,-1.1, -0.6
+"Benton County",18007,No,187.3 ,152.6, 228.2,21,stable,-0.2 ,-1.2, 0.9
+"Rush County",18139,No,187.2 ,162.6, 214.8,43,stable,-0.7 ,-1.3, 0.0
+"Switzerland County",18155,No,185.7 ,153.7, 222.7,25,stable,-0.8 ,-1.9, 0.4
+"Steuben County",18151,No,184.8 ,167.3, 203.7,85,falling,-1.1 ,-1.7, -0.5
+"Hancock County",18059,No,184.7 ,171.5, 198.6,151,falling,-0.6 ,-1.1, -0.2
+"Lake County",18089,No,184.6 ,179.7, 189.7,1081,falling,-1.7 ,-2.1, -1.4
+"DeKalb County",18033,No,183.7 ,167.1, 201.6,93,stable,-0.4 ,-0.9, 0.2
+"Wabash County",18169,No,182.8 ,165.1, 202,85,falling,-0.8 ,-1.3, -0.3
+"Tipton County",18159,No,182.6 ,157.5, 211,40,stable,-0.7 ,-1.6, 0.2
+"Clark County",18019,No,182.5 ,172.1, 193.5,238,falling,-1.5 ,-1.8, -1.1
+"Howard County",18067,No,182.2 ,170.9, 194,203,stable,5.0 ,-0.7, 11.1
+"Randolph County",18135,No,181.8 ,162.4, 203.2,66,stable,-0.5 ,-1.3, 0.3
+"Noble County",18113,No,181.6 ,165.4, 199,97,stable,-0.5 ,-1.1, 0.0
+"Delaware County",18035,No,181.1 ,171, 191.6,254,falling,-0.8 ,-1.1, -0.4
+"Shelby County",18145,No,180.9 ,164.9, 198.1,98,stable,-0.6 ,-1.2, 0.1
+"White County",18181,No,180.8 ,160.6, 203,63,stable,-0.6 ,-1.2, 0.1
+"Ripley County",18137,No,180.8 ,161.2, 202.1,64,stable,-0.3 ,-1.0, 0.5
+"Dearborn County",18029,No,180.1 ,165, 196.2,110,falling,-1.1 ,-1.6, -0.5
+"Lawrence County",18093,No,179.9 ,165.1, 195.8,114,falling,-0.8 ,-1.2, -0.3
+"Cass County",18017,No,179.3 ,162.5, 197.4,87,falling,-1.0 ,-1.5, -0.5
+"Union County",18161,No,178.3 ,141.5, 222.5,17,stable,0.1 ,-1.2, 1.4
+"Huntington County",18069,No,176.7 ,159.8, 195,83,falling,-0.8 ,-1.2, -0.3
+"Decatur County",18031,No,175.9 ,155.7, 198.1,57,stable,-0.7 ,-1.5, 0.1
+"Franklin County",18047,No,175.6 ,154.4, 199.1,52,stable,-0.4 ,-1.1, 0.4
+"Brown County",18013,No,174.5 ,149.8, 202.7,40,stable,-0.6 ,-1.7, 0.5
+"Vanderburgh County",18163,No,174.4 ,166.7, 182.5,396,falling,-1.2 ,-1.4, -0.9
+"St. Joseph County",18141,No,174.4 ,167.8, 181.3,547,falling,-1.0 ,-1.2, -0.8
+"Daviess County",18027,No,174.4 ,155.7, 194.8,65,falling,-0.8 ,-1.3, -0.4
+"Adams County",18001,No,174.1 ,155.9, 193.9,70,stable,-0.3 ,-1.0, 0.4
+"Kosciusko County",18085,No,174.1 ,162, 186.8,160,falling,-0.7 ,-1.1, -0.4
+"Warren County",18171,No,174 ,141.5, 212.6,21,falling,-1.3 ,-2.5, -0.1
+"Boone County",18011,No,173 ,158.4, 188.5,108,falling,-2.6 ,-4.4, -0.8
+"Miami County",18103,No,172.9 ,155.9, 191.3,78,falling,-1.5 ,-2.1, -1.0
+"Floyd County",18043,No,172.1 ,159.8, 185.2,151,falling,-1.3 ,-1.8, -0.9
+"Pulaski County",18131,No,171.6 ,145.3, 201.8,31,stable,-0.6 ,-1.4, 0.3
+"Allen County",18003,No,171.2 ,165.3, 177.2,669,stable,1.3 ,-2.1, 4.7
+"Porter County",18127,No,170.9 ,162.5, 179.6,326,falling,-1.1 ,-1.4, -0.7
+"Hendricks County",18063,No,170.3 ,160.9, 180,260,stable,0.0 ,-1.5, 1.4
+"Johnson County",18081,No,168.4 ,159.4, 177.8,267,falling,-1.1 ,-1.4, -0.7
+"Posey County",18129,No,168.1 ,148.4, 189.9,55,falling,-1.3 ,-1.8, -0.7
+"Bartholomew County",18005,No,167.6 ,155.9, 179.9,157,stable,-8.0 ,-18.0, 3.1
+"Gibson County",18051,No,167.5 ,150.4, 186.2,72,falling,-1.1 ,-1.6, -0.6
+"Marshall County",18099,No,165.8 ,151.2, 181.6,98,falling,-1.1 ,-1.6, -0.6
+"Crawford County",18025,No,165 ,135.7, 199.2,24,stable,-0.7 ,-1.8, 0.4
+"Elkhart County",18039,No,164.8 ,157.1, 172.8,356,falling,-0.7 ,-1.0, -0.4
+"Pike County",18125,No,164.7 ,138.5, 195.1,29,stable,-0.8 ,-1.7, 0.1
+"Ohio County",18115,No,164.7 ,127.5, 210.7,14,stable,-1.0 ,-2.5, 0.6
+"Spencer County",18147,No,164.2 ,143.3, 187.5,46,falling,-1.4 ,-2.0, -0.8
+"Newton County",18111,No,163.7 ,138.6, 192.4,32,falling,-1.1 ,-2.0, -0.2
+"Tippecanoe County",18157,No,162.7 ,153.7, 172.1,253,falling,-1.5 ,-1.9, -1.2
+"Montgomery County",18107,No,162.4 ,146.9, 179.2,82,falling,-1.3 ,-1.8, -0.8
+"Whitley County",18183,No,162.1 ,145.2, 180.5,70,falling,-0.9 ,-1.4, -0.3
+"Monroe County",18105,No,161.6 ,151.8, 171.9,210,falling,-1.2 ,-1.5, -0.9
+"Carroll County",18015,Yes,159.3 ,138.2, 182.9,43,stable,-0.5 ,-1.2, 0.2
+"Wells County",18179,Yes,159.1 ,141, 179.1,59,stable,-0.8 ,-1.5, 0.0
+"Warrick County",18173,Yes,156.6 ,143.8, 170.2,116,falling,-1.4 ,-1.9, -0.8
+"LaGrange County",18087,Yes,152.1 ,134.7, 171,58,falling,-1.1 ,-1.7, -0.6
+"Dubois County",18037,Yes,150.9 ,136.3, 166.9,80,falling,-0.9 ,-1.5, -0.3
+"Parke County",18121,Yes,147.1 ,125.4, 171.8,34,falling,-1.1 ,-2.0, -0.2
+"Hamilton County",18057,Yes,135.2 ,128.7, 141.9,349,falling,-1.6 ,-1.9, -1.2
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 4:58 pm.
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

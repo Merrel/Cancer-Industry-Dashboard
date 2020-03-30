@@ -1,0 +1,62 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=34&areatype=county&cancer=071&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '34', 'areatype': 'county', 'cancer': '071', 'race': '00', 'sex': '0', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_001.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=34&areatype=county&cancer=071&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for New Jersey by County
+
+"Bladder (All Stages^), 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"New Jersey(7,8)",34000,***,23.2 ,22.8, 23.7,2469,falling,-11.3 ,-17.5, -4.6
+"US (SEER+NPCR)(1,10)",00000,***,20.1 ,20.1, 20.2,73697,falling,-2.1 ,-2.9, -1.2
+"Cape May County(7,8)",34009,***,31.1 ,27.3, 35.4,52,stable,-9.0 ,-17.4, 0.4
+"Salem County(7,8)",34033,***,29.3 ,24.2, 35.1,25,stable,-19.2 ,-44.0, 16.6
+"Hunterdon County(7,8)",34019,***,28.3 ,24.6, 32.4,46,rising,1.0 ,0.1, 2.0
+"Warren County(7,8)",34041,***,28.2 ,24.3, 32.6,38,stable,-0.9 ,-1.8, 0.1
+"Gloucester County(7,8)",34015,***,27.8 ,25.2, 30.5,90,falling,-12.7 ,-22.3, -2.0
+"Atlantic County(7,8)",34001,***,27.3 ,24.8, 29.9,93,falling,-20.2 ,-33.2, -4.7
+"Burlington County(7,8)",34005,***,27.3 ,25.3, 29.3,153,stable,-0.3 ,-0.9, 0.3
+"Sussex County(7,8)",34037,***,26.4 ,23, 30.2,47,stable,-0.7 ,-1.6, 0.2
+"Cumberland County(7,8)",34011,***,25.5 ,22.2, 29.1,44,stable,0.7 ,-0.5, 1.8
+"Monmouth County(7,8)",34025,***,25.4 ,23.8, 27.1,200,stable,-0.4 ,-1.1, 0.2
+"Camden County(7,8)",34007,***,25.2 ,23.4, 27.1,147,stable,-0.3 ,-1.1, 0.4
+"Morris County(7,8)",34027,***,24.8 ,23.1, 26.7,154,stable,-12.0 ,-24.2, 2.1
+"Ocean County(7,8)",34029,***,23.9 ,22.5, 25.4,229,falling,-13.3 ,-23.6, -1.6
+"Middlesex County(7,8)",34023,***,22.5 ,21.1, 24,204,stable,-0.7 ,-1.3, 0.0
+"Bergen County(7,8)",34003,***,22.4 ,21.2, 23.6,272,falling,-14.1 ,-24.8, -1.9
+"Passaic County(7,8)",34031,***,21.6 ,19.9, 23.4,120,falling,-0.9 ,-1.6, -0.1
+"Mercer County(7,8)",34021,***,21.5 ,19.5, 23.6,91,falling,-9.6 ,-16.1, -2.7
+"Somerset County(7,8)",34035,***,20.1 ,18.2, 22.3,79,falling,-10.3 ,-18.7, -1.0
+"Union County(7,8)",34039,***,19.9 ,18.4, 21.6,124,falling,-4.7 ,-7.2, -2.0
+"Essex County(7,8)",34013,***,18.5 ,17.2, 19.9,152,falling,-0.7 ,-1.3, -0.1
+"Hudson County(7,8)",34017,***,17.6 ,16.1, 19.2,107,falling,-1.7 ,-2.3, -1.2
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:18 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+7 Source: SEER November 2018 submission.
+"8 Source: Incidence data provided by the SEER Program. ( http://seer.cancer.gov ) AAPCs are calculated by the Joinpoint Regression Program ( https://surveillance.cancer.gov/joinpoint/ ) and are based on APCs. Data are age-adjusted to the 2000 US standard population ( http://www.seer.cancer.gov/stdpopulations/single_age.html ) (19 age groups: <1, 1-4, 5-9, ... , 80-84,85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Population counts for denominators are based on Census populations as modifed by NCI. The 1969-2017 US Population Data ( http://seer.cancer.gov/popdata/ ) File is used with SEER November 2018 data. "
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

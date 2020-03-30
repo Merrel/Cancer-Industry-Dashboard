@@ -1,0 +1,61 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=24&areatype=county&cancer=055&stage=211&race=00&sex=2&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '24', 'areatype': 'county', 'cancer': '055', 'stage': '211', 'race': '00', 'sex': '2', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_042.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=24&areatype=county&cancer=055&stage=211&race=00&sex=2&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Maryland by County
+
+"Breast (Late Stage^), 2012-2016"
+
+"All Races (includes Hispanic), Female, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 42.1?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Percent of Cases with Late Stage
+"Maryland(6)",24000,No,45.6 ,44.6, 46.6,1633,34.1
+"US (SEER+NPCR)(1)",00000,No,42.3 ,42.1, 42.4,78906,33.0
+"Caroline County(6)",24011,No,50.7 ,37.5, 67.3,10,38.0
+"Worcester County(6)",24047,No,50.2 ,39.2, 63.5,18,32.8
+"Howard County(6)",24027,No,49.7 ,45, 54.7,88,35.5
+"Harford County(6)",24025,No,48.4 ,43.5, 53.7,77,34.4
+"Prince Georges County(6)",24033,No,47.7 ,45, 50.5,247,37.2
+"Baltimore City(6)",24510,No,47.6 ,44.4, 51,171,38.2
+"Baltimore County(6)",24005,No,47.1 ,44.4, 50,245,33.0
+"Kent County(6)",24029,No,47.1 ,31.2, 69,8,33.0
+"Wicomico County(6)",24045,No,46.7 ,38.9, 55.7,27,33.7
+"Calvert County(6)",24009,No,46.4 ,38.3, 55.7,25,32.1
+"Washington County(6)",24043,No,45.8 ,39.5, 52.9,41,31.5
+"Somerset County(6)",24039,No,45.6 ,30.4, 66.1,6,34.0
+"Charles County(6)",24017,No,45.2 ,38.9, 52.2,39,35.8
+"Frederick County(6)",24021,No,45.1 ,40.2, 50.5,64,33.4
+"Carroll County(6)",24013,No,45 ,39.3, 51.3,48,32.4
+"Allegany County(6)",24001,No,44.7 ,35.9, 55.2,21,36.0
+"Anne Arundel County(6)",24003,No,44.5 ,41.2, 47.9,146,32.5
+"Montgomery County(6)",24031,No,42.5 ,40.2, 44.9,265,33.0
+"Cecil County(6)",24015,Yes,41.9 ,34.7, 50.3,25,32.3
+"Queen Annes County(6)",24035,Yes,40.4 ,30.8, 52.3,13,32.7
+"Talbot County(6)",24041,Yes,36.1 ,25.8, 49.5,10,26.4
+"Garrett County(6)",24023,Yes,35.9 ,25.3, 50.2,8,32.5
+"Dorchester County(6)",24019,Yes,35.6 ,24.9, 49.8,8,27.9
+"St. Marys County(6)",24037,Yes,35 ,28.4, 42.6,21,29.8
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:19 pm.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+
+Rates are computed using cancers classified as malignant based on ICD-O-3. For more information see malignant.html.
+
+"^ Late Stage is defined as cases determined to be regional or distant. Coding is generally based on Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ] but may include other staging variables if necessary."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

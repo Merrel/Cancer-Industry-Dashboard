@@ -1,0 +1,40 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=34&areatype=county&topic=ins&demo=00043&race=00&sex=0&age=006&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '34', 'areatype': 'county', 'topic': 'ins', 'demo': '00043', 'race': '00', 'sex': '0', 'age': '006', 'type': 'manyareacensus', 'file_name': 'demographics_006.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=34&areatype=county&topic=ins&demo=00043&race=00&sex=0&age=006&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for New Jersey by County
+"Insurance: Percent uninsured in demographic group, people at or below 138% of poverty"
+"Ages <65, All Races (includes Hispanic), Both Sexes"
+2017 Small Area Health Insurance Estimates Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Uninsured),Rank within US
+"New Jersey",34000,17.6,194143,"30 of 51"
+"Gloucester County",34015,12.4,3232,"922 of 3139"
+"Ocean County",34029,12.5,9601,"933 of 3139"
+"Salem County",34033,12.5,1177,"933 of 3139"
+"Cape May County",34009,12.8,1433,"983 of 3139"
+"Camden County",34007,12.9,9645,"996 of 3139"
+"Burlington County",34005,13.2,4602,"1030 of 3139"
+"Warren County",34041,15.5,1556,"1314 of 3139"
+"Cumberland County",34011,15.8,5108,"1349 of 3139"
+"Atlantic County",34001,16.2,7560,"1399 of 3139"
+"Sussex County",34037,16.2,1534,"1399 of 3139"
+"Essex County",34013,17.5,27079,"1575 of 3139"
+"Monmouth County",34025,17.5,8822,"1575 of 3139"
+"Passaic County",34031,18.8,19057,"1765 of 3139"
+"Mercer County",34021,19.1,8859,"1804 of 3139"
+"Hudson County",34017,19.4,25784,"1859 of 3139"
+"Middlesex County",34023,19.4,16402,"1859 of 3139"
+"Union County",34039,20.0,15042,"1963 of 3139"
+"Hunterdon County",34019,20.2,1007,"1997 of 3139"
+"Somerset County",34035,21.1,3943,"2120 of 3139"
+"Morris County",34027,21.3,5447,"2143 of 3139"
+"Bergen County",34003,22.9,17253,"2348 of 3139"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:18 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & Small Area Health Insurance Estimates (https://www.census.gov/programs-surveys/sahie.html).
+"For more information about Insurance: Percent uninsured in demographic group, people at or below 138% of poverty, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#insurance."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

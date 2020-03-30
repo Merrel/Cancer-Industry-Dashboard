@@ -1,0 +1,43 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=56&areatype=county&topic=pop&demo=00101&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '56', 'areatype': 'county', 'topic': 'pop', 'demo': '00101', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_024.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=56&areatype=county&topic=pop&demo=00101&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Wyoming by County
+Population: Non-Hispanic (Origin Recode)
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Non-Hispanic [Origin Recode]),Rank within US
+"United States",00000,82.4,264493836,"N/A"
+"Wyoming",56000,90.3,526519,"24 of 52"
+"Carbon County",56007,82.1,12878,"430 of 3141"
+"Sweetwater County",56037,84.0,37400,"479 of 3141"
+"Teton County",56039,85.0,19484,"511 of 3141"
+"Laramie County",56021,85.7,83192,"537 of 3141"
+"Washakie County",56043,85.8,7078,"541 of 3141"
+"Goshen County",56015,89.4,12055,"702 of 3141"
+"Albany County",56001,90.7,34416,"784 of 3141"
+"Uinta County",56041,90.9,18875,"805 of 3141"
+"Big Horn County",56003,91.2,10875,"827 of 3141"
+"Campbell County",56005,91.6,44064,"858 of 3141"
+"Natrona County",56025,91.8,74357,"880 of 3141"
+"Converse County",56009,92.2,13058,"904 of 3141"
+"Platte County",56031,92.2,8025,"906 of 3141"
+"Sublette County",56035,92.7,9306,"967 of 3141"
+"Fremont County",56013,93.2,37618,"1019 of 3141"
+"Park County",56029,94.3,27597,"1175 of 3141"
+"Lincoln County",56023,95.5,17949,"1431 of 3141"
+"Niobrara County",56027,95.7,2372,"1470 of 3141"
+"Sheridan County",56033,95.8,28702,"1502 of 3141"
+"Crook County",56011,97.7,7175,"2190 of 3141"
+"Johnson County",56019,97.9,8380,"2314 of 3141"
+"Hot Springs County",56017,98.1,4649,"2415 of 3141"
+"Weston County",56045,98.6,7014,"2718 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:22 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Non-Hispanic (Origin Recode), see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

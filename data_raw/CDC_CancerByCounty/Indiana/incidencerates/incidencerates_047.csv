@@ -1,0 +1,132 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=18&areatype=county&cancer=090&stage=211&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '18', 'areatype': 'county', 'cancer': '090', 'stage': '211', 'race': '00', 'sex': '0', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_047.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=18&areatype=county&cancer=090&stage=211&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Indiana by County
+
+"Leukemia (Late Stage^), 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Percent of Cases with Late Stage
+"Indiana(6)",18000,***,13.8 ,13.4, 14.2,992,99.1
+"US (SEER+NPCR)(1)",00000,***,14 ,14, 14.1,49519,99.0
+"Jennings County(6)",18079,***,25 ,17.7, 34.5,8,100.0
+"Randolph County(6)",18135,***,24.4 ,17.1, 33.9,8,100.0
+"Tipton County(6)",18159,***,22.6 ,13.7, 35.4,4,100.0
+"Starke County(6)",18149,***,21.4 ,14.1, 31.4,6,100.0
+"Shelby County(6)",18145,***,21.3 ,15.9, 28,11,98.2
+"Pulaski County(6)",18131,***,21.2 ,11.9, 35.1,3,100.0
+"Bartholomew County(6)",18005,***,19.4 ,15.5, 24,17,100.0
+"Jackson County(6)",18071,***,19 ,14, 25.4,10,100.0
+"Decatur County(6)",18031,***,18.9 ,12.7, 27.3,6,100.0
+"Henry County(6)",18065,***,18.9 ,14.3, 24.6,12,100.0
+"Madison County(6)",18095,***,18.8 ,15.8, 22.2,30,100.0
+"Floyd County(6)",18043,***,18 ,14.1, 22.7,15,98.7
+"Knox County(6)",18083,***,18 ,12.9, 24.6,9,100.0
+"Grant County(6)",18053,***,17.5 ,13.6, 22.2,15,98.7
+"Hancock County(6)",18059,***,17.4 ,13.4, 22.2,13,100.0
+"Clark County(6)",18019,***,17.1 ,14, 20.7,22,96.5
+"Morgan County(6)",18109,***,17.1 ,13.2, 21.9,14,100.0
+"Harrison County(6)",18061,***,16.9 ,11.8, 23.6,8,97.4
+"Ripley County(6)",18137,***,16.8 ,11.2, 24.4,6,100.0
+"Washington County(6)",18175,***,16.6 ,10.8, 24.6,5,93.1
+"White County(6)",18181,***,16.3 ,10.4, 24.7,5,100.0
+"Dubois County(6)",18037,***,15.9 ,11.3, 21.9,8,100.0
+"Clay County(6)",18021,***,15.9 ,10.1, 24,5,100.0
+"Fountain County(6)",18045,***,15.9 ,9.4, 25.7,4,100.0
+"Scott County(6)",18143,***,15.8 ,9.8, 24.4,4,100.0
+"Hamilton County(6)",18057,***,15.6 ,13.5, 17.9,41,100.0
+"LaPorte County(6)",18091,***,15.5 ,12.5, 19,20,99.0
+"Fayette County(6)",18041,***,15.4 ,9.5, 23.7,5,100.0
+"Jefferson County(6)",18077,***,15.4 ,10.3, 22.2,6,96.8
+"Delaware County(6)",18035,***,15.2 ,12.3, 18.6,20,99.0
+"Perry County(6)",18123,***,14.9 ,8.7, 24.2,4,94.7
+"Johnson County(6)",18081,***,14.8 ,12.2, 17.8,23,100.0
+"Cass County(6)",18017,***,14.8 ,10.3, 20.7,7,100.0
+"Putnam County(6)",18133,***,14.7 ,9.9, 21.1,6,100.0
+"Dearborn County(6)",18029,***,14.5 ,10.3, 20,8,100.0
+"Gibson County(6)",18051,***,14.5 ,9.6, 21.1,6,100.0
+"Vanderburgh County(6)",18163,***,14.5 ,12.2, 17,31,100.0
+"Orange County(6)",18117,***,14.2 ,8, 23.6,3,100.0
+"Jasper County(6)",18073,***,14.1 ,9.3, 20.6,6,96.7
+"Wabash County(6)",18169,***,13.9 ,9.1, 20.5,6,100.0
+"Sullivan County(6)",18153,***,13.8 ,7.8, 22.8,3,94.1
+"Jay County(6)",18075,***,13.7 ,8.1, 22.1,4,100.0
+"Clinton County(6)",18023,***,13.5 ,8.8, 20,5,100.0
+"Howard County(6)",18067,***,13.5 ,10.4, 17.3,13,100.0
+"Vigo County(6)",18167,***,13.5 ,10.6, 16.8,16,98.8
+"Lake County(6)",18089,***,13.3 ,11.9, 14.7,74,98.9
+"Spencer County(6)",18147,***,13.3 ,7.6, 21.8,3,100.0
+"Marshall County(6)",18099,***,13.1 ,9.1, 18.3,8,100.0
+"Marion County(6)",18097,***,13 ,12, 14.2,118,99.2
+"Kosciusko County(6)",18085,***,13 ,9.8, 17,11,100.0
+"Boone County(6)",18011,***,12.9 ,9.1, 17.6,8,100.0
+"Warrick County(6)",18173,***,12.6 ,9.1, 17.1,9,100.0
+"Elkhart County(6)",18039,***,12.4 ,10.3, 14.8,26,99.2
+"Lawrence County(6)",18093,***,12.2 ,8.3, 17.4,7,100.0
+"Monroe County(6)",18105,***,12.1 ,9.5, 15.3,15,98.7
+"Porter County(6)",18127,***,12.1 ,9.9, 14.7,22,99.1
+"Carroll County(6)",18015,***,12 ,6.8, 20.1,3,100.0
+"Daviess County(6)",18027,***,12 ,7.3, 18.5,4,100.0
+"Huntington County(6)",18069,***,12 ,7.8, 17.7,5,100.0
+"Hendricks County(6)",18063,***,11.9 ,9.5, 14.6,18,98.9
+"Greene County(6)",18055,***,11.6 ,7.3, 17.7,5,100.0
+"Miami County(6)",18103,***,11.5 ,7.3, 17.4,5,96.0
+"Allen County(6)",18003,***,11.5 ,10, 13.2,44,97.8
+"St. Joseph County(6)",18141,***,11.4 ,9.6, 13.3,33,98.2
+"Noble County(6)",18113,***,11.2 ,7.4, 16.3,6,96.6
+"Posey County(6)",18129,***,11 ,6.3, 17.9,4,100.0
+"Wells County(6)",18179,***,10.6 ,6.3, 16.9,4,95.0
+"Tippecanoe County(6)",18157,***,10.5 ,8.3, 13.1,16,100.0
+"Montgomery County(6)",18107,***,10.5 ,6.7, 15.7,5,100.0
+"Wayne County(6)",18177,***,10.1 ,7.3, 13.6,9,97.8
+"DeKalb County(6)",18033,***,10 ,6.3, 15,5,100.0
+"Whitley County(6)",18183,***,9.3 ,5.4, 15.1,4,100.0
+"Steuben County(6)",18151,***,6.4 ,3.6, 10.9,3,100.0
+"Adams County(6)",18001,***,* ,*, *,3 or fewer,*
+"Benton County(6)",18007,***,* ,*, *,3 or fewer,*
+"Blackford County(6)",18009,***,* ,*, *,3 or fewer,*
+"Brown County(6)",18013,***,* ,*, *,3 or fewer,*
+"Crawford County(6)",18025,***,* ,*, *,3 or fewer,*
+"Franklin County(6)",18047,***,* ,*, *,3 or fewer,*
+"Fulton County(6)",18049,***,* ,*, *,3 or fewer,*
+"LaGrange County(6)",18087,***,* ,*, *,3 or fewer,*
+"Martin County(6)",18101,***,* ,*, *,3 or fewer,*
+"Newton County(6)",18111,***,* ,*, *,3 or fewer,*
+"Ohio County(6)",18115,***,* ,*, *,3 or fewer,*
+"Owen County(6)",18119,***,* ,*, *,3 or fewer,*
+"Parke County(6)",18121,***,* ,*, *,3 or fewer,*
+"Pike County(6)",18125,***,* ,*, *,3 or fewer,*
+"Rush County(6)",18139,***,* ,*, *,3 or fewer,*
+"Switzerland County(6)",18155,***,* ,*, *,3 or fewer,*
+"Union County(6)",18161,***,* ,*, *,3 or fewer,*
+"Vermillion County(6)",18165,***,* ,*, *,3 or fewer,*
+"Warren County(6)",18171,***,* ,*, *,3 or fewer,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 4:59 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+
+Rates are computed using cancers classified as malignant based on ICD-O-3. For more information see malignant.html.
+
+"^ Late Stage is defined as cases determined to be regional or distant. Coding is generally based on Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ] but may include other staging variables if necessary."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

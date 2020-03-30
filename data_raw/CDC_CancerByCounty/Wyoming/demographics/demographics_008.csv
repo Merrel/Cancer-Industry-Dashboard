@@ -1,0 +1,43 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=56&areatype=county&topic=mob&demo=00017&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '56', 'areatype': 'county', 'topic': 'mob', 'demo': '00017', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_008.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=56&areatype=county&topic=mob&demo=00017&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Wyoming by County
+Mobility: Haven't moved (in past year)
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Haven't Moved),Rank within US
+"Wyoming",56000,82.4,475134,"43 of 51"
+"United States",00000,85.4,270854872,"N/A"
+"Albany County",56001,69.6,26185,"3127 of 3140"
+"Campbell County",56005,80.5,38197,"2896 of 3140"
+"Sweetwater County",56037,80.8,35354,"2879 of 3140"
+"Sublette County",56035,80.8,8069,"2875 of 3140"
+"Goshen County",56015,81.7,10894,"2793 of 3140"
+"Laramie County",56021,81.8,78564,"2787 of 3140"
+"Teton County",56039,82.0,18569,"2752 of 3140"
+"Fremont County",56013,83.2,33164,"2596 of 3140"
+"Lincoln County",56023,83.6,15525,"2518 of 3140"
+"Uinta County",56041,83.8,17081,"2476 of 3140"
+"Big Horn County",56003,84.0,9883,"2433 of 3140"
+"Niobrara County",56027,84.2,2066,"2395 of 3140"
+"Natrona County",56025,84.3,67613,"2385 of 3140"
+"Hot Springs County",56017,84.5,3971,"2335 of 3140"
+"Weston County",56045,84.9,5940,"2250 of 3140"
+"Sheridan County",56033,84.9,25309,"2228 of 3140"
+"Converse County",56009,85.7,11862,"2039 of 3140"
+"Platte County",56031,85.7,7401,"2037 of 3140"
+"Park County",56029,85.8,24861,"2016 of 3140"
+"Carbon County",56007,86.5,13383,"1775 of 3140"
+"Washakie County",56043,86.6,7072,"1755 of 3140"
+"Crook County",56011,89.3,6530,"822 of 3140"
+"Johnson County",56019,90.3,7641,"560 of 3140"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:22 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Mobility: Haven't moved (in past year), see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#mobility."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

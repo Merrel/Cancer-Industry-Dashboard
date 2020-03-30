@@ -1,0 +1,53 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=35&areatype=county&topic=mob&demo=00018&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '35', 'areatype': 'county', 'topic': 'mob', 'demo': '00018', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_009.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=35&areatype=county&topic=mob&demo=00018&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for New Mexico by County
+"Mobility: Moved, same county (in past year)"
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Moved Within County),Rank within US
+"New Mexico",35000,8.0,165548,"19 of 51"
+"United States",00000,8.4,26717038,"N/A"
+"Mora County",35033,0.0,0,"1 of 3140"
+"Harding County",35021,0.5,3,"11 of 3140"
+"Rio Arriba County",35039,2.3,900,"132 of 3140"
+"Catron County",35003,2.4,86,"154 of 3140"
+"Torrance County",35057,2.6,399,"175 of 3140"
+"Guadalupe County",35019,3.3,145,"318 of 3140"
+"San Miguel County",35047,3.6,1007,"401 of 3140"
+"Union County",35059,3.6,152,"410 of 3140"
+"Los Alamos County",35028,3.9,704,"509 of 3140"
+"Socorro County",35053,4.2,715,"591 of 3140"
+"Sandoval County",35043,4.4,6018,"657 of 3140"
+"Quay County",35037,4.4,371,"675 of 3140"
+"McKinley County",35031,4.7,3406,"805 of 3140"
+"De Baca County",35011,4.8,96,"809 of 3140"
+"Sierra County",35051,5.0,556,"916 of 3140"
+"Taos County",35055,5.1,1645,"943 of 3140"
+"Santa Fe County",35049,5.1,7520,"983 of 3140"
+"Lincoln County",35027,5.5,1067,"1183 of 3140"
+"Lea County",35025,6.2,4234,"1528 of 3140"
+"Cibola County",35006,6.2,1653,"1529 of 3140"
+"Hidalgo County",35023,6.2,273,"1544 of 3140"
+"Valencia County",35061,6.7,5057,"1773 of 3140"
+"Colfax County",35007,7.3,911,"2006 of 3140"
+"Eddy County",35015,7.4,4122,"2052 of 3140"
+"San Juan County",35045,7.7,9718,"2156 of 3140"
+"Otero County",35035,7.9,5057,"2224 of 3140"
+"Dona Ana County",35013,8.5,17952,"2405 of 3140"
+"Grant County",35017,9.4,2640,"2656 of 3140"
+"Roosevelt County",35041,10.5,1994,"2870 of 3140"
+"Bernalillo County",35001,10.5,70366,"2873 of 3140"
+"Chaves County",35005,10.7,6886,"2892 of 3140"
+"Luna County",35029,12.3,2939,"3050 of 3140"
+"Curry County",35009,14.0,6956,"3113 of 3140"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:18 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Mobility: Moved, same county (in past year), see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#mobility."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

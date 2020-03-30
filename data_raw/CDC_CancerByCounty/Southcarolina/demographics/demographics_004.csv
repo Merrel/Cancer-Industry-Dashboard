@@ -1,0 +1,67 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=45&areatype=county&topic=inc&demo=00010&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '45', 'areatype': 'county', 'topic': 'inc', 'demo': '00010', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_004.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=45&areatype=county&topic=inc&demo=00010&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for South Carolina by County
+Income: Median family income
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Dollars),Rank within US
+"South Carolina",45000,60643.000000000,"43 of 52"
+"United States",00000,70850.000000000,"N/A"
+"Allendale County",45005,34158.000000000,"3106 of 3141"
+"Marion County",45067,39604.000000000,"3044 of 3141"
+"Dillon County",45033,39947.000000000,"3039 of 3141"
+"Marlboro County",45069,40600.000000000,"3019 of 3141"
+"Lee County",45061,41103.000000000,"2998 of 3141"
+"Colleton County",45029,41339.000000000,"2985 of 3141"
+"Williamsburg County",45089,43053.000000000,"2919 of 3141"
+"Jasper County",45053,43344.000000000,"2909 of 3141"
+"Hampton County",45049,44163.000000000,"2873 of 3141"
+"Fairfield County",45039,44800.000000000,"2845 of 3141"
+"Chesterfield County",45025,45067.000000000,"2836 of 3141"
+"Barnwell County",45011,45394.000000000,"2808 of 3141"
+"Clarendon County",45027,46066.000000000,"2769 of 3141"
+"Abbeville County",45001,46177.000000000,"2764 of 3141"
+"Saluda County",45081,46195.000000000,"2763 of 3141"
+"Bamberg County",45009,46206.000000000,"2761 of 3141"
+"Orangeburg County",45075,46289.000000000,"2752 of 3141"
+"Laurens County",45059,47311.000000000,"2682 of 3141"
+"Union County",45087,47494.000000000,"2670 of 3141"
+"Newberry County",45071,48348.000000000,"2630 of 3141"
+"Darlington County",45031,48755.000000000,"2603 of 3141"
+"Cherokee County",45021,49140.000000000,"2576 of 3141"
+"Sumter County",45085,50187.000000000,"2497 of 3141"
+"Chester County",45023,50914.000000000,"2420 of 3141"
+"Greenwood County",45047,51124.000000000,"2399 of 3141"
+"McCormick County",45065,51632.000000000,"2355 of 3141"
+"Horry County",45051,55395.000000000,"2019 of 3141"
+"Florence County",45041,55491.000000000,"2012 of 3141"
+"Oconee County",45073,55851.000000000,"1973 of 3141"
+"Kershaw County",45055,56563.000000000,"1912 of 3141"
+"Anderson County",45007,57368.000000000,"1825 of 3141"
+"Spartanburg County",45083,58543.000000000,"1708 of 3141"
+"Georgetown County",45043,58891.000000000,"1679 of 3141"
+"Pickens County",45077,59190.000000000,"1644 of 3141"
+"Aiken County",45003,59356.000000000,"1626 of 3141"
+"Edgefield County",45037,59901.000000000,"1562 of 3141"
+"Calhoun County",45017,63818.000000000,"1172 of 3141"
+"Lancaster County",45057,64436.000000000,"1119 of 3141"
+"Berkeley County",45015,64507.000000000,"1110 of 3141"
+"Greenville County",45045,67866.000000000,"855 of 3141"
+"Richland County",45079,67917.000000000,"851 of 3141"
+"Lexington County",45063,70300.000000000,"707 of 3141"
+"Dorchester County",45035,71845.000000000,"629 of 3141"
+"Beaufort County",45013,72128.000000000,"607 of 3141"
+"York County",45091,73107.000000000,"540 of 3141"
+"Charleston County",45019,78022.000000000,"355 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:20 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Income: Median family income, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#income."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"Median Incomes over 250,000 have been coded to 250,001 by the Census Bureau. [ http://www2.census.gov/acs2012_5yr/summaryfile/ACS_2008-2012_SF_Tech_Doc.pdf ]"
+Data for United States does not include Puerto Rico.

@@ -1,0 +1,35 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=25&areatype=county&topic=inc&demo=00010&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '25', 'areatype': 'county', 'topic': 'inc', 'demo': '00010', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_004.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=25&areatype=county&topic=inc&demo=00010&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Massachusetts by County
+Income: Median family income
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Dollars),Rank within US
+"United States",00000,70850.000000000,"N/A"
+"Massachusetts",25000,94110.000000000,"4 of 52"
+"Hampden County",25013,65994.000000000,"993 of 3141"
+"Suffolk County",25025,69026.000000000,"782 of 3141"
+"Berkshire County",25003,73584.000000000,"518 of 3141"
+"Franklin County",25011,76112.000000000,"418 of 3141"
+"Bristol County",25005,79937.000000000,"315 of 3141"
+"Barnstable County",25001,86621.000000000,"200 of 3141"
+"Hampshire County",25015,88476.000000000,"182 of 3141"
+"Worcester County",25027,88971.000000000,"180 of 3141"
+"Essex County",25009,92091.000000000,"137 of 3141"
+"Dukes County",25007,98735.000000000,"91 of 3141"
+"Plymouth County",25023,100207.000000000,"82 of 3141"
+"Nantucket County",25019,109885.000000000,"36 of 3141"
+"Middlesex County",25017,117048.000000000,"20 of 3141"
+"Norfolk County",25021,120087.000000000,"17 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:17 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Income: Median family income, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#income."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"Median Incomes over 250,000 have been coded to 250,001 by the Census Bureau. [ http://www2.census.gov/acs2012_5yr/summaryfile/ACS_2008-2012_SF_Tech_Doc.pdf ]"
+Data for United States does not include Puerto Rico.

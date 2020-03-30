@@ -1,0 +1,173 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=51&areatype=county&cancer=066&stage=211&race=00&sex=1&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '51', 'areatype': 'county', 'cancer': '066', 'stage': '211', 'race': '00', 'sex': '1', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_055.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=51&areatype=county&cancer=066&stage=211&race=00&sex=1&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Virginia by County
+
+"Prostate (Late Stage^), 2012-2016"
+
+"All Races (includes Hispanic), Male, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Percent of Cases with Late Stage
+"Virginia(6)",51000,***,17 ,16.5, 17.6,774,17.0
+"US (SEER+NPCR)(1)",00000,***,20.1 ,20, 20.2,36257,19.4
+"Hopewell City(6)",51670,***,39.6 ,24.5, 60.6,4,28.2
+"Petersburg City(6)",51730,***,33.7 ,22.4, 48.9,6,16.0
+"Northampton County(6)",51131,***,31.3 ,18.1, 53.6,3,29.3
+"Richmond City(6)",51760,***,30.8 ,26, 36.4,31,21.6
+"Goochland County(6)",51075,***,30.7 ,19.6, 47.1,5,21.7
+"Colonial Heights City(6)",51570,***,29.7 ,16.8, 49.5,3,22.5
+"New Kent County(6)",51127,***,29.2 ,17.7, 46.4,4,26.2
+"Gloucester County(6)",51073,***,25.1 ,17.2, 36,7,19.2
+"Westmoreland County(6)",51193,***,24.4 ,14.3, 40.8,4,20.0
+"Bedford City and County(6)",51917,***,24.3 ,17.8, 32.4,9,21.4
+"Mecklenburg County(6)",51117,***,23.6 ,15.8, 34.8,6,17.0
+"Suffolk City(6)",51800,***,23.2 ,16.9, 31.2,10,17.1
+"James City County(6)",51095,***,23.1 ,17.6, 30,13,17.3
+"Isle of Wight County(6)",51093,***,22.6 ,14, 34.8,5,19.8
+"Southampton County(6)",51175,***,22.6 ,12.7, 38.7,3,19.8
+"Accomack County(6)",51001,***,22.5 ,14.9, 33.5,6,19.2
+"Orange County(6)",51137,***,21.8 ,14.3, 32.4,5,22.1
+"Halifax County with South Boston City(6)",51083,***,21.4 ,14.4, 31.5,6,16.4
+"Henrico County(6)",51087,***,21.2 ,18.1, 24.6,36,17.9
+"Caroline County(6)",51033,***,21 ,11.9, 34.4,3,15.9
+"Spotsylvania County(6)",51177,***,20.9 ,16.1, 26.8,14,17.9
+"Chesterfield County(6)",51041,***,20.9 ,17.8, 24.4,36,15.5
+"Newport News City(6)",51700,***,20.6 ,16.4, 25.6,17,17.0
+"Lynchburg City(6)",51680,***,20.4 ,14.4, 28.3,7,22.6
+"Roanoke City(6)",51770,***,19.8 ,14.6, 26.2,11,19.3
+"Stafford County(6)",51179,***,19.4 ,14.3, 25.6,12,17.2
+"Hanover County(6)",51085,***,19.2 ,14.7, 24.8,13,17.8
+"Louisa County(6)",51109,***,19.1 ,11.7, 30,5,18.1
+"Hampton City(6)",51650,***,18.9 ,14.7, 24.1,14,14.7
+"Powhatan County(6)",51145,***,18.7 ,11, 30.3,4,17.6
+"Campbell County(6)",51031,***,18.6 ,12.7, 26.6,7,22.6
+"Loudoun County(6)",51107,***,18.3 ,15.1, 21.9,27,19.6
+"Virginia Beach City(6)",51810,***,18.2 ,15.7, 21,39,18.4
+"Portsmouth City(6)",51740,***,18 ,13, 24.3,9,13.1
+"Roanoke County(6)",51161,***,17.9 ,13.5, 23.5,11,20.1
+"Norfolk City(6)",51710,***,17.8 ,14.2, 22.1,18,16.2
+"Dinwiddie County(6)",51053,***,17.8 ,10.1, 29.8,3,13.6
+"Augusta County(6)",51015,***,17.6 ,12.9, 23.7,10,16.4
+"Alexandria City(6)",51510,***,17.5 ,12.8, 23.3,11,18.5
+"Warren County(6)",51187,***,17 ,9.9, 27.5,4,18.4
+"Fauquier County(6)",51061,***,16.7 ,11.3, 23.8,7,16.5
+"York County(6)",51199,***,16.7 ,11.2, 23.9,6,14.0
+"Arlington County(6)",51013,***,16.3 ,12.7, 20.7,15,21.1
+"Culpeper County(6)",51047,***,15.9 ,9.8, 24.5,4,15.2
+"Rockingham County(6)",51165,***,15.7 ,11.2, 21.6,8,19.2
+"Albemarle County(6)",51003,***,15.4 ,11.3, 20.7,9,16.7
+"Prince William County(6)",51153,***,15.4 ,12.5, 18.7,26,16.6
+"Prince George County(6)",51149,***,15.1 ,8.6, 24.8,3,10.3
+"Chesapeake City(6)",51550,***,15 ,11.9, 18.7,18,14.6
+"Henry County(6)",51089,***,14.7 ,9.7, 21.7,6,14.4
+"Shenandoah County(6)",51171,***,13.9 ,8.5, 21.9,4,16.4
+"Botetourt County(6)",51023,***,13.4 ,7.8, 22.4,4,14.3
+"Danville City(6)",51590,***,13.1 ,7.5, 21.6,3,12.7
+"Franklin County(6)",51067,***,13 ,8.5, 19.6,6,13.9
+"Fairfax County(6)",51059,***,13 ,11.6, 14.4,76,15.9
+"Pulaski County(6)",51155,***,12.9 ,7.1, 22.1,3,14.5
+"Pittsylvania County(6)",51143,***,12 ,7.7, 18.2,5,14.9
+"Frederick County(6)",51069,***,10.3 ,6.6, 15.4,5,14.1
+"Montgomery County(6)",51121,***,9.4 ,5.8, 14.6,4,15.3
+"Alleghany County and Clifton Forge City(6)",51005,***,* ,*, *,3 or fewer,*
+"Amelia County(6)",51007,***,* ,*, *,3 or fewer,*
+"Amherst County(6)",51009,***,* ,*, *,3 or fewer,*
+"Appomattox County(6)",51011,***,* ,*, *,3 or fewer,*
+"Bath County(6)",51017,***,* ,*, *,3 or fewer,*
+"Bland County(6)",51021,***,* ,*, *,3 or fewer,*
+"Bristol City(6)",51520,***,* ,*, *,3 or fewer,*
+"Brunswick County(6)",51025,***,* ,*, *,3 or fewer,*
+"Buchanan County(6)",51027,***,* ,*, *,3 or fewer,*
+"Buckingham County(6)",51029,***,* ,*, *,3 or fewer,*
+"Buena Vista City(6)",51530,***,* ,*, *,3 or fewer,*
+"Carroll County(6)",51035,***,* ,*, *,3 or fewer,*
+"Charles City County(6)",51036,***,* ,*, *,3 or fewer,*
+"Charlotte County(6)",51037,***,* ,*, *,3 or fewer,*
+"Charlottesville City(6)",51540,***,* ,*, *,3 or fewer,*
+"Clarke County(6)",51043,***,* ,*, *,3 or fewer,*
+"Covington City(6)",51580,***,* ,*, *,3 or fewer,*
+"Craig County(6)",51045,***,* ,*, *,3 or fewer,*
+"Cumberland County(6)",51049,***,* ,*, *,3 or fewer,*
+"Dickenson County(6)",51051,***,* ,*, *,3 or fewer,*
+"Emporia City(6)",51595,***,* ,*, *,3 or fewer,*
+"Essex County(6)",51057,***,* ,*, *,3 or fewer,*
+"Fairfax City(6)",51600,***,* ,*, *,3 or fewer,*
+"Falls Church City(6)",51610,***,* ,*, *,3 or fewer,*
+"Floyd County(6)",51063,***,* ,*, *,3 or fewer,*
+"Fluvanna County(6)",51065,***,* ,*, *,3 or fewer,*
+"Franklin City(6)",51620,***,* ,*, *,3 or fewer,*
+"Fredericksburg City(6)",51630,***,* ,*, *,3 or fewer,*
+"Galax City(6)",51640,***,* ,*, *,3 or fewer,*
+"Giles County(6)",51071,***,* ,*, *,3 or fewer,*
+"Grayson County(6)",51077,***,* ,*, *,3 or fewer,*
+"Greene County(6)",51079,***,* ,*, *,3 or fewer,*
+"Greensville County(6)",51081,***,* ,*, *,3 or fewer,*
+"Harrisonburg City(6)",51660,***,* ,*, *,3 or fewer,*
+"Highland County(6)",51091,***,* ,*, *,3 or fewer,*
+"King George County(6)",51099,***,* ,*, *,3 or fewer,*
+"King William County(6)",51101,***,* ,*, *,3 or fewer,*
+"King and Queen County(6)",51097,***,* ,*, *,3 or fewer,*
+"Lancaster County(6)",51103,***,* ,*, *,3 or fewer,*
+"Lee County(6)",51105,***,* ,*, *,3 or fewer,*
+"Lexington City(6)",51678,***,* ,*, *,3 or fewer,*
+"Lunenburg County(6)",51111,***,* ,*, *,3 or fewer,*
+"Madison County(6)",51113,***,* ,*, *,3 or fewer,*
+"Manassas City(6)",51683,***,* ,*, *,3 or fewer,*
+"Manassas Park City(6)",51685,***,* ,*, *,3 or fewer,*
+"Martinsville City(6)",51690,***,* ,*, *,3 or fewer,*
+"Mathews County(6)",51115,***,* ,*, *,3 or fewer,*
+"Middlesex County(6)",51119,***,* ,*, *,3 or fewer,*
+"Nelson County(6)",51125,***,* ,*, *,3 or fewer,*
+"Northumberland County(6)",51133,***,* ,*, *,3 or fewer,*
+"Norton City(6)",51720,***,* ,*, *,3 or fewer,*
+"Nottoway County(6)",51135,***,* ,*, *,3 or fewer,*
+"Page County(6)",51139,***,* ,*, *,3 or fewer,*
+"Patrick County(6)",51141,***,* ,*, *,3 or fewer,*
+"Poquoson City(6)",51735,***,* ,*, *,3 or fewer,*
+"Prince Edward County(6)",51147,***,* ,*, *,3 or fewer,*
+"Radford City(6)",51750,***,* ,*, *,3 or fewer,*
+"Rappahannock County(6)",51157,***,* ,*, *,3 or fewer,*
+"Richmond County(6)",51159,***,* ,*, *,3 or fewer,*
+"Rockbridge County(6)",51163,***,* ,*, *,3 or fewer,*
+"Russell County(6)",51167,***,* ,*, *,3 or fewer,*
+"Salem City(6)",51775,***,* ,*, *,3 or fewer,*
+"Scott County(6)",51169,***,* ,*, *,3 or fewer,*
+"Smyth County(6)",51173,***,* ,*, *,3 or fewer,*
+"Staunton City(6)",51790,***,* ,*, *,3 or fewer,*
+"Surry County(6)",51181,***,* ,*, *,3 or fewer,*
+"Sussex County(6)",51183,***,* ,*, *,3 or fewer,*
+"Tazewell County(6)",51185,***,* ,*, *,3 or fewer,*
+"Washington County(6)",51191,***,* ,*, *,3 or fewer,*
+"Waynesboro City(6)",51820,***,* ,*, *,3 or fewer,*
+"Williamsburg City(6)",51830,***,* ,*, *,3 or fewer,*
+"Winchester City(6)",51840,***,* ,*, *,3 or fewer,*
+"Wise County(6)",51195,***,* ,*, *,3 or fewer,*
+"Wythe County(6)",51197,***,* ,*, *,3 or fewer,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:03 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+
+Rates are computed using cancers classified as malignant based on ICD-O-3. For more information see malignant.html.
+
+"^ Late Stage is defined as cases determined to be regional or distant. Coding is generally based on Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ] but may include other staging variables if necessary."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

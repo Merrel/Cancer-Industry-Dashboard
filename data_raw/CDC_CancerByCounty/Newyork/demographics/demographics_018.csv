@@ -1,0 +1,82 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=36&areatype=county&topic=pop&demo=00003&race=00&sex=0&age=999&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '36', 'areatype': 'county', 'topic': 'pop', 'demo': '00003', 'race': '00', 'sex': '0', 'age': '999', 'type': 'manyareacensus', 'file_name': 'demographics_018.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=36&areatype=county&topic=pop&demo=00003&race=00&sex=0&age=999&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for New York by County
+Population: Age 65 and over
+"All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Age 65 And Over),Rank within US
+"United States",00000,14.9,47732389,"N/A"
+"New York",36000,15.2,3008351,"28 of 52"
+"Bronx County",36005,11.8,171277,"2925 of 3141"
+"Jefferson County",36045,12.2,14245,"2868 of 3141"
+"Tompkins County",36109,12.7,13290,"2803 of 3141"
+"Kings County",36047,12.8,337741,"2786 of 3141"
+"Orange County",36071,13.0,49012,"2760 of 3141"
+"Queens County",36081,14.3,334838,"2531 of 3141"
+"Oswego County",36075,14.8,17685,"2430 of 3141"
+"Richmond County",36085,15.1,71694,"2360 of 3141"
+"Rockland County",36087,15.1,49088,"2351 of 3141"
+"New York County",36061,15.3,252718,"2309 of 3141"
+"Clinton County",36019,15.4,12534,"2273 of 3141"
+"Cortland County",36023,15.4,7459,"2272 of 3141"
+"Franklin County",36033,15.5,7909,"2256 of 3141"
+"Putnam County",36079,15.6,15514,"2223 of 3141"
+"Albany County",36001,15.6,48135,"2222 of 3141"
+"Rensselaer County",36083,15.6,24956,"2215 of 3141"
+"Suffolk County",36103,15.6,233897,"2214 of 3141"
+"Onondaga County",36067,15.7,73551,"2183 of 3141"
+"St. Lawrence County",36089,15.8,17477,"2175 of 3141"
+"Monroe County",36055,15.9,118667,"2152 of 3141"
+"Westchester County",36119,16.0,156260,"2092 of 3141"
+"Dutchess County",36027,16.0,47422,"2084 of 3141"
+"Wyoming County",36121,16.1,6567,"2076 of 3141"
+"Livingston County",36051,16.1,10387,"2057 of 3141"
+"Schenectady County",36093,16.2,25120,"2045 of 3141"
+"Madison County",36053,16.3,11723,"1984 of 3141"
+"Orleans County",36073,16.5,6845,"1954 of 3141"
+"Saratoga County",36091,16.5,37371,"1944 of 3141"
+"Lewis County",36049,16.7,4475,"1879 of 3141"
+"Nassau County",36059,16.8,228558,"1851 of 3141"
+"Erie County",36029,16.9,155817,"1821 of 3141"
+"Wayne County",36117,17.2,15725,"1715 of 3141"
+"Chemung County",36015,17.3,14998,"1692 of 3141"
+"Allegany County",36003,17.4,8229,"1653 of 3141"
+"Cayuga County",36011,17.4,13610,"1647 of 3141"
+"Sullivan County",36105,17.5,13236,"1617 of 3141"
+"Genesee County",36037,17.6,10301,"1577 of 3141"
+"Oneida County",36065,17.7,41019,"1554 of 3141"
+"Cattaraugus County",36009,17.7,13811,"1550 of 3141"
+"Seneca County",36099,17.7,6158,"1546 of 3141"
+"Niagara County",36063,17.7,37617,"1541 of 3141"
+"Washington County",36115,17.7,11034,"1521 of 3141"
+"Montgomery County",36057,17.9,8852,"1474 of 3141"
+"Broome County",36007,17.9,35094,"1471 of 3141"
+"Steuben County",36101,17.9,17489,"1467 of 3141"
+"Ulster County",36111,18.0,32421,"1449 of 3141"
+"Fulton County",36035,18.2,9802,"1396 of 3141"
+"Ontario County",36069,18.2,19926,"1384 of 3141"
+"Chautauqua County",36013,18.5,24230,"1284 of 3141"
+"Tioga County",36107,18.5,9139,"1281 of 3141"
+"Herkimer County",36043,19.0,11947,"1139 of 3141"
+"Yates County",36123,19.0,4763,"1136 of 3141"
+"Chenango County",36017,19.2,9347,"1080 of 3141"
+"Otsego County",36077,19.3,11702,"1053 of 3141"
+"Schuyler County",36097,19.4,3508,"1024 of 3141"
+"Schoharie County",36095,19.4,6137,"1007 of 3141"
+"Warren County",36113,20.3,13127,"786 of 3141"
+"Greene County",36039,20.3,9702,"784 of 3141"
+"Essex County",36031,21.4,8176,"577 of 3141"
+"Columbia County",36021,21.6,13273,"548 of 3141"
+"Delaware County",36025,22.8,10464,"399 of 3141"
+"Hamilton County",36041,27.6,1282,"82 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:19 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Age 65 and over, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

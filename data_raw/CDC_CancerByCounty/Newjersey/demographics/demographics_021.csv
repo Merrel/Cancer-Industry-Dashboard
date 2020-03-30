@@ -1,0 +1,41 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=34&areatype=county&topic=pop&demo=00022&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '34', 'areatype': 'county', 'topic': 'pop', 'demo': '00022', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_021.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=34&areatype=county&topic=pop&demo=00022&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for New Jersey by County
+Population: Black
+"All Ages, Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Black),Rank within US
+"United States",00000,12.7,40610815,"N/A"
+"New Jersey",34000,13.5,1207356,"17 of 52"
+"Sussex County",34037,2.1,2997,"1605 of 3141"
+"Hunterdon County",34019,2.7,3406,"1466 of 3141"
+"Ocean County",34029,3.0,17800,"1408 of 3141"
+"Morris County",34027,3.2,16065,"1374 of 3141"
+"Warren County",34041,4.4,4663,"1205 of 3141"
+"Cape May County",34009,4.5,4298,"1188 of 3141"
+"Bergen County",34003,6.0,56391,"1038 of 3141"
+"Monmouth County",34025,7.2,45144,"947 of 3141"
+"Somerset County",34035,9.4,31335,"821 of 3141"
+"Middlesex County",34023,10.0,84015,"792 of 3141"
+"Gloucester County",34015,10.3,29948,"783 of 3141"
+"Passaic County",34031,11.8,60323,"711 of 3141"
+"Hudson County",34017,12.4,84114,"701 of 3141"
+"Salem County",34033,13.3,8473,"668 of 3141"
+"Atlantic County",34001,15.1,41259,"611 of 3141"
+"Burlington County",34005,16.4,73690,"580 of 3141"
+"Cumberland County",34011,19.2,29732,"513 of 3141"
+"Camden County",34007,19.4,99014,"509 of 3141"
+"Mercer County",34021,20.5,76559,"489 of 3141"
+"Union County",34039,21.1,117852,"474 of 3141"
+"Essex County",34013,40.0,320278,"192 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:18 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Black, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

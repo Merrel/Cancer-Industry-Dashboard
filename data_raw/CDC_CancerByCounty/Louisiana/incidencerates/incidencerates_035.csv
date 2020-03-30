@@ -1,0 +1,105 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=22&areatype=county&cancer=001&race=00&sex=0&age=006&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '22', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '0', 'age': '006', 'type': 'incd', 'file_name': 'incidencerates_035.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=22&areatype=county&cancer=001&race=00&sex=0&age=006&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Louisiana by Parish
+
+"All Cancer Sites (All Stages^), 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, Ages <65"
+
+Sorted by Rate
+
+Parish, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Louisiana(7,8)",22000,***,248.6 ,246.5, 250.7,11839,stable,-0.2 ,-0.6, 0.2
+"US (SEER+NPCR)(1,10)",00000,***,225.9 ,225.7, 226.1,737439,stable,-0.2 ,-1.1, 0.7
+"Iberville Parish(7,8)",22047,***,307.5 ,281.7, 335.2,111,rising,1.8 ,0.5, 3.1
+"East Carroll Parish(7,8)",22035,***,306.2 ,251, 370.2,23,stable,1.7 ,-0.6, 4.1
+"Bienville Parish(7,8)",22013,***,293.5 ,253.1, 338.8,42,stable,-0.2 ,-2.4, 2.0
+"St. Helena Parish(7,8)",22091,***,292.5 ,246.5, 345,33,rising,2.7 ,0.9, 4.5
+"East Feliciana Parish(7,8)",22037,***,290.2 ,258.8, 324.7,69,rising,1.9 ,0.8, 3.1
+"De Soto Parish(7,8)",22031,***,288.6 ,260.6, 319,85,stable,0.6 ,-0.6, 1.9
+"Morehouse Parish(7,8)",22067,***,288.5 ,259.6, 319.8,81,stable,1.9 ,0.0, 3.8
+"St. Landry Parish(7,8)",22097,***,282.5 ,266, 299.8,238,rising,1.2 ,0.3, 2.1
+"Catahoula Parish(7,8)",22025,***,279.6 ,235.2, 330.5,31,stable,1.3 ,-1.1, 3.7
+"Vernon Parish(7,8)",22115,***,275.2 ,252.9, 298.9,116,rising,1.9 ,0.9, 2.8
+"Cameron Parish(7,8)",22023,***,272.9 ,219.4, 336.3,20,stable,-1.1 ,-3.2, 0.9
+"West Baton Rouge Parish(7,8)",22121,***,270.9 ,242.9, 301.5,72,stable,0.5 ,-0.9, 1.9
+"St. James Parish(7,8)",22093,***,266.5 ,235.7, 300.5,61,rising,2.0 ,0.3, 3.8
+"St. Martin Parish(7,8)",22099,***,266.3 ,247.1, 286.5,153,rising,1.7 ,0.4, 2.9
+"Washington Parish(7,8)",22117,***,265.8 ,245, 288,132,stable,-0.4 ,-1.8, 1.1
+"Winn Parish(7,8)",22127,***,265 ,229.2, 305.1,42,stable,-0.1 ,-2.7, 2.5
+"Acadia Parish(7,8)",22001,***,264.8 ,246.6, 284.2,167,stable,0.4 ,-0.4, 1.3
+"Pointe Coupee Parish(7,8)",22077,***,263.6 ,233.4, 296.9,64,stable,0.8 ,-0.8, 2.3
+"Terrebonne Parish(7,8)",22109,***,263.3 ,249.8, 277.3,301,rising,0.9 ,0.2, 1.6
+"Evangeline Parish(7,8)",22039,***,262.3 ,237.7, 288.9,88,rising,1.5 ,0.5, 2.6
+"Webster Parish(7,8)",22119,***,261.8 ,239.8, 285.4,113,stable,-0.3 ,-1.3, 0.6
+"Allen Parish(7,8)",22003,***,259.6 ,232.4, 289.3,68,stable,1.3 ,-0.2, 2.7
+"West Feliciana Parish(7,8)",22125,***,258.7 ,226.9, 294.5,50,stable,1.3 ,-0.3, 2.8
+"Caddo Parish(7,8)",22017,***,257.6 ,248.6, 266.9,666,stable,0.4 ,0.0, 0.8
+"Iberia Parish(7,8)",22045,***,254.9 ,238.3, 272.3,190,stable,-5.1 ,-16.5, 7.9
+"Vermilion Parish(7,8)",22113,***,254.7 ,236.5, 273.9,155,stable,0.1 ,-1.2, 1.4
+"Assumption Parish(7,8)",22007,***,254.6 ,226.4, 285.6,64,stable,-0.3 ,-1.8, 1.2
+"Claiborne Parish(7,8)",22027,***,254.5 ,221.2, 291.9,45,stable,1.9 ,-0.7, 4.6
+"Jefferson Davis Parish(7,8)",22053,***,252.3 ,227.2, 279.6,79,stable,0.3 ,-1.3, 2.0
+"St. John the Baptist Parish(7,8)",22095,***,252 ,231.4, 274,118,stable,0.3 ,-0.6, 1.3
+"Natchitoches Parish(7,8)",22069,***,251.8 ,228.2, 277.3,90,rising,1.4 ,0.2, 2.6
+"St. Tammany Parish(7,8)",22103,***,251.7 ,243, 260.8,674,stable,0.2 ,-0.6, 0.9
+"Concordia Parish(7,8)",22029,***,250.8 ,220.1, 284.7,53,stable,-8.0 ,-17.3, 2.2
+"East Baton Rouge Parish(7,8)",22033,***,250.3 ,243.4, 257.3,1074,stable,0.5 ,0.0, 1.1
+"St. Mary Parish(7,8)",22101,***,249 ,230, 269.1,138,stable,-0.2 ,-1.3, 0.8
+"Calcasieu Parish(7,8)",22019,***,248.3 ,238.3, 258.6,499,falling,-1.9 ,-3.3, -0.5
+"Franklin Parish(7,8)",22041,***,248.1 ,217.6, 281.9,53,stable,1.1 ,-0.4, 2.7
+"Avoyelles Parish(7,8)",22009,***,246.5 ,225.3, 269.3,106,stable,0.7 ,-0.6, 2.0
+"LaFourche Parish(7,8)",22057,***,246.2 ,232.3, 260.8,246,rising,1.0 ,0.1, 1.8
+"Livingston Parish(7,8)",22063,***,245.6 ,233.7, 257.9,331,stable,-0.2 ,-0.7, 0.4
+"Tangipahoa Parish(7,8)",22105,***,244.8 ,232.3, 257.8,308,stable,0.3 ,-0.6, 1.2
+"Rapides Parish(7,8)",22079,***,244.8 ,232.7, 257.3,330,stable,0.1 ,-0.7, 1.0
+"Ouachita Parish(7,8)",22073,***,244 ,232.7, 255.6,374,stable,0.0 ,-0.6, 0.6
+"Ascension Parish(7,8)",22005,***,243.5 ,230.8, 256.6,283,stable,-0.2 ,-0.7, 0.4
+"Jefferson Parish(7,8)",22051,***,241.7 ,235.3, 248.3,1150,stable,0.4 ,0.0, 0.9
+"Richland Parish(7,8)",22083,***,241.5 ,211.6, 274.6,52,stable,0.0 ,-1.5, 1.5
+"Lafayette Parish(7,8)",22055,***,241.2 ,232.2, 250.5,565,stable,0.1 ,-0.5, 0.7
+"Orleans Parish(7,8)",22071,***,235.6 ,228.7, 242.7,954,stable,-1.9 ,-4.5, 0.8
+"Bossier Parish(7,8)",22015,***,235.4 ,223, 248.4,281,stable,0.1 ,-1.0, 1.2
+"Plaquemines Parish(7,8)",22075,***,235.3 ,207.9, 265.5,55,stable,-0.4 ,-1.7, 0.9
+"West Carroll Parish(7,8)",22123,***,234.8 ,195.4, 280.2,27,stable,0.6 ,-1.6, 3.0
+"Sabine Parish(7,8)",22085,***,234.6 ,207.3, 264.7,59,stable,-0.7 ,-2.1, 0.7
+"Caldwell Parish(7,8)",22021,***,234.3 ,194, 281.1,25,stable,-0.5 ,-2.6, 1.6
+"Jackson Parish(7,8)",22049,***,232.2 ,198.5, 270.2,37,stable,0.3 ,-2.1, 2.9
+"St. Bernard Parish(7,8)",22087,***,230.6 ,210.5, 252.2,101,stable,0.1 ,-0.9, 1.1
+"Beauregard Parish(7,8)",22011,***,228.8 ,207, 252.4,84,stable,0.7 ,-0.3, 1.8
+"Grant Parish(7,8)",22043,***,228.1 ,200.9, 258.3,52,stable,-0.1 ,-1.2, 1.0
+"Union Parish(7,8)",22111,***,228 ,200.2, 258.8,56,stable,-0.1 ,-1.9, 1.8
+"St. Charles Parish(7,8)",22089,***,226.6 ,209.1, 245.2,132,stable,-0.4 ,-1.2, 0.4
+"Lincoln Parish(7,8)",22061,***,221.6 ,199.9, 245,83,stable,-0.7 ,-2.3, 0.9
+"La Salle Parish(7,8)",22059,***,221.5 ,188.4, 258.9,34,stable,-0.4 ,-2.6, 1.8
+"Madison Parish(7,8)",22065,***,209.8 ,173.5, 251.7,25,stable,-1.5 ,-4.6, 1.7
+"Red River Parish(7,8)",22081,***,206.3 ,165.3, 254.9,19,stable,-0.1 ,-2.2, 2.1
+"Tensas Parish(7,8)",22107,***,168.4 ,121.8, 229.2,10,stable,-2.6 ,-5.6, 0.5
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:18 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+7 Source: SEER November 2018 submission.
+"8 Source: Incidence data provided by the SEER Program. ( http://seer.cancer.gov ) AAPCs are calculated by the Joinpoint Regression Program ( https://surveillance.cancer.gov/joinpoint/ ) and are based on APCs. Data are age-adjusted to the 2000 US standard population ( http://www.seer.cancer.gov/stdpopulations/single_age.html ) (19 age groups: <1, 1-4, 5-9, ... , 80-84,85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Population counts for denominators are based on Census populations as modifed by NCI. The 1969-2017 US Population Data ( http://seer.cancer.gov/popdata/ ) File is used with SEER November 2018 data. "
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

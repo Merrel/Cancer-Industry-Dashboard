@@ -1,0 +1,34 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=50&areatype=county&topic=pop&demo=00002&race=00&sex=0&age=999&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '50', 'areatype': 'county', 'topic': 'pop', 'demo': '00002', 'race': '00', 'sex': '0', 'age': '999', 'type': 'manyareacensus', 'file_name': 'demographics_013.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=50&areatype=county&topic=pop&demo=00002&race=00&sex=0&age=999&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Vermont by County
+Population: Age under 18
+"All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Age Under 18),Rank within US
+"Vermont",50000,19.2,119780,"51 of 52"
+"United States",00000,22.9,73601279,"N/A"
+"Grand Isle County",50013,17.6,1225,"2938 of 3141"
+"Essex County",50009,17.9,1112,"2907 of 3141"
+"Addison County",50001,17.9,6602,"2906 of 3141"
+"Rutland County",50021,18.1,10798,"2884 of 3141"
+"Chittenden County",50007,18.4,29690,"2820 of 3141"
+"Windham County",50025,18.5,8037,"2813 of 3141"
+"Windsor County",50027,18.6,10320,"2809 of 3141"
+"Orange County",50017,19.1,5512,"2725 of 3141"
+"Bennington County",50003,19.3,6941,"2689 of 3141"
+"Washington County",50023,19.4,11401,"2639 of 3141"
+"Orleans County",50019,20.1,5407,"2473 of 3141"
+"Caledonia County",50005,20.3,6197,"2405 of 3141"
+"Lamoille County",50015,21.3,5368,"2039 of 3141"
+"Franklin County",50011,22.9,11170,"1373 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:20 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Age under 18, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

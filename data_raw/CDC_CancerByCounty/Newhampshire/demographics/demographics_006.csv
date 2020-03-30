@@ -1,0 +1,29 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=33&areatype=county&topic=ins&demo=00043&race=00&sex=0&age=006&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '33', 'areatype': 'county', 'topic': 'ins', 'demo': '00043', 'race': '00', 'sex': '0', 'age': '006', 'type': 'manyareacensus', 'file_name': 'demographics_006.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=33&areatype=county&topic=ins&demo=00043&race=00&sex=0&age=006&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for New Hampshire by County
+"Insurance: Percent uninsured in demographic group, people at or below 138% of poverty"
+"Ages <65, All Races (includes Hispanic), Both Sexes"
+2017 Small Area Health Insurance Estimates Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Uninsured),Rank within US
+"New Hampshire",33000,12.9,16995,"19 of 51"
+"Coos County",33007,9.7,468,"392 of 3139"
+"Sullivan County",33019,10.5,578,"580 of 3139"
+"Belknap County",33001,11.1,800,"697 of 3139"
+"Cheshire County",33005,11.3,998,"736 of 3139"
+"Hillsborough County",33011,13.2,5407,"1030 of 3139"
+"Rockingham County",33015,13.2,2483,"1030 of 3139"
+"Strafford County",33017,13.2,1939,"1030 of 3139"
+"Merrimack County",33013,13.4,2019,"1067 of 3139"
+"Carroll County",33003,13.5,783,"1080 of 3139"
+"Grafton County",33009,14.7,1520,"1221 of 3139"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:17 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & Small Area Health Insurance Estimates (https://www.census.gov/programs-surveys/sahie.html).
+"For more information about Insurance: Percent uninsured in demographic group, people at or below 138% of poverty, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#insurance."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

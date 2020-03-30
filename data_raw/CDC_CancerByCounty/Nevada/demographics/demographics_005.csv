@@ -1,0 +1,38 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=32&areatype=county&topic=inc&demo=00011&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '32', 'areatype': 'county', 'topic': 'inc', 'demo': '00011', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_005.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=32&areatype=county&topic=inc&demo=00011&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Nevada by County
+Income: Median household income
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Dollars),Rank within US
+"Nevada",32000,55434.000000000,"29 of 52"
+"United States",00000,57652.000000000,"N/A"
+"Mineral County",32021,39375.000000000,"2523 of 3141"
+"Esmeralda County",32009,39405.000000000,"2520 of 3141"
+"Nye County",32023,44225.000000000,"2015 of 3141"
+"Churchill County",32001,46914.000000000,"1692 of 3141"
+"Carson City",32510,49341.000000000,"1434 of 3141"
+"Lyon County",32019,50920.000000000,"1241 of 3141"
+"Pershing County",32027,52308.000000000,"1082 of 3141"
+"Lincoln County",32017,52971.000000000,"1020 of 3141"
+"Clark County",32003,54882.000000000,"848 of 3141"
+"Washoe County",32031,58595.000000000,"597 of 3141"
+"White Pine County",32033,60358.000000000,"502 of 3141"
+"Douglas County",32005,61176.000000000,"460 of 3141"
+"Storey County",32029,63607.000000000,"357 of 3141"
+"Eureka County",32011,67159.000000000,"267 of 3141"
+"Humboldt County",32013,69324.000000000,"228 of 3141"
+"Elko County",32007,76178.000000000,"145 of 3141"
+"Lander County",32015,79865.000000000,"111 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:18 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Income: Median household income, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#income."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"Median Incomes over 250,000 have been coded to 250,001 by the Census Bureau. [ http://www2.census.gov/acs2012_5yr/summaryfile/ACS_2008-2012_SF_Tech_Doc.pdf ]"
+Data for United States does not include Puerto Rico.

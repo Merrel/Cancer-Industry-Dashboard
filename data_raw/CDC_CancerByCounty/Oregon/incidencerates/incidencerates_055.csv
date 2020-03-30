@@ -1,0 +1,76 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=41&areatype=county&cancer=066&stage=211&race=00&sex=1&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '41', 'areatype': 'county', 'cancer': '066', 'stage': '211', 'race': '00', 'sex': '1', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_055.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=41&areatype=county&cancer=066&stage=211&race=00&sex=1&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Oregon by County
+
+"Prostate (Late Stage^), 2012-2016"
+
+"All Races (includes Hispanic), Male, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Percent of Cases with Late Stage
+"Oregon(6)",41000,***,22.4 ,21.5, 23.3,556,24.8
+"US (SEER+NPCR)(1)",00000,***,20.1 ,20, 20.2,36257,19.4
+"Hood River County(6)",41027,***,34.6 ,21.5, 53,5,35.9
+"Crook County(6)",41013,***,29 ,19.3, 43.7,6,29.6
+"Clatsop County(6)",41007,***,29 ,20.8, 39.9,9,34.4
+"Jefferson County(6)",41031,***,28.6 ,18, 44,5,32.9
+"Tillamook County(6)",41057,***,27.7 ,18.9, 40.4,7,34.4
+"Clackamas County(6)",41005,***,26.1 ,23.3, 29.2,67,26.8
+"Klamath County(6)",41035,***,25.6 ,19.3, 33.5,12,31.2
+"Multnomah County(6)",41051,***,24.8 ,22.4, 27.3,93,25.7
+"Washington County(6)",41067,***,24.7 ,22, 27.6,65,27.4
+"Marion County(6)",41047,***,24.7 ,21.4, 28.2,44,24.5
+"Columbia County(6)",41009,***,24.6 ,17.7, 33.6,9,26.5
+"Jackson County(6)",41029,***,24.5 ,21.1, 28.3,39,30.4
+"Yamhill County(6)",41071,***,24.4 ,19.2, 30.8,15,32.5
+"Deschutes County(6)",41017,***,23.8 ,20, 28.2,30,21.9
+"Polk County(6)",41053,***,22.8 ,17.1, 29.9,11,23.4
+"Union County(6)",41061,***,21.9 ,13, 35.1,4,24.7
+"Lincoln County(6)",41041,***,21.1 ,15.2, 29.2,9,23.4
+"Josephine County(6)",41033,***,21 ,16.6, 26.5,16,27.6
+"Curry County(6)",41015,***,20 ,11.9, 33.5,4,42.9
+"Umatilla County(6)",41059,***,19.6 ,14.1, 26.6,9,23.9
+"Coos County(6)",41011,***,19.2 ,14.4, 25.5,11,28.6
+"Linn County(6)",41043,***,17.4 ,13.5, 22.3,14,20.1
+"Lane County(6)",41039,***,17.1 ,14.7, 19.7,41,18.0
+"Douglas County(6)",41019,***,16 ,12.4, 20.5,14,15.8
+"Benton County(6)",41003,***,14.6 ,10, 20.7,7,16.3
+"Baker County(6)",41001,***,* ,*, *,3 or fewer,*
+"Gilliam County(6)",41021,***,* ,*, *,3 or fewer,*
+"Grant County(6)",41023,***,* ,*, *,3 or fewer,*
+"Harney County(6)",41025,***,* ,*, *,3 or fewer,*
+"Lake County(6)",41037,***,* ,*, *,3 or fewer,*
+"Malheur County(6)",41045,***,* ,*, *,3 or fewer,*
+"Morrow County(6)",41049,***,* ,*, *,3 or fewer,*
+"Sherman County(6)",41055,***,* ,*, *,3 or fewer,*
+"Wallowa County(6)",41063,***,* ,*, *,3 or fewer,*
+"Wasco County(6)",41065,***,* ,*, *,3 or fewer,*
+"Wheeler County(6)",41069,***,* ,*, *,3 or fewer,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:20 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+
+Rates are computed using cancers classified as malignant based on ICD-O-3. For more information see malignant.html.
+
+"^ Late Stage is defined as cases determined to be regional or distant. Coding is generally based on Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ] but may include other staging variables if necessary."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

@@ -1,0 +1,164 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=21&areatype=county&cancer=001&race=06&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '21', 'areatype': 'county', 'cancer': '001', 'race': '06', 'sex': '0', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_025.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=21&areatype=county&cancer=001&race=06&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Kentucky by County
+
+"All Cancer Sites (All Stages^), 2012-2016"
+
+"White Hispanic, Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Kentucky(7,8)",21000,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"US (SEER+NPCR) &sect; (1,10)",00000,***,345.6 ,344.7, 346.5,116172,falling,-1.7 ,-2.8, -0.6
+"Adair County(7)",21001,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Allen County(7)",21003,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Anderson County(7)",21005,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Ballard County(7)",21007,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Barren County(7)",21009,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Bath County(7)",21011,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Bell County(7)",21013,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Boone County(7)",21015,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Bourbon County(7)",21017,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Boyd County(7)",21019,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Boyle County(7)",21021,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Bracken County(7)",21023,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Breathitt County(7)",21025,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Breckinridge County(7)",21027,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Bullitt County(7)",21029,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Butler County(7)",21031,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Caldwell County(7)",21033,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Calloway County(7)",21035,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Campbell County(7)",21037,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Carlisle County(7)",21039,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Carroll County(7)",21041,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Carter County(7)",21043,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Casey County(7)",21045,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Christian County(7)",21047,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Clark County(7)",21049,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Clay County(7)",21051,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Clinton County(7)",21053,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Crittenden County(7)",21055,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Cumberland County(7)",21057,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Daviess County(7,8)",21059,***,§§ ,§§, §§,§§,*,*,*,*
+"Edmonson County(7)",21061,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Elliott County(7)",21063,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Estill County(7)",21065,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Fayette County(7,8)",21067,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Fleming County(7)",21069,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Floyd County(7)",21071,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Franklin County(7)",21073,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Fulton County(7)",21075,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Gallatin County(7)",21077,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Garrard County(7)",21079,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Grant County(7)",21081,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Graves County(7)",21083,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Grayson County(7)",21085,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Green County(7)",21087,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Greenup County(7)",21089,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Hancock County(7)",21091,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Hardin County(7)",21093,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Harlan County(7)",21095,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Harrison County(7)",21097,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Hart County(7)",21099,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Henderson County(7)",21101,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Henry County(7)",21103,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Hickman County(7)",21105,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Hopkins County(7)",21107,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Jackson County(7)",21109,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Jefferson County(7,8)",21111,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Jessamine County(7)",21113,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Johnson County(7)",21115,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Kenton County(7,8)",21117,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Knott County(7)",21119,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Knox County(7)",21121,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Larue County(7)",21123,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Laurel County(7)",21125,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Lawrence County(7)",21127,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Lee County(7)",21129,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Leslie County(7)",21131,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Letcher County(7)",21133,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Lewis County(7)",21135,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Lincoln County(7)",21137,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Livingston County(7)",21139,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Logan County(7)",21141,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Lyon County(7)",21143,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Madison County(7)",21151,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Magoffin County(7)",21153,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Marion County(7)",21155,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Marshall County(7)",21157,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Martin County(7)",21159,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Mason County(7)",21161,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"McCracken County(7)",21145,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"McCreary County(7)",21147,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"McLean County(7)",21149,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Meade County(7)",21163,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Menifee County(7)",21165,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Mercer County(7)",21167,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Metcalfe County(7)",21169,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Monroe County(7)",21171,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Montgomery County(7)",21173,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Morgan County(7)",21175,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Muhlenberg County(7)",21177,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Nelson County(7)",21179,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Nicholas County(7)",21181,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Ohio County(7)",21183,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Oldham County(7)",21185,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Owen County(7)",21187,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Owsley County(7)",21189,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Pendleton County(7)",21191,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Perry County(7)",21193,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Pike County(7)",21195,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Powell County(7)",21197,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Pulaski County(7)",21199,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Robertson County(7)",21201,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Rockcastle County(7)",21203,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Rowan County(7)",21205,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Russell County(7)",21207,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Scott County(7)",21209,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Shelby County(7)",21211,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Simpson County(7)",21213,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Spencer County(7)",21215,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Taylor County(7)",21217,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Todd County(7)",21219,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Trigg County(7)",21221,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Trimble County(7)",21223,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Union County(7)",21225,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Warren County(7)",21227,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Washington County(7)",21229,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Wayne County(7)",21231,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Webster County(7)",21233,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Whitley County(7)",21235,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Wolfe County(7)",21237,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+"Woodford County(7)",21239,***,§§ ,§§, §§,§§,§§,§§,§§,§§
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:17 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+"§§, §§§ Data not available [ https://statecancerprofiles.cancer.gov/datanotavailable.html ] for this combination of geography, statistic, age, and race/ethnicity."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+7 Source: SEER November 2018 submission.
+"8 Source: Incidence data provided by the SEER Program. ( http://seer.cancer.gov ) AAPCs are calculated by the Joinpoint Regression Program ( https://surveillance.cancer.gov/joinpoint/ ) and are based on APCs. Data are age-adjusted to the 2000 US standard population ( http://www.seer.cancer.gov/stdpopulations/single_age.html ) (19 age groups: <1, 1-4, 5-9, ... , 80-84,85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Population counts for denominators are based on Census populations as modifed by NCI. The 1969-2017 US Population Data ( http://seer.cancer.gov/popdata/ ) File is used with SEER November 2018 data. "
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+"Data not available [http://statecancerprofiles.cancer.gov/datanotavailable.html] for this combination of geography, cancer site, age, and race/ethnicity."
+Data for United States does not include Puerto Rico.

@@ -1,0 +1,107 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=42&areatype=county&cancer=001&race=00&sex=0&age=136&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '42', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '0', 'age': '136', 'type': 'death', 'file_name': 'deathrates_036.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=42&areatype=county&cancer=001&race=00&sex=0&age=136&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for Pennsylvania by County
+
+"All Cancer Sites, 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, Ages 50+"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 161.4?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Pennsylvania",42000,No,568.4 ,565.3, 571.5,27355,falling,-1.4 ,-1.5, -1.3
+"United States",00000,No,540.6 ,539.9, 541.2,558319,falling,-1.5 ,-1.5, -1.5
+"Philadelphia County",42101,No,658.8 ,648.1, 669.6,2999,falling,-1.7 ,-1.9, -1.5
+"Potter County",42105,No,654.1 ,576.5, 739.2,52,stable,-0.4 ,-1.2, 0.3
+"Schuylkill County",42107,No,650.6 ,622, 680.3,399,falling,-0.6 ,-0.8, -0.4
+"Fulton County",42057,No,643.5 ,555.8, 741.1,39,stable,0.0 ,-1.2, 1.2
+"Clinton County",42035,No,640.7 ,583.7, 701.8,94,stable,-0.5 ,-1.1, 0.2
+"Greene County",42059,No,639.8 ,581.4, 702.6,91,stable,-0.3 ,-0.9, 0.2
+"Carbon County",42025,No,638.6 ,596.2, 683.1,173,falling,-0.8 ,-1.3, -0.3
+"Sullivan County",42113,No,632.5 ,516.5, 766.7,21,stable,-1.0 ,-2.1, 0.1
+"Elk County",42047,No,626.2 ,569, 687.6,89,falling,-0.8 ,-1.2, -0.4
+"Venango County",42121,No,625.1 ,580.5, 672.2,149,falling,-0.7 ,-1.1, -0.2
+"Fayette County",42051,No,619.5 ,590.7, 649.4,358,falling,-0.8 ,-1.2, -0.4
+"Warren County",42123,No,610.8 ,560.9, 663.9,113,falling,-0.8 ,-1.3, -0.3
+"Jefferson County",42065,No,606.5 ,557.6, 658.5,115,falling,-0.7 ,-1.0, -0.3
+"Wyoming County",42131,No,606.3 ,542.2, 675.8,68,stable,-0.4 ,-0.9, 0.1
+"Forest County",42053,No,605.5 ,485.9, 745.4,18,stable,-1.2 ,-2.4, 0.0
+"Washington County",42125,No,600.8 ,577.8, 624.6,527,falling,-0.9 ,-1.1, -0.6
+"Luzerne County",42079,No,598.5 ,579.8, 617.7,797,falling,-0.8 ,-1.0, -0.6
+"Erie County",42049,No,597.4 ,575.9, 619.6,603,falling,-0.8 ,-1.1, -0.6
+"Lackawanna County",42069,No,594.8 ,571.9, 618.5,525,falling,-0.9 ,-1.1, -0.6
+"Bradford County",42015,No,594.3 ,552.8, 638,155,stable,-0.4 ,-0.8, 0.1
+"Lawrence County",42073,No,594.2 ,560.5, 629.4,241,falling,-0.8 ,-1.1, -0.5
+"Northumberland County",42097,No,589.3 ,555.8, 624.2,238,falling,-1.1 ,-1.4, -0.7
+"Crawford County",42039,No,588.3 ,552.4, 626,205,falling,-0.4 ,-0.8, -0.1
+"Monroe County",42089,No,588.2 ,559.8, 617.7,337,falling,-1.3 ,-1.7, -1.0
+"Clearfield County",42033,No,586.9 ,550.6, 625,197,falling,-0.6 ,-0.9, -0.3
+"Delaware County",42045,No,586 ,570.7, 601.6,1169,falling,-2.6 ,-4.2, -1.0
+"Allegheny County",42003,No,585 ,575.3, 594.9,2878,falling,-1.7 ,-2.1, -1.4
+"Lycoming County",42081,No,584.7 ,553.3, 617.5,267,falling,-0.7 ,-1.0, -0.4
+"Beaver County",42007,No,584.7 ,560.1, 610.1,437,falling,-1.2 ,-1.4, -1.0
+"Wayne County",42127,No,583.4 ,540.1, 629.1,138,falling,-2.4 ,-3.7, -1.2
+"Perry County",42099,No,582.8 ,530.9, 638.3,97,falling,-0.7 ,-1.1, -0.2
+"Juniata County",42067,No,581.4 ,516.1, 652.8,58,falling,-0.7 ,-1.3, -0.1
+"Mifflin County",42087,No,579 ,532.5, 628.4,117,falling,-0.7 ,-1.3, -0.2
+"Westmoreland County",42129,No,571.1 ,554.7, 587.9,942,falling,-0.9 ,-1.1, -0.8
+"Adams County",42001,No,564.3 ,531.5, 598.5,226,falling,-1.1 ,-1.4, -0.7
+"Blair County",42013,No,562.8 ,534, 592.6,296,falling,-1.8 ,-2.5, -1.1
+"Lebanon County",42075,No,562.2 ,534.2, 591.2,311,falling,-0.7 ,-1.0, -0.4
+"McKean County",42083,No,560.6 ,510.7, 614,95,falling,-1.1 ,-1.6, -0.5
+"Mercer County",42085,No,558.8 ,529.4, 589.3,281,falling,-0.8 ,-1.2, -0.4
+"Tioga County",42117,No,557.7 ,509.3, 609.4,99,falling,-0.8 ,-1.4, -0.2
+"Armstrong County",42005,No,555.4 ,517.9, 594.9,166,falling,-1.1 ,-1.6, -0.5
+"York County",42133,No,553 ,536.4, 570,863,falling,-1.0 ,-1.2, -0.9
+"Clarion County",42031,No,550.8 ,499.6, 605.9,86,stable,-0.6 ,-1.3, 0.2
+"Montour County",42093,No,549.1 ,478, 627.8,45,stable,-0.8 ,-1.7, 0.0
+"Cambria County",42021,No,549 ,523, 576,347,falling,-1.0 ,-1.3, -0.7
+"Susquehanna County",42115,No,548.8 ,502, 598.9,103,falling,-1.2 ,-1.8, -0.5
+"Somerset County",42111,No,547.9 ,512.9, 584.7,188,falling,-0.6 ,-1.0, -0.3
+"Northampton County",42095,No,547.8 ,528.7, 567.4,645,falling,-1.1 ,-1.3, -0.9
+"Lehigh County",42077,No,543 ,524.9, 561.6,699,falling,-1.0 ,-1.2, -0.9
+"Berks County",42011,No,538.2 ,521.4, 555.4,800,falling,-1.1 ,-1.3, -0.9
+"Butler County",42019,No,537.1 ,512.8, 562.3,380,falling,-1.7 ,-2.1, -1.2
+"Dauphin County",42043,No,536.8 ,515.8, 558.4,510,falling,-1.4 ,-1.6, -1.1
+"Bucks County",42017,No,536.3 ,523, 549.9,1269,falling,-1.5 ,-1.7, -1.3
+"Huntingdon County",42061,No,533.8 ,487.2, 583.6,98,stable,-0.6 ,-1.2, 0.1
+"Pike County",42103,No,531.9 ,490.3, 575.9,125,falling,-1.2 ,-1.9, -0.5
+"Bedford County",42009,No,526.9 ,484.8, 571.6,117,stable,-0.7 ,-1.4, 0.0
+"Franklin County",42055,No,526 ,500.2, 552.7,317,falling,-1.1 ,-1.4, -0.8
+"Columbia County",42037,No,518.7 ,479.8, 560,134,falling,-0.8 ,-1.3, -0.3
+"Chester County",42029,No,515.4 ,500, 531.3,870,falling,-1.5 ,-1.7, -1.3
+"Lancaster County",42071,No,514.6 ,500.3, 529.2,1014,falling,-1.3 ,-1.5, -1.1
+"Montgomery County",42091,No,514.4 ,502.9, 526.2,1574,falling,-1.3 ,-1.5, -1.1
+"Snyder County",42109,No,506.6 ,457, 560.2,77,falling,-1.6 ,-2.2, -1.1
+"Cumberland County",42041,No,502.7 ,482.2, 523.9,463,falling,-1.3 ,-1.6, -1.0
+"Cameron County",42023,No,487.4 ,371.3, 628.6,13,stable,-1.0 ,-2.6, 0.6
+"Indiana County",42063,No,479.2 ,446.2, 513.9,161,falling,-1.4 ,-1.8, -1.0
+"Union County",42119,No,461.8 ,416.1, 511.1,77,falling,-1.0 ,-1.6, -0.5
+"Centre County",42027,No,458.9 ,430.8, 488.2,203,falling,-1.6 ,-1.9, -1.3
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:01 pm.
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

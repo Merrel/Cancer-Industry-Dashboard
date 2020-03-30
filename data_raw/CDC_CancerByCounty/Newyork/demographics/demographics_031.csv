@@ -1,0 +1,82 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=36&areatype=county&topic=work&demo=00012&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '36', 'areatype': 'county', 'topic': 'work', 'demo': '00012', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_031.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=36&areatype=county&topic=work&demo=00012&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for New York by County
+Workforce: Unemployed
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Unemployed),Rank within US
+"United States",00000,6.6,10560305,"N/A"
+"New York",36000,6.8,685368,"30 of 52"
+"Madison County",36053,4.4,1542,"770 of 3141"
+"Saratoga County",36091,4.6,5636,"862 of 3141"
+"Ontario County",36069,4.7,2704,"925 of 3141"
+"Warren County",36113,4.8,1632,"951 of 3141"
+"Livingston County",36051,4.8,1485,"965 of 3141"
+"Tompkins County",36109,4.8,2553,"970 of 3141"
+"Seneca County",36099,4.9,792,"987 of 3141"
+"Nassau County",36059,4.9,35417,"1018 of 3141"
+"Cortland County",36023,4.9,1260,"1021 of 3141"
+"Columbia County",36021,5.0,1580,"1033 of 3141"
+"Genesee County",36037,5.1,1594,"1112 of 3141"
+"Albany County",36001,5.3,8867,"1175 of 3141"
+"Chemung County",36015,5.3,2131,"1205 of 3141"
+"Putnam County",36079,5.3,2926,"1209 of 3141"
+"Suffolk County",36103,5.4,42864,"1256 of 3141"
+"Erie County",36029,5.5,26038,"1277 of 3141"
+"Richmond County",36085,5.5,12444,"1306 of 3141"
+"Orange County",36071,5.6,10376,"1331 of 3141"
+"Clinton County",36019,5.8,2213,"1426 of 3141"
+"Rensselaer County",36083,5.8,4960,"1444 of 3141"
+"Cayuga County",36011,5.9,2340,"1502 of 3141"
+"Oneida County",36065,6.0,6562,"1540 of 3141"
+"Yates County",36123,6.0,725,"1549 of 3141"
+"New York County",36061,6.2,59771,"1637 of 3141"
+"Niagara County",36063,6.2,6691,"1649 of 3141"
+"Greene County",36039,6.2,1333,"1668 of 3141"
+"Rockland County",36087,6.3,10039,"1687 of 3141"
+"Onondaga County",36067,6.4,15253,"1743 of 3141"
+"Wayne County",36117,6.4,2966,"1756 of 3141"
+"Tioga County",36107,6.5,1587,"1774 of 3141"
+"Westchester County",36119,6.5,33102,"1781 of 3141"
+"Wyoming County",36121,6.5,1275,"1807 of 3141"
+"Orleans County",36073,6.5,1248,"1811 of 3141"
+"Washington County",36115,6.6,2015,"1845 of 3141"
+"Monroe County",36055,6.6,25916,"1868 of 3141"
+"Dutchess County",36027,6.7,10327,"1892 of 3141"
+"Essex County",36031,6.7,1252,"1899 of 3141"
+"Chenango County",36017,6.7,1555,"1912 of 3141"
+"Otsego County",36077,6.7,2049,"1913 of 3141"
+"Queens County",36081,6.9,85160,"2023 of 3141"
+"Cattaraugus County",36009,7.0,2522,"2036 of 3141"
+"Steuben County",36101,7.0,3235,"2039 of 3141"
+"Delaware County",36025,7.1,1515,"2076 of 3141"
+"Ulster County",36111,7.1,6642,"2092 of 3141"
+"Broome County",36007,7.2,6757,"2107 of 3141"
+"Schuyler County",36097,7.2,637,"2110 of 3141"
+"Schenectady County",36093,7.3,5733,"2137 of 3141"
+"Montgomery County",36057,7.3,1740,"2164 of 3141"
+"Allegany County",36003,7.3,1596,"2167 of 3141"
+"Schoharie County",36095,7.5,1155,"2240 of 3141"
+"Lewis County",36049,7.6,968,"2256 of 3141"
+"Fulton County",36035,7.6,2002,"2289 of 3141"
+"Chautauqua County",36013,7.7,4695,"2309 of 3141"
+"Jefferson County",36045,8.0,3887,"2417 of 3141"
+"Kings County",36047,8.1,106976,"2443 of 3141"
+"Herkimer County",36043,8.2,2559,"2479 of 3141"
+"Franklin County",36033,8.2,1784,"2481 of 3141"
+"Oswego County",36075,8.6,5021,"2588 of 3141"
+"St. Lawrence County",36089,8.8,4249,"2629 of 3141"
+"Sullivan County",36105,9.3,3356,"2736 of 3141"
+"Hamilton County",36041,11.2,252,"2963 of 3141"
+"Bronx County",36005,11.6,77907,"2993 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:19 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Workforce: Unemployed, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#workforce."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

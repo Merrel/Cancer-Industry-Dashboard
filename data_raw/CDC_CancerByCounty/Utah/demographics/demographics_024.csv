@@ -1,0 +1,49 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=49&areatype=county&topic=pop&demo=00101&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '49', 'areatype': 'county', 'topic': 'pop', 'demo': '00101', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_024.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=49&areatype=county&topic=pop&demo=00101&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Utah by County
+Population: Non-Hispanic (Origin Recode)
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Non-Hispanic [Origin Recode]),Rank within US
+"United States",00000,82.4,264493836,"N/A"
+"Utah",49000,86.3,2584630,"14 of 52"
+"Salt Lake County",49035,82.1,908478,"431 of 3141"
+"Weber County",49057,82.1,200468,"433 of 3141"
+"Wasatch County",49051,86.5,25346,"559 of 3141"
+"Carbon County",49007,86.8,17804,"571 of 3141"
+"Millard County",49027,87.0,11008,"578 of 3141"
+"Tooele County",49045,88.0,55735,"625 of 3141"
+"Summit County",49043,88.6,35209,"653 of 3141"
+"Utah County",49049,88.6,510957,"655 of 3141"
+"Beaver County",49001,89.1,5714,"680 of 3141"
+"Cache County",49005,89.5,107632,"703 of 3141"
+"Washington County",49053,89.9,139922,"724 of 3141"
+"Grand County",49019,90.0,8589,"733 of 3141"
+"Sanpete County",49039,90.5,26135,"771 of 3141"
+"Davis County",49011,90.8,304065,"792 of 3141"
+"Box Elder County",49003,90.9,47421,"802 of 3141"
+"Rich County",49033,91.1,2101,"815 of 3141"
+"Iron County",49021,91.5,44402,"853 of 3141"
+"Uintah County",49047,91.8,33345,"878 of 3141"
+"Duchesne County",49013,91.9,18615,"887 of 3141"
+"Emery County",49015,93.8,9763,"1096 of 3141"
+"Garfield County",49017,94.4,4738,"1197 of 3141"
+"Wayne County",49055,94.6,2555,"1244 of 3141"
+"San Juan County",49037,94.7,14384,"1255 of 3141"
+"Sevier County",49041,95.0,19922,"1329 of 3141"
+"Juab County",49023,95.4,10207,"1414 of 3141"
+"Kane County",49025,95.5,6919,"1424 of 3141"
+"Piute County",49031,96.4,1793,"1672 of 3141"
+"Daggett County",49009,96.7,679,"1763 of 3141"
+"Morgan County",49029,97.4,10724,"2056 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:21 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Non-Hispanic (Origin Recode), see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

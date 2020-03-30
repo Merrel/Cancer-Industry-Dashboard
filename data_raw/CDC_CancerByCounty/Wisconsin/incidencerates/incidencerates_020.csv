@@ -1,0 +1,113 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=55&areatype=county&cancer=018&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '55', 'areatype': 'county', 'cancer': '018', 'race': '00', 'sex': '0', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_020.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=55&areatype=county&cancer=018&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Wisconsin by County
+
+"Stomach (All Stages^), 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Wisconsin(6,10)",55000,***,6 ,5.8, 6.3,416,stable,-2.3 ,-6.4, 1.9
+"US (SEER+NPCR)(1,10)",00000,***,6.6 ,6.5, 6.6,23871,falling,-1.3 ,-2.0, -0.5
+"Shawano County(6,10)",55115,***,9.8 ,6.7, 14.2,6,stable,9.7 ,-36.9, 90.5
+"Chippewa County(6,10)",55017,***,8.3 ,5.6, 11.9,6,stable,9.9 ,-47.9, 131.8
+"Racine County(6,10)",55101,***,8.3 ,6.7, 10.1,19,stable,4.8 ,-13.8, 27.5
+"Marinette County(6,10)",55075,***,7.9 ,4.8, 12.5,5,stable,3.2 ,-29.6, 51.3
+"Vernon County(6,10)",55123,***,7.9 ,4.5, 13.1,3,*,*,*,*
+"Polk County(6,10)",55095,***,7.7 ,4.7, 12,4,stable,7.6 ,-53.2, 147.8
+"Oneida County(6,10)",55085,***,7.6 ,4.9, 11.9,5,stable,-8.9 ,-38.1, 34.0
+"Oconto County(6,10)",55083,***,7.1 ,4.2, 11.5,4,stable,-11.9 ,-52.8, 64.5
+"Brown County(6,10)",55009,***,7.1 ,5.7, 8.7,20,stable,-2.2 ,-19.0, 18.0
+"Outagamie County(6,10)",55087,***,7 ,5.5, 8.9,14,stable,-4.8 ,-38.4, 47.2
+"Douglas County(6,10)",55031,***,7 ,4.2, 11.1,4,stable,-3.7 ,-48.2, 79.0
+"Milwaukee County(6,10)",55079,***,6.9 ,6.2, 7.7,67,stable,-4.0 ,-24.8, 22.5
+"Kenosha County(6,10)",55059,***,6.8 ,5.2, 8.8,13,stable,-2.4 ,-27.2, 30.7
+"Manitowoc County(6,10)",55071,***,6.8 ,4.8, 9.5,8,stable,3.2 ,-31.6, 55.5
+"Green County(6,10)",55045,***,6.8 ,4, 11.1,4,stable,14.1 ,-54.5, 186.0
+"Walworth County(6,10)",55127,***,6.6 ,4.8, 9.1,8,stable,-14.4 ,-46.5, 36.8
+"Rock County(6,10)",55105,***,6.3 ,4.8, 8.2,12,stable,-6.0 ,-31.6, 29.3
+"Waukesha County(6,10)",55133,***,6.2 ,5.3, 7.3,32,stable,-11.6 ,-32.8, 16.1
+"Portage County(6,10)",55097,***,5.8 ,3.7, 8.7,5,stable,8.0 ,-35.8, 81.6
+"Sauk County(6,10)",55111,***,5.7 ,3.6, 8.8,5,stable,6.6 ,-39.7, 88.6
+"Marathon County(6,10)",55073,***,5.7 ,4.1, 7.6,9,stable,1.8 ,-30.0, 48.2
+"Waupaca County(6,10)",55135,***,5.6 ,3.4, 9,4,stable,0.1 ,-38.2, 62.4
+"Winnebago County(6,10)",55139,***,5.3 ,3.9, 7,10,stable,1.8 ,-19.1, 28.2
+"Dane County(6,10)",55025,***,5.3 ,4.4, 6.3,27,stable,3.4 ,-17.4, 29.3
+"Wood County(6,10)",55141,***,5.2 ,3.3, 7.7,5,stable,-0.3 ,-29.9, 41.9
+"Ozaukee County(6,10)",55089,***,5 ,3.3, 7.3,6,stable,-9.5 ,-50.0, 63.9
+"La Crosse County(6,10)",55063,***,4.9 ,3.4, 7,7,stable,-7.8 ,-35.2, 31.3
+"Sheboygan County(6,10)",55117,***,4.9 ,3.4, 6.9,7,stable,-13.5 ,-37.9, 20.4
+"Barron County(6,10)",55005,***,4.8 ,2.7, 8,3,*,*,*,*
+"Dodge County(6,10)",55027,***,4.8 ,3.1, 7,6,stable,3.7 ,-27.5, 48.5
+"Grant County(6,10)",55043,***,4.5 ,2.6, 7.6,3,*,*,*,*
+"Eau Claire County(6,10)",55035,***,4.5 ,2.9, 6.7,5,stable,12.5 ,-55.1, 182.0
+"Washington County(6,10)",55131,***,4.4 ,3.1, 6.2,7,stable,11.4 ,-21.2, 57.5
+"Fond du Lac County(6,10)",55039,***,4.2 ,2.7, 6.2,5,stable,-4.4 ,-36.2, 43.3
+"Jefferson County(6,10)",55055,***,4.1 ,2.5, 6.4,4,stable,-16.2 ,-45.9, 29.9
+"St. Croix County(6,10)",55109,***,4.1 ,2.3, 6.6,3,stable,-23.2 ,-50.4, 19.0
+"Adams County(6,10)",55001,***,* ,*, *,3 or fewer,*,*,*,*
+"Ashland County(6,10)",55003,***,* ,*, *,3 or fewer,*,*,*,*
+"Bayfield County(6,10)",55007,***,* ,*, *,3 or fewer,*,*,*,*
+"Buffalo County(6,10)",55011,***,* ,*, *,3 or fewer,*,*,*,*
+"Burnett County(6,10)",55013,***,* ,*, *,3 or fewer,*,*,*,*
+"Calumet County(6,10)",55015,***,* ,*, *,3 or fewer,*,*,*,*
+"Clark County(6,10)",55019,***,* ,*, *,3 or fewer,*,*,*,*
+"Columbia County(6,10)",55021,***,* ,*, *,3 or fewer,*,*,*,*
+"Crawford County(6,10)",55023,***,* ,*, *,3 or fewer,*,*,*,*
+"Door County(6,10)",55029,***,* ,*, *,3 or fewer,*,*,*,*
+"Dunn County(6,10)",55033,***,* ,*, *,3 or fewer,*,*,*,*
+"Florence County(6,10)",55037,***,* ,*, *,3 or fewer,*,*,*,*
+"Forest County(6,10)",55041,***,* ,*, *,3 or fewer,*,*,*,*
+"Green Lake County(6,10)",55047,***,* ,*, *,3 or fewer,*,*,*,*
+"Iowa County(6,10)",55049,***,* ,*, *,3 or fewer,*,*,*,*
+"Iron County(6,10)",55051,***,* ,*, *,3 or fewer,*,*,*,*
+"Jackson County(6,10)",55053,***,* ,*, *,3 or fewer,*,*,*,*
+"Juneau County(6,10)",55057,***,* ,*, *,3 or fewer,*,*,*,*
+"Kewaunee County(6,10)",55061,***,* ,*, *,3 or fewer,*,*,*,*
+"Lafayette County(6,10)",55065,***,* ,*, *,3 or fewer,*,*,*,*
+"Langlade County(6,10)",55067,***,* ,*, *,3 or fewer,*,*,*,*
+"Lincoln County(6,10)",55069,***,* ,*, *,3 or fewer,*,*,*,*
+"Marquette County(6,10)",55077,***,* ,*, *,3 or fewer,*,*,*,*
+"Menominee County(6,10)",55078,***,* ,*, *,3 or fewer,*,*,*,*
+"Monroe County(6,10)",55081,***,* ,*, *,3 or fewer,*,*,*,*
+"Pepin County(6,10)",55091,***,* ,*, *,3 or fewer,*,*,*,*
+"Pierce County(6,10)",55093,***,* ,*, *,3 or fewer,*,*,*,*
+"Price County(6,10)",55099,***,* ,*, *,3 or fewer,*,*,*,*
+"Richland County(6,10)",55103,***,* ,*, *,3 or fewer,*,*,*,*
+"Rusk County(6,10)",55107,***,* ,*, *,3 or fewer,*,*,*,*
+"Sawyer County(6,10)",55113,***,* ,*, *,3 or fewer,*,*,*,*
+"Taylor County(6,10)",55119,***,* ,*, *,3 or fewer,*,*,*,*
+"Trempealeau County(6,10)",55121,***,* ,*, *,3 or fewer,*,*,*,*
+"Vilas County(6,10)",55125,***,* ,*, *,3 or fewer,*,*,*,*
+"Washburn County(6,10)",55129,***,* ,*, *,3 or fewer,*,*,*,*
+"Waushara County(6,10)",55137,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:22 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

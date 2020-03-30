@@ -1,0 +1,88 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=42&areatype=county&topic=ed&demo=00004&race=00&sex=0&age=081&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '42', 'areatype': 'county', 'topic': 'ed', 'demo': '00004', 'race': '00', 'sex': '0', 'age': '081', 'type': 'manyareacensus', 'file_name': 'demographics_001.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=42&areatype=county&topic=ed&demo=00004&race=00&sex=0&age=081&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Pennsylvania by County
+Education: Less than 9th grade
+Population Ages 25+
+"All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Education: Less Than 9th Grade),Rank within US
+"Pennsylvania",42000,3.3,296463,"14 of 52"
+"United States",00000,5.4,11759554,"N/A"
+"Butler County",42019,1.5,1937,"126 of 3141"
+"Allegheny County",42003,1.8,15731,"235 of 3141"
+"Wyoming County",42131,1.8,357,"248 of 3141"
+"Pike County",42103,1.8,739,"254 of 3141"
+"Bucks County",42017,1.9,8327,"271 of 3141"
+"Westmoreland County",42129,1.9,5088,"294 of 3141"
+"Warren County",42123,1.9,574,"298 of 3141"
+"McKean County",42083,2.0,580,"300 of 3141"
+"Montgomery County",42091,2.0,11327,"313 of 3141"
+"Beaver County",42007,2.0,2498,"350 of 3141"
+"Centre County",42027,2.2,2101,"428 of 3141"
+"Lycoming County",42081,2.3,1813,"457 of 3141"
+"Washington County",42125,2.3,3363,"460 of 3141"
+"Delaware County",42045,2.3,8856,"491 of 3141"
+"Columbia County",42037,2.4,1040,"504 of 3141"
+"Tioga County",42117,2.4,694,"506 of 3141"
+"Elk County",42047,2.4,543,"522 of 3141"
+"Cameron County",42023,2.4,87,"531 of 3141"
+"Blair County",42013,2.5,2170,"548 of 3141"
+"Cumberland County",42041,2.5,4263,"561 of 3141"
+"Montour County",42093,2.5,341,"592 of 3141"
+"Armstrong County",42005,2.6,1290,"653 of 3141"
+"Susquehanna County",42115,2.7,829,"697 of 3141"
+"Erie County",42049,2.7,5135,"717 of 3141"
+"Bradford County",42015,2.9,1240,"802 of 3141"
+"Cambria County",42021,2.9,2797,"821 of 3141"
+"Carbon County",42025,2.9,1365,"835 of 3141"
+"Schuylkill County",42107,2.9,3083,"839 of 3141"
+"Huntingdon County",42061,2.9,954,"848 of 3141"
+"Wayne County",42127,2.9,1147,"850 of 3141"
+"Lawrence County",42073,3.0,1890,"896 of 3141"
+"Mercer County",42085,3.0,2394,"909 of 3141"
+"Lackawanna County",42069,3.1,4558,"929 of 3141"
+"Chester County",42029,3.1,10674,"936 of 3141"
+"Greene County",42059,3.1,835,"978 of 3141"
+"Monroe County",42089,3.2,3617,"987 of 3141"
+"Luzerne County",42079,3.2,7270,"1013 of 3141"
+"Northampton County",42095,3.2,6778,"1023 of 3141"
+"Venango County",42121,3.3,1248,"1035 of 3141"
+"Dauphin County",42043,3.3,6178,"1046 of 3141"
+"York County",42133,3.3,10146,"1074 of 3141"
+"Perry County",42099,3.3,1081,"1090 of 3141"
+"Fayette County",42051,3.4,3253,"1096 of 3141"
+"Potter County",42105,3.4,416,"1125 of 3141"
+"Clarion County",42031,3.4,899,"1135 of 3141"
+"Fulton County",42057,3.5,366,"1174 of 3141"
+"Clinton County",42035,3.6,906,"1228 of 3141"
+"Sullivan County",42113,3.8,184,"1312 of 3141"
+"Franklin County",42055,3.8,4018,"1335 of 3141"
+"Adams County",42001,3.8,2688,"1342 of 3141"
+"Bedford County",42009,3.8,1351,"1351 of 3141"
+"Jefferson County",42065,3.8,1201,"1364 of 3141"
+"Northumberland County",42097,3.9,2636,"1387 of 3141"
+"Clearfield County",42033,3.9,2305,"1388 of 3141"
+"Indiana County",42063,3.9,2205,"1409 of 3141"
+"Forest County",42053,4.1,250,"1498 of 3141"
+"Crawford County",42039,4.2,2523,"1526 of 3141"
+"Lebanon County",42075,4.3,4043,"1564 of 3141"
+"Lehigh County",42077,4.3,10610,"1590 of 3141"
+"Somerset County",42111,4.5,2504,"1644 of 3141"
+"Berks County",42011,5.4,15142,"1993 of 3141"
+"Union County",42119,5.7,1746,"2096 of 3141"
+"Philadelphia County",42101,5.8,60757,"2127 of 3141"
+"Snyder County",42109,6.0,1618,"2211 of 3141"
+"Mifflin County",42087,6.1,1971,"2219 of 3141"
+"Juniata County",42067,6.1,1046,"2234 of 3141"
+"Lancaster County",42071,7.0,24887,"2457 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:01 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Education: Less than 9th grade, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#education."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

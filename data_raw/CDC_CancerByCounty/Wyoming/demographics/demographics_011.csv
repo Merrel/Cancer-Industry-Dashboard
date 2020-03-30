@@ -1,0 +1,43 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=56&areatype=county&topic=mob&demo=00020&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '56', 'areatype': 'county', 'topic': 'mob', 'demo': '00020', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_011.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=56&areatype=county&topic=mob&demo=00020&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Wyoming by County
+"Mobility: Moved, different state (in past year)"
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Moved From Different State),Rank within US
+"United States",00000,2.3,7354769,"N/A"
+"Wyoming",56000,4.6,26286,"49 of 51"
+"Washakie County",56043,1.4,116,"1169 of 3140"
+"Niobrara County",56027,1.4,35,"1176 of 3140"
+"Johnson County",56019,1.7,147,"1537 of 3140"
+"Uinta County",56041,2.6,526,"2213 of 3140"
+"Converse County",56009,2.7,370,"2263 of 3140"
+"Natrona County",56025,3.0,2395,"2446 of 3140"
+"Sheridan County",56033,3.1,919,"2488 of 3140"
+"Fremont County",56013,3.2,1270,"2541 of 3140"
+"Carbon County",56007,3.3,511,"2596 of 3140"
+"Weston County",56045,3.8,267,"2752 of 3140"
+"Crook County",56011,3.9,282,"2762 of 3140"
+"Park County",56029,4.4,1276,"2882 of 3140"
+"Platte County",56031,4.5,385,"2896 of 3140"
+"Sublette County",56035,4.6,458,"2920 of 3140"
+"Big Horn County",56003,4.8,560,"2943 of 3140"
+"Sweetwater County",56037,4.9,2145,"2956 of 3140"
+"Goshen County",56015,5.1,686,"2984 of 3140"
+"Hot Springs County",56017,5.3,250,"3003 of 3140"
+"Laramie County",56021,5.5,5268,"3016 of 3140"
+"Campbell County",56005,5.6,2646,"3021 of 3140"
+"Lincoln County",56023,5.7,1050,"3027 of 3140"
+"Teton County",56039,7.3,1662,"3101 of 3140"
+"Albany County",56001,8.1,3062,"3118 of 3140"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:22 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Mobility: Moved, different state (in past year), see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#mobility."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

@@ -1,0 +1,138 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=37&areatype=county&cancer=055&stage=211&race=00&sex=2&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '37', 'areatype': 'county', 'cancer': '055', 'stage': '211', 'race': '00', 'sex': '2', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_042.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=37&areatype=county&cancer=055&stage=211&race=00&sex=2&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for North Carolina by County
+
+"Breast (Late Stage^), 2012-2016"
+
+"All Races (includes Hispanic), Female, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 42.1?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Percent of Cases with Late Stage
+"North Carolina(6)",37000,No,45.4 ,44.6, 46.2,2704,33.4
+"US (SEER+NPCR)(1)",00000,No,42.3 ,42.1, 42.4,78906,33.0
+"Chowan County(6)",37041,No,62.7 ,38.9, 95.4,5,37.0
+"Vance County(6)",37181,No,61.6 ,48.6, 77,17,41.5
+"Martin County(6)",37117,No,56.9 ,41.8, 76.3,10,38.2
+"Swain County(6)",37173,No,56.5 ,36.5, 84.2,5,40.3
+"Clay County(6)",37043,No,56 ,33.7, 89.9,5,41.0
+"Pasquotank County(6)",37139,No,55.7 ,42.3, 72,13,33.7
+"Bertie County(6)",37015,No,55.6 ,37.6, 79.8,7,35.9
+"Anson County(6)",37007,No,54.2 ,37.5, 75.9,8,35.8
+"Durham County(6)",37063,No,53.6 ,48.5, 59.1,86,36.1
+"Pamlico County(6)",37137,No,52.9 ,29.6, 87.7,4,27.0
+"Lee County(6)",37105,No,52.9 ,42.5, 65.1,19,37.5
+"Onslow County(6)",37133,No,52.6 ,45.1, 60.8,37,41.1
+"Nash County(6)",37127,No,52.5 ,44.3, 61.8,32,38.1
+"Scotland County(6)",37165,No,51.7 ,38.4, 68.3,11,39.0
+"Mitchell County(6)",37121,No,51.7 ,33.6, 77.4,6,41.1
+"Halifax County(6)",37083,No,51.4 ,41.1, 63.6,19,36.5
+"Washington County(6)",37187,No,51.3 ,31.7, 79.6,5,37.5
+"Wilson County(6)",37195,No,50.7 ,42.2, 60.5,27,39.3
+"Northampton County(6)",37131,No,50.6 ,34.4, 72.5,8,39.8
+"Alexander County(6)",37003,No,50.1 ,37.7, 65.6,12,36.4
+"Lenoir County(6)",37107,No,49.6 ,39.7, 61.2,20,36.1
+"Wake County(6)",37183,No,49.5 ,46.8, 52.2,263,35.0
+"Cabarrus County(6)",37025,No,49 ,43.3, 55.4,53,34.6
+"Edgecombe County(6)",37065,No,48.8 ,38.7, 60.8,18,37.3
+"Cherokee County(6)",37039,No,48.5 ,34.1, 67.4,10,31.2
+"Mecklenburg County(6)",37119,No,48.2 ,45.5, 50.9,257,35.0
+"Cumberland County(6)",37051,No,48 ,43.3, 53,79,37.3
+"Warren County(6)",37185,No,47.8 ,32.2, 69.2,7,42.0
+"Hoke County(6)",37093,No,47.8 ,36.3, 61.7,12,45.8
+"Avery County(6)",37011,No,47.7 ,30.2, 72.7,5,31.4
+"Guilford County(6)",37081,No,47.2 ,43.7, 50.9,142,31.6
+"Alamance County(6)",37001,No,47.2 ,41.2, 54,47,30.9
+"Iredell County(6)",37097,No,47.2 ,41.3, 53.8,48,34.1
+"Cleveland County(6)",37045,No,47.1 ,39.7, 55.6,31,33.4
+"Sampson County(6)",37163,No,47.1 ,37.6, 58.3,18,35.1
+"Davidson County(6)",37057,No,47 ,41.2, 53.4,50,35.8
+"Forsyth County(6)",37067,No,46.9 ,42.9, 51.3,104,32.5
+"New Hanover County(6)",37129,No,46.9 ,41.7, 52.7,62,34.0
+"Ashe County(6)",37009,No,46.8 ,32.4, 65.7,8,35.0
+"Granville County(6)",37077,No,46.7 ,36.7, 58.7,16,36.3
+"Franklin County(6)",37069,No,46.6 ,37.4, 57.5,19,33.6
+"Person County(6)",37145,No,46 ,34.5, 60.4,12,34.3
+"Orange County(6)",37135,No,45.7 ,38.9, 53.2,35,29.9
+"Catawba County(6)",37035,No,45.3 ,39.4, 52,44,32.0
+"Caldwell County(6)",37027,No,45.3 ,37.2, 54.6,25,31.9
+"Currituck County(6)",37053,No,45.2 ,31.1, 63.9,7,34.3
+"Richmond County(6)",37153,No,45 ,33.9, 58.7,12,34.7
+"Wayne County(6)",37191,No,44.8 ,38.2, 52.3,34,34.3
+"Duplin County(6)",37061,No,44.8 ,35, 56.4,16,34.2
+"Buncombe County(6)",37021,No,44.7 ,40.1, 49.8,75,29.5
+"Polk County(6)",37149,No,43.6 ,29.7, 63.2,8,41.3
+"Carteret County(6)",37031,No,43.5 ,34.9, 53.7,21,31.6
+"Stanly County(6)",37167,No,43.4 ,33.9, 54.7,16,32.4
+"Rockingham County(6)",37157,No,43.4 ,36, 51.9,27,30.9
+"Perquimans County(6)",37143,No,43.2 ,26.3, 68.5,5,34.7
+"Gaston County(6)",37071,No,42.9 ,37.9, 48.4,56,31.8
+"Davie County(6)",37059,No,42.6 ,32.3, 55.5,13,27.6
+"Macon County(6)",37113,No,42.3 ,30.3, 57.8,11,29.4
+"Dare County(6)",37055,Yes,42.1 ,30.8, 56.5,11,36.1
+"Haywood County(6)",37087,Yes,42 ,33.4, 52.3,19,31.4
+"Pender County(6)",37141,Yes,41.6 ,32.3, 52.9,15,33.0
+"Rutherford County(6)",37161,Yes,41.3 ,33.1, 51.2,20,35.0
+"Craven County(6)",37049,Yes,41.3 ,34.1, 49.6,26,31.1
+"Burke County(6)",37023,Yes,41.3 ,34, 49.7,25,34.4
+"Pitt County(6)",37147,Yes,40.7 ,34.9, 47.1,37,31.5
+"Johnston County(6)",37101,Yes,40.7 ,35.3, 46.7,42,34.8
+"Harnett County(6)",37085,Yes,40.4 ,33.7, 48.1,26,34.4
+"Henderson County(6)",37089,Yes,40.4 ,34.1, 47.7,35,28.2
+"Union County(6)",37179,Yes,40.3 ,35.2, 46,46,29.8
+"Robeson County(6)",37155,Yes,40.3 ,34, 47.4,31,38.0
+"Transylvania County(6)",37175,Yes,40.2 ,29.3, 54.6,12,33.3
+"Watauga County(6)",37189,Yes,39.5 ,28.6, 53.1,10,27.7
+"Lincoln County(6)",37109,Yes,39.1 ,31.8, 47.9,21,30.1
+"Surry County(6)",37171,Yes,38.9 ,31.5, 47.8,21,28.3
+"Yadkin County(6)",37197,Yes,38.7 ,28.6, 51.7,10,34.2
+"Rowan County(6)",37159,Yes,38.6 ,32.7, 45.3,33,30.9
+"Yancey County(6)",37199,Yes,38.6 ,22.7, 61.7,4,25.6
+"Moore County(6)",37125,Yes,38.5 ,31.8, 46.2,27,31.5
+"Brunswick County(6)",37019,Yes,38.3 ,32.2, 45.3,38,30.6
+"Caswell County(6)",37033,Yes,38 ,25.1, 55.9,6,32.0
+"Chatham County(6)",37037,Yes,38 ,30.3, 47.3,19,27.6
+"McDowell County(6)",37111,Yes,36.5 ,27.4, 48.1,12,31.2
+"Columbus County(6)",37047,Yes,35.8 ,27.4, 46.2,13,31.6
+"Stokes County(6)",37169,Yes,35.7 ,26.5, 47.3,11,31.8
+"Montgomery County(6)",37123,Yes,35.7 ,24.1, 51.2,7,32.7
+"Hertford County(6)",37091,Yes,35.5 ,23.1, 52.6,6,30.9
+"Randolph County(6)",37151,Yes,35 ,29.7, 41.1,32,27.6
+"Jackson County(6)",37099,Yes,34.8 ,24.7, 47.7,9,31.4
+"Wilkes County(6)",37193,Yes,33.7 ,26.1, 43,15,33.0
+"Bladen County(6)",37017,Yes,33.4 ,23.3, 46.7,8,32.8
+"Beaufort County(6)",37013,Yes,33.1 ,24.3, 44.2,11,26.3
+"Madison County(6)",37115,Yes,31.5 ,19.4, 49.1,5,23.0
+"Alleghany County(6)",37005,Yes,* ,*, *,3 or fewer,*
+"Camden County(6)",37029,Yes,* ,*, *,3 or fewer,*
+"Gates County(6)",37073,Yes,* ,*, *,3 or fewer,*
+"Graham County(6)",37075,Yes,* ,*, *,3 or fewer,*
+"Greene County(6)",37079,Yes,* ,*, *,3 or fewer,*
+"Hyde County(6)",37095,Yes,* ,*, *,3 or fewer,*
+"Jones County(6)",37103,Yes,* ,*, *,3 or fewer,*
+"Tyrrell County(6)",37177,Yes,* ,*, *,3 or fewer,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:20 pm.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+
+Rates are computed using cancers classified as malignant based on ICD-O-3. For more information see malignant.html.
+
+"^ Late Stage is defined as cases determined to be regional or distant. Coding is generally based on Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ] but may include other staging variables if necessary."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

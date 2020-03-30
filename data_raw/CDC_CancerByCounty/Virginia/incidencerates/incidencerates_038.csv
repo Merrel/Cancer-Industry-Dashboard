@@ -1,0 +1,173 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=51&areatype=county&cancer=001&race=00&sex=0&age=157&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '51', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '0', 'age': '157', 'type': 'incd', 'file_name': 'incidencerates_038.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=51&areatype=county&cancer=001&race=00&sex=0&age=157&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Virginia by County
+
+"All Cancer Sites (All Stages^), 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, Ages 65+"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Virginia(6,10)",51000,***,1854.4 ,1843, 1865.9,20805,falling,-1.0 ,-1.8, -0.2
+"US (SEER+NPCR)(1,10)",00000,***,1983.5 ,1981.6, 1985.3,900671,falling,-1.4 ,-2.2, -0.6
+"Petersburg City(6,10)",51730,***,2359.3 ,2172.6, 2557.7,121,stable,0.3 ,-5.8, 6.7
+"Gloucester County(6,10)",51073,***,2306.2 ,2137.9, 2484.4,144,stable,-1.0 ,-8.3, 6.8
+"Fredericksburg City(6,10)",51630,***,2301.5 ,2051.7, 2573.1,64,stable,-1.8 ,-10.3, 7.5
+"Nelson County(6,10)",51125,***,2292 ,2062.2, 2540.6,77,stable,-5.3 ,-13.3, 3.5
+"Sussex County(6,10)",51183,***,2291.3 ,1991.3, 2623.8,43,stable,6.7 ,-9.2, 25.4
+"Surry County(6,10)",51181,***,2284.1 ,1914.9, 2703.7,28,stable,-0.2 ,-15.1, 17.2
+"Waynesboro City(6,10)",51820,***,2282.3 ,2071.9, 2508.3,87,stable,2.1 ,-12.1, 18.6
+"Staunton City(6,10)",51790,***,2273.1 ,2085.9, 2472.5,111,stable,-0.2 ,-12.8, 14.1
+"Louisa County(6,10)",51109,***,2259.6 ,2085.1, 2445,131,stable,2.9 ,-8.1, 15.1
+"King William County(6,10)",51101,***,2257.7 ,1983.8, 2559,51,stable,5.4 ,-19.5, 38.1
+"Buena Vista City(6,10)",51530,***,2244.3 ,1874.5, 2666,26,stable,7.4 ,-7.5, 24.6
+"New Kent County(6,10)",51127,***,2231.1 ,1977.1, 2509.3,64,stable,-3.0 ,-15.6, 11.6
+"Brunswick County(6,10)",51025,***,2181.9 ,1956.5, 2426.2,69,rising,5.5 ,0.1, 11.2
+"Colonial Heights City(6,10)",51570,***,2179.8 ,1964.2, 2412.5,76,stable,3.3 ,-12.7, 22.2
+"Caroline County(6,10)",51033,***,2172.4 ,1977.6, 2381.3,95,stable,1.7 ,-12.5, 18.3
+"Highland County(6,10)",51091,***,2171 ,1678.4, 2763.4,14,rising,16.0 ,2.0, 32.0
+"Lunenburg County(6,10)",51111,***,2145.4 ,1890.1, 2425.6,52,stable,-3.1 ,-20.5, 17.9
+"Northampton County(6,10)",51131,***,2141.3 ,1910, 2392.8,63,stable,1.1 ,-9.1, 12.4
+"Goochland County(6,10)",51075,***,2134.6 ,1929.8, 2355.3,86,stable,-1.0 ,-11.0, 10.0
+"Dinwiddie County(6,10)",51053,***,2132.4 ,1938.1, 2341,91,stable,-6.8 ,-13.6, 0.6
+"Franklin City(6,10)",51620,***,2130.7 ,1808.2, 2493.9,32,stable,-1.3 ,-20.4, 22.4
+"King and Queen County(6,10)",51097,***,2128.2 ,1787.8, 2514.1,29,stable,-5.9 ,-25.1, 18.1
+"Charlotte County(6,10)",51037,***,2125.9 ,1876.8, 2398.9,53,stable,-7.1 ,-24.5, 14.2
+"Virginia Beach City(6,10)",51810,***,2124.8 ,2069.3, 2181.5,1144,stable,-1.8 ,-5.4, 2.0
+"Westmoreland County(6,10)",51193,***,2123.6 ,1925.2, 2336.9,85,stable,1.0 ,-1.3, 3.3
+"Poquoson City(6,10)",51735,***,2118.8 ,1848.6, 2417.5,45,stable,-1.2 ,-14.9, 14.6
+"Prince George County(6,10)",51149,***,2108.3 ,1917.9, 2312.8,95,stable,-2.8 ,-13.5, 9.1
+"Hampton City(6,10)",51650,***,2103.9 ,2010.7, 2200.3,389,stable,-2.7 ,-10.9, 6.3
+"Augusta County(6,10)",51015,***,2099.6 ,1991.5, 2212.1,288,stable,-1.3 ,-5.2, 2.7
+"Northumberland County(6,10)",51133,***,2084.9 ,1891.7, 2292.5,87,stable,-1.4 ,-7.0, 4.5
+"Portsmouth City(6,10)",51740,***,2081.7 ,1971, 2196.9,271,stable,-0.1 ,-13.1, 14.7
+"Hanover County(6,10)",51085,***,2076.1 ,1974.4, 2181.7,322,stable,-1.6 ,-9.6, 7.1
+"Stafford County(6,10)",51179,***,2072.1 ,1954.9, 2194.5,250,stable,-5.3 ,-10.2, 0.0
+"Fluvanna County(6,10)",51065,***,2071.6 ,1887.1, 2269.2,95,stable,0.1 ,-8.4, 9.3
+"Accomack County(6,10)",51001,***,2071 ,1919.7, 2231.1,141,stable,-1.5 ,-15.8, 15.3
+"Hopewell City(6,10)",51670,***,2065.7 ,1855.6, 2293,72,stable,5.4 ,-6.5, 18.9
+"Roanoke City(6,10)",51770,***,2065.5 ,1960, 2175.2,301,stable,-1.5 ,-8.2, 5.7
+"Spotsylvania County(6,10)",51177,***,2062.2 ,1958.7, 2169.8,312,stable,-2.9 ,-13.6, 9.2
+"Richmond City(6,10)",51760,***,2059.8 ,1979.3, 2142.8,520,stable,-3.5 ,-9.9, 3.4
+"Newport News City(6,10)",51700,***,2053.6 ,1967, 2143.1,432,stable,1.4 ,-2.1, 5.1
+"Nottoway County(6,10)",51135,***,2051.7 ,1822.7, 2301.6,59,stable,-4.9 ,-20.6, 13.8
+"Williamsburg City(6,10)",51830,***,2051.3 ,1783.2, 2348.5,43,stable,-3.1 ,-9.8, 4.1
+"Prince Edward County(6,10)",51147,***,2045.5 ,1834.8, 2273.7,70,stable,5.8 ,-19.0, 38.2
+"Suffolk City(6,10)",51800,***,2039.7 ,1920.5, 2164.4,227,stable,1.9 ,-4.4, 8.6
+"Page County(6,10)",51139,***,2035.5 ,1853.5, 2230.6,93,stable,-1.5 ,-13.1, 11.7
+"Culpeper County(6,10)",51047,***,2028.9 ,1877, 2189.9,137,stable,-0.6 ,-9.2, 8.9
+"Galax City(6,10)",51640,***,2028.1 ,1694.5, 2407.2,27,stable,8.1 ,-1.4, 18.5
+"Essex County(6,10)",51057,***,2026.5 ,1765.4, 2315.4,44,stable,2.4 ,-11.6, 18.6
+"Salem City(6,10)",51775,***,2021.9 ,1839.8, 2217,92,falling,-7.3 ,-11.7, -2.6
+"Norfolk City(6,10)",51710,***,2013.8 ,1933.7, 2096.4,494,stable,-1.2 ,-4.3, 1.9
+"Lynchburg City(6,10)",51680,***,2013.5 ,1893.5, 2139.2,217,stable,2.6 ,-8.3, 14.8
+"Henrico County(6,10)",51087,***,2013.2 ,1952.9, 2074.9,875,stable,0.1 ,-5.5, 6.1
+"James City County(6,10)",51095,***,2007.1 ,1910.6, 2107.2,328,stable,-0.3 ,-7.4, 7.4
+"Richmond County(6,10)",51159,***,2005.3 ,1719.2, 2324.9,36,stable,-2.6 ,-17.5, 15.1
+"King George County(6,10)",51099,***,2001.6 ,1768.1, 2257.4,56,stable,-6.3 ,-20.0, 9.7
+"Chesterfield County(6,10)",51041,***,1997.1 ,1934.4, 2061.3,818,stable,-1.7 ,-5.9, 2.8
+"Mathews County(6,10)",51115,***,1996 ,1752.6, 2263.7,49,stable,4.3 ,-1.9, 10.9
+"Martinsville City(6,10)",51690,***,1984.2 ,1747.6, 2243.7,52,stable,-4.9 ,-28.1, 25.7
+"Rockingham County(6,10)",51165,***,1981.5 ,1876.1, 2091.3,268,stable,2.3 ,-3.6, 8.6
+"Chesapeake City(6,10)",51550,***,1980.3 ,1904.1, 2058.7,528,stable,1.1 ,-3.8, 6.3
+"Middlesex County(6,10)",51119,***,1954.3 ,1738.3, 2189.9,61,stable,-6.8 ,-22.5, 12.1
+"Alleghany County and Clifton Forge City(6,10)",51005,***,1952.6 ,1749.8, 2172.5,69,stable,-2.1 ,-15.7, 13.8
+"Emporia City(6,10)",51595,***,1951.4 ,1568.4, 2397.9,19,stable,3.1 ,-17.8, 29.3
+"York County(6,10)",51199,***,1945.8 ,1819.8, 2078.2,182,stable,-2.5 ,-12.5, 8.6
+"Southampton County(6,10)",51175,***,1945.4 ,1732.5, 2177.4,62,stable,3.4 ,-8.9, 17.5
+"Appomattox County(6,10)",51011,***,1910.2 ,1690.6, 2150.6,56,stable,2.4 ,-10.7, 17.4
+"Lexington City(6,10)",51678,***,1906.9 ,1555.1, 2314,22,stable,-1.6 ,-18.1, 18.3
+"Campbell County(6,10)",51031,***,1897.6 ,1777.2, 2024.1,188,stable,5.4 ,-3.2, 14.8
+"Bedford City and County(6,10)",51917,***,1897.2 ,1796.6, 2002.1,275,stable,3.1 ,-2.2, 8.6
+"Isle of Wight County(6,10)",51093,***,1894.2 ,1738.2, 2060.4,112,stable,-0.4 ,-9.4, 9.5
+"Franklin County(6,10)",51067,***,1890.5 ,1776.2, 2010.2,212,stable,0.2 ,-2.1, 2.6
+"Amelia County(6,10)",51007,***,1889.3 ,1640, 2166.2,43,stable,-0.5 ,-13.9, 15.0
+"Radford City(6,10)",51750,***,1888 ,1583.7, 2233.5,28,stable,9.1 ,-9.2, 31.1
+"Roanoke County(6,10)",51161,***,1888 ,1798.1, 1981.2,337,stable,-2.3 ,-8.4, 4.2
+"Charlottesville City(6,10)",51540,***,1887.5 ,1709.3, 2079.2,85,stable,-0.3 ,-10.9, 11.7
+"Harrisonburg City(6,10)",51660,***,1882.1 ,1702.9, 2074.7,85,stable,-5.2 ,-14.4, 5.0
+"Albemarle County(6,10)",51003,***,1879.7 ,1786.4, 1976.6,313,stable,-0.8 ,-8.6, 7.5
+"Orange County(6,10)",51137,***,1876.3 ,1731.7, 2029.9,126,stable,1.3 ,-6.2, 9.4
+"Manassas City(6,10)",51683,***,1874.4 ,1662.9, 2105.2,61,stable,2.2 ,-16.7, 25.4
+"Mecklenburg County(6,10)",51117,***,1872 ,1734, 2018.2,138,stable,1.7 ,-10.5, 15.6
+"Warren County(6,10)",51187,***,1871.1 ,1708.4, 2045.3,101,stable,0.2 ,-14.3, 17.1
+"Charles City County(6,10)",51036,***,1866.8 ,1559, 2218.7,27,stable,1.3 ,-17.2, 23.9
+"Wythe County(6,10)",51197,***,1864.2 ,1707.2, 2031.9,105,stable,1.0 ,-5.4, 7.9
+"Cumberland County(6,10)",51049,***,1858.6 ,1590.3, 2159.6,35,stable,-3.1 ,-26.2, 27.3
+"Shenandoah County(6,10)",51171,***,1855.2 ,1727.2, 1990.2,158,stable,6.1 ,-3.0, 16.1
+"Craig County(6,10)",51045,***,1850.8 ,1486.7, 2277.5,19,stable,1.3 ,-15.3, 21.2
+"Rockbridge County(6,10)",51163,***,1850.6 ,1688.1, 2024.5,96,stable,5.1 ,-6.1, 17.6
+"Botetourt County(6,10)",51023,***,1832.7 ,1684.9, 1989.9,117,falling,-2.1 ,-3.8, -0.3
+"Buckingham County(6,10)",51029,***,1825.7 ,1607.6, 2065.4,53,stable,-3.2 ,-15.6, 11.0
+"Madison County(6,10)",51113,***,1823 ,1596, 2073.3,47,stable,-1.8 ,-15.6, 14.4
+"Clarke County(6,10)",51043,***,1820.8 ,1589.5, 2076.1,46,stable,1.6 ,-17.4, 24.9
+"Powhatan County(6,10)",51145,***,1818.8 ,1636.2, 2016.6,79,stable,-6.9 ,-15.6, 2.6
+"Amherst County(6,10)",51009,***,1806.1 ,1654.6, 1967.8,106,stable,0.1 ,-7.9, 8.9
+"Greensville County(6,10)",51081,***,1799.6 ,1522.2, 2114,31,stable,8.3 ,-7.1, 26.2
+"Danville City(6,10)",51590,***,1799.4 ,1669.9, 1936.1,147,stable,2.0 ,-4.0, 8.4
+"Fauquier County(6,10)",51061,***,1788.8 ,1669.7, 1914.3,174,stable,4.6 ,-6.8, 17.4
+"Lancaster County(6,10)",51103,***,1781.6 ,1593.6, 1985.5,66,stable,3.2 ,-13.8, 23.5
+"Bath County(6,10)",51017,***,1778.9 ,1446.7, 2165.5,20,stable,7.5 ,-13.8, 33.9
+"Frederick County(6,10)",51069,***,1763.4 ,1659.1, 1872.5,219,stable,-4.0 ,-9.4, 1.7
+"Halifax County with South Boston City(6,10)",51083,***,1758.9 ,1627.9, 1897.6,136,rising,12.9 ,5.0, 21.4
+"Fairfax City(6,10)",51600,***,1758.1 ,1557.4, 1977.1,57,stable,-4.1 ,-13.6, 6.5
+"Giles County(6,10)",51071,***,1724 ,1528.5, 1937.7,58,stable,3.7 ,-5.5, 13.9
+"Grayson County(6,10)",51077,***,1715.7 ,1524.5, 1924.2,59,stable,-1.2 ,-21.7, 24.8
+"Henry County(6,10)",51089,***,1704.6 ,1598.7, 1815.8,194,stable,4.6 ,-5.0, 15.2
+"Covington City(6,10)",51580,***,1685.7 ,1359, 2066.3,19,stable,-1.6 ,-19.3, 19.9
+"Falls Church City(6,10)",51610,***,1677.4 ,1393.8, 2001.4,26,stable,5.4 ,-14.7, 30.2
+"Pulaski County(6,10)",51155,***,1676.2 ,1541.7, 1819.4,118,stable,-3.8 ,-8.0, 0.7
+"Winchester City(6,10)",51840,***,1662.1 ,1485.3, 1854.1,66,stable,0.5 ,-6.9, 8.6
+"Pittsylvania County(6,10)",51143,***,1660.6 ,1558.6, 1767.5,203,stable,2.5 ,-12.3, 19.8
+"Prince William County(6,10)",51153,***,1636.3 ,1574.2, 1700.2,574,stable,-1.4 ,-6.7, 4.2
+"Arlington County(6,10)",51013,***,1633.3 ,1553.9, 1715.7,335,stable,-1.7 ,-11.3, 9.0
+"Bland County(6,10)",51021,***,1622 ,1320.4, 1972.6,21,stable,-3.9 ,-25.8, 24.3
+"Manassas Park City(6,10)",51685,***,1614.6 ,1278.7, 2012.3,17,rising,27.3 ,4.8, 54.8
+"Smyth County(6,10)",51173,***,1607.2 ,1469.4, 1754.4,101,falling,-8.6 ,-15.9, -0.7
+"Greene County(6,10)",51079,***,1601.7 ,1393.4, 1832.5,45,stable,0.1 ,-8.8, 9.8
+"Montgomery County(6,10)",51121,***,1599.4 ,1492, 1712.4,169,stable,0.4 ,-1.7, 2.5
+"Floyd County(6,10)",51063,***,1589.8 ,1393.7, 1805.9,49,stable,-3.7 ,-16.2, 10.6
+"Rappahannock County(6,10)",51157,***,1554.7 ,1291, 1856.7,26,stable,-3.7 ,-24.4, 22.6
+"Dickenson County(6,10)",51051,***,1550.8 ,1350.8, 1772.2,44,stable,1.2 ,-13.3, 18.1
+"Loudoun County(6,10)",51107,***,1545.4 ,1479.5, 1613.5,433,stable,-4.8 ,-10.8, 1.7
+"Alexandria City(6,10)",51510,***,1533 ,1443.6, 1626.5,236,stable,-2.8 ,-14.1, 10.1
+"Norton City(6,10)",51720,***,1527.3 ,1127.4, 2022.5,10,stable,-10.4 ,-42.3, 39.1
+"Fairfax County(6,10)",51059,***,1523.1 ,1492.2, 1554.5,1946,stable,-4.0 ,-10.1, 2.5
+"Wise County(6,10)",51195,***,1513.7 ,1378.4, 1658.8,94,stable,-2.2 ,-13.7, 10.9
+"Carroll County(6,10)",51035,***,1450.1 ,1320.8, 1588.6,94,stable,1.4 ,-20.5, 29.4
+"Washington County(6,10)",51191,***,1431.3 ,1331, 1537.1,154,stable,-9.3 ,-20.8, 3.8
+"Tazewell County(6,10)",51185,***,1381.3 ,1268.8, 1501,114,stable,-3.2 ,-15.8, 11.2
+"Patrick County(6,10)",51141,***,1365.4 ,1212.7, 1532,59,stable,2.4 ,-15.0, 23.4
+"Russell County(6,10)",51167,***,1193.2 ,1062.7, 1335.4,62,falling,-10.4 ,-17.8, -2.3
+"Scott County(6,10)",51169,***,1189.7 ,1055.8, 1335.8,58,stable,-16.3 ,-34.8, 7.3
+"Bristol City(6,10)",51520,***,1111.2 ,957.6, 1282.4,38,stable,-11.3 ,-44.7, 42.4
+"Lee County(6,10)",51105,***,1095 ,959.8, 1243.9,49,falling,-8.0 ,-14.4, -1.2
+"Buchanan County(6,10)",51027,***,990.8 ,857.9, 1138.6,42,stable,-1.3 ,-16.2, 16.2
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 5:03 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

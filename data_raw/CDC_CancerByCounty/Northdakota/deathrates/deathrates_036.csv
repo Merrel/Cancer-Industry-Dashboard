@@ -1,0 +1,94 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=38&areatype=county&cancer=001&race=00&sex=0&age=136&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '38', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '0', 'age': '136', 'type': 'death', 'file_name': 'deathrates_036.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=38&areatype=county&cancer=001&race=00&sex=0&age=136&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for North Dakota by County
+
+"All Cancer Sites, 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, Ages 50+"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 161.4?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"North Dakota",38000,No,510 ,497.1, 523.2,1232,falling,-1.2 ,-1.3, -1.0
+"United States",00000,No,540.6 ,539.9, 541.2,558319,falling,-1.5 ,-1.5, -1.5
+"Burke County",38013,No,742.7 ,514, 1038.2,7,stable,-1.1 ,-3.0, 0.8
+"Wells County",38103,No,724.4 ,576, 899.8,17,stable,-0.4 ,-1.8, 1.0
+"Renville County",38075,No,712.5 ,498, 986.4,7,stable,0.5 ,-1.4, 2.5
+"Rolette County",38079,No,693.2 ,572.3, 831.7,24,stable,-1.0 ,-2.1, 0.1
+"Nelson County",38063,No,682.9 ,519, 883.2,12,stable,-1.0 ,-2.4, 0.4
+"Bottineau County",38009,No,622.4 ,503.6, 761,20,stable,1.1 ,-0.5, 2.7
+"Bowman County",38011,No,621.2 ,452.2, 833.3,9,stable,-0.6 ,-2.2, 1.0
+"Eddy County",38027,No,601.2 ,415.3, 842.6,7,stable,0.6 ,-1.0, 2.3
+"Williams County",38105,No,593 ,515.1, 678.9,44,stable,-0.3 ,-1.0, 0.5
+"Golden Valley County",38033,No,592.8 ,369.3, 899.7,5,stable,0.4 ,-1.4, 2.2
+"Walsh County",38099,No,583.7 ,491.5, 688.1,29,falling,-1.7 ,-2.6, -0.9
+"McHenry County",38049,No,576.2 ,449.8, 727,15,stable,-1.0 ,-2.1, 0.1
+"Morton County",38059,No,575.8 ,510.2, 647.4,58,stable,-0.8 ,-1.6, 0.0
+"Mercer County",38057,No,571.7 ,462.8, 698.3,20,stable,-0.4 ,-1.5, 0.7
+"Stutsman County",38093,No,566.4 ,495.2, 645,48,falling,-0.9 ,-1.5, -0.3
+"Sargent County",38081,No,565.8 ,416.1, 751.5,10,stable,-0.2 ,-1.5, 1.1
+"Adams County",38001,No,560.5 ,395.2, 773.9,8,stable,-1.3 ,-2.7, 0.2
+"Logan County",38047,No,560 ,375.1, 805.6,6,stable,-0.2 ,-1.7, 1.4
+"Benson County",38005,No,558 ,414.9, 733.7,10,stable,0.9 ,-0.9, 2.7
+"Dickey County",38021,No,557.5 ,428.2, 714.2,13,stable,-0.6 ,-1.8, 0.6
+"Traill County",38097,No,551.6 ,442, 680,19,stable,0.1 ,-0.8, 1.0
+"Griggs County",38039,No,543.2 ,379.2, 755.8,8,stable,-0.4 ,-2.5, 1.8
+"Barnes County",38003,No,541.8 ,452.8, 643.3,27,stable,-0.6 ,-1.7, 0.4
+"Grant County",38037,No,540.6 ,381.9, 745,8,stable,-0.7 ,-2.5, 1.2
+"Mountrail County",38061,No,538.3 ,411.9, 689.9,13,stable,-1.0 ,-2.7, 0.7
+"Grand Forks County",38035,No,534.3 ,486.5, 585.4,96,falling,-1.2 ,-1.7, -0.7
+"Sioux County",38085,No,524.1 ,301.8, 842.3,4,stable,-2.0 ,-5.6, 1.8
+"Ransom County",38073,No,515.3 ,394.4, 662,14,falling,-1.3 ,-2.5, -0.1
+"Pierce County",38069,No,511.6 ,383.1, 670.1,11,stable,-1.5 ,-3.1, 0.1
+"Ramsey County",38071,No,510 ,422.7, 610,25,stable,-0.7 ,-1.7, 0.3
+"Dunn County",38025,No,494.5 ,342.4, 689.8,7,stable,-1.2 ,-2.7, 0.4
+"Cavalier County",38019,No,492.7 ,368.3, 646.5,11,falling,-1.8 ,-3.1, -0.6
+"Cass County",38017,No,489.6 ,459.4, 521.4,207,falling,-1.7 ,-2.2, -1.2
+"Towner County",38095,No,489 ,322.6, 710.4,6,stable,-0.4 ,-2.3, 1.5
+"Richland County",38077,No,488.6 ,411.3, 576.1,30,falling,-1.3 ,-2.2, -0.4
+"Steele County",38091,No,480.9 ,304, 724.5,5,falling,-2.2 ,-4.3, -0.1
+"Burleigh County",38015,No,466.1 ,431.4, 502.8,139,falling,-1.1 ,-1.8, -0.4
+"Ward County",38101,No,462.4 ,419.2, 508.8,87,falling,-1.2 ,-1.9, -0.4
+"Stark County",38089,No,458.8 ,398, 526.3,44,stable,-0.6 ,-1.4, 0.2
+"Pembina County",38067,No,458.2 ,361.7, 572.7,17,falling,-2.3 ,-3.4, -1.3
+"McLean County",38055,No,457.4 ,371.4, 557.3,20,falling,-1.7 ,-2.8, -0.5
+"Foster County",38031,No,447.3 ,307.7, 628,7,stable,-0.5 ,-2.4, 1.5
+"Emmons County",38029,No,438.1 ,316.4, 592.2,9,falling,-2.3 ,-3.5, -1.1
+"Sheridan County",38083,No,428.2 ,256.4, 678,4,stable,-1.3 ,-3.6, 1.0
+"McKenzie County",38053,No,415.9 ,303.1, 555.3,10,falling,-2.4 ,-3.7, -1.0
+"Hettinger County",38041,No,398.8 ,260.9, 586.1,5,stable,-1.4 ,-3.3, 0.5
+"Kidder County",38043,No,393.1 ,250.4, 588.6,5,stable,-1.9 ,-4.1, 0.3
+"LaMoure County",38045,No,378.6 ,274.7, 510.3,9,stable,-1.3 ,-2.7, 0.1
+"Divide County",38023,No,363.9 ,225.8, 556.5,5,falling,-2.6 ,-4.3, -0.8
+"McIntosh County",38051,No,343.1 ,230.6, 494.6,7,falling,-2.6 ,-4.4, -0.7
+"Billings County",38007,***,* ,*, *,3 or fewer,*,*,*,*
+"Oliver County",38065,***,* ,*, *,3 or fewer,*,*,*,*
+"Slope County",38087,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:21 pm.
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

@@ -1,0 +1,126 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=26&areatype=county&cancer=071&stage=211&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '26', 'areatype': 'county', 'cancer': '071', 'stage': '211', 'race': '00', 'sex': '0', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_040.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=26&areatype=county&cancer=071&stage=211&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Michigan by County
+
+"Bladder (Late Stage^), 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Percent of Cases with Late Stage
+"Michigan(5)",26000,***,2.5 #  ,2.3, 2.6,301,11.1
+"US (SEER+NPCR)(1)",00000,***,2.3 ,2.3, 2.4,8619,11.7
+"Lapeer County(6)",26087,***,3.6 #  ,2.1, 5.8,4,11.9
+"Van Buren County(6)",26159,***,3.6 #  ,2, 5.9,3,14.5
+"Saginaw County(6)",26145,***,3.5 #  ,2.6, 4.8,10,14.9
+"Muskegon County(6)",26121,***,3.4 #  ,2.4, 4.8,7,15.7
+"Oakland County(7)",26125,***,2.8 ,2.4, 3.3,41,11.8
+"Wayne County(7)",26163,***,2.8 ,2.5, 3.1,58,12.5
+"Bay County(6)",26017,***,2.8 #  ,1.6, 4.4,4,9.9
+"Macomb County(7)",26099,***,2.7 ,2.3, 3.2,30,10.7
+"Berrien County(6)",26021,***,2.7 #  ,1.8, 3.9,6,11.2
+"Kalamazoo County(6)",26077,***,2.7 #  ,1.9, 3.7,7,13.7
+"Eaton County(6)",26045,***,2.4 #  ,1.4, 4.1,3,9.2
+"Washtenaw County(6)",26161,***,2.4 #  ,1.7, 3.2,8,13.2
+"Livingston County(6)",26093,***,2.3 #  ,1.4, 3.5,5,11.0
+"Genesee County(6)",26049,***,2.3 #  ,1.7, 3,12,9.3
+"Kent County(6)",26081,***,2.2 #  ,1.7, 2.8,14,10.0
+"Ottawa County(6)",26139,***,2.2 #  ,1.5, 3.1,6,9.5
+"Jackson County(6)",26075,***,2.2 #  ,1.3, 3.4,4,8.0
+"St. Clair County(6)",26147,***,1.9 #  ,1.2, 3.1,4,8.0
+"Ingham County(6)",26065,***,1.9 #  ,1.2, 2.8,5,8.5
+"Monroe County(6)",26115,***,1.7 #  ,0.9, 2.8,3,9.2
+"Alcona County(6)",26001,***,* ,*, *,3 or fewer,*
+"Alger County(6)",26003,***,* ,*, *,3 or fewer,*
+"Allegan County(6)",26005,***,* ,*, *,3 or fewer,*
+"Alpena County(6)",26007,***,* ,*, *,3 or fewer,*
+"Antrim County(6)",26009,***,* ,*, *,3 or fewer,*
+"Arenac County(6)",26011,***,* ,*, *,3 or fewer,*
+"Baraga County(6)",26013,***,* ,*, *,3 or fewer,*
+"Barry County(6)",26015,***,* ,*, *,3 or fewer,*
+"Benzie County(6)",26019,***,* ,*, *,3 or fewer,*
+"Branch County(6)",26023,***,* ,*, *,3 or fewer,*
+"Calhoun County(6)",26025,***,* ,*, *,3 or fewer,*
+"Cass County(6)",26027,***,* ,*, *,3 or fewer,*
+"Charlevoix County(6)",26029,***,* ,*, *,3 or fewer,*
+"Cheboygan County(6)",26031,***,* ,*, *,3 or fewer,*
+"Chippewa County(6)",26033,***,* ,*, *,3 or fewer,*
+"Clare County(6)",26035,***,* ,*, *,3 or fewer,*
+"Clinton County(6)",26037,***,* ,*, *,3 or fewer,*
+"Crawford County(6)",26039,***,* ,*, *,3 or fewer,*
+"Delta County(6)",26041,***,* ,*, *,3 or fewer,*
+"Dickinson County(6)",26043,***,* ,*, *,3 or fewer,*
+"Emmet County(6)",26047,***,* ,*, *,3 or fewer,*
+"Gladwin County(6)",26051,***,* ,*, *,3 or fewer,*
+"Gogebic County(6)",26053,***,* ,*, *,3 or fewer,*
+"Grand Traverse County(6)",26055,***,* ,*, *,3 or fewer,*
+"Gratiot County(6)",26057,***,* ,*, *,3 or fewer,*
+"Hillsdale County(6)",26059,***,* ,*, *,3 or fewer,*
+"Houghton County(6)",26061,***,* ,*, *,3 or fewer,*
+"Huron County(6)",26063,***,* ,*, *,3 or fewer,*
+"Ionia County(6)",26067,***,* ,*, *,3 or fewer,*
+"Iosco County(6)",26069,***,* ,*, *,3 or fewer,*
+"Iron County(6)",26071,***,* ,*, *,3 or fewer,*
+"Isabella County(6)",26073,***,* ,*, *,3 or fewer,*
+"Kalkaska County(6)",26079,***,* ,*, *,3 or fewer,*
+"Keweenaw County(6)",26083,***,* ,*, *,3 or fewer,*
+"Lake County(6)",26085,***,* ,*, *,3 or fewer,*
+"Leelanau County(6)",26089,***,* ,*, *,3 or fewer,*
+"Lenawee County(6)",26091,***,* ,*, *,3 or fewer,*
+"Luce County(6)",26095,***,* ,*, *,3 or fewer,*
+"Mackinac County(6)",26097,***,* ,*, *,3 or fewer,*
+"Manistee County(6)",26101,***,* ,*, *,3 or fewer,*
+"Marquette County(6)",26103,***,* ,*, *,3 or fewer,*
+"Mason County(6)",26105,***,* ,*, *,3 or fewer,*
+"Mecosta County(6)",26107,***,* ,*, *,3 or fewer,*
+"Menominee County(6)",26109,***,* ,*, *,3 or fewer,*
+"Midland County(6)",26111,***,* ,*, *,3 or fewer,*
+"Missaukee County(6)",26113,***,* ,*, *,3 or fewer,*
+"Montcalm County(6)",26117,***,* ,*, *,3 or fewer,*
+"Montmorency County(6)",26119,***,* ,*, *,3 or fewer,*
+"Newaygo County(6)",26123,***,* ,*, *,3 or fewer,*
+"Oceana County(6)",26127,***,* ,*, *,3 or fewer,*
+"Ogemaw County(6)",26129,***,* ,*, *,3 or fewer,*
+"Ontonagon County(6)",26131,***,* ,*, *,3 or fewer,*
+"Osceola County(6)",26133,***,* ,*, *,3 or fewer,*
+"Oscoda County(6)",26135,***,* ,*, *,3 or fewer,*
+"Otsego County(6)",26137,***,* ,*, *,3 or fewer,*
+"Presque Isle County(6)",26141,***,* ,*, *,3 or fewer,*
+"Roscommon County(6)",26143,***,* ,*, *,3 or fewer,*
+"Sanilac County(6)",26151,***,* ,*, *,3 or fewer,*
+"Schoolcraft County(6)",26153,***,* ,*, *,3 or fewer,*
+"Shiawassee County(6)",26155,***,* ,*, *,3 or fewer,*
+"St. Joseph County(6)",26149,***,* ,*, *,3 or fewer,*
+"Tuscola County(6)",26157,***,* ,*, *,3 or fewer,*
+"Wexford County(6)",26165,***,* ,*, *,3 or fewer,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:19 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+
+Rates are computed using cancers classified as malignant based on ICD-O-3. For more information see malignant.html.
+
+"^ Late Stage is defined as cases determined to be regional or distant. Coding is generally based on Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ] but may include other staging variables if necessary."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+# Data do not include cases diagnosed in other states for those states in which the data exchange agreement specifically prohibits the release of data to third parties.
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+5 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission. State rates include rates from metropolitan areas funded by SEER [http://seer.cancer.gov/registries/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+7 Source: SEER November 2018 submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

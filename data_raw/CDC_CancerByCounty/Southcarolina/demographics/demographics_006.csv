@@ -1,0 +1,65 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=45&areatype=county&topic=ins&demo=00043&race=00&sex=0&age=006&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '45', 'areatype': 'county', 'topic': 'ins', 'demo': '00043', 'race': '00', 'sex': '0', 'age': '006', 'type': 'manyareacensus', 'file_name': 'demographics_006.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=45&areatype=county&topic=ins&demo=00043&race=00&sex=0&age=006&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for South Carolina by County
+"Insurance: Percent uninsured in demographic group, people at or below 138% of poverty"
+"Ages <65, All Races (includes Hispanic), Both Sexes"
+2017 Small Area Health Insurance Estimates Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Uninsured),Rank within US
+"South Carolina",45000,21.7,212322,"43 of 51"
+"Allendale County",45005,14.8,389,"1230 of 3139"
+"Lee County",45061,15.5,769,"1314 of 3139"
+"Williamsburg County",45089,15.8,1400,"1349 of 3139"
+"Hampton County",45049,16.6,784,"1442 of 3139"
+"Chester County",45023,16.9,1362,"1471 of 3139"
+"Florence County",45041,16.9,5504,"1471 of 3139"
+"Barnwell County",45011,17.1,1027,"1501 of 3139"
+"Marion County",45067,17.1,1711,"1501 of 3139"
+"Darlington County",45031,17.3,2939,"1541 of 3139"
+"Union County",45087,17.3,1133,"1541 of 3139"
+"Marlboro County",45069,17.6,1344,"1590 of 3139"
+"Bamberg County",45009,17.7,674,"1606 of 3139"
+"Fairfield County",45039,18.0,1028,"1648 of 3139"
+"Colleton County",45029,18.1,1943,"1660 of 3139"
+"Sumter County",45085,18.1,4550,"1660 of 3139"
+"Orangeburg County",45075,18.5,4362,"1728 of 3139"
+"Cherokee County",45021,18.8,2779,"1765 of 3139"
+"Dillon County",45033,18.8,1913,"1765 of 3139"
+"Clarendon County",45027,19.2,1682,"1823 of 3139"
+"Richland County",45079,19.2,14895,"1823 of 3139"
+"Abbeville County",45001,19.3,1062,"1840 of 3139"
+"Kershaw County",45055,19.3,2322,"1840 of 3139"
+"Georgetown County",45043,20.1,2449,"1976 of 3139"
+"Greenwood County",45047,20.5,3501,"2037 of 3139"
+"McCormick County",45065,20.5,286,"2037 of 3139"
+"Laurens County",45059,20.7,3435,"2073 of 3139"
+"Spartanburg County",45083,20.8,12756,"2092 of 3139"
+"Anderson County",45007,21.3,8377,"2143 of 3139"
+"Chesterfield County",45025,21.3,2715,"2143 of 3139"
+"Dorchester County",45035,21.3,5195,"2143 of 3139"
+"Berkeley County",45015,21.7,7770,"2192 of 3139"
+"York County",45091,22.1,8469,"2245 of 3139"
+"Newberry County",45071,22.3,1879,"2268 of 3139"
+"Pickens County",45077,22.3,5589,"2268 of 3139"
+"Aiken County",45003,22.7,7449,"2322 of 3139"
+"Calhoun County",45017,22.7,683,"2322 of 3139"
+"Lancaster County",45057,23.2,3727,"2384 of 3139"
+"Lexington County",45063,23.2,10644,"2384 of 3139"
+"Edgefield County",45037,23.3,1062,"2398 of 3139"
+"Greenville County",45045,24.2,20307,"2485 of 3139"
+"Oconee County",45073,24.8,3877,"2541 of 3139"
+"Charleston County",45019,25.7,17270,"2612 of 3139"
+"Horry County",45051,26.4,18571,"2668 of 3139"
+"Jasper County",45053,27.6,2106,"2778 of 3139"
+"Beaufort County",45013,28.1,7247,"2803 of 3139"
+"Saluda County",45081,29.1,1386,"2846 of 3139"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:20 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & Small Area Health Insurance Estimates (https://www.census.gov/programs-surveys/sahie.html).
+"For more information about Insurance: Percent uninsured in demographic group, people at or below 138% of poverty, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#insurance."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

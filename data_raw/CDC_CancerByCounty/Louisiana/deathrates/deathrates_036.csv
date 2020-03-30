@@ -1,0 +1,104 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=22&areatype=county&cancer=001&race=00&sex=0&age=136&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '22', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '0', 'age': '136', 'type': 'death', 'file_name': 'deathrates_036.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=22&areatype=county&cancer=001&race=00&sex=0&age=136&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for Louisiana by Parish
+
+"All Cancer Sites, 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, Ages 50+"
+
+Sorted by Rate
+
+Parish, FIPS,Met Healthy People Objective of 161.4?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Louisiana",22000,No,610.6 ,604.9, 616.5,8786,falling,-1.6 ,-1.7, -1.5
+"United States",00000,No,540.6 ,539.9, 541.2,558319,falling,-1.5 ,-1.5, -1.5
+"Catahoula Parish",22025,No,880 ,744.6, 1032.8,31,stable,0.5 ,-0.4, 1.4
+"East Carroll Parish",22035,No,870.2 ,706.7, 1060.2,20,stable,0.0 ,-1.3, 1.2
+"West Carroll Parish",22123,No,722.4 ,613.6, 845,32,falling,-1.1 ,-1.8, -0.3
+"Red River Parish",22081,No,722.4 ,598.1, 864.8,24,stable,0.4 ,-0.9, 1.6
+"Allen Parish",22003,No,718.7 ,636.2, 808.8,56,stable,-1.2 ,-2.5, 0.2
+"Jefferson Davis Parish",22053,No,716.4 ,646.6, 791.6,78,falling,-0.7 ,-1.2, -0.2
+"Vernon Parish",22115,No,712.4 ,645.4, 784.3,86,stable,0.2 ,-0.6, 1.0
+"Bienville Parish",22013,No,707.6 ,612.5, 813.2,40,stable,-0.5 ,-1.0, 0.1
+"Washington Parish",22117,No,707 ,650.3, 767.2,118,falling,-0.8 ,-1.3, -0.3
+"Iberville Parish",22047,No,701.8 ,631.4, 777.8,75,falling,-0.7 ,-1.2, -0.1
+"St. Bernard Parish",22087,No,692.2 ,619.6, 770.8,73,falling,-4.6 ,-8.4, -0.6
+"East Feliciana Parish",22037,No,690.6 ,601.4, 789,46,falling,-0.8 ,-1.4, -0.2
+"Concordia Parish",22029,No,688.1 ,604.1, 780.5,49,stable,-0.6 ,-1.3, 0.1
+"Terrebonne Parish",22109,No,685 ,644.5, 727.3,223,falling,-0.8 ,-1.2, -0.4
+"Webster Parish",22119,No,679.1 ,622.7, 739.3,108,falling,-1.0 ,-1.5, -0.5
+"Evangeline Parish",22039,No,667.7 ,599.1, 741.9,70,falling,-0.7 ,-1.3, -0.1
+"St. Mary Parish",22101,No,666 ,612, 723.4,115,falling,-1.2 ,-1.8, -0.7
+"St. Landry Parish",22097,No,664.8 ,622, 709.7,184,falling,-0.8 ,-1.1, -0.4
+"Morehouse Parish",22067,No,663.2 ,592.4, 740.1,65,stable,-0.6 ,-1.2, 0.1
+"De Soto Parish",22031,No,660.5 ,589.3, 737.9,64,stable,-0.9 ,-1.7, 0.0
+"Acadia Parish",22001,No,659.7 ,609.1, 713.4,129,falling,-1.0 ,-1.4, -0.5
+"Avoyelles Parish",22009,No,655.7 ,596.9, 718.8,93,falling,-4.4 ,-8.0, -0.7
+"St. Martin Parish",22099,No,653.6 ,597.5, 713.5,106,falling,-1.2 ,-1.8, -0.6
+"Winn Parish",22127,No,653 ,558.7, 758.5,35,falling,-1.0 ,-1.9, -0.2
+"West Baton Rouge Parish",22121,No,651.5 ,569.6, 741.7,48,falling,-1.7 ,-2.7, -0.7
+"Jackson Parish",22049,No,648.9 ,562, 745.5,41,stable,-0.7 ,-1.6, 0.3
+"Ouachita Parish",22073,No,648.8 ,616.3, 682.5,306,falling,-0.9 ,-1.2, -0.5
+"Madison Parish",22065,No,644.6 ,529.8, 776.9,23,falling,-1.4 ,-2.5, -0.2
+"Tangipahoa Parish",22105,No,643.1 ,606.1, 681.7,238,falling,-1.2 ,-1.6, -0.9
+"Beauregard Parish",22011,No,642.3 ,577.5, 712.4,74,stable,-0.6 ,-1.3, 0.0
+"Caddo Parish",22017,No,637.4 ,613.3, 662.1,545,falling,-0.9 ,-1.1, -0.7
+"Grant Parish",22043,No,635.7 ,551.5, 729.1,42,falling,-1.2 ,-2.2, -0.3
+"Iberia Parish",22045,No,635.2 ,588.8, 684.2,143,falling,-1.2 ,-1.8, -0.7
+"Natchitoches Parish",22069,No,634.9 ,573.7, 700.9,80,falling,-1.0 ,-1.7, -0.3
+"Calcasieu Parish",22019,No,634 ,605.9, 663.2,392,falling,-1.2 ,-1.5, -0.8
+"St. Helena Parish",22091,No,633.4 ,526.1, 756.1,25,stable,-0.5 ,-1.6, 0.6
+"Lincoln Parish",22061,No,632.3 ,572, 697.2,82,falling,-0.7 ,-1.3, -0.1
+"St. James Parish",22093,No,624.9 ,545.6, 712.5,46,falling,-1.3 ,-2.1, -0.4
+"Plaquemines Parish",22075,No,624.8 ,540.4, 718.5,41,falling,-1.7 ,-2.8, -0.6
+"LaFourche Parish",22057,No,617.4 ,578.3, 658.5,190,falling,-0.9 ,-1.3, -0.5
+"Assumption Parish",22007,No,612.9 ,536.9, 696.6,49,falling,-1.5 ,-2.1, -0.8
+"St. Charles Parish",22089,No,608.2 ,550.5, 670.3,87,falling,-0.8 ,-1.5, -0.2
+"La Salle Parish",22059,No,604.3 ,511.6, 709,31,stable,-0.8 ,-1.8, 0.3
+"St. John the Baptist Parish",22095,No,601.9 ,541, 667.7,78,stable,-0.8 ,-1.6, 0.0
+"Pointe Coupee Parish",22077,No,598.4 ,527.9, 675.6,53,falling,-1.4 ,-2.2, -0.7
+"Rapides Parish",22079,No,597 ,564.7, 630.6,260,falling,-1.3 ,-1.7, -0.9
+"Richland Parish",22083,No,589.4 ,511.4, 675.8,42,falling,-1.7 ,-2.4, -0.9
+"Livingston Parish",22063,No,589 ,552.6, 627.2,210,falling,-1.7 ,-2.1, -1.3
+"Lafayette Parish",22055,No,586.1 ,558.9, 614.2,367,falling,-1.3 ,-1.7, -1.0
+"Jefferson Parish",22051,No,583.8 ,566.3, 601.8,868,falling,-1.9 ,-2.3, -1.4
+"Union Parish",22111,No,579.3 ,510.4, 655,52,falling,-1.7 ,-2.4, -0.9
+"Claiborne Parish",22027,No,579.2 ,497.6, 670.3,36,falling,-0.9 ,-1.6, -0.2
+"East Baton Rouge Parish",22033,No,572.8 ,553.9, 592.3,720,falling,-1.3 ,-1.5, -1.1
+"Orleans Parish",22071,No,571.2 ,550.9, 592,639,falling,-3.4 ,-4.3, -2.5
+"St. Tammany Parish",22103,No,559.8 ,536.3, 584.1,448,falling,-1.9 ,-2.4, -1.4
+"Vermilion Parish",22113,No,556.3 ,509.4, 606.3,106,falling,-1.0 ,-1.6, -0.4
+"Ascension Parish",22005,No,554.8 ,514.3, 597.7,153,falling,-1.7 ,-2.2, -1.2
+"West Feliciana Parish",22125,No,544.4 ,451.3, 650.8,27,falling,-2.7 ,-4.0, -1.5
+"Bossier Parish",22015,No,543.9 ,510, 579.4,196,falling,-1.9 ,-2.4, -1.3
+"Sabine Parish",22085,No,536.9 ,472.6, 607.6,52,falling,-1.2 ,-2.0, -0.4
+"Franklin Parish",22041,No,517.5 ,447, 595.9,39,falling,-1.6 ,-2.5, -0.7
+"Caldwell Parish",22021,No,507.4 ,408.4, 623.2,19,stable,-12.6 ,-24.3, 0.8
+"Tensas Parish",22107,No,460.1 ,339.5, 609.6,10,stable,-1.7 ,-3.4, 0.1
+"Cameron Parish",22023,No,419 ,306.1, 559.3,9,falling,-6.7 ,-10.3, -2.9
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:19 pm.
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

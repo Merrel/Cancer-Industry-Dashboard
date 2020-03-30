@@ -1,0 +1,85 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=08&areatype=county&topic=ed&demo=00006&race=00&sex=0&age=081&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '08', 'areatype': 'county', 'topic': 'ed', 'demo': '00006', 'race': '00', 'sex': '0', 'age': '081', 'type': 'manyareacensus', 'file_name': 'demographics_003.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=08&areatype=county&topic=ed&demo=00006&race=00&sex=0&age=081&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Colorado by County
+Education: At least bachelors degree
+Population Ages 25+
+"All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Education: At Least Bachelors Degree),Rank within US
+"United States",00000,30.9,66887603,"N/A"
+"Colorado",08000,39.4,1446473,"3 of 52"
+"Crowley County",08025,8.1,319,"3115 of 3141"
+"Bent County",08011,10.3,469,"3017 of 3141"
+"Lincoln County",08073,13.2,537,"2622 of 3141"
+"Kit Carson County",08063,15.8,882,"2148 of 3141"
+"Prowers County",08099,16.0,1255,"2103 of 3141"
+"Jackson County",08057,16.5,164,"2020 of 3141"
+"Washington County",08121,16.6,559,"2014 of 3141"
+"Fremont County",08043,17.1,6201,"1925 of 3141"
+"Moffat County",08081,17.2,1519,"1907 of 3141"
+"Morgan County",08087,17.2,3120,"1906 of 3141"
+"Otero County",08089,17.7,2179,"1804 of 3141"
+"Logan County",08075,19.0,2776,"1568 of 3141"
+"Conejos County",08021,19.2,1013,"1534 of 3141"
+"Delta County",08029,19.4,4264,"1506 of 3141"
+"Dolores County",08033,19.8,260,"1429 of 3141"
+"Las Animas County",08071,20.2,2083,"1369 of 3141"
+"Sedgwick County",08115,20.8,344,"1261 of 3141"
+"Costilla County",08023,20.9,553,"1249 of 3141"
+"Rio Blanco County",08103,20.9,892,"1238 of 3141"
+"Kiowa County",08061,21.0,191,"1233 of 3141"
+"Yuma County",08125,21.0,1397,"1226 of 3141"
+"Baca County",08009,21.4,558,"1193 of 3141"
+"Phillips County",08095,21.6,630,"1154 of 3141"
+"Pueblo County",08101,21.7,24008,"1138 of 3141"
+"Cheyenne County",08017,21.9,290,"1127 of 3141"
+"Adams County",08001,23.1,71613,"970 of 3141"
+"Montrose County",08085,23.4,6790,"939 of 3141"
+"Huerfano County",08055,23.6,1215,"915 of 3141"
+"Rio Grande County",08105,23.7,1846,"913 of 3141"
+"Saguache County",08109,26.0,1184,"725 of 3141"
+"Alamosa County",08003,26.2,2469,"709 of 3141"
+"Weld County",08123,27.0,49047,"649 of 3141"
+"Mesa County",08077,27.2,27526,"637 of 3141"
+"Montezuma County",08083,28.0,5072,"585 of 3141"
+"Park County",08093,28.5,3782,"559 of 3141"
+"San Juan County",08111,29.8,129,"498 of 3141"
+"Garfield County",08045,30.2,11571,"471 of 3141"
+"Lake County",08065,31.2,1689,"414 of 3141"
+"Chaffee County",08015,32.4,4823,"359 of 3141"
+"Custer County",08027,33.3,1180,"326 of 3141"
+"Teller County",08119,34.1,6122,"294 of 3141"
+"Elbert County",08039,35.0,6057,"262 of 3141"
+"Gilpin County",08047,36.6,1643,"227 of 3141"
+"Archuleta County",08007,37.0,3508,"219 of 3141"
+"El Paso County",08041,37.3,161103,"213 of 3141"
+"Grand County",08049,38.4,4273,"192 of 3141"
+"Mineral County",08079,39.3,285,"175 of 3141"
+"Hinsdale County",08053,40.8,271,"140 of 3141"
+"Arapahoe County",08005,41.6,175266,"130 of 3141"
+"Jefferson County",08059,43.1,173550,"109 of 3141"
+"La Plata County",08067,43.1,16604,"108 of 3141"
+"Eagle County",08037,45.1,16937,"91 of 3141"
+"Larimer County",08069,45.9,98799,"83 of 3141"
+"Clear Creek County",08019,46.4,3300,"79 of 3141"
+"Denver County",08031,46.5,224626,"75 of 3141"
+"Summit County",08117,47.8,10694,"65 of 3141"
+"Ouray County",08091,49.4,1852,"52 of 3141"
+"Routt County",08107,51.6,9209,"37 of 3141"
+"Broomfield County",08014,53.4,23541,"30 of 3141"
+"Gunnison County",08051,53.7,5563,"28 of 3141"
+"San Miguel County",08113,54.1,3161,"25 of 3141"
+"Douglas County",08035,58.0,121176,"13 of 3141"
+"Boulder County",08013,60.4,124219,"9 of 3141"
+"Pitkin County",08097,61.2,8315,"5 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:15 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Education: At least bachelors degree, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#education."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

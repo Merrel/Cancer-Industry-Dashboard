@@ -1,0 +1,74 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=38&areatype=county&topic=inc&demo=00011&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '38', 'areatype': 'county', 'topic': 'inc', 'demo': '00011', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_005.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=38&areatype=county&topic=inc&demo=00011&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for North Dakota by County
+Income: Median household income
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Dollars),Rank within US
+"United States",00000,57652.000000000,"N/A"
+"North Dakota",38000,61285.000000000,"17 of 52"
+"Rolette County",38079,36170.000000000,"2788 of 3141"
+"Sioux County",38085,40795.000000000,"2390 of 3141"
+"Golden Valley County",38033,44018.000000000,"2036 of 3141"
+"Benson County",38005,44500.000000000,"1990 of 3141"
+"Pierce County",38069,45996.000000000,"1813 of 3141"
+"McIntosh County",38051,46012.000000000,"1811 of 3141"
+"Emmons County",38029,46581.000000000,"1733 of 3141"
+"Sheridan County",38083,49750.000000000,"1384 of 3141"
+"Griggs County",38039,50272.000000000,"1326 of 3141"
+"Walsh County",38099,50781.000000000,"1264 of 3141"
+"Grant County",38037,50875.000000000,"1249 of 3141"
+"Grand Forks County",38035,51410.000000000,"1188 of 3141"
+"Nelson County",38063,52417.000000000,"1069 of 3141"
+"Divide County",38023,54223.000000000,"900 of 3141"
+"Wells County",38103,54464.000000000,"885 of 3141"
+"Towner County",38095,54625.000000000,"868 of 3141"
+"Adams County",38001,54700.000000000,"857 of 3141"
+"Eddy County",38027,55294.000000000,"816 of 3141"
+"Ramsey County",38071,55927.000000000,"775 of 3141"
+"Stutsman County",38093,56088.000000000,"766 of 3141"
+"Hettinger County",38041,56118.000000000,"763 of 3141"
+"Barnes County",38003,56237.000000000,"752 of 3141"
+"Logan County",38047,57379.000000000,"668 of 3141"
+"LaMoure County",38045,57463.000000000,"664 of 3141"
+"Cass County",38017,58026.000000000,"628 of 3141"
+"Dickey County",38021,58357.000000000,"609 of 3141"
+"Bottineau County",38009,58767.000000000,"584 of 3141"
+"Foster County",38031,59500.000000000,"544 of 3141"
+"Kidder County",38043,60225.000000000,"512 of 3141"
+"Richland County",38077,60551.000000000,"495 of 3141"
+"Sargent County",38081,60824.000000000,"476 of 3141"
+"Traill County",38097,60952.000000000,"468 of 3141"
+"Slope County",38087,61250.000000000,"457 of 3141"
+"Pembina County",38067,61393.000000000,"449 of 3141"
+"McHenry County",38049,61788.000000000,"430 of 3141"
+"Ransom County",38073,62524.000000000,"402 of 3141"
+"McLean County",38055,63926.000000000,"348 of 3141"
+"Ward County",38101,64159.000000000,"342 of 3141"
+"Morton County",38059,65385.000000000,"312 of 3141"
+"Bowman County",38011,65435.000000000,"309 of 3141"
+"Steele County",38091,65437.000000000,"308 of 3141"
+"Cavalier County",38019,65505.000000000,"305 of 3141"
+"Renville County",38075,66023.000000000,"290 of 3141"
+"Burleigh County",38015,67308.000000000,"264 of 3141"
+"Dunn County",38025,68594.000000000,"236 of 3141"
+"Mountrail County",38061,69622.000000000,"223 of 3141"
+"Oliver County",38065,71500.000000000,"201 of 3141"
+"Burke County",38013,71667.000000000,"197 of 3141"
+"Stark County",38089,77328.000000000,"134 of 3141"
+"McKenzie County",38053,79316.000000000,"116 of 3141"
+"Mercer County",38057,80337.000000000,"105 of 3141"
+"Williams County",38105,89874.000000000,"49 of 3141"
+"Billings County",38007,91518.000000000,"43 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:20 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Income: Median household income, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#income."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"Median Incomes over 250,000 have been coded to 250,001 by the Census Bureau. [ http://www2.census.gov/acs2012_5yr/summaryfile/ACS_2008-2012_SF_Tech_Doc.pdf ]"
+Data for United States does not include Puerto Rico.

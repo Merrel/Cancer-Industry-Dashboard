@@ -1,0 +1,53 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=35&areatype=county&topic=pop&demo=00022&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '35', 'areatype': 'county', 'topic': 'pop', 'demo': '00022', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_021.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=35&areatype=county&topic=pop&demo=00022&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for New Mexico by County
+Population: Black
+"All Ages, Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Black),Rank within US
+"New Mexico",35000,2.0,42187,"42 of 52"
+"United States",00000,12.7,40610815,"N/A"
+"Harding County",35021,0.0,0,"3052 of 3141"
+"Mora County",35033,0.1,3,"3001 of 3141"
+"Socorro County",35053,0.1,14,"2985 of 3141"
+"Catron County",35003,0.3,9,"2808 of 3141"
+"Los Alamos County",35028,0.3,55,"2755 of 3141"
+"Taos County",35055,0.5,162,"2531 of 3141"
+"McKinley County",35031,0.5,397,"2475 of 3141"
+"Sierra County",35051,0.6,62,"2466 of 3141"
+"San Juan County",35045,0.6,721,"2457 of 3141"
+"Rio Arriba County",35039,0.6,228,"2437 of 3141"
+"Lincoln County",35027,0.6,121,"2384 of 3141"
+"Hidalgo County",35023,0.7,30,"2312 of 3141"
+"Colfax County",35007,0.7,86,"2297 of 3141"
+"Santa Fe County",35049,0.8,1118,"2236 of 3141"
+"Valencia County",35061,0.9,716,"2083 of 3141"
+"Grant County",35017,1.0,277,"2050 of 3141"
+"Cibola County",35006,1.2,323,"1942 of 3141"
+"Union County",35059,1.3,55,"1898 of 3141"
+"San Miguel County",35047,1.3,376,"1882 of 3141"
+"Luna County",35029,1.4,329,"1868 of 3141"
+"Eddy County",35015,1.5,843,"1806 of 3141"
+"De Baca County",35011,1.5,30,"1805 of 3141"
+"Guadalupe County",35019,1.5,66,"1804 of 3141"
+"Quay County",35037,1.6,133,"1762 of 3141"
+"Chaves County",35005,1.7,1093,"1726 of 3141"
+"Torrance County",35057,1.7,268,"1709 of 3141"
+"Dona Ana County",35013,1.8,3809,"1694 of 3141"
+"Sandoval County",35043,2.0,2723,"1641 of 3141"
+"Bernalillo County",35001,2.9,19736,"1422 of 3141"
+"Roosevelt County",35041,3.2,623,"1372 of 3141"
+"Otero County",35035,3.4,2199,"1346 of 3141"
+"Lea County",35025,3.8,2624,"1290 of 3141"
+"Curry County",35009,5.9,2958,"1051 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:18 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Black, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

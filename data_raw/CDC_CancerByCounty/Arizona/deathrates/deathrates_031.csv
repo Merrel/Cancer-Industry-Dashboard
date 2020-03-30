@@ -1,0 +1,57 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=04&areatype=county&cancer=001&race=00&sex=1&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '04', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '1', 'age': '001', 'type': 'death', 'file_name': 'deathrates_031.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=04&areatype=county&cancer=001&race=00&sex=1&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for Arizona by County
+
+"All Cancer Sites, 2012-2016"
+
+"All Races (includes Hispanic), Male, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 161.4?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Arizona",04000,No,169.2 ,167.3, 171.1,6213,falling,-1.6 ,-1.7, -1.6
+"United States",00000,No,193.1 ,192.8, 193.4,310576,falling,-1.8 ,-1.8, -1.8
+"Mohave County",04015,No,214.1 ,204.3, 224.4,399,falling,-1.3 ,-1.7, -1.0
+"Gila County",04007,No,191.1 ,172.4, 211.6,87,falling,-0.9 ,-1.6, -0.2
+"Cochise County",04003,No,189.6 ,176.7, 203.3,167,falling,-1.5 ,-1.9, -1.0
+"Yavapai County",04025,No,182.1 ,173.4, 191.3,363,falling,-1.2 ,-1.5, -0.9
+"Pima County",04019,No,175.3 ,170.5, 180.2,1046,falling,-3.4 ,-5.1, -1.7
+"Maricopa County",04013,No,166.9 ,164.3, 169.5,3281,falling,-1.8 ,-1.9, -1.7
+"Graham County",04009,No,165.2 ,138.8, 194.9,29,falling,-1.3 ,-1.9, -0.6
+"Navajo County",04017,No,162.3 ,147.3, 178.4,92,falling,-1.2 ,-1.8, -0.6
+"Apache County",04001,Yes,160.6 ,141.2, 181.8,53,stable,-0.2 ,-1.0, 0.7
+"Pinal County",04021,Yes,155.4 ,148.2, 162.8,375,falling,-1.8 ,-2.2, -1.4
+"Santa Cruz County",04023,Yes,151.7 ,129.8, 176.3,36,falling,-2.2 ,-3.4, -1.0
+"Greenlee County",04011,Yes,146.4 ,97.4, 210.4,6,stable,-1.5 ,-3.6, 0.6
+"Coconino County",04005,Yes,142.2 ,127.3, 158.2,76,falling,-1.2 ,-1.8, -0.6
+"La Paz County (3)",04012,Yes,141 ,118.5, 168.1,35,stable,-1.2 ,-2.8, 0.4
+"Yuma County (3)",04027,Yes,139.3 ,129.9, 149.2,169,falling,-0.9 ,-1.4, -0.3
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:15 pm.
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"(3) Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties.
+"
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

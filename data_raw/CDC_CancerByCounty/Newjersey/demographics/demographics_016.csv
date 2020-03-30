@@ -1,0 +1,41 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=34&areatype=county&topic=pop&demo=00028&race=00&sex=0&age=999&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '34', 'areatype': 'county', 'topic': 'pop', 'demo': '00028', 'race': '00', 'sex': '0', 'age': '999', 'type': 'manyareacensus', 'file_name': 'demographics_016.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=34&areatype=county&topic=pop&demo=00028&race=00&sex=0&age=999&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for New Jersey by County
+Population: Age 40 and over
+"All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Age 40 And Over),Rank within US
+"United States",00000,47.3,151838062,"N/A"
+"New Jersey",34000,49.5,4436185,"13 of 52"
+"Hudson County",34017,41.3,281026,"2922 of 3141"
+"Passaic County",34031,45.8,233899,"2582 of 3141"
+"Cumberland County",34011,45.8,71012,"2577 of 3141"
+"Essex County",34013,46.3,370894,"2514 of 3141"
+"Middlesex County",34023,47.5,397453,"2373 of 3141"
+"Union County",34039,47.8,266155,"2316 of 3141"
+"Camden County",34007,48.1,245998,"2247 of 3141"
+"Mercer County",34021,48.2,179996,"2232 of 3141"
+"Gloucester County",34015,49.9,145478,"1918 of 3141"
+"Atlantic County",34001,51.3,139941,"1600 of 3141"
+"Burlington County",34005,51.7,232169,"1507 of 3141"
+"Somerset County",34035,51.8,172622,"1480 of 3141"
+"Bergen County",34003,52.1,488260,"1413 of 3141"
+"Salem County",34033,52.5,33468,"1304 of 3141"
+"Ocean County",34029,52.9,312232,"1191 of 3141"
+"Morris County",34027,53.1,265131,"1141 of 3141"
+"Monmouth County",34025,53.5,335920,"1055 of 3141"
+"Warren County",34041,54.3,58182,"890 of 3141"
+"Sussex County",34037,54.9,78815,"789 of 3141"
+"Hunterdon County",34019,56.8,71455,"512 of 3141"
+"Cape May County",34009,59.3,56079,"264 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:18 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Age 40 and over, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

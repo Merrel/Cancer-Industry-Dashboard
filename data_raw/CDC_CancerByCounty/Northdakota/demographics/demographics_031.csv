@@ -1,0 +1,73 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=38&areatype=county&topic=work&demo=00012&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '38', 'areatype': 'county', 'topic': 'work', 'demo': '00012', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_031.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=38&areatype=county&topic=work&demo=00012&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for North Dakota by County
+Workforce: Unemployed
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Unemployed),Rank within US
+"North Dakota",38000,2.7,11085,"1 of 52"
+"United States",00000,6.6,10560305,"N/A"
+"Nelson County",38063,0.5,8,"18 of 3141"
+"LaMoure County",38045,0.8,17,"26 of 3141"
+"Golden Valley County",38033,0.9,9,"29 of 3141"
+"Renville County",38075,0.9,11,"30 of 3141"
+"Sargent County",38081,1.0,21,"35 of 3141"
+"Foster County",38031,1.1,20,"46 of 3141"
+"Ramsey County",38071,1.3,79,"55 of 3141"
+"Slope County",38087,1.3,4,"57 of 3141"
+"Kidder County",38043,1.3,17,"59 of 3141"
+"Mercer County",38057,1.3,60,"60 of 3141"
+"Cavalier County",38019,1.3,26,"61 of 3141"
+"Stutsman County",38093,1.5,167,"70 of 3141"
+"McLean County",38055,1.6,74,"81 of 3141"
+"Eddy County",38027,1.6,19,"85 of 3141"
+"Adams County",38001,1.6,21,"88 of 3141"
+"Pierce County",38069,1.6,33,"89 of 3141"
+"Bowman County",38011,1.6,30,"93 of 3141"
+"Logan County",38047,1.7,18,"102 of 3141"
+"McIntosh County",38051,1.7,24,"107 of 3141"
+"Steele County",38091,1.8,19,"112 of 3141"
+"Emmons County",38029,1.8,28,"117 of 3141"
+"Burleigh County",38015,1.8,940,"118 of 3141"
+"Williams County",38105,2.0,357,"142 of 3141"
+"Wells County",38103,2.0,41,"144 of 3141"
+"Hettinger County",38041,2.2,26,"161 of 3141"
+"McHenry County",38049,2.2,69,"171 of 3141"
+"Oliver County",38065,2.3,21,"173 of 3141"
+"Divide County",38023,2.4,29,"189 of 3141"
+"Ransom County",38073,2.4,68,"192 of 3141"
+"Morton County",38059,2.4,422,"193 of 3141"
+"Grant County",38037,2.4,29,"202 of 3141"
+"Richland County",38077,2.4,222,"203 of 3141"
+"Burke County",38013,2.6,30,"228 of 3141"
+"Walsh County",38099,2.6,149,"234 of 3141"
+"Dickey County",38021,2.6,72,"240 of 3141"
+"Ward County",38101,2.7,995,"244 of 3141"
+"Cass County",38017,2.7,2765,"250 of 3141"
+"Traill County",38097,2.9,123,"281 of 3141"
+"Griggs County",38039,3.0,37,"329 of 3141"
+"Barnes County",38003,3.1,184,"340 of 3141"
+"Pembina County",38067,3.1,114,"348 of 3141"
+"Stark County",38089,3.2,541,"362 of 3141"
+"Bottineau County",38009,3.3,111,"380 of 3141"
+"Dunn County",38025,3.5,76,"458 of 3141"
+"Sheridan County",38083,3.6,23,"501 of 3141"
+"Towner County",38095,3.7,38,"520 of 3141"
+"Grand Forks County",38035,3.8,1504,"543 of 3141"
+"Billings County",38007,3.9,20,"578 of 3141"
+"McKenzie County",38053,3.9,244,"596 of 3141"
+"Mountrail County",38061,4.7,239,"928 of 3141"
+"Benson County",38005,6.5,168,"1785 of 3141"
+"Rolette County",38079,7.4,408,"2182 of 3141"
+"Sioux County",38085,19.1,315,"3123 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:20 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Workforce: Unemployed, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#workforce."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

@@ -1,0 +1,74 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=35&areatype=county&cancer=020&race=00&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '35', 'areatype': 'county', 'cancer': '020', 'race': '00', 'sex': '0', 'age': '001', 'type': 'death', 'file_name': 'deathrates_007.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=35&areatype=county&cancer=020&race=00&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for New Mexico by County
+
+"Colon & Rectum, 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 14.5?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"New Mexico",35000,Yes,13.5 ,12.9, 14.2,328,falling,-1.5 ,-1.7, -1.2
+"United States",00000,Yes,14.2 ,14.1, 14.2,51932,falling,-1.8 ,-2.3, -1.3
+"Luna County",35029,No,24.7 ,17.6, 34,9,rising,2.4 ,0.6, 4.2
+"San Miguel County",35047,No,22.1 ,15.9, 30.1,9,stable,0.0 ,-1.5, 1.5
+"Socorro County",35053,No,22 ,13.8, 33.6,5,stable,-1.2 ,-3.2, 0.8
+"Cibola County",35006,No,18.5 ,12.1, 27.2,5,*,*,*,*
+"McKinley County",35031,No,17.6 ,13.2, 22.9,11,stable,1.4 ,-0.3, 3.1
+"Rio Arriba County",35039,No,17.1 ,12.3, 23.3,8,stable,-28.1 ,-52.3, 8.4
+"Taos County",35055,No,15.8 ,11.2, 22.1,8,stable,-0.4 ,-2.6, 1.8
+"Chaves County",35005,No,15.6 ,11.8, 20.4,12,stable,-0.2 ,-1.6, 1.3
+"Colfax County",35007,No,15.3 ,9, 25.7,4,stable,-0.9 ,-3.0, 1.1
+"Eddy County",35015,No,14.8 ,10.7, 19.9,9,stable,-1.0 ,-2.7, 0.6
+"Torrance County",35057,Yes,13.8 ,7.7, 23.5,3,stable,-2.5 ,-5.3, 0.4
+"Sandoval County",35043,Yes,13.4 ,10.9, 16.3,22,stable,-1.1 ,-2.3, 0.2
+"Bernalillo County",35001,Yes,13.1 ,12, 14.4,99,falling,-1.9 ,-2.4, -1.4
+"Lea County",35025,Yes,13 ,9.3, 17.8,8,falling,-1.7 ,-3.2, -0.2
+"Dona Ana County",35013,Yes,12.5 ,10.5, 14.8,28,falling,-2.0 ,-3.3, -0.7
+"Otero County",35035,Yes,12.4 ,9.1, 16.6,10,falling,-2.4 ,-4.1, -0.8
+"Santa Fe County",35049,Yes,12.3 ,10.2, 14.8,25,falling,-1.6 ,-2.5, -0.6
+"Valencia County",35061,Yes,11.8 ,8.8, 15.6,11,falling,-2.8 ,-4.7, -0.9
+"Lincoln County",35027,Yes,11.8 ,6.5, 20.1,4,falling,-3.5 ,-6.3, -0.7
+"Grant County",35017,Yes,11.4 ,7.4, 17.2,6,stable,-2.5 ,-5.0, 0.0
+"San Juan County",35045,Yes,10 ,7.7, 12.8,13,falling,-3.4 ,-4.9, -1.8
+"Curry County",35009,Yes,9.5 ,6, 14.3,5,stable,-1.8 ,-3.6, 0.1
+"Catron County",35003,***,* ,*, *,3 or fewer,*,*,*,*
+"De Baca County",35011,***,* ,*, *,3 or fewer,*,*,*,*
+"Guadalupe County",35019,***,* ,*, *,3 or fewer,*,*,*,*
+"Harding County",35021,***,* ,*, *,3 or fewer,*,*,*,*
+"Hidalgo County",35023,***,* ,*, *,3 or fewer,*,*,*,*
+"Los Alamos County",35028,***,* ,*, *,3 or fewer,*,*,*,*
+"Mora County",35033,***,* ,*, *,3 or fewer,*,*,*,*
+"Quay County",35037,***,* ,*, *,3 or fewer,*,*,*,*
+"Roosevelt County",35041,***,* ,*, *,3 or fewer,*,*,*,*
+"Sierra County",35051,***,* ,*, *,3 or fewer,*,*,*,*
+"Union County",35059,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:19 pm.
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

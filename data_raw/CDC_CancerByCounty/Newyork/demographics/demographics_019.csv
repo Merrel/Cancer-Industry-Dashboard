@@ -1,0 +1,82 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=36&areatype=county&topic=pop&demo=00023&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '36', 'areatype': 'county', 'topic': 'pop', 'demo': '00023', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_019.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=36&areatype=county&topic=pop&demo=00023&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for New York by County
+Population: American Indian/Alaska Native
+"All Ages, Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (AI/AN),Rank within US
+"New York",36000,0.4,77130,"30 of 52"
+"United States",00000,0.8,2632102,"N/A"
+"Hamilton County",36041,0.0,1,"2919 of 3141"
+"Columbia County",36021,0.0,21,"2877 of 3141"
+"Tioga County",36107,0.0,22,"2841 of 3141"
+"Montgomery County",36057,0.1,41,"2697 of 3141"
+"Rensselaer County",36083,0.1,181,"2576 of 3141"
+"Schuyler County",36097,0.1,21,"2563 of 3141"
+"Steuben County",36101,0.1,137,"2443 of 3141"
+"Delaware County",36025,0.1,67,"2428 of 3141"
+"Oswego County",36075,0.2,186,"2389 of 3141"
+"Otsego County",36077,0.2,95,"2385 of 3141"
+"Livingston County",36051,0.2,103,"2371 of 3141"
+"Albany County",36001,0.2,516,"2339 of 3141"
+"Oneida County",36065,0.2,397,"2320 of 3141"
+"Cortland County",36023,0.2,83,"2315 of 3141"
+"Clinton County",36019,0.2,141,"2307 of 3141"
+"Yates County",36123,0.2,44,"2295 of 3141"
+"Ulster County",36111,0.2,322,"2274 of 3141"
+"Schoharie County",36095,0.2,57,"2266 of 3141"
+"Rockland County",36087,0.2,608,"2231 of 3141"
+"Wayne County",36117,0.2,175,"2208 of 3141"
+"Washington County",36115,0.2,122,"2182 of 3141"
+"Essex County",36031,0.2,79,"2125 of 3141"
+"Lewis County",36049,0.2,56,"2118 of 3141"
+"Saratoga County",36091,0.2,512,"2041 of 3141"
+"Broome County",36007,0.2,451,"2028 of 3141"
+"Tompkins County",36109,0.2,247,"1998 of 3141"
+"Warren County",36113,0.2,158,"1975 of 3141"
+"Nassau County",36059,0.2,3334,"1972 of 3141"
+"Schenectady County",36093,0.2,383,"1964 of 3141"
+"Suffolk County",36103,0.2,3743,"1951 of 3141"
+"Sullivan County",36105,0.3,194,"1924 of 3141"
+"Putnam County",36079,0.3,257,"1913 of 3141"
+"Richmond County",36085,0.3,1303,"1834 of 3141"
+"Allegany County",36003,0.3,130,"1832 of 3141"
+"Fulton County",36035,0.3,149,"1821 of 3141"
+"Cayuga County",36011,0.3,234,"1730 of 3141"
+"Herkimer County",36043,0.3,195,"1683 of 3141"
+"Chenango County",36017,0.3,153,"1659 of 3141"
+"Chautauqua County",36013,0.3,411,"1658 of 3141"
+"Orange County",36071,0.3,1247,"1604 of 3141"
+"Seneca County",36099,0.3,115,"1603 of 3141"
+"Kings County",36047,0.3,8735,"1595 of 3141"
+"Greene County",36039,0.3,164,"1547 of 3141"
+"New York County",36061,0.4,6035,"1478 of 3141"
+"Queens County",36081,0.4,8756,"1448 of 3141"
+"Dutchess County",36027,0.4,1112,"1444 of 3141"
+"Orleans County",36073,0.4,158,"1435 of 3141"
+"Wyoming County",36121,0.4,166,"1362 of 3141"
+"Monroe County",36055,0.4,3106,"1344 of 3141"
+"Westchester County",36119,0.4,4098,"1328 of 3141"
+"Ontario County",36069,0.4,476,"1287 of 3141"
+"Chemung County",36015,0.5,392,"1256 of 3141"
+"Erie County",36029,0.5,4533,"1175 of 3141"
+"Onondaga County",36067,0.5,2503,"1105 of 3141"
+"Madison County",36053,0.6,429,"1022 of 3141"
+"Jefferson County",36045,0.6,710,"1006 of 3141"
+"Bronx County",36005,0.7,9658,"937 of 3141"
+"St. Lawrence County",36089,0.7,762,"909 of 3141"
+"Genesee County",36037,1.0,563,"689 of 3141"
+"Niagara County",36063,1.1,2242,"632 of 3141"
+"Cattaraugus County",36009,3.0,2312,"289 of 3141"
+"Franklin County",36033,6.9,3529,"168 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:19 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: American Indian/Alaska Native, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

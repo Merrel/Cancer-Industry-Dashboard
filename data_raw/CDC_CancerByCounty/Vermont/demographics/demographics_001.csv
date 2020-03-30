@@ -1,0 +1,35 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=50&areatype=county&topic=ed&demo=00004&race=00&sex=0&age=081&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '50', 'areatype': 'county', 'topic': 'ed', 'demo': '00004', 'race': '00', 'sex': '0', 'age': '081', 'type': 'manyareacensus', 'file_name': 'demographics_001.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=50&areatype=county&topic=ed&demo=00004&race=00&sex=0&age=081&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Vermont by County
+Education: Less than 9th grade
+Population Ages 25+
+"All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Education: Less Than 9th Grade),Rank within US
+"Vermont",50000,2.6,11232,"4 of 52"
+"United States",00000,5.4,11759554,"N/A"
+"Grand Isle County",50013,1.1,55,"50 of 3141"
+"Washington County",50023,1.7,729,"221 of 3141"
+"Windsor County",50027,2.1,891,"398 of 3141"
+"Bennington County",50003,2.2,559,"422 of 3141"
+"Chittenden County",50007,2.2,2351,"448 of 3141"
+"Lamoille County",50015,2.3,396,"465 of 3141"
+"Windham County",50025,2.4,765,"517 of 3141"
+"Addison County",50001,2.5,619,"547 of 3141"
+"Orange County",50017,2.5,534,"596 of 3141"
+"Rutland County",50021,2.7,1161,"687 of 3141"
+"Caledonia County",50005,2.8,603,"764 of 3141"
+"Orleans County",50019,4.0,790,"1451 of 3141"
+"Franklin County",50011,4.4,1473,"1601 of 3141"
+"Essex County",50009,6.5,306,"2349 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:19 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Education: Less than 9th grade, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#education."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

@@ -1,0 +1,82 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=36&areatype=county&topic=pop&demo=00026&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '36', 'areatype': 'county', 'topic': 'pop', 'demo': '00026', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_023.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=36&areatype=county&topic=pop&demo=00026&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for New York by County
+Population: Hispanic
+"All Ages, Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Hispanic),Rank within US
+"United States",00000,17.6,56510571,"N/A"
+"New York",36000,18.8,3726238,"10 of 52"
+"Hamilton County",36041,1.5,69,"2693 of 3141"
+"Allegany County",36003,1.5,732,"2652 of 3141"
+"Steuben County",36101,1.6,1552,"2611 of 3141"
+"Lewis County",36049,1.7,454,"2565 of 3141"
+"Schuyler County",36097,1.8,319,"2520 of 3141"
+"Tioga County",36107,1.8,879,"2505 of 3141"
+"Cattaraugus County",36009,2.0,1576,"2366 of 3141"
+"Herkimer County",36043,2.1,1296,"2351 of 3141"
+"Madison County",36053,2.1,1513,"2321 of 3141"
+"Chenango County",36017,2.1,1048,"2302 of 3141"
+"Yates County",36123,2.2,542,"2292 of 3141"
+"St. Lawrence County",36089,2.3,2529,"2227 of 3141"
+"Warren County",36113,2.4,1529,"2177 of 3141"
+"Oswego County",36075,2.5,2959,"2136 of 3141"
+"Washington County",36115,2.6,1623,"2062 of 3141"
+"Cortland County",36023,2.6,1266,"2060 of 3141"
+"Niagara County",36063,2.7,5795,"2010 of 3141"
+"Cayuga County",36011,2.8,2186,"1976 of 3141"
+"Clinton County",36019,2.8,2277,"1964 of 3141"
+"Fulton County",36035,2.8,1528,"1951 of 3141"
+"Chemung County",36015,3.0,2580,"1892 of 3141"
+"Saratoga County",36091,3.0,6752,"1890 of 3141"
+"Schoharie County",36095,3.0,956,"1872 of 3141"
+"Genesee County",36037,3.1,1818,"1835 of 3141"
+"Essex County",36031,3.2,1227,"1793 of 3141"
+"Seneca County",36099,3.3,1139,"1768 of 3141"
+"Wyoming County",36121,3.3,1339,"1764 of 3141"
+"Franklin County",36033,3.4,1740,"1727 of 3141"
+"Livingston County",36051,3.4,2212,"1721 of 3141"
+"Otsego County",36077,3.5,2146,"1691 of 3141"
+"Delaware County",36025,3.7,1692,"1642 of 3141"
+"Broome County",36007,4.0,7819,"1569 of 3141"
+"Wayne County",36117,4.2,3851,"1503 of 3141"
+"Ontario County",36069,4.4,4857,"1443 of 3141"
+"Columbia County",36021,4.5,2785,"1422 of 3141"
+"Rensselaer County",36083,4.6,7394,"1396 of 3141"
+"Onondaga County",36067,4.7,21813,"1386 of 3141"
+"Orleans County",36073,4.7,1971,"1374 of 3141"
+"Tompkins County",36109,4.8,5025,"1355 of 3141"
+"Erie County",36029,5.2,48102,"1274 of 3141"
+"Oneida County",36065,5.4,12527,"1240 of 3141"
+"Greene County",36039,5.5,2652,"1209 of 3141"
+"Albany County",36001,5.7,17534,"1185 of 3141"
+"Schenectady County",36093,6.7,10363,"1036 of 3141"
+"Chautauqua County",36013,7.2,9427,"976 of 3141"
+"Jefferson County",36045,7.3,8465,"970 of 3141"
+"Monroe County",36055,8.3,62493,"865 of 3141"
+"Ulster County",36111,9.8,17714,"745 of 3141"
+"Dutchess County",36027,11.7,34662,"638 of 3141"
+"Montgomery County",36057,13.2,6510,"574 of 3141"
+"Putnam County",36079,13.8,13684,"554 of 3141"
+"Sullivan County",36105,15.4,11697,"497 of 3141"
+"Nassau County",36059,16.4,224195,"466 of 3141"
+"Rockland County",36087,17.3,56251,"447 of 3141"
+"Richmond County",36085,18.2,86540,"424 of 3141"
+"Suffolk County",36103,18.6,278954,"415 of 3141"
+"Kings County",36047,19.3,508365,"395 of 3141"
+"Orange County",36071,19.7,74643,"386 of 3141"
+"Westchester County",36119,24.0,234081,"304 of 3141"
+"New York County",36061,26.1,431249,"277 of 3141"
+"Queens County",36081,28.0,654793,"246 of 3141"
+"Bronx County",36005,55.7,810549,"73 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:19 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Hispanic, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

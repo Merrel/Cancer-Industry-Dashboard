@@ -1,0 +1,48 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=49&areatype=county&topic=ins&demo=00043&race=00&sex=0&age=006&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '49', 'areatype': 'county', 'topic': 'ins', 'demo': '00043', 'race': '00', 'sex': '0', 'age': '006', 'type': 'manyareacensus', 'file_name': 'demographics_006.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=49&areatype=county&topic=ins&demo=00043&race=00&sex=0&age=006&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Utah by County
+"Insurance: Percent uninsured in demographic group, people at or below 138% of poverty"
+"Ages <65, All Races (includes Hispanic), Both Sexes"
+2017 Small Area Health Insurance Estimates Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Uninsured),Rank within US
+"Utah",49000,19.8,89296,"37 of 51"
+"Utah County",49049,15.8,14689,"1349 of 3139"
+"Box Elder County",49003,16.8,1421,"1464 of 3139"
+"Kane County",49025,16.9,194,"1471 of 3139"
+"Carbon County",49007,17.0,634,"1483 of 3139"
+"Daggett County",49009,17.0,23,"1483 of 3139"
+"Emery County",49015,17.4,294,"1555 of 3139"
+"Davis County",49011,17.5,5797,"1575 of 3139"
+"Tooele County",49045,17.5,1526,"1575 of 3139"
+"Piute County",49031,17.8,51,"1623 of 3139"
+"Cache County",49005,18.0,4454,"1648 of 3139"
+"Juab County",49023,18.8,363,"1765 of 3139"
+"Sevier County",49041,19.1,749,"1804 of 3139"
+"Weber County",49057,19.1,7289,"1804 of 3139"
+"San Juan County",49037,19.6,849,"1895 of 3139"
+"Iron County",49021,19.7,2416,"1917 of 3139"
+"Sanpete County",49039,20.5,1168,"2037 of 3139"
+"Grand County",49019,21.0,352,"2115 of 3139"
+"Beaver County",49001,21.4,240,"2158 of 3139"
+"Duchesne County",49013,21.4,724,"2158 of 3139"
+"Uintah County",49047,21.9,1307,"2217 of 3139"
+"Rich County",49033,22.0,89,"2232 of 3139"
+"Salt Lake County",49035,22.3,34969,"2268 of 3139"
+"Washington County",49053,23.3,6492,"2398 of 3139"
+"Wayne County",49055,24.0,133,"2465 of 3139"
+"Morgan County",49029,26.3,230,"2657 of 3139"
+"Garfield County",49017,26.7,244,"2691 of 3139"
+"Millard County",49027,27.6,578,"2778 of 3139"
+"Wasatch County",49051,28.7,1028,"2828 of 3139"
+"Summit County",49043,34.7,993,"3057 of 3139"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:21 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & Small Area Health Insurance Estimates (https://www.census.gov/programs-surveys/sahie.html).
+"For more information about Insurance: Percent uninsured in demographic group, people at or below 138% of poverty, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#insurance."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

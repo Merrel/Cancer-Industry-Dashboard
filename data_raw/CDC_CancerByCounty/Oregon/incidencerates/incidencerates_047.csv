@@ -1,0 +1,76 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=41&areatype=county&cancer=090&stage=211&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '41', 'areatype': 'county', 'cancer': '090', 'stage': '211', 'race': '00', 'sex': '0', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_047.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=41&areatype=county&cancer=090&stage=211&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Oregon by County
+
+"Leukemia (Late Stage^), 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Percent of Cases with Late Stage
+"Oregon(6)",41000,***,12.6 ,12.2, 13.1,581,98.3
+"US (SEER+NPCR)(1)",00000,***,14 ,14, 14.1,49519,99.0
+"Wasco County(6)",41065,***,16.9 ,11.1, 24.8,6,100.0
+"Umatilla County(6)",41059,***,16.8 ,13.1, 21.4,14,100.0
+"Marion County(6)",41047,***,15.8 ,14, 17.8,56,99.3
+"Klamath County(6)",41035,***,15.8 ,12.1, 20.3,13,98.5
+"Crook County(6)",41013,***,15.6 ,9.2, 24.8,4,100.0
+"Clatsop County(6)",41007,***,15.3 ,10.4, 21.8,7,100.0
+"Polk County(6)",41053,***,14.7 ,11.4, 18.7,14,98.6
+"Washington County(6)",41067,***,14.1 ,12.7, 15.6,78,99.0
+"Clackamas County(6)",41005,***,14 ,12.4, 15.7,64,99.1
+"Coos County(6)",41011,***,13.5 ,10.2, 17.8,13,98.5
+"Multnomah County(6)",41051,***,13.5 ,12.3, 14.8,103,98.7
+"Linn County(6)",41043,***,13.2 ,10.6, 16.2,19,98.9
+"Tillamook County(6)",41057,***,13.1 ,7.8, 20.9,4,95.7
+"Columbia County(6)",41009,***,13.1 ,9.2, 18.1,8,95.3
+"Jefferson County(6)",41031,***,13 ,7.4, 21.2,3,100.0
+"Curry County(6)",41015,***,11.9 ,6.5, 20.3,4,100.0
+"Douglas County(6)",41019,***,11.5 ,9.1, 14.4,18,91.9
+"Yamhill County(6)",41071,***,10.9 ,8.3, 14.1,12,93.8
+"Benton County(6)",41003,***,10.8 ,7.8, 14.6,10,98.0
+"Deschutes County(6)",41017,***,10.7 ,8.8, 12.9,24,97.6
+"Union County(6)",41061,***,10 ,5.5, 16.9,3,100.0
+"Josephine County(6)",41033,***,9.9 ,7.3, 13.2,12,95.4
+"Lincoln County(6)",41041,***,9.8 ,6.8, 13.9,8,100.0
+"Lane County(6)",41039,***,9.7 ,8.4, 11.1,44,98.6
+"Malheur County(6)",41045,***,9.5 ,5.6, 15.3,4,94.7
+"Jackson County(6)",41029,***,9 ,7.4, 10.8,25,97.6
+"Baker County(6)",41001,***,* ,*, *,3 or fewer,*
+"Gilliam County(6)",41021,***,* ,*, *,3 or fewer,*
+"Grant County(6)",41023,***,* ,*, *,3 or fewer,*
+"Harney County(6)",41025,***,* ,*, *,3 or fewer,*
+"Hood River County(6)",41027,***,* ,*, *,3 or fewer,*
+"Lake County(6)",41037,***,* ,*, *,3 or fewer,*
+"Morrow County(6)",41049,***,* ,*, *,3 or fewer,*
+"Sherman County(6)",41055,***,* ,*, *,3 or fewer,*
+"Wallowa County(6)",41063,***,* ,*, *,3 or fewer,*
+"Wheeler County(6)",41069,***,* ,*, *,3 or fewer,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:20 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+
+Rates are computed using cancers classified as malignant based on ICD-O-3. For more information see malignant.html.
+
+"^ Late Stage is defined as cases determined to be regional or distant. Coding is generally based on Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ] but may include other staging variables if necessary."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

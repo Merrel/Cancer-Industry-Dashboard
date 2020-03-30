@@ -1,0 +1,141 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=19&areatype=county&cancer=018&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '19', 'areatype': 'county', 'cancer': '018', 'race': '00', 'sex': '0', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_020.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=19&areatype=county&cancer=018&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Iowa by County
+
+"Stomach (All Stages^), 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Iowa(7,8)",19000,***,4.6 ,4.3, 5,177,falling,-1.4 ,-1.7, -1.0
+"US (SEER+NPCR)(1,10)",00000,***,6.6 ,6.5, 6.6,23871,falling,-1.3 ,-2.0, -0.5
+"Woodbury County(7,8)",19193,***,7 ,5, 9.5,8,stable,-0.6 ,-2.2, 1.1
+"Warren County(7)",19181,***,6.7 ,4, 10.8,4,*,*,*,*
+"Clinton County(7,8)",19045,***,5.5 ,3.1, 9.1,3,stable,-0.4 ,-3.0, 2.3
+"Scott County(7,8)",19163,***,5.4 ,4, 7.1,10,stable,-0.6 ,-2.1, 1.0
+"Polk County(7,8)",19153,***,4.9 ,4, 5.9,23,falling,-1.7 ,-2.6, -0.7
+"Linn County(7,8)",19113,***,4.7 ,3.6, 6.2,11,stable,-0.5 ,-2.1, 1.1
+"Dubuque County(7,8)",19061,***,4.5 ,3, 6.7,5,falling,-2.2 ,-3.9, -0.5
+"Pottawattamie County(7,8)",19155,***,4.3 ,2.8, 6.5,5,falling,-2.1 ,-3.8, -0.4
+"Dallas County(7)",19049,***,4.3 ,2.4, 7.1,3,*,*,*,*
+"Story County(7,8)",19169,***,4.2 ,2.4, 6.8,3,stable,-1.0 ,-3.6, 1.8
+"Black Hawk County(7,8)",19013,***,4.1 ,2.8, 5.9,6,stable,-1.5 ,-3.3, 0.2
+"Johnson County(7,8)",19103,***,3.7 ,2.4, 5.6,5,stable,-1.8 ,-4.0, 0.4
+"Adair County(7)",19001,***,* ,*, *,3 or fewer,*,*,*,*
+"Adams County(7)",19003,***,* ,*, *,3 or fewer,*,*,*,*
+"Allamakee County(7)",19005,***,* ,*, *,3 or fewer,*,*,*,*
+"Appanoose County(7)",19007,***,* ,*, *,3 or fewer,*,*,*,*
+"Audubon County(7)",19009,***,* ,*, *,3 or fewer,*,*,*,*
+"Benton County(7)",19011,***,* ,*, *,3 or fewer,*,*,*,*
+"Boone County(7)",19015,***,* ,*, *,3 or fewer,*,*,*,*
+"Bremer County(7)",19017,***,* ,*, *,3 or fewer,*,*,*,*
+"Buchanan County(7)",19019,***,* ,*, *,3 or fewer,*,*,*,*
+"Buena Vista County(7)",19021,***,* ,*, *,3 or fewer,*,*,*,*
+"Butler County(7)",19023,***,* ,*, *,3 or fewer,*,*,*,*
+"Calhoun County(7)",19025,***,* ,*, *,3 or fewer,*,*,*,*
+"Carroll County(7)",19027,***,* ,*, *,3 or fewer,*,*,*,*
+"Cass County(7)",19029,***,* ,*, *,3 or fewer,*,*,*,*
+"Cedar County(7)",19031,***,* ,*, *,3 or fewer,*,*,*,*
+"Cerro Gordo County(7)",19033,***,* ,*, *,3 or fewer,*,*,*,*
+"Cherokee County(7)",19035,***,* ,*, *,3 or fewer,*,*,*,*
+"Chickasaw County(7)",19037,***,* ,*, *,3 or fewer,*,*,*,*
+"Clarke County(7)",19039,***,* ,*, *,3 or fewer,*,*,*,*
+"Clay County(7)",19041,***,* ,*, *,3 or fewer,*,*,*,*
+"Clayton County(7)",19043,***,* ,*, *,3 or fewer,*,*,*,*
+"Crawford County(7)",19047,***,* ,*, *,3 or fewer,*,*,*,*
+"Davis County(7)",19051,***,* ,*, *,3 or fewer,*,*,*,*
+"Decatur County(7)",19053,***,* ,*, *,3 or fewer,*,*,*,*
+"Delaware County(7)",19055,***,* ,*, *,3 or fewer,*,*,*,*
+"Des Moines County(7)",19057,***,* ,*, *,3 or fewer,*,*,*,*
+"Dickinson County(7)",19059,***,* ,*, *,3 or fewer,*,*,*,*
+"Emmet County(7)",19063,***,* ,*, *,3 or fewer,*,*,*,*
+"Fayette County(7)",19065,***,* ,*, *,3 or fewer,*,*,*,*
+"Floyd County(7)",19067,***,* ,*, *,3 or fewer,*,*,*,*
+"Franklin County(7)",19069,***,* ,*, *,3 or fewer,*,*,*,*
+"Fremont County(7)",19071,***,* ,*, *,3 or fewer,*,*,*,*
+"Greene County(7)",19073,***,* ,*, *,3 or fewer,*,*,*,*
+"Grundy County(7)",19075,***,* ,*, *,3 or fewer,*,*,*,*
+"Guthrie County(7)",19077,***,* ,*, *,3 or fewer,*,*,*,*
+"Hamilton County(7)",19079,***,* ,*, *,3 or fewer,*,*,*,*
+"Hancock County(7)",19081,***,* ,*, *,3 or fewer,*,*,*,*
+"Hardin County(7)",19083,***,* ,*, *,3 or fewer,*,*,*,*
+"Harrison County(7)",19085,***,* ,*, *,3 or fewer,*,*,*,*
+"Henry County(7)",19087,***,* ,*, *,3 or fewer,*,*,*,*
+"Howard County(7)",19089,***,* ,*, *,3 or fewer,*,*,*,*
+"Humboldt County(7)",19091,***,* ,*, *,3 or fewer,*,*,*,*
+"Ida County(7)",19093,***,* ,*, *,3 or fewer,*,*,*,*
+"Iowa County(7)",19095,***,* ,*, *,3 or fewer,*,*,*,*
+"Jackson County(7)",19097,***,* ,*, *,3 or fewer,*,*,*,*
+"Jasper County(7)",19099,***,* ,*, *,3 or fewer,*,*,*,*
+"Jefferson County(7)",19101,***,* ,*, *,3 or fewer,*,*,*,*
+"Jones County(7)",19105,***,* ,*, *,3 or fewer,*,*,*,*
+"Keokuk County(7)",19107,***,* ,*, *,3 or fewer,*,*,*,*
+"Kossuth County(7)",19109,***,* ,*, *,3 or fewer,*,*,*,*
+"Lee County(7)",19111,***,* ,*, *,3 or fewer,*,*,*,*
+"Louisa County(7)",19115,***,* ,*, *,3 or fewer,*,*,*,*
+"Lucas County(7)",19117,***,* ,*, *,3 or fewer,*,*,*,*
+"Lyon County(7)",19119,***,* ,*, *,3 or fewer,*,*,*,*
+"Madison County(7)",19121,***,* ,*, *,3 or fewer,*,*,*,*
+"Mahaska County(7)",19123,***,* ,*, *,3 or fewer,*,*,*,*
+"Marion County(7)",19125,***,* ,*, *,3 or fewer,*,*,*,*
+"Marshall County(7,8)",19127,***,* ,*, *,3 or fewer,*,*,*,*
+"Mills County(7)",19129,***,* ,*, *,3 or fewer,*,*,*,*
+"Mitchell County(7)",19131,***,* ,*, *,3 or fewer,*,*,*,*
+"Monona County(7)",19133,***,* ,*, *,3 or fewer,*,*,*,*
+"Monroe County(7)",19135,***,* ,*, *,3 or fewer,*,*,*,*
+"Montgomery County(7)",19137,***,* ,*, *,3 or fewer,*,*,*,*
+"Muscatine County(7)",19139,***,* ,*, *,3 or fewer,*,*,*,*
+"O'Brien County(7)",19141,***,* ,*, *,3 or fewer,*,*,*,*
+"Osceola County(7)",19143,***,* ,*, *,3 or fewer,*,*,*,*
+"Page County(7)",19145,***,* ,*, *,3 or fewer,*,*,*,*
+"Palo Alto County(7)",19147,***,* ,*, *,3 or fewer,*,*,*,*
+"Plymouth County(7)",19149,***,* ,*, *,3 or fewer,*,*,*,*
+"Pocahontas County(7)",19151,***,* ,*, *,3 or fewer,*,*,*,*
+"Poweshiek County(7)",19157,***,* ,*, *,3 or fewer,*,*,*,*
+"Ringgold County(7)",19159,***,* ,*, *,3 or fewer,*,*,*,*
+"Sac County(7)",19161,***,* ,*, *,3 or fewer,*,*,*,*
+"Shelby County(7)",19165,***,* ,*, *,3 or fewer,*,*,*,*
+"Sioux County(7)",19167,***,* ,*, *,3 or fewer,*,*,*,*
+"Tama County(7)",19171,***,* ,*, *,3 or fewer,*,*,*,*
+"Taylor County(7)",19173,***,* ,*, *,3 or fewer,*,*,*,*
+"Union County(7)",19175,***,* ,*, *,3 or fewer,*,*,*,*
+"Van Buren County(7)",19177,***,* ,*, *,3 or fewer,*,*,*,*
+"Wapello County(7)",19179,***,* ,*, *,3 or fewer,*,*,*,*
+"Washington County(7)",19183,***,* ,*, *,3 or fewer,*,*,*,*
+"Wayne County(7)",19185,***,* ,*, *,3 or fewer,*,*,*,*
+"Webster County(7)",19187,***,* ,*, *,3 or fewer,*,*,*,*
+"Winnebago County(7)",19189,***,* ,*, *,3 or fewer,*,*,*,*
+"Winneshiek County(7)",19191,***,* ,*, *,3 or fewer,*,*,*,*
+"Worth County(7)",19195,***,* ,*, *,3 or fewer,*,*,*,*
+"Wright County(7)",19197,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:15 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+7 Source: SEER November 2018 submission.
+"8 Source: Incidence data provided by the SEER Program. ( http://seer.cancer.gov ) AAPCs are calculated by the Joinpoint Regression Program ( https://surveillance.cancer.gov/joinpoint/ ) and are based on APCs. Data are age-adjusted to the 2000 US standard population ( http://www.seer.cancer.gov/stdpopulations/single_age.html ) (19 age groups: <1, 1-4, 5-9, ... , 80-84,85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Population counts for denominators are based on Census populations as modifed by NCI. The 1969-2017 US Population Data ( http://seer.cancer.gov/popdata/ ) File is used with SEER November 2018 data. "
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

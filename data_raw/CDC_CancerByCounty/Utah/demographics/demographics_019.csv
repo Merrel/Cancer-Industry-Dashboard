@@ -1,0 +1,49 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=49&areatype=county&topic=pop&demo=00023&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '49', 'areatype': 'county', 'topic': 'pop', 'demo': '00023', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_019.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=49&areatype=county&topic=pop&demo=00023&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Utah by County
+Population: American Indian/Alaska Native
+"All Ages, Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (AI/AN),Rank within US
+"United States",00000,0.8,2632102,"N/A"
+"Utah",49000,1.1,32079,"14 of 52"
+"Rich County",49033,0.0,0,"2960 of 3141"
+"Beaver County",49001,0.1,6,"2653 of 3141"
+"Piute County",49031,0.1,2,"2600 of 3141"
+"Wasatch County",49051,0.1,34,"2562 of 3141"
+"Morgan County",49029,0.1,14,"2507 of 3141"
+"Wayne County",49055,0.2,5,"2242 of 3141"
+"Summit County",49043,0.3,107,"1854 of 3141"
+"Davis County",49011,0.4,1385,"1346 of 3141"
+"Cache County",49005,0.5,575,"1206 of 3141"
+"Utah County",49049,0.5,2906,"1153 of 3141"
+"Weber County",49057,0.7,1665,"914 of 3141"
+"Emery County",49015,0.7,76,"859 of 3141"
+"Salt Lake County",49035,0.8,8313,"839 of 3141"
+"Tooele County",49045,0.8,520,"783 of 3141"
+"Juab County",49023,0.9,91,"762 of 3141"
+"Daggett County",49009,0.9,6,"757 of 3141"
+"Carbon County",49007,1.0,213,"647 of 3141"
+"Millard County",49027,1.0,132,"643 of 3141"
+"Grand County",49019,1.1,109,"582 of 3141"
+"Box Elder County",49003,1.2,622,"564 of 3141"
+"Sanpete County",49039,1.3,378,"521 of 3141"
+"Washington County",49053,1.4,2149,"499 of 3141"
+"Kane County",49025,1.5,106,"476 of 3141"
+"Sevier County",49041,1.5,318,"457 of 3141"
+"Iron County",49021,2.6,1251,"316 of 3141"
+"Garfield County",49017,2.7,137,"304 of 3141"
+"Duchesne County",49013,4.3,873,"224 of 3141"
+"Uintah County",49047,7.5,2743,"152 of 3141"
+"San Juan County",49037,48.3,7343,"29 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:21 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: American Indian/Alaska Native, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.
