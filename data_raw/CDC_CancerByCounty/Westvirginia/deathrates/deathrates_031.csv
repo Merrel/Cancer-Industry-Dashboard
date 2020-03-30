@@ -1,0 +1,95 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=54&areatype=county&cancer=001&race=00&sex=1&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '54', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '1', 'age': '001', 'type': 'death', 'file_name': 'deathrates_031.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=54&areatype=county&cancer=001&race=00&sex=1&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for West Virginia by County
+
+"All Cancer Sites, 2012-2016"
+
+"All Races (includes Hispanic), Male, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 161.4?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"West Virginia",54000,No,226.9 ,222.8, 231,2553,falling,-1.3 ,-1.4, -1.1
+"United States",00000,No,193.1 ,192.8, 193.4,310576,falling,-1.8 ,-1.8, -1.8
+"Webster County",54101,No,303.7 ,242.3, 377.6,18,stable,0.6 ,-0.5, 1.6
+"Logan County",54045,No,293.4 ,259.9, 330.2,61,falling,-1.4 ,-2.2, -0.7
+"Boone County",54005,No,280.8 ,240.9, 325.6,39,stable,-0.8 ,-1.7, 0.0
+"Lincoln County",54043,No,278 ,237.1, 324.2,36,stable,-0.3 ,-1.1, 0.5
+"Fayette County",54019,No,276.9 ,249.1, 307.2,78,falling,-0.5 ,-1.0, -0.1
+"Mingo County",54059,No,276.3 ,236.3, 321.3,39,stable,0.0 ,-0.8, 0.7
+"McDowell County",54047,No,270.8 ,231.1, 316,36,falling,-1.2 ,-2.1, -0.3
+"Clay County",54015,No,256.5 ,199.2, 326.2,15,falling,-2.0 ,-3.4, -0.5
+"Marion County",54049,No,249.3 ,225.6, 275,85,falling,-0.8 ,-1.3, -0.2
+"Monroe County",54063,No,248.2 ,205.1, 298.8,25,stable,-0.7 ,-1.7, 0.3
+"Raleigh County",54081,No,247.4 ,227.1, 269.1,117,falling,-1.0 ,-1.6, -0.5
+"Morgan County",54065,No,244.5 ,205.5, 289.6,30,stable,-1.1 ,-2.3, 0.0
+"Lewis County",54041,No,244.5 ,204.7, 290.5,28,falling,-1.1 ,-2.0, -0.3
+"Wyoming County",54109,No,243.2 ,206, 285.5,34,stable,-0.6 ,-1.6, 0.4
+"Barbour County",54001,No,241.9 ,200.4, 290.1,25,stable,-1.2 ,-2.5, 0.0
+"Mercer County",54055,No,241.5 ,219.5, 265.4,94,falling,-1.0 ,-1.5, -0.6
+"Cabell County",54011,No,240.1 ,221.5, 259.9,129,falling,-1.2 ,-1.7, -0.8
+"Ohio County",54069,No,236.8 ,211.1, 265.1,65,falling,-1.3 ,-1.9, -0.8
+"Mason County",54053,No,235 ,203.2, 270.9,41,falling,-1.8 ,-2.4, -1.1
+"Berkeley County",54003,No,233.5 ,214.5, 253.6,125,falling,-1.5 ,-2.1, -0.8
+"Ritchie County",54085,No,230.8 ,182.6, 289.5,17,stable,0.2 ,-0.9, 1.4
+"Jackson County",54035,No,228.9 ,198.9, 262.6,43,falling,-1.0 ,-1.8, -0.3
+"Hancock County",54029,No,228.4 ,199.8, 260.5,48,falling,-1.1 ,-1.9, -0.3
+"Brooke County",54009,No,227 ,194.3, 264.4,36,falling,-1.1 ,-2.1, -0.2
+"Harrison County",54033,No,226.9 ,206.4, 249,94,falling,-1.0 ,-1.5, -0.4
+"Preston County",54077,No,225.7 ,197.1, 257.7,47,falling,-1.0 ,-1.7, -0.2
+"Roane County",54087,No,223.3 ,181.8, 272.3,22,stable,-1.0 ,-2.0, 0.1
+"Putnam County",54079,No,223.2 ,199.6, 248.8,71,falling,-1.4 ,-2.1, -0.7
+"Calhoun County",54013,No,223 ,168.3, 292,12,falling,-1.7 ,-2.8, -0.6
+"Kanawha County",54039,No,221 ,208.7, 233.7,258,falling,-4.4 ,-7.0, -1.8
+"Hardy County",54031,No,219.5 ,178.3, 268.2,21,falling,-1.7 ,-2.7, -0.6
+"Pocahontas County",54075,No,216.4 ,166.1, 279,14,stable,-1.3 ,-2.8, 0.3
+"Greenbrier County",54025,No,214.9 ,189.1, 243.6,53,falling,-1.4 ,-2.1, -0.7
+"Jefferson County",54037,No,214.9 ,190.2, 241.9,62,falling,-1.5 ,-2.4, -0.5
+"Wirt County",54105,No,213.8 ,152.1, 295,9,stable,-1.4 ,-3.5, 0.9
+"Pleasants County",54073,No,211.8 ,153.4, 285.6,10,stable,-1.0 ,-3.1, 1.1
+"Marshall County",54051,No,210.9 ,183.7, 241.3,46,stable,-0.4 ,-3.2, 2.5
+"Nicholas County",54067,No,209.6 ,179, 244.4,36,falling,-1.1 ,-2.1, -0.2
+"Wood County",54107,No,209.2 ,191.7, 228,110,falling,-1.4 ,-1.8, -1.0
+"Randolph County",54083,No,209.2 ,180.4, 241.5,40,falling,-1.3 ,-2.2, -0.4
+"Mineral County",54057,No,207.3 ,177.8, 240.7,37,falling,-1.1 ,-2.1, -0.1
+"Hampshire County",54027,No,206.6 ,175.8, 241.9,35,stable,-1.0 ,-2.1, 0.2
+"Upshur County",54097,No,205.1 ,173.6, 241.1,32,stable,-1.1 ,-2.3, 0.0
+"Wayne County",54099,No,204.9 ,180.9, 231.5,55,falling,-1.8 ,-2.5, -1.1
+"Gilmer County",54021,No,203.4 ,150.2, 270.1,10,stable,-0.8 ,-2.2, 0.7
+"Summers County",54089,No,201.8 ,161.4, 250.9,19,falling,-1.4 ,-2.5, -0.3
+"Taylor County",54091,No,200 ,163.3, 243,22,falling,-3.2 ,-4.3, -2.0
+"Wetzel County",54103,No,198 ,161.9, 240.7,22,stable,-0.8 ,-2.0, 0.4
+"Braxton County",54007,No,196.4 ,158.9, 241,20,falling,-1.3 ,-2.4, -0.2
+"Tucker County",54093,No,191.6 ,142.9, 254.8,11,stable,-1.4 ,-2.8, 0.0
+"Grant County",54023,No,181.6 ,142.1, 230,15,falling,-1.9 ,-3.6, -0.1
+"Monongalia County",54061,No,177.6 ,158.9, 197.7,71,falling,-2.8 ,-3.9, -1.7
+"Tyler County",54095,No,174.7 ,131.2, 230.1,12,falling,-1.9 ,-3.1, -0.7
+"Pendleton County",54071,No,164.1 ,122.6, 219.1,11,falling,-2.0 ,-3.6, -0.4
+"Doddridge County",54017,Yes,160.8 ,118.4, 215.3,10,falling,-2.4 ,-4.1, -0.6
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:22 pm.
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

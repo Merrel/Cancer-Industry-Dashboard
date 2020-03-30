@@ -1,0 +1,54 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=50&areatype=county&cancer=001&race=00&sex=0&age=009&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '50', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '0', 'age': '009', 'type': 'incd', 'file_name': 'incidencerates_036.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=50&areatype=county&cancer=001&race=00&sex=0&age=009&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Vermont by County
+
+"All Cancer Sites (All Stages^), 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, Ages <50"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Vermont(6,10)",50000,***,112.4 ,107.5, 117.4,414,stable,0.4 ,-3.8, 4.7
+"US (SEER+NPCR)(1,10)",00000,***,105 ,104.8, 105.2,208468,stable,0.1 ,-0.8, 1.1
+"Essex County(6,10)",50009,***,193.8 ,129.8, 278.3,6,stable,2.1 ,-22.2, 33.9
+"Grand Isle County(6,10)",50013,***,157.5 ,105, 226.8,6,stable,2.0 ,-21.2, 32.1
+"Caledonia County(6,10)",50005,***,123.5 ,101.3, 149.1,22,stable,-3.0 ,-28.9, 32.4
+"Windham County(6,10)",50025,***,118.3 ,99.4, 139.7,28,stable,5.2 ,-8.7, 21.3
+"Lamoille County(6,10)",50015,***,116.3 ,93.6, 142.7,18,stable,-3.3 ,-30.5, 34.6
+"Orange County(6,10)",50017,***,115.7 ,93.5, 141.6,19,stable,-2.4 ,-32.7, 41.6
+"Orleans County(6,10)",50019,***,115.5 ,92.8, 142.2,18,stable,-4.0 ,-30.4, 32.3
+"Chittenden County(6,10)",50007,***,115.1 ,105.6, 125.2,112,stable,-2.5 ,-8.4, 3.8
+"Rutland County(6,10)",50021,***,113.1 ,97.3, 130.7,38,stable,-3.0 ,-12.0, 6.9
+"Windsor County(6,10)",50027,***,110.1 ,94.1, 128,35,rising,6.4 ,3.7, 9.3
+"Bennington County(6,10)",50003,***,109.9 ,89.8, 133.1,22,stable,12.0 ,-12.4, 43.2
+"Franklin County(6,10)",50011,***,107 ,91.4, 124.5,34,stable,-8.4 ,-17.0, 1.2
+"Washington County(6,10)",50023,***,103 ,88.6, 119.1,37,stable,12.1 ,-0.3, 26.1
+"Addison County(6,10)",50001,***,87.6 ,70.4, 107.7,19,stable,1.5 ,-22.5, 32.9
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:20 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

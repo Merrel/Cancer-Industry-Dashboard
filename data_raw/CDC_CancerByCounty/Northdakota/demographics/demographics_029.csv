@@ -1,0 +1,73 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=38&areatype=county&topic=pov&demo=00008&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '38', 'areatype': 'county', 'topic': 'pov', 'demo': '00008', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_029.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=38&areatype=county&topic=pov&demo=00008&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for North Dakota by County
+Poverty: Persons below poverty
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Below Poverty),Rank within US
+"North Dakota",38000,11.0,79374,"9 of 52"
+"United States",00000,14.6,45650345,"N/A"
+"Oliver County",38065,3.1,57,"6 of 3141"
+"Steele County",38091,3.8,72,"13 of 3141"
+"Sargent County",38081,4.3,163,"16 of 3141"
+"Renville County",38075,4.8,119,"29 of 3141"
+"Pembina County",38067,5.6,387,"69 of 3141"
+"Wells County",38103,5.8,231,"78 of 3141"
+"Dickey County",38021,6.3,299,"102 of 3141"
+"Ransom County",38073,6.6,347,"121 of 3141"
+"Slope County",38087,6.8,46,"126 of 3141"
+"Kidder County",38043,6.9,169,"136 of 3141"
+"Traill County",38097,6.9,525,"137 of 3141"
+"Foster County",38031,7.1,229,"152 of 3141"
+"Mercer County",38057,7.3,611,"167 of 3141"
+"Burke County",38013,7.3,164,"168 of 3141"
+"Logan County",38047,7.5,140,"190 of 3141"
+"McHenry County",38049,7.9,462,"222 of 3141"
+"Morton County",38059,7.9,2318,"223 of 3141"
+"Griggs County",38039,8.0,175,"239 of 3141"
+"Stark County",38089,8.1,2387,"245 of 3141"
+"Ward County",38101,8.4,5632,"279 of 3141"
+"Nelson County",38063,8.4,243,"284 of 3141"
+"Bowman County",38011,8.5,267,"290 of 3141"
+"Burleigh County",38015,8.5,7596,"295 of 3141"
+"Bottineau County",38009,8.6,545,"303 of 3141"
+"Cavalier County",38019,8.6,320,"304 of 3141"
+"McLean County",38055,8.9,837,"336 of 3141"
+"Williams County",38105,9.0,2900,"358 of 3141"
+"Adams County",38001,9.2,212,"385 of 3141"
+"Hettinger County",38041,9.3,228,"416 of 3141"
+"Golden Valley County",38033,9.4,173,"434 of 3141"
+"Richland County",38077,9.7,1461,"466 of 3141"
+"McIntosh County",38051,9.9,253,"509 of 3141"
+"Walsh County",38099,9.9,1054,"519 of 3141"
+"Barnes County",38003,10.0,1044,"542 of 3141"
+"Billings County",38007,10.3,101,"584 of 3141"
+"Dunn County",38025,10.6,449,"638 of 3141"
+"LaMoure County",38045,10.7,426,"652 of 3141"
+"Stutsman County",38093,11.1,2148,"724 of 3141"
+"Mountrail County",38061,11.2,1101,"745 of 3141"
+"Cass County",38017,11.2,18612,"753 of 3141"
+"McKenzie County",38053,11.7,1358,"868 of 3141"
+"Emmons County",38029,11.9,397,"904 of 3141"
+"Ramsey County",38071,12.1,1344,"935 of 3141"
+"Towner County",38095,12.4,277,"998 of 3141"
+"Grant County",38037,12.8,299,"1066 of 3141"
+"Divide County",38023,13.0,297,"1100 of 3141"
+"Eddy County",38027,13.2,294,"1151 of 3141"
+"Sheridan County",38083,15.4,215,"1611 of 3141"
+"Grand Forks County",38035,17.0,11119,"1940 of 3141"
+"Pierce County",38069,17.6,720,"2057 of 3141"
+"Rolette County",38079,32.4,4668,"3070 of 3141"
+"Benson County",38005,33.3,2267,"3081 of 3141"
+"Sioux County",38085,37.1,1616,"3109 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:20 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Poverty: Persons below poverty, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#poverty."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

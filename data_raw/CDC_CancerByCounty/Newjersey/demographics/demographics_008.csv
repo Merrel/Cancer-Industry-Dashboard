@@ -1,0 +1,41 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=34&areatype=county&topic=mob&demo=00017&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '34', 'areatype': 'county', 'topic': 'mob', 'demo': '00017', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_008.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=34&areatype=county&topic=mob&demo=00017&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for New Jersey by County
+Mobility: Haven't moved (in past year)
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Haven't Moved),Rank within US
+"United States",00000,85.4,270854872,"N/A"
+"New Jersey",34000,90.0,7979864,"1 of 51"
+"Hudson County",34017,86.6,580299,"1758 of 3140"
+"Mercer County",34021,86.6,320242,"1744 of 3140"
+"Atlantic County",34001,87.5,236447,"1439 of 3140"
+"Cumberland County",34011,88.3,135356,"1162 of 3140"
+"Camden County",34007,88.7,447846,"1034 of 3140"
+"Cape May County",34009,89.5,83966,"778 of 3140"
+"Essex County",34013,89.5,708151,"760 of 3140"
+"Warren County",34041,89.7,95381,"706 of 3140"
+"Burlington County",34005,89.8,399638,"682 of 3140"
+"Ocean County",34029,90.1,524421,"599 of 3140"
+"Middlesex County",34023,90.3,747731,"556 of 3140"
+"Salem County",34033,90.3,57118,"549 of 3140"
+"Union County",34039,90.4,497995,"527 of 3140"
+"Gloucester County",34015,90.6,261349,"499 of 3140"
+"Monmouth County",34025,90.9,565462,"435 of 3140"
+"Bergen County",34003,91.1,846914,"386 of 3140"
+"Somerset County",34035,91.3,301256,"361 of 3140"
+"Hunterdon County",34019,91.5,114154,"308 of 3140"
+"Sussex County",34037,92.4,131442,"197 of 3140"
+"Morris County",34027,92.4,456699,"195 of 3140"
+"Passaic County",34031,92.8,467997,"150 of 3140"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:18 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Mobility: Haven't moved (in past year), see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#mobility."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

@@ -1,0 +1,102 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=36&areatype=county&cancer=001&race=00&sex=0&age=136&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '36', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '0', 'age': '136', 'type': 'death', 'file_name': 'deathrates_036.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=36&areatype=county&cancer=001&race=00&sex=0&age=136&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for New York by County
+
+"All Cancer Sites, 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, Ages 50+"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 161.4?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"New York",36000,No,506.4 ,504, 508.9,33558,falling,-2.2 ,-2.8, -1.7
+"United States",00000,No,540.6 ,539.9, 541.2,558319,falling,-1.5 ,-1.5, -1.5
+"Hamilton County",36041,No,690.8 ,552.9, 852.4,18,stable,-1.0 ,-2.1, 0.2
+"Allegany County",36003,No,617.4 ,566.3, 672,109,falling,-1.4 ,-2.0, -0.8
+"Oswego County",36075,No,617.2 ,582.2, 653.8,242,falling,-1.0 ,-1.3, -0.6
+"Jefferson County",36045,No,617.1 ,578.3, 657.9,193,falling,-1.1 ,-1.5, -0.6
+"Warren County",36113,No,607.9 ,567.3, 650.7,171,falling,-0.7 ,-1.2, -0.3
+"Orleans County",36073,No,606.1 ,551, 665,92,falling,-1.1 ,-1.7, -0.5
+"Erie County",36029,No,601.2 ,589.5, 613,2086,falling,-2.5 ,-4.0, -0.9
+"Rensselaer County",36083,No,600.1 ,571, 630.4,331,falling,-1.7 ,-2.3, -1.2
+"Wyoming County",36121,No,598.7 ,541.5, 660.3,83,falling,-0.7 ,-1.2, -0.2
+"Schuyler County",36097,No,596.8 ,519.4, 682.2,44,stable,-0.8 ,-1.7, 0.2
+"Washington County",36115,No,595.9 ,552.4, 642,142,falling,-1.3 ,-1.7, -0.9
+"St. Lawrence County",36089,No,593.8 ,559.4, 629.8,227,falling,-1.3 ,-1.7, -0.9
+"Sullivan County",36105,No,591.7 ,551.5, 634.1,167,falling,-1.7 ,-2.1, -1.3
+"Chemung County",36015,No,586.7 ,550.2, 625,198,falling,-1.2 ,-1.4, -0.9
+"Fulton County",36035,No,586.6 ,541.1, 634.9,126,falling,-1.2 ,-1.6, -0.8
+"Wayne County",36117,No,583.4 ,547.1, 621.4,199,falling,-1.0 ,-1.4, -0.7
+"Steuben County",36101,No,583.3 ,549.2, 619,223,falling,-1.1 ,-1.5, -0.8
+"Niagara County",36063,No,582.7 ,559.4, 606.7,485,falling,-1.1 ,-1.3, -0.8
+"Essex County",36031,No,582 ,531.9, 635.5,102,falling,-1.6 ,-2.2, -1.0
+"Chenango County",36017,No,575.8 ,529.5, 625.2,116,falling,-1.3 ,-1.7, -0.8
+"Yates County",36123,No,575.4 ,509.6, 647.1,57,falling,-1.4 ,-2.0, -0.9
+"Greene County",36039,No,572.8 ,527.1, 621.4,119,falling,-1.2 ,-1.8, -0.6
+"Seneca County",36099,No,569 ,512.9, 629.5,77,falling,-1.2 ,-1.9, -0.4
+"Clinton County",36019,No,568.3 ,528.8, 610,157,falling,-1.0 ,-1.5, -0.5
+"Onondaga County",36067,No,567.9 ,551.4, 584.7,937,falling,-3.7 ,-6.4, -0.9
+"Livingston County",36051,No,567.6 ,524.1, 613.6,130,falling,-2.3 ,-3.0, -1.6
+"Oneida County",36065,No,566.2 ,544, 589,511,falling,-1.1 ,-1.4, -0.9
+"Saratoga County",36091,No,563.6 ,539.8, 588,442,falling,-1.1 ,-1.4, -0.9
+"Chautauqua County",36013,No,562 ,533.5, 591.6,301,falling,-0.9 ,-1.2, -0.5
+"Delaware County",36025,No,560.8 ,516.6, 607.8,121,falling,-1.2 ,-1.7, -0.7
+"Franklin County",36033,No,557.3 ,507.7, 610.4,95,falling,-1.5 ,-2.1, -1.0
+"Albany County",36001,No,557.1 ,536.7, 578.1,589,falling,-1.2 ,-1.4, -0.9
+"Herkimer County",36043,No,556.1 ,515.6, 598.9,144,falling,-1.4 ,-1.8, -0.9
+"Cayuga County",36011,No,553.6 ,516, 593,168,falling,-0.9 ,-1.4, -0.4
+"Ontario County",36069,No,553.5 ,521.8, 586.6,236,falling,-1.3 ,-1.7, -0.9
+"Schenectady County",36093,No,552.6 ,525, 581.3,317,falling,-1.2 ,-1.4, -0.9
+"Madison County",36053,No,552.1 ,511.8, 594.6,143,falling,-1.3 ,-1.7, -0.9
+"Genesee County",36037,No,551.2 ,508.3, 596.6,126,falling,-1.2 ,-1.6, -0.7
+"Montgomery County",36057,No,550.5 ,503.7, 600.4,107,falling,-1.5 ,-2.0, -0.9
+"Cortland County",36023,No,545.2 ,494.7, 599.4,88,falling,-0.9 ,-1.4, -0.3
+"Schoharie County",36095,No,544 ,487.7, 604.9,70,falling,-2.4 ,-3.2, -1.6
+"Monroe County",36055,No,542.9 ,530.1, 555.9,1423,falling,-1.5 ,-1.8, -1.2
+"Orange County",36071,No,540.9 ,521, 561.3,584,falling,-1.6 ,-1.8, -1.4
+"Columbia County",36021,No,533.8 ,495.6, 574.3,148,falling,-1.4 ,-1.7, -1.1
+"Ulster County",36111,No,533.5 ,509, 558.8,371,falling,-1.5 ,-1.9, -1.2
+"Broome County",36007,No,531.8 ,508.8, 555.5,416,falling,-1.3 ,-1.6, -1.0
+"Tompkins County",36109,No,525.1 ,487.4, 565,151,falling,-1.4 ,-1.8, -1.0
+"Richmond County",36085,No,524.4 ,508.2, 541.1,816,falling,-1.8 ,-2.0, -1.6
+"Cattaraugus County",36009,No,522.3 ,486, 560.6,157,falling,-1.2 ,-1.7, -0.8
+"Suffolk County",36103,No,521 ,512.1, 530,2678,falling,-1.9 ,-2.0, -1.8
+"Otsego County",36077,No,515.6 ,476.1, 557.5,129,falling,-1.1 ,-1.7, -0.5
+"Putnam County",36079,No,511.8 ,477.3, 548.1,172,falling,-2.1 ,-2.5, -1.6
+"Dutchess County",36027,No,510.6 ,491.2, 530.6,536,falling,-2.0 ,-2.3, -1.7
+"Bronx County",36005,No,505.7 ,495.5, 516,1939,falling,-1.5 ,-1.7, -1.4
+"Tioga County",36107,No,502.7 ,459.1, 549.3,99,falling,-1.8 ,-2.3, -1.4
+"Lewis County",36049,No,500 ,439.5, 566.5,50,falling,-1.9 ,-2.6, -1.2
+"Kings County",36047,No,468.5 ,461.5, 475.6,3496,falling,-3.2 ,-4.3, -2.1
+"Nassau County",36059,No,465 ,456.6, 473.6,2396,falling,-1.9 ,-2.0, -1.8
+"Westchester County",36119,No,455.4 ,445.3, 465.7,1601,falling,-2.1 ,-2.2, -1.9
+"New York County",36061,No,446.1 ,438.1, 454.2,2414,falling,-2.9 ,-3.7, -2.1
+"Rockland County",36087,No,441.9 ,424, 460.2,472,falling,-2.2 ,-2.4, -1.9
+"Queens County",36081,No,434.5 ,427.7, 441.3,3222,falling,-1.4 ,-1.7, -1.2
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:20 pm.
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

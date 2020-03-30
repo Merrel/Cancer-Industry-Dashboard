@@ -1,0 +1,41 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=34&areatype=county&topic=mob&demo=00021&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '34', 'areatype': 'county', 'topic': 'mob', 'demo': '00021', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_012.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=34&areatype=county&topic=mob&demo=00021&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for New Jersey by County
+Mobility: Moved from outside US (in past year)
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Moved From Outside US),Rank within US
+"United States",00000,0.7,2074097,"N/A"
+"New Jersey",34000,0.8,67272,"40 of 51"
+"Sussex County",34037,0.2,225,"1312 of 3140"
+"Salem County",34033,0.2,114,"1463 of 3140"
+"Cape May County",34009,0.2,202,"1652 of 3140"
+"Gloucester County",34015,0.2,680,"1746 of 3140"
+"Ocean County",34029,0.3,1781,"2035 of 3140"
+"Hunterdon County",34019,0.3,426,"2154 of 3140"
+"Warren County",34041,0.3,368,"2168 of 3140"
+"Monmouth County",34025,0.4,2590,"2348 of 3140"
+"Morris County",34027,0.5,2628,"2564 of 3140"
+"Cumberland County",34011,0.5,840,"2595 of 3140"
+"Atlantic County",34001,0.5,1483,"2596 of 3140"
+"Camden County",34007,0.6,2784,"2604 of 3140"
+"Burlington County",34005,0.6,2544,"2629 of 3140"
+"Passaic County",34031,0.6,3263,"2721 of 3140"
+"Essex County",34013,0.7,5619,"2793 of 3140"
+"Union County",34039,0.8,4411,"2859 of 3140"
+"Bergen County",34003,0.8,7878,"2893 of 3140"
+"Somerset County",34035,0.9,3034,"2929 of 3140"
+"Mercer County",34021,1.1,4044,"2991 of 3140"
+"Middlesex County",34023,1.2,9734,"3005 of 3140"
+"Hudson County",34017,1.9,12624,"3091 of 3140"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:18 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Mobility: Moved from outside US (in past year), see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#mobility."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

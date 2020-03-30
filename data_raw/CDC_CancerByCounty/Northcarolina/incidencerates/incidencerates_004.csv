@@ -1,0 +1,141 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=37&areatype=county&cancer=400&race=00&sex=2&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '37', 'areatype': 'county', 'cancer': '400', 'race': '00', 'sex': '2', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_004.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=37&areatype=county&cancer=400&race=00&sex=2&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for North Carolina by County
+
+"Breast (in situ) (All Stages^), 2012-2016"
+
+"All Races (includes Hispanic), Female, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"North Carolina(6,10)",37000,***,29.5 ,28.9, 30.1,1799,stable,0.7 ,-4.1, 5.8
+"US (SEER+NPCR)(1,10)",00000,***,30.1 ,30, 30.2,56702,stable,-2.0 ,-4.2, 0.3
+"Alamance County(6,10)",37001,***,40.7 ,35.2, 46.8,42,stable,9.1 ,-34.2, 80.9
+"Guilford County(6,10)",37081,***,39.1 ,36, 42.4,121,stable,3.6 ,-5.3, 13.4
+"Pasquotank County(6,10)",37139,***,39.1 ,28.6, 52.3,10,stable,8.9 ,-29.9, 69.0
+"Union County(6,10)",37179,***,38.8 ,34, 44.2,47,stable,-2.6 ,-12.6, 8.5
+"Mecklenburg County(6,10)",37119,***,38.5 ,36.2, 41,207,stable,4.5 ,-1.5, 10.9
+"Warren County(6,10)",37185,***,37.5 ,24.2, 56.4,6,stable,7.9 ,-37.4, 86.1
+"Forsyth County(6,10)",37067,***,36.6 ,33, 40.4,81,stable,1.9 ,-0.4, 4.3
+"Caswell County(6,10)",37033,***,36.1 ,23.8, 53.2,6,stable,5.4 ,-36.8, 76.0
+"Burke County(6,10)",37023,***,35.9 ,29.3, 43.7,22,stable,-12.8 ,-32.5, 12.5
+"Davie County(6,10)",37059,***,35.7 ,26.6, 47.3,11,stable,-7.9 ,-32.5, 25.6
+"Orange County(6,10)",37135,***,35.4 ,29.5, 42.1,27,stable,-1.6 ,-24.3, 28.0
+"Dare County(6,10)",37055,***,35 ,25.1, 48,9,stable,7.7 ,-30.9, 67.8
+"Chatham County(6,10)",37037,***,34.2 ,27.1, 42.9,18,stable,0.6 ,-16.4, 21.0
+"Randolph County(6,10)",37151,***,33.8 ,28.7, 39.7,32,stable,11.6 ,-1.9, 26.9
+"Rowan County(6,10)",37159,***,33.8 ,28.4, 39.8,30,stable,14.2 ,-1.1, 32.0
+"Ashe County(6,10)",37009,***,33.5 ,22.3, 49,7,stable,-7.0 ,-32.9, 28.9
+"Pender County(6,10)",37141,***,33.1 ,24.9, 43.2,12,stable,-9.8 ,-35.9, 26.8
+"Buncombe County(6,10)",37021,***,32.1 ,28.3, 36.3,56,stable,0.9 ,-15.5, 20.5
+"Alexander County(6,10)",37003,***,31.9 ,22.2, 44.8,7,rising,51.8 ,10.8, 108.1
+"Caldwell County(6,10)",37027,***,31.9 ,25.4, 39.7,18,falling,-12.3 ,-22.8, -0.5
+"Rockingham County(6,10)",37157,***,31.7 ,25.7, 38.8,21,stable,10.3 ,-12.8, 39.6
+"Gaston County(6,10)",37071,***,31.5 ,27.3, 36.2,42,stable,-5.5 ,-26.6, 21.7
+"Cabarrus County(6,10)",37025,***,31.2 ,26.6, 36.3,34,stable,5.9 ,-22.4, 44.6
+"Currituck County(6,10)",37053,***,31.1 ,19.6, 47.2,5,rising,19.1 ,6.8, 32.7
+"Davidson County(6,10)",37057,***,30.7 ,26.1, 36,33,stable,1.0 ,-22.3, 31.2
+"Vance County(6,10)",37181,***,30.6 ,21.8, 41.8,9,stable,20.0 ,-5.5, 52.3
+"Durham County(6,10)",37063,***,30.4 ,26.7, 34.6,49,stable,-9.9 ,-32.9, 21.0
+"Surry County(6,10)",37171,***,30.4 ,23.8, 38.4,16,stable,0.3 ,-38.7, 64.1
+"Moore County(6,10)",37125,***,30.2 ,24.3, 37.3,21,stable,-10.8 ,-30.3, 14.2
+"Bertie County(6,10)",37015,***,30.2 ,18.4, 47.6,4,*,*,*,*
+"Wake County(6,10)",37183,***,30 ,28, 32.2,161,stable,-2.0 ,-9.0, 5.6
+"Transylvania County(6,10)",37175,***,29.9 ,20.3, 42.9,8,stable,9.7 ,-31.4, 75.5
+"Scotland County(6,10)",37165,***,29.1 ,19.3, 42.2,6,stable,-27.2 ,-53.0, 12.6
+"New Hanover County(6,10)",37129,***,29 ,24.9, 33.6,39,stable,-4.1 ,-35.2, 42.1
+"Catawba County(6,10)",37035,***,28.7 ,24, 34.1,28,stable,-6.3 ,-21.9, 12.5
+"Stanly County(6,10)",37167,***,28.6 ,21.5, 37.4,12,stable,-11.7 ,-34.8, 19.6
+"Nash County(6,10)",37127,***,28.3 ,22.5, 35.1,18,stable,-4.7 ,-26.4, 23.4
+"Yancey County(6,10)",37199,***,28 ,17.3, 44.8,4,stable,-8.5 ,-52.8, 77.4
+"Columbus County(6,10)",37047,***,27.5 ,20.2, 36.8,10,stable,9.1 ,-23.6, 55.7
+"Onslow County(6,10)",37133,***,27.2 ,22, 33.3,19,stable,-2.2 ,-9.4, 5.6
+"Henderson County(6,10)",37089,***,27.2 ,22.1, 33.2,24,stable,-6.5 ,-21.4, 11.1
+"Chowan County(6,10)",37041,***,26.6 ,14.5, 46.2,3,*,*,*,*
+"Granville County(6,10)",37077,***,26.5 ,19.6, 35.4,10,stable,-6.5 ,-30.7, 26.2
+"Lincoln County(6,10)",37109,***,26.1 ,20.3, 33.2,14,stable,0.7 ,-27.7, 40.1
+"Halifax County(6,10)",37083,***,25.7 ,18.5, 35,10,falling,-25.9 ,-38.5, -10.8
+"Watauga County(6,10)",37189,***,25.6 ,17.9, 35.9,8,falling,-13.2 ,-21.9, -3.4
+"Haywood County(6,10)",37087,***,25.6 ,19, 33.9,12,stable,-11.4 ,-47.2, 48.7
+"Avery County(6,10)",37011,***,25.5 ,14.3, 43.9,3,*,*,*,*
+"Carteret County(6,10)",37031,***,25.3 ,18.9, 33.3,12,stable,8.1 ,-3.0, 20.4
+"Person County(6,10)",37145,***,24.9 ,16.7, 35.9,6,stable,-8.9 ,-26.9, 13.5
+"Beaufort County(6,10)",37013,***,24.7 ,17.7, 34,9,stable,9.1 ,-10.2, 32.5
+"Yadkin County(6,10)",37197,***,24.7 ,16.9, 35.3,7,stable,-12.1 ,-67.7, 138.7
+"Cumberland County(6,10)",37051,***,24.4 ,21.1, 28,41,stable,9.7 ,-10.0, 33.7
+"Harnett County(6,10)",37085,***,23.9 ,18.9, 29.9,16,stable,-7.7 ,-20.3, 6.8
+"Montgomery County(6,10)",37123,***,23.8 ,14.3, 37.4,4,stable,-16.9 ,-68.9, 122.2
+"Edgecombe County(6,10)",37065,***,23.7 ,16.9, 32.4,9,stable,8.2 ,-43.8, 108.5
+"Iredell County(6,10)",37097,***,23.7 ,19.6, 28.4,24,stable,-3.2 ,-12.7, 7.4
+"Craven County(6,10)",37049,***,23.4 ,18.1, 29.7,15,stable,6.7 ,-27.3, 56.5
+"Franklin County(6,10)",37069,***,23.1 ,16.9, 31.1,10,rising,15.3 ,3.6, 28.3
+"Madison County(6,10)",37115,***,23.1 ,13.1, 38.6,4,stable,-25.2 ,-46.6, 4.7
+"Anson County(6,10)",37007,***,22.7 ,13.7, 36,4,stable,1.7 ,-35.1, 59.3
+"Stokes County(6,10)",37169,***,22.4 ,15.7, 31.5,8,stable,4.2 ,-28.2, 51.3
+"Wayne County(6,10)",37191,***,22.2 ,17.7, 27.6,17,stable,6.6 ,-12.3, 29.5
+"Cleveland County(6,10)",37045,***,22.1 ,17.1, 28.2,15,stable,19.4 ,-8.7, 56.3
+"Pitt County(6,10)",37147,***,21.6 ,17.4, 26.4,20,stable,1.9 ,-15.4, 22.6
+"Rutherford County(6,10)",37161,***,21.5 ,16, 28.4,11,stable,19.2 ,-22.6, 83.6
+"Brunswick County(6,10)",37019,***,21.4 ,17.1, 26.7,23,stable,-1.6 ,-16.8, 16.4
+"Richmond County(6,10)",37153,***,20.7 ,13.5, 30.4,6,stable,-16.8 ,-51.5, 42.8
+"Lenoir County(6,10)",37107,***,20.7 ,14.8, 28.3,9,stable,12.8 ,-34.8, 95.2
+"Johnston County(6,10)",37101,***,20.6 ,16.9, 25,22,stable,-8.0 ,-27.5, 16.7
+"Wilson County(6,10)",37195,***,19.9 ,14.8, 26.2,11,stable,-26.4 ,-50.8, 9.9
+"Lee County(6,10)",37105,***,19.8 ,13.7, 27.7,7,stable,4.7 ,-30.3, 57.2
+"Martin County(6,10)",37117,***,19.7 ,11, 33.1,4,*,*,*,*
+"Wilkes County(6,10)",37193,***,19.4 ,14.1, 26.2,10,stable,-11.7 ,-29.7, 10.8
+"Macon County(6,10)",37113,***,18.7 ,12.5, 27.8,6,stable,20.4 ,-4.8, 52.4
+"Hoke County(6,10)",37093,***,18.6 ,11.5, 28.5,4,stable,-8.2 ,-47.9, 61.7
+"Duplin County(6,10)",37061,***,18.1 ,12.5, 25.6,7,stable,-4.6 ,-28.0, 26.5
+"Jackson County(6,10)",37099,***,18.1 ,11, 28.4,5,stable,3.6 ,-35.7, 67.0
+"Polk County(6,10)",37149,***,17.8 ,9.9, 31.6,3,stable,-18.7 ,-62.9, 78.3
+"Sampson County(6,10)",37163,***,15.5 ,10.4, 22.5,6,stable,20.7 ,-21.9, 86.6
+"Robeson County(6,10)",37155,***,14.5 ,10.9, 18.8,12,stable,1.5 ,-31.0, 49.4
+"McDowell County(6,10)",37111,***,13.5 ,8.4, 20.9,5,stable,7.0 ,-8.9, 25.6
+"Bladen County(6,10)",37017,***,13.4 ,8.1, 21.7,4,*,*,*,*
+"Alleghany County(6,10)",37005,***,* ,*, *,3 or fewer,*,*,*,*
+"Camden County(6,10)",37029,***,* ,*, *,3 or fewer,*,*,*,*
+"Cherokee County(6,10)",37039,***,* ,*, *,3 or fewer,*,*,*,*
+"Clay County(6,10)",37043,***,* ,*, *,3 or fewer,*,*,*,*
+"Gates County(6,10)",37073,***,* ,*, *,3 or fewer,*,*,*,*
+"Graham County(6,10)",37075,***,* ,*, *,3 or fewer,*,*,*,*
+"Greene County(6,10)",37079,***,* ,*, *,3 or fewer,*,*,*,*
+"Hertford County(6,10)",37091,***,* ,*, *,3 or fewer,*,*,*,*
+"Hyde County(6,10)",37095,***,* ,*, *,3 or fewer,*,*,*,*
+"Jones County(6,10)",37103,***,* ,*, *,3 or fewer,*,*,*,*
+"Mitchell County(6,10)",37121,***,* ,*, *,3 or fewer,*,*,*,*
+"Northampton County(6,10)",37131,***,* ,*, *,3 or fewer,*,*,*,*
+"Pamlico County(6,10)",37137,***,* ,*, *,3 or fewer,*,*,*,*
+"Perquimans County(6,10)",37143,***,* ,*, *,3 or fewer,*,*,*,*
+"Swain County(6,10)",37173,***,* ,*, *,3 or fewer,*,*,*,*
+"Tyrrell County(6,10)",37177,***,* ,*, *,3 or fewer,*,*,*,*
+"Washington County(6,10)",37187,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:19 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

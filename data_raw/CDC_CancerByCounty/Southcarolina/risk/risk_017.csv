@@ -1,0 +1,28 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/risk/index.php?stateFIPS=00&topic=smoke&risk=v42&race=00&sex=0&type=risk&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '00', 'topic': 'smoke', 'risk': 'v42', 'race': '00', 'sex': '0', 'type': 'risk', 'file_name': 'risk_017.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/risk/index.php?stateFIPS=00&topic=smoke&risk=v42&race=00&sex=0&type=risk&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+
+	Screening and Risk Factors Report by State
+(2020 American Nonsmokers' Rights Foundation)
+
+Percent of State Population with 100% Smokefree Bar Laws
+"All Races (includes Hispanic), Both Sexes, All Ages"
+Healthy People 2020 Objective Number: TU-13.4
+Establish laws in States and the District of Columbia on smoke-free indoor air that prohibit smoking in bars
+
+Sorted by Rate
+
+State, FIPS,Met Objective of 100.0%?(1),Percent(2)
+"United States",00,No,66.4
+"Puerto Rico",72,data not available,data not available
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:21 pm.
+Data not available [http://statecancerprofiles.cancer.gov/datanotavailable.html] for this combination of data selections.
+
+"(1) Healthy People 2020 Objectives are managed by the Office of Disease Prevention and Health Promotion, U.S. Department of Health and Human Services."
+"(2) Source: American Nonsmokers' Rights Foundation (January 2, 2020: no-smoke.org ). This table lists the percent of each state's population covered by 100% smokefree air laws enacted by the state and/or local municipalities. Only ordinances and laws currently in effect are listed in the table. "
+
+Note: Healthy People 2020 Objectives are age-adjusted to the year 2000 standard population while these estimates are not age-adjusted.
+Data for United States does not include Puerto Rico.

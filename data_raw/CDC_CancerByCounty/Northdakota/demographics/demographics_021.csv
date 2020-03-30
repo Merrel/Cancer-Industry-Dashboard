@@ -1,0 +1,73 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=38&areatype=county&topic=pop&demo=00022&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '38', 'areatype': 'county', 'topic': 'pop', 'demo': '00022', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_021.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=38&areatype=county&topic=pop&demo=00022&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for North Dakota by County
+Population: Black
+"All Ages, Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Black),Rank within US
+"North Dakota",38000,2.3,17365,"41 of 52"
+"United States",00000,12.7,40610815,"N/A"
+"Benson County",38005,0.0,0,"3052 of 3141"
+"Eddy County",38027,0.0,0,"3052 of 3141"
+"Emmons County",38029,0.0,0,"3052 of 3141"
+"Golden Valley County",38033,0.0,0,"3052 of 3141"
+"McIntosh County",38051,0.0,0,"3052 of 3141"
+"Sheridan County",38083,0.0,0,"3052 of 3141"
+"Steele County",38091,0.0,0,"3052 of 3141"
+"Towner County",38095,0.0,0,"3052 of 3141"
+"Wells County",38103,0.0,0,"3052 of 3141"
+"Sioux County",38085,0.0,2,"3024 of 3141"
+"Logan County",38047,0.1,1,"3014 of 3141"
+"Grant County",38037,0.1,2,"2984 of 3141"
+"LaMoure County",38045,0.1,4,"2968 of 3141"
+"Bowman County",38011,0.1,4,"2939 of 3141"
+"Nelson County",38063,0.1,4,"2926 of 3141"
+"Foster County",38031,0.2,5,"2904 of 3141"
+"McHenry County",38049,0.2,10,"2891 of 3141"
+"Pembina County",38067,0.2,15,"2849 of 3141"
+"Cavalier County",38019,0.3,13,"2702 of 3141"
+"Walsh County",38099,0.4,39,"2691 of 3141"
+"Oliver County",38065,0.4,7,"2669 of 3141"
+"Burke County",38013,0.4,10,"2599 of 3141"
+"Rolette County",38079,0.5,68,"2573 of 3141"
+"Richland County",38077,0.5,76,"2570 of 3141"
+"Kidder County",38043,0.5,12,"2534 of 3141"
+"Renville County",38075,0.5,13,"2511 of 3141"
+"Ramsey County",38071,0.6,64,"2464 of 3141"
+"McKenzie County",38053,0.6,65,"2460 of 3141"
+"Morton County",38059,0.6,194,"2357 of 3141"
+"Ransom County",38073,0.7,38,"2281 of 3141"
+"McLean County",38055,0.7,68,"2276 of 3141"
+"Hettinger County",38041,0.7,19,"2249 of 3141"
+"Pierce County",38069,0.8,36,"2162 of 3141"
+"Barnes County",38003,0.9,94,"2146 of 3141"
+"Bottineau County",38009,0.9,58,"2130 of 3141"
+"Billings County",38007,0.9,9,"2103 of 3141"
+"Mercer County",38057,0.9,81,"2088 of 3141"
+"Divide County",38023,1.0,23,"2057 of 3141"
+"Sargent County",38081,1.0,38,"2049 of 3141"
+"Dunn County",38025,1.0,43,"2044 of 3141"
+"Traill County",38097,1.0,81,"2031 of 3141"
+"Mountrail County",38061,1.1,109,"1990 of 3141"
+"Stutsman County",38093,1.1,235,"1980 of 3141"
+"Griggs County",38039,1.4,31,"1863 of 3141"
+"Dickey County",38021,1.4,69,"1859 of 3141"
+"Adams County",38001,1.6,39,"1734 of 3141"
+"Burleigh County",38015,1.8,1637,"1699 of 3141"
+"Stark County",38089,1.8,538,"1696 of 3141"
+"Grand Forks County",38035,3.4,2404,"1339 of 3141"
+"Williams County",38105,3.4,1130,"1334 of 3141"
+"Ward County",38101,3.7,2555,"1307 of 3141"
+"Cass County",38017,4.3,7382,"1210 of 3141"
+"Slope County",38087,5.9,40,"1047 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:20 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Black, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

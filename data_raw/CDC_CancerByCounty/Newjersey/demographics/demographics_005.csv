@@ -1,0 +1,42 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=34&areatype=county&topic=inc&demo=00011&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '34', 'areatype': 'county', 'topic': 'inc', 'demo': '00011', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_005.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=34&areatype=county&topic=inc&demo=00011&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for New Jersey by County
+Income: Median household income
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Dollars),Rank within US
+"United States",00000,57652.000000000,"N/A"
+"New Jersey",34000,76475.000000000,"3 of 52"
+"Cumberland County",34011,50000.000000000,"1360 of 3141"
+"Essex County",34013,57365.000000000,"669 of 3141"
+"Atlantic County",34001,57514.000000000,"660 of 3141"
+"Cape May County",34009,62332.000000000,"410 of 3141"
+"Hudson County",34017,62681.000000000,"389 of 3141"
+"Passaic County",34031,63339.000000000,"364 of 3141"
+"Salem County",34033,63934.000000000,"347 of 3141"
+"Camden County",34007,65037.000000000,"319 of 3141"
+"Ocean County",34029,65771.000000000,"294 of 3141"
+"Union County",34039,73376.000000000,"179 of 3141"
+"Warren County",34041,75500.000000000,"153 of 3141"
+"Mercer County",34021,77027.000000000,"137 of 3141"
+"Gloucester County",34015,81489.000000000,"92 of 3141"
+"Burlington County",34005,82839.000000000,"81 of 3141"
+"Middlesex County",34023,83133.000000000,"80 of 3141"
+"Sussex County",34037,89238.000000000,"54 of 3141"
+"Bergen County",34003,91572.000000000,"42 of 3141"
+"Monmouth County",34025,91807.000000000,"41 of 3141"
+"Somerset County",34035,106046.000000000,"12 of 3141"
+"Morris County",34027,107034.000000000,"9 of 3141"
+"Hunterdon County",34019,110969.000000000,"7 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:18 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Income: Median household income, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#income."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"Median Incomes over 250,000 have been coded to 250,001 by the Census Bureau. [ http://www2.census.gov/acs2012_5yr/summaryfile/ACS_2008-2012_SF_Tech_Doc.pdf ]"
+Data for United States does not include Puerto Rico.

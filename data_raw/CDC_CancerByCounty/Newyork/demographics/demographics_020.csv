@@ -1,0 +1,82 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=36&areatype=county&topic=pop&demo=00024&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '36', 'areatype': 'county', 'topic': 'pop', 'demo': '00024', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_020.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=36&areatype=county&topic=pop&demo=00024&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for New York by County
+Population: Asian / Pacific Islander
+"All Ages, Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (API),Rank within US
+"United States",00000,5.5,17756436,"N/A"
+"New York",36000,8.4,1660783,"6 of 52"
+"Hamilton County",36041,0.0,2,"2878 of 3141"
+"Wyoming County",36121,0.4,149,"2245 of 3141"
+"Chenango County",36017,0.5,230,"1961 of 3141"
+"Essex County",36031,0.5,182,"1946 of 3141"
+"Cayuga County",36011,0.5,383,"1910 of 3141"
+"Schuyler County",36097,0.5,91,"1872 of 3141"
+"Lewis County",36049,0.5,142,"1815 of 3141"
+"Washington County",36115,0.5,335,"1787 of 3141"
+"Chautauqua County",36013,0.6,822,"1604 of 3141"
+"Herkimer County",36043,0.7,418,"1533 of 3141"
+"Yates County",36123,0.7,167,"1528 of 3141"
+"Franklin County",36033,0.7,351,"1495 of 3141"
+"Genesee County",36037,0.7,406,"1481 of 3141"
+"Oswego County",36075,0.7,843,"1456 of 3141"
+"Delaware County",36025,0.7,324,"1454 of 3141"
+"Seneca County",36099,0.7,254,"1407 of 3141"
+"Fulton County",36035,0.7,402,"1369 of 3141"
+"Wayne County",36117,0.8,686,"1363 of 3141"
+"Montgomery County",36057,0.8,381,"1340 of 3141"
+"Orleans County",36073,0.8,323,"1329 of 3141"
+"Tioga County",36107,0.8,402,"1276 of 3141"
+"Cortland County",36023,0.8,398,"1266 of 3141"
+"Cattaraugus County",36009,0.9,691,"1198 of 3141"
+"Madison County",36053,0.9,643,"1182 of 3141"
+"Schoharie County",36095,0.9,284,"1179 of 3141"
+"Niagara County",36063,1.0,2202,"1039 of 3141"
+"Warren County",36113,1.1,685,"1011 of 3141"
+"Greene County",36039,1.1,510,"1007 of 3141"
+"St. Lawrence County",36089,1.2,1278,"934 of 3141"
+"Allegany County",36003,1.2,561,"913 of 3141"
+"Otsego County",36077,1.4,830,"791 of 3141"
+"Livingston County",36051,1.4,903,"765 of 3141"
+"Ontario County",36069,1.4,1557,"758 of 3141"
+"Steuben County",36101,1.5,1474,"704 of 3141"
+"Clinton County",36019,1.5,1249,"694 of 3141"
+"Chemung County",36015,1.6,1398,"659 of 3141"
+"Sullivan County",36105,1.6,1250,"648 of 3141"
+"Columbia County",36021,1.8,1080,"609 of 3141"
+"Jefferson County",36045,1.8,2121,"591 of 3141"
+"Ulster County",36111,2.2,3955,"486 of 3141"
+"Putnam County",36079,2.3,2248,"473 of 3141"
+"Rensselaer County",36083,2.5,4023,"424 of 3141"
+"Orange County",36071,2.7,10063,"387 of 3141"
+"Saratoga County",36091,2.9,6461,"357 of 3141"
+"Erie County",36029,3.5,32231,"272 of 3141"
+"Monroe County",36055,3.7,27779,"253 of 3141"
+"Bronx County",36005,3.7,54385,"251 of 3141"
+"Dutchess County",36027,3.8,11147,"246 of 3141"
+"Onondaga County",36067,3.9,18216,"237 of 3141"
+"Suffolk County",36103,3.9,58604,"236 of 3141"
+"Oneida County",36065,4.0,9387,"221 of 3141"
+"Broome County",36007,4.3,8392,"208 of 3141"
+"Schenectady County",36093,4.7,7319,"179 of 3141"
+"Westchester County",36119,5.9,57768,"123 of 3141"
+"Rockland County",36087,6.1,19752,"114 of 3141"
+"Albany County",36001,6.5,19918,"101 of 3141"
+"Richmond County",36085,8.5,40452,"60 of 3141"
+"Nassau County",36059,9.1,123595,"57 of 3141"
+"Tompkins County",36109,10.4,10826,"49 of 3141"
+"Kings County",36047,11.9,314866,"37 of 3141"
+"New York County",36061,12.1,199497,"36 of 3141"
+"Queens County",36081,25.4,593492,"12 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:19 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Asian / Pacific Islander, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

@@ -1,0 +1,64 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=56&areatype=county&cancer=066&race=00&sex=1&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '56', 'areatype': 'county', 'cancer': '066', 'race': '00', 'sex': '1', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_019.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=56&areatype=county&cancer=066&race=00&sex=1&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Wyoming by County
+
+"Prostate (All Stages^), 2012-2016"
+
+"All Races (includes Hispanic), Male, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Wyoming(6,10)",56000,***,100.4 ,95.6, 105.4,357,stable,4.1 ,-1.2, 9.7
+"US (SEER+NPCR)(1,10)",00000,***,104.1 ,103.8, 104.3,187184,stable,-2.2 ,-5.2, 0.9
+"Park County(6,10)",56029,***,140 ,118.5, 164.8,32,stable,-8.8 ,-31.3, 21.2
+"Teton County(6,10)",56039,***,127.9 ,100.3, 161.1,17,stable,0.3 ,-11.5, 13.8
+"Albany County(6,10)",56001,***,124.5 ,99.8, 153.5,20,stable,13.9 ,-8.0, 40.9
+"Converse County(6,10)",56009,***,115.4 ,84.9, 153.9,10,stable,18.7 ,-13.2, 62.3
+"Big Horn County(6,10)",56003,***,113.7 ,84, 151.9,10,stable,-6.4 ,-25.1, 17.0
+"Sweetwater County(6,10)",56037,***,113.2 ,92.3, 137.3,25,stable,19.8 ,-5.5, 51.7
+"Platte County(6,10)",56031,***,104.7 ,74, 146.9,8,stable,-8.4 ,-43.5, 48.5
+"Crook County(6,10)",56011,***,104.5 ,69.7, 153.4,6,stable,4.7 ,-18.0, 33.8
+"Laramie County(6,10)",56021,***,100.1 ,88.5, 112.9,57,rising,12.2 ,4.2, 20.8
+"Natrona County(6,10)",56025,***,99.7 ,86.5, 114.3,45,stable,7.9 ,-6.0, 23.8
+"Sheridan County(6,10)",56033,***,98.2 ,80.1, 119.8,22,stable,-4.3 ,-26.9, 25.3
+"Carbon County(6,10)",56007,***,94.9 ,69.5, 127.1,10,stable,11.4 ,-24.8, 65.2
+"Fremont County(6,10)",56013,***,93.8 ,77.8, 112.5,25,stable,-2.4 ,-10.6, 6.4
+"Campbell County(6,10)",56005,***,89.2 ,69.4, 112.6,19,stable,9.0 ,-22.6, 53.6
+"Washakie County(6,10)",56043,***,81.5 ,53.4, 121.9,5,stable,-12.2 ,-49.2, 51.8
+"Sublette County(6,10)",56035,***,80.4 ,54.1, 116.8,6,stable,-15.0 ,-57.6, 70.8
+"Johnson County(6,10)",56019,***,77.6 ,49.5, 118.3,5,stable,-25.1 ,-47.7, 7.3
+"Lincoln County(6,10)",56023,***,76.8 ,55.7, 103.8,10,rising,16.6 ,4.0, 30.7
+"Hot Springs County(6,10)",56017,***,74.2 ,42.2, 128.7,3,stable,-7.0 ,-58.5, 108.4
+"Goshen County(6,10)",56015,***,72.4 ,50.6, 101.7,7,stable,1.3 ,-26.8, 40.1
+"Weston County(6,10)",56045,***,69.9 ,41, 113.8,4,stable,20.9 ,-25.1, 95.1
+"Uinta County(6,10)",56041,***,65.3 ,45, 91.7,8,falling,-11.4 ,-17.2, -5.2
+"Niobrara County(6,10)",56027,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:23 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

@@ -1,0 +1,143 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=17&areatype=county&cancer=001&race=00&sex=0&age=006&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '17', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '0', 'age': '006', 'type': 'death', 'file_name': 'deathrates_034.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=17&areatype=county&cancer=001&race=00&sex=0&age=006&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for Illinois by County
+
+"All Cancer Sites, 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, Ages <65"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 161.4?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Illinois",17000,Yes,51.8 ,51.2, 52.3,7253,falling,-2.1 ,-2.2, -2.0
+"United States",00000,Yes,51.3 ,51.2, 51.4,177172,falling,-1.4 ,-1.6, -1.3
+"Union County",17181,Yes,89.1 ,70.9, 111.1,18,stable,0.9 ,-0.7, 2.5
+"Saline County",17165,Yes,86 ,70.6, 104.1,24,stable,-0.4 ,-1.2, 0.4
+"Menard County",17129,Yes,85 ,63.8, 111.7,12,stable,-0.7 ,-2.7, 1.3
+"Stark County",17175,Yes,84.6 ,53.3, 128.9,5,*,*,*,*
+"Pulaski County",17153,Yes,80.6 ,53, 119.8,6,*,*,*,*
+"Schuyler County",17169,Yes,79 ,54.5, 112.7,7,stable,-0.6 ,-2.3, 1.1
+"Franklin County",17055,Yes,78 ,66.4, 91.2,35,falling,-1.2 ,-2.1, -0.3
+"Vermilion County",17183,Yes,77.3 ,69, 86.4,69,stable,-0.7 ,-1.3, 0.0
+"Cass County",17017,Yes,77.3 ,58.5, 100.9,12,stable,-1.1 ,-2.4, 0.2
+"Logan County",17107,Yes,75.6 ,62.7, 90.8,25,stable,6.7 ,-1.0, 15.0
+"Hardin County",17069,Yes,75.4 ,44.2, 124.6,4,stable,-0.6 ,-2.8, 1.7
+"Greene County",17061,Yes,74.9 ,56.3, 98.4,12,stable,-0.8 ,-1.8, 0.3
+"White County",17193,Yes,74.6 ,56.2, 97.8,12,stable,-0.2 ,-1.7, 1.2
+"Mercer County",17131,Yes,74.4 ,57.6, 95.2,15,stable,-0.7 ,-2.4, 1.0
+"Clay County",17025,Yes,73.9 ,55.5, 97.1,12,stable,-0.7 ,-2.2, 0.9
+"Iroquois County",17075,Yes,72.6 ,59.7, 87.8,25,stable,-0.7 ,-1.8, 0.3
+"Hamilton County",17065,Yes,72.5 ,49.8, 103.3,7,stable,0.3 ,-2.1, 2.7
+"Clark County",17023,Yes,71.7 ,54.2, 93.4,12,stable,-0.9 ,-2.6, 0.8
+"Marion County",17121,Yes,69.3 ,58.1, 82.2,30,stable,-1.1 ,-2.1, 0.0
+"Mason County",17125,Yes,68.9 ,51.8, 90.8,12,falling,-2.0 ,-3.5, -0.4
+"Perry County",17145,Yes,68.7 ,54, 86.5,16,stable,-1.2 ,-2.4, 0.1
+"Lee County",17103,Yes,66.6 ,55.7, 79.2,29,falling,-1.1 ,-2.0, -0.2
+"Alexander County",17003,Yes,66 ,44, 97.2,6,stable,-1.4 ,-3.1, 0.3
+"Macon County",17115,Yes,66 ,59.5, 73,84,falling,-1.0 ,-1.6, -0.5
+"Lawrence County",17101,Yes,65.8 ,49.9, 85.7,12,stable,-1.1 ,-2.4, 0.3
+"Scott County",17171,Yes,65.2 ,38.7, 105.4,4,*,*,*,*
+"Wayne County",17191,Yes,65.1 ,49.5, 84.5,13,stable,0.0 ,-1.7, 1.8
+"St. Clair County",17163,Yes,64.7 ,60.6, 69.1,193,falling,-2.0 ,-2.5, -1.5
+"Douglas County",17041,Yes,64.5 ,49.9, 82.4,14,stable,-0.9 ,-2.1, 0.3
+"Livingston County",17105,Yes,64.1 ,53.5, 76.3,28,falling,-1.1 ,-2.0, -0.1
+"Morgan County",17137,Yes,63.9 ,52.9, 76.7,26,stable,-1.0 ,-2.1, 0.1
+"Sangamon County",17167,Yes,63.8 ,59, 68.8,147,falling,-1.2 ,-1.7, -0.7
+"Williamson County",17199,Yes,63.7 ,55.7, 72.6,48,falling,-1.4 ,-2.0, -0.7
+"Montgomery County",17135,Yes,63.5 ,51.8, 77.4,22,falling,-1.5 ,-2.3, -0.6
+"Ford County",17053,Yes,63.5 ,45.7, 86.6,9,stable,-0.9 ,-2.3, 0.6
+"Marshall County",17123,Yes,63.3 ,45.8, 86.3,10,stable,-1.1 ,-2.9, 0.7
+"Massac County",17127,Yes,63.2 ,47.7, 83,12,falling,-1.7 ,-3.1, -0.3
+"Kankakee County",17091,Yes,63.1 ,56.8, 69.9,79,falling,-1.8 ,-2.5, -1.1
+"Henderson County",17071,Yes,62.9 ,42.4, 93.2,6,stable,-1.3 ,-3.2, 0.6
+"Winnebago County",17201,Yes,62.6 ,58.6, 66.7,200,falling,-1.1 ,-1.5, -0.6
+"Jefferson County",17081,Yes,61.4 ,51.2, 73.3,27,stable,-0.8 ,-1.8, 0.2
+"Pike County",17149,Yes,61.2 ,45.4, 81.2,11,falling,-2.0 ,-3.6, -0.3
+"Fayette County",17051,Yes,60.8 ,47.7, 76.8,15,stable,-1.6 ,-3.2, 0.1
+"Coles County",17029,Yes,60.6 ,51.4, 71.2,33,stable,-1.0 ,-2.3, 0.3
+"Tazewell County",17179,Yes,60.6 ,55, 66.7,93,falling,-1.3 ,-1.7, -0.8
+"Madison County",17119,Yes,60.5 ,56.5, 64.7,187,falling,-1.3 ,-1.7, -0.9
+"Calhoun County",17013,Yes,60.2 ,34.5, 100.6,4,*,*,*,*
+"Macoupin County",17117,Yes,60.1 ,50.8, 70.8,33,falling,-1.5 ,-2.3, -0.7
+"McDonough County",17109,Yes,60 ,47.5, 75,18,falling,-1.8 ,-2.9, -0.7
+"Peoria County",17143,Yes,59.8 ,55, 65,122,falling,-1.4 ,-1.8, -0.9
+"Johnson County",17087,Yes,59.5 ,42.7, 81.5,9,stable,-1.2 ,-3.0, 0.7
+"Richland County",17159,Yes,59.3 ,44.1, 78.7,11,falling,-1.4 ,-2.8, -0.1
+"Whiteside County",17195,Yes,59.2 ,50.9, 68.7,40,stable,-0.6 ,-1.6, 0.4
+"Putnam County",17155,Yes,58.7 ,36.2, 93.3,5,*,*,*,*
+"Piatt County",17147,Yes,58.7 ,43.7, 77.7,12,falling,-1.6 ,-3.0, -0.1
+"La Salle County",17099,Yes,58.6 ,52.7, 65,78,falling,-1.4 ,-2.0, -0.9
+"Knox County",17095,Yes,58.3 ,49.7, 68.1,36,falling,-1.4 ,-2.2, -0.7
+"Randolph County",17157,Yes,58.2 ,48, 70.2,24,falling,-1.3 ,-2.1, -0.5
+"Bureau County",17011,Yes,58.1 ,47.6, 70.5,24,stable,-1.0 ,-1.9, 0.0
+"Fulton County",17057,Yes,57.4 ,47.5, 69.1,25,falling,-1.2 ,-2.2, -0.3
+"De Witt County",17039,Yes,57.1 ,42.7, 75.3,11,falling,-1.8 ,-3.6, -0.1
+"Rock Island County",17161,Yes,56.7 ,51.4, 62.4,93,falling,-1.5 ,-2.1, -1.0
+"Christian County",17021,Yes,56.7 ,46.8, 68.4,24,falling,-2.0 ,-3.1, -0.8
+"Woodford County",17203,Yes,56.5 ,46.3, 68.5,23,stable,-1.1 ,-2.4, 0.2
+"Jackson County",17077,Yes,56.3 ,47.3, 66.6,30,stable,-0.7 ,-1.6, 0.2
+"Hancock County",17067,Yes,56.2 ,41.8, 74.4,12,falling,-1.7 ,-3.2, -0.2
+"Stephenson County",17177,Yes,54.5 ,45.6, 64.8,30,stable,-0.8 ,-1.8, 0.2
+"Jasper County",17079,Yes,54.5 ,36.5, 79.4,6,stable,-1.9 ,-4.2, 0.4
+"Adams County",17001,Yes,54.4 ,47.1, 62.7,42,falling,-2.1 ,-3.1, -1.1
+"Moultrie County",17139,Yes,54.3 ,39, 74,9,stable,-1.1 ,-2.9, 0.6
+"Crawford County",17033,Yes,54.3 ,41.4, 70.4,13,stable,-1.3 ,-2.6, 0.0
+"Grundy County",17063,Yes,54.2 ,45.7, 63.9,30,falling,-1.3 ,-2.3, -0.3
+"Washington County",17189,Yes,53.3 ,38.8, 72.3,10,falling,-1.8 ,-3.5, -0.2
+"Jersey County",17083,Yes,53.1 ,41, 68.1,14,falling,-1.7 ,-3.1, -0.2
+"Shelby County",17173,Yes,53.1 ,40.8, 68.3,14,stable,-1.4 ,-3.2, 0.3
+"Cumberland County",17035,Yes,52.7 ,35.2, 76.5,6,stable,-1.4 ,-3.5, 0.8
+"Henry County",17073,Yes,52.6 ,44.3, 62.1,31,falling,-1.5 ,-2.4, -0.6
+"Cook County",17031,Yes,52.3 ,51.4, 53.2,2859,falling,-2.3 ,-2.5, -2.2
+"Bond County",17005,Yes,51.7 ,38.7, 68.4,11,falling,-2.0 ,-3.6, -0.4
+"Ogle County",17141,Yes,51.3 ,43.3, 60.5,32,falling,-2.1 ,-3.2, -0.9
+"Clinton County",17027,Yes,50.4 ,41, 61.5,21,falling,-2.1 ,-3.3, -0.8
+"Wabash County",17185,Yes,50.1 ,35, 70.7,8,falling,-2.1 ,-3.6, -0.6
+"Gallatin County",17059,Yes,50 ,28.3, 84.8,3,stable,-1.0 ,-3.2, 1.2
+"Jo Daviess County",17085,Yes,49.8 ,38, 64.7,14,falling,-2.5 ,-3.7, -1.3
+"Warren County",17187,Yes,48.1 ,35.4, 64.3,10,stable,-1.3 ,-2.8, 0.2
+"DeKalb County",17037,Yes,47.2 ,41.2, 53.8,46,falling,-2.5 ,-3.4, -1.6
+"Champaign County",17019,Yes,46.7 ,42.2, 51.5,86,falling,-2.0 ,-2.7, -1.2
+"McLean County",17113,Yes,46.3 ,41.8, 51.3,78,falling,-1.6 ,-2.2, -1.0
+"Effingham County",17049,Yes,45.5 ,36.2, 56.7,18,falling,-1.3 ,-2.4, -0.2
+"Boone County",17007,Yes,45.5 ,37.9, 54.2,26,falling,-1.7 ,-2.7, -0.7
+"Edgar County",17045,Yes,44.7 ,32.7, 60.3,10,falling,-2.6 ,-4.1, -1.2
+"McHenry County",17111,Yes,43.9 ,40.8, 47.1,159,falling,-1.8 ,-2.3, -1.4
+"Kendall County",17093,Yes,43.6 ,38.3, 49.4,48,falling,-2.7 ,-3.7, -1.7
+"Will County",17197,Yes,43.4 ,41.3, 45.6,317,falling,-2.4 ,-2.7, -2.1
+"Lake County",17097,Yes,40.4 ,38.4, 42.5,320,falling,-2.5 ,-2.8, -2.1
+"Kane County",17089,Yes,39.7 ,37.3, 42.1,219,falling,-2.8 ,-3.2, -2.4
+"Carroll County",17015,Yes,39.6 ,27.8, 56,8,falling,-3.0 ,-4.2, -1.9
+"DuPage County",17043,Yes,38.2 ,36.5, 39.9,417,falling,-2.5 ,-2.7, -2.3
+"Monroe County",17133,Yes,37.7 ,29.3, 47.9,15,falling,-2.0 ,-3.2, -0.8
+"Brown County",17009,***,* ,*, *,3 or fewer,*,*,*,*
+"Edwards County",17047,***,* ,*, *,3 or fewer,*,*,*,*
+"Pope County",17151,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:16 pm.
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

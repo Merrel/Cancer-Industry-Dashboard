@@ -1,0 +1,76 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=30&areatype=county&topic=pop&demo=00024&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '30', 'areatype': 'county', 'topic': 'pop', 'demo': '00024', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_020.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=30&areatype=county&topic=pop&demo=00024&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Montana by County
+Population: Asian / Pacific Islander
+"All Ages, Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (API),Rank within US
+"Montana",30000,0.8,8019,"51 of 52"
+"United States",00000,5.5,17756436,"N/A"
+"Broadwater County",30007,0.0,0,"2927 of 3141"
+"Carter County",30011,0.0,0,"2927 of 3141"
+"Daniels County",30019,0.0,0,"2927 of 3141"
+"Garfield County",30033,0.0,0,"2927 of 3141"
+"Golden Valley County",30037,0.0,0,"2927 of 3141"
+"Judith Basin County",30045,0.0,0,"2927 of 3141"
+"Liberty County",30051,0.0,0,"2927 of 3141"
+"Meagher County",30059,0.0,0,"2927 of 3141"
+"Powder River County",30075,0.0,0,"2927 of 3141"
+"Prairie County",30079,0.0,0,"2927 of 3141"
+"Wheatland County",30107,0.0,0,"2927 of 3141"
+"Wibaux County",30109,0.0,0,"2927 of 3141"
+"Granite County",30039,0.1,2,"2850 of 3141"
+"Madison County",30057,0.1,8,"2774 of 3141"
+"Big Horn County",30003,0.1,17,"2726 of 3141"
+"Blaine County",30005,0.2,10,"2681 of 3141"
+"Park County",30067,0.2,31,"2595 of 3141"
+"Teton County",30099,0.2,12,"2582 of 3141"
+"Jefferson County",30043,0.2,24,"2565 of 3141"
+"Carbon County",30009,0.3,29,"2443 of 3141"
+"Pondera County",30073,0.3,19,"2360 of 3141"
+"Custer County",30017,0.4,42,"2272 of 3141"
+"Phillips County",30071,0.4,15,"2252 of 3141"
+"Lincoln County",30053,0.4,73,"2206 of 3141"
+"Roosevelt County",30085,0.4,46,"2128 of 3141"
+"Dawson County",30021,0.4,40,"2069 of 3141"
+"Glacier County",30035,0.4,59,"2062 of 3141"
+"Stillwater County",30095,0.4,41,"2045 of 3141"
+"Hill County",30041,0.4,74,"2014 of 3141"
+"McCone County",30055,0.5,8,"1982 of 3141"
+"Richland County",30083,0.5,54,"1955 of 3141"
+"Lake County",30047,0.5,140,"1952 of 3141"
+"Chouteau County",30015,0.5,28,"1926 of 3141"
+"Flathead County",30029,0.5,480,"1884 of 3141"
+"Sanders County",30089,0.5,61,"1796 of 3141"
+"Deer Lodge County",30023,0.6,53,"1703 of 3141"
+"Beaverhead County",30001,0.6,56,"1671 of 3141"
+"Ravalli County",30081,0.6,250,"1657 of 3141"
+"Valley County",30105,0.7,52,"1494 of 3141"
+"Yellowstone County",30111,0.7,1107,"1446 of 3141"
+"Mineral County",30061,0.7,30,"1432 of 3141"
+"Lewis and Clark County",30049,0.7,485,"1399 of 3141"
+"Toole County",30101,0.8,41,"1278 of 3141"
+"Silver Bow County",30093,0.8,287,"1261 of 3141"
+"Sheridan County",30091,0.9,31,"1216 of 3141"
+"Rosebud County",30087,0.9,85,"1164 of 3141"
+"Fallon County",30025,1.0,28,"1117 of 3141"
+"Cascade County",30013,1.0,809,"1090 of 3141"
+"Sweet Grass County",30097,1.0,37,"1059 of 3141"
+"Powell County",30077,1.1,74,"994 of 3141"
+"Gallatin County",30031,1.3,1340,"808 of 3141"
+"Musselshell County",30065,1.5,70,"730 of 3141"
+"Missoula County",30063,1.5,1678,"729 of 3141"
+"Treasure County",30103,1.5,12,"701 of 3141"
+"Fergus County",30027,1.5,174,"696 of 3141"
+"Petroleum County",30069,1.5,7,"689 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:18 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Asian / Pacific Islander, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

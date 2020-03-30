@@ -1,0 +1,94 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=38&areatype=county&cancer=066&race=00&sex=1&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '38', 'areatype': 'county', 'cancer': '066', 'race': '00', 'sex': '1', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_019.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=38&areatype=county&cancer=066&race=00&sex=1&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for North Dakota by County
+
+"Prostate (All Stages^), 2012-2016"
+
+"All Races (includes Hispanic), Male, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"North Dakota(6,10)",38000,***,115.7 ,111, 120.5,488,stable,0.0 ,-9.2, 10.1
+"US (SEER+NPCR)(1,10)",00000,***,104.1 ,103.8, 104.3,187184,stable,-2.2 ,-5.2, 0.9
+"McIntosh County(6,10)",38051,***,167 ,102.9, 272,4,stable,9.4 ,-35.7, 85.9
+"LaMoure County(6,10)",38045,***,160.4 ,102.7, 244.1,5,stable,-3.4 ,-27.5, 28.7
+"Mercer County(6,10)",38057,***,159.8 ,118.4, 213,11,stable,6.5 ,-30.4, 63.0
+"Morton County(6,10)",38059,***,156 ,130.2, 185.7,27,stable,0.9 ,-18.7, 25.3
+"Stark County(6,10)",38089,***,154.2 ,126.3, 186.4,23,stable,-1.6 ,-22.6, 25.0
+"Hettinger County(6,10)",38041,***,151.4 ,88.1, 256.5,3,stable,13.3 ,-33.4, 92.5
+"Cavalier County(6,10)",38019,***,147.9 ,95.6, 227,5,stable,14.6 ,-0.1, 31.3
+"Grant County(6,10)",38037,***,147.7 ,87.3, 254.6,4,stable,-0.1 ,-49.9, 99.3
+"Ransom County(6,10)",38073,***,147 ,97.1, 216.4,6,stable,-21.3 ,-54.5, 36.2
+"Bowman County(6,10)",38011,***,143.3 ,84.4, 234.3,4,*,*,*,*
+"McLean County(6,10)",38055,***,136.6 ,102.6, 180.8,12,stable,12.2 ,-11.8, 42.8
+"Burleigh County(6,10)",38015,***,132.8 ,118.5, 148.4,66,stable,-4.9 ,-14.8, 6.1
+"Traill County(6,10)",38097,***,131.9 ,91.2, 186,7,stable,-6.4 ,-36.8, 38.6
+"Ramsey County(6,10)",38071,***,119.8 ,88.8, 159.6,10,stable,-1.6 ,-7.1, 4.2
+"Emmons County(6,10)",38029,***,119.4 ,71.5, 200.2,4,*,*,*,*
+"Cass County(6,10)",38017,***,118.4 ,107.5, 130.1,94,stable,2.5 ,-23.3, 36.9
+"Bottineau County(6,10)",38009,***,118.2 ,80.1, 171.4,7,stable,-3.9 ,-39.0, 51.4
+"Wells County(6,10)",38103,***,116 ,73.5, 183.7,5,rising,15.4 ,8.0, 23.3
+"Ward County(6,10)",38101,***,114.1 ,97.9, 132.2,37,stable,2.9 ,-19.4, 31.5
+"Mountrail County(6,10)",38061,***,106.6 ,69.4, 156.7,6,stable,24.5 ,-1.8, 57.7
+"Stutsman County(6,10)",38093,***,104.4 ,81.6, 132.3,15,falling,-9.4 ,-16.0, -2.4
+"McHenry County(6,10)",38049,***,101.7 ,64.1, 156.4,5,stable,-35.3 ,-60.4, 5.8
+"Dickey County(6,10)",38021,***,98.2 ,57.3, 160.7,4,falling,-13.0 ,-14.6, -11.4
+"Grand Forks County(6,10)",38035,***,97.5 ,82.5, 114.5,32,falling,-5.9 ,-11.3, -0.3
+"Sargent County(6,10)",38081,***,95.4 ,53.9, 163.3,3,stable,24.2 ,-16.0, 83.5
+"Barnes County(6,10)",38003,***,95.1 ,67.5, 132.1,8,stable,-8.6 ,-33.1, 24.8
+"Pembina County(6,10)",38067,***,93.4 ,61, 140.3,6,stable,22.4 ,-15.0, 76.2
+"Walsh County(6,10)",38099,***,83.2 ,57.7, 118.1,7,stable,-1.8 ,-25.9, 30.2
+"Richland County(6,10)",38077,***,82.1 ,58.6, 112.5,8,stable,31.1 ,-7.7, 86.4
+"Rolette County(6,10)",38079,***,75.5 ,48.8, 111.7,5,stable,6.9 ,-12.3, 30.1
+"Williams County(6,10)",38105,***,73.8 ,53.9, 98.3,10,falling,-11.9 ,-20.6, -2.2
+"Adams County(6,10)",38001,***,* ,*, *,3 or fewer,*,*,*,*
+"Benson County(6,10)",38005,***,* ,*, *,3 or fewer,*,*,*,*
+"Billings County(6,10)",38007,***,* ,*, *,3 or fewer,*,*,*,*
+"Burke County(6,10)",38013,***,* ,*, *,3 or fewer,*,*,*,*
+"Divide County(6,10)",38023,***,* ,*, *,3 or fewer,*,*,*,*
+"Dunn County(6,10)",38025,***,* ,*, *,3 or fewer,*,*,*,*
+"Eddy County(6,10)",38027,***,* ,*, *,3 or fewer,*,*,*,*
+"Foster County(6,10)",38031,***,* ,*, *,3 or fewer,*,*,*,*
+"Golden Valley County(6,10)",38033,***,* ,*, *,3 or fewer,*,*,*,*
+"Griggs County(6,10)",38039,***,* ,*, *,3 or fewer,*,*,*,*
+"Kidder County(6,10)",38043,***,* ,*, *,3 or fewer,*,*,*,*
+"Logan County(6,10)",38047,***,* ,*, *,3 or fewer,*,*,*,*
+"McKenzie County(6,10)",38053,***,* ,*, *,3 or fewer,*,*,*,*
+"Nelson County(6,10)",38063,***,* ,*, *,3 or fewer,*,*,*,*
+"Oliver County(6,10)",38065,***,* ,*, *,3 or fewer,*,*,*,*
+"Pierce County(6,10)",38069,***,* ,*, *,3 or fewer,*,*,*,*
+"Renville County(6,10)",38075,***,* ,*, *,3 or fewer,*,*,*,*
+"Sheridan County(6,10)",38083,***,* ,*, *,3 or fewer,*,*,*,*
+"Sioux County(6,10)",38085,***,* ,*, *,3 or fewer,*,*,*,*
+"Slope County(6,10)",38087,***,* ,*, *,3 or fewer,*,*,*,*
+"Steele County(6,10)",38091,***,* ,*, *,3 or fewer,*,*,*,*
+"Towner County(6,10)",38095,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:21 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

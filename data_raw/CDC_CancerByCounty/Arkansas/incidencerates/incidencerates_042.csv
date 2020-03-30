@@ -1,0 +1,113 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=05&areatype=county&cancer=055&stage=211&race=00&sex=2&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '05', 'areatype': 'county', 'cancer': '055', 'stage': '211', 'race': '00', 'sex': '2', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_042.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=05&areatype=county&cancer=055&stage=211&race=00&sex=2&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Arkansas by County
+
+"Breast (Late Stage^), 2012-2016"
+
+"All Races (includes Hispanic), Female, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 42.1?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Percent of Cases with Late Stage
+"Arkansas(6)",05000,Yes,41.4 ,40, 42.8,739,34.3
+"US (SEER+NPCR)(1)",00000,No,42.3 ,42.1, 42.4,78906,33.0
+"Woodruff County(6)",05147,No,80.1 ,44.2, 134.2,3,45.9
+"Lee County(6)",05077,No,72 ,41.7, 116.6,4,40.0
+"Conway County(6)",05029,No,56.4 ,38.9, 79.4,8,44.7
+"Jefferson County(6)",05069,No,55.7 ,45.9, 66.9,25,45.1
+"Drew County(6)",05043,No,54.6 ,36.8, 78.3,6,47.8
+"Lincoln County(6)",05079,No,54.4 ,31.9, 87.5,4,43.2
+"Little River County(6)",05081,No,52 ,31.4, 81.7,4,38.9
+"Perry County(6)",05105,No,51.9 ,28.5, 87.3,3,32.7
+"Ashley County(6)",05003,No,51.4 ,36.1, 71.6,8,41.3
+"Marion County(6)",05089,No,50.3 ,31, 77.8,6,31.9
+"Phillips County(6)",05107,No,47.7 ,32, 68.8,6,39.0
+"Cross County(6)",05037,No,47.7 ,30.6, 71.3,5,44.1
+"Sharp County(6)",05135,No,47.5 ,29.6, 72.7,6,34.1
+"Clay County(6)",05021,No,47.3 ,30.7, 70.8,5,35.5
+"Lonoke County(6)",05085,No,47.3 ,37.9, 58.2,18,40.6
+"Desha County(6)",05041,No,47.1 ,27.2, 76.3,4,40.4
+"Mississippi County(6)",05093,No,46.8 ,35.2, 61.1,11,36.8
+"Cleburne County(6)",05023,No,46.7 ,32.9, 64.8,9,34.6
+"Miller County(6)",05091,No,46.6 ,34.9, 61,11,37.7
+"Faulkner County(6)",05045,No,46.1 ,38.5, 54.7,27,37.7
+"Sebastian County(6)",05131,No,45.8 ,39, 53.5,34,37.0
+"Jackson County(6)",05067,No,44.4 ,28.5, 66.6,5,38.2
+"White County(6)",05145,No,43.9 ,35.5, 53.7,20,36.1
+"Johnson County(6)",05071,No,43.6 ,30.3, 61.1,7,50.7
+"Ouachita County(6)",05103,No,43.4 ,30.5, 60.4,8,42.1
+"Union County(6)",05139,No,43.2 ,32.2, 57,11,34.8
+"Poinsett County(6)",05111,No,43 ,28.9, 61.8,6,36.4
+"Pope County(6)",05115,No,43 ,33.7, 54.1,15,40.4
+"Craighead County(6)",05031,No,42.5 ,34.9, 51.4,22,32.7
+"Pulaski County(6)",05119,No,42.3 ,38.5, 46.4,96,34.0
+"Benton County(6)",05007,Yes,41.8 ,37, 47.1,56,33.7
+"Hempstead County(6)",05057,Yes,41 ,26.7, 60.5,6,41.8
+"Chicot County(6)",05017,Yes,40.3 ,21.9, 69.2,3,41.0
+"St. Francis County(6)",05123,Yes,40.2 ,27, 58,6,45.7
+"Crittenden County(6)",05035,Yes,39.9 ,29.8, 52.2,11,40.4
+"Clark County(6)",05019,Yes,39.3 ,24.1, 60.5,5,31.1
+"Howard County(6)",05061,Yes,38.7 ,22.1, 63.4,3,36.2
+"Van Buren County(6)",05141,Yes,38.1 ,23.9, 58.9,5,31.6
+"Logan County(6)",05083,Yes,38.1 ,25.4, 55.6,6,40.0
+"Hot Spring County(6)",05059,Yes,37.9 ,27, 52.2,9,38.7
+"Stone County(6)",05137,Yes,37.8 ,21, 64.3,4,39.6
+"Garland County(6)",05051,Yes,37.2 ,30.8, 44.6,28,30.2
+"Lawrence County(6)",05075,Yes,37.1 ,21.7, 59.6,4,29.0
+"Greene County(6)",05055,Yes,36.9 ,27.1, 49.3,10,36.6
+"Crawford County(6)",05033,Yes,36.8 ,28.3, 47.1,14,31.9
+"Franklin County(6)",05047,Yes,36.2 ,21.8, 57.1,4,35.0
+"Yell County(6)",05149,Yes,35.6 ,22.5, 54,5,36.4
+"Baxter County(6)",05005,Yes,35.5 ,26.7, 46.9,14,25.9
+"Saline County(6)",05125,Yes,34.6 ,28.6, 41.4,25,29.3
+"Washington County(6)",05143,Yes,34.5 ,29.6, 40,36,25.9
+"Arkansas County(6)",05001,Yes,33.7 ,19.5, 54.2,4,32.8
+"Carroll County(6)",05015,Yes,33.6 ,23.6, 47.2,8,29.1
+"Madison County(6)",05087,Yes,33.6 ,18.6, 56.1,3,28.1
+"Columbia County(6)",05027,Yes,32.9 ,20.9, 49.7,5,31.3
+"Grant County(6)",05053,Yes,32.7 ,18.8, 53.3,3,25.8
+"Boone County(6)",05009,Yes,31.8 ,22.5, 44.1,8,25.8
+"Polk County(6)",05113,Yes,30.7 ,17.7, 49.6,4,24.7
+"Randolph County(6)",05121,Yes,29.2 ,17.2, 47.5,4,26.4
+"Independence County(6)",05063,Yes,26.4 ,17.5, 38.4,6,26.5
+"Bradley County(6)",05011,Yes,* ,*, *,3 or fewer,*
+"Calhoun County(6)",05013,Yes,* ,*, *,3 or fewer,*
+"Cleveland County(6)",05025,Yes,* ,*, *,3 or fewer,*
+"Dallas County(6)",05039,Yes,* ,*, *,3 or fewer,*
+"Fulton County(6)",05049,Yes,* ,*, *,3 or fewer,*
+"Izard County(6)",05065,Yes,* ,*, *,3 or fewer,*
+"Lafayette County(6)",05073,Yes,* ,*, *,3 or fewer,*
+"Monroe County(6)",05095,Yes,* ,*, *,3 or fewer,*
+"Montgomery County(6)",05097,Yes,* ,*, *,3 or fewer,*
+"Nevada County(6)",05099,Yes,* ,*, *,3 or fewer,*
+"Newton County(6)",05101,Yes,* ,*, *,3 or fewer,*
+"Pike County(6)",05109,Yes,* ,*, *,3 or fewer,*
+"Prairie County(6)",05117,Yes,* ,*, *,3 or fewer,*
+"Scott County(6)",05127,Yes,* ,*, *,3 or fewer,*
+"Searcy County(6)",05129,Yes,* ,*, *,3 or fewer,*
+"Sevier County(6)",05133,Yes,* ,*, *,3 or fewer,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:16 pm.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+
+Rates are computed using cancers classified as malignant based on ICD-O-3. For more information see malignant.html.
+
+"^ Late Stage is defined as cases determined to be regional or distant. Coding is generally based on Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ] but may include other staging variables if necessary."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

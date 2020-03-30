@@ -1,0 +1,109 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=46&areatype=county&cancer=001&race=00&sex=0&age=136&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '46', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '0', 'age': '136', 'type': 'incd', 'file_name': 'incidencerates_037.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=46&areatype=county&cancer=001&race=00&sex=0&age=136&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for South Dakota by County
+
+"All Cancer Sites (All Stages^), 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, Ages 50+"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"South Dakota(6,10)",46000,***,1375 ,1355.7, 1394.5,4001,stable,-0.8 ,-2.9, 1.3
+"US (SEER+NPCR)(1,10)",00000,***,1350.2 ,1349.2, 1351.2,1428518,falling,-1.1 ,-1.8, -0.3
+"Haakon County(6,10)",46055,***,1760.6 ,1396.7, 2190.8,17,falling,-10.4 ,-19.0, -0.9
+"Hanson County(6,10)",46061,***,1740.2 ,1369.1, 2178.5,17,stable,7.7 ,-12.3, 32.3
+"Kingsbury County(6,10)",46077,***,1683.4 ,1453.7, 1938.9,40,stable,1.1 ,-15.6, 21.1
+"Miner County(6,10)",46097,***,1671.5 ,1335.4, 2066.2,18,stable,-1.5 ,-33.9, 46.8
+"Minnehaha County(6,10)",46099,***,1664.1 ,1612.6, 1716.8,846,stable,-3.3 ,-9.9, 3.8
+"Dewey County(6,10)",46041,***,1649.1 ,1351.9, 1992.1,22,stable,-12.0 ,-34.2, 17.6
+"Brookings County(6,10)",46011,***,1579.9 ,1458, 1709.1,129,stable,0.4 ,-9.6, 11.5
+"Hyde County(6,10)",46069,***,1568 ,1151.2, 2082.9,10,stable,2.3 ,-20.9, 32.4
+"Union County(6,10)",46127,***,1552.7 ,1402.9, 1714,83,stable,-4.2 ,-14.9, 7.8
+"Clay County(6,10)",46027,***,1551.4 ,1365.7, 1755.2,52,stable,7.7 ,-1.1, 17.2
+"McCook County(6,10)",46087,***,1532.7 ,1305.6, 1787.5,33,stable,-3.3 ,-16.6, 12.1
+"Mellette County(6,10)",46095,***,1513.4 ,1108.3, 2015.2,10,stable,-5.8 ,-45.2, 61.8
+"Potter County(6,10)",46107,***,1505.3 ,1217.2, 1842.1,20,stable,-1.7 ,-29.0, 36.1
+"Stanley County(6,10)",46117,***,1484.8 ,1188.5, 1834.3,18,stable,3.2 ,-9.6, 17.8
+"Edmunds County(6,10)",46045,***,1480.4 ,1236.7, 1757.8,27,stable,0.6 ,-20.8, 27.8
+"Faulk County(6,10)",46049,***,1478.8 ,1171, 1842.1,17,stable,-7.3 ,-25.9, 16.2
+"Spink County(6,10)",46115,***,1474.8 ,1275.6, 1695.8,41,stable,9.0 ,-1.4, 20.7
+"Brule County(6,10)",46015,***,1472.9 ,1240.9, 1735.2,29,stable,12.9 ,-7.2, 37.3
+"Codington County(6,10)",46029,***,1470.9 ,1364.7, 1583,146,stable,0.0 ,-7.9, 8.6
+"Davison County(6,10)",46035,***,1467.5 ,1345, 1598,110,stable,-2.7 ,-13.7, 9.8
+"Gregory County(6,10)",46053,***,1462.8 ,1233.3, 1722.3,31,falling,-13.1 ,-18.4, -7.4
+"Aurora County(6,10)",46003,***,1458.5 ,1158.5, 1811.7,17,stable,-3.7 ,-13.3, 6.9
+"Beadle County(6,10)",46005,***,1436.6 ,1309.6, 1572.6,97,stable,3.2 ,-6.8, 14.3
+"Deuel County(6,10)",46039,***,1436.6 ,1201.5, 1703.9,27,stable,8.1 ,-12.6, 33.5
+"Turner County(6,10)",46125,***,1428.2 ,1254.5, 1619.1,51,stable,-1.6 ,-15.2, 14.2
+"Charles Mix County(6,10)",46023,***,1415.8 ,1246, 1602.3,52,stable,-1.3 ,-14.1, 13.4
+"Fall River County(6,10)",46047,***,1392 ,1224.8, 1575.8,53,stable,2.2 ,-18.3, 27.8
+"Hughes County(6,10)",46065,***,1381.8 ,1251.7, 1521.6,86,stable,-2.1 ,-11.5, 8.3
+"Jones County(6,10)",46075,***,1377.1 ,929.8, 1962.5,6,stable,5.4 ,-41.3, 89.5
+"Grant County(6,10)",46051,***,1375 ,1197.4, 1571.5,44,stable,-2.4 ,-16.7, 14.3
+"Brown County(6,10)",46013,***,1370.1 ,1282.8, 1461.8,191,stable,-0.7 ,-3.3, 1.9
+"Lyman County(6,10)",46085,***,1364.6 ,1095, 1680.4,18,stable,-3.7 ,-18.9, 14.3
+"Day County(6,10)",46037,***,1344.6 ,1153.9, 1557.6,37,stable,1.7 ,-6.4, 10.4
+"Lake County(6,10)",46079,***,1337.6 ,1191.5, 1496.5,65,stable,-1.8 ,-15.4, 14.1
+"McPherson County(6,10)",46089,***,1325.3 ,1052.6, 1647.3,17,stable,2.0 ,-11.3, 17.2
+"Hamlin County(6,10)",46057,***,1316.5 ,1101.6, 1560.8,27,stable,0.6 ,-17.9, 23.2
+"Shannon County(6,10)",46113,***,1311.9 ,1106.3, 1545,32,stable,1.4 ,-27.5, 41.7
+"Tripp County(6,10)",46123,***,1305 ,1114.4, 1519,35,stable,1.5 ,-13.1, 18.7
+"Bennett County(6,10)",46007,***,1304.9 ,991.9, 1683.5,12,stable,-3.3 ,-20.9, 18.4
+"Sanborn County(6,10)",46111,***,1277.6 ,975.8, 1642,13,stable,-4.7 ,-28.6, 27.0
+"Hutchinson County(6,10)",46067,***,1274.9 ,1104.6, 1463.7,44,stable,-2.0 ,-16.2, 14.6
+"Douglas County(6,10)",46043,***,1274 ,1016.8, 1575.7,18,stable,1.2 ,-18.1, 25.1
+"Lincoln County(6,10)",46083,***,1265.5 ,1177.9, 1357.9,167,stable,-1.2 ,-11.2, 9.9
+"Butte County(6,10)",46019,***,1257.2 ,1107.1, 1422,52,stable,5.7 ,-8.6, 22.2
+"Meade County(6,10)",46093,***,1255.2 ,1147.7, 1369.9,106,stable,-2.8 ,-13.5, 9.3
+"Todd County(6,10)",46121,***,1250.6 ,1010, 1530.3,21,stable,-3.4 ,-21.5, 18.9
+"Pennington County(6,10)",46103,***,1232.4 ,1181.5, 1284.9,459,stable,1.6 ,-0.6, 3.7
+"Clark County(6,10)",46025,***,1221.2 ,992.3, 1487.6,21,stable,-0.2 ,-31.0, 44.3
+"Moody County(6,10)",46101,***,1213.2 ,1023.8, 1427.1,30,stable,-2.7 ,-22.1, 21.5
+"Bon Homme County(6,10)",46009,***,1210.8 ,1035.9, 1406.6,36,stable,0.3 ,-23.7, 31.8
+"Marshall County(6,10)",46091,***,1202.9 ,992.7, 1444.1,24,stable,-11.1 ,-38.1, 27.8
+"Yankton County(6,10)",46135,***,1192.3 ,1089.8, 1301.7,103,stable,3.1 ,-8.5, 16.2
+"Jerauld County(6,10)",46073,***,1188.2 ,898.6, 1541.2,13,stable,0.8 ,-38.5, 65.3
+"Hand County(6,10)",46059,***,1143.1 ,918.3, 1405.9,20,stable,1.9 ,-18.7, 27.7
+"Roberts County(6,10)",46109,***,1129.7 ,983.5, 1291.3,44,stable,-3.2 ,-20.3, 17.6
+"Buffalo County(6,10)",46017,***,1126.1 ,722.7, 1701.7,5,rising,27.8 ,2.8, 58.8
+"Lawrence County(6,10)",46081,***,1104.6 ,1012.7, 1202.6,112,stable,-4.4 ,-9.7, 1.3
+"Campbell County(6,10)",46021,***,1091.8 ,790.4, 1469.9,9,stable,3.1 ,-24.8, 41.4
+"Walworth County(6,10)",46129,***,1077.7 ,903.8, 1275.3,29,stable,-4.7 ,-15.8, 8.0
+"Jackson County(6,10)",46071,***,1072.1 ,799.6, 1407.3,11,stable,5.8 ,-51.5, 130.9
+"Custer County(6,10)",46033,***,1048.9 ,915.6, 1196.2,48,stable,4.9 ,-2.7, 13.2
+"Harding County(6,10)",46063,***,982.2 ,600.2, 1508.6,4,*,*,*,*
+"Perkins County(6,10)",46105,***,968.8 ,746.3, 1235.8,13,falling,-8.2 ,-11.8, -4.5
+"Sully County(6,10)",46119,***,895.8 ,590.5, 1302,6,stable,-9.1 ,-48.4, 60.3
+"Corson County(6,10)",46031,***,880.7 ,641.9, 1180.2,10,stable,13.1 ,-33.6, 92.6
+"Ziebach County(6,10)",46137,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:20 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+"South Dakota County Name Change: please note that Shannon County, SD (FIPS code=46113) was renamed effective May 1, 2015, and the new name is Oglala Lakota County (FIPS Code=46102). Due to the nature of data submissions, we will use the older code/name this year and transition to the new code/name with a future data release."
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

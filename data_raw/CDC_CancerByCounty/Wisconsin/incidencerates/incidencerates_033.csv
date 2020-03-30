@@ -1,0 +1,112 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=55&areatype=county&cancer=001&race=00&sex=2&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '55', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '2', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_033.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=55&areatype=county&cancer=001&race=00&sex=2&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Wisconsin by County
+
+"All Cancer Sites (All Stages^), 2012-2016"
+
+"All Races (includes Hispanic), Female, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Wisconsin(6,10)",55000,***,440.5 ,437.3, 443.7,15744,falling,-0.5 ,-1.0, -0.1
+"US (SEER+NPCR)(1,10)",00000,***,420.9 ,420.5, 421.3,813914,stable,-0.4 ,-1.3, 0.6
+"Oneida County(6,10)",55085,***,506.5 ,467, 549,148,stable,0.4 ,-9.9, 11.8
+"Vilas County(6,10)",55125,***,499.2 ,450.5, 552.8,100,stable,0.0 ,-17.6, 21.4
+"Columbia County(6,10)",55021,***,479.9 ,447.3, 514.3,173,stable,0.2 ,-6.9, 7.8
+"Grant County(6,10)",55043,***,474.6 ,439.2, 512.1,151,stable,1.3 ,-9.1, 12.9
+"Washburn County(6,10)",55129,***,472 ,414.5, 536.2,59,stable,-13.5 ,-26.9, 2.3
+"Racine County(6,10)",55101,***,468.4 ,450.9, 486.5,572,stable,1.1 ,-2.0, 4.2
+"Adams County(6,10)",55001,***,467.5 ,416.2, 524.6,79,stable,-2.6 ,-8.4, 3.6
+"Milwaukee County(6,10)",55079,***,463.7 ,455.4, 472.1,2491,stable,-0.1 ,-1.4, 1.2
+"Walworth County(6,10)",55127,***,463.1 ,438.9, 488.4,294,stable,-1.5 ,-5.8, 3.1
+"Sawyer County(6,10)",55113,***,461.5 ,406.1, 523.4,59,stable,2.6 ,-5.0, 10.9
+"Waukesha County(6,10)",55133,***,459 ,447.1, 471.1,1232,stable,0.7 ,-1.6, 3.1
+"Rock County(6,10)",55105,***,458.4 ,439.4, 478,463,stable,0.3 ,-4.6, 5.5
+"Forest County(6,10)",55041,***,457.4 ,384.1, 542.1,31,stable,4.4 ,-26.4, 47.9
+"Iron County(6,10)",55051,***,457.1 ,373.5, 559.4,26,stable,-2.3 ,-25.7, 28.5
+"Price County(6,10)",55099,***,456.8 ,397.2, 524.2,51,stable,4.7 ,-16.7, 31.7
+"Chippewa County(6,10)",55017,***,454.6 ,424.2, 486.8,180,stable,0.1 ,-7.8, 8.8
+"Marinette County(6,10)",55075,***,453.2 ,418.2, 490.6,145,stable,0.3 ,-8.2, 9.5
+"Dane County(6,10)",55025,***,453 ,441.5, 464.8,1248,stable,-1.5 ,-4.1, 1.2
+"Kenosha County(6,10)",55059,***,452.9 ,433.6, 472.9,432,stable,0.4 ,-8.4, 10.0
+"Marquette County(6,10)",55077,***,452.1 ,393.9, 517.4,53,stable,1.1 ,-15.8, 21.4
+"Monroe County(6,10)",55081,***,452 ,415.7, 490.8,122,stable,-4.0 ,-14.8, 8.1
+"Lincoln County(6,10)",55069,***,451 ,409.7, 495.9,97,stable,1.4 ,-3.9, 7.0
+"Fond du Lac County(6,10)",55039,***,448 ,424.9, 472.1,306,stable,1.2 ,-3.4, 5.9
+"Ozaukee County(6,10)",55089,***,447 ,422.4, 472.8,272,stable,0.3 ,-4.3, 5.2
+"Sauk County(6,10)",55111,***,446.2 ,416.7, 477.3,186,stable,1.4 ,-7.6, 11.3
+"Oconto County(6,10)",55083,***,444.5 ,406.9, 484.8,113,stable,-4.2 ,-13.5, 6.1
+"Winnebago County(6,10)",55139,***,442.5 ,423.7, 462,447,stable,-1.4 ,-8.2, 6.0
+"Washington County(6,10)",55131,***,442.2 ,422, 463.1,386,stable,2.0 ,-0.7, 4.8
+"Langlade County(6,10)",55067,***,441.7 ,390, 499.1,63,stable,-2.3 ,-13.0, 9.7
+"Iowa County(6,10)",55049,***,437 ,389.5, 489,67,stable,2.1 ,-3.4, 7.9
+"Eau Claire County(6,10)",55035,***,437 ,412.5, 462.7,256,stable,-3.9 ,-12.4, 5.4
+"Shawano County(6,10)",55115,***,436.9 ,402.3, 473.9,130,stable,-3.4 ,-13.1, 7.5
+"Sheboygan County(6,10)",55117,***,436.8 ,415, 459.5,325,stable,-0.5 ,-7.3, 6.8
+"Ashland County(6,10)",55003,***,436.2 ,379.1, 500.1,47,stable,0.5 ,-15.4, 19.4
+"Clark County(6,10)",55019,***,433.6 ,392.3, 478.1,89,stable,-0.6 ,-17.8, 20.1
+"Manitowoc County(6,10)",55071,***,432.3 ,406.9, 459,243,stable,2.5 ,-3.7, 9.1
+"Brown County(6,10)",55009,***,430.5 ,415.2, 446.2,630,stable,0.9 ,-7.2, 9.6
+"Calumet County(6,10)",55015,***,426.8 ,392.7, 463.2,121,stable,-2.6 ,-12.3, 8.2
+"Crawford County(6,10)",55023,***,426.8 ,371.3, 489,50,stable,1.2 ,-10.8, 14.9
+"Burnett County(6,10)",55013,***,426.6 ,372.4, 487.8,55,stable,1.2 ,-16.8, 23.0
+"Marathon County(6,10)",55073,***,426.4 ,406.3, 447.3,364,stable,-4.0 ,-10.5, 3.0
+"Juneau County(6,10)",55057,***,425.9 ,382, 473.8,77,stable,3.7 ,-11.4, 21.3
+"Door County(6,10)",55029,***,425.7 ,385.6, 469.7,105,stable,-0.9 ,-4.7, 3.2
+"Rusk County(6,10)",55107,***,423.4 ,366.3, 488,47,falling,-4.4 ,-7.8, -0.9
+"Trempealeau County(6,10)",55121,***,422.3 ,380, 468.2,78,stable,6.8 ,-0.8, 14.9
+"Outagamie County(6,10)",55087,***,421.7 ,403.9, 440,445,stable,-1.4 ,-4.0, 1.3
+"Jefferson County(6,10)",55055,***,421.2 ,395.7, 447.9,217,stable,2.9 ,-6.7, 13.5
+"Waupaca County(6,10)",55135,***,418 ,387.1, 450.9,152,stable,-3.7 ,-12.6, 6.1
+"Wood County(6,10)",55141,***,416.1 ,390.5, 443.2,219,stable,-2.7 ,-7.7, 2.6
+"Green County(6,10)",55045,***,413.5 ,376.4, 453.6,99,stable,-0.8 ,-4.1, 2.5
+"Florence County(6,10)",55037,***,412.7 ,306.6, 548.6,13,stable,-8.1 ,-27.3, 16.3
+"Lafayette County(6,10)",55065,***,412.2 ,356.3, 474.7,43,stable,6.0 ,-21.9, 43.9
+"La Crosse County(6,10)",55063,***,412 ,390.1, 434.8,287,stable,-2.7 ,-10.1, 5.4
+"Douglas County(6,10)",55031,***,411.8 ,378, 448,117,stable,5.7 ,-5.3, 17.9
+"Vernon County(6,10)",55123,***,411.4 ,370.8, 455.6,84,stable,-2.9 ,-20.9, 19.2
+"Barron County(6,10)",55005,***,407.6 ,375.6, 441.8,135,stable,1.7 ,-6.9, 11.2
+"Buffalo County(6,10)",55011,***,399.7 ,341.3, 466,37,stable,3.0 ,-10.2, 18.1
+"Taylor County(6,10)",55119,***,396.8 ,347.4, 451.6,52,stable,4.9 ,-11.7, 24.7
+"Dodge County(6,10)",55027,***,396.6 ,372.4, 422,218,stable,-4.2 ,-12.1, 4.5
+"Dunn County(6,10)",55033,***,393.4 ,357.7, 431.8,97,stable,-4.7 ,-13.3, 4.8
+"Richland County(6,10)",55103,***,392.2 ,342.1, 448.3,52,stable,-2.3 ,-10.4, 6.6
+"Menominee County(6,10)",55078,***,390.3 ,288.7, 518.1,10,stable,2.7 ,-33.6, 59.1
+"Kewaunee County(6,10)",55061,***,385.5 ,337.6, 438.8,53,stable,7.4 ,-9.1, 26.8
+"Polk County(6,10)",55095,***,381.1 ,349.4, 415.1,116,stable,-3.3 ,-19.4, 16.1
+"Green Lake County(6,10)",55047,***,379.6 ,331.2, 433.7,52,stable,0.5 ,-10.4, 12.8
+"St. Croix County(6,10)",55109,***,375.5 ,350.4, 401.8,176,stable,-8.5 ,-21.2, 6.3
+"Portage County(6,10)",55097,***,375.2 ,348.1, 403.9,153,stable,-2.5 ,-6.1, 1.3
+"Waushara County(6,10)",55137,***,374.2 ,332.2, 420.8,69,stable,1.6 ,-8.6, 12.9
+"Bayfield County(6,10)",55007,***,370.8 ,319, 430,45,stable,-1.7 ,-15.3, 13.9
+"Jackson County(6,10)",55053,***,369.5 ,322.2, 422.2,48,stable,-5.8 ,-23.7, 16.2
+"Pepin County(6,10)",55091,***,353.9 ,283.5, 438.7,20,falling,-19.6 ,-31.9, -5.1
+"Pierce County(6,10)",55093,***,301 ,268.9, 336,68,stable,-5.3 ,-16.0, 6.6
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:22 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

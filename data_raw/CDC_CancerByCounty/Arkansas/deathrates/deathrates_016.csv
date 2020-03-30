@@ -1,0 +1,117 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=05&areatype=county&cancer=061&race=00&sex=2&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '05', 'areatype': 'county', 'cancer': '061', 'race': '00', 'sex': '2', 'age': '001', 'type': 'death', 'file_name': 'deathrates_016.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=05&areatype=county&cancer=061&race=00&sex=2&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for Arkansas by County
+
+"Ovary, 2012-2016"
+
+"All Races (includes Hispanic), Female, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Arkansas",05000,***,7.2 ,6.6, 7.7,139,falling,-1.1 ,-1.5, -0.7
+"United States",00000,***,7 ,7, 7.1,14204,falling,-2.3 ,-2.4, -2.1
+"Miller County",05091,***,12.5 ,7.1, 20.4,3,*,*,*,*
+"Garland County",05051,***,9.3 ,6.5, 13.2,8,stable,0.1 ,-1.8, 2.1
+"Crawford County",05033,***,8.9 ,5.2, 14.5,4,*,*,*,*
+"White County",05145,***,8.1 ,4.9, 12.9,4,stable,-1.4 ,-3.7, 0.9
+"Craighead County",05031,***,7.9 ,5, 11.9,5,*,*,*,*
+"Jefferson County",05069,***,7.8 ,4.8, 12.3,4,stable,0.5 ,-1.9, 2.9
+"Benton County",05007,***,7.5 ,5.6, 9.9,10,stable,-0.6 ,-2.4, 1.2
+"Pulaski County",05119,***,7.4 ,5.9, 9.1,18,stable,-1.4 ,-2.7, 0.0
+"Sebastian County",05131,***,7.3 ,4.8, 10.6,6,stable,0.1 ,-1.9, 2.2
+"Faulkner County",05045,***,6.3 ,3.8, 9.9,4,*,*,*,*
+"Washington County",05143,***,5.9 ,4, 8.4,6,falling,-1.9 ,-3.8, -0.1
+"Saline County",05125,***,5.3 ,3.3, 8.3,4,falling,-2.8 ,-5.0, -0.4
+"Arkansas County",05001,***,* ,*, *,3 or fewer,*,*,*,*
+"Ashley County",05003,***,* ,*, *,3 or fewer,*,*,*,*
+"Baxter County",05005,***,* ,*, *,3 or fewer,*,*,*,*
+"Boone County",05009,***,* ,*, *,3 or fewer,*,*,*,*
+"Bradley County",05011,***,* ,*, *,3 or fewer,*,*,*,*
+"Calhoun County",05013,***,* ,*, *,3 or fewer,*,*,*,*
+"Carroll County",05015,***,* ,*, *,3 or fewer,*,*,*,*
+"Chicot County",05017,***,* ,*, *,3 or fewer,*,*,*,*
+"Clark County",05019,***,* ,*, *,3 or fewer,*,*,*,*
+"Clay County",05021,***,* ,*, *,3 or fewer,*,*,*,*
+"Cleburne County",05023,***,* ,*, *,3 or fewer,*,*,*,*
+"Cleveland County",05025,***,* ,*, *,3 or fewer,*,*,*,*
+"Columbia County",05027,***,* ,*, *,3 or fewer,*,*,*,*
+"Conway County",05029,***,* ,*, *,3 or fewer,*,*,*,*
+"Crittenden County",05035,***,* ,*, *,3 or fewer,*,*,*,*
+"Cross County",05037,***,* ,*, *,3 or fewer,*,*,*,*
+"Dallas County",05039,***,* ,*, *,3 or fewer,*,*,*,*
+"Desha County",05041,***,* ,*, *,3 or fewer,*,*,*,*
+"Drew County",05043,***,* ,*, *,3 or fewer,*,*,*,*
+"Franklin County",05047,***,* ,*, *,3 or fewer,*,*,*,*
+"Fulton County",05049,***,* ,*, *,3 or fewer,*,*,*,*
+"Grant County",05053,***,* ,*, *,3 or fewer,*,*,*,*
+"Greene County",05055,***,* ,*, *,3 or fewer,*,*,*,*
+"Hempstead County",05057,***,* ,*, *,3 or fewer,*,*,*,*
+"Hot Spring County",05059,***,* ,*, *,3 or fewer,*,*,*,*
+"Howard County",05061,***,* ,*, *,3 or fewer,*,*,*,*
+"Independence County",05063,***,* ,*, *,3 or fewer,*,*,*,*
+"Izard County",05065,***,* ,*, *,3 or fewer,*,*,*,*
+"Jackson County",05067,***,* ,*, *,3 or fewer,*,*,*,*
+"Johnson County",05071,***,* ,*, *,3 or fewer,*,*,*,*
+"Lafayette County",05073,***,* ,*, *,3 or fewer,*,*,*,*
+"Lawrence County",05075,***,* ,*, *,3 or fewer,*,*,*,*
+"Lee County",05077,***,* ,*, *,3 or fewer,*,*,*,*
+"Lincoln County",05079,***,* ,*, *,3 or fewer,*,*,*,*
+"Little River County",05081,***,* ,*, *,3 or fewer,*,*,*,*
+"Logan County",05083,***,* ,*, *,3 or fewer,*,*,*,*
+"Lonoke County",05085,***,* ,*, *,3 or fewer,*,*,*,*
+"Madison County",05087,***,* ,*, *,3 or fewer,*,*,*,*
+"Marion County",05089,***,* ,*, *,3 or fewer,*,*,*,*
+"Mississippi County",05093,***,* ,*, *,3 or fewer,*,*,*,*
+"Monroe County",05095,***,* ,*, *,3 or fewer,*,*,*,*
+"Montgomery County",05097,***,* ,*, *,3 or fewer,*,*,*,*
+"Nevada County",05099,***,* ,*, *,3 or fewer,*,*,*,*
+"Newton County",05101,***,* ,*, *,3 or fewer,*,*,*,*
+"Ouachita County",05103,***,* ,*, *,3 or fewer,*,*,*,*
+"Perry County",05105,***,* ,*, *,3 or fewer,*,*,*,*
+"Phillips County",05107,***,* ,*, *,3 or fewer,*,*,*,*
+"Pike County",05109,***,* ,*, *,3 or fewer,*,*,*,*
+"Poinsett County",05111,***,* ,*, *,3 or fewer,*,*,*,*
+"Polk County",05113,***,* ,*, *,3 or fewer,*,*,*,*
+"Pope County",05115,***,* ,*, *,3 or fewer,*,*,*,*
+"Prairie County",05117,***,* ,*, *,3 or fewer,*,*,*,*
+"Randolph County",05121,***,* ,*, *,3 or fewer,*,*,*,*
+"Scott County",05127,***,* ,*, *,3 or fewer,*,*,*,*
+"Searcy County",05129,***,* ,*, *,3 or fewer,*,*,*,*
+"Sevier County",05133,***,* ,*, *,3 or fewer,*,*,*,*
+"Sharp County",05135,***,* ,*, *,3 or fewer,*,*,*,*
+"St. Francis County",05123,***,* ,*, *,3 or fewer,*,*,*,*
+"Stone County",05137,***,* ,*, *,3 or fewer,*,*,*,*
+"Union County",05139,***,* ,*, *,3 or fewer,*,*,*,*
+"Van Buren County",05141,***,* ,*, *,3 or fewer,*,*,*,*
+"Woodruff County",05147,***,* ,*, *,3 or fewer,*,*,*,*
+"Yell County",05149,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:17 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

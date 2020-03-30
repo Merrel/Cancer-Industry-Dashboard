@@ -1,0 +1,64 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=16&areatype=county&topic=mob&demo=00021&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '16', 'areatype': 'county', 'topic': 'mob', 'demo': '00021', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_012.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=16&areatype=county&topic=mob&demo=00021&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Idaho by County
+Mobility: Moved from outside US (in past year)
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Moved From Outside US),Rank within US
+"Idaho",16000,0.5,8132,"21 of 51"
+"United States",00000,0.7,2074097,"N/A"
+"Adams County",16003,0.0,0,"1 of 3140"
+"Clark County",16033,0.0,0,"1 of 3140"
+"Lewis County",16061,0.0,0,"1 of 3140"
+"Valley County",16085,0.0,4,"524 of 3140"
+"Oneida County",16071,0.0,2,"569 of 3140"
+"Bonner County",16017,0.1,30,"732 of 3140"
+"Butte County",16023,0.1,2,"771 of 3140"
+"Gem County",16045,0.1,14,"821 of 3140"
+"Bear Lake County",16007,0.1,5,"829 of 3140"
+"Washington County",16087,0.1,9,"872 of 3140"
+"Nez Perce County",16069,0.1,58,"1242 of 3140"
+"Gooding County",16047,0.2,24,"1321 of 3140"
+"Idaho County",16049,0.2,26,"1339 of 3140"
+"Kootenai County",16055,0.2,267,"1461 of 3140"
+"Lemhi County",16059,0.2,14,"1474 of 3140"
+"Benewah County",16009,0.2,17,"1517 of 3140"
+"Custer County",16037,0.2,8,"1545 of 3140"
+"Jefferson County",16051,0.2,61,"1700 of 3140"
+"Power County",16077,0.2,18,"1761 of 3140"
+"Twin Falls County",16083,0.2,198,"1794 of 3140"
+"Payette County",16075,0.3,58,"1844 of 3140"
+"Clearwater County",16035,0.3,23,"1906 of 3140"
+"Owyhee County",16073,0.3,32,"1970 of 3140"
+"Shoshone County",16079,0.3,36,"1993 of 3140"
+"Cassia County",16031,0.3,70,"2027 of 3140"
+"Boise County",16015,0.3,22,"2074 of 3140"
+"Blaine County",16013,0.3,69,"2099 of 3140"
+"Boundary County",16021,0.4,47,"2355 of 3140"
+"Canyon County",16027,0.4,888,"2384 of 3140"
+"Ada County",16001,0.5,2160,"2507 of 3140"
+"Bingham County",16011,0.5,231,"2535 of 3140"
+"Caribou County",16029,0.5,35,"2539 of 3140"
+"Camas County",16025,0.6,5,"2625 of 3140"
+"Bannock County",16005,0.6,479,"2632 of 3140"
+"Bonneville County",16019,0.6,659,"2672 of 3140"
+"Lincoln County",16063,0.7,37,"2789 of 3140"
+"Fremont County",16043,0.7,94,"2815 of 3140"
+"Minidoka County",16067,0.8,158,"2848 of 3140"
+"Franklin County",16041,1.0,134,"2967 of 3140"
+"Jerome County",16053,1.1,237,"2977 of 3140"
+"Latah County",16057,1.2,480,"3017 of 3140"
+"Teton County",16081,1.3,135,"3026 of 3140"
+"Madison County",16065,1.8,666,"3085 of 3140"
+"Elmore County",16039,2.4,620,"3114 of 3140"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:15 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Mobility: Moved from outside US (in past year), see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#mobility."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

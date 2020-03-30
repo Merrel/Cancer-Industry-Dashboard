@@ -1,0 +1,58 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=53&areatype=county&topic=ins&demo=00043&race=00&sex=0&age=006&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '53', 'areatype': 'county', 'topic': 'ins', 'demo': '00043', 'race': '00', 'sex': '0', 'age': '006', 'type': 'manyareacensus', 'file_name': 'demographics_006.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=53&areatype=county&topic=ins&demo=00043&race=00&sex=0&age=006&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Washington by County
+"Insurance: Percent uninsured in demographic group, people at or below 138% of poverty"
+"Ages <65, All Races (includes Hispanic), Both Sexes"
+2017 Small Area Health Insurance Estimates Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Uninsured),Rank within US
+"Washington",53000,12.2,126145,"17 of 51"
+"Garfield County",53023,7.5,26,"46 of 3139"
+"Asotin County",53003,8.3,321,"126 of 3139"
+"Spokane County",53063,8.5,7512,"144 of 3139"
+"Cowlitz County",53015,8.8,1783,"186 of 3139"
+"Kitsap County",53035,9.0,2727,"236 of 3139"
+"Lincoln County",53043,9.7,166,"392 of 3139"
+"Stevens County",53065,9.8,817,"418 of 3139"
+"Columbia County",53013,10.0,64,"475 of 3139"
+"Whitman County",53075,10.0,1181,"475 of 3139"
+"Island County",53029,10.1,962,"497 of 3139"
+"Thurston County",53067,10.3,3846,"539 of 3139"
+"Grays Harbor County",53027,10.7,1550,"614 of 3139"
+"Pend Oreille County",53051,10.8,282,"631 of 3139"
+"Pierce County",53053,10.8,13082,"631 of 3139"
+"Whatcom County",53073,11.3,4122,"736 of 3139"
+"Clallam County",53009,11.5,1376,"770 of 3139"
+"Lewis County",53041,11.5,1779,"770 of 3139"
+"Clark County",53011,11.7,7164,"806 of 3139"
+"Snohomish County",53061,11.9,9775,"840 of 3139"
+"Skamania County",53059,12.0,210,"859 of 3139"
+"Ferry County",53019,12.2,199,"898 of 3139"
+"Benton County",53005,12.3,3876,"907 of 3139"
+"Chelan County",53007,12.3,1486,"907 of 3139"
+"Kittitas County",53037,12.3,1059,"907 of 3139"
+"Pacific County",53049,12.3,519,"907 of 3139"
+"Walla Walla County",53071,12.3,1233,"907 of 3139"
+"Skagit County",53057,12.5,2420,"933 of 3139"
+"Mason County",53045,12.7,1404,"966 of 3139"
+"Jefferson County",53031,12.8,462,"983 of 3139"
+"Wahkiakum County",53069,12.8,84,"983 of 3139"
+"San Juan County",53055,14.0,256,"1139 of 3139"
+"Klickitat County",53039,14.3,541,"1171 of 3139"
+"King County",53033,14.4,34318,"1183 of 3139"
+"Yakima County",53077,14.6,9526,"1209 of 3139"
+"Franklin County",53021,15.2,2882,"1273 of 3139"
+"Adams County",53001,15.6,828,"1324 of 3139"
+"Douglas County",53017,15.9,1233,"1363 of 3139"
+"Grant County",53025,16.1,3359,"1385 of 3139"
+"Okanogan County",53047,17.7,1715,"1606 of 3139"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:20 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & Small Area Health Insurance Estimates (https://www.census.gov/programs-surveys/sahie.html).
+"For more information about Insurance: Percent uninsured in demographic group, people at or below 138% of poverty, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#insurance."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

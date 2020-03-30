@@ -1,0 +1,59 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=53&areatype=county&topic=mob&demo=00017&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '53', 'areatype': 'county', 'topic': 'mob', 'demo': '00017', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_008.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=53&areatype=county&topic=mob&demo=00017&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Washington by County
+Mobility: Haven't moved (in past year)
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Haven't Moved),Rank within US
+"Washington",53000,82.4,5838321,"44 of 51"
+"United States",00000,85.4,270854872,"N/A"
+"Whitman County",53075,60.5,28661,"3138 of 3140"
+"Kittitas County",53037,71.7,31017,"3117 of 3140"
+"Walla Walla County",53071,79.9,47362,"2943 of 3140"
+"Thurston County",53067,80.5,214973,"2895 of 3140"
+"King County",53033,81.0,1696257,"2852 of 3140"
+"Whatcom County",53073,81.3,170927,"2828 of 3140"
+"Cowlitz County",53015,81.3,83264,"2827 of 3140"
+"Kitsap County",53035,81.3,208099,"2824 of 3140"
+"Spokane County",53063,81.6,396104,"2798 of 3140"
+"Island County",53029,81.8,64932,"2788 of 3140"
+"Jefferson County",53031,81.8,24801,"2780 of 3140"
+"Mason County",53045,82.2,50067,"2727 of 3140"
+"Pierce County",53053,82.8,691003,"2646 of 3140"
+"Garfield County",53023,83.2,1823,"2593 of 3140"
+"Lewis County",53041,83.4,62766,"2564 of 3140"
+"Franklin County",53021,83.5,73144,"2537 of 3140"
+"Grant County",53025,83.6,76879,"2529 of 3140"
+"Asotin County",53003,83.6,18475,"2517 of 3140"
+"Clark County",53011,83.7,378577,"2486 of 3140"
+"Skagit County",53057,83.8,101038,"2484 of 3140"
+"Benton County",53005,84.1,157899,"2432 of 3140"
+"Snohomish County",53061,84.1,641189,"2430 of 3140"
+"San Juan County",53055,84.6,13656,"2325 of 3140"
+"Ferry County",53019,84.7,6342,"2290 of 3140"
+"Columbia County",53013,84.9,3354,"2248 of 3140"
+"Grays Harbor County",53027,85.0,60111,"2209 of 3140"
+"Clallam County",53009,85.6,62248,"2066 of 3140"
+"Douglas County",53017,85.8,34374,"2011 of 3140"
+"Yakima County",53077,85.9,210377,"1960 of 3140"
+"Okanogan County",53047,86.2,35288,"1898 of 3140"
+"Wahkiakum County",53069,86.6,3546,"1770 of 3140"
+"Pend Oreille County",53051,86.6,11229,"1741 of 3140"
+"Stevens County",53065,87.9,38221,"1313 of 3140"
+"Pacific County",53049,88.5,18355,"1103 of 3140"
+"Chelan County",53007,89.2,66438,"836 of 3140"
+"Adams County",53001,89.5,16977,"765 of 3140"
+"Klickitat County",53039,89.8,18925,"700 of 3140"
+"Lincoln County",53043,89.8,9209,"695 of 3140"
+"Skamania County",53059,91.1,10414,"402 of 3140"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:20 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Mobility: Haven't moved (in past year), see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#mobility."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

@@ -1,0 +1,34 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=25&areatype=county&topic=mob&demo=00021&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '25', 'areatype': 'county', 'topic': 'mob', 'demo': '00021', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_012.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=25&areatype=county&topic=mob&demo=00021&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Massachusetts by County
+Mobility: Moved from outside US (in past year)
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Moved From Outside US),Rank within US
+"United States",00000,0.7,2074097,"N/A"
+"Massachusetts",25000,1.0,68331,"48 of 51"
+"Dukes County",25007,0.0,5,"458 of 3140"
+"Franklin County",25011,0.4,285,"2328 of 3140"
+"Bristol County",25005,0.5,2521,"2426 of 3140"
+"Barnstable County",25001,0.5,1099,"2535 of 3140"
+"Berkshire County",25003,0.5,677,"2572 of 3140"
+"Hampden County",25013,0.5,2496,"2577 of 3140"
+"Nantucket County",25019,0.6,63,"2640 of 3140"
+"Plymouth County",25023,0.6,2943,"2641 of 3140"
+"Essex County",25009,0.7,5574,"2808 of 3140"
+"Worcester County",25027,0.7,5917,"2810 of 3140"
+"Hampshire County",25015,1.0,1547,"2948 of 3140"
+"Norfolk County",25021,1.0,7066,"2966 of 3140"
+"Middlesex County",25017,1.5,22923,"3054 of 3140"
+"Suffolk County",25025,2.0,15215,"3097 of 3140"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:17 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Mobility: Moved from outside US (in past year), see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#mobility."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

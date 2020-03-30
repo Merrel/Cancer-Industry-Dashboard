@@ -1,0 +1,56 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=41&areatype=county&topic=pop&demo=00102&race=00&sex=0&age=999&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '41', 'areatype': 'county', 'topic': 'pop', 'demo': '00102', 'race': '00', 'sex': '0', 'age': '999', 'type': 'manyareacensus', 'file_name': 'demographics_014.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=41&areatype=county&topic=pop&demo=00102&race=00&sex=0&age=999&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Oregon by County
+Population: Age 18-39
+"Age N/A, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Age 18-39),Rank within US
+"Oregon",41000,29.6,1192944,"31 of 52"
+"United States",00000,29.8,95565066,"N/A"
+"Curry County",41015,17.6,3943,"61 of 3141"
+"Wheeler County",41069,17.8,252,"65 of 3141"
+"Grant County",41023,18.5,1335,"97 of 3141"
+"Wallowa County",41063,19.0,1304,"119 of 3141"
+"Gilliam County",41021,19.4,370,"143 of 3141"
+"Lincoln County",41041,20.7,9782,"248 of 3141"
+"Josephine County",41033,21.7,18323,"381 of 3141"
+"Baker County",41001,22.5,3592,"548 of 3141"
+"Tillamook County",41057,22.5,5817,"558 of 3141"
+"Sherman County",41055,22.6,369,"571 of 3141"
+"Douglas County",41019,22.7,24401,"594 of 3141"
+"Crook County",41013,22.8,4943,"619 of 3141"
+"Lake County",41037,22.8,1778,"625 of 3141"
+"Harney County",41025,22.9,1647,"658 of 3141"
+"Coos County",41011,23.2,14592,"747 of 3141"
+"Morrow County",41049,23.6,2633,"856 of 3141"
+"Columbia County",41009,24.1,12099,"1010 of 3141"
+"Klamath County",41035,25.3,16686,"1407 of 3141"
+"Jefferson County",41031,25.4,5759,"1437 of 3141"
+"Jackson County",41029,25.6,54270,"1520 of 3141"
+"Deschutes County",41017,25.9,45331,"1606 of 3141"
+"Clatsop County",41007,25.9,9835,"1608 of 3141"
+"Clackamas County",41005,26.2,104709,"1709 of 3141"
+"Wasco County",41065,26.3,6760,"1754 of 3141"
+"Hood River County",41027,26.9,6169,"1937 of 3141"
+"Linn County",41043,27.3,33054,"2055 of 3141"
+"Union County",41061,28.1,7242,"2236 of 3141"
+"Yamhill County",41071,28.9,29605,"2432 of 3141"
+"Umatilla County",41059,29.0,22221,"2441 of 3141"
+"Marion County",41047,29.6,97687,"2537 of 3141"
+"Malheur County",41045,29.8,9077,"2582 of 3141"
+"Polk County",41053,29.9,23823,"2596 of 3141"
+"Washington County",41067,31.4,179575,"2769 of 3141"
+"Lane County",41039,31.7,115274,"2801 of 3141"
+"Multnomah County",41051,35.8,282521,"2992 of 3141"
+"Benton County",41003,41.0,36166,"3086 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:19 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Age 18-39, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

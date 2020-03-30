@@ -1,0 +1,30 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=33&areatype=county&topic=pov&demo=00007&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '33', 'areatype': 'county', 'topic': 'pov', 'demo': '00007', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_028.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=33&areatype=county&topic=pov&demo=00007&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for New Hampshire by County
+Poverty: Families below poverty
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),Families (Below Poverty),Rank within US
+"New Hampshire",33000,5.0,17404,"1 of 52"
+"United States",00000,10.5,8253388,"N/A"
+"Rockingham County",33015,3.0,2475,"51 of 3141"
+"Merrimack County",33013,4.8,1844,"219 of 3141"
+"Carroll County",33003,4.9,696,"232 of 3141"
+"Cheshire County",33005,5.2,997,"274 of 3141"
+"Sullivan County",33019,5.3,618,"293 of 3141"
+"Strafford County",33017,5.4,1697,"312 of 3141"
+"Hillsborough County",33011,5.6,5958,"341 of 3141"
+"Belknap County",33001,6.0,979,"422 of 3141"
+"Grafton County",33009,6.2,1319,"451 of 3141"
+"Coos County",33007,9.4,821,"1246 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:17 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Poverty: Families below poverty, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#poverty."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

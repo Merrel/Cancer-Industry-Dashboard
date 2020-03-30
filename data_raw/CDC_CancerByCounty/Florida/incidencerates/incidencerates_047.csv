@@ -1,0 +1,107 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=12&areatype=county&cancer=090&stage=211&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '12', 'areatype': 'county', 'cancer': '090', 'stage': '211', 'race': '00', 'sex': '0', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_047.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=12&areatype=county&cancer=090&stage=211&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Florida by County
+
+"Leukemia (Late Stage^), 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Percent of Cases with Late Stage
+"Florida(6)",12000,***,17.4 ,17.2, 17.7,4557,99.6
+"US (SEER+NPCR)(1)",00000,***,14 ,14, 14.1,49519,99.0
+"Union County(6)",12125,***,34.9 ,23.6, 50,7,100.0
+"Baker County(6)",12003,***,28.3 ,20.1, 38.7,8,100.0
+"Hernando County(6)",12053,***,25.5 ,22.7, 28.5,76,99.7
+"Bradford County(6)",12007,***,24.4 ,17.3, 33.6,8,100.0
+"Citrus County(6)",12017,***,22.6 ,19.7, 25.8,67,99.4
+"Nassau County(6)",12089,***,22.1 ,18.1, 26.8,24,100.0
+"Bay County(6)",12005,***,21.7 ,18.9, 24.8,46,100.0
+"Gulf County(6)",12045,***,21.1 ,12.4, 33.8,4,100.0
+"Charlotte County(6)",12015,***,20.3 ,17.6, 23.3,67,100.0
+"Clay County(6)",12019,***,20 ,17.4, 23,43,99.1
+"Santa Rosa County(6)",12113,***,19.7 ,16.9, 23,35,99.4
+"Pasco County(6)",12101,***,19.6 ,18.1, 21.3,137,99.6
+"Lake County(6)",12069,***,19.6 ,17.8, 21.5,102,99.6
+"Marion County(6)",12083,***,19.5 ,17.8, 21.4,113,99.8
+"Sarasota County(6)",12115,***,19.3 ,17.6, 21.1,145,99.9
+"Columbia County(6)",12023,***,19.1 ,15.2, 23.8,17,98.8
+"Indian River County(6)",12061,***,19 ,16.4, 21.9,51,98.8
+"Sumter County(6)",12119,***,18.9 ,15.4, 23.2,53,98.9
+"Duval County(6)",12031,***,18.8 ,17.5, 20.1,174,99.8
+"DeSoto County(6)",12027,***,18.6 ,13.1, 25.7,8,100.0
+"Brevard County(6)",12009,***,18.4 ,17, 19.9,151,99.3
+"Collier County(6)",12021,***,18.4 ,16.7, 20.2,110,99.8
+"Manatee County(6)",12081,***,18.3 ,16.7, 20.1,106,99.4
+"St. Johns County(6)",12109,***,18.2 ,15.9, 20.7,50,100.0
+"Okaloosa County(6)",12091,***,18.2 ,15.7, 21,39,99.5
+"Hillsborough County(6)",12057,***,18 ,17, 19.1,249,99.8
+"Dixie County(6)",12029,***,18 ,10.6, 29,4,100.0
+"Polk County(6)",12105,***,17.9 ,16.6, 19.3,146,99.3
+"Wakulla County(6)",12129,***,17.8 ,11.8, 25.8,6,100.0
+"Palm Beach County(6)",12099,***,17.7 ,16.8, 18.5,378,99.6
+"Broward County(6)",12011,***,17.6 ,16.8, 18.4,381,99.7
+"Gadsden County(6)",12039,***,17.3 ,12.6, 23.1,10,100.0
+"Flagler County(6)",12035,***,17.3 ,14.3, 20.7,30,100.0
+"Gilchrist County(6)",12041,***,17.2 ,9.7, 28.3,3,100.0
+"Okeechobee County(6)",12093,***,17.2 ,12.3, 23.3,9,100.0
+"Lee County(6)",12071,***,17 ,15.8, 18.3,185,99.8
+"Alachua County(6)",12001,***,16.9 ,14.6, 19.4,42,99.5
+"Highlands County(6)",12055,***,16.9 ,13.6, 20.8,28,98.6
+"Escambia County(6)",12033,***,16.7 ,14.8, 18.8,60,99.7
+"Suwannee County(6)",12121,***,16.7 ,12, 22.7,9,100.0
+"Seminole County(6)",12117,***,16.3 ,14.7, 18,80,99.8
+"Pinellas County(6)",12103,***,16.1 ,15.1, 17.1,233,99.7
+"Levy County(6)",12075,***,16.1 ,11.3, 22.3,9,100.0
+"St. Lucie County(6)",12111,***,15.8 ,14.1, 17.7,69,99.7
+"Leon County(6)",12073,***,15.8 ,13.6, 18.2,41,100.0
+"Martin County(6)",12085,***,15.8 ,13.4, 18.5,41,99.5
+"Putnam County(6)",12107,***,15.7 ,12.2, 20,16,98.7
+"Miami-Dade County(6)",12086,***,15.6 ,14.9, 16.2,472,99.7
+"Monroe County(6)",12087,***,15.4 ,12.2, 19.3,17,98.9
+"Volusia County(6)",12127,***,15.4 ,14.1, 16.7,119,99.7
+"Orange County(6)",12095,***,15.3 ,14.3, 16.4,178,99.8
+"Osceola County(6)",12097,***,15.2 ,13.3, 17.3,48,99.6
+"Hardee County(6)",12049,***,14.1 ,8.7, 21.7,4,95.5
+"Walton County(6)",12131,***,13.4 ,9.9, 17.7,11,98.2
+"Taylor County(6)",12123,***,13 ,7.6, 21.1,4,100.0
+"Hendry County(6)",12051,***,12.3 ,7.8, 18.5,5,100.0
+"Jackson County(6)",12063,***,11.2 ,7.7, 15.8,7,100.0
+"Calhoun County(6)",12013,***,* ,*, *,3 or fewer,*
+"Franklin County(6)",12037,***,* ,*, *,3 or fewer,*
+"Glades County(6)",12043,***,* ,*, *,3 or fewer,*
+"Hamilton County(6)",12047,***,* ,*, *,3 or fewer,*
+"Holmes County(6)",12059,***,* ,*, *,3 or fewer,*
+"Jefferson County(6)",12065,***,* ,*, *,3 or fewer,*
+"Lafayette County(6)",12067,***,* ,*, *,3 or fewer,*
+"Liberty County(6)",12077,***,* ,*, *,3 or fewer,*
+"Madison County(6)",12079,***,* ,*, *,3 or fewer,*
+"Washington County(6)",12133,***,* ,*, *,3 or fewer,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:15 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+
+Rates are computed using cancers classified as malignant based on ICD-O-3. For more information see malignant.html.
+
+"^ Late Stage is defined as cases determined to be regional or distant. Coding is generally based on Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ] but may include other staging variables if necessary."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

@@ -1,0 +1,134 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=18&areatype=county&cancer=086&race=00&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '18', 'areatype': 'county', 'cancer': '086', 'race': '00', 'sex': '0', 'age': '001', 'type': 'death', 'file_name': 'deathrates_014.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=18&areatype=county&cancer=086&race=00&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for Indiana by County
+
+"Non-Hodgkin Lymphoma, 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Indiana",18000,***,6.4 ,6.1, 6.6,472,falling,-2.4 ,-2.9, -1.9
+"United States",00000,***,5.6 ,5.6, 5.7,20262,falling,-2.2 ,-2.4, -2.0
+"Huntington County",18069,***,12.1 ,7.9, 17.8,5,stable,0.1 ,-2.1, 2.2
+"Clay County",18021,***,10.3 ,6.1, 16.6,4,*,*,*,*
+"Wabash County",18169,***,10 ,6.4, 15.2,5,stable,0.3 ,-1.7, 2.3
+"Adams County",18001,***,9.4 ,5.6, 14.7,4,*,*,*,*
+"DeKalb County",18033,***,8.7 ,5.2, 13.5,4,stable,1.0 ,-1.8, 3.8
+"Floyd County",18043,***,8.6 ,6, 11.9,7,falling,-2.0 ,-3.8, -0.2
+"St. Joseph County",18141,***,8 ,6.7, 9.6,25,falling,-1.5 ,-2.6, -0.3
+"Jasper County",18073,***,7.8 ,4.4, 12.9,3,stable,-1.8 ,-4.5, 0.9
+"Hendricks County",18063,***,7.8 ,5.8, 10.1,11,stable,-1.2 ,-3.1, 0.6
+"Bartholomew County",18005,***,7.7 ,5.4, 10.7,7,stable,-1.7 ,-3.9, 0.5
+"Monroe County",18105,***,7.6 ,5.6, 10.1,10,stable,-1.3 ,-2.7, 0.1
+"Wayne County",18177,***,7.3 ,5.1, 10.4,7,stable,-0.7 ,-2.6, 1.2
+"Whitley County",18183,***,7.2 ,4.1, 11.9,3,*,*,*,*
+"Jackson County",18071,***,7.1 ,4.3, 11.3,4,stable,-2.3 ,-4.8, 0.3
+"Grant County",18053,***,7.1 ,4.8, 10.1,6,stable,-0.8 ,-2.8, 1.3
+"Knox County",18083,***,7 ,4.1, 11.4,4,*,*,*,*
+"LaPorte County",18091,***,6.7 ,4.9, 9,9,falling,-1.6 ,-3.1, -0.1
+"Dubois County",18037,***,6.7 ,3.9, 10.8,4,falling,-2.1 ,-4.0, -0.1
+"Shelby County",18145,***,6.7 ,3.9, 10.8,3,*,*,*,*
+"Vigo County",18167,***,6.6 ,4.7, 9.1,8,falling,-2.4 ,-4.2, -0.6
+"Delaware County",18035,***,6.6 ,4.8, 8.9,9,stable,-0.8 ,-2.1, 0.6
+"Madison County",18095,***,6.6 ,4.9, 8.7,10,falling,-2.2 ,-3.4, -1.0
+"Henry County",18065,***,6.6 ,4.1, 10.1,4,stable,-1.1 ,-3.5, 1.2
+"Elkhart County",18039,***,6.5 ,5.1, 8.3,14,falling,-2.2 ,-3.4, -0.9
+"Noble County",18113,***,6.5 ,3.8, 10.4,4,stable,-0.6 ,-3.2, 2.1
+"Montgomery County",18107,***,6.4 ,3.7, 10.7,3,stable,-0.8 ,-3.2, 1.6
+"Marshall County",18099,***,6.4 ,3.7, 10.4,3,*,*,*,*
+"Allen County",18003,***,6.4 ,5.2, 7.6,24,stable,-0.2 ,-1.2, 0.7
+"Johnson County",18081,***,6.3 ,4.7, 8.4,10,stable,0.5 ,-1.7, 2.6
+"Lake County",18089,***,6.3 ,5.4, 7.3,36,falling,-1.3 ,-2.2, -0.4
+"Lawrence County",18093,***,6.2 ,3.8, 9.8,4,stable,-1.3 ,-3.5, 0.9
+"Hancock County",18059,***,6.1 ,3.9, 9.2,5,falling,-2.4 ,-4.5, -0.2
+"Marion County",18097,***,6.1 ,5.4, 6.9,54,falling,-2.0 ,-2.8, -1.2
+"Kosciusko County",18085,***,6 ,3.9, 8.7,6,stable,-0.7 ,-2.7, 1.3
+"Warrick County",18173,***,6 ,3.6, 9.3,4,falling,-2.2 ,-4.1, -0.2
+"Tippecanoe County",18157,***,5.9 ,4.3, 7.9,9,falling,-2.1 ,-4.0, -0.2
+"Morgan County",18109,***,5.8 ,3.6, 8.8,4,stable,-0.5 ,-2.6, 1.6
+"Clark County",18019,***,5.7 ,4, 7.9,7,falling,-2.7 ,-4.4, -1.0
+"Porter County",18127,***,5.4 ,4, 7.2,9,falling,-2.3 ,-3.7, -0.9
+"Vanderburgh County",18163,***,5.1 ,3.8, 6.7,11,falling,-2.6 ,-4.4, -0.8
+"Hamilton County",18057,***,5.1 ,3.9, 6.5,13,falling,-2.6 ,-3.9, -1.3
+"Howard County",18067,***,4 ,2.6, 6.2,5,falling,-3.2 ,-5.8, -0.5
+"Benton County",18007,***,* ,*, *,3 or fewer,*,*,*,*
+"Blackford County",18009,***,* ,*, *,3 or fewer,*,*,*,*
+"Boone County",18011,***,* ,*, *,3 or fewer,*,*,*,*
+"Brown County",18013,***,* ,*, *,3 or fewer,*,*,*,*
+"Carroll County",18015,***,* ,*, *,3 or fewer,*,*,*,*
+"Cass County",18017,***,* ,*, *,3 or fewer,*,*,*,*
+"Clinton County",18023,***,* ,*, *,3 or fewer,*,*,*,*
+"Crawford County",18025,***,* ,*, *,3 or fewer,*,*,*,*
+"Daviess County",18027,***,* ,*, *,3 or fewer,*,*,*,*
+"Dearborn County",18029,***,* ,*, *,3 or fewer,*,*,*,*
+"Decatur County",18031,***,* ,*, *,3 or fewer,*,*,*,*
+"Fayette County",18041,***,* ,*, *,3 or fewer,*,*,*,*
+"Fountain County",18045,***,* ,*, *,3 or fewer,*,*,*,*
+"Franklin County",18047,***,* ,*, *,3 or fewer,*,*,*,*
+"Fulton County",18049,***,* ,*, *,3 or fewer,*,*,*,*
+"Gibson County",18051,***,* ,*, *,3 or fewer,*,*,*,*
+"Greene County",18055,***,* ,*, *,3 or fewer,*,*,*,*
+"Harrison County",18061,***,* ,*, *,3 or fewer,*,*,*,*
+"Jay County",18075,***,* ,*, *,3 or fewer,*,*,*,*
+"Jefferson County",18077,***,* ,*, *,3 or fewer,*,*,*,*
+"Jennings County",18079,***,* ,*, *,3 or fewer,*,*,*,*
+"LaGrange County",18087,***,* ,*, *,3 or fewer,*,*,*,*
+"Martin County",18101,***,* ,*, *,3 or fewer,*,*,*,*
+"Miami County",18103,***,* ,*, *,3 or fewer,*,*,*,*
+"Newton County",18111,***,* ,*, *,3 or fewer,*,*,*,*
+"Ohio County",18115,***,* ,*, *,3 or fewer,*,*,*,*
+"Orange County",18117,***,* ,*, *,3 or fewer,*,*,*,*
+"Owen County",18119,***,* ,*, *,3 or fewer,*,*,*,*
+"Parke County",18121,***,* ,*, *,3 or fewer,*,*,*,*
+"Perry County",18123,***,* ,*, *,3 or fewer,*,*,*,*
+"Pike County",18125,***,* ,*, *,3 or fewer,*,*,*,*
+"Posey County",18129,***,* ,*, *,3 or fewer,*,*,*,*
+"Pulaski County",18131,***,* ,*, *,3 or fewer,*,*,*,*
+"Putnam County",18133,***,* ,*, *,3 or fewer,*,*,*,*
+"Randolph County",18135,***,* ,*, *,3 or fewer,*,*,*,*
+"Ripley County",18137,***,* ,*, *,3 or fewer,*,*,*,*
+"Rush County",18139,***,* ,*, *,3 or fewer,*,*,*,*
+"Scott County",18143,***,* ,*, *,3 or fewer,*,*,*,*
+"Spencer County",18147,***,* ,*, *,3 or fewer,*,*,*,*
+"Starke County",18149,***,* ,*, *,3 or fewer,*,*,*,*
+"Steuben County",18151,***,* ,*, *,3 or fewer,*,*,*,*
+"Sullivan County",18153,***,* ,*, *,3 or fewer,*,*,*,*
+"Switzerland County",18155,***,* ,*, *,3 or fewer,*,*,*,*
+"Tipton County",18159,***,* ,*, *,3 or fewer,*,*,*,*
+"Union County",18161,***,* ,*, *,3 or fewer,*,*,*,*
+"Vermillion County",18165,***,* ,*, *,3 or fewer,*,*,*,*
+"Warren County",18171,***,* ,*, *,3 or fewer,*,*,*,*
+"Washington County",18175,***,* ,*, *,3 or fewer,*,*,*,*
+"Wells County",18179,***,* ,*, *,3 or fewer,*,*,*,*
+"White County",18181,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 4:58 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

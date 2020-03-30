@@ -1,0 +1,49 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=49&areatype=county&topic=mob&demo=00020&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '49', 'areatype': 'county', 'topic': 'mob', 'demo': '00020', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_011.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=49&areatype=county&topic=mob&demo=00020&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Utah by County
+"Mobility: Moved, different state (in past year)"
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Moved From Different State),Rank within US
+"United States",00000,2.3,7354769,"N/A"
+"Utah",49000,3.3,96802,"33 of 51"
+"Daggett County",49009,0.4,3,"136 of 3140"
+"Duchesne County",49013,1.4,282,"1161 of 3140"
+"Garfield County",49017,1.6,79,"1358 of 3140"
+"Grand County",49019,2.0,189,"1796 of 3140"
+"Weber County",49057,2.1,5159,"1909 of 3140"
+"Emery County",49015,2.2,223,"1919 of 3140"
+"Tooele County",49045,2.2,1347,"1920 of 3140"
+"Beaver County",49001,2.2,137,"1946 of 3140"
+"Carbon County",49007,2.2,445,"1966 of 3140"
+"Morgan County",49029,2.4,259,"2077 of 3140"
+"San Juan County",49037,2.5,380,"2182 of 3140"
+"Wayne County",49055,2.6,68,"2206 of 3140"
+"Davis County",49011,2.7,9035,"2310 of 3140"
+"Sevier County",49041,2.9,588,"2369 of 3140"
+"Juab County",49023,3.0,313,"2429 of 3140"
+"Salt Lake County",49035,3.0,32517,"2444 of 3140"
+"Box Elder County",49003,3.0,1549,"2464 of 3140"
+"Piute County",49031,3.1,57,"2480 of 3140"
+"Millard County",49027,3.2,395,"2525 of 3140"
+"Uintah County",49047,3.2,1148,"2551 of 3140"
+"Sanpete County",49039,3.2,924,"2562 of 3140"
+"Cache County",49005,3.4,4004,"2626 of 3140"
+"Summit County",49043,3.5,1362,"2647 of 3140"
+"Rich County",49033,3.6,82,"2698 of 3140"
+"Utah County",49049,4.2,23982,"2848 of 3140"
+"Wasatch County",49051,4.7,1369,"2939 of 3140"
+"Washington County",49053,4.9,7587,"2961 of 3140"
+"Iron County",49021,5.8,2747,"3033 of 3140"
+"Kane County",49025,8.0,572,"3113 of 3140"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:21 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Mobility: Moved, different state (in past year), see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#mobility."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

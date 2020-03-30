@@ -1,0 +1,85 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=16&areatype=county&cancer=001&race=00&sex=1&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '16', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '1', 'age': '001', 'type': 'death', 'file_name': 'deathrates_031.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=16&areatype=county&cancer=001&race=00&sex=1&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for Idaho by County
+
+"All Cancer Sites, 2012-2016"
+
+"All Races (includes Hispanic), Male, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 161.4?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Idaho",16000,No,181.4 ,177.2, 185.6,1491,falling,-1.2 ,-1.4, -1.1
+"United States",00000,No,193.1 ,192.8, 193.4,310576,falling,-1.8 ,-1.8, -1.8
+"Benewah County",16009,No,275.9 ,221.3, 341.9,19,stable,1.2 ,-0.2, 2.6
+"Shoshone County",16079,No,262.3 ,216.9, 315.8,25,stable,-0.2 ,-1.1, 0.7
+"Lewis County",16061,No,221.8 ,154.3, 316.7,7,stable,-0.5 ,-2.3, 1.4
+"Elmore County",16039,No,219.2 ,180.6, 263.3,24,stable,-1.1 ,-2.3, 0.2
+"Nez Perce County",16069,No,217.6 ,192.8, 245,57,falling,-0.8 ,-1.4, -0.1
+"Bonner County",16017,No,212 ,188.2, 238.5,64,falling,-1.0 ,-1.7, -0.3
+"Kootenai County",16055,No,205.3 ,191.4, 219.9,172,falling,-1.0 ,-1.5, -0.5
+"Gem County",16045,No,202.9 ,167.7, 244.2,24,falling,-1.0 ,-1.9, -0.1
+"Twin Falls County",16083,No,196.4 ,177.4, 216.9,80,falling,-0.9 ,-1.3, -0.5
+"Clearwater County",16035,No,191.4 ,149.6, 244.2,15,stable,-0.8 ,-2.3, 0.7
+"Power County",16077,No,183.9 ,125.9, 258.9,7,stable,-1.9 ,-3.9, 0.3
+"Latah County",16057,No,182.8 ,153.7, 215.7,30,stable,-0.3 ,-1.5, 1.0
+"Canyon County",16027,No,181.9 ,169.2, 195.3,161,falling,-1.4 ,-1.8, -0.9
+"Bannock County",16005,No,180.6 ,161.3, 201.6,67,falling,-1.1 ,-1.9, -0.3
+"Payette County",16075,No,179.9 ,149, 215.5,25,falling,-1.5 ,-2.4, -0.6
+"Gooding County",16047,No,179.4 ,141.8, 224.1,16,stable,-1.1 ,-2.4, 0.2
+"Ada County",16001,No,176.6 ,167.9, 185.6,331,falling,-1.7 ,-2.0, -1.4
+"Washington County",16087,No,175.1 ,136.3, 223.9,14,falling,-1.8 ,-3.3, -0.4
+"Custer County",16037,No,174.9 ,115.6, 261.2,6,stable,-0.8 ,-3.4, 1.9
+"Idaho County",16049,No,174.6 ,143.7, 211.3,25,stable,-1.0 ,-2.1, 0.1
+"Bingham County",16011,No,174.2 ,149.9, 201.3,38,falling,-1.0 ,-1.7, -0.3
+"Lemhi County",16059,No,173.7 ,132.1, 228.4,13,falling,-2.1 ,-3.4, -0.7
+"Cassia County",16031,No,172.4 ,138.4, 211.9,18,stable,-1.2 ,-2.5, 0.1
+"Fremont County",16043,No,168.7 ,128.6, 217.6,12,stable,-0.8 ,-1.9, 0.3
+"Jerome County",16053,No,166.9 ,132.8, 206.9,18,falling,-1.5 ,-2.7, -0.4
+"Minidoka County",16067,No,166.9 ,134.7, 204.6,19,falling,-1.3 ,-2.3, -0.4
+"Caribou County",16029,No,165.3 ,112.1, 235.9,6,stable,0.3 ,-1.6, 2.2
+"Owyhee County",16073,No,164.9 ,122.3, 217.9,11,stable,-0.6 ,-2.6, 1.5
+"Lincoln County",16063,No,164.9 ,99.3, 256.1,4,*,*,*,*
+"Bonneville County",16019,No,163.4 ,147.2, 180.9,77,falling,-1.4 ,-1.9, -0.8
+"Bear Lake County",16007,Yes,159.4 ,108.3, 229,6,stable,-0.6 ,-2.6, 1.4
+"Boundary County",16021,Yes,152.5 ,114.5, 200.3,12,stable,-1.3 ,-3.2, 0.6
+"Jefferson County",16051,Yes,148.8 ,117.1, 186,16,falling,-4.3 ,-6.6, -1.9
+"Valley County",16085,Yes,142.6 ,105.5, 190.8,12,falling,-2.4 ,-4.1, -0.7
+"Adams County",16003,Yes,141.2 ,86.8, 226.2,5,falling,-3.8 ,-5.6, -1.9
+"Oneida County",16071,Yes,136.7 ,83, 217.1,4,*,*,*,*
+"Boise County",16015,Yes,132 ,89.7, 192.2,8,stable,-2.3 ,-4.6, 0.0
+"Franklin County",16041,Yes,125.2 ,89.1, 171,8,stable,-1.2 ,-2.8, 0.4
+"Madison County",16065,Yes,119.7 ,88.4, 157.5,11,falling,-2.2 ,-3.6, -0.8
+"Blaine County",16013,Yes,113.8 ,86.4, 147.1,13,falling,-2.2 ,-3.9, -0.4
+"Teton County",16081,Yes,91.6 ,52, 147.6,4,*,*,*,*
+"Butte County",16023,***,* ,*, *,3 or fewer,*,*,*,*
+"Camas County",16025,***,* ,*, *,3 or fewer,*,*,*,*
+"Clark County",16033,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:16 pm.
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

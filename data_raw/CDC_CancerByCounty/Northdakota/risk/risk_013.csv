@@ -1,0 +1,26 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/risk/index.php?stateFIPS=00&topic=smoke&risk=v30&race=00&sex=0&type=risk&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '00', 'topic': 'smoke', 'risk': 'v30', 'race': '00', 'sex': '0', 'type': 'risk', 'file_name': 'risk_013.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/risk/index.php?stateFIPS=00&topic=smoke&risk=v30&race=00&sex=0&type=risk&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+
+	Screening and Risk Factors Report by State
+(2014-2015 Tobacco Use Supplement Data)
+
+Percent of Daily Smokers Who Stopped Smoking for 1 Day or Longer in the Past 12 Months
+"All Races (includes Hispanic), Both Sexes, Ages 18+"
+Healthy People 2020 Objective Number: n/a
+
+Sorted by Rate
+
+State, FIPS,Met Objective?(1),"Percent(2)","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Number of Respondents with Screening or Risk Factor
+"United States",00,n/a,37.5 ,36.6, 38.5,6592
+"Puerto Rico",72,data not available,data not available,data not available
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:21 pm.
+Data not available [http://statecancerprofiles.cancer.gov/datanotavailable.html] for this combination of data selections.
+
+(1) n/a - There is not a specific Healthy People 2020 Objective for this data item.
+(2) Source: 2014-2015 Tobacco Use Supplement to the Current Population Survey (TUS-CPS [ https://cancercontrol.cancer.gov/brp/tcrb/tus-cps/info.html ] ).
+
+Data for United States does not include Puerto Rico.

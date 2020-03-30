@@ -1,0 +1,74 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=35&areatype=county&cancer=001&race=00&sex=0&age=157&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '35', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '0', 'age': '157', 'type': 'death', 'file_name': 'deathrates_037.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=35&areatype=county&cancer=001&race=00&sex=0&age=157&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for New Mexico by County
+
+"All Cancer Sites, 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, Ages 65+"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 161.4?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"New Mexico",35000,No,824.2 ,809.6, 838.9,2485,falling,-1.3 ,-1.4, -1.1
+"United States",00000,No,919.1 ,917.8, 920.4,413451,falling,-1.5 ,-1.5, -1.4
+"Luna County",35029,No,1110.1 ,981.3, 1251,54,rising,1.4 ,0.4, 2.4
+"Quay County",35037,No,1041.6 ,845.8, 1269,20,stable,-0.5 ,-1.8, 0.7
+"Sierra County",35051,No,1023.6 ,884.4, 1178.5,39,stable,-0.1 ,-0.8, 0.6
+"Socorro County",35053,No,935.4 ,777.4, 1115.9,25,stable,-0.7 ,-1.6, 0.3
+"Union County",35059,No,929.9 ,657.5, 1277.2,8,stable,-0.3 ,-2.3, 1.7
+"Lea County",35025,No,925.3 ,828.1, 1030.9,67,falling,-1.2 ,-1.7, -0.6
+"Colfax County",35007,No,923.7 ,773, 1095.1,27,stable,-1.0 ,-2.0, 0.1
+"Eddy County",35015,No,915.3 ,822.2, 1016,72,stable,-0.5 ,-1.1, 0.1
+"Otero County",35035,No,912.8 ,831.2, 1000.2,93,falling,-0.6 ,-1.2, -0.1
+"Guadalupe County",35019,No,909.4 ,639.6, 1254.8,7,stable,-0.6 ,-2.5, 1.3
+"Chaves County",35005,No,908.8 ,824.8, 998.9,87,stable,-0.6 ,-1.3, 0.1
+"Grant County",35017,No,882.9 ,783.8, 991.1,59,falling,-1.2 ,-1.9, -0.4
+"Hidalgo County",35023,No,881.5 ,623.7, 1209.9,8,stable,0.9 ,-0.8, 2.6
+"Cibola County",35006,No,877.3 ,746.8, 1023.9,32,stable,-0.6 ,-1.5, 0.3
+"Valencia County",35061,No,836.2 ,759.6, 918.3,90,falling,-1.1 ,-1.8, -0.4
+"San Miguel County",35047,No,830.3 ,718.5, 954.5,41,stable,-0.9 ,-1.8, 0.1
+"Bernalillo County",35001,No,825.1 ,798.7, 852.2,755,falling,-1.4 ,-1.6, -1.1
+"Curry County",35009,No,824 ,722.2, 936,48,falling,-1.0 ,-1.7, -0.3
+"Dona Ana County",35013,No,819.2 ,772.8, 867.7,235,falling,-1.1 ,-1.5, -0.8
+"Rio Arriba County",35039,No,810.9 ,713.1, 918.3,51,stable,0.0 ,-1.0, 0.9
+"De Baca County",35011,No,802.6 ,480.3, 1258.5,4,stable,-0.9 ,-3.1, 1.3
+"Torrance County",35057,No,799 ,650.5, 971.5,21,stable,-0.9 ,-2.0, 0.2
+"San Juan County",35045,No,798.9 ,736.7, 865,123,falling,-1.4 ,-1.9, -0.8
+"Sandoval County",35043,No,794.9 ,737.8, 855.2,150,falling,-1.2 ,-1.6, -0.7
+"Roosevelt County",35041,No,789.1 ,639.4, 963.3,19,stable,-0.9 ,-2.0, 0.2
+"McKinley County",35031,No,778.3 ,689.9, 874.9,57,stable,-0.9 ,-1.7, 0.0
+"Santa Fe County",35049,No,715.9 ,669, 765.2,183,falling,-1.5 ,-1.9, -1.1
+"Taos County",35055,No,690.9 ,602.9, 788,46,falling,-1.9 ,-2.8, -1.0
+"Mora County",35033,No,668 ,465.5, 929.4,7,stable,-1.4 ,-3.5, 0.6
+"Los Alamos County",35028,No,663.7 ,538.5, 809.5,20,falling,-1.6 ,-2.5, -0.6
+"Lincoln County",35027,No,636 ,537.1, 747.8,30,falling,-1.8 ,-2.9, -0.6
+"Catron County",35003,No,564.4 ,382.8, 802.8,7,*,*,*,*
+"Harding County",35021,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:19 pm.
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

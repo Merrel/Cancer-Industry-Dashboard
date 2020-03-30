@@ -1,0 +1,84 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=45&areatype=county&cancer=055&stage=211&race=00&sex=2&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '45', 'areatype': 'county', 'cancer': '055', 'stage': '211', 'race': '00', 'sex': '2', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_042.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=45&areatype=county&cancer=055&stage=211&race=00&sex=2&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for South Carolina by County
+
+"Breast (Late Stage^), 2012-2016"
+
+"All Races (includes Hispanic), Female, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 42.1?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Percent of Cases with Late Stage
+"South Carolina(6)",45000,No,45.9 ,44.7, 47,1366,34.4
+"US (SEER+NPCR)(1)",00000,No,42.3 ,42.1, 42.4,78906,33.0
+"Bamberg County(6)",45009,No,70.1 ,46, 102.4,6,47.0
+"Lee County(6)",45061,No,66.6 ,45.4, 94.7,7,48.0
+"Saluda County(6)",45081,No,60 ,41.4, 84.5,7,46.3
+"Union County(6)",45087,No,56.1 ,40.8, 75.6,10,35.5
+"Calhoun County(6)",45017,No,56 ,37, 82.5,6,40.0
+"Fairfield County(6)",45039,No,55.6 ,40, 75.8,9,37.7
+"Richland County(6)",45079,No,55 ,50.5, 59.7,116,38.4
+"Kershaw County(6)",45055,No,54.8 ,44.8, 66.6,22,40.3
+"Chester County(6)",45023,No,54.2 ,40.8, 70.8,12,37.1
+"Sumter County(6)",45085,No,53 ,45.2, 61.9,35,39.8
+"Williamsburg County(6)",45089,No,52.6 ,39, 69.7,12,40.8
+"Marlboro County(6)",45069,No,51.1 ,36.5, 69.9,9,40.4
+"McCormick County(6)",45065,No,51 ,27, 91.3,4,30.2
+"Spartanburg County(6)",45083,No,50.5 ,45.8, 55.6,90,36.6
+"Darlington County(6)",45031,No,50.4 ,41.1, 61.3,22,40.1
+"Lexington County(6)",45063,No,49.8 ,45, 55,83,37.7
+"Laurens County(6)",45059,No,48.5 ,39.4, 59.3,21,40.2
+"Cherokee County(6)",45021,No,47.7 ,37.6, 59.8,16,36.7
+"Clarendon County(6)",45027,No,47.3 ,35.1, 62.6,12,39.1
+"Georgetown County(6)",45043,No,46.9 ,37.5, 58.1,21,32.6
+"Abbeville County(6)",45001,No,46.8 ,32.2, 66,7,37.0
+"Lancaster County(6)",45057,No,46.4 ,38.2, 56,24,32.4
+"Florence County(6)",45041,No,46.3 ,40, 53.4,41,34.9
+"Orangeburg County(6)",45075,No,46.3 ,38.5, 55.3,27,36.5
+"Jasper County(6)",45053,No,46.2 ,32.2, 64.5,8,36.1
+"Hampton County(6)",45049,No,45.7 ,30, 67.1,6,37.7
+"Dillon County(6)",45033,No,44.9 ,32.1, 61.3,9,42.3
+"Greenville County(6)",45045,No,44.5 ,41.1, 48.2,128,32.1
+"Charleston County(6)",45019,No,44.4 ,40.4, 48.7,99,32.0
+"Oconee County(6)",45073,No,44.3 ,35.6, 54.5,21,30.0
+"Aiken County(6)",45003,No,44.2 ,38.5, 50.5,48,34.5
+"Dorchester County(6)",45035,No,44.1 ,37.8, 51.1,37,33.9
+"Pickens County(6)",45077,No,43.6 ,36.6, 51.5,30,32.3
+"Horry County(6)",45051,No,42.4 ,38.2, 46.9,88,33.5
+"Colleton County(6)",45029,No,42.2 ,31.1, 56.2,10,31.7
+"Chesterfield County(6)",45025,Yes,41.7 ,31.6, 54.2,12,35.3
+"Beaufort County(6)",45013,Yes,41.3 ,35.8, 47.4,51,29.1
+"Anderson County(6)",45007,Yes,41.2 ,36.1, 46.8,52,31.8
+"York County(6)",45091,Yes,40.9 ,36.3, 45.9,59,31.8
+"Marion County(6)",45067,Yes,38.9 ,27, 54.2,8,31.0
+"Newberry County(6)",45071,Yes,38.2 ,27.9, 51.2,10,30.5
+"Edgefield County(6)",45037,Yes,36.9 ,24.8, 53.6,6,34.0
+"Berkeley County(6)",45015,Yes,36.8 ,31.7, 42.5,40,29.3
+"Greenwood County(6)",45047,Yes,35.8 ,28.3, 44.7,17,32.4
+"Barnwell County(6)",45011,Yes,33.3 ,20.1, 51.8,4,24.4
+"Allendale County(6)",45005,Yes,* ,*, *,3 or fewer,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:21 pm.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+
+Rates are computed using cancers classified as malignant based on ICD-O-3. For more information see malignant.html.
+
+"^ Late Stage is defined as cases determined to be regional or distant. Coding is generally based on Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ] but may include other staging variables if necessary."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

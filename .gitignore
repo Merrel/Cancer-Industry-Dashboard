@@ -2,3 +2,4 @@
 *.zip
 .BEA_API_KEY
 *.numbers
+__pycache__

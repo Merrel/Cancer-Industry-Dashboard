@@ -1,0 +1,49 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=49&areatype=county&topic=pov&demo=00007&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '49', 'areatype': 'county', 'topic': 'pov', 'demo': '00007', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_028.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=49&areatype=county&topic=pov&demo=00007&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Utah by County
+Poverty: Families below poverty
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),Families (Below Poverty),Rank within US
+"Utah",49000,7.9,55589,"15 of 52"
+"United States",00000,10.5,8253388,"N/A"
+"Daggett County",49009,0.0,0,"1 of 3141"
+"Morgan County",49029,2.8,80,"43 of 3141"
+"Wayne County",49055,3.6,24,"87 of 3141"
+"Davis County",49011,5.1,4201,"254 of 3141"
+"Kane County",49025,5.4,81,"310 of 3141"
+"Summit County",49043,5.6,614,"345 of 3141"
+"Tooele County",49045,5.7,894,"359 of 3141"
+"Wasatch County",49051,7.1,503,"663 of 3141"
+"Salt Lake County",49035,7.2,18454,"691 of 3141"
+"Millard County",49027,8.0,271,"890 of 3141"
+"Emery County",49015,8.1,225,"925 of 3141"
+"Utah County",49049,8.4,10723,"1003 of 3141"
+"Box Elder County",49003,8.6,1162,"1052 of 3141"
+"Uintah County",49047,8.6,667,"1064 of 3141"
+"Weber County",49057,8.7,5155,"1071 of 3141"
+"Garfield County",49017,9.4,121,"1227 of 3141"
+"Piute County",49031,9.4,36,"1266 of 3141"
+"Duchesne County",49013,9.5,500,"1288 of 3141"
+"Washington County",49053,10.0,3934,"1405 of 3141"
+"Sanpete County",49039,10.1,662,"1448 of 3141"
+"Beaver County",49001,10.4,166,"1500 of 3141"
+"Cache County",49005,10.4,2857,"1515 of 3141"
+"Sevier County",49041,10.7,588,"1578 of 3141"
+"Rich County",49033,10.7,50,"1590 of 3141"
+"Juab County",49023,11.0,291,"1670 of 3141"
+"Carbon County",49007,12.0,614,"1896 of 3141"
+"Grand County",49019,12.9,339,"2086 of 3141"
+"Iron County",49021,15.2,1710,"2475 of 3141"
+"San Juan County",49037,22.0,667,"2978 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:21 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Poverty: Families below poverty, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#poverty."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

@@ -1,0 +1,37 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=32&areatype=county&topic=pop&demo=00104&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '32', 'areatype': 'county', 'topic': 'pop', 'demo': '00104', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_027.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=32&areatype=county&topic=pop&demo=00104&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Nevada by County
+Population: Sex - Male
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Male),Rank within US
+"United States",00000,49.2,158018753,"N/A"
+"Nevada",32000,50.2,1450091,"44 of 52"
+"Esmeralda County",32009,44.0,485,"5 of 3141"
+"Mineral County",32021,48.4,2165,"439 of 3141"
+"Storey County",32029,48.7,1894,"602 of 3141"
+"Eureka County",32011,49.1,849,"1015 of 3141"
+"Clark County",32003,50.0,1056002,"1939 of 3141"
+"Washoe County",32031,50.3,224212,"2214 of 3141"
+"Nye County",32023,50.3,21789,"2217 of 3141"
+"Lyon County",32019,50.5,26400,"2309 of 3141"
+"Douglas County",32005,50.5,24047,"2319 of 3141"
+"Churchill County",32001,50.7,12177,"2426 of 3141"
+"Carson City",32510,51.3,27794,"2627 of 3141"
+"Elko County",32007,51.9,27185,"2754 of 3141"
+"Humboldt County",32013,52.0,8879,"2772 of 3141"
+"Lincoln County",32017,53.4,2780,"2939 of 3141"
+"Lander County",32015,55.6,3276,"3046 of 3141"
+"White Pine County",32033,59.0,5820,"3096 of 3141"
+"Pershing County",32027,65.1,4337,"3134 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:18 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Sex - Male, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

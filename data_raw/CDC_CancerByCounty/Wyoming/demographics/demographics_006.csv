@@ -1,0 +1,42 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=56&areatype=county&topic=ins&demo=00043&race=00&sex=0&age=006&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '56', 'areatype': 'county', 'topic': 'ins', 'demo': '00043', 'race': '00', 'sex': '0', 'age': '006', 'type': 'manyareacensus', 'file_name': 'demographics_006.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=56&areatype=county&topic=ins&demo=00043&race=00&sex=0&age=006&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Wyoming by County
+"Insurance: Percent uninsured in demographic group, people at or below 138% of poverty"
+"Ages <65, All Races (includes Hispanic), Both Sexes"
+2017 Small Area Health Insurance Estimates Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Uninsured),Rank within US
+"Wyoming",56000,24.9,19929,"48 of 51"
+"Hot Springs County",56017,20.1,149,"1976 of 3139"
+"Laramie County",56021,20.6,2614,"2053 of 3139"
+"Albany County",56001,22.3,2043,"2268 of 3139"
+"Converse County",56009,23.7,366,"2439 of 3139"
+"Natrona County",56025,23.7,2599,"2439 of 3139"
+"Sheridan County",56033,23.7,838,"2439 of 3139"
+"Uinta County",56041,24.4,785,"2504 of 3139"
+"Park County",56029,24.5,816,"2514 of 3139"
+"Fremont County",56013,24.6,1794,"2527 of 3139"
+"Johnson County",56019,25.1,258,"2571 of 3139"
+"Campbell County",56005,25.7,1407,"2612 of 3139"
+"Weston County",56045,26.1,213,"2641 of 3139"
+"Goshen County",56015,26.4,554,"2668 of 3139"
+"Washakie County",56043,26.4,308,"2668 of 3139"
+"Lincoln County",56023,26.7,596,"2691 of 3139"
+"Platte County",56031,26.8,292,"2699 of 3139"
+"Crook County",56011,27.0,229,"2719 of 3139"
+"Niobrara County",56027,27.1,102,"2730 of 3139"
+"Carbon County",56007,29.9,583,"2891 of 3139"
+"Big Horn County",56003,30.2,587,"2910 of 3139"
+"Sweetwater County",56037,30.3,1668,"2916 of 3139"
+"Sublette County",56035,30.6,310,"2931 of 3139"
+"Teton County",56039,42.3,818,"3125 of 3139"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:22 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & Small Area Health Insurance Estimates (https://www.census.gov/programs-surveys/sahie.html).
+"For more information about Insurance: Percent uninsured in demographic group, people at or below 138% of poverty, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#insurance."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

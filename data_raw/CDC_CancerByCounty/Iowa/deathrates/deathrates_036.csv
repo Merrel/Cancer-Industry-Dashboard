@@ -1,0 +1,139 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=19&areatype=county&cancer=001&race=00&sex=0&age=136&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '19', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '0', 'age': '136', 'type': 'death', 'file_name': 'deathrates_036.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=19&areatype=county&cancer=001&race=00&sex=0&age=136&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for Iowa by County
+
+"All Cancer Sites, 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, Ages 50+"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 161.4?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Iowa",19000,No,557.6 ,551.3, 563.9,6187,falling,-0.9 ,-1.0, -0.8
+"United States",00000,No,540.6 ,539.9, 541.2,558319,falling,-1.5 ,-1.5, -1.5
+"Monroe County",19135,No,751.9 ,625.1, 897,25,stable,0.8 ,-0.3, 2.0
+"Decatur County",19053,No,719.8 ,591.9, 867,23,stable,0.3 ,-1.2, 1.7
+"Van Buren County",19177,No,699.4 ,575.2, 842.5,23,stable,0.9 ,-0.2, 2.1
+"Emmet County",19063,No,692.1 ,582.9, 815.9,30,stable,0.1 ,-0.8, 1.1
+"Clarke County",19039,No,689.6 ,572.2, 823.9,25,stable,0.3 ,-0.9, 1.6
+"Ringgold County",19159,No,653 ,513.6, 818.7,17,stable,0.7 ,-0.8, 2.1
+"Marshall County",19127,No,633.1 ,577.5, 692.5,99,falling,-1.4 ,-2.1, -0.8
+"Muscatine County",19139,No,627.3 ,569.7, 689,90,stable,-0.3 ,-1.0, 0.3
+"Mahaska County",19123,No,627.1 ,553.6, 707.7,55,stable,0.1 ,-0.5, 0.6
+"Monona County",19133,No,626.6 ,526.7, 740,29,stable,-0.9 ,-1.7, 0.1
+"Marion County",19125,No,618.4 ,556.7, 685,75,stable,-0.1 ,-0.5, 0.3
+"Wapello County",19179,No,617.6 ,559.3, 680.4,84,falling,-0.7 ,-1.3, -0.1
+"Carroll County",19027,No,615.1 ,544, 693.1,58,stable,-0.1 ,-0.9, 0.7
+"Fremont County",19071,No,614 ,499.2, 747.5,21,rising,4.2 ,0.7, 7.9
+"Lucas County",19117,No,610.9 ,506.4, 730.9,24,stable,-0.2 ,-1.1, 0.7
+"Buchanan County",19019,No,610.1 ,533.3, 694.7,46,falling,-0.9 ,-1.7, -0.1
+"Adams County",19003,No,607.9 ,457.9, 791.5,11,stable,-0.5 ,-1.8, 0.7
+"Des Moines County",19057,No,605.1 ,552.6, 661.3,101,stable,-0.6 ,-1.2, 0.0
+"Lee County",19111,No,604.8 ,548.7, 665.1,88,falling,-1.1 ,-1.7, -0.5
+"Tama County",19171,No,600.9 ,523.3, 686.8,45,stable,-0.2 ,-0.9, 0.4
+"Pottawattamie County",19155,No,600.2 ,563, 639.2,199,falling,-0.7 ,-1.1, -0.3
+"Woodbury County",19193,No,597.7 ,559.8, 637.5,191,falling,-0.6 ,-0.9, -0.3
+"Palo Alto County",19147,No,597.1 ,496.4, 712.6,27,stable,-1.0 ,-2.0, 0.0
+"Scott County",19163,No,597.1 ,568.2, 627,334,falling,-0.8 ,-1.2, -0.5
+"Page County",19145,No,596.7 ,517.4, 684.8,42,stable,0.0 ,-0.8, 0.8
+"Webster County",19187,No,586.3 ,531.3, 645.5,85,falling,-0.8 ,-1.3, -0.2
+"Union County",19175,No,586.1 ,495.5, 688.4,30,stable,-0.7 ,-1.7, 0.3
+"Henry County",19087,No,584.8 ,509.5, 668.1,45,stable,-0.6 ,-1.5, 0.2
+"Hardin County",19083,No,584.6 ,511.8, 665,49,falling,-0.9 ,-1.7, -0.2
+"Clinton County",19045,No,583.4 ,536, 633.9,114,falling,-0.9 ,-1.4, -0.3
+"Polk County",19153,No,580.5 ,561.2, 600.2,721,falling,-0.9 ,-1.1, -0.6
+"Calhoun County",19025,No,578.8 ,485.5, 684.9,29,stable,-0.4 ,-1.1, 0.3
+"Cass County",19029,No,578.4 ,495.9, 670.8,36,stable,-6.5 ,-13.7, 1.4
+"Louisa County",19115,No,576.4 ,477.8, 689.4,24,stable,-0.4 ,-1.6, 0.9
+"Buena Vista County",19021,No,575.4 ,495.3, 664.4,40,stable,-0.8 ,-1.7, 0.1
+"Winnebago County",19189,No,574.2 ,480.4, 681.1,28,stable,-0.1 ,-1.0, 0.8
+"Adair County",19001,No,573.7 ,465.1, 700.2,21,stable,-0.1 ,-1.0, 0.8
+"Montgomery County",19137,No,573.4 ,479, 681,27,falling,-1.0 ,-1.8, -0.2
+"Washington County",19183,No,573 ,504.1, 648.8,52,stable,0.0 ,-0.7, 0.8
+"Delaware County",19055,No,572.3 ,496.3, 656.6,42,stable,-0.7 ,-1.4, 0.0
+"Clay County",19041,No,570.9 ,493.5, 657,41,stable,-0.1 ,-0.9, 0.6
+"Jackson County",19097,No,567.2 ,495.8, 645.9,46,falling,-1.0 ,-1.9, -0.1
+"Sac County",19161,No,566.3 ,474.7, 670.6,29,stable,-0.3 ,-1.2, 0.5
+"Floyd County",19067,No,564.4 ,488.8, 648.4,41,falling,-0.9 ,-1.6, -0.3
+"Cherokee County",19035,No,562.5 ,477.8, 657.9,33,stable,-0.1 ,-1.1, 0.9
+"Keokuk County",19107,No,559.9 ,467.3, 665.7,27,stable,-0.8 ,-1.8, 0.3
+"Fayette County",19065,No,557.6 ,490.9, 630.8,52,falling,-0.8 ,-1.4, -0.1
+"Greene County",19073,No,554.5 ,458, 665.5,24,stable,0.1 ,-1.0, 1.1
+"Appanoose County",19007,No,552.3 ,469.2, 646,32,stable,0.3 ,-1.0, 1.6
+"O'Brien County",19141,No,552 ,472.7, 641,37,stable,-0.4 ,-1.3, 0.4
+"Jasper County",19099,No,550.8 ,497.8, 607.8,81,falling,-0.9 ,-1.6, -0.2
+"Guthrie County",19077,No,550.3 ,462.3, 650.5,28,stable,-0.3 ,-1.1, 0.5
+"Davis County",19051,No,549 ,441.9, 674.2,18,stable,-0.2 ,-1.6, 1.1
+"Poweshiek County",19157,No,547.7 ,476.2, 626.9,44,stable,-0.6 ,-1.3, 0.1
+"Boone County",19015,No,545.6 ,481.5, 615.7,54,stable,-0.5 ,-1.1, 0.2
+"Iowa County",19095,No,543.4 ,466.5, 629.3,37,stable,-0.4 ,-1.2, 0.3
+"Humboldt County",19091,No,542 ,448.2, 649.9,24,falling,-1.5 ,-2.4, -0.6
+"Howard County",19089,No,540.6 ,442.7, 653.7,22,stable,-0.3 ,-1.4, 0.7
+"Black Hawk County",19013,No,540.4 ,509.8, 572.3,242,falling,-1.3 ,-1.6, -1.0
+"Jones County",19105,No,539.6 ,471.9, 614.4,47,falling,-1.2 ,-1.7, -0.6
+"Taylor County",19173,No,537.9 ,422.3, 675.6,15,stable,2.0 ,-0.9, 5.0
+"Dubuque County",19061,No,537.6 ,503.7, 573.2,192,falling,-1.2 ,-1.5, -1.0
+"Butler County",19023,No,536.9 ,461.5, 621.3,38,falling,-1.3 ,-2.1, -0.5
+"Warren County",19181,No,536.1 ,485.3, 590.8,84,stable,-0.4 ,-1.0, 0.2
+"Madison County",19121,No,536.1 ,453.3, 629.6,30,falling,-1.4 ,-2.5, -0.3
+"Dickinson County",19059,No,533.4 ,467.1, 606.6,48,stable,-0.7 ,-1.6, 0.2
+"Linn County",19113,No,533.3 ,509.1, 558.4,374,falling,-1.1 ,-1.3, -0.8
+"Mills County",19129,No,533 ,447.4, 629.9,29,stable,-1.0 ,-1.9, 0.0
+"Story County",19169,No,530.9 ,489.1, 575.4,123,falling,-0.6 ,-1.0, -0.3
+"Plymouth County",19149,No,529.4 ,466.6, 598.3,53,falling,-1.0 ,-1.7, -0.2
+"Cedar County",19031,No,529.3 ,457.1, 609.6,40,stable,-0.8 ,-1.7, 0.0
+"Grundy County",19075,No,529.3 ,445.7, 624.2,29,stable,-0.2 ,-1.4, 1.0
+"Pocahontas County",19151,No,528.6 ,426.5, 648.2,19,falling,-1.2 ,-2.4, -0.1
+"Harrison County",19085,No,524.1 ,444.3, 614,31,falling,-1.2 ,-1.9, -0.6
+"Ida County",19093,No,522.7 ,417.6, 646.8,18,stable,-0.6 ,-1.7, 0.5
+"Shelby County",19165,No,514.3 ,433.4, 606,30,stable,0.1 ,-0.9, 1.1
+"Crawford County",19047,No,513.3 ,436.8, 599.2,33,stable,-0.9 ,-1.7, 0.0
+"Chickasaw County",19037,No,511.4 ,428.1, 606.2,27,stable,-0.9 ,-1.8, 0.1
+"Clayton County",19043,No,506.1 ,439.1, 580.3,42,falling,-1.2 ,-1.8, -0.7
+"Allamakee County",19005,No,505.3 ,429.9, 590.2,33,stable,-0.7 ,-1.9, 0.5
+"Benton County",19011,No,504.1 ,442.9, 571.5,50,falling,-1.6 ,-2.1, -1.1
+"Franklin County",19069,No,499 ,411.8, 599.4,24,stable,-0.1 ,-1.0, 0.8
+"Cerro Gordo County",19033,No,496.3 ,451.9, 543.9,96,falling,-1.5 ,-1.9, -1.1
+"Johnson County",19103,No,495.4 ,460.6, 532,160,falling,-1.9 ,-2.4, -1.4
+"Osceola County",19143,No,495.4 ,388.4, 623.4,15,stable,-0.3 ,-1.7, 1.1
+"Hamilton County",19079,No,494.3 ,419.8, 578.3,33,falling,-1.4 ,-2.2, -0.7
+"Kossuth County",19109,No,493.8 ,424.9, 570.7,39,falling,-1.2 ,-1.8, -0.6
+"Audubon County",19009,No,491.9 ,385.3, 619.2,15,stable,-0.5 ,-2.0, 0.9
+"Mitchell County",19131,No,487.7 ,404.3, 583.5,26,falling,-1.4 ,-2.5, -0.3
+"Wayne County",19185,No,486.5 ,379.5, 614.5,15,stable,-0.8 ,-1.9, 0.3
+"Jefferson County",19101,No,485.2 ,410.9, 568.8,34,falling,-0.8 ,-1.6, -0.1
+"Lyon County",19119,No,479.7 ,391.4, 582,22,falling,-1.6 ,-2.6, -0.5
+"Dallas County",19049,No,476.4 ,433.2, 522.7,93,falling,-2.5 ,-3.4, -1.6
+"Hancock County",19081,No,473.2 ,391.1, 567.6,24,stable,-0.7 ,-1.9, 0.5
+"Bremer County",19017,No,465.7 ,407.4, 530.2,47,falling,-1.2 ,-2.0, -0.5
+"Winneshiek County",19191,No,465.6 ,402.2, 536.2,40,falling,-1.0 ,-1.8, -0.3
+"Sioux County",19167,No,459.8 ,406.5, 518.3,56,falling,-0.9 ,-1.4, -0.3
+"Wright County",19197,No,443.3 ,369.7, 527.2,28,falling,-2.2 ,-3.3, -1.0
+"Worth County",19195,No,434.1 ,339.2, 547.6,15,falling,-1.6 ,-2.9, -0.2
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:15 pm.
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

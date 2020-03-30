@@ -1,0 +1,105 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=08&areatype=county&cancer=001&race=06&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '08', 'areatype': 'county', 'cancer': '001', 'race': '06', 'sex': '0', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_025.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=08&areatype=county&cancer=001&race=06&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Colorado by County
+
+"All Cancer Sites (All Stages^), 2012-2016"
+
+"White Hispanic, Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Colorado(6,10)",08000,***,366.3 ,359.4, 373.2,2422,falling,-2.2 ,-3.7, -0.8
+"US (SEER+NPCR) &sect; (1,10)",00000,***,345.6 ,344.7, 346.5,116172,falling,-1.7 ,-2.8, -0.6
+"Teller County(6,10)",08119,***,440.2 ,197.3, 812.3,4,stable,-3.3 ,-58.8, 127.0
+"Yuma County(6,10)",08125,***,439 ,254.1, 698.4,4,stable,-0.4 ,-35.4, 53.7
+"Huerfano County(6,10)",08055,***,414.3 ,308.2, 549.3,12,stable,-7.3 ,-32.4, 26.9
+"Fremont County(6,10)",08043,***,410.9 ,324.4, 512.4,17,stable,3.0 ,-24.6, 40.8
+"Mesa County(6,10)",08077,***,405.9 ,355.3, 461.3,50,stable,-6.0 ,-14.8, 3.7
+"Pueblo County(6,10)",08101,***,405.9 ,383.1, 429.6,245,stable,-1.1 ,-10.2, 9.0
+"Larimer County(6,10)",08069,***,404 ,361.3, 449.9,76,stable,1.3 ,-12.1, 16.8
+"Denver County(6,10)",08031,***,393.2 ,376.9, 410,479,stable,-2.7 ,-9.8, 5.0
+"El Paso County(6,10)",08041,***,391.8 ,366.3, 418.5,204,stable,-0.3 ,-7.3, 7.2
+"Montrose County(6,10)",08085,***,389.5 ,313.4, 477.5,20,stable,-3.3 ,-20.2, 17.1
+"Las Animas County(6,10)",08071,***,389.2 ,324.5, 463.5,27,stable,3.2 ,-10.1, 18.6
+"Douglas County(6,10)",08035,***,385.7 ,329.4, 447.9,49,rising,10.3 ,6.1, 14.8
+"Logan County(6,10)",08075,***,383.8 ,259.3, 542.7,7,stable,0.1 ,-36.4, 57.4
+"Otero County(6,10)",08089,***,380.9 ,319, 451.4,28,stable,0.1 ,-22.2, 28.8
+"Morgan County(6,10)",08087,***,374.5 ,302.3, 457.6,21,stable,-4.2 ,-21.6, 17.0
+"Jefferson County(6,10)",08059,***,369.7 ,345.3, 395.2,196,stable,-0.8 ,-11.3, 10.9
+"Weld County(6,10)",08123,***,364.2 ,337.7, 392.1,165,stable,-3.9 ,-11.5, 4.4
+"Prowers County(6,10)",08099,***,351.8 ,258.6, 465.6,11,stable,-14.4 ,-50.8, 49.0
+"La Plata County(6,10)",08067,***,350.1 ,270.4, 444.6,14,stable,-0.4 ,-19.5, 23.3
+"Saguache County(6,10)",08109,***,345.9 ,235.4, 489.1,7,stable,0.6 ,-16.3, 20.8
+"Alamosa County(6,10)",08003,***,343.7 ,275.1, 423.8,18,stable,0.8 ,-20.7, 28.0
+"Adams County(6,10)",08001,***,340.8 ,323.4, 358.8,341,stable,-3.4 ,-8.1, 1.5
+"Arapahoe County(6,10)",08005,***,340 ,315.4, 365.9,189,falling,-8.7 ,-14.2, -2.8
+"Boulder County(6,10)",08013,***,330.4 ,294.7, 369,76,stable,2.0 ,-18.2, 27.2
+"Rio Grande County(6,10)",08105,***,316.9 ,247.7, 399.4,15,stable,-1.7 ,-19.3, 19.8
+"Eagle County(6,10)",08037,***,310.7 ,229.7, 407.6,20,stable,-5.3 ,-37.1, 42.4
+"Lake County(6,10)",08065,***,309 ,193.2, 464.5,5,stable,-9.7 ,-50.7, 65.2
+"Montezuma County(6,10)",08083,***,303.5 ,210.4, 422.8,7,stable,7.6 ,-21.6, 47.6
+"Costilla County(6,10)",08023,***,301.1 ,222, 405.5,10,stable,0.8 ,-12.3, 15.8
+"Garfield County(6,10)",08045,***,297.6 ,222.6, 386.9,17,stable,-11.4 ,-27.3, 7.9
+"Chaffee County(6,10)",08015,***,290.6 ,182.5, 439.9,5,stable,-4.0 ,-56.6, 112.1
+"Moffat County(6,10)",08081,***,288 ,162.1, 469.2,4,stable,-18.7 ,-71.1, 129.0
+"Crowley County(6,10)",08025,***,285.5 ,156.9, 475.4,3,stable,-6.7 ,-51.9, 81.1
+"Conejos County(6,10)",08021,***,277.2 ,213.7, 354.9,14,rising,5.1 ,2.5, 7.8
+"Delta County(6,10)",08029,***,276.1 ,198.1, 373.4,9,stable,-12.7 ,-38.1, 23.1
+"Archuleta County(6,10)",08007,***,264.4 ,165.6, 398.7,5,stable,7.9 ,-44.1, 108.0
+"Broomfield County(6,10)",08014,***,250.5 ,179.6, 338.1,11,stable,3.2 ,-61.5, 176.8
+"Bent County(6,10)",08011,***,211.6 ,123.9, 339.2,4,stable,6.6 ,-36.2, 78.1
+"Baca County(6,10)",08009,***,* ,*, *,3 or fewer,*,*,*,*
+"Cheyenne County(6,10)",08017,***,* ,*, *,3 or fewer,*,*,*,*
+"Clear Creek County(6,10)",08019,***,* ,*, *,3 or fewer,*,*,*,*
+"Custer County(6,10)",08027,***,* ,*, *,3 or fewer,*,*,*,*
+"Dolores County(6,10)",08033,***,* ,*, *,3 or fewer,*,*,*,*
+"Elbert County(6,10)",08039,***,* ,*, *,3 or fewer,*,*,*,*
+"Gilpin County(6,10)",08047,***,* ,*, *,3 or fewer,*,*,*,*
+"Grand County(6,10)",08049,***,* ,*, *,3 or fewer,*,*,*,*
+"Gunnison County(6,10)",08051,***,* ,*, *,3 or fewer,*,*,*,*
+"Hinsdale County(6,10)",08053,***,* ,*, *,3 or fewer,*,*,*,*
+"Jackson County(6,10)",08057,***,* ,*, *,3 or fewer,*,*,*,*
+"Kiowa County(6,10)",08061,***,* ,*, *,3 or fewer,*,*,*,*
+"Kit Carson County(6,10)",08063,***,* ,*, *,3 or fewer,*,*,*,*
+"Lincoln County(6,10)",08073,***,* ,*, *,3 or fewer,*,*,*,*
+"Mineral County(6,10)",08079,***,* ,*, *,3 or fewer,*,*,*,*
+"Ouray County(6,10)",08091,***,* ,*, *,3 or fewer,*,*,*,*
+"Park County(6,10)",08093,***,* ,*, *,3 or fewer,*,*,*,*
+"Phillips County(6,10)",08095,***,* ,*, *,3 or fewer,*,*,*,*
+"Pitkin County(6,10)",08097,***,* ,*, *,3 or fewer,*,*,*,*
+"Rio Blanco County(6,10)",08103,***,* ,*, *,3 or fewer,*,*,*,*
+"Routt County(6,10)",08107,***,* ,*, *,3 or fewer,*,*,*,*
+"San Juan County(6,10)",08111,***,* ,*, *,3 or fewer,*,*,*,*
+"San Miguel County(6,10)",08113,***,* ,*, *,3 or fewer,*,*,*,*
+"Sedgwick County(6,10)",08115,***,* ,*, *,3 or fewer,*,*,*,*
+"Summit County(6,10)",08117,***,* ,*, *,3 or fewer,*,*,*,*
+"Washington County(6,10)",08121,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:16 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

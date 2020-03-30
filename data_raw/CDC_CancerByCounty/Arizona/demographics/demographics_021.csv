@@ -1,0 +1,35 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=04&areatype=county&topic=pop&demo=00022&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '04', 'areatype': 'county', 'topic': 'pop', 'demo': '00022', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_021.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=04&areatype=county&topic=pop&demo=00022&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Arizona by County
+Population: Black
+"All Ages, Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Black),Rank within US
+"Arizona",04000,4.3,292831,"35 of 52"
+"United States",00000,12.7,40610815,"N/A"
+"Apache County",04001,0.5,364,"2515 of 3141"
+"Santa Cruz County",04023,0.5,236,"2513 of 3141"
+"Yavapai County",04025,0.5,1169,"2495 of 3141"
+"Gila County",04007,0.6,300,"2456 of 3141"
+"Navajo County",04017,0.8,889,"2175 of 3141"
+"La Paz County",04012,0.9,177,"2139 of 3141"
+"Mohave County",04015,1.1,2208,"1996 of 3141"
+"Coconino County",04005,1.4,1986,"1836 of 3141"
+"Graham County",04009,2.0,750,"1630 of 3141"
+"Greenlee County",04011,2.0,191,"1619 of 3141"
+"Yuma County",04027,2.1,4267,"1603 of 3141"
+"Pima County",04019,3.5,34872,"1328 of 3141"
+"Cochise County",04003,3.8,4786,"1287 of 3141"
+"Pinal County",04021,4.5,18273,"1195 of 3141"
+"Maricopa County",04013,5.4,222363,"1104 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:14 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Black, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

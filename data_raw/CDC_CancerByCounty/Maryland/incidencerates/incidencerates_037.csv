@@ -1,0 +1,64 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=24&areatype=county&cancer=001&race=00&sex=0&age=136&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '24', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '0', 'age': '136', 'type': 'incd', 'file_name': 'incidencerates_037.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=24&areatype=county&cancer=001&race=00&sex=0&age=136&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Maryland by County
+
+"All Cancer Sites (All Stages^), 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, Ages 50+"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Maryland(6,10)",24000,***,1360 ,1352.6, 1367.5,26412,stable,-0.7 ,-2.4, 1.0
+"US (SEER+NPCR)(1,10)",00000,***,1350.2 ,1349.2, 1351.2,1428518,falling,-1.1 ,-1.8, -0.3
+"Wicomico County(6,10)",24045,***,1565.6 ,1505.1, 1628,521,stable,0.0 ,-6.0, 6.3
+"Cecil County(6,10)",24015,***,1552.9 ,1492.3, 1615.4,525,stable,0.2 ,-4.1, 4.7
+"Allegany County(6,10)",24001,***,1545.6 ,1482.4, 1610.8,458,stable,1.7 ,-4.4, 8.1
+"Harford County(6,10)",24025,***,1528 ,1490.4, 1566.4,1306,stable,0.7 ,-2.3, 3.7
+"Somerset County(6,10)",24039,***,1520.3 ,1405.9, 1641.5,134,stable,0.3 ,-5.5, 6.5
+"Baltimore City(6,10)",24510,***,1493.2 ,1468.1, 1518.7,2816,stable,-1.2 ,-2.6, 0.2
+"Caroline County(6,10)",24011,***,1478.6 ,1379.1, 1583.3,169,falling,-5.6 ,-10.3, -0.6
+"Dorchester County(6,10)",24019,***,1460.7 ,1371.2, 1554.5,203,stable,-1.3 ,-5.4, 3.0
+"Baltimore County(6,10)",24005,***,1460.1 ,1440.2, 1480.1,4310,stable,-1.3 ,-6.0, 3.6
+"Kent County(6,10)",24029,***,1441.5 ,1335.8, 1553.5,143,stable,2.6 ,-3.6, 9.2
+"Carroll County(6,10)",24013,***,1440 ,1396.4, 1484.5,861,falling,-2.3 ,-4.5, -0.1
+"Washington County(6,10)",24043,***,1436.3 ,1390.5, 1483.1,760,stable,0.0 ,-4.7, 4.8
+"Anne Arundel County(6,10)",24003,***,1406.7 ,1381.5, 1432.2,2502,stable,-0.4 ,-3.0, 2.3
+"Worcester County(6,10)",24047,***,1398.5 ,1335.1, 1464.2,376,stable,0.8 ,-5.2, 7.3
+"Calvert County(6,10)",24009,***,1390.6 ,1328.7, 1454.5,409,stable,-1.9 ,-7.2, 3.6
+"Queen Annes County(6,10)",24035,***,1368.5 ,1293.6, 1446.5,259,stable,0.7 ,-9.2, 11.7
+"Talbot County(6,10)",24041,***,1352.2 ,1279.5, 1427.9,270,stable,1.6 ,-2.6, 5.9
+"Frederick County(6,10)",24021,***,1341.6 ,1304.2, 1379.9,1029,stable,0.4 ,-4.9, 6.0
+"Charles County(6,10)",24017,***,1337.6 ,1286.9, 1389.7,574,stable,0.1 ,-2.1, 2.3
+"St. Marys County(6,10)",24037,***,1311.8 ,1255.1, 1370.5,424,stable,-3.8 ,-11.1, 4.1
+"Prince Georges County(6,10)",24033,***,1240.4 ,1220.3, 1260.8,3162,stable,-0.6 ,-4.3, 3.1
+"Garrett County(6,10)",24023,***,1210 ,1125.9, 1298.8,157,stable,3.5 ,-8.5, 17.0
+"Howard County(6,10)",24027,***,1193.9 ,1161.3, 1227.1,1101,stable,-3.2 ,-8.5, 2.3
+"Montgomery County(6,10)",24031,***,1122.6 ,1106.2, 1139.2,3756,stable,-1.9 ,-4.3, 0.4
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:19 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

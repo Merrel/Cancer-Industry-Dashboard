@@ -1,0 +1,85 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=08&areatype=county&topic=ed&demo=00004&race=00&sex=0&age=081&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '08', 'areatype': 'county', 'topic': 'ed', 'demo': '00004', 'race': '00', 'sex': '0', 'age': '081', 'type': 'manyareacensus', 'file_name': 'demographics_001.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=08&areatype=county&topic=ed&demo=00004&race=00&sex=0&age=081&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Colorado by County
+Education: Less than 9th grade
+Population Ages 25+
+"All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Education: Less Than 9th Grade),Rank within US
+"Colorado",08000,3.6,133062,"18 of 52"
+"United States",00000,5.4,11759554,"N/A"
+"Ouray County",08091,0.2,6,"7 of 3141"
+"Clear Creek County",08019,0.3,21,"11 of 3141"
+"Teller County",08119,0.5,81,"14 of 3141"
+"Elbert County",08039,0.6,104,"17 of 3141"
+"Gilpin County",08047,0.6,29,"19 of 3141"
+"Douglas County",08035,0.7,1483,"22 of 3141"
+"Hinsdale County",08053,0.8,5,"25 of 3141"
+"Grand County",08049,0.8,91,"28 of 3141"
+"San Miguel County",08113,0.9,50,"30 of 3141"
+"Kiowa County",08061,0.9,8,"33 of 3141"
+"Mineral County",08079,1.1,8,"54 of 3141"
+"Park County",08093,1.2,157,"68 of 3141"
+"Larimer County",08069,1.4,2993,"106 of 3141"
+"La Plata County",08067,1.6,629,"179 of 3141"
+"Jefferson County",08059,1.8,7076,"226 of 3141"
+"Custer County",08027,1.8,63,"232 of 3141"
+"Broomfield County",08014,1.8,784,"234 of 3141"
+"Routt County",08107,2.0,350,"303 of 3141"
+"El Paso County",08041,2.0,8763,"337 of 3141"
+"Washington County",08121,2.0,69,"346 of 3141"
+"Gunnison County",08051,2.2,223,"404 of 3141"
+"Boulder County",08013,2.2,4447,"411 of 3141"
+"Rio Blanco County",08103,2.2,93,"427 of 3141"
+"Fremont County",08043,2.3,826,"464 of 3141"
+"Cheyenne County",08017,2.3,31,"494 of 3141"
+"Pitkin County",08097,2.5,340,"573 of 3141"
+"Dolores County",08033,2.7,35,"672 of 3141"
+"Summit County",08117,2.7,614,"724 of 3141"
+"San Juan County",08111,2.8,12,"740 of 3141"
+"Chaffee County",08015,2.9,432,"828 of 3141"
+"Mesa County",08077,2.9,2987,"854 of 3141"
+"Moffat County",08081,3.2,279,"982 of 3141"
+"Montezuma County",08083,3.2,576,"997 of 3141"
+"Arapahoe County",08005,3.3,13984,"1079 of 3141"
+"Delta County",08029,3.4,746,"1118 of 3141"
+"Archuleta County",08007,3.6,346,"1259 of 3141"
+"Huerfano County",08055,3.7,191,"1295 of 3141"
+"Sedgwick County",08115,3.9,64,"1377 of 3141"
+"Pueblo County",08101,4.0,4370,"1417 of 3141"
+"Montrose County",08085,4.1,1176,"1463 of 3141"
+"Lincoln County",08073,4.2,170,"1524 of 3141"
+"Crowley County",08025,4.4,171,"1602 of 3141"
+"Logan County",08075,4.7,684,"1748 of 3141"
+"Eagle County",08037,4.9,1844,"1843 of 3141"
+"Jackson County",08057,5.1,51,"1896 of 3141"
+"Weld County",08123,5.3,9567,"1946 of 3141"
+"Baca County",08009,5.6,145,"2046 of 3141"
+"Lake County",08065,5.6,302,"2051 of 3141"
+"Las Animas County",08071,5.7,593,"2113 of 3141"
+"Phillips County",08095,5.8,168,"2125 of 3141"
+"Bent County",08011,5.8,264,"2126 of 3141"
+"Garfield County",08045,6.1,2340,"2231 of 3141"
+"Denver County",08031,6.5,31595,"2359 of 3141"
+"Otero County",08089,6.6,811,"2374 of 3141"
+"Kit Carson County",08063,6.7,375,"2411 of 3141"
+"Rio Grande County",08105,7.4,577,"2559 of 3141"
+"Adams County",08001,7.6,23607,"2594 of 3141"
+"Conejos County",08021,8.1,425,"2654 of 3141"
+"Yuma County",08125,8.8,588,"2762 of 3141"
+"Alamosa County",08003,9.3,879,"2805 of 3141"
+"Prowers County",08099,9.4,740,"2822 of 3141"
+"Morgan County",08087,10.0,1811,"2864 of 3141"
+"Saguache County",08109,10.5,478,"2906 of 3141"
+"Costilla County",08023,12.6,335,"3004 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:15 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Education: Less than 9th grade, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#education."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

@@ -1,0 +1,25 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=15&areatype=county&topic=pop&demo=00024&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '15', 'areatype': 'county', 'topic': 'pop', 'demo': '00024', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_020.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=15&areatype=county&topic=pop&demo=00024&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Hawaii by County
+Population: Asian / Pacific Islander
+"All Ages, Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (API),Rank within US
+"United States",00000,5.5,17756436,"N/A"
+"Hawaii",15000,48.1,683156,"1 of 52"
+"Hawaii County",15001,35.3,69306,"7 of 3141"
+"Maui County",15009,39.7,65068,"5 of 3141"
+"Kauai County",15007,44.2,31425,"3 of 3141"
+"Honolulu County",15003,52.2,517301,"2 of 3141"
+"Kalawao County",15005,65.1,56,"1 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:14 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Asian / Pacific Islander, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

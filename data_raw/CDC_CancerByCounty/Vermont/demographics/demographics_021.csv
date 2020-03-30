@@ -1,0 +1,34 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=50&areatype=county&topic=pop&demo=00022&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '50', 'areatype': 'county', 'topic': 'pop', 'demo': '00022', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_021.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=50&areatype=county&topic=pop&demo=00022&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Vermont by County
+Population: Black
+"All Ages, Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Black),Rank within US
+"Vermont",50000,1.3,7921,"48 of 52"
+"United States",00000,12.7,40610815,"N/A"
+"Grand Isle County",50013,0.2,13,"2875 of 3141"
+"Orleans County",50019,0.4,116,"2616 of 3141"
+"Franklin County",50011,0.6,305,"2380 of 3141"
+"Orange County",50017,0.7,192,"2330 of 3141"
+"Windsor County",50027,0.7,394,"2272 of 3141"
+"Rutland County",50021,0.8,473,"2203 of 3141"
+"Washington County",50023,0.9,502,"2148 of 3141"
+"Lamoille County",50015,0.9,227,"2113 of 3141"
+"Windham County",50025,0.9,399,"2101 of 3141"
+"Caledonia County",50005,0.9,286,"2091 of 3141"
+"Bennington County",50003,1.0,350,"2053 of 3141"
+"Essex County",50009,1.0,64,"2023 of 3141"
+"Addison County",50001,1.1,395,"2000 of 3141"
+"Chittenden County",50007,2.6,4205,"1481 of 3141"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:20 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Population: Black, see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#population."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

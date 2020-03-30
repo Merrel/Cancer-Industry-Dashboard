@@ -1,0 +1,43 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=56&areatype=county&topic=mob&demo=00019&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '56', 'areatype': 'county', 'topic': 'mob', 'demo': '00019', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_010.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=56&areatype=county&topic=mob&demo=00019&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Wyoming by County
+"Mobility: Moved, different county this state (in past year)"
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Moved From Different County In Same State),Rank within US
+"Wyoming",56000,2.8,16272,"20 of 51"
+"United States",00000,3.2,10247779,"N/A"
+"Park County",56029,1.8,526,"251 of 3140"
+"Sweetwater County",56037,1.8,799,"255 of 3140"
+"Laramie County",56021,1.9,1799,"275 of 3140"
+"Natrona County",56025,1.9,1544,"301 of 3140"
+"Johnson County",56019,2.6,220,"696 of 3140"
+"Teton County",56039,2.6,598,"729 of 3140"
+"Goshen County",56015,2.6,353,"732 of 3140"
+"Campbell County",56005,2.9,1357,"887 of 3140"
+"Crook County",56011,3.0,220,"980 of 3140"
+"Sheridan County",56033,3.1,938,"1081 of 3140"
+"Fremont County",56013,3.2,1281,"1135 of 3140"
+"Washakie County",56043,3.3,268,"1188 of 3140"
+"Uinta County",56041,3.3,681,"1218 of 3140"
+"Lincoln County",56023,3.3,621,"1220 of 3140"
+"Carbon County",56007,3.4,532,"1293 of 3140"
+"Big Horn County",56003,3.8,445,"1562 of 3140"
+"Converse County",56009,4.5,626,"2006 of 3140"
+"Hot Springs County",56017,4.6,215,"2028 of 3140"
+"Sublette County",56035,4.6,463,"2060 of 3140"
+"Albany County",56001,4.7,1772,"2109 of 3140"
+"Weston County",56045,5.4,381,"2461 of 3140"
+"Niobrara County",56027,5.5,134,"2468 of 3140"
+"Platte County",56031,5.8,499,"2585 of 3140"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:22 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Mobility: Moved, different county this state (in past year), see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#mobility."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

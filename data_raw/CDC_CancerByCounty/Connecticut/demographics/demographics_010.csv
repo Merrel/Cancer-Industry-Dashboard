@@ -1,0 +1,28 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=09&areatype=county&topic=mob&demo=00019&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1
+ > Details: {'stateFIPS': '09', 'areatype': 'county', 'topic': 'mob', 'demo': '00019', 'race': '00', 'sex': '0', 'age': '001', 'type': 'manyareacensus', 'file_name': 'demographics_010.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/demographics/index.php?stateFIPS=09&areatype=county&topic=mob&demo=00019&race=00&sex=0&age=001&type=manyareacensus&sortVariableName=value&sortOrder=asc&output=1'}
+------------
+Demographic Data Report for Connecticut by County
+"Mobility: Moved, different county this state (in past year)"
+"All Ages, All Races (includes Hispanic), Both Sexes"
+2013-2017 American Community Survey 5-Year Data
+Sorted by Value
+
+County, FIPS,Value (Percent),People (Moved From Different County In Same State),Rank within US
+"Connecticut",09000,1.9,69088,"7 of 51"
+"United States",00000,3.2,10247779,"N/A"
+"Fairfield County",09001,0.8,7907,"31 of 3140"
+"New Haven County",09009,1.7,14644,"218 of 3140"
+"Hartford County",09003,1.7,15482,"232 of 3140"
+"New London County",09011,2.3,6071,"483 of 3140"
+"Litchfield County",09005,2.6,4798,"711 of 3140"
+"Windham County",09015,3.6,4120,"1394 of 3140"
+"Middlesex County",09007,3.6,5879,"1441 of 3140"
+"Tolland County",09013,6.8,10187,"2793 of 3140"
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:14 pm.
+Source: Demographic data provided by the Census Bureau (http://www.census.gov/) & the American Community Survey (http://www.census.gov/acs/www/).
+"For more information about Mobility: Moved, different county this state (in past year), see the dictionary at http://statecancerprofiles.cancer.gov/dictionary.php#mobility."
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+Data for United States does not include Puerto Rico.

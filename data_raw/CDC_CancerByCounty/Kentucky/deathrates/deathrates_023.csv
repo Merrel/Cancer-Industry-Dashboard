@@ -1,0 +1,160 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=21&areatype=county&cancer=001&race=01&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '21', 'areatype': 'county', 'cancer': '001', 'race': '01', 'sex': '0', 'age': '001', 'type': 'death', 'file_name': 'deathrates_023.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=21&areatype=county&cancer=001&race=01&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for Kentucky by County
+
+"All Cancer Sites, 2012-2016"
+
+"White (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 161.4?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Kentucky",21000,No,198.9 ,197.1, 200.7,9548,falling,-1.0 ,-1.1, -0.8
+"United States",00000,No,161.5 ,161.3, 161.7,501895,falling,-1.4 ,-1.4, -1.4
+"Harlan County",21095,No,291.4 ,265.7, 319.1,99,stable,0.7 ,0.0, 1.5
+"Owsley County",21189,No,289.8 ,230.8, 360.5,18,stable,0.4 ,-0.8, 1.6
+"Robertson County",21201,No,283.5 ,205.5, 385.6,10,stable,0.2 ,-1.6, 2.1
+"Wolfe County",21237,No,278.2 ,232, 331.7,27,stable,-0.2 ,-1.7, 1.3
+"Nicholas County",21181,No,277.7 ,230.8, 332.1,25,stable,-0.1 ,-0.9, 0.8
+"Gallatin County",21077,No,271.4 ,222.5, 327.9,24,stable,-0.5 ,-1.5, 0.6
+"Leslie County",21131,No,270.4 ,231.9, 313.8,37,stable,0.6 ,-0.2, 1.5
+"Breathitt County",21025,No,267.5 ,232, 307.3,44,stable,0.0 ,-1.0, 1.0
+"Perry County",21193,No,263.9 ,238.9, 290.9,86,stable,0.2 ,-0.5, 0.9
+"Whitley County",21235,No,260.6 ,238.7, 284,108,stable,0.0 ,-0.8, 0.7
+"Powell County",21197,No,257.4 ,219.6, 299.9,35,stable,-0.4 ,-1.3, 0.5
+"Lawrence County",21127,No,256.8 ,224.8, 292.3,49,stable,0.2 ,-0.3, 0.7
+"Carroll County",21041,No,256.3 ,217, 301.1,31,stable,-0.2 ,-1.1, 0.7
+"McCreary County",21147,No,255.6 ,224, 290.6,50,stable,-0.7 ,-1.6, 0.3
+"Lee County",21129,No,253.9 ,207, 309,22,stable,0.2 ,-0.9, 1.3
+"Clay County",21051,No,252.7 ,223.6, 284.8,57,stable,0.8 ,0.0, 1.6
+"Estill County",21065,No,249.9 ,217.7, 285.8,46,stable,0.5 ,-0.3, 1.3
+"Martin County",21159,No,246.4 ,210.1, 287.6,35,stable,-0.3 ,-1.4, 0.8
+"Morgan County",21175,No,245.3 ,210.5, 284.5,37,stable,0.9 ,-0.1, 1.9
+"Floyd County",21071,No,244.6 ,224.2, 266.3,113,stable,-0.4 ,-0.9, 0.1
+"Menifee County",21165,No,243.1 ,198.2, 296.4,22,stable,-0.6 ,-2.2, 1.0
+"McLean County",21149,No,240.2 ,202.9, 283.1,30,stable,-0.5 ,-1.3, 0.4
+"Hart County",21099,No,240 ,211.4, 271.6,53,stable,0.2 ,-0.6, 1.0
+"Bracken County",21023,No,238.7 ,197.8, 286,25,stable,-0.3 ,-1.4, 0.8
+"Clinton County",21053,No,236.1 ,200.2, 277.1,32,stable,-0.1 ,-1.0, 0.9
+"Rowan County",21205,No,234.3 ,207, 264.3,55,stable,0.8 ,-0.1, 1.6
+"Grayson County",21085,No,233.1 ,209.6, 258.6,75,stable,0.5 ,0.0, 1.0
+"Pike County",21195,No,232.7 ,217.4, 248.8,182,stable,-0.1 ,-0.5, 0.2
+"Johnson County",21115,No,232.5 ,207.7, 259.7,67,stable,-0.2 ,-0.9, 0.5
+"Bell County",21013,No,232.1 ,209.8, 256.3,82,falling,-0.8 ,-1.5, -0.1
+"Jackson County",21109,No,231.4 ,198.2, 268.9,37,stable,-0.2 ,-1.3, 0.8
+"Metcalfe County",21169,No,231 ,194.6, 272.8,30,stable,0.4 ,-0.7, 1.5
+"Grant County",21081,No,230.8 ,203.8, 260.5,56,stable,-0.7 ,-1.5, 0.1
+"Bath County",21011,No,230.4 ,196.8, 268.5,34,stable,0.5 ,-0.2, 1.1
+"Hancock County",21091,No,227.4 ,186.1, 275.4,22,stable,-0.2 ,-1.6, 1.3
+"Knox County",21121,No,225.8 ,204.7, 248.6,87,stable,0.1 ,-0.5, 0.8
+"Crittenden County",21055,No,224.3 ,188.5, 265.8,29,stable,-0.3 ,-1.4, 0.9
+"Union County",21225,No,224 ,191.4, 260.9,35,stable,-0.2 ,-1.1, 0.6
+"Clark County",21049,No,222.8 ,202.6, 244.5,93,stable,-4.2 ,-15.4, 8.5
+"Simpson County",21213,No,222.2 ,192.9, 254.8,43,rising,0.9 ,0.2, 1.6
+"Harrison County",21097,No,221.9 ,195, 251.6,51,stable,-0.4 ,-1.1, 0.4
+"Lewis County",21135,No,221.5 ,191, 255.8,39,stable,-0.1 ,-0.9, 0.7
+"Letcher County",21133,No,220.6 ,196.8, 246.7,67,stable,-0.7 ,-1.3, 0.0
+"Mason County",21161,No,219.4 ,191.4, 250.6,46,stable,-0.3 ,-1.0, 0.4
+"Casey County",21045,No,219.1 ,191, 250.4,46,falling,-5.8 ,-9.8, -1.6
+"Cumberland County",21057,No,218.7 ,178.8, 266.2,22,stable,0.2 ,-1.3, 1.7
+"Laurel County",21125,No,218.6 ,202.9, 235.4,149,stable,-0.1 ,-0.7, 0.4
+"Knott County",21119,No,217.4 ,188.6, 249.5,44,stable,0.0 ,-0.9, 0.8
+"Ohio County",21183,No,217 ,193.9, 242.4,66,stable,-0.6 ,-1.1, 0.0
+"Monroe County",21171,No,216.4 ,183.5, 254.1,32,stable,-0.1 ,-1.1, 0.9
+"Lincoln County",21137,No,215.5 ,192.5, 240.6,66,stable,-0.6 ,-1.2, 0.1
+"Russell County",21207,No,214.5 ,189, 242.7,54,stable,-0.2 ,-0.9, 0.6
+"Trimble County",21223,No,213.5 ,174.4, 259.1,22,stable,-0.1 ,-1.4, 1.2
+"Caldwell County",21033,No,213.3 ,182.8, 248,37,stable,-0.4 ,-1.1, 0.4
+"Pulaski County",21199,No,213.3 ,199.2, 228.3,176,stable,-0.2 ,-0.6, 0.2
+"Rockcastle County",21203,No,213.2 ,186, 243.6,46,stable,-0.1 ,-0.8, 0.6
+"Taylor County",21217,No,212.9 ,190, 237.9,65,stable,0.1 ,-0.4, 0.7
+"Henry County",21103,No,211.7 ,182.4, 244.6,39,stable,0.0 ,-0.8, 0.9
+"Livingston County",21139,No,211.6 ,177.5, 251.3,29,stable,-0.3 ,-1.3, 0.7
+"Montgomery County",21173,No,211.6 ,188.7, 236.6,64,falling,-0.9 ,-1.6, -0.1
+"Fleming County",21069,No,211.3 ,181.1, 245.4,37,stable,-0.4 ,-1.1, 0.4
+"Hopkins County",21107,No,211 ,194.2, 229,120,stable,-0.6 ,-1.1, 0.0
+"Todd County",21219,No,210.5 ,176.5, 249.4,28,stable,-0.5 ,-1.8, 0.9
+"Wayne County",21231,No,210 ,185.9, 236.5,58,stable,-0.4 ,-1.0, 0.2
+"Greenup County",21089,No,209.3 ,191.6, 228.4,106,falling,-0.8 ,-1.4, -0.2
+"Green County",21087,No,208 ,176.7, 244,32,stable,0.3 ,-0.8, 1.4
+"Mercer County",21167,No,206.3 ,182.4, 232.7,56,stable,-0.5 ,-1.3, 0.2
+"Logan County",21141,No,205.2 ,183.6, 229,67,stable,-0.3 ,-1.0, 0.3
+"Carter County",21043,No,205.1 ,184.1, 228,72,falling,-1.2 ,-1.8, -0.6
+"Hardin County",21093,No,204.9 ,192.2, 218.3,199,falling,-0.5 ,-0.8, -0.1
+"Fulton County",21075,No,204.8 ,162.9, 256.8,17,stable,-0.3 ,-1.3, 0.8
+"Franklin County",21073,No,203.6 ,187.1, 221.2,117,falling,-1.0 ,-1.5, -0.5
+"Edmonson County",21061,No,202.2 ,172, 236.8,34,falling,-1.0 ,-1.6, -0.4
+"Breckinridge County",21027,No,201.8 ,177.5, 228.8,52,falling,-1.0 ,-1.6, -0.4
+"Allen County",21003,No,201.8 ,176.9, 229.3,50,stable,-0.2 ,-1.1, 0.8
+"Marion County",21155,No,201.4 ,174.9, 230.9,43,stable,-0.5 ,-1.5, 0.6
+"Meade County",21163,No,201.3 ,177.8, 227,57,stable,-0.8 ,-1.6, 0.0
+"Anderson County",21005,No,200.8 ,176.1, 228.1,50,stable,0.0 ,-0.8, 0.9
+"Boyd County",21019,No,199.6 ,184.4, 215.9,131,falling,-1.0 ,-1.5, -0.5
+"Elliott County",21063,No,199.1 ,161.1, 244.4,20,stable,-1.4 ,-3.0, 0.3
+"Larue County",21123,No,198.5 ,170.1, 230.8,36,stable,-0.9 ,-1.8, 0.1
+"Madison County",21151,No,197.9 ,184.3, 212.1,164,falling,-0.8 ,-1.6, -0.1
+"Henderson County",21101,No,197.6 ,180.8, 215.5,107,stable,-0.4 ,-1.0, 0.2
+"Butler County",21031,No,195.6 ,165.9, 229.5,32,falling,-1.1 ,-2.0, -0.2
+"Barren County",21009,No,194.9 ,178.3, 212.8,104,stable,-0.5 ,-1.1, 0.1
+"Washington County",21229,No,194.8 ,164.3, 229.9,29,stable,-0.3 ,-1.7, 1.2
+"Lyon County",21143,No,194.4 ,160.7, 234.6,26,stable,-0.5 ,-1.7, 0.8
+"Magoffin County",21153,No,194.3 ,163.3, 229.7,29,stable,-0.6 ,-1.7, 0.5
+"Garrard County",21079,No,194.2 ,168.4, 223.1,43,stable,-0.7 ,-1.5, 0.1
+"Ballard County",21007,No,194 ,158.4, 236.2,22,falling,-1.2 ,-2.3, -0.1
+"Muhlenberg County",21177,No,193.9 ,175, 214.6,79,stable,-0.6 ,-1.2, 0.0
+"Carlisle County",21039,No,193.4 ,151.8, 244.8,15,stable,-0.9 ,-2.3, 0.5
+"Webster County",21233,No,193.2 ,163.5, 227.2,31,stable,-0.6 ,-1.4, 0.2
+"Campbell County",21037,No,190.7 ,178.7, 203.3,197,falling,-1.3 ,-1.6, -1.0
+"Pendleton County",21191,No,190.2 ,160.9, 223.4,32,falling,-1.1 ,-1.9, -0.3
+"Kenton County",21117,No,190 ,180.4, 199.9,311,falling,-1.1 ,-1.4, -0.9
+"Graves County",21083,No,188.7 ,171.3, 207.4,90,stable,-0.4 ,-0.9, 0.0
+"Daviess County",21059,No,188 ,176.9, 199.6,222,falling,-1.0 ,-1.4, -0.6
+"Trigg County",21221,No,186.5 ,159.3, 217.7,37,falling,-1.2 ,-2.0, -0.3
+"Warren County",21227,No,184.5 ,173, 196.6,200,falling,-1.0 ,-1.5, -0.6
+"Marshall County",21157,No,184.4 ,167.4, 203,88,stable,-0.5 ,-1.1, 0.2
+"Christian County",21047,No,184.3 ,167.9, 201.8,95,falling,-0.7 ,-1.3, -0.2
+"Jefferson County",21111,No,183.1 ,178.7, 187.6,1352,falling,-1.7 ,-2.1, -1.3
+"Shelby County",21211,No,180.9 ,163.4, 199.9,83,falling,-1.2 ,-2.0, -0.4
+"Calloway County",21035,No,179.7 ,162.2, 198.8,80,stable,-0.1 ,-0.6, 0.4
+"Jessamine County",21113,No,179.4 ,163, 197,92,falling,-1.4 ,-1.9, -0.9
+"Scott County",21209,No,175.2 ,157.5, 194.4,76,falling,-1.5 ,-2.1, -0.8
+"Boyle County",21021,No,175 ,156, 195.8,64,falling,-1.1 ,-1.8, -0.4
+"Boone County",21015,No,174 ,163, 185.6,198,falling,-1.3 ,-1.8, -0.9
+"Nelson County",21179,No,172.2 ,155.4, 190.4,81,falling,-2.1 ,-3.0, -1.3
+"Bullitt County",21029,No,171.2 ,158.3, 184.8,142,falling,-1.4 ,-2.0, -0.9
+"Spencer County",21215,No,170.6 ,143.3, 201.6,31,falling,-1.3 ,-2.2, -0.4
+"McCracken County",21145,No,166.8 ,154.3, 180,140,falling,-1.2 ,-1.6, -0.8
+"Bourbon County",21017,No,166.5 ,143.8, 192,40,stable,9.1 ,-8.7, 30.3
+"Woodford County",21239,No,165.2 ,144.7, 187.9,50,falling,-4.1 ,-6.0, -2.1
+"Fayette County",21067,No,162.7 ,155.7, 169.9,421,falling,-1.5 ,-1.8, -1.2
+"Adair County",21001,Yes,161.3 ,138.9, 186.5,38,falling,-1.0 ,-1.8, -0.1
+"Oldham County",21185,Yes,157 ,141.8, 173.3,89,falling,-1.6 ,-2.2, -1.1
+"Owen County",21187,Yes,155.7 ,126.9, 189.8,21,falling,-1.4 ,-2.6, -0.2
+"Hickman County",21105,Yes,146.8 ,109.2, 196.5,11,stable,-0.4 ,-1.9, 1.2
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:18 pm.
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

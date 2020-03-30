@@ -1,0 +1,78 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=41&areatype=county&cancer=018&race=00&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '41', 'areatype': 'county', 'cancer': '018', 'race': '00', 'sex': '0', 'age': '001', 'type': 'death', 'file_name': 'deathrates_019.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=41&areatype=county&cancer=018&race=00&sex=0&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for Oregon by County
+
+"Stomach, 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Oregon",41000,***,2.6 ,2.4, 2.9,124,falling,-2.4 ,-2.9, -1.9
+"United States",00000,***,3.1 ,3.1, 3.1,11305,falling,-1.8 ,-2.3, -1.4
+"Multnomah County",41051,***,3.4 ,2.8, 4.1,26,falling,-1.7 ,-2.3, -1.2
+"Marion County",41047,***,3.1 ,2.3, 4.1,11,stable,-0.4 ,-2.0, 1.2
+"Washington County",41067,***,3.1 ,2.4, 3.8,16,stable,-1.4 ,-2.8, 0.0
+"Yamhill County",41071,***,3 ,1.7, 4.9,3,*,*,*,*
+"Linn County",41043,***,2.7 ,1.7, 4.2,4,*,*,*,*
+"Clackamas County",41005,***,2.7 ,2.1, 3.5,13,falling,-2.5 ,-3.9, -1.1
+"Douglas County",41019,***,2.4 ,1.4, 3.9,4,*,*,*,*
+"Jackson County",41029,***,2.4 ,1.6, 3.4,7,falling,-3.2 ,-4.9, -1.6
+"Lane County",41039,***,2.2 ,1.6, 2.9,10,falling,-3.2 ,-4.5, -1.9
+"Deschutes County",41017,***,1.8 ,1.1, 2.8,4,*,*,*,*
+"Baker County",41001,***,* ,*, *,3 or fewer,*,*,*,*
+"Benton County",41003,***,* ,*, *,3 or fewer,*,*,*,*
+"Clatsop County",41007,***,* ,*, *,3 or fewer,*,*,*,*
+"Columbia County",41009,***,* ,*, *,3 or fewer,*,*,*,*
+"Coos County",41011,***,* ,*, *,3 or fewer,*,*,*,*
+"Crook County",41013,***,* ,*, *,3 or fewer,*,*,*,*
+"Curry County",41015,***,* ,*, *,3 or fewer,*,*,*,*
+"Gilliam County",41021,***,* ,*, *,3 or fewer,*,*,*,*
+"Grant County",41023,***,* ,*, *,3 or fewer,*,*,*,*
+"Harney County",41025,***,* ,*, *,3 or fewer,*,*,*,*
+"Hood River County",41027,***,* ,*, *,3 or fewer,*,*,*,*
+"Jefferson County",41031,***,* ,*, *,3 or fewer,*,*,*,*
+"Josephine County",41033,***,* ,*, *,3 or fewer,*,*,*,*
+"Klamath County",41035,***,* ,*, *,3 or fewer,*,*,*,*
+"Lake County",41037,***,* ,*, *,3 or fewer,*,*,*,*
+"Lincoln County",41041,***,* ,*, *,3 or fewer,*,*,*,*
+"Malheur County",41045,***,* ,*, *,3 or fewer,*,*,*,*
+"Morrow County",41049,***,* ,*, *,3 or fewer,*,*,*,*
+"Polk County",41053,***,* ,*, *,3 or fewer,*,*,*,*
+"Sherman County",41055,***,* ,*, *,3 or fewer,*,*,*,*
+"Tillamook County",41057,***,* ,*, *,3 or fewer,*,*,*,*
+"Umatilla County",41059,***,* ,*, *,3 or fewer,*,*,*,*
+"Union County",41061,***,* ,*, *,3 or fewer,*,*,*,*
+"Wallowa County",41063,***,* ,*, *,3 or fewer,*,*,*,*
+"Wasco County",41065,***,* ,*, *,3 or fewer,*,*,*,*
+"Wheeler County",41069,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 4:59 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

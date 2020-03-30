@@ -1,0 +1,104 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=36&areatype=county&cancer=040&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '36', 'areatype': 'county', 'cancer': '040', 'race': '00', 'sex': '0', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_018.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=36&areatype=county&cancer=040&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for New York by County
+
+"Pancreas (All Stages^), 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"New York(7,8)",36000,***,14 ,13.8, 14.2,3294,rising,0.4 ,0.1, 0.7
+"US (SEER+NPCR)(1,10)",00000,***,12.8 ,12.7, 12.8,47197,stable,0.4 ,-0.9, 1.7
+"Fulton County(7,8)",36035,***,18.7 ,14.5, 24,14,rising,3.1 ,0.3, 6.1
+"Greene County(7,8)",36039,***,18.5 ,14.2, 23.9,13,rising,3.2 ,1.1, 5.4
+"Herkimer County(7,8)",36043,***,17.1 ,13.3, 21.7,15,stable,1.2 ,-1.5, 3.9
+"Montgomery County(7,8)",36057,***,16.7 ,12.6, 21.9,11,stable,1.0 ,-2.3, 4.5
+"Chemung County(7,8)",36015,***,16.6 ,13.4, 20.4,20,stable,1.3 ,-1.5, 4.3
+"Tompkins County(7,8)",36109,***,16 ,12.6, 20,16,rising,3.2 ,1.1, 5.3
+"Schenectady County(7,8)",36093,***,15.9 ,13.4, 18.7,31,stable,1.6 ,0.0, 3.2
+"Orleans County(7,8)",36073,***,15.7 ,11.2, 21.6,8,stable,2.0 ,-1.9, 6.0
+"Nassau County(7,8)",36059,***,15.6 ,14.8, 16.4,280,rising,1.2 ,0.6, 1.8
+"Allegany County(7,8)",36003,***,15.5 ,11.4, 20.7,10,stable,3.3 ,-0.2, 6.9
+"Suffolk County(7,8)",36103,***,15.4 ,14.6, 16.2,282,rising,0.7 ,0.1, 1.4
+"Saratoga County(7,8)",36091,***,15.3 ,13.3, 17.6,43,stable,1.0 ,-0.7, 2.7
+"Seneca County(7,8)",36099,***,15.1 ,10.5, 21.3,7,stable,1.7 ,-2.7, 6.4
+"Erie County(7,8)",36029,***,15.1 ,14.1, 16.1,183,rising,1.1 ,0.4, 1.9
+"Niagara County(7,8)",36063,***,15 ,13.1, 17.2,45,stable,1.9 ,-0.2, 3.9
+"Albany County(7,8)",36001,***,15 ,13.2, 16.9,55,rising,2.5 ,1.1, 4.0
+"Onondaga County(7,8)",36067,***,14.9 ,13.5, 16.5,86,stable,0.9 ,-0.3, 2.0
+"Schuyler County(7)",36097,***,14.9 ,8.8, 24,4,*,*,*,*
+"Oneida County(7,8)",36065,***,14.9 ,13, 17,46,stable,1.3 ,-0.5, 3.1
+"Putnam County(7,8)",36079,***,14.8 ,11.8, 18.3,18,stable,0.3 ,-1.2, 1.8
+"Broome County(7,8)",36007,***,14.6 ,12.7, 16.9,40,rising,6.6 ,1.6, 11.8
+"Monroe County(7,8)",36055,***,14.5 ,13.4, 15.6,135,stable,0.7 ,-0.1, 1.5
+"Chenango County(7,8)",36017,***,14.4 ,10.7, 19.2,10,stable,1.4 ,-1.7, 4.6
+"Sullivan County(7,8)",36105,***,14.4 ,11.2, 18.3,15,stable,2.0 ,-2.3, 6.4
+"Dutchess County(7,8)",36027,***,14.1 ,12.4, 16,53,stable,1.2 ,-0.1, 2.5
+"Rockland County(7,8)",36087,***,14.1 ,12.4, 15.9,54,stable,-0.3 ,-1.6, 1.1
+"Oswego County(7,8)",36075,***,14 ,11.3, 17.2,20,stable,1.6 ,-1.3, 4.6
+"Bronx County(7,8)",36005,***,13.9 ,13, 14.8,193,stable,0.9 ,-0.2, 2.0
+"Clinton County(7,8)",36019,***,13.7 ,10.7, 17.5,14,stable,0.2 ,-2.3, 2.8
+"Kings County(7,8)",36047,***,13.7 ,13.1, 14.3,366,stable,-3.4 ,-7.8, 1.2
+"Rensselaer County(7,8)",36083,***,13.6 ,11.3, 16.2,27,stable,0.6 ,-1.8, 3.1
+"Richmond County(7,8)",36085,***,13.6 ,12.2, 15,77,stable,-0.2 ,-1.6, 1.2
+"Orange County(7,8)",36071,***,13.5 ,12, 15.3,56,stable,1.2 ,-0.8, 3.2
+"St. Lawrence County(7,8)",36089,***,13.5 ,10.9, 16.7,19,stable,2.4 ,-0.3, 5.2
+"Ontario County(7,8)",36069,***,13.5 ,10.9, 16.5,20,stable,0.1 ,-2.4, 2.6
+"Schoharie County(7,8)",36095,***,13.4 ,8.9, 19.8,6,stable,1.5 ,-2.7, 5.9
+"Essex County(7,8)",36031,***,13.3 ,9.5, 18.6,8,stable,0.1 ,-3.5, 4.0
+"Westchester County(7,8)",36119,***,13.2 ,12.3, 14.2,164,stable,0.5 ,-0.5, 1.4
+"Warren County(7,8)",36113,***,13.1 ,10.1, 16.9,13,stable,2.6 ,-1.0, 6.3
+"Steuben County(7,8)",36101,***,13 ,10.4, 16.2,18,stable,1.2 ,-1.8, 4.2
+"New York County(7,8)",36061,***,13 ,12.3, 13.7,249,stable,-0.2 ,-1.0, 0.7
+"Genesee County(7,8)",36037,***,12.9 ,9.6, 17.2,10,stable,-2.2 ,-6.4, 2.1
+"Washington County(7,8)",36115,***,12.9 ,9.7, 17,11,stable,0.8 ,-2.9, 4.7
+"Queens County(7,8)",36081,***,12.7 ,12.1, 13.4,339,stable,0.6 ,-0.2, 1.5
+"Cortland County(7,8)",36023,***,12.7 ,8.8, 17.9,7,stable,0.4 ,-3.4, 4.2
+"Wyoming County(7,8)",36121,***,12.7 ,8.6, 18.3,6,stable,1.8 ,-3.2, 7.1
+"Columbia County(7,8)",36021,***,12.7 ,9.6, 16.6,12,stable,-1.1 ,-4.0, 1.8
+"Lewis County(7,8)",36049,***,12.7 ,8, 19.4,5,stable,-1.7 ,-6.3, 3.0
+"Chautauqua County(7,8)",36013,***,12.6 ,10.4, 15.2,24,stable,0.4 ,-1.9, 2.7
+"Ulster County(7,8)",36111,***,12.6 ,10.6, 14.8,31,stable,-1.2 ,-3.2, 0.8
+"Jefferson County(7,8)",36045,***,12.4 ,9.6, 15.7,14,stable,2.3 ,-0.9, 5.6
+"Otsego County(7,8)",36077,***,12.1 ,9.1, 15.9,11,stable,-0.6 ,-3.9, 2.7
+"Madison County(7,8)",36053,***,11.8 ,8.8, 15.6,11,stable,15.1 ,-9.7, 46.6
+"Cayuga County(7,8)",36011,***,11.3 ,8.6, 14.7,12,stable,0.3 ,-2.7, 3.4
+"Wayne County(7,8)",36117,***,11.1 ,8.6, 14.3,13,stable,-1.3 ,-5.3, 3.0
+"Tioga County(7,8)",36107,***,11.1 ,7.8, 15.4,8,stable,-1.3 ,-4.1, 1.6
+"Livingston County(7,8)",36051,***,10.8 ,7.8, 14.7,9,stable,-1.3 ,-5.4, 3.1
+"Delaware County(7,8)",36025,***,10.7 ,7.6, 15.1,8,stable,1.5 ,-3.1, 6.3
+"Franklin County(7,8)",36033,***,10.1 ,6.8, 14.4,6,stable,-0.2 ,-4.4, 4.1
+"Yates County(7)",36123,***,9.4 ,5.5, 15.5,4,*,*,*,*
+"Cattaraugus County(7,8)",36009,***,9.2 ,6.6, 12.4,9,stable,0.7 ,-3.4, 4.9
+"Hamilton County(7)",36041,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:19 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+7 Source: SEER November 2018 submission.
+"8 Source: Incidence data provided by the SEER Program. ( http://seer.cancer.gov ) AAPCs are calculated by the Joinpoint Regression Program ( https://surveillance.cancer.gov/joinpoint/ ) and are based on APCs. Data are age-adjusted to the 2000 US standard population ( http://www.seer.cancer.gov/stdpopulations/single_age.html ) (19 age groups: <1, 1-4, 5-9, ... , 80-84,85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Population counts for denominators are based on Census populations as modifed by NCI. The 1969-2017 US Population Data ( http://seer.cancer.gov/popdata/ ) File is used with SEER November 2018 data. "
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

@@ -1,0 +1,55 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=25&areatype=county&cancer=001&race=00&sex=2&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '25', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '2', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_033.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=25&areatype=county&cancer=001&race=00&sex=2&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Massachusetts by County
+
+"All Cancer Sites (All Stages^), 2012-2016"
+
+"All Races (includes Hispanic), Female, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Massachusetts(7,8)",25000,***,439.7 ,436.9, 442.6,18987,falling,-0.4 ,-0.7, -0.1
+"US (SEER+NPCR)(1,10)",00000,***,420.9 ,420.5, 421.3,813914,stable,-0.4 ,-1.3, 0.6
+"Nantucket County(7,8)",25019,***,555.5 ,473, 648.7,34,stable,0.4 ,-1.4, 2.2
+"Dukes County(7,8)",25007,***,472.7 ,416.7, 534.9,60,stable,-0.7 ,-2.3, 1.0
+"Norfolk County(7,8)",25021,***,461.6 ,452.6, 470.8,2113,stable,-2.1 ,-5.2, 1.1
+"Plymouth County(7,8)",25023,***,459.7 ,449.2, 470.4,1571,stable,-0.4 ,-0.9, 0.1
+"Barnstable County(7,8)",25001,***,453.7 ,438.9, 469.1,934,falling,-0.6 ,-1.0, -0.2
+"Worcester County(7,8)",25027,***,452.5 ,444, 461.2,2271,rising,0.4 ,0.1, 0.7
+"Essex County(7,8)",25009,***,448.3 ,439.9, 457,2284,stable,-0.4 ,-0.9, 0.0
+"Middlesex County(7,8)",25017,***,440 ,433.9, 446.1,4247,falling,-0.4 ,-0.8, -0.1
+"Hampshire County(7,8)",25015,***,424.1 ,405.2, 443.7,420,stable,-0.2 ,-0.9, 0.5
+"Hampden County(7,8)",25013,***,421.1 ,410.5, 432,1273,falling,-0.5 ,-0.9, -0.1
+"Berkshire County(7,8)",25003,***,417.2 ,398.2, 437,421,falling,-0.7 ,-1.2, -0.2
+"Suffolk County(7,8)",25025,***,415.6 ,406.5, 424.9,1645,falling,-2.2 ,-3.0, -1.4
+"Bristol County(7,8)",25005,***,412.5 ,402.9, 422.2,1509,falling,-5.3 ,-8.6, -1.7
+"Franklin County(7,8)",25011,***,385.5 ,360.7, 411.7,206,falling,-1.2 ,-2.2, -0.2
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:17 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+7 Source: SEER November 2018 submission.
+"8 Source: Incidence data provided by the SEER Program. ( http://seer.cancer.gov ) AAPCs are calculated by the Joinpoint Regression Program ( https://surveillance.cancer.gov/joinpoint/ ) and are based on APCs. Data are age-adjusted to the 2000 US standard population ( http://www.seer.cancer.gov/stdpopulations/single_age.html ) (19 age groups: <1, 1-4, 5-9, ... , 80-84,85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Population counts for denominators are based on Census populations as modifed by NCI. The 1969-2017 US Population Data ( http://seer.cancer.gov/popdata/ ) File is used with SEER November 2018 data. "
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

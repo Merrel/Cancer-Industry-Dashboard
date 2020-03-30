@@ -1,0 +1,133 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=18&areatype=county&cancer=066&race=00&sex=1&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '18', 'areatype': 'county', 'cancer': '066', 'race': '00', 'sex': '1', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_019.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=18&areatype=county&cancer=066&race=00&sex=1&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Indiana by County
+
+"Prostate (All Stages^), 2012-2016"
+
+"All Races (includes Hispanic), Male, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Indiana(6,10)",18000,***,91.8 ,90.3, 93.2,3356,falling,-1.5 ,-2.1, -0.8
+"US (SEER+NPCR)(1,10)",00000,***,104.1 ,103.8, 104.3,187184,stable,-2.2 ,-5.2, 0.9
+"Hendricks County(6,10)",18063,***,118.7 ,107.9, 130.4,95,stable,-2.8 ,-10.4, 5.6
+"Morgan County(6,10)",18109,***,117.9 ,103.4, 134,52,stable,2.9 ,-7.8, 14.8
+"Hamilton County(6,10)",18057,***,117.7 ,109.3, 126.5,162,rising,8.1 ,2.4, 14.0
+"Jefferson County(6,10)",18077,***,114.6 ,93.7, 139,23,stable,-5.1 ,-21.2, 14.3
+"Monroe County(6,10)",18105,***,111.8 ,100.1, 124.6,69,stable,7.6 ,-1.8, 18.0
+"Benton County(6,10)",18007,***,111.2 ,74.3, 161.2,6,stable,-1.4 ,-57.3, 128.0
+"Decatur County(6,10)",18031,***,110.7 ,88.2, 137.4,17,stable,-12.9 ,-25.8, 2.2
+"Lake County(6,10)",18089,***,108.7 ,103.1, 114.5,300,stable,-4.8 ,-12.8, 3.9
+"Warren County(6,10)",18171,***,108.3 ,74.2, 155,7,stable,19.0 ,-19.5, 75.8
+"Dubois County(6,10)",18037,***,108 ,90.6, 128.1,28,stable,8.4 ,-11.3, 32.6
+"LaPorte County(6,10)",18091,***,107.8 ,96.7, 119.8,74,falling,-6.7 ,-10.4, -2.9
+"Porter County(6,10)",18127,***,107.4 ,98, 117.5,104,stable,-2.6 ,-18.1, 15.9
+"Grant County(6,10)",18053,***,104.6 ,91.2, 119.5,46,stable,-4.5 ,-10.8, 2.3
+"Tipton County(6,10)",18159,***,104 ,78.3, 136.4,11,stable,17.0 ,-16.9, 64.6
+"Starke County(6,10)",18149,***,103 ,80.8, 129.9,16,stable,-1.5 ,-27.0, 32.9
+"Ripley County(6,10)",18137,***,102.1 ,81.7, 126.4,18,stable,12.4 ,-3.2, 30.5
+"Randolph County(6,10)",18135,***,100.8 ,80.2, 125.4,17,stable,-1.3 ,-36.5, 53.5
+"Clay County(6,10)",18021,***,100.6 ,80, 125.2,17,stable,-5.0 ,-34.7, 38.3
+"Warrick County(6,10)",18173,***,100.4 ,86.2, 116.3,38,stable,-3.5 ,-17.5, 13.0
+"Knox County(6,10)",18083,***,100.3 ,82.1, 121.6,22,stable,-3.8 ,-27.0, 26.7
+"Pulaski County(6,10)",18131,***,100.3 ,73, 135.6,9,falling,-19.6 ,-24.1, -14.8
+"Delaware County(6,10)",18035,***,99.4 ,88.9, 110.9,67,stable,-7.9 ,-20.8, 7.1
+"Marion County(6,10)",18097,***,98.8 ,94.5, 103.3,422,rising,8.5 ,1.6, 15.9
+"Vermillion County(6,10)",18165,***,98.4 ,72.9, 130.9,11,stable,1.3 ,-16.3, 22.6
+"Boone County(6,10)",18011,***,98 ,83, 115.1,32,stable,2.9 ,-15.6, 25.3
+"Dearborn County(6,10)",18029,***,97.9 ,83.1, 114.8,33,stable,-2.6 ,-13.5, 9.6
+"Clinton County(6,10)",18023,***,97.5 ,78.2, 120.4,18,rising,10.9 ,2.9, 19.4
+"Howard County(6,10)",18067,***,96.9 ,85.1, 109.9,51,stable,3.1 ,-8.6, 16.2
+"Adams County(6,10)",18001,***,96.7 ,76.8, 120.1,17,stable,-1.6 ,-17.5, 17.4
+"Owen County(6,10)",18119,***,96.4 ,74.1, 124.1,14,stable,16.3 ,-13.7, 56.8
+"Vanderburgh County(6,10)",18163,***,96 ,87.5, 105.1,100,stable,-2.5 ,-11.3, 7.1
+"Posey County(6,10)",18129,***,95.5 ,75, 120.3,16,stable,-17.0 ,-41.7, 18.1
+"Carroll County(6,10)",18015,***,94.4 ,72.4, 121.7,13,rising,12.2 ,6.3, 18.5
+"Gibson County(6,10)",18051,***,93.7 ,75.5, 115.1,19,stable,1.7 ,-19.2, 28.0
+"Pike County(6,10)",18125,***,93.4 ,66.7, 128.5,8,stable,-9.3 ,-45.0, 49.5
+"Union County(6,10)",18161,***,92.8 ,56.9, 145,4,stable,3.9 ,-31.4, 57.2
+"Wayne County(6,10)",18177,***,92.7 ,80, 107,39,stable,-8.9 ,-26.0, 12.1
+"Newton County(6,10)",18111,***,92.6 ,67.3, 125.6,9,stable,-12.6 ,-37.4, 22.1
+"Lawrence County(6,10)",18093,***,92.4 ,77.8, 109.3,29,stable,-5.5 ,-21.3, 13.5
+"Vigo County(6,10)",18167,***,91.8 ,80.8, 104,53,stable,-11.3 ,-26.0, 6.4
+"Allen County(6,10)",18003,***,91.1 ,84.9, 97.7,171,stable,-4.9 ,-14.0, 5.2
+"Henry County(6,10)",18065,***,90.4 ,76.1, 106.8,29,stable,-2.6 ,-14.5, 11.1
+"Hancock County(6,10)",18059,***,89.7 ,76.9, 104,38,stable,1.2 ,-14.5, 19.8
+"Daviess County(6,10)",18027,***,89.6 ,70.9, 111.9,16,stable,-1.3 ,-26.1, 31.8
+"Shelby County(6,10)",18145,***,89.6 ,74.1, 107.7,25,stable,-4.8 ,-9.9, 0.6
+"Wabash County(6,10)",18169,***,88.8 ,71.5, 109.4,19,stable,10.5 ,-9.1, 34.4
+"Madison County(6,10)",18095,***,88.6 ,79.5, 98.4,72,falling,-7.6 ,-10.8, -4.2
+"Brown County(6,10)",18013,***,87.8 ,65.2, 117.5,11,stable,-6.8 ,-34.1, 31.7
+"Spencer County(6,10)",18147,***,87.4 ,66.8, 113,13,stable,-1.4 ,-28.7, 36.3
+"Blackford County(6,10)",18009,***,86.5 ,60.9, 120.8,8,stable,-6.1 ,-41.4, 50.2
+"Jackson County(6,10)",18071,***,86.1 ,69.9, 105,21,stable,2.1 ,-21.7, 33.1
+"Cass County(6,10)",18017,***,85.7 ,69.7, 104.6,21,stable,-14.9 ,-34.2, 10.0
+"Ohio County(6,10)",18115,***,84.8 ,50.3, 138.2,4,*,*,*,*
+"Johnson County(6,10)",18081,***,84.3 ,75.2, 94.2,66,stable,8.1 ,-4.8, 22.7
+"Rush County(6,10)",18139,***,84 ,61.4, 113.1,9,stable,3.2 ,-27.8, 47.6
+"Marshall County(6,10)",18099,***,83.5 ,69, 100.4,24,falling,-21.6 ,-33.8, -7.2
+"Bartholomew County(6,10)",18005,***,83.4 ,71.7, 96.6,38,stable,-5.3 ,-19.0, 10.9
+"Fountain County(6,10)",18045,***,83.1 ,60.9, 111.6,10,stable,-0.6 ,-34.0, 49.5
+"Jay County(6,10)",18075,***,82.1 ,60.5, 109.2,10,stable,-11.9 ,-32.0, 14.3
+"Tippecanoe County(6,10)",18157,***,80.9 ,71.9, 90.7,62,stable,1.9 ,-10.8, 16.4
+"St. Joseph County(6,10)",18141,***,80.6 ,74, 87.6,118,falling,-14.4 ,-17.8, -10.8
+"Franklin County(6,10)",18047,***,80 ,60.3, 104.6,12,stable,-11.6 ,-39.1, 28.3
+"Putnam County(6,10)",18133,***,78.9 ,63.3, 97.5,18,stable,16.9 ,-24.7, 81.4
+"Steuben County(6,10)",18151,***,77.6 ,62.1, 96.2,18,stable,-12.3 ,-37.5, 23.0
+"Elkhart County(6,10)",18039,***,77.4 ,69.9, 85.5,81,stable,-4.2 ,-15.2, 8.2
+"Kosciusko County(6,10)",18085,***,77.1 ,65.8, 89.8,35,stable,6.9 ,-7.0, 22.8
+"Parke County(6,10)",18121,***,74.3 ,54.1, 100.7,9,stable,-8.8 ,-45.2, 51.7
+"Jasper County(6,10)",18073,***,73.8 ,58.1, 92.7,16,stable,0.8 ,-21.0, 28.5
+"Miami County(6,10)",18103,***,73.5 ,58.3, 91.6,17,stable,7.4 ,-13.0, 32.7
+"Huntington County(6,10)",18069,***,72.9 ,57.2, 91.8,15,stable,-6.5 ,-44.0, 56.1
+"Jennings County(6,10)",18079,***,72.8 ,54.9, 95,12,stable,3.5 ,-40.0, 78.7
+"Greene County(6,10)",18055,***,70.5 ,55.7, 88.6,16,stable,8.6 ,-16.2, 40.7
+"Fayette County(6,10)",18041,***,69.9 ,52.2, 92.1,11,stable,-2.8 ,-30.5, 36.1
+"DeKalb County(6,10)",18033,***,69.8 ,55.4, 87.1,17,stable,-5.2 ,-21.4, 14.4
+"Orange County(6,10)",18117,***,68.5 ,49.2, 93.4,9,stable,20.1 ,-49.6, 186.6
+"Montgomery County(6,10)",18107,***,68 ,53.7, 85.2,16,stable,-6.1 ,-25.2, 18.0
+"Wells County(6,10)",18179,***,67.5 ,50.9, 88,12,stable,3.5 ,-21.9, 37.2
+"White County(6,10)",18181,***,67.2 ,51.1, 87.4,12,stable,9.3 ,-18.1, 45.8
+"Sullivan County(6,10)",18153,***,64.8 ,46.9, 87.7,9,stable,-7.7 ,-32.4, 26.2
+"Fulton County(6,10)",18049,***,64.1 ,46.4, 86.9,9,stable,-14.0 ,-35.1, 14.0
+"Noble County(6,10)",18113,***,62.5 ,49.1, 78.6,16,stable,-10.4 ,-27.3, 10.3
+"Perry County(6,10)",18123,***,62.4 ,44.4, 85.9,8,rising,21.7 ,3.9, 42.6
+"LaGrange County(6,10)",18087,***,61.2 ,46.1, 79.6,12,stable,-8.9 ,-28.4, 15.9
+"Whitley County(6,10)",18183,***,59.4 ,45.4, 76.7,13,stable,-7.2 ,-24.1, 13.4
+"Washington County(6,10)",18175,***,56.4 ,41.3, 75.6,10,stable,-1.5 ,-15.7, 15.0
+"Crawford County(6,10)",18025,***,56.2 ,34.5, 88.3,4,stable,-2.7 ,-33.9, 43.3
+"Martin County(6,10)",18101,***,54.7 ,33, 87,4,stable,-8.9 ,-51.2, 70.1
+"Scott County(6,10)",18143,***,51.6 ,35.5, 72.9,7,stable,-6.9 ,-45.8, 60.2
+"Floyd County(6,10)",18043,***,50.6 ,41.2, 61.6,22,stable,-7.2 ,-26.8, 17.6
+"Harrison County(6,10)",18061,***,49.4 ,37.3, 64.5,12,stable,-12.1 ,-41.8, 32.8
+"Clark County(6,10)",18019,***,43 ,35.9, 51.2,27,stable,-5.9 ,-30.6, 27.6
+"Switzerland County(6,10)",18155,***,* ,*, *,3 or fewer,*,*,*,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:16 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

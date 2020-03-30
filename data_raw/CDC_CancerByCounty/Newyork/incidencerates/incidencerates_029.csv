@@ -1,0 +1,107 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=36&areatype=county&cancer=001&race=03&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '36', 'areatype': 'county', 'cancer': '001', 'race': '03', 'sex': '0', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_029.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=36&areatype=county&cancer=001&race=03&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for New York by County
+
+"All Cancer Sites (All Stages^), 2012-2016"
+
+"Amer. Indian/Alaskan Native (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Incidence Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"New York(7,8)",36000,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"US (SEER+NPCR)(1,10)",00000,***,288.8 ,286, 291.6,9632,stable,-1.5 ,-4.0, 1.0
+"Albany County(7)",36001,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Allegany County(7)",36003,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Bronx County(7)",36005,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Broome County(7)",36007,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Cattaraugus County(7,8)",36009,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Cayuga County(7)",36011,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Chautauqua County(7,8)",36013,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Chemung County(7)",36015,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Chenango County(7)",36017,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Clinton County(7)",36019,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Columbia County(7)",36021,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Cortland County(7)",36023,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Delaware County(7)",36025,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Dutchess County(7)",36027,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Erie County(7,8)",36029,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Essex County(7)",36031,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Franklin County(7,8)",36033,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Fulton County(7)",36035,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Genesee County(7)",36037,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Greene County(7)",36039,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Hamilton County(7)",36041,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Herkimer County(7)",36043,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Jefferson County(7)",36045,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Kings County(7)",36047,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Lewis County(7)",36049,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Livingston County(7)",36051,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Madison County(7,8)",36053,***,§§§ ,§§§, §§§,§§§,*,*,*,*
+"Monroe County(7)",36055,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Montgomery County(7)",36057,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Nassau County(7)",36059,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"New York County(7,8)",36061,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Niagara County(7,8)",36063,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Oneida County(7)",36065,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Onondaga County(7,8)",36067,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Ontario County(7)",36069,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Orange County(7)",36071,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Orleans County(7)",36073,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Oswego County(7)",36075,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Otsego County(7)",36077,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Putnam County(7)",36079,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Queens County(7,8)",36081,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Rensselaer County(7)",36083,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Richmond County(7)",36085,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Rockland County(7)",36087,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Saratoga County(7)",36091,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Schenectady County(7)",36093,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Schoharie County(7)",36095,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Schuyler County(7)",36097,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Seneca County(7)",36099,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"St. Lawrence County(7,8)",36089,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Steuben County(7)",36101,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Suffolk County(7,8)",36103,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Sullivan County(7)",36105,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Tioga County(7)",36107,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Tompkins County(7)",36109,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Ulster County(7)",36111,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Warren County(7)",36113,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Washington County(7)",36115,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Wayne County(7)",36117,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Westchester County(7,8)",36119,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Wyoming County(7)",36121,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+"Yates County(7)",36123,***,§§§ ,§§§, §§§,§§§,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;,&sect;&sect;&sect;
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:19 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+"‡ Incidence data come from different sources. Due to different years of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. Please refer to the source for each area for additional information."
+
+Rates and trends are computed using different standards for malignancy. For more information see malignant.html.
+
+"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ]."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+"§§, §§§ Data not available [ https://statecancerprofiles.cancer.gov/datanotavailable.html ] for this combination of geography, statistic, age, and race/ethnicity."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+7 Source: SEER November 2018 submission.
+"8 Source: Incidence data provided by the SEER Program. ( http://seer.cancer.gov ) AAPCs are calculated by the Joinpoint Regression Program ( https://surveillance.cancer.gov/joinpoint/ ) and are based on APCs. Data are age-adjusted to the 2000 US standard population ( http://www.seer.cancer.gov/stdpopulations/single_age.html ) (19 age groups: <1, 1-4, 5-9, ... , 80-84,85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Population counts for denominators are based on Census populations as modifed by NCI. The 1969-2017 US Population Data ( http://seer.cancer.gov/popdata/ ) File is used with SEER November 2018 data. "
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+"Data not available [http://statecancerprofiles.cancer.gov/datanotavailable.html] for this combination of geography, cancer site, age, and race/ethnicity."
+ Statistics for minorities may be affected by inconsistent race identification between the cancer case reports (sources for numerator of rate) and data from the Census Bureau (source for denominator of rate); and from undercounts of some population groups in the census.
+Data for United States does not include Puerto Rico.

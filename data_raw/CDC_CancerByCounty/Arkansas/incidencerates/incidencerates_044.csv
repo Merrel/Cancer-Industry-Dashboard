@@ -1,0 +1,115 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=05&areatype=county&cancer=020&stage=211&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '05', 'areatype': 'county', 'cancer': '020', 'stage': '211', 'race': '00', 'sex': '0', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_044.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=05&areatype=county&cancer=020&stage=211&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for Arkansas by County
+
+"Colon & Rectum (Late Stage^), 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Percent of Cases with Late Stage
+"Arkansas(6)",05000,***,25.2 ,24.4, 26,876,57.0
+"US (SEER+NPCR)(1)",00000,***,21.5 ,21.5, 21.6,78225,55.5
+"Phillips County(6)",05107,***,40.7 ,29.8, 54.5,10,62.8
+"Arkansas County(6)",05001,***,39 ,28.3, 52.7,10,64.0
+"Lee County(6)",05077,***,38.8 ,24.7, 58.6,5,72.7
+"Prairie County(6)",05117,***,38.5 ,24, 59.5,5,75.0
+"Cross County(6)",05037,***,37.7 ,26.9, 51.6,8,56.0
+"Poinsett County(6)",05111,***,37.1 ,27.8, 48.7,11,61.5
+"Pike County(6)",05109,***,35.3 ,22.8, 52.7,5,57.8
+"Monroe County(6)",05095,***,35.2 ,21.6, 55.8,4,60.0
+"Jackson County(6)",05067,***,34.6 ,24.3, 48.2,8,55.9
+"Dallas County(6)",05039,***,34.1 ,20.1, 55.3,4,51.3
+"Clay County(6)",05021,***,33.7 ,23.7, 47,8,61.9
+"Mississippi County(6)",05093,***,33.4 ,26.4, 41.7,16,60.3
+"Fulton County(6)",05049,***,33 ,22.4, 47.9,7,63.0
+"Sevier County(6)",05133,***,32.4 ,21.6, 46.8,6,69.0
+"Greene County(6)",05055,***,32.4 ,25.6, 40.4,16,60.9
+"Bradley County(6)",05011,***,32.2 ,20.4, 49,5,54.5
+"Little River County(6)",05081,***,32.2 ,20.2, 49,5,54.5
+"Drew County(6)",05043,***,32.1 ,22, 45.4,7,62.5
+"Union County(6)",05139,***,31.1 ,24.3, 39.2,16,59.1
+"Lawrence County(6)",05075,***,30.7 ,20.9, 43.8,7,56.7
+"Van Buren County(6)",05141,***,30.3 ,21.4, 42.4,8,68.9
+"White County(6)",05145,***,30.3 ,25.3, 35.9,27,59.3
+"Perry County(6)",05105,***,30.2 ,18.4, 47.3,4,58.3
+"Desha County(6)",05041,***,29.6 ,18.4, 45.6,5,52.3
+"Randolph County(6)",05121,***,29.4 ,20.5, 41.4,7,64.9
+"Independence County(6)",05063,***,29.3 ,22.6, 37.4,14,59.1
+"Crittenden County(6)",05035,***,29 ,22.6, 36.6,15,60.7
+"Grant County(6)",05053,***,29 ,20.2, 40.8,7,61.0
+"Ouachita County(6)",05103,***,28.1 ,20.7, 37.5,10,60.0
+"Crawford County(6)",05033,***,27.8 ,22.4, 34.2,19,58.4
+"Lincoln County(6)",05079,***,27.6 ,17.2, 42.3,4,66.7
+"Stone County(6)",05137,***,27.4 ,16.9, 42.7,5,58.1
+"Ashley County(6)",05003,***,26.8 ,18.4, 37.9,7,50.7
+"Scott County(6)",05127,***,26.8 ,16, 42.8,4,57.1
+"Madison County(6)",05087,***,26.5 ,17.2, 39.3,5,55.1
+"Yell County(6)",05149,***,26.1 ,18.3, 36.5,7,68.5
+"St. Francis County(6)",05123,***,26.1 ,18.6, 35.6,8,55.3
+"Pope County(6)",05115,***,25.9 ,20.7, 32.1,18,59.9
+"Saline County(6)",05125,***,25.6 ,21.9, 29.9,34,61.2
+"Cleburne County(6)",05023,***,25.4 ,18.9, 34,11,59.1
+"Carroll County(6)",05015,***,25.4 ,18.3, 34.5,10,59.3
+"Sharp County(6)",05135,***,25.2 ,17.3, 36.3,7,58.1
+"Howard County(6)",05061,***,24.7 ,14.8, 38.9,4,54.1
+"Johnson County(6)",05071,***,24.5 ,17.2, 34.1,8,63.3
+"Washington County(6)",05143,***,24.4 ,21.4, 27.8,47,52.8
+"Garland County(6)",05051,***,24.3 ,20.7, 28.5,35,61.3
+"Craighead County(6)",05031,***,24.3 ,20.1, 29,25,62.3
+"Boone County(6)",05009,***,24.1 ,18.2, 31.5,12,53.6
+"Logan County(6)",05083,***,24.1 ,16.5, 34.2,7,54.7
+"Miller County(6)",05091,***,23.9 ,18.1, 31,12,55.7
+"Chicot County(6)",05017,***,23.9 ,13.9, 38.9,4,48.6
+"Jefferson County(6)",05069,***,23.3 ,18.8, 28.7,19,56.4
+"Baxter County(6)",05005,***,23 ,17.9, 29.5,17,57.5
+"Benton County(6)",05007,***,23 ,20.4, 25.8,57,56.6
+"Hot Spring County(6)",05059,***,22.9 ,16.9, 30.6,10,54.8
+"Franklin County(6)",05047,***,22.9 ,14.8, 34.1,5,60.5
+"Faulkner County(6)",05045,***,22.2 ,18.3, 26.6,24,51.7
+"Marion County(6)",05089,***,22 ,13.9, 33.8,6,55.8
+"Sebastian County(6)",05131,***,21.7 ,18.3, 25.5,31,51.8
+"Columbia County(6)",05027,***,21.6 ,14.5, 31.2,6,56.4
+"Conway County(6)",05029,***,21.3 ,14.5, 30.6,6,56.1
+"Lonoke County(6)",05085,***,21 ,16.5, 26.4,15,51.7
+"Pulaski County(6)",05119,***,20.2 ,18.3, 22.3,86,55.0
+"Polk County(6)",05113,***,20.2 ,13, 30.1,6,55.8
+"Izard County(6)",05065,***,18.5 ,10.9, 30.4,4,50.0
+"Hempstead County(6)",05057,***,18.3 ,11.6, 27.5,5,43.9
+"Clark County(6)",05019,***,18 ,11.6, 27,5,51.0
+"Calhoun County(6)",05013,***,* ,*, *,3 or fewer,*
+"Cleveland County(6)",05025,***,* ,*, *,3 or fewer,*
+"Lafayette County(6)",05073,***,* ,*, *,3 or fewer,*
+"Montgomery County(6)",05097,***,* ,*, *,3 or fewer,*
+"Nevada County(6)",05099,***,* ,*, *,3 or fewer,*
+"Newton County(6)",05101,***,* ,*, *,3 or fewer,*
+"Searcy County(6)",05129,***,* ,*, *,3 or fewer,*
+"Woodruff County(6)",05147,***,* ,*, *,3 or fewer,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:16 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+
+Rates are computed using cancers classified as malignant based on ICD-O-3. For more information see malignant.html.
+
+"^ Late Stage is defined as cases determined to be regional or distant. Coding is generally based on Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ] but may include other staging variables if necessary."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+6 Source: State Cancer Registry and the CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

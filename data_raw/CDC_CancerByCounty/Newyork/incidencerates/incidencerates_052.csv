@@ -1,0 +1,103 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=36&areatype=county&cancer=003&stage=211&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '36', 'areatype': 'county', 'cancer': '003', 'stage': '211', 'race': '00', 'sex': '0', 'age': '001', 'type': 'incd', 'file_name': 'incidencerates_052.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/incidencerates/index.php?stateFIPS=36&areatype=county&cancer=003&stage=211&race=00&sex=0&age=001&type=incd&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Incidence Rate Report for New York by County
+
+"Oral Cavity & Pharynx (Late Stage^), 2012-2016"
+
+"All Races (includes Hispanic), Both Sexes, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of ***?,"Age-Adjusted Incidence Rate(†) - cases per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Percent of Cases with Late Stage
+"New York(3)",36000,***,6.7 ,6.6, 6.9,1592,62.2
+"US (SEER+NPCR)(1)",00000,***,7.3 ,7.2, 7.3,27477,62.6
+"Yates County(7)",36123,***,15.6 ,9.5, 24.2,5,75.0
+"Wyoming County(7)",36121,***,11.9 ,8, 17.1,6,78.0
+"Cattaraugus County(7)",36009,***,11.1 ,8.4, 14.6,12,72.5
+"Jefferson County(7)",36045,***,10.1 ,7.6, 13.1,12,67.4
+"Delaware County(7)",36025,***,10.1 ,6.9, 14.5,7,62.1
+"Warren County(7)",36113,***,10 ,7.2, 13.6,9,63.4
+"Broome County(7)",36007,***,9.7 ,7.9, 11.7,24,63.8
+"Herkimer County(7)",36043,***,9.6 ,6.8, 13.2,8,60.9
+"Montgomery County(7)",36057,***,9.5 ,6.1, 14,6,65.1
+"Chautauqua County(7)",36013,***,9 ,7.1, 11.4,16,58.2
+"Genesee County(7)",36037,***,8.9 ,6.2, 12.6,7,66.0
+"Washington County(7)",36115,***,8.9 ,6.3, 12.3,8,69.6
+"Niagara County(7)",36063,***,8.9 ,7.3, 10.7,25,66.8
+"Ulster County(7)",36111,***,8.8 ,7.3, 10.7,23,73.9
+"Oswego County(7)",36075,***,8.6 ,6.6, 11.1,13,67.0
+"Oneida County(7)",36065,***,8.6 ,7.1, 10.2,26,65.7
+"Madison County(7)",36053,***,8.5 ,6, 11.9,8,61.5
+"Allegany County(7)",36003,***,8.5 ,5.4, 12.8,5,70.3
+"Essex County(7)",36031,***,8.4 ,5.3, 13,5,63.2
+"Orleans County(7)",36073,***,8.3 ,5.1, 12.8,4,73.3
+"Rensselaer County(7)",36083,***,8.3 ,6.6, 10.3,17,62.5
+"Cortland County(7)",36023,***,8.1 ,5.2, 12.3,5,61.0
+"Chemung County(7)",36015,***,8.1 ,5.8, 11,9,68.8
+"Albany County(7)",36001,***,8 ,6.8, 9.5,30,66.1
+"Chenango County(7)",36017,***,8 ,5.4, 11.7,6,68.9
+"Onondaga County(7)",36067,***,7.8 ,6.8, 9,45,64.1
+"Greene County(7)",36039,***,7.7 ,5.1, 11.4,6,65.1
+"Fulton County(7)",36035,***,7.7 ,5.1, 11.3,6,58.8
+"Columbia County(7)",36021,***,7.7 ,5.4, 10.8,8,75.0
+"Otsego County(7)",36077,***,7.6 ,5.1, 11.2,6,58.5
+"Wayne County(7)",36117,***,7.6 ,5.5, 10.3,9,59.5
+"Erie County(7)",36029,***,7.5 ,6.8, 8.2,91,60.9
+"Sullivan County(7)",36105,***,7.3 ,5.1, 10.2,8,79.6
+"Livingston County(7)",36051,***,7.1 ,4.5, 10.8,5,64.1
+"Suffolk County(7)",36103,***,7.1 ,6.6, 7.7,134,61.8
+"Monroe County(7)",36055,***,7.1 ,6.3, 7.9,65,61.5
+"Steuben County(7)",36101,***,7 ,5.1, 9.4,10,53.3
+"Schenectady County(7)",36093,***,6.9 ,5.3, 8.9,14,59.6
+"Tompkins County(7)",36109,***,6.9 ,4.8, 9.7,7,61.7
+"Cayuga County(7)",36011,***,6.9 ,4.8, 9.8,7,55.4
+"Bronx County(7)",36005,***,6.9 ,6.3, 7.5,100,70.2
+"Putnam County(7)",36079,***,6.9 ,5, 9.4,9,65.7
+"Saratoga County(7)",36091,***,6.9 ,5.6, 8.4,20,55.9
+"Clinton County(7)",36019,***,6.6 ,4.6, 9.3,7,55.4
+"Dutchess County(7)",36027,***,6.5 ,5.4, 7.8,25,63.1
+"Rockland County(7)",36087,***,6.5 ,5.3, 7.7,25,63.7
+"New York County(7)",36061,***,6.4 ,5.9, 6.9,121,58.2
+"Orange County(7)",36071,***,6.3 ,5.2, 7.5,27,66.3
+"Franklin County(7)",36033,***,6.2 ,3.7, 9.8,4,54.3
+"Ontario County(7)",36069,***,6 ,4.4, 8.2,9,54.8
+"Westchester County(7)",36119,***,6 ,5.4, 6.7,73,62.4
+"Richmond County(7)",36085,***,5.9 ,5.1, 6.9,34,60.9
+"Kings County(7)",36047,***,5.8 ,5.3, 6.2,154,62.5
+"Queens County(7)",36081,***,5.6 ,5.2, 6,149,62.5
+"St. Lawrence County(7)",36089,***,5.6 ,3.9, 7.7,8,56.3
+"Nassau County(7)",36059,***,5.5 ,5, 6.1,97,54.4
+"Tioga County(7)",36107,***,5 ,2.9, 8.2,4,64.3
+"Hamilton County(7)",36041,***,* ,*, *,3 or fewer,*
+"Lewis County(7)",36049,***,* ,*, *,3 or fewer,*
+"Schoharie County(7)",36095,***,* ,*, *,3 or fewer,*
+"Schuyler County(7)",36097,***,* ,*, *,3 or fewer,*
+"Seneca County(7)",36099,***,* ,*, *,3 or fewer,*
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:20 pm.
+
+*** No Healthy People 2020 Objective for this cancer.
+
+State Cancer Registries may provide more current or more local data.
+"† Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates."
+
+Rates are computed using cancers classified as malignant based on ICD-O-3. For more information see malignant.html.
+
+"^ Late Stage is defined as cases determined to be regional or distant. Coding is generally based on Surveillance, Epidemiology, and End Results (SEER) summary stage [ https://seer.cancer.gov/tools/ssm/ ] but may include other staging variables if necessary."
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3)."
+
+1 Source: CDC's National Program of Cancer Registries Cancer Surveillance System (NPCR-CSS) November 2018 data submission and SEER November 2018 submission as published in United States Cancer Statistics [https://nccd.cdc.gov/uscs/].
+3 Source: SEER November 2018 submission.  State Cancer Registry also receives funding from CDC's National Program of Cancer Registries.
+7 Source: SEER November 2018 submission.
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availablility, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.

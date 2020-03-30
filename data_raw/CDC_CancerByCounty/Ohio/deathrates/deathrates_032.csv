@@ -1,0 +1,128 @@
+------------
+DL METADATA
+ > URL: https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=39&areatype=county&cancer=001&race=00&sex=2&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1
+ > Details: {'stateFIPS': '39', 'areatype': 'county', 'cancer': '001', 'race': '00', 'sex': '2', 'age': '001', 'type': 'death', 'file_name': 'deathrates_032.csv', 'source_url': 'https://www.statecancerprofiles.cancer.gov/deathrates/index.php?stateFIPS=39&areatype=county&cancer=001&race=00&sex=2&age=001&type=death&sortVariableName=rate&sortOrder=desc&output=1'}
+------------
+Death Rate Report for Ohio by County
+
+"All Cancer Sites, 2012-2016"
+
+"All Races (includes Hispanic), Female, All Ages"
+
+Sorted by Rate
+
+County, FIPS,Met Healthy People Objective of 161.4?,"Age-Adjusted Death Rate(†) - deaths per 100,000","Lower 95% Confidence Interval","Upper 95% Confidence Interval",Average Annual Count,Recent Trend,"Recent 5-Year Trend (‡) in Death Rates","Lower 95% Confidence Interval","Upper 95% Confidence Interval"
+"Ohio",39000,Yes,151.8 ,150.5, 153,12111,falling,-1.1 ,-1.2, -1.0
+"United States",00000,Yes,137.7 ,137.4, 137.9,280047,falling,-1.4 ,-1.5, -1.4
+"Brown County",39015,No,183.9 ,162.3, 207.9,54,stable,-0.6 ,-1.3, 0.1
+"Lawrence County",39087,No,183.1 ,165.5, 202.3,82,stable,4.2 ,0.0, 8.5
+"Meigs County",39105,No,177.9 ,149.6, 210.5,30,stable,1.5 ,-0.8, 3.9
+"Adams County",39001,No,177.4 ,151.4, 207,34,stable,-0.6 ,-1.7, 0.4
+"Vinton County",39163,No,176.1 ,137.8, 222.6,15,stable,-0.5 ,-1.8, 0.8
+"Hardin County",39065,No,174.7 ,149.5, 203.2,36,stable,-0.4 ,-1.3, 0.5
+"Clark County",39023,No,172.5 ,160.8, 184.9,175,stable,-0.2 ,-0.6, 0.1
+"Marion County",39101,No,172.3 ,155, 191.1,78,stable,-0.1 ,-0.6, 0.5
+"Guernsey County",39059,No,171.8 ,151, 195,51,stable,-0.4 ,-1.1, 0.3
+"Morgan County",39115,No,171.7 ,138.6, 211.6,20,stable,0.4 ,-5.3, 6.5
+"Perry County",39127,No,169.7 ,146.2, 196.1,39,stable,-0.5 ,-1.8, 0.8
+"Madison County",39097,No,169.5 ,147.6, 194,44,falling,-1.2 ,-2.0, -0.3
+"Coshocton County",39031,No,169.3 ,147.3, 193.9,45,stable,-0.2 ,-1.1, 0.7
+"Defiance County",39039,No,169.2 ,146.9, 194.1,45,stable,-0.1 ,-0.9, 0.8
+"Harrison County",39067,No,168.7 ,137.8, 205.8,22,stable,-0.4 ,-1.6, 0.7
+"Muskingum County",39119,No,167.7 ,153.2, 183.4,103,stable,-0.5 ,-1.0, 0.0
+"Fayette County",39047,No,167.6 ,142.8, 195.9,34,stable,-0.4 ,-1.3, 0.6
+"Ross County",39141,No,166.8 ,150.8, 184.2,82,falling,-0.8 ,-1.4, -0.1
+"Van Wert County",39161,No,166.4 ,142, 194.2,36,stable,0.6 ,0.0, 1.2
+"Sandusky County",39143,No,165.7 ,148.5, 184.4,72,stable,-0.3 ,-1.0, 0.4
+"Gallia County",39053,No,163 ,138.8, 190.5,35,stable,-0.5 ,-1.6, 0.6
+"Crawford County",39033,No,163 ,144, 184.2,57,falling,-0.9 ,-1.6, -0.1
+"Champaign County",39021,No,161.9 ,140.5, 185.8,43,stable,-0.3 ,-1.3, 0.7
+"Washington County",39167,Yes,161.3 ,145.3, 178.8,78,stable,-0.2 ,-0.8, 0.5
+"Lucas County",39095,Yes,161.1 ,154.4, 168,466,falling,-0.9 ,-1.1, -0.6
+"Allen County",39003,Yes,161 ,147.8, 175.2,118,falling,-0.6 ,-1.1, -0.2
+"Jefferson County",39081,Yes,160.5 ,145.6, 176.7,92,falling,-1.0 ,-1.5, -0.6
+"Miami County",39109,Yes,160.1 ,147.1, 174,118,falling,-0.6 ,-0.9, -0.2
+"Logan County",39091,Yes,159.3 ,139.7, 181.2,50,stable,-0.6 ,-1.3, 0.0
+"Darke County",39037,Yes,159.2 ,141.2, 179.1,62,falling,-0.7 ,-1.3, -0.2
+"Preble County",39135,Yes,158.8 ,138.7, 181.3,47,stable,0.0 ,-0.7, 0.6
+"Columbiana County",39029,Yes,158.7 ,146.2, 172.2,128,falling,-0.7 ,-1.1, -0.2
+"Athens County",39009,Yes,158.4 ,139.3, 179.6,51,stable,-0.8 ,-1.6, 0.1
+"Huron County",39077,Yes,157 ,139.3, 176.4,60,stable,-0.4 ,-0.9, 0.1
+"Fulton County",39051,Yes,156.5 ,136.3, 179.1,46,stable,0.3 ,-0.6, 1.1
+"Cuyahoga County",39035,Yes,155.2 ,151.6, 158.9,1510,falling,-1.2 ,-1.3, -1.0
+"Mercer County",39107,Yes,155.2 ,134.5, 178.4,45,stable,0.1 ,-0.6, 0.9
+"Hamilton County",39061,Yes,155.1 ,150.3, 160,829,falling,-1.5 ,-1.9, -1.2
+"Wyandot County",39175,Yes,154.5 ,127.8, 185.8,26,stable,0.1 ,-1.1, 1.3
+"Hancock County",39063,Yes,154.4 ,139.3, 170.9,81,falling,-0.6 ,-1.1, -0.2
+"Portage County",39133,Yes,154.2 ,143.3, 165.9,154,falling,-0.6 ,-1.0, -0.2
+"Butler County",39017,Yes,154.2 ,146.8, 161.8,340,falling,-1.3 ,-1.6, -0.9
+"Montgomery County",39113,Yes,154 ,148.5, 159.8,608,falling,-1.1 ,-1.3, -0.8
+"Auglaize County",39011,Yes,153.9 ,135, 175,51,falling,-0.8 ,-1.4, -0.1
+"Scioto County",39145,Yes,153.9 ,139.3, 169.8,86,falling,-0.8 ,-1.4, -0.3
+"Ottawa County",39123,Yes,153.8 ,134.8, 175.1,54,stable,-0.2 ,-1.0, 0.6
+"Ashtabula County",39007,Yes,153.4 ,140.4, 167.4,109,stable,-0.5 ,-1.1, 0.0
+"Hocking County",39073,Yes,153.4 ,129.7, 180.5,31,stable,-0.7 ,-1.5, 0.0
+"Licking County",39089,Yes,153.2 ,142.9, 164.1,170,falling,-1.3 ,-1.6, -0.9
+"Pickaway County",39129,Yes,152.6 ,134.6, 172.5,53,falling,-0.9 ,-1.4, -0.3
+"Belmont County",39013,Yes,152.2 ,137.4, 168.4,85,falling,-0.6 ,-1.1, -0.1
+"Clinton County",39027,Yes,152.1 ,132.2, 174.3,44,falling,-9.1 ,-15.1, -2.7
+"Jackson County",39079,Yes,151.9 ,129.7, 177.2,35,falling,-1.0 ,-1.8, -0.2
+"Highland County",39071,Yes,151.8 ,132.3, 173.5,45,falling,-1.0 ,-1.8, -0.1
+"Mahoning County",39099,Yes,151.3 ,143.3, 159.6,301,falling,-0.7 ,-1.0, -0.5
+"Pike County",39131,Yes,151.2 ,127.3, 178.7,30,stable,-0.7 ,-1.6, 0.3
+"Shelby County",39149,Yes,150.8 ,132, 171.8,48,stable,-0.4 ,-1.0, 0.3
+"Franklin County",39049,Yes,150.7 ,146.5, 155.1,976,falling,-1.7 ,-2.2, -1.3
+"Clermont County",39025,Yes,150.7 ,141, 160.8,191,falling,-1.3 ,-1.7, -0.8
+"Erie County",39043,Yes,150.6 ,136.4, 166,90,falling,-1.1 ,-1.6, -0.5
+"Seneca County",39147,Yes,149.1 ,132.2, 167.7,61,stable,-0.5 ,-1.3, 0.2
+"Lorain County",39093,Yes,148.2 ,140.8, 155.9,320,falling,-1.0 ,-1.4, -0.6
+"Trumbull County",39155,Yes,147.7 ,139.2, 156.7,247,falling,-0.7 ,-1.1, -0.3
+"Richland County",39139,Yes,147.7 ,136.4, 159.8,137,falling,-0.7 ,-1.0, -0.4
+"Summit County",39153,Yes,146.8 ,141.4, 152.5,578,falling,-1.0 ,-1.2, -0.8
+"Lake County",39085,Yes,146.8 ,138.8, 155.3,266,falling,-1.0 ,-1.3, -0.7
+"Monroe County",39111,Yes,146.7 ,116.2, 184.1,17,stable,-0.3 ,-1.3, 0.8
+"Ashland County",39005,Yes,146.4 ,129.1, 165.6,56,stable,-2.8 ,-5.6, 0.1
+"Holmes County",39075,Yes,146.3 ,124.7, 170.6,34,stable,-0.7 ,-1.8, 0.4
+"Paulding County",39125,Yes,146 ,118.4, 179,20,stable,-0.8 ,-2.0, 0.4
+"Wayne County",39169,Yes,145.9 ,134, 158.6,116,falling,-0.8 ,-1.3, -0.3
+"Stark County",39151,Yes,144.9 ,138.6, 151.6,419,falling,-0.7 ,-1.0, -0.4
+"Union County",39159,Yes,143.2 ,123.4, 165.3,39,falling,-1.1 ,-1.9, -0.3
+"Knox County",39083,Yes,142.6 ,126.7, 160.2,61,stable,-0.6 ,-1.3, 0.0
+"Greene County",39057,Yes,142 ,132, 152.6,156,falling,-1.5 ,-2.1, -0.9
+"Wood County",39173,Yes,141 ,129.3, 153.7,111,falling,-1.1 ,-1.6, -0.6
+"Tuscarawas County",39157,Yes,140.6 ,128.1, 154,101,falling,-0.7 ,-1.3, -0.2
+"Williams County",39171,Yes,140.4 ,120.8, 162.8,39,stable,-0.7 ,-1.5, 0.1
+"Warren County",39165,Yes,138.1 ,129, 147.7,176,falling,-1.2 ,-1.6, -0.8
+"Morrow County",39117,Yes,137.1 ,116.1, 161.2,31,stable,-0.9 ,-1.9, 0.1
+"Fairfield County",39045,Yes,137 ,126.5, 148.3,129,falling,-1.3 ,-1.8, -0.9
+"Medina County",39103,Yes,134.6 ,125.1, 144.6,156,falling,-1.3 ,-1.8, -0.9
+"Henry County",39069,Yes,128.9 ,107.5, 153.8,27,stable,-0.7 ,-1.7, 0.3
+"Carroll County",39019,Yes,126.3 ,105.1, 151.2,27,falling,-1.2 ,-2.1, -0.4
+"Putnam County",39137,Yes,121.8 ,102, 144.7,29,stable,-0.6 ,-1.7, 0.5
+"Geauga County",39055,Yes,120.8 ,109.3, 133.4,87,falling,-1.2 ,-1.7, -0.6
+"Delaware County",39041,Yes,118.7 ,109.2, 128.9,118,falling,-1.6 ,-2.2, -1.0
+"Noble County",39121,Yes,114.8 ,86.4, 151.3,12,stable,-0.6 ,-2.2, 1.1
+
+Created by statecancerprofiles.cancer.gov on 03/29/2020 6:20 pm.
+
+State Cancer Registries may provide more current or more local data.
+
+
+Trend
+   Rising when 95% confidence interval of average annual percent change is above 0.
+   Stable when 95% confidence interval of average annual percent change includes 0.
+   Falling when 95% confidence interval of average annual percent change is below 0.
+
+"(†) Death data provided by the National Vital Statistics System public use data file.  Death rates calculated by the National Cancer Institute using SEER*Stat.  Death rates are age-adjusted  to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+).  The Healthy People 2020 goals are based on rates adjusted using different methods but the differences should be minimal.  Population counts for denominators are based on Census populations as modified by NCI. "
+ The 1969-2016 US Population Data File [https://seer.cancer.gov/popdata/] is used with mortality data. 
+"(‡) The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ for selected counties. \n"
+Healthy People 2020 Objectives [ https://www.healthypeople.gov/ ]provided by the Centers for Disease Control and Prevention [ https://www.cdc.gov ]. 
+
+"Health Service Areas are a single county or cluster of contiguous counties which are relatively self-contained with respect to hospital care. For more detailed information, please see the Health Service Area information page at http://statecancerprofiles.cancer.gov/hsa.php ."
+
+
+"Please note that the data comes from different sources. Due to different years ( /historicaltrend/differences.html ) of data availability, most of the trends are AAPCs based on APCs but some are APCs calculated in SEER*Stat. ( https://seer.cancer.gov/seerstat/ ) Please refer to the source for each graph for additional information. "
+
+"Interpret Rankings provides insight into interpreting cancer incidence statistics.  When the population size for a denominator is small, the rates may be unstable.  A rate is unstable when a small change in the numerator (e.g., only one or two additional cases) has a dramatic effect on the calculated rate."
+
+Data for United States does not include Puerto Rico.
