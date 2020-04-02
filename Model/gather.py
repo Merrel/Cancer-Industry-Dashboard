@@ -74,6 +74,9 @@ for idx, row in input_df.iterrows():
     df.loc[row['fips'], 'WATR'] += row['WATR']
 
 df = df.iloc[:2949, :]
+import pickle
+df.to_pickle("Final_Data")
+df.read_pickle("Final_Data")
 
 for idx, row in output_df.iterrows():
     df.loc[row['FIPS'], 'annual_count_avg'] = row['Average Annual Count']
