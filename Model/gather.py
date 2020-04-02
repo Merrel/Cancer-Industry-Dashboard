@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
-from sklearn.svm import LinearSVR
 
 input_df = pd.read_csv("../data_clean/indicators_per-industry_per-county.csv")
 
@@ -74,6 +73,8 @@ for idx, row in input_df.iterrows():
     df.loc[row['fips'], 'VADD'] += row['VADD']
     df.loc[row['fips'], 'WATR'] += row['WATR']
 
+df = df.iloc[:2949, :]
+
 for idx, row in output_df.iterrows():
     df.loc[row['FIPS'], 'annual_count_avg'] = row['Average Annual Count']
 
@@ -82,9 +83,24 @@ y = df['annual_count_avg']
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
 
-svr = LinearSVR(random_state=0, tol=1e-5).fit(X_train, y_train)
-print(svr.score(X_test, y_test))
 
-# Test single prediction for county 307
-pred = np.array(df.loc[307, :'counties']).reshape(1, -1)
-svr.predict(pred)
+from sklearn.svm import LinearSVR
+svr = LinearSVR(random_state=0, tol=1e-5).fit(X_train, y_train)
+svr.score(X_test, y_test)
+
+
+from sklearn import svm
+svm = svm.SVR().fit(X_train, y_train)
+svm.score(X_test, y_test)
+
+
+from sklearn.svm import NuSVR
+nuSVR = NuSVR().fit(X_train, y_train)
+nuSVR.score(X_test, y_test)
+
+
+from sklearn import linear_model
+ridge = linear_model.Ridge(alpha=0.5).fit(X_train, y_train)
+ridge.score(X_test, y_test)
+np.argmax(ridge.coef_)
+
