@@ -16,7 +16,7 @@ Note that log scale has been used on x axis, and we only represent x values grea
 
 2. For other parameters, it is very confusing, because for lower values of the given parameter too, the cancer incidences are all over the place, and cant follow a good trend. 
 
-   eg: the METL parameter [scatter_metl.png](see scatter_metl.png)
+   eg: the METL parameter [scatter_metl.png](scatter_metl.png)
 
    
 
