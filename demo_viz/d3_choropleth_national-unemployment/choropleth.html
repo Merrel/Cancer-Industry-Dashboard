@@ -28,13 +28,47 @@ var unemployment = d3.map();
 var path = d3.geoPath();
 
 var x = d3.scaleLinear()
-    .domain([1, 10])
-    .rangeRound([600, 860]);
+          .rangeRound([600, 860]);
 
 var color = d3.scaleThreshold()
-    .domain(d3.range(2, 10))
-    .range(d3.schemeBlues[9]);
+              .range(d3.schemePuRd[9]);
+    // .domain(d3.range(rate_step, rate_max+rate_step, rate_step))
+    // .range(d3.schemeBlues[9]);
 
+
+//
+// Load the topojson and cancer rate data
+//
+var promises = [
+  d3.json("https://d3js.org/us-10m.v1.json"),
+  d3.tsv("cancer.tsv", function(d) { unemployment.set(d.id, +d.rate); })
+]
+
+Promise.all(promises).then(ready)
+
+function ready([us]) {
+
+//
+// Establish Scales for the legend and colormap
+//
+
+// Get the range of cancer rate values
+var rate_vals = [];
+for(var key in unemployment) {
+    rate_vals.push(unemployment[key]);
+}
+
+rate_max = Math.ceil(d3.max(rate_vals) / 10) * 10
+rate_step = rate_max / 9
+
+
+x.domain([1, rate_max]);
+
+color.domain(d3.range(rate_step, rate_max+rate_step, rate_step));
+
+//
+// Draw the legend
+//
 var g = svg.append("g")
     .attr("class", "key")
     .attr("transform", "translate(0,40)");
@@ -68,14 +102,9 @@ g.call(d3.axisBottom(x)
   .select(".domain")
     .remove();
 
-var promises = [
-  d3.json("https://d3js.org/us-10m.v1.json"),
-  d3.tsv("cancer.tsv", function(d) { unemployment.set(d.id, +d.rate); })
-]
-
-Promise.all(promises).then(ready)
-
-function ready([us]) {
+//
+// Draw the map
+//
   svg.append("g")
       .attr("class", "counties")
     .selectAll("path")
