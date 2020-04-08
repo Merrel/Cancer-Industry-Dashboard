@@ -59,7 +59,7 @@ g.append("text")
     .attr("fill", "#000")
     .attr("text-anchor", "start")
     .attr("font-weight", "bold")
-    .text("Unemployment rate");
+    .text("Cancer Incidence rate");
 
 g.call(d3.axisBottom(x)
     .tickSize(13)
@@ -70,7 +70,7 @@ g.call(d3.axisBottom(x)
 
 var promises = [
   d3.json("https://d3js.org/us-10m.v1.json"),
-  d3.tsv("unemployment.tsv", function(d) { unemployment.set(d.id, +d.rate); })
+  d3.tsv("cancer.tsv", function(d) { unemployment.set(d.id, +d.rate); })
 ]
 
 Promise.all(promises).then(ready)
