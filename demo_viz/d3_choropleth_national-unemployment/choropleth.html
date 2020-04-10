@@ -71,6 +71,10 @@ Promise.all(promises).then(ready)
 
 var test = [];
 
+
+//
+// Function that runs when all data loaded
+//
 function ready(values) {
 
   test.push(values);
@@ -79,10 +83,15 @@ function ready(values) {
   // cancer1 = values[1];
   var cancer_by_type = formatData(values[1]);
 
-  console.log(cancer_by_type)
+  drawCancerMap(55)
+
+}
 
 
-  this_cancer = cancer_by_type.get(80)
+
+function drawCancerMap(cancer_id) {
+
+  this_cancer = cancer_by_type.get(cancer_id)
 
 //
 // Establish Scales for the legend and colormap

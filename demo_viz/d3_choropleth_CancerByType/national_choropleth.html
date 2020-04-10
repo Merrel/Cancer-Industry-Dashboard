@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>US County-Level Choropleth</title>
+    <!-- Include Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="national_choropleth.css">
+
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://d3js.org/topojson.v2.min.js"></script>
+  </head>
+  <body>
+      <!-- <svg width="960" height="600"></svg> -->
+      <!-- Define a set of Divs for D3 to draw into -->
+      <div id="dataSelector" class="dropDown"></div>
+      <div id="mapCanvas" class="chartbox"></div>
+      <div id="choropleth" class="chartbox"></div>
+      <!-- Call the D3 Script to build the plots -->
+      <script type="text/javascript" src="national_choropleth.js" charset="utf-8"></script>
+  </body>
+
+
+
+</html>
