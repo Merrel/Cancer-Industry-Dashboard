@@ -71,24 +71,7 @@ d3.tsv("cancer_all_types.tsv")
 Promise.all(promises).then(ready)
 
 
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-// DATA SELECTOR - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-// 
 
-// Get the available years in the data set to populate the selector
-var availableYears = Object.keys([1, 55, 71])
-
-// Draw the selector with D3
-var yearSelectBox = d3.select('#dataSelector')
-    .append('select')
-        .attr('class','select')
-        // .on('change', yearSelectCallback)
-
-var options = yearSelectBox
-    .selectAll('option')
-        .data(availableYears).enter()
-        .append('option')
-            .text(d => d)
 
 
 //
@@ -99,85 +82,104 @@ function ready(values) {
     var us_topojson = values[0];
     var cancer_byType = formatData(values[1]);
 
-    cancer_to_plot = 55
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// DATA SELECTOR - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// 
 
-    drawCancerMap(us_topojson, cancer_byType, cancer_to_plot)
+    // Get cancer keys
+    cancer_keys = [];
+    for (var i=0; i<Object.keys(cancer_by_type).length; i++){
+        new_key = parseInt(Object.keys(cancer_by_type)[i].split("$")[1])
+        cancer_keys.push(new_key)
+    }
+
+
+    // Get the available years in the data set to populate the selector
+    var availableCancerIDs = cancer_keys;
+
+    // Draw the selector with D3
+    var cancerSelectBox = d3.select('#dataSelector')
+        .append('select')
+            .attr('class','select')
+            .on('change', val => {
+                selectValue = d3.select('select').property('value')
+                console.log(selectValue)
+                updateMap(cancer_id=selectValue, isUpdate=true)
+            })
+
+    var options = cancerSelectBox
+        .selectAll('option')
+            .data(availableCancerIDs).enter()
+            .append('option')
+                .text(d => d)
+
+    // Start Drawing
+    cancer_to_plot = 71
+
+    var updateMap = function(cancer_id, isUpdate){
+        drawCancerMap(us_topojson, cancer_byType, cancer_id, isUpdate)
+    }
+
+    // updateMap()
+
+    drawCancerMap(us_topojson, cancer_byType, cancer_to_plot, isUpdate=false)
 
 }
 
-function drawCancerMap(us_data, cancer_data, cancer_id) {
+function drawCancerMap(us_data, cancer_data, cancer_id, isUpdate) {
 
-this_cancer = cancer_data.get(cancer_id)
+    console.log(isUpdate)
 
-//
-// Establish Scales for the legend and colormap
-//
+    this_cancer = cancer_data.get(cancer_id)
 
-// Get the range of cancer rate values
-rate_vals = [];
-for(var key in this_cancer) {
-    rate_vals.push(this_cancer[key]);
+    //
+    // Establish Scales for the legend and colormap
+    //
+
+    // Get the range of cancer rate values
+    rate_vals = [];
+    for(var key in this_cancer) {
+        rate_vals.push(this_cancer[key]);
+    }
+
+    rate_max = Math.ceil(d3.max(rate_vals) / 10) * 10
+    rate_step = rate_max / 9
+
+    // Set the domains for the x and color scales
+    x.domain([1, rate_max]);
+    color.domain(d3.range(rate_step, rate_max+rate_step, rate_step));
+
+
+
+    //
+    // Draw the map
+    //
+
+    if (isUpdate===false){
+        mapChart.append("g")
+        .attr('id', 'renderedCounties')
+        .attr("class", "counties")
+        .selectAll("path")
+        .data(topojson.feature(us_data, us_data.objects.counties).features)
+      .enter()
+        .append("path")
+        .style("fill", function(d) { return color(d.rate = this_cancer[d.id]); })
+        .attr("d", path)
+        // .append("title")
+        //     .text(function(d) { return d.rate + "%"; });
+        
+        mapChart.append("path")
+            .datum(topojson.mesh(us_data, us_data.objects.states, function(a, b) { return a !== b; }))
+            .attr("class", "states")
+            .attr("d", path);
+    } else {
+        mapChart
+            .select('#renderedCounties')
+            .selectAll('path')
+            .data(topojson.feature(us_data, us_data.objects.counties).features)
+            .style("fill", function(d) { return color(d.rate = this_cancer[d.id]); })
+    }
+    
 }
 
-rate_max = Math.ceil(d3.max(rate_vals) / 10) * 10
-rate_step = rate_max / 9
 
-// Set the domains for the x and color scales
-x.domain([1, rate_max]);
-color.domain(d3.range(rate_step, rate_max+rate_step, rate_step));
-
-//
-// Draw the legend
-//
-var g = svg1.append("g")
-.attr("class", "key")
-.attr("transform", "translate(0,40)");
-
-g.selectAll("rect")
-.data(color.range().map(function(d) {
-  d = color.invertExtent(d);
-  if (d[0] == null) d[0] = x.domain()[0];
-  if (d[1] == null) d[1] = x.domain()[1];
-  return d;
-}))
-.enter().append("rect")
-.attr("height", 8)
-.attr("x", function(d) { return x(d[0]); })
-.attr("width", function(d) { return x(d[1]) - x(d[0]); })
-.attr("fill", function(d) { return color(d[0]); });
-
-g.append("text")
-.attr("class", "caption")
-.attr("x", x.range()[0])
-.attr("y", -6)
-.attr("fill", "#000")
-.attr("text-anchor", "start")
-.attr("font-weight", "bold")
-.text("Cancer Incidence Rate  -  per 100,000 Individuals");
-
-g.call(d3.axisBottom(x)
-.tickSize(13)
-.tickFormat(function(x, i) { return i ? x : x; })
-.tickValues(color.domain().map(Math.round)))
-.select(".domain")
-.remove();
-
-//
-// Draw the map
-//
-
-mapChart.append("g")
-  .attr("class", "counties")
-.selectAll("path")
-.data(topojson.feature(us_data, us_data.objects.counties).features)
-.enter().append("path")
-  .attr("fill", function(d) { return color(d.rate = this_cancer[d.id]); })
-  .attr("d", path)
-.append("title")
-  .text(function(d) { return d.rate + "%"; });
-
-mapChart.append("path")
-  .datum(topojson.mesh(us_data, us_data.objects.states, function(a, b) { return a !== b; }))
-  .attr("class", "states")
-  .attr("d", path);
-}
