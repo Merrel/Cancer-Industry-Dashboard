@@ -1,6 +1,8 @@
 <html>
 	<head>
 
+		<meta charset="utf-8">
+		<title>Scatter Plot</title>
 		<style>
 		body {
 		  margin: 0 auto;
@@ -38,18 +40,18 @@
 
 	</head>
 	<body>
-
-		<div class="chart"></div>
-		<!-- Initialize a select button -->
+		<input type="checkbox" id="myCheckbox"> Use incidence rates
 		<select id="selectButton"></select>
+		<div class="chart"></div>
+		<select id="selectButton2"></select>
 		<div class="equation"></div>
 		<div class="equation"></div>
 
 		<script src="https://d3js.org/d3.v4.min.js"></script>
 		<script>
 	  var margin = {top: 20, right: 50, bottom: 60, left: 60},
-	    width = 1500 - margin.left - margin.right,
-	    height = 900 - margin.top - margin.bottom;
+	    width = 1200 - margin.left - margin.right,
+	    height = 800 - margin.top - margin.bottom;
 
 	  var svg = d3.select(".chart").append("svg")
 	      .attr("width", width + margin.left + margin.right)
@@ -75,19 +77,27 @@
 	  var yAxis = d3.axisLeft()
 	      .scale(y);
 
-	  d3.csv("../viz-data/data_viz.csv", types, function(error, data){
+	  d3.csv("../viz-data/data_viz_full.csv", types, function(error, data){
 
 		console.log(d3.max(data, function (d) { return +d.ACID }));
 
 		var columns = null;
 
 		data.forEach(function (row) {
-			  columns = Object.keys(row).slice(3,30);
+			  columns = Object.keys(row).slice(9,36);
 		});
 		
 		console.log(columns);
 
-		/* var allGroup = ["valueA", "valueB", "valueC"]
+		var allGroup = d3.map(data, function (d) { return (d.cancer) }).keys().map(Number).sort();
+
+		console.log(allGroup);
+
+		var selectedCancer = "17";
+
+		var selectedOption = "ACID";
+
+		/* var allGroup = ["valueA", "valueB", "valueC"] */
 
 		  // add the options to the button
 		  d3.select("#selectButton")
@@ -96,10 +106,11 @@
 			  .enter()
 			  .append('option')
 			  .text(function (d) { return d; }) // text showed in the menu
-			  .attr("value", function (d) { return d; }) // corresponding value returned by the button */
+			  .attr("value", function (d) { return d; }) // corresponding value returned by the button 
+			  .property("selected", function (d) { return d === '3'; });
 
 		// add the options to the button
-		  d3.select("#selectButton")
+		  d3.select("#selectButton2")
 			  .selectAll('myOptions')
 			  .data(columns)
 			  .enter()
@@ -111,9 +122,13 @@
 		
 		//document.getElementById("selectButton").align = "center";
 
+		var subData = data.filter(function (d) {
+			  return +d.cancer == selectedCancer
+		  })
 
-	    y.domain(d3.extent(data, function(d){ return +d.Cancer}));
-		x.domain([0.1, d3.max(data, function (d) { return +d.ACID })])
+
+	    y.domain(d3.extent(subData, function(d){ return +d.count}));
+		x.domain([0.1, d3.max(subData, function (d) { return +d.ACID })])
 	    //x.domain(d3.extent(data, function(d){ return d.ACID}));
 
 	    // see below for an explanation of the calcLinear function
@@ -136,31 +151,34 @@
 	        .call(yAxis);
 
 	    var dot = svg.selectAll(".point")
-	        .data(data)
+	        .data(subData)
 	      .enter().append("circle")
-		  .filter(function (d) { return +d.ACID > 0.1 })
+		  .filter(function (d) { return +d.ACID > 0.1})
+		  	//&& +d.cancer == 72
 	        .attr("class", "point")
 	        .attr("r", 3)
-	        .attr("cy", function(d){ return y(+d.Cancer); })
+	        .attr("cy", function(d){ return y(+d.count); })
 	        .attr("cx", function(d){ return x(+d.ACID); });
+
+		// text label for the y axis
+		var myText = svg.append("text")
+			  .attr("transform", "rotate(-90)")
+			  .attr("y", 0 - margin.left)
+			  .attr("x", 0 - (height / 2))
+			  .attr("dy", "1em")
+			  .style("text-anchor", "middle")
+			  .text("Cancer 17 incidents"); 
 
 		
 		// text label for the x axis
-		var myText = svg.append("text")
+		var myText2 = svg.append("text")
 			  .attr("transform",
 				  "translate(" + (width / 2) + " ," +
 				  (height + margin.top + 20) + ")")
 			  .style("text-anchor", "middle")
 			  .text("ACID levels");
 
-		  // text label for the y axis
-		  svg.append("text")
-			  .attr("transform", "rotate(-90)")
-			  .attr("y", 0 - margin.left)
-			  .attr("x", 0 - (height / 2))
-			  .attr("dy", "1em")
-			  .style("text-anchor", "middle")
-			  .text("Cancer incidents");   
+		    
 
 		/* svg.selectAll("text")
 			  .data(data)
@@ -179,10 +197,23 @@
 			  .attr("font-size", "15px")
 			  .attr("fill", "red"); */
 
-		function update(selectedGroup) {
+		function update(selectedCancer) {
+
+			console.log(selectedOption);
+
+			subData = data.filter(function (d) {
+				return +d.cancer == selectedCancer
+			})
 
 			  // Create new data with the selection?
-			  var dataFilter = data.map(function (d) { return { time: d[selectedGroup], value: d.Cancer } })
+			  //var dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.count } })
+			if (d3.select("#myCheckbox").property("checked")) {
+				dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.rate } });
+			} else {
+				dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.count } });
+			}
+
+			  //console.log(dataFilter);
 
 			  // Give these new data to update line
 			  /* line
@@ -194,7 +225,7 @@
 					  .y(function (d) { return y(+d.value) })
 				  ) */
 
-			x.domain([0.1, d3.max(dataFilter, function (d) { return +d.time })])
+			y.domain(d3.extent(dataFilter, function (d) { return +d.value }))
 
 			  dot
 				  .data(dataFilter)
@@ -204,10 +235,16 @@
 				  .attr("cx", function (d) { return x(+d.time) })
 				  .attr("cy", function (d) { return y(+d.value) });
 
-			svg.selectAll("g.x.axis")
-				.call(xAxis);
+			svg.selectAll("g.y.axis")
+				.call(yAxis);
 
-			var newText = selectedGroup + " levels";
+			//var newText = "Cancer " + selectedCancer + " incidents";
+			var newText;
+			if (d3.select("#myCheckbox").property("checked")) {
+				newText = "Cancer " + selectedCancer + " incident rates";
+			} else {
+				newText = "Cancer " + selectedCancer + " incidents";
+			}
 
 			myText
 				.transition()
@@ -220,15 +257,122 @@
 			
 		  }
 
+		function update2(selectedGroup) {
+
+			  // Create new data with the selection?
+			  //var dataFilter = subData.map(function (d) { return { time: d[selectedGroup], value: d.count } })
+			if (d3.select("#myCheckbox").property("checked")) {
+				dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.rate } });
+			} else {
+				dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.count } });
+			}
+
+			  // Give these new data to update line
+			  /* line
+				  .datum(dataFilter)
+				  .transition()
+				  .duration(1000)
+				  .attr("d", d3.line()
+					  .x(function (d) { return x(+d.time) })
+					  .y(function (d) { return y(+d.value) })
+				  ) */
+
+			  x.domain([0.1, d3.max(dataFilter, function (d) { return +d.time })])
+
+			  dot
+				  .data(dataFilter)
+				  .transition()
+				  .duration(1000)
+				  .filter(function (d) { return +d.time > 0.1 })
+				  .attr("cx", function (d) { return x(+d.time) })
+				  .attr("cy", function (d) { return y(+d.value) });
+
+			  svg.selectAll("g.x.axis")
+				  .call(xAxis);
+
+			  var newText2 = selectedGroup + " levels";
+
+			  myText2
+				  .transition()
+				  .duration(1000)
+				  .style("opacity", 0)
+				  .transition().duration(500)
+				  .style("opacity", 1)
+				  .text(newText2); //			(function (d) { return d.tag })
+
+
+		  }
+
 		  // When the button is changed, run the updateChart function
 		  d3.select("#selectButton").on("change", function (d) {
 			  // recover the option that has been chosen
-			  var selectedOption = d3.select(this).property("value")
+			  selectedCancer = d3.select(this).property("value")
 			  // run the updateChart function with this selected option
-			  update(selectedOption)
+			  update(selectedCancer)
 		  })
 
-	  });
+
+
+
+			// When the button is changed, run the updateChart function
+			d3.select("#selectButton2").on("change", function (d) {
+				// recover the option that has been chosen
+				selectedOption = d3.select(this).property("value")
+				// run the updateChart function with this selected option
+				update2(selectedOption)
+			})
+			
+
+			d3.select("#myCheckbox").on("change", function () {
+				var dataFilter;
+				if (d3.select("#myCheckbox").property("checked")) {
+					dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.rate } });
+				} else {
+					dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.count } });
+				}
+				console.log("entered");
+				console.log(dataFilter);
+
+				y.domain(d3.extent(dataFilter, function (d) { return +d.value }))
+
+				dot
+					.data(dataFilter)
+					.transition()
+					.duration(1000)
+					.filter(function (d) { return +d.time > 0.1 })
+					.attr("cx", function (d) { return x(+d.time) })
+					.attr("cy", function (d) { return y(+d.value) });
+
+				svg.selectAll("g.y.axis")
+					.call(yAxis);
+
+				var newText3;
+				if (d3.select("#myCheckbox").property("checked")) {
+					newText3 = "Cancer " + selectedCancer + " incident rates";
+				} else {
+					newText3 = "Cancer " + selectedCancer + " incidents";
+				}
+
+
+				myText
+					.transition()
+					.duration(1000)
+					.style("opacity", 0)
+					.transition().duration(500)
+					.style("opacity", 1)
+					.text(newText3); //			(function (d) { return d.tag })
+			})
+
+	});
+
+
+	
+
+
+
+
+
+
 
 	  function types(d){
 	    d.x = +d.x;
