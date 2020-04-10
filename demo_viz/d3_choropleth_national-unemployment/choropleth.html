@@ -23,7 +23,7 @@ var svg = d3.select("svg"),
     width = +svg.attr("width"),
     height = +svg.attr("height");
 
-var unemployment = d3.map();
+var cancer = d3.map();
 
 var path = d3.geoPath();
 
@@ -36,17 +36,57 @@ var color = d3.scaleThreshold()
     // .range(d3.schemeBlues[9]);
 
 
+var formatData = function(rawData) {
+
+  cancer_by_type = d3.map();
+
+  for (var i = 1; i<rawData.length; i++){
+
+    entry = rawData[i]
+
+    
+
+    cancer_id = "$" + entry.cancer
+
+    if (cancer_id in cancer_by_type) {
+      
+      this_cancer = cancer_by_type.get(entry.cancer)
+      this_cancer.id.push(entry.id)
+      this_cancer.rate.push(+entry.rate)
+
+      // print(entry.cancer)
+      
+    } else {
+      cancer_by_type.set(entry.cancer, {"id":[entry.id], "rate":[+entry.rate]})
+    }
+  }
+
+  return cancer_by_type
+}
+
+
 //
 // Load the topojson and cancer rate data
 //
 var promises = [
   d3.json("https://d3js.org/us-10m.v1.json"),
-  d3.tsv("cancer.tsv", function(d) { unemployment.set(d.id, +d.rate); })
+  d3.tsv("cancer.tsv", function(d) { cancer.set(d.id, +d.rate); }),
+  d3.tsv("cancer_all_types.tsv")
 ]
 
 Promise.all(promises).then(ready)
 
-function ready([us]) {
+var test = [];
+
+function ready(values) {
+
+  test.push(values);
+
+  us = values[0];
+  cancer1 = values[1];
+  cancer_by_type = formatData(values[2]);
+
+  console.log(cancer_by_type)
 
 //
 // Establish Scales for the legend and colormap
@@ -54,8 +94,8 @@ function ready([us]) {
 
 // Get the range of cancer rate values
 var rate_vals = [];
-for(var key in unemployment) {
-    rate_vals.push(unemployment[key]);
+for(var key in cancer) {
+    rate_vals.push(cancer[key]);
 }
 
 rate_max = Math.ceil(d3.max(rate_vals) / 10) * 10
@@ -110,7 +150,7 @@ g.call(d3.axisBottom(x)
     .selectAll("path")
     .data(topojson.feature(us, us.objects.counties).features)
     .enter().append("path")
-      .attr("fill", function(d) { return color(d.rate = unemployment.get(d.id)); })
+      .attr("fill", function(d) { return color(d.rate = cancer.get(d.id)); })
       .attr("d", path)
     .append("title")
       .text(function(d) { return d.rate + "%"; });
