@@ -93,12 +93,12 @@ g.append("text")
     .attr("fill", "#000")
     .attr("text-anchor", "start")
     .attr("font-weight", "bold")
-    .text("Cancer Incidence rate");
+    .text("Cancer Incidence Rate  -  per 100,000 Individuals");
 
 g.call(d3.axisBottom(x)
     .tickSize(13)
-    .tickFormat(function(x, i) { return i ? x : x + "%"; })
-    .tickValues(color.domain()))
+    .tickFormat(function(x, i) { return i ? x : x; })
+    .tickValues(color.domain().map(Math.round)))
   .select(".domain")
     .remove();
 
