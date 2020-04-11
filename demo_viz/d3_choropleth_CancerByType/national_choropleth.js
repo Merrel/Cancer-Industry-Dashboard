@@ -32,7 +32,7 @@ var mapChart =  svg1.append("g")
 // Define a function to format and process the cancer data
 var formatData = function(rawData, rate_col_title) {
 
-    cancer_by_type = d3.map();
+    var cancer_by_type = d3.map();
 
     for (var i = 1; i<rawData.length; i++){
 
@@ -81,12 +81,9 @@ function ready(values) {
     })
 
 
-
-
-
-// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-// DATA SELECTOR - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-// 
+    // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+    // DATA SELECTOR - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    // 
 
     // Get cancer keys
     cancer_keys = [];
@@ -101,13 +98,16 @@ function ready(values) {
     var availableCancerIDs = cancer_keys;
 
     // Draw the selector with D3
-    var cancerSelectBox = d3.select('#dataSelector')
+    cancerSelectBox = d3.select('#dataSelector')
         .append('select')
         .attr('class','select')
+        .attr('id', 'hitme')
         .on('change', val => {
-            selectValue = d3.select('select').property('value')
-            selectValue = parseInt(getKeyByValue(cancer_dict, selectValue))
-            updateMap(cancer_id=selectValue, colormap, isUpdate=true)
+
+            var viewOptions = getFormValues()
+            selected_cancer_id = parseInt(getKeyByValue(cancer_dict, viewOptions[0]))
+
+            updateMap(cancer_id=selected_cancer_id, isUpdate=true)
         })
 
     var options = cancerSelectBox
@@ -116,8 +116,17 @@ function ready(values) {
             .append('option')
                 .text(d => d)
 
-    //
-    // COLOR MAP DEFINITION
+    var dataDim = d3.select("#dataView")
+        .on("change", val => {
+
+            var viewOptions = getFormValues()
+            selected_cancer_id = parseInt(getKeyByValue(cancer_dict, viewOptions[0]))
+            
+            updateMap(cancer_id=selected_cancer_id, isUpdate=true)
+        })
+
+    // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+    // COLOR MAP DEFINITION  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     //
     define_colormap = function(cancer_id, cancer_byType, scale_type){
 
@@ -163,9 +172,27 @@ function ready(values) {
     }
 
 
+    var getFormValues = function(){
+        // Pick which data view is selected in radio buttons
+        var form = document.getElementById("dataView")
+        var view_type;
+        for(var i=0; i<form.length; i++){
+        if(form[i].checked){
+            view_type = form[i].id;}}
+
+        // Get slected value of cancer type
+        var sel = document.getElementById('hitme')
+        cancer_type = sel.options[sel.selectedIndex].value
+
+        return [cancer_type, view_type]
+    }
+
+
     var updateMap = function(cancer_id, isUpdate){
+        
         colormap = define_colormap(cancer_id, cancer_byType, scale_type="linear")
         drawCancerMap(us_topojson, cancer_byType, cancer_id, colormap, isUpdate)
+
     }
 
     // updateMap()
@@ -176,9 +203,9 @@ function ready(values) {
 
 }
 
-function drawCancerMap(us_data, cancer_data, cancer_id, colormap, isUpdate) {
+function drawCancerMap(us_data, all_cancers, cancer_id, colormap, isUpdate) {
 
-    this_cancer = cancer_data.get(cancer_id)
+    this_cancer = all_cancers.get(cancer_id)
 
     //
     // Establish Scales for the legend and colormap
