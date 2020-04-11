@@ -2,18 +2,18 @@
 // SVG Canvas Definition  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // Define margin and canvas size
 // - Credit margining style to Mike Bostock  (also just common D3 best practice)
-var margin = {top: 15, right: 90, bottom: 10, left: 10}
+const margin = {top: 15, right: 90, bottom: 10, left: 10}
 
 // Set width and height of the graph canvas
 // - note that this will be smaller than the SVG canvas
-var svgWidth = 1075
-  , svgHeight = 635
+const svgWidth = 1075
+    , svgHeight = 635
     // - set height & width of the drawing canvas element
-  , width = svgWidth - margin.left - margin.right
-  , height = svgHeight - margin.top - margin.bottom
-  , symbolSize = 40
-  , transition_time = 350
-  , circle_rad = 4
+    , width = svgWidth - margin.left - margin.right
+    , height = svgHeight - margin.top - margin.bottom
+    , symbolSize = 40
+    , transition_time = 350
+    , circle_rad = 4
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // CHART 1 Canvas
@@ -23,16 +23,27 @@ var svgWidth = 1075
 var svg1 =    d3.select("#choropleth").append("svg")
                 .attr("width", svgWidth)
                 .attr("height", svgHeight)
+                .on("click", reset);
 
 // Append 'g' element to contain graph and adjust it to fit within the margin
 var mapChart =  svg1.append("g")
                     .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
 
+// Configure the paths
+var path = d3.geoPath();
+
+// Set up zoom levels
+const zoom = d3.zoom()
+    .scaleExtent([1,8])
+    .on("zoom", zoomed)
+
+svg1.call(zoom)
+
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // DATA PROCESSING FUNCTIONS
 // 
 // Define a function to format and process the cancer data
-var formatData = function(rawData, rate_col_title) {
+function formatData(rawData, rate_col_title) {
 
     var cancer_by_type = d3.map();
 
@@ -59,7 +70,7 @@ function getKeyByValue(object, value) {
     return Object.keys(object).find(key => object[key] === value);
 }
 
-var getFormValues = function(){
+function getFormValues(){
     // Pick which data view is selected in radio buttons
     var form = document.getElementById("dataView")
     var view_type;
@@ -75,7 +86,7 @@ var getFormValues = function(){
 }
 
 // Define Color Map
-var define_colormap = function(cancer_id, allCancer, scale_type){
+function define_colormap(cancer_id, allCancer, scale_type){
 
     // Get the cancer to scale
     var thisCancer = allCancer.get(cancer_id)
@@ -118,9 +129,42 @@ var define_colormap = function(cancer_id, allCancer, scale_type){
     }
 }
 
-//
-// Load the topojson and cancer rate data
-//
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// INTERACTION FUNCTIONS
+// 
+
+function reset() {
+    svg1.transition().duration(750).call(
+      zoom.transform,
+      d3.zoomIdentity,
+      d3.zoomTransform(svg1.node()).invert([width / 2, height / 2])
+    );
+  }
+
+  function clicked(d) {
+    const [[x0, y0], [x1, y1]] = path.bounds(d);
+    d3.event.stopPropagation();
+    svg1.transition().duration(750).call(
+      zoom.transform,
+      d3.zoomIdentity
+        .translate(width / 2, height / 2)
+        .scale(Math.min(8, 0.9 / Math.max((x1 - x0) / width, (y1 - y0) / height)))
+        .translate(-(x0 + x1) / 2, -(y0 + y1) / 2),
+      d3.mouse(svg1.node())
+    );
+  }
+
+  function zoomed() {
+    const {transform} = d3.event;
+    mapChart.attr("transform", transform);
+    mapChart.attr("stroke-width", 1 / transform.k);
+  }
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// LOAD DATA
+// 
 var promises = [
 d3.json("https://d3js.org/us-10m.v1.json"),
 d3.tsv("cancer_byCounty_byType.tsv"),
@@ -129,9 +173,9 @@ d3.csv("cancer_ID_list.csv")
 
 Promise.all(promises).then(ready)
 
-//
-// Define runtime function
-//
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// MAIN RUN
+// 
 function ready(values) {
 
     var us_topojson = values[0];
@@ -204,10 +248,14 @@ function ready(values) {
         drawCancerMap(us_topojson, selectedCancerData, cancer_id, colormap, isUpdate)
     }
 
-    updateMap(1, "DeltaRate", isUpdate=false)
+    updateMap(1, "ActualRate", isUpdate=false)
 
 }
 
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// MAP DRAW
+// 
 function drawCancerMap(us_data, all_cancers, cancer_id, colormap, isUpdate) {
 
     this_cancer = all_cancers.get(cancer_id)
@@ -215,9 +263,6 @@ function drawCancerMap(us_data, all_cancers, cancer_id, colormap, isUpdate) {
     //
     // Establish Scales for the legend and colormap
     //
-
-    // Configure the paths and scales
-    var path = d3.geoPath();
 
     //
     // Draw the map
@@ -231,10 +276,11 @@ function drawCancerMap(us_data, all_cancers, cancer_id, colormap, isUpdate) {
         .data(topojson.feature(us_data, us_data.objects.counties).features)
       .enter()
         .append("path")
+        .on("click", clicked)
         .style("fill", function(d) { return colormap(d.rate = this_cancer[d.id]); })
         .attr("d", path)
-        // .append("title")
-        //     .text(function(d) { return d.rate + "%"; });
+        .append("title")
+            .text(function(d) { return d.rate + "%"; });
         
         mapChart.append("path")
             .datum(topojson.mesh(us_data, us_data.objects.states, function(a, b) { return a !== b; }))
@@ -246,6 +292,9 @@ function drawCancerMap(us_data, all_cancers, cancer_id, colormap, isUpdate) {
             .selectAll('path')
             .data(topojson.feature(us_data, us_data.objects.counties).features)
             .style("fill", function(d) { return colormap(d.rate = this_cancer[d.id]); })
+            .attr("d", path)
+            .append("title")
+                .text(function(d) { return d.rate; });
     }
     
 }
