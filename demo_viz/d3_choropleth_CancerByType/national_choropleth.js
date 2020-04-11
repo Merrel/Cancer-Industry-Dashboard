@@ -28,7 +28,9 @@ var svg1 =    d3.select("#choropleth").append("svg")
 var mapChart =  svg1.append("g")
                     .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
 
-
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// DATA PROCESSING FUNCTIONS
+// 
 // Define a function to format and process the cancer data
 var formatData = function(rawData, rate_col_title) {
 
@@ -50,9 +52,70 @@ var formatData = function(rawData, rate_col_title) {
     return cancer_by_type
 }
 
-
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// HELPER FUNCTIONS
+// 
 function getKeyByValue(object, value) {
     return Object.keys(object).find(key => object[key] === value);
+}
+
+var getFormValues = function(){
+    // Pick which data view is selected in radio buttons
+    var form = document.getElementById("dataView")
+    var view_type;
+    for(var i=0; i<form.length; i++){
+    if(form[i].checked){
+        view_type = form[i].id;}}
+
+    // Get slected value of cancer type
+    var sel = document.getElementById('hitme')
+    cancer_type = sel.options[sel.selectedIndex].value
+
+    return [cancer_type, view_type]
+}
+
+// Define Color Map
+var define_colormap = function(cancer_id, allCancer, scale_type){
+
+    // Get the cancer to scale
+    var thisCancer = allCancer.get(cancer_id)
+
+    if (scale_type == "linear"){
+        // Get the range of cancer rate values
+        rate_vals = [];
+        for(var key in thisCancer) {
+            rate_vals.push(thisCancer[key]);
+        }
+    
+        rate_max = Math.ceil(d3.max(rate_vals) / 10) * 10
+        rate_step = rate_max / 9
+
+
+        var x = d3.scaleLinear()
+            .rangeRound([600, 860])
+            .domain([1, rate_max]);
+    
+        var colormap = d3.scaleThreshold()
+            .range(d3.schemePuRd[9])
+            .domain(d3.range(rate_step, rate_max+rate_step, rate_step));
+        
+        return colormap
+    } else {
+        extent = [-50.0, 50.0]
+        color_diverging = d3.scaleDiverging([-50.0, 0, 50], d3.interpolatePuOr)
+                            // .domain([extent[0], 0, extent[1]])
+                            // .interpolator(d3.interpolateRdBu)
+    
+        
+        colormap = function(d){
+            if (Math.abs(d)>99.9){
+                d = 0
+            }
+            return color_diverging(d)
+        }
+
+        return colormap
+    }
 }
 
 //
@@ -72,10 +135,12 @@ Promise.all(promises).then(ready)
 function ready(values) {
 
     var us_topojson = values[0];
-    cancer_byType = formatData(values[1], 'rate');
+    var cancerData = {
+        'ActualRate': formatData(values[1], 'rate'),
+        'DeltaRate': formatData(values[1], 'rate_delta_percent')
+    }
 
-
-    cancer_dict = {}
+    var cancer_dict = {}
     values[2].forEach(function(item){
         cancer_dict[+item.Cancer_ID] = item.Cancer_Description
     })
@@ -86,19 +151,16 @@ function ready(values) {
     // 
 
     // Get cancer keys
-    cancer_keys = [];
-    for (var i=0; i<Object.keys(cancer_byType).length; i++){
-        new_key = parseInt(Object.keys(cancer_byType)[i].split("$")[1])
+    var cancer_keys = [];
+    for (var i=0; i<Object.keys(cancerData['ActualRate']).length; i++){
+        new_key = parseInt(Object.keys(cancerData['ActualRate'])[i].split("$")[1])
         // cancer_keys.push(new_key)
         cancer_keys.push(cancer_dict[new_key])
     }
 
-
-    // Get the available years in the data set to populate the selector
-    var availableCancerIDs = cancer_keys;
-
-    // Draw the selector with D3
-    cancerSelectBox = d3.select('#dataSelector')
+    // CANCER TYPE
+    // Draw the cancert type selector with D3
+    d3.select('#dataSelector')
         .append('select')
         .attr('class','select')
         .attr('id', 'hitme')
@@ -106,100 +168,43 @@ function ready(values) {
 
             var viewOptions = getFormValues()
             selected_cancer_id = parseInt(getKeyByValue(cancer_dict, viewOptions[0]))
+            selected_rate_type = viewOptions[1]
 
-            updateMap(cancer_id=selected_cancer_id, isUpdate=true)
+            updateMap(cancer_id=selected_cancer_id, selected_rate_type, isUpdate=true)
         })
-
-    var options = cancerSelectBox
         .selectAll('option')
-            .data(availableCancerIDs).enter()
+            .data(cancer_keys).enter()
             .append('option')
                 .text(d => d)
 
-    var dataDim = d3.select("#dataView")
+    // DATA VIEW
+    // - Add interactivity on radio button change
+    d3.select("#dataView")
         .on("change", val => {
 
             var viewOptions = getFormValues()
             selected_cancer_id = parseInt(getKeyByValue(cancer_dict, viewOptions[0]))
+            selected_rate_type = viewOptions[1]
             
-            updateMap(cancer_id=selected_cancer_id, isUpdate=true)
+            updateMap(cancer_id=selected_cancer_id, selected_rate_type, isUpdate=true)
         })
 
-    // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-    // COLOR MAP DEFINITION  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-    //
-    define_colormap = function(cancer_id, cancer_byType, scale_type){
 
-        // Get the cancer to scale
-        var this_cancer = cancer_byType.get(cancer_id)
+    var updateMap = function(cancer_id, rateType, isUpdate){
 
-        if (scale_type == "linear"){
-            // Get the range of cancer rate values
-            rate_vals = [];
-            for(var key in this_cancer) {
-                rate_vals.push(this_cancer[key]);
-            }
-        
-            rate_max = Math.ceil(d3.max(rate_vals) / 10) * 10
-            rate_step = rate_max / 9
-
-
-            var x = d3.scaleLinear()
-                .rangeRound([600, 860])
-                .domain([1, rate_max]);
-        
-            var colormap = d3.scaleThreshold()
-                .range(d3.schemePuRd[9])
-                .domain(d3.range(rate_step, rate_max+rate_step, rate_step));
-            
-            return colormap
+        if (rateType=="ActualRate"){
+            var selectedCancerData = cancerData['ActualRate']
+            colormap = define_colormap(cancer_id, selectedCancerData, scale_type="linear")
         } else {
-            extent = [-50.0, 50.0]
-            color_diverging = d3.scaleDiverging([-50.0, 0, 50], d3.interpolatePuOr)
-                                // .domain([extent[0], 0, extent[1]])
-                                // .interpolator(d3.interpolateRdBu)
-        
-            
-            colormap = function(d){
-                if (Math.abs(d)>99.9){
-                    d = 0
-                }
-                return color_diverging(d)
-            }
 
-            return colormap
+        var selectedCancerData = cancerData['DeltaRate']
+        colormap = define_colormap(cancer_id, selectedCancerData, scale_type="diverging")
         }
-    }
-
-
-    var getFormValues = function(){
-        // Pick which data view is selected in radio buttons
-        var form = document.getElementById("dataView")
-        var view_type;
-        for(var i=0; i<form.length; i++){
-        if(form[i].checked){
-            view_type = form[i].id;}}
-
-        // Get slected value of cancer type
-        var sel = document.getElementById('hitme')
-        cancer_type = sel.options[sel.selectedIndex].value
-
-        return [cancer_type, view_type]
-    }
-
-
-    var updateMap = function(cancer_id, isUpdate){
         
-        colormap = define_colormap(cancer_id, cancer_byType, scale_type="linear")
-        drawCancerMap(us_topojson, cancer_byType, cancer_id, colormap, isUpdate)
-
+        drawCancerMap(us_topojson, selectedCancerData, cancer_id, colormap, isUpdate)
     }
 
-    // updateMap()
-
-    // drawCancerMap(us_topojson, cancer_byType, cancer_to_plot, colormap, isUpdate=false)
-
-    updateMap(1, isUpdate=false)
+    updateMap(1, "DeltaRate", isUpdate=false)
 
 }
 
