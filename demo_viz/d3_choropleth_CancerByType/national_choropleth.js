@@ -51,19 +51,20 @@ var formatData = function(rawData, rate_col_title) {
 }
 
 
+function getKeyByValue(object, value) {
+    return Object.keys(object).find(key => object[key] === value);
+}
+
 //
 // Load the topojson and cancer rate data
 //
 var promises = [
 d3.json("https://d3js.org/us-10m.v1.json"),
-d3.tsv("cancer_byCounty_byType.tsv")
+d3.tsv("cancer_byCounty_byType.tsv"),
+d3.csv("cancer_ID_list.csv")
 ]
 
 Promise.all(promises).then(ready)
-
-
-
-
 
 //
 // Define runtime function
@@ -71,8 +72,17 @@ Promise.all(promises).then(ready)
 function ready(values) {
 
     var us_topojson = values[0];
-    test = values[1];
-    cancer_byType = formatData(values[1], 'rate_delta_percent');
+    cancer_byType = formatData(values[1], 'rate');
+
+
+    cancer_dict = {}
+    values[2].forEach(function(item){
+        cancer_dict[+item.Cancer_ID] = item.Cancer_Description
+    })
+
+
+
+
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 // DATA SELECTOR - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -80,9 +90,10 @@ function ready(values) {
 
     // Get cancer keys
     cancer_keys = [];
-    for (var i=0; i<Object.keys(cancer_by_type).length; i++){
-        new_key = parseInt(Object.keys(cancer_by_type)[i].split("$")[1])
-        cancer_keys.push(new_key)
+    for (var i=0; i<Object.keys(cancer_byType).length; i++){
+        new_key = parseInt(Object.keys(cancer_byType)[i].split("$")[1])
+        // cancer_keys.push(new_key)
+        cancer_keys.push(cancer_dict[new_key])
     }
 
 
@@ -92,11 +103,12 @@ function ready(values) {
     // Draw the selector with D3
     var cancerSelectBox = d3.select('#dataSelector')
         .append('select')
-            .attr('class','select')
-            .on('change', val => {
-                selectValue = d3.select('select').property('value')
-                updateMap(cancer_id=selectValue, isUpdate=true)
-            })
+        .attr('class','select')
+        .on('change', val => {
+            selectValue = d3.select('select').property('value')
+            selectValue = parseInt(getKeyByValue(cancer_dict, selectValue))
+            updateMap(cancer_id=selectValue, colormap, isUpdate=true)
+        })
 
     var options = cancerSelectBox
         .selectAll('option')
@@ -104,20 +116,67 @@ function ready(values) {
             .append('option')
                 .text(d => d)
 
-    // Start Drawing
-    cancer_to_plot = 71
+    //
+    // COLOR MAP DEFINITION
+    //
+    define_colormap = function(cancer_id, cancer_byType, scale_type){
+
+        // Get the cancer to scale
+        var this_cancer = cancer_byType.get(cancer_id)
+
+        if (scale_type == "linear"){
+            // Get the range of cancer rate values
+            rate_vals = [];
+            for(var key in this_cancer) {
+                rate_vals.push(this_cancer[key]);
+            }
+        
+            rate_max = Math.ceil(d3.max(rate_vals) / 10) * 10
+            rate_step = rate_max / 9
+
+
+            var x = d3.scaleLinear()
+                .rangeRound([600, 860])
+                .domain([1, rate_max]);
+        
+            var colormap = d3.scaleThreshold()
+                .range(d3.schemePuRd[9])
+                .domain(d3.range(rate_step, rate_max+rate_step, rate_step));
+            
+            return colormap
+        } else {
+            extent = [-50.0, 50.0]
+            color_diverging = d3.scaleDiverging([-50.0, 0, 50], d3.interpolatePuOr)
+                                // .domain([extent[0], 0, extent[1]])
+                                // .interpolator(d3.interpolateRdBu)
+        
+            
+            colormap = function(d){
+                if (Math.abs(d)>99.9){
+                    d = 0
+                }
+                return color_diverging(d)
+            }
+
+            return colormap
+        }
+    }
+
 
     var updateMap = function(cancer_id, isUpdate){
-        drawCancerMap(us_topojson, cancer_byType, cancer_id, isUpdate)
+        colormap = define_colormap(cancer_id, cancer_byType, scale_type="linear")
+        drawCancerMap(us_topojson, cancer_byType, cancer_id, colormap, isUpdate)
     }
 
     // updateMap()
 
-    drawCancerMap(us_topojson, cancer_byType, cancer_to_plot, isUpdate=false)
+    // drawCancerMap(us_topojson, cancer_byType, cancer_to_plot, colormap, isUpdate=false)
+
+    updateMap(1, isUpdate=false)
 
 }
 
-function drawCancerMap(us_data, cancer_data, cancer_id, isUpdate) {
+function drawCancerMap(us_data, cancer_data, cancer_id, colormap, isUpdate) {
 
     this_cancer = cancer_data.get(cancer_id)
 
@@ -127,28 +186,6 @@ function drawCancerMap(us_data, cancer_data, cancer_id, isUpdate) {
 
     // Configure the paths and scales
     var path = d3.geoPath();
-
-    var x = d3.scaleLinear()
-        .rangeRound([600, 860]);
-
-    var color = d3.scaleThreshold()
-            .range(d3.schemePuRd[9]);
-
-
-    // Get the range of cancer rate values
-    rate_vals = [];
-    for(var key in this_cancer) {
-        rate_vals.push(this_cancer[key]);
-    }
-
-    rate_max = Math.ceil(d3.max(rate_vals) / 10) * 10
-    rate_step = rate_max / 9
-
-    // Set the domains for the x and color scales
-    x.domain([1, rate_max]);
-    color.domain(d3.range(rate_step, rate_max+rate_step, rate_step));
-
-
 
     //
     // Draw the map
@@ -162,7 +199,7 @@ function drawCancerMap(us_data, cancer_data, cancer_id, isUpdate) {
         .data(topojson.feature(us_data, us_data.objects.counties).features)
       .enter()
         .append("path")
-        .style("fill", function(d) { return color(d.rate = this_cancer[d.id]); })
+        .style("fill", function(d) { return colormap(d.rate = this_cancer[d.id]); })
         .attr("d", path)
         // .append("title")
         //     .text(function(d) { return d.rate + "%"; });
@@ -176,7 +213,7 @@ function drawCancerMap(us_data, cancer_data, cancer_id, isUpdate) {
             .select('#renderedCounties')
             .selectAll('path')
             .data(topojson.feature(us_data, us_data.objects.counties).features)
-            .style("fill", function(d) { return color(d.rate = this_cancer[d.id]); })
+            .style("fill", function(d) { return colormap(d.rate = this_cancer[d.id]); })
     }
     
 }
