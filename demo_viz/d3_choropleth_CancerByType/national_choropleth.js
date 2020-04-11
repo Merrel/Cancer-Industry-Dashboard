@@ -85,7 +85,6 @@ function getFormValues(){
     return [cancer_type, view_type]
 }
 
-// Define Color Map
 function define_colormap(cancer_id, allCancer, scale_type){
 
     // Get the cancer to scale
@@ -134,14 +133,32 @@ function define_colormap(cancer_id, allCancer, scale_type){
 // 
 
 function reset() {
+    resetStyle()
     svg1.transition().duration(750).call(
       zoom.transform,
       d3.zoomIdentity,
       d3.zoomTransform(svg1.node()).invert([width / 2, height / 2])
     );
-  }
+}
 
-  function clicked(d) {
+function resetStyle() {
+
+    mapChart
+    .select('#renderedCounties')
+    .selectAll('path')
+    .data(topojson.feature(us_topojson, us_topojson.objects.counties).features)
+    // .style("fill", function(d) { return colormap(d.rate = this_cancer[d.id]); })
+    .style("stroke-opacity", 0)
+
+}
+
+function clicked(d) {
+    
+    resetStyle()
+    // Add stroke to selected county
+    d3.select(this).style("stroke-opacity", 1)
+
+    //
     const [[x0, y0], [x1, y1]] = path.bounds(d);
     d3.event.stopPropagation();
     svg1.transition().duration(750).call(
@@ -178,7 +195,7 @@ Promise.all(promises).then(ready)
 // 
 function ready(values) {
 
-    var us_topojson = values[0];
+    us_topojson = values[0];
     var cancerData = {
         'ActualRate': formatData(values[1], 'rate'),
         'DeltaRate': formatData(values[1], 'rate_delta_percent')
@@ -277,7 +294,11 @@ function drawCancerMap(us_data, all_cancers, cancer_id, colormap, isUpdate) {
       .enter()
         .append("path")
         .on("click", clicked)
+        .on("dblclick", reset)
         .style("fill", function(d) { return colormap(d.rate = this_cancer[d.id]); })
+        .style("stroke", "black")
+        .style("stroke-width", 0.3)
+        .style("stroke-opacity", 0)
         .attr("d", path)
         .append("title")
             .text(function(d) { return d.rate + "%"; });
