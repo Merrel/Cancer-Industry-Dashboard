@@ -28,18 +28,9 @@ var svg1 =    d3.select("#choropleth").append("svg")
 var mapChart =  svg1.append("g")
                     .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
 
-// Configure the paths and scales
-var path = d3.geoPath();
-
-var x = d3.scaleLinear()
-      .rangeRound([600, 860]);
-
-var color = d3.scaleThreshold()
-          .range(d3.schemePuRd[9]);
-
 
 // Define a function to format and process the cancer data
-var formatData = function(rawData) {
+var formatData = function(rawData, rate_col_title) {
 
     cancer_by_type = d3.map();
 
@@ -50,10 +41,10 @@ var formatData = function(rawData) {
 
         if (cancer_id in cancer_by_type) {
             this_cancer = cancer_by_type.get(entry.cancer)
-            this_cancer[entry.id] = +entry.rate;
+            this_cancer[entry.id] = +entry[rate_col_title];
         } else {
             id = entry.id;
-            cancer_by_type.set(entry.cancer, {id: +entry.rate})
+            cancer_by_type.set(entry.cancer, {id: +entry[rate_col_title]})
         }
     }
     return cancer_by_type
@@ -65,7 +56,7 @@ var formatData = function(rawData) {
 //
 var promises = [
 d3.json("https://d3js.org/us-10m.v1.json"),
-d3.tsv("cancer_all_types.tsv")
+d3.tsv("cancer_byCounty_byType.tsv")
 ]
 
 Promise.all(promises).then(ready)
@@ -80,7 +71,8 @@ Promise.all(promises).then(ready)
 function ready(values) {
 
     var us_topojson = values[0];
-    var cancer_byType = formatData(values[1]);
+    test = values[1];
+    cancer_byType = formatData(values[1], 'rate_delta_percent');
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 // DATA SELECTOR - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -103,7 +95,6 @@ function ready(values) {
             .attr('class','select')
             .on('change', val => {
                 selectValue = d3.select('select').property('value')
-                console.log(selectValue)
                 updateMap(cancer_id=selectValue, isUpdate=true)
             })
 
@@ -128,13 +119,21 @@ function ready(values) {
 
 function drawCancerMap(us_data, cancer_data, cancer_id, isUpdate) {
 
-    console.log(isUpdate)
-
     this_cancer = cancer_data.get(cancer_id)
 
     //
     // Establish Scales for the legend and colormap
     //
+
+    // Configure the paths and scales
+    var path = d3.geoPath();
+
+    var x = d3.scaleLinear()
+        .rangeRound([600, 860]);
+
+    var color = d3.scaleThreshold()
+            .range(d3.schemePuRd[9]);
+
 
     // Get the range of cancer rate values
     rate_vals = [];
