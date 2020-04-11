@@ -14,7 +14,12 @@
       <!-- <svg width="960" height="600"></svg> -->
       <!-- Define a set of Divs for D3 to draw into -->
       <div id="dataSelector" class="dropDown"></div>
-      <div id="mapCanvas" class="chartbox"></div>
+      <div id="viewSelector" class="radioButton">
+        <form id="dataView">
+          <input  type='radio' id="ActualRate" name="mode">Actual Cancer Rate</input>
+          <input type='radio' id="DeltaRate" name="mode" checked>% Change from National Avg</input>
+        </form>
+      </div>
       <div id="choropleth" class="chartbox"></div>
       <!-- Call the D3 Script to build the plots -->
       <script type="text/javascript" src="national_choropleth.js" charset="utf-8"></script>
