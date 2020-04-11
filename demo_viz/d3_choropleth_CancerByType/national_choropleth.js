@@ -152,7 +152,6 @@ function resetStyle() {
 
 }
 
-test = [];
 
 function clicked(d) {
     
@@ -163,25 +162,16 @@ function clicked(d) {
     // Get the state fips code for the selected county
     var state_fips = d.id.substr(0,2)
 
-    console.log(d.id)
-
-    console.log(state_fips)
-
+    // Pick the state to zoom to
     us_topojson.objects.states.geometries.forEach(d => {
         if (d.id == state_fips){
             d_state = d
         }
     })
-
     this_state = {type: "GeometryCollection", geometries: [d_state]}
-
     state_geo = topojson.feature(us_topojson, this_state).features[0]
 
-    test.push(d)
-    test.push(d_state)
-
-
-    //
+    // Zoom to path bounds
     const [[x0, y0], [x1, y1]] = path.bounds(state_geo);
     d3.event.stopPropagation();
     svg1.transition().duration(750).call(
