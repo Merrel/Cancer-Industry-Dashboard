@@ -165,6 +165,15 @@ def process_incidencerates_raw(state):
 ###################################################################################################
 
 def process_deathrates_raw(state):
+    '''
+    Process Death Rate Data
+        1. Load Each Pre-downloaded data
+        2. Clean (rename) columns
+        3. Join metadata to each row of subset
+        4. Combine datasets
+        5. Drow all rows with NaN
+        6. Change areatype for state and country entries
+    '''
     
     subset_key_dict = {
     'cancer_by_type': range(0,22),
@@ -212,6 +221,82 @@ def process_deathrates_raw(state):
         print(f'Data Joined and cleaned for data type {data_type} in {state}')
 
 
+
+###################################################################################################
+#
+# PROCESS DEMOGRAPHICS DATA
+#
+###################################################################################################
+
+def process_demographics_raw(state): 
+
+    subset_key_dict = {
+        'crowding': range(0,1),
+        'education': range(1,4),
+        'income': range(4,6),
+        'uninsured': range(6,7),
+        'language_isloation': range(7,8),
+        'mobility': range(8,13),
+        'age': range(13,19),
+        'race': range(19,26),
+        'sex': range(26,28),
+        'poverty': range(28,31),
+        'unemployed': range(31,32),
+    }
+
+
+    data_type = 'demographics'
+
+    # Set the data path
+    cancer_data_dir = raw_data_dir / 'CDC_CancerByCounty'
+    this_data_dir = cancer_data_dir / state / data_type
+
+    # Load the data key
+    df_key = pd.read_csv(this_data_dir / 'DATA_KEY.csv')
+    # df_key
+    
+    for subset_name, subset_range in subset_key_dict.items():
+        
+        print(f'Processing data for:\t{subset_name}')
+        
+        subset_key = df_key[df_key.index.isin(subset_range)]
+
+        # Drop all the duplicates from data key
+        subset_key = subset_key.drop_duplicates(
+            subset=[c for c in df_key.columns if 'file_name' not in c]
+            # Ignore the file_name column for deduplication
+        )
+        
+        print('Processing data for all cancer stages')
+
+
+        df_demographics = pd.concat(
+            gen_subsets(subset_key, this_data_dir, cols_to_clean=None),
+            sort=False
+        ).reset_index(drop=True)
+
+        df_demographics.rename(columns={
+            'county': 'locale',
+            'borough or census area': 'locale',
+            'parish': 'locale'
+        }, 
+                               inplace=True)
+
+        # Change areatype for state and country entries
+        df_demographics.loc[df_demographics.locale.str.contains(str.title(state)), 'areatype'] = "state"    
+        df_demographics.loc[df_demographics.locale == 'United States', 'areatype'] = "country"
+
+        # Save out the cleaned and joined dataset
+        df_demographics.to_csv(this_data_dir / f'{subset_name}-demographics.csv',
+                  index=False
+                 )
+
+###################################################################################################
+#
+# Collation Functions
+#
+###################################################################################################
+
 def combine_states(cancer_data_dir, data_type, data_subset):
     for state_dir in cancer_data_dir.iterdir():
 
@@ -219,8 +304,12 @@ def combine_states(cancer_data_dir, data_type, data_subset):
             # skip
             continue
         else:
-            df = pd.read_csv(state_dir / data_type / f'{data_subset}-{data_type}.csv')
-            df['state'] = str.lower(state_dir.name)
+            file_to_read = state_dir / data_type / f'{data_subset}-{data_type}.csv'
+            try:
+                df = pd.read_csv(file_to_read)
+                df['state'] = str.lower(state_dir.name)
+            except:
+                breakpoint()
 
         yield df
 
@@ -234,20 +323,36 @@ def collate_cancer_data(data_type):
     if not clean_data_dir.exists():
         clean_data_dir.mkdir(parents=True)
 
-
-    subset_key_list = [
-        'cancer_by_type',
-        'cancer_by_race',
-        'cancer_by_sex',
-        'cancer_by_age',
-        'cancer_all'
-    ]
+    subset_key_dict = {
+        'deathrates': [
+            'cancer_by_type',
+            'cancer_by_race',
+            'cancer_by_sex',
+            'cancer_by_age'],
+        'incidencerates': [
+            'cancer_by_type',
+            'cancer_by_race',
+            'cancer_by_sex',
+            'cancer_by_age',
+            'cancer_all'],
+        'demographics': [
+        'crowding',
+        'education',
+        'income',
+        'uninsured',
+        'language_isloation',
+        'mobility',
+        'race',
+        'sex',
+        'poverty',
+        'unemployed']
+    }
 
     # Load the cancer_id key
     cancer_id_key = pd.read_csv(repo_dir / 'data_raw' / 'cancer_ID_list.csv')
     cancer_key_dict = cancer_id_key.set_index('Cancer_ID').to_dict()['Cancer_Description']
 
-    for subset_name in subset_key_list:
+    for subset_name in subset_key_dict[data_type]:
 
         # try:
 
@@ -255,16 +360,22 @@ def collate_cancer_data(data_type):
             combine_states(cancer_data_dir, data_type, subset_name)
         )
 
-        df_consolidated = (df_consolidated
-                        .sort_values(by=['fips', 'cancer'])
-                        .drop_duplicates(subset=['locale', 'cancer'])
-        )
-
-        df_consolidated['cancer_description'] = df_consolidated.cancer.apply(
-            lambda x: cancer_key_dict[x]
-        )
+        try:
+            df_consolidated = (df_consolidated
+                            .sort_values(by=['fips', 'cancer'])
+                            .drop_duplicates(subset=['locale', 'cancer'])
+            )
         
-        df_consolidated.to_csv(clean_data_dir / f'{subset_name}.csv', index=False)
+            df_consolidated['cancer_description'] = df_consolidated.cancer.apply(
+                lambda x: cancer_key_dict[x]
+            )
+
+            df_consolidated.to_csv(clean_data_dir / f'{subset_name}.csv', index=False)
+
+        except KeyError:
+            df_consolidated.to_csv(clean_data_dir / f'{subset_name}.csv', index=False)
+        
+        
 
         # except Exception:
         #     continue
@@ -297,6 +408,7 @@ if __name__ == "__main__":
     p = mp.Pool()
     # incidence = p.map(process_incidencerates_raw, states_list)
     # death = p.map(process_deathrates_raw, states_list)
+    # demographics = p.map(process_demographics_raw, states_list)
     p.close()
 
     # Collate data from all the states
@@ -307,5 +419,6 @@ if __name__ == "__main__":
 
 
     # collate_cancer_data('incidencerates')
-    collate_cancer_data('deathrates')
+    # collate_cancer_data('deathrates')
+    collate_cancer_data('demographics')
 
