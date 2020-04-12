@@ -161,6 +161,10 @@ function clicked(d) {
     // Get the state fips code for the selected county
     var state_fips = d.id.substr(0,2)
 
+    var county_fips = d.id
+
+    console.log(county_fips)
+
     // Pick the state to zoom to
     us_topojson.objects.states.geometries.forEach(d => {
         if (d.id == state_fips){
@@ -181,6 +185,10 @@ function clicked(d) {
         .translate(-(x0 + x1) / 2, -(y0 + y1) / 2),
       d3.mouse(svg1.node())
     );
+
+    // Log top cancers
+    console.log(topCancerInFips(cancerData, county_fips, howMany=5))
+
   }
 
   function zoomed() {
@@ -188,6 +196,34 @@ function clicked(d) {
     mapChart.attr("transform", transform);
     mapChart.attr("stroke-width", 1 / transform.k);
   }
+
+function topCancerInFips(cancerData, fips, howMany=10){
+
+    rates_dict = {}
+    rates_list = []
+
+    Object.keys(cancerData.ActualRate).forEach( d=>{
+        this_key = parseInt(d.split("$")[1])
+        if (this_key!=1){
+            this_cancer = cancerData.ActualRate.get(this_key)
+            rates_dict[this_key] = parseFloat(this_cancer[fips])
+            rates_list.push(parseFloat(this_cancer[fips]))
+        }
+    })
+
+    rates_list = rates_list.sort(function(a,b) { return a - b;}).reverse()
+
+    top_cancer_list = []
+    for (var i=0; i<howMany; i++) {
+        top_cancer_list.push(
+            parseInt(getKeyByValue(rates_dict, rates_list[i]))
+        )
+    }
+
+    return top_cancer_list
+}
+
+
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -213,7 +249,7 @@ function ready(values) {
         'DeltaRate': formatData(values[1], 'rate_delta_percent')
     }
 
-    var cancer_dict = {}
+    cancer_dict = {}
     values[2].forEach(function(item){
         cancer_dict[+item.Cancer_ID] = item.Cancer_Description
     })
@@ -224,12 +260,15 @@ function ready(values) {
     // 
 
     // Get cancer keys
-    var cancer_keys = [];
-    for (var i=0; i<Object.keys(cancerData['ActualRate']).length; i++){
-        new_key = parseInt(Object.keys(cancerData['ActualRate'])[i].split("$")[1])
+    cancer_keys = [];
+
+    Object.keys(cancerData.ActualRate).forEach( d=>{
+        new_key = parseInt(d.split("$")[1])
         // cancer_keys.push(new_key)
         cancer_keys.push(cancer_dict[new_key])
-    }
+    })
+
+
 
     // CANCER TYPE
     // Draw the cancert type selector with D3
