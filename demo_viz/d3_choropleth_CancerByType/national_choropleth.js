@@ -2,7 +2,7 @@
 // SVG Canvas Definition  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // Define margin and canvas size
 // - Credit margining style to Mike Bostock  (also just common D3 best practice)
-const margin = {top: 15, right: 90, bottom: 10, left: 10}
+const margin = {top: 20, right: 40, bottom: 60, left: 120}
 
 // Set width and height of the graph canvas
 // - note that this will be smaller than the SVG canvas
@@ -28,7 +28,7 @@ var svg1 =    d3.select("#choropleth").append("svg")
 // Append 'g' element to contain graph and adjust it to fit within the margin
 var mapChart =  svg1.append("g")
                     .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
-
+                    
 // Configure the paths
 var path = d3.geoPath();
 
@@ -38,6 +38,22 @@ const zoom = d3.zoom()
     .on("zoom", zoomed)
 
 svg1.call(zoom)
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// CHART 2 Canvas
+// 
+
+// Now draw the SVG canvas and a 'g' element to house our graph
+var svg2 = d3.select("#barsTopCancer").append("svg")
+    .attr("width", svgWidth)
+    .attr("height", svgHeight/2)
+    // .attr("transform", "translate(0," + margin.top*2 + ")")
+
+// Append 'g' element to contain graph and adjust it to fit within the margin
+var barChart = svg2.append("g")
+                  .attr("id", "dynaBars")
+                  .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // DATA PROCESSING FUNCTIONS
@@ -187,15 +203,16 @@ function clicked(d) {
     );
 
     // Log top cancers
-    console.log(topCancerInFips(cancerData, county_fips, howMany=5))
+    var barData = topCancerInFips(cancerData, county_fips, howMany=5)
+    drawBars(barData, isUpdate=true)
 
-  }
+}
 
-  function zoomed() {
+function zoomed() {
     const {transform} = d3.event;
     mapChart.attr("transform", transform);
     mapChart.attr("stroke-width", 1 / transform.k);
-  }
+}
 
 function topCancerInFips(cancerData, fips, howMany=10){
 
@@ -215,14 +232,14 @@ function topCancerInFips(cancerData, fips, howMany=10){
 
     top_cancer_list = []
     for (var i=0; i<howMany; i++) {
+        id = parseInt(getKeyByValue(rates_dict, rates_list[i]))
         top_cancer_list.push(
-            parseInt(getKeyByValue(rates_dict, rates_list[i]))
+            {'cancer': cancer_dict[id], 'rate': cancerData.ActualRate.get(id)[fips]}
         )
     }
 
     return top_cancer_list
 }
-
 
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -318,6 +335,107 @@ function ready(values) {
 
     updateMap(1, "DeltaRate", isUpdate=false)
 
+
+    barData = topCancerInFips(cancerData, 21197, 5)
+
+    drawBars(barData, isUpdate=false)
+
+}
+
+
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// BAR CHART - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// 
+
+
+function drawBars(barData, isUpdate) {
+
+    barChart = d3.select("#dynaBars")
+
+    // SCALES - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    //
+    // Set up a dynamic scale for the x-axis
+    var xMax_bar = d3.max(barData, function(d) { return d.rate }),
+        xMin_bar = d3.min(barData, function(d) { return d.rate }),
+        xScale_bar = d3.scaleLinear()
+                .domain([xMin_bar, xMax_bar])              // domain of inputs;
+                .range([0, width])  // range of output draw coords in px
+
+    var barScale = d3.scaleBand()
+        .domain(barData.map(function(d) { return d.cancer }))
+        .range([0, height/2])
+        .padding(0.2)
+
+    // Axes - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    //
+    // Set up a dynamic x-axis
+
+    var xAxis = d3.axisBottom()
+                .scale(xScale_bar)
+                .tickSize(5)
+                
+    // Y Axis
+    var yAxis = d3.axisLeft()
+                .scale(barScale)
+                .ticks(10)
+
+    
+    if (isUpdate==false) {
+        barChart.append('g')
+            .attr('class', 'y axis')
+            .call(yAxis)
+            // .style('opacity', 0.0)
+
+        barChart.append('g')
+            .attr('class', 'x axis')
+            .call(xAxis)
+            .attr('transform', 'translate(0,' + height/2 + ')')
+            // .style('opacity', 0.0)
+
+        // Enter the bars d3 object to run the drawing loop for each item in the dataset
+        barChart.selectAll('rect')
+            .data(barData)
+        .enter()
+            .append('rect')
+            .attr('class', 'bar')
+            .attr('x', 0)
+            .attr('y', d => barScale(d.cancer) )
+            .attr('width', d => xScale_bar(d.rate) )
+            .attr('height', barScale.bandwidth() )
+            // .style('opacity', 0.0)
+
+    } else {
+
+        barChart.select('.x.axis')
+            .transition()
+            .duration(transition_time)
+            .call(xAxis)
+            // .style('opacity', 1.0)
+
+        barChart.select('.y.axis')
+            .transition()
+            .duration(transition_time)
+            .call(yAxis)
+            // .style('opacity', 1.0)
+
+        barChart.selectAll('rect')
+            .data(barData)
+            .transition()
+            .duration(transition_time)
+            // .ease(d3.easeElasticOut)
+            .attr('class', 'bar')
+            .attr('x', 0)
+            .attr('y', d => barScale(d.cancer) )
+            .attr('width', d => xScale_bar(d.rate) )
+            .attr('height', barScale.bandwidth() )
+            .attr('hello', d => {
+                console.log(d)
+                return 'world'
+            })
+            // .style('opacity', 1.0)
+
+    }
 }
 
 
