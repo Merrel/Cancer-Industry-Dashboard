@@ -1,0 +1,77 @@
+/* 13. Basic Styling with CSS */
+
+/* Style the lines by removing the fill and applying a stroke */
+.line {
+    fill: none;
+    stroke: #ffab00;
+    stroke-width: 2;
+}
+ 
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+/* Style the dots by assigning a fill and stroke */
+.dot {
+    fill: #ffab00;
+    stroke: #fff;
+}
+  
+/* .focus circle {
+  fill: none;
+  stroke: steelblue;
+} */
+
+/* --------------------------------------------------------------------- */
+/* Generic Axis Styling */
+.axis path,
+.axis line {
+    stroke: black;
+    shape-rendering: crispEdges;
+}
+.axis text {
+    fill: black;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Title Styling */
+.title {
+    fill: black;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Title Styling */
+.axis.label {
+    fill: black;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+text {
+    fill: black;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Print page break styling */
+@media print {
+    .pagebreak {
+        clear: both;
+        break-after: always;
+    }
+}
+
+/* Style the divs for each chart */
+.chartbox {
+    margin-top: 20px;
+    margin-bottom: 40px;
+ }
+
+ /* Bar Chart Styling */
+
+ .bar {
+    fill: rgb(1, 64, 116);
+ }

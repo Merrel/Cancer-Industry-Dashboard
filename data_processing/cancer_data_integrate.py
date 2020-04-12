@@ -356,15 +356,12 @@ def collate_cancer_data(data_type):
 
         # try:
 
-        df_consolidated = pd.concat(
-            combine_states(cancer_data_dir, data_type, subset_name)
-        )
+        df_consolidated = pd.concat(combine_states(cancer_data_dir, data_type, subset_name))
 
         try:
-            df_consolidated = (df_consolidated
-                            .sort_values(by=['fips', 'cancer'])
-                            .drop_duplicates(subset=['locale', 'cancer'])
-            )
+            # df_consolidated = (df_consolidated.sort_values(by=['fips', 'cancer']))#.drop_duplicates(subset=['locale', 'cancer']))
+            df_consolidated.sort_values(by=['fips', 'cancer'], inplace=True)
+            # df_consolidated.drop_duplicates(subset=['locale', 'cancer'], inplace=True)
         
             df_consolidated['cancer_description'] = df_consolidated.cancer.apply(
                 lambda x: cancer_key_dict[x]
@@ -404,6 +401,8 @@ if __name__ == "__main__":
     # for state in states_list[40:]:
         # process_incidencerates_raw(state)
 
+    # process_incidencerates_raw(states_list[30])
+
     # Multiprocessing to collect all the states
     p = mp.Pool()
     # incidence = p.map(process_incidencerates_raw, states_list)
@@ -418,7 +417,7 @@ if __name__ == "__main__":
     cancer_key_dict = cancer_id_key.set_index('Cancer_ID').to_dict()['Cancer_Description']
 
 
-    # collate_cancer_data('incidencerates')
-    # collate_cancer_data('deathrates')
+    collate_cancer_data('incidencerates')
+    collate_cancer_data('deathrates')
     collate_cancer_data('demographics')
 

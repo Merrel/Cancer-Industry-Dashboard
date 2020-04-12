@@ -1,4 +1,10 @@
 
+ /* Bar Chart Styling */
+
+ .bar {
+  fill: rgb(1, 64, 116);
+}
+
 /* --------------------------------------------------------------------- */
 /* Generic Text Styling */
 text {
@@ -49,3 +55,4 @@ text {
     stroke: #fff;
     stroke-linejoin: round;
   }
+
