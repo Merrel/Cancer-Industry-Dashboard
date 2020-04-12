@@ -299,6 +299,14 @@ function drawCancerMap(us_data, all_cancers, cancer_id, colormap, isUpdate) {
     //
 
     if (isUpdate===false){
+
+
+        mapChart.append("path")
+            .attr("d", path(topojson.feature(us_data, us_data.objects.nation)))
+            .style("fill", "url(#smalldot)")
+            .style("stroke", "black")
+            .style("stroke-width", 1)
+
         mapChart.append("g")
         .attr('id', 'renderedCounties')
         .attr("class", "counties")
@@ -319,7 +327,12 @@ function drawCancerMap(us_data, all_cancers, cancer_id, colormap, isUpdate) {
         mapChart.append("path")
             .datum(topojson.mesh(us_data, us_data.objects.states, function(a, b) { return a !== b; }))
             .attr("class", "states")
+            .style("stroke", "#aaabad")
+            .style("stroke-width", 1)
             .attr("d", path);
+
+
+
     } else {
         mapChart
             .select('#renderedCounties')
