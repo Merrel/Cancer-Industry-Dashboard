@@ -111,14 +111,13 @@ function define_colormap(cancer_id, allCancer, scale_type){
         
         return colormap
     } else {
-        extent = [-50.0, 50.0]
-        color_diverging = d3.scaleDiverging([-50.0, 0, 50], d3.interpolatePuOr)
+        color_diverging = d3.scaleDiverging([-100.0, 0, 100], d3.interpolatePuOr)
                             // .domain([extent[0], 0, extent[1]])
                             // .interpolator(d3.interpolateRdBu)
     
         
         colormap = function(d){
-            if (Math.abs(d)>99.9){
+            if (Math.abs(d)==100){
                 d = 0
             }
             return color_diverging(d)
@@ -209,7 +208,7 @@ Promise.all(promises).then(ready)
 function ready(values) {
 
     us_topojson = values[0];
-    var cancerData = {
+    cancerData = {
         'ActualRate': formatData(values[1], 'rate'),
         'DeltaRate': formatData(values[1], 'rate_delta_percent')
     }
@@ -278,7 +277,7 @@ function ready(values) {
         drawCancerMap(us_topojson, selectedCancerData, cancer_id, colormap, isUpdate)
     }
 
-    updateMap(1, "ActualRate", isUpdate=false)
+    updateMap(1, "DeltaRate", isUpdate=false)
 
 }
 
@@ -322,7 +321,7 @@ function drawCancerMap(us_data, all_cancers, cancer_id, colormap, isUpdate) {
         .style("stroke-opacity", 0)
         .attr("d", path)
         .append("title")
-            .text(function(d) { return d.rate + "%"; });
+            .text(function(d) { return d.id; });
         
         mapChart.append("path")
             .datum(topojson.mesh(us_data, us_data.objects.states, function(a, b) { return a !== b; }))
@@ -340,8 +339,8 @@ function drawCancerMap(us_data, all_cancers, cancer_id, colormap, isUpdate) {
             .data(topojson.feature(us_data, us_data.objects.counties).features)
             .style("fill", function(d) { return colormap(d.rate = this_cancer[d.id]); })
             .attr("d", path)
-            .append("title")
-                .text(function(d) { return d.rate; });
+            // .append("title")
+            //     .text(function(d) { return d.rate; });
     }
     
 }
