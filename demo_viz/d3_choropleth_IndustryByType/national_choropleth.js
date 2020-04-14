@@ -59,7 +59,7 @@ var barChart = svg2.append("g")
 // DATA PROCESSING FUNCTIONS
 // 
 // Define a function to format and process the cancer data
-function formatData(rawData, rate_col_title) {
+function formatCancerData(rawData, rate_col_title) {
 
     var cancer_by_type = d3.map();
 
@@ -77,6 +77,28 @@ function formatData(rawData, rate_col_title) {
         }
     }
     return cancer_by_type
+}
+
+
+function formatIndustryData(rawData, rate_col_title) {
+    var industry_by_type = d3.map();
+
+    for (var i = 1; i<rawData.length; i++){
+
+        entry = rawData[i]
+        industry_id = "$" + entry.relevant_naics
+
+        if (industry_id in industry_by_type) {
+            this_industry = industry_by_type.get(entry.relevant_naics)
+            this_industry[entry.id] = +entry[rate_col_title];
+        } else {
+            id = entry.id;
+            industry_by_type.set(entry.relevant_naics, {id: +entry[rate_col_title]})
+        }
+    }
+    return industry_by_type
+
+
 }
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -234,7 +256,7 @@ function topCancerInFips(cancerData, fips, howMany=10){
     for (var i=0; i<howMany; i++) {
         id = parseInt(getKeyByValue(rates_dict, rates_list[i]))
         top_cancer_list.push(
-            {'cancer': cancer_dict[id], 'rate': cancerData.ActualRate.get(id)[fips]}
+            {'cancer': cancerNames[id], 'rate': cancerData.ActualRate.get(id)[fips]}
         )
     }
 
@@ -250,7 +272,8 @@ function topCancerInFips(cancerData, fips, howMany=10){
 var promises = [
 d3.json("https://d3js.org/us-10m.v1.json"),
 d3.tsv("cancer_byCounty_byType.tsv"),
-d3.csv("cancer_ID_list.csv")
+d3.csv("cancer_ID_list.csv"),
+d3.tsv("industry_byCounty_byType.tsv")
 ]
 
 Promise.all(promises).then(ready)
@@ -262,27 +285,75 @@ function ready(values) {
 
     us_topojson = values[0];
     cancerData = {
-        'ActualRate': formatData(values[1], 'rate'),
-        'DeltaRate': formatData(values[1], 'rate_delta_percent')
+        'ActualRate': formatCancerData(values[1], 'rate'),
+        'DeltaRate': formatCancerData(values[1], 'rate_delta_percent')
     }
 
-    cancer_dict = {}
+    cancerNames = {}
     values[2].forEach(function(item){
-        cancer_dict[+item.Cancer_ID] = item.Cancer_Description
+        cancerNames[+item.Cancer_ID] = item.Cancer_Description
     })
 
+    industryData = {
+        'ActualRate': formatIndustryData(values[3], 'emp'),
+        'DeltaRate': formatIndustryData(values[3], 'emp')
+    }
 
-    // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-    // DATA SELECTOR - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-    // 
+
+    // Draw the selector
+    drawSelectorBox(cancerData.DeltaRate, cancerNames)
+
+
+    // DATA VIEW
+    // - Add interactivity on radio button change
+    d3.select("#dataView")
+        .on("change", val => {
+
+            var viewOptions = getFormValues()
+            selected_cancer_id = parseInt(getKeyByValue(cancerNames, viewOptions[0]))
+            selected_rate_type = viewOptions[1]
+            
+            updateMap(cancer_id=selected_cancer_id, selected_rate_type, isUpdate=true)
+        })
+
+    updateMap(1, "DeltaRate", isUpdate=false)
+
+
+    barData = topCancerInFips(cancerData, 21197, 5)
+
+    drawBars(barData, isUpdate=false)
+
+}
+
+// Update Functions
+var updateMap = function(cancer_id, rateType, isUpdate){
+
+    if (rateType=="ActualRate"){
+        var selectedCancerData = cancerData['ActualRate']
+        colormap = define_colormap(cancer_id, selectedCancerData, scale_type="linear")
+    } else {
+
+    var selectedCancerData = cancerData['DeltaRate']
+    colormap = define_colormap(cancer_id, selectedCancerData, scale_type="diverging")
+    }
+    
+    drawCancerMap(us_topojson, selectedCancerData, cancer_id, colormap, isUpdate)
+}
+
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// DATA SELECTOR - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// 
+
+function drawSelectorBox(dataSet, dataNames) {
 
     // Get cancer keys
-    cancer_keys = [];
+    dataOptions = [];
 
-    Object.keys(cancerData.ActualRate).forEach( d=>{
-        new_key = parseInt(d.split("$")[1])
-        // cancer_keys.push(new_key)
-        cancer_keys.push(cancer_dict[new_key])
+    Object.keys(dataSet).forEach( d=>{
+        newKey = parseInt(d.split("$")[1])
+        // dataOptions.push(newKey)
+        dataOptions.push(dataNames[newKey])
     })
 
 
@@ -296,52 +367,16 @@ function ready(values) {
         .on('change', val => {
 
             var viewOptions = getFormValues()
-            selected_cancer_id = parseInt(getKeyByValue(cancer_dict, viewOptions[0]))
+            selected_cancer_id = parseInt(getKeyByValue(dataNames, viewOptions[0]))
             selected_rate_type = viewOptions[1]
 
             updateMap(cancer_id=selected_cancer_id, selected_rate_type, isUpdate=true)
         })
         .selectAll('option')
-            .data(cancer_keys).enter()
+            .data(dataOptions).enter()
             .append('option')
                 .text(d => d)
-
-    // DATA VIEW
-    // - Add interactivity on radio button change
-    d3.select("#dataView")
-        .on("change", val => {
-
-            var viewOptions = getFormValues()
-            selected_cancer_id = parseInt(getKeyByValue(cancer_dict, viewOptions[0]))
-            selected_rate_type = viewOptions[1]
-            
-            updateMap(cancer_id=selected_cancer_id, selected_rate_type, isUpdate=true)
-        })
-
-
-    var updateMap = function(cancer_id, rateType, isUpdate){
-
-        if (rateType=="ActualRate"){
-            var selectedCancerData = cancerData['ActualRate']
-            colormap = define_colormap(cancer_id, selectedCancerData, scale_type="linear")
-        } else {
-
-        var selectedCancerData = cancerData['DeltaRate']
-        colormap = define_colormap(cancer_id, selectedCancerData, scale_type="diverging")
-        }
-        
-        drawCancerMap(us_topojson, selectedCancerData, cancer_id, colormap, isUpdate)
-    }
-
-    updateMap(1, "DeltaRate", isUpdate=false)
-
-
-    barData = topCancerInFips(cancerData, 21197, 5)
-
-    drawBars(barData, isUpdate=false)
-
 }
-
 
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
