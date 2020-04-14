@@ -359,7 +359,7 @@ function drawBars(barData, isUpdate) {
     var xMax_bar = d3.max(barData, function(d) { return d.rate }),
         xMin_bar = d3.min(barData, function(d) { return d.rate }),
         xScale_bar = d3.scaleLinear()
-                .domain([xMin_bar, xMax_bar])              // domain of inputs;
+                .domain([0, 200])              // domain of inputs;
                 .range([0, width])  // range of output draw coords in px
 
     var barScale = d3.scaleBand()
