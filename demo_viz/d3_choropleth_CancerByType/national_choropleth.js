@@ -15,6 +15,10 @@ const svgWidth = 1075
     , transition_time = 350
     , circle_rad = 4
 
+
+
+
+
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // CHART 1 Canvas
 // 
@@ -53,6 +57,24 @@ var svg2 = d3.select("#barsTopCancer").append("svg")
 var barChart = svg2.append("g")
                   .attr("id", "dynaBars")
                   .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+
+
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// CHART 2 Canvas
+// 
+
+// Now draw the SVG canvas and a 'g' element to house our graph
+var svg3 = d3.select("#barsCompCancer").append("svg")
+    .attr("width", svgWidth)
+    .attr("height", svgHeight)
+// .attr("transform", "translate(0," + margin.top*2 + ")")
+
+// Append 'g' element to contain graph and adjust it to fit within the margin
+var barChart2 = svg3.append("g")
+    .attr("id", "compBars")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+
 
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -204,7 +226,8 @@ function clicked(d) {
 
     // Log top cancers
     var barData = topCancerInFips(cancerData, county_fips, howMany=5)
-    drawBars(barData, isUpdate=true)
+    drawBars(barData, isUpdate = true)
+    drawComparisonBars(barData, isUpdate = true)
 
 }
 
@@ -234,7 +257,7 @@ function topCancerInFips(cancerData, fips, howMany=10){
     for (var i=0; i<howMany; i++) {
         id = parseInt(getKeyByValue(rates_dict, rates_list[i]))
         top_cancer_list.push(
-            {'cancer': cancer_dict[id], 'rate': cancerData.ActualRate.get(id)[fips]}
+            { 'cancer': cancer_dict[id], 'actual': cancerData.ActualRate.get(id)[fips], 'pred': cancerData.ActualRate.get(id)[fips]}
         )
     }
 
@@ -270,6 +293,8 @@ function ready(values) {
     values[2].forEach(function(item){
         cancer_dict[+item.Cancer_ID] = item.Cancer_Description
     })
+
+    //cancerPredData
 
 
     // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
@@ -338,7 +363,8 @@ function ready(values) {
 
     barData = topCancerInFips(cancerData, 21197, 5)
 
-    drawBars(barData, isUpdate=false)
+    drawBars(barData, isUpdate = false)
+    drawComparisonBars(barData, isUpdate = false)
 
 }
 
@@ -351,13 +377,15 @@ function ready(values) {
 
 function drawBars(barData, isUpdate) {
 
+    console.log(barData)
+
     barChart = d3.select("#dynaBars")
 
     // SCALES - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     //
     // Set up a dynamic scale for the x-axis
-    var xMax_bar = d3.max(barData, function(d) { return d.rate }),
-        xMin_bar = d3.min(barData, function(d) { return d.rate }),
+    var xMax_bar = d3.max(barData, function(d) { return d.actual }),
+        xMin_bar = d3.min(barData, function(d) { return d.actual }),
         xScale_bar = d3.scaleLinear()
                 .domain([xMin_bar, xMax_bar])              // domain of inputs;
                 .range([0, width])  // range of output draw coords in px
@@ -381,16 +409,17 @@ function drawBars(barData, isUpdate) {
                 .ticks(10)
 
     
-    if (isUpdate==false) {
-        barChart.append('g')
-            .attr('class', 'y axis')
-            .call(yAxis)
-            // .style('opacity', 0.0)
+    if (isUpdate == false) {
 
         barChart.append('g')
             .attr('class', 'x axis')
             .call(xAxis)
-            .attr('transform', 'translate(0,' + height/2 + ')')
+            .attr('transform', 'translate(0,' + height / 2 + ')')
+            // .style('opacity', 0.0)
+
+        barChart.append('g')
+            .attr('class', 'y axis')
+            .call(yAxis)
             // .style('opacity', 0.0)
 
         // Enter the bars d3 object to run the drawing loop for each item in the dataset
@@ -401,7 +430,7 @@ function drawBars(barData, isUpdate) {
             .attr('class', 'bar')
             .attr('x', 0)
             .attr('y', d => barScale(d.cancer) )
-            .attr('width', d => xScale_bar(d.rate) )
+            .attr('width', d => xScale_bar(d.actual) )
             .attr('height', barScale.bandwidth() )
             // .style('opacity', 0.0)
 
@@ -427,16 +456,322 @@ function drawBars(barData, isUpdate) {
             .attr('class', 'bar')
             .attr('x', 0)
             .attr('y', d => barScale(d.cancer) )
-            .attr('width', d => xScale_bar(d.rate) )
+            .attr('width', d => xScale_bar(d.actual) )
             .attr('height', barScale.bandwidth() )
             .attr('hello', d => {
-                console.log(d)
+                //console.log(d)
                 return 'world'
             })
             // .style('opacity', 1.0)
 
     }
 }
+
+
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// COMPARISON BAR CHART  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// 
+
+
+function drawComparisonBars(barData, isUpdate) {
+
+    console.log(barData)
+
+    var keys = Object.keys(barData[0]).slice(1);
+
+    console.log(keys)
+
+    barChart2 = d3.select("#compBars")
+
+    var x01 = d3.scaleBand()
+        .rangeRound([0, width])
+        .paddingInner(0.1);
+
+    var x11 = d3.scaleBand()
+        .padding(0.05);
+
+    var y1 = d3.scaleLinear()
+        .rangeRound([height, 0]);
+
+    /* var color = d3.scaleBand()
+      .range(["rgba(11,94,215,.8)", "rgba(245, 143, 8, 0.8)"]); */
+
+    var color = d3.scaleOrdinal(d3.schemeCategory10);
+
+    x01.domain(barData.map(function (d) { return d.cancer; }));
+    x11.domain(keys).rangeRound([0, x01.bandwidth()]);
+    y1.domain([0, d3.max(barData, function (d) { return d3.max(keys, function (key) { return d[key]; }); })]).nice();
+
+
+    var xAxis1 = d3.axisBottom()
+        .scale(x01) //d3.axisBottom(x01)
+        .ticks(10);
+
+    var yAxis1 = d3.axisLeft().scale(y1)//.ticks(null, "s")
+        .tickSize(5);
+        /* d3.axisLeft()
+        .scale(y)
+        .tickFormat(d3.format(".2s")); */
+
+    barChart2.append("g")
+        .attr('class', 'x axis')
+        .attr("transform", "translate(0," + height + ")")
+        .call(xAxis1);
+
+    // Y Axis
+    barChart2.attr('class', 'y axis')
+            .call(yAxis1)
+            .append("text")
+            .attr("x", 2)
+            .attr("y", y1(y1.ticks().pop()) + 0.5)
+            .attr("dy", "0.32em")
+            .attr("fill", "#000")
+            .attr("font-weight", "bold")
+            .attr("text-anchor", "start");
+            
+    var bars = barChart2.append("g")
+            .selectAll("g")
+            .data(barData)
+            .enter().append("g")
+            .attr("transform", function (d) { return "translate(" + x01(d.cancer) + ",0)"; })
+            .selectAll('rect')
+            .attr('class', 'bar')
+            .data(function (d) {
+                return keys.map(function (key) {
+                    return { key: key, value: d[key] };
+                });
+            })
+            .enter().append("rect")
+            .attr("x", function (d) { return x11(d.key); })
+            .attr("y", function (d) { return y1(d.value); })
+            .attr("width", x11.bandwidth())
+            .attr("height", function (d) { return height - y1(d.value); })
+            .attr("fill", function (d) { return color(d.key); });
+
+    
+    
+
+    var legend = barChart2.append("g")
+        .attr("font-family", "sans-serif")
+        .attr("font-size", 10)
+        .attr("text-anchor", "end")
+        .selectAll("g")
+        .data(keys.slice().reverse())
+        .enter().append("g")
+        .attr("transform", function (d, i) { return "translate(0," + i * 20 + ")"; });
+
+    legend.append("rect")
+        .attr("x", width - 19)
+        .attr("width", 19)
+        .attr("height", 19)
+        .attr("fill", color);
+
+    legend.append("text")
+        .attr("x", width - 24)
+        .attr("y", 9.5)
+        .attr("dy", "0.32em")
+        .text(function (d) { return d; });
+
+    
+    
+    
+    if (isUpdate == true) {        
+
+        barChart2.select(".x.axis")
+            .call(xAxis1);
+
+        barChart2.select(".y.axis")
+            .call(yAxis1);
+
+
+        barChart2.selectAll(".bar").exit()
+            .remove();
+
+        bars
+            .data(barData)
+            .data(function (d) {
+                return keys.map(function (key) {
+                    return { key: key, value: d[key] };
+                });
+            })
+            .transition()
+            .duration(transition_time);
+        
+
+        /* barChart.selectAll('rect')
+            .data(barData)
+            .transition()
+            .duration(transition_time)
+            // .ease(d3.easeElasticOut)
+            .attr('class', 'bar')
+            .attr('x', 0)
+            .attr('y', d => barScale(d.cancer))
+            .attr('width', d => xScale_bar(d.actual))
+            .attr('height', barScale.bandwidth()) */
+        // .style('opacity', 1.0)
+
+    }
+
+
+/* 
+
+
+
+
+    var xAxis = d3.axisBottom()
+        .scale(x0);
+
+    var yAxis = d3.axisLeft()
+        .scale(y)
+        .tickFormat(d3.format(".2s"));
+
+    var svg = d3.select("body").append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+    var months = d3.set(data.map(function (line) { return line.Month; })).values();
+    console.log(months);
+    x0.domain(data.map(function (d) { return d.Name; }));
+    x1.domain(months).rangeRound([0, x0.bandwidth()]);
+    y.domain([0, d3.max(data, function (d) { return d.ExamCcolorount; })]);
+
+    svg.append("g")
+        .attr("class", "x axis")
+        .attr("transform", "translate(0," + height + ")")
+        .call(xAxis);
+
+    svg.append("g")
+        .attr("class", "y axis")
+        .call(yAxis)
+        .append("text")
+        .attr("transform", "rotate(-90)")
+        .attr("y", 6)
+        .attr("dy", ".71em")
+        .style("text-anchor", "end")
+        .text("Exam Count");
+
+    svg.selectAll("rect")
+        .data(data)
+        .enter().append("rect")
+        .attr("width", x1.bandwidth())
+        .attr("x", function (d) { return x0(d.Name) + x1(d.Month); })
+        .attr("y", function (d) { return y(+d.ExamCount); })
+        .attr("height", function (d) { return height - y(+d.ExamCount); })
+        .style("fill", function (d) { return color(d.Month); });
+
+    var legend = svg.selectAll(".legend")
+        .data(months.slice().reverse())
+        .enter().append("g")
+        .attr("class", "legend")
+        .attr("transform", function (d, i) { return "translate(0," + i * 20 + ")"; });
+
+    legend.append("rect")
+        .attr("x", width - 18)
+        .attr("width", 18)
+        .attr("height", 18)
+        .style("fill", color);
+
+    legend.append("text")
+        .attr("x", width - 24)
+        .attr("y", 9)
+        .attr("dy", ".35em")
+        .style("text-anchor", "end")
+        .text(function (d) { return d; });
+
+
+
+
+
+
+
+    // SCALES - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    //
+    // Set up a dynamic scale for the x-axis
+    var xMax_bar = d3.max(barData, function (d) { return d.actual }),
+        xMin_bar = d3.min(barData, function (d) { return d.actual }),
+        xScale_bar = d3.scaleLinear()
+            .domain([xMin_bar, xMax_bar])              // domain of inputs;
+            .range([0, width])  // range of output draw coords in px
+
+    var barScale = d3.scaleBand()
+        .domain(barData.map(function (d) { return d.cancer }))
+        .range([0, height / 2])
+        .padding(0.2)
+
+    // Axes - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    //
+    // Set up a dynamic x-axis
+
+    var xAxis = d3.axisBottom()
+        .scale(xScale_bar)
+        .tickSize(5)
+
+    // Y Axis
+    var yAxis = d3.axisLeft()
+        .scale(barScale)
+        .ticks(10)
+
+
+    if (isUpdate == false) {
+        barChart2.append('g')
+            .attr('class', 'y axis')
+            .call(yAxis)
+        // .style('opacity', 0.0)
+
+        barChart2.append('g')
+            .attr('class', 'x axis')
+            .call(xAxis)
+            .attr('transform', 'translate(0,' + height / 2 + ')')
+        // .style('opacity', 0.0)
+
+        // Enter the bars d3 object to run the drawing loop for each item in the dataset
+        barChart2.selectAll('rect')
+            .data(barData)
+            .enter()
+            .append('rect')
+            .attr('class', 'bar')
+            .attr('x', 0)
+            .attr('y', d => barScale(d.cancer))
+            .attr('width', d => xScale_bar(d.actual))
+            .attr('height', barScale.bandwidth())
+        // .style('opacity', 0.0)
+
+    } else {
+
+        barChart2.select('.x.axis')
+            .transition()
+            .duration(transition_time)
+            .call(xAxis)
+        // .style('opacity', 1.0)
+
+        barChart2.select('.y.axis')
+            .transition()
+            .duration(transition_time)
+            .call(yAxis)
+        // .style('opacity', 1.0)
+
+        barChart2.selectAll('rect')
+            .data(barData)
+            .transition()
+            .duration(transition_time)
+            // .ease(d3.easeElasticOut)
+            .attr('class', 'bar')
+            .attr('x', 0)
+            .attr('y', d => barScale(d.cancer))
+            .attr('width', d => xScale_bar(d.actual))
+            .attr('height', barScale.bandwidth())
+            .attr('hello', d => {
+                //console.log(d)
+                return 'world'
+            }) 
+        // .style('opacity', 1.0)
+
+    }*/
+}
+
 
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
