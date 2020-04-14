@@ -138,7 +138,8 @@ function define_colormap(dataID, allData, scaleType){
             rateVals.push(thisData[key]);
         }
     
-        rate_max = Math.ceil(d3.max(rateVals) / 10) * 10
+        // rate_max = Math.ceil(d3.max(rateVals) / 10) * 10
+        rate_max = 100
         rate_step = rate_max / 9
 
 
@@ -203,7 +204,8 @@ function clicked(d) {
 
     var county_fips = d.id
 
-    console.log(county_fips)
+    // console.log(county_fips)
+    
 
     // Pick the state to zoom to
     us_topojson.objects.states.geometries.forEach(d => {
@@ -328,7 +330,7 @@ function ready(values) {
 
     vizData = industryData;
     vizDataNames = industryNames;
-    initVizDataID = 115;
+    initVizDataID = 11;
 
     // Draw the choropleth
     updateMap(vizData, initVizDataID, "ActualRate", isUpdate=false)
@@ -380,6 +382,8 @@ var updateMap = function(dataSet, dataID, rateType, isUpdate){
 
     colormap = define_colormap(dataID, selectedData, scale_type="diverging")
     }
+
+    // console.log(dataID)
     
     drawChoropleth(us_topojson, selectedData, dataID, colormap, isUpdate)
 }
@@ -428,7 +432,7 @@ function drawBars(barData, isUpdate) {
     var xMax_bar = d3.max(barData, function(d) { return d.rate }),
         xMin_bar = d3.min(barData, function(d) { return d.rate }),
         xScale_bar = d3.scaleLinear()
-                .domain([0, 200])              // domain of inputs;
+                .domain([0, xMax_bar])              // domain of inputs;
                 .range([0, width])  // range of output draw coords in px
 
     var barScale = d3.scaleBand()
@@ -513,6 +517,7 @@ function drawBars(barData, isUpdate) {
 // 
 function drawChoropleth(topoUS, allDataTypes, dataID, colormap, isUpdate) {
 
+
     thisData = allDataTypes.get(dataID)
 
     //
@@ -541,7 +546,7 @@ function drawChoropleth(topoUS, allDataTypes, dataID, colormap, isUpdate) {
         .append("path")
         .on("click", clicked)
         .on("dblclick", reset)
-        .style("fill", function(d) { return colormap(d.rate = thisData[d.id]); })
+        .style("fill", function(d) { return colormap(d.rate = thisData[d.id]); })//hello
         .style("stroke", "black")
         .style("stroke-width", 0.3)
         .style("stroke-opacity", 0)
