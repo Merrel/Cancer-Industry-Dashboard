@@ -55,6 +55,18 @@ var barChart = svg2.append("g")
                   .attr("transform", "translate(" + 2*margin.left + "," + margin.top + ")")
 
 
+// !!!
+
+function parseSubsetValues(entry, subsetKeys) {
+    subsets = {}
+    subsetKeys.forEach(d=>{
+        subsets[d] = +entry[d]
+    })
+    return subsets
+}
+
+// !!!
+
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // DATA PROCESSING FUNCTIONS
 // 
@@ -79,23 +91,49 @@ function formatCancerData(rawData, rate_col_title) {
     return cancer_by_type
 }
 
+// function formatIndustryData(rawData, rate_col_title) {
+//     var industry_by_type = d3.map();
+
+//     subsetKeys = ["emp", "payann", "estab"]
+
+//     for (var i = 1; i<rawData.length; i++){
+
+//         entry = rawData[i]
+//         industry_id = "$" + entry.relevant_naics
+
+//         if (industry_id in industry_by_type) {
+//             this_industry = industry_by_type.get(entry.relevant_naics)
+//             this_industry[entry.id] = +entry[rate_col_title];
+//         } else {
+//             id = entry.id;
+//             industry_by_type.set(entry.relevant_naics, {id: +entry[rate_col_title]})
+//         }
+//     }
+//     return industry_by_type
+// }
+
 function formatIndustryData(rawData, rate_col_title) {
-    var industry_by_type = d3.map();
+    // var industryByType = d3.map();
+    var industryByType = {};
+
+    subsetKeys = ["emp", "payann", "estab"]
 
     for (var i = 1; i<rawData.length; i++){
 
         entry = rawData[i]
-        industry_id = "$" + entry.relevant_naics
+        // industry_id = "$" + entry.relevant_naics
+        industryID = entry.relevant_naics
 
-        if (industry_id in industry_by_type) {
-            this_industry = industry_by_type.get(entry.relevant_naics)
-            this_industry[entry.id] = +entry[rate_col_title];
+        if (industryID in industryByType) {
+            industryByType[entry.relevant_naics][entry.id] = +entry[rate_col_title]//parseSubsetValues(entry, subsetKeys)
         } else {
             id = entry.id;
-            industry_by_type.set(entry.relevant_naics, {id: +entry[rate_col_title]})
+            // console.log(id)
+            industryByType[entry.relevant_naics] = {}
+            industryByType[entry.relevant_naics][id] = +entry[rate_col_title]//parseSubsetValues(entry, subsetKeys)
         }
     }
-    return industry_by_type
+    return industryByType
 }
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -126,7 +164,7 @@ log_scaler = d3.scaleLog()
 function define_colormap(dataID, allData, scaleType){
 
     // Get the data to scale
-    var thisData = allData.get(dataID)
+    var thisData = allData[dataID]
 
     if (scaleType == "continuous-linear"){
         // Get the range of data rate values
@@ -256,10 +294,10 @@ function topRatesInFips(dataSet, dataNames, fips, howMany=5){
     rates_dict = {}
     rates_list = []
 
-    Object.keys(dataSet.ActualRate).forEach( d=>{
-        this_key = parseInt(d.split("$")[1])
+    Object.keys(dataSet.ActualRate).forEach( this_key=>{
+        // this_key = parseInt(d.split("$")[1])
         if (this_key!=1){
-            this_rate = dataSet.ActualRate.get(this_key)
+            this_rate = dataSet.ActualRate[this_key]
             if (this_rate.hasOwnProperty(fips)){ 
                 rates_dict[this_key] = parseFloat(this_rate[fips])
                 rates_list.push(parseFloat(this_rate[fips]))
@@ -273,6 +311,7 @@ function topRatesInFips(dataSet, dataNames, fips, howMany=5){
     rates_list = rates_list.sort(function(a,b) { return a - b;}).reverse()
 
     top_data_list = []
+    top_data_ids = []
     for (var i=0; i<howMany; i++) {
         id = parseInt(getKeyByValue(rates_dict, rates_list[i]))
 
@@ -281,10 +320,21 @@ function topRatesInFips(dataSet, dataNames, fips, howMany=5){
         // console.log(dataSet.ActualRate)
         // console.log(id)
 
+        thisRate = dataSet.ActualRate[id][fips]
+        if (this_rate == null) {
+            thisRate = 1
+        }
+
+        // if (this)
+
         top_data_list.push(
-            {'data_id': dataNames[id], 'rate': dataSet.ActualRate.get(id)[fips]}
+            {'data_id': dataNames[id], 'rate': thisRate}
         )
+        top_data_ids.push(id)
     }
+
+    // var viewOptions = getFormValues()
+    // selectedDataID = parseInt(getKeyByValue(vizDataNames, viewOptions[0]))
 
     return top_data_list
 }
@@ -328,8 +378,8 @@ function ready(values) {
     test3 = values[3]
     test4 = values[4]
     industryData = {
-        'ActualRate': formatIndustryData(values[3], 'emp'),
-        'DeltaRate': formatIndustryData(values[3], 'emp')
+        'ActualRate': formatIndustryData(values[3], 'payann'),
+        'DeltaRate': formatIndustryData(values[3], 'payann')
     }
 
     industryNames = {}
@@ -351,7 +401,8 @@ function ready(values) {
 
 
     // Draw the selector
-    drawSelectorBox(vizData.DeltaRate, vizDataNames)
+    drawSelectorBox(vizData.ActualRate, vizDataNames, "dataSelector")
+    drawSelectorBox(vizData.ActualRate, vizDataNames, "detailSelector")
 
     // Updates for selector
     d3.select('#dataSelector')
@@ -397,20 +448,21 @@ var updateMap = function(dataSet, dataID, rateType, isUpdate){
 // DATA SELECTOR - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // 
 
-function drawSelectorBox(dataSet, dataNames) {
+function drawSelectorBox(dataSet, dataNames, selectorDivID) {
 
     // Get Data keys
     dataOptions = [];
 
-    Object.keys(dataSet).forEach( d=>{
-        newKey = parseInt(d.split("$")[1])
+    Object.keys(dataSet).forEach( k=> {
+        // newKey = parseInt(d.split("$")[1])
         // dataOptions.push(newKey)
-        dataOptions.push(dataNames[newKey])
+        dataOptions.push(dataNames[k])
     })
 
     // CANCER TYPE
     // Draw the Data type selector with D3
-    d3.select('#dataSelector')
+    // d3.select('#dataSelector')
+    d3.select('#' + selectorDivID)
         .append('select')
         .attr('class','select')
         .attr('id', 'hitme')
@@ -435,8 +487,8 @@ function drawBars(barData, isUpdate) {
     // Set up a dynamic scale for the x-axis
     var xMax_bar = d3.max(barData, function(d) { return d.rate }),
         xMin_bar = d3.min(barData, function(d) { return d.rate }),
-        xScale_bar = d3.scaleLinear()
-                .domain([0, xMax_bar])              // domain of inputs;
+        xScale_bar = d3.scaleLog()
+                .domain([1, 200000])              // domain of inputs;
                 .range([0, width])  // range of output draw coords in px
 
     var barScale = d3.scaleBand()
@@ -545,7 +597,7 @@ function drawBars(barData, isUpdate) {
 function drawChoropleth(topoUS, allDataTypes, dataID, colormap, isUpdate) {
 
 
-    thisData = allDataTypes.get(dataID)
+    thisData = allDataTypes[dataID]
 
     //
     // Establish Scales for the legend and colormap
