@@ -125,12 +125,12 @@ function formatIndustryData(rawData, rate_col_title) {
         industryID = entry.relevant_naics
 
         if (industryID in industryByType) {
-            industryByType[entry.relevant_naics][entry.id] = +entry[rate_col_title]//parseSubsetValues(entry, subsetKeys)
+            industryByType[entry.relevant_naics][entry.id] = parseSubsetValues(entry, subsetKeys)
         } else {
             id = entry.id;
             // console.log(id)
             industryByType[entry.relevant_naics] = {}
-            industryByType[entry.relevant_naics][id] = +entry[rate_col_title]//parseSubsetValues(entry, subsetKeys)
+            industryByType[entry.relevant_naics][id] = parseSubsetValues(entry, subsetKeys)
         }
     }
     return industryByType
@@ -143,23 +143,27 @@ function getKeyByValue(object, value) {
     return Object.keys(object).find(key => object[key] === value);
 }
 
-function getFormValues(){
-    // Pick which data view is selected in radio buttons
-    var form = document.getElementById("dataView")
-    var viewType;
-    for(var i=0; i<form.length; i++){
-    if(form[i].checked){
-        viewType = form[i].id;}}
+function getFormValues(elementID){
 
-    // Get slected value of data type
-    var sel = document.getElementById('hitme')
-    dataType = sel.options[sel.selectedIndex].value
+    if (elementID == "dataView") {
+        // Pick which data view is selected in radio buttons
+        var form = document.getElementById("dataView")
+        var viewType;
+        for(var i=0; i<form.length; i++){
+        if(form[i].checked){
+            viewType = form[i].id;}}
 
-    return [dataType, viewType]
+        return viewType
+
+    } else if (elementID == "dataSelector") {
+        // Get slected value of data type
+        var sel = document.getElementById('dataSelector')
+        dataType = sel.options[sel.selectedIndex].value
+
+        return dataType
+    }
 }
-log_scaler = d3.scaleLog()
-    .domain([1, 1000])
-    .range([0,1])
+
 
 function define_colormap(dataID, allData, scaleType){
 
@@ -278,7 +282,7 @@ function clicked(d) {
 
     // Log top rates
 
-    var barData = topRatesInFips(vizData, vizDataNames, county_fips, howMany=5)
+    var barData = topRatesInFips(vizData, vizDataNames, howMany=5, whichVal="emp")
     drawBars(barData, isUpdate=true)
 
 }
@@ -289,7 +293,7 @@ function zoomed() {
     mapChart.attr("stroke-width", 1 / transform.k);
 }
 
-function topRatesInFips(dataSet, dataNames, fips, howMany=5){
+function topRatesInFips(dataSet, dataNames, fips, howMany=5, whichVal="emp"){
 
     rates_dict = {}
     rates_list = []
@@ -299,8 +303,8 @@ function topRatesInFips(dataSet, dataNames, fips, howMany=5){
         if (this_key!=1){
             this_rate = dataSet.ActualRate[this_key]
             if (this_rate.hasOwnProperty(fips)){ 
-                rates_dict[this_key] = parseFloat(this_rate[fips])
-                rates_list.push(parseFloat(this_rate[fips]))
+                rates_dict[this_key] = parseFloat(this_rate[fips][whichVal])
+                rates_list.push(parseFloat(this_rate[fips][whichVal]))
             } else {
                 rates_dict[this_key] = 0.0
                 rates_list.push(0.0)
@@ -320,17 +324,18 @@ function topRatesInFips(dataSet, dataNames, fips, howMany=5){
         // console.log(dataSet.ActualRate)
         // console.log(id)
 
-        thisRate = dataSet.ActualRate[id][fips]
-        if (this_rate == null) {
-            thisRate = 1
+        rateInFips = dataSet.ActualRate[id][fips][whichVal]
+        if (rateInFips == null) {
+            rateInFips = 1
+            top_data_list.push(
+                {'data_id': dataNames[id], 'rate': rateInFips}
+            )
+        } else {
+            top_data_list.push(
+                {'data_id': dataNames[id], 'rate': rateInFips}
+            )
+            top_data_ids.push(id)
         }
-
-        // if (this)
-
-        top_data_list.push(
-            {'data_id': dataNames[id], 'rate': thisRate}
-        )
-        top_data_ids.push(id)
     }
 
     // var viewOptions = getFormValues()
@@ -387,29 +392,46 @@ function ready(values) {
         industryNames[+item.relevant_naics] = item.industry_detail
     })
 
-
+    // Assign the starting data
     vizData = industryData;
     vizDataNames = industryNames;
     initVizDataID = 11;
+
+
+    // Draw the primary selector box
+    dataOptions = [];
+    Object.keys(vizData.ActualRate).forEach( k=> {
+        // newKey = parseInt(d.split("$")[1])
+        // dataOptions.push(newKey)
+        dataOptions.push(vizDataNames[k])
+    })
+    drawSelectorBox(dataOptions, "form1", "dataSelector")
+
+    // Draw the secondary selector box
+    dataOption = getKeyByValue(vizDataNames, getFormValues("dataSelector"))
+    detailOptions = Object.keys(vizData.ActualRate[dataOption][10001])
+    drawSelectorBox(detailOptions, "form2", "detailSelector")
+
+
 
     // Draw the choropleth
     updateMap(vizData, initVizDataID, "ActualRate", isUpdate=false)
 
     // Draw the bar graph
-    barData = topRatesInFips(vizData, vizDataNames, 21197, 5)
+    startUpFIPS = 21197
+    barData = topRatesInFips(vizData, vizDataNames, startUpFIPS, howMany=5, whichVal="emp")
     drawBars(barData, isUpdate=false)
 
 
-    // Draw the selector
-    drawSelectorBox(vizData.ActualRate, vizDataNames, "dataSelector")
-    drawSelectorBox(vizData.ActualRate, vizDataNames, "detailSelector")
+
+
 
     // Updates for selector
-    d3.select('#dataSelector')
+    d3.select('#selector1')
         .on('change', val => {
-            var viewOptions = getFormValues()
-            selectedDataID = parseInt(getKeyByValue(vizDataNames, viewOptions[0]))
-            selectedRateType = viewOptions[1]
+            dataOption = getKeyByValue(vizDataNames, getFormValues("dataSelector"))
+            selectedDataID = parseInt(dataOption)
+            selectedRateType = getFormValues("dataView")
             updateMap(vizData, selectedDataID, selectedRateType, isUpdate=true)
         })
 
@@ -448,24 +470,13 @@ var updateMap = function(dataSet, dataID, rateType, isUpdate){
 // DATA SELECTOR - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // 
 
-function drawSelectorBox(dataSet, dataNames, selectorDivID) {
-
-    // Get Data keys
-    dataOptions = [];
-
-    Object.keys(dataSet).forEach( k=> {
-        // newKey = parseInt(d.split("$")[1])
-        // dataOptions.push(newKey)
-        dataOptions.push(dataNames[k])
-    })
-
-    // CANCER TYPE
+function drawSelectorBox(dataOptions, selectorDivID, newSelectorID) {
     // Draw the Data type selector with D3
     // d3.select('#dataSelector')
     d3.select('#' + selectorDivID)
         .append('select')
         .attr('class','select')
-        .attr('id', 'hitme')
+        .attr('id', newSelectorID)
         .selectAll('option')
             .data(dataOptions).enter()
             .append('option')
