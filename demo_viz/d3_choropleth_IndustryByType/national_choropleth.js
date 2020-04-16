@@ -165,21 +165,28 @@ function getFormValues(elementID){
 }
 
 
-function define_colormap(dataID, allData, scaleType){
+function define_colormap(dataID, allData, scaleType, whichVal="emp"){
 
     // Get the data to scale
     var thisData = allData[dataID]
 
-    if (scaleType == "continuous-linear"){
+    // Rate Value processing if continout scale
+    if (scaleType.includes("continuous")) {
+
         // Get the range of data rate values
         rateVals = [];
         for(var key in thisData) {
-            rateVals.push(thisData[key]);
+            rateVals.push(thisData[key][whichVal]);
         }
-    
+
         rate_max = Math.ceil(d3.max(rateVals) / 10) * 10
         // rate_max = 100
-        rate_step = rate_max / 9
+        rate_step = Math.floor(rate_max / 9)
+
+    }
+
+    // Color mapping
+    if (scaleType == "continuous-linear"){
     
         var colormap = d3.scaleThreshold()
             .range(d3.schemePuRd[9])
@@ -188,25 +195,16 @@ function define_colormap(dataID, allData, scaleType){
         return colormap
 
     } else if (scaleType == "continuous-log"){
-        // Get the range of data rate values
-        rateVals = [];
-        for(var key in thisData) {
-            rateVals.push(thisData[key]);
-        }
-    
-        rate_max = Math.ceil(d3.max(rateVals) / 10) * 10
-        // rate_max = 100
-        rate_step = rate_max / 9
 
-        logScale = d3.scaleLog()
+        var logScale = d3.scaleLog()
             .domain([1, rate_max])
             // .range([0,1])
     
-        thresholdScale = d3.scaleThreshold()
+        var thresholdScale = d3.scaleThreshold()
             .range([d3.schemePuRd[9][0]].concat(d3.schemePuRd[9]))
             .domain(d3.range(0.1, 1.1, 0.1))
 
-        colormap = function(d) {
+        var colormap = function(d) {
             if (d<=0) { d=1}
             return thresholdScale(logScale(d))
         }
@@ -215,7 +213,7 @@ function define_colormap(dataID, allData, scaleType){
     } else if (scaleType == "diverging") {
         color_diverging = d3.scaleDiverging([-100.0, 0, 100], d3.interpolatePuOr)
         
-        colormap = function(d){
+        var colormap = function(d){
             if (Math.abs(d)==100){
                 d = 0
             }
@@ -453,16 +451,18 @@ function ready(values) {
 var updateMap = function(dataSet, dataID, rateType, isUpdate){
 
     if (rateType=="ActualRate"){
+        // Pick continuous colorscale to show the range of values
         var selectedData = dataSet['ActualRate']
         colormap = define_colormap(dataID, selectedData, scale_type="continuous-log")
     } else {
-
-    var selectedData = dataSet['DeltaRate']
-
-    colormap = define_colormap(dataID, selectedData, scale_type="diverging")
+        // pick diverging color scale to properly show + or - changes
+        var selectedData = dataSet['DeltaRate']
+        colormap = define_colormap(dataID, selectedData, scale_type="diverging")
     }
 
-    drawChoropleth(us_topojson, selectedData, dataID, colormap, isUpdate)
+    // Determin which value to draw
+    var whichVal = getFormValues("detailSelector")
+    drawChoropleth(us_topojson, selectedData, dataID, colormap, isUpdate, whichVal)
 }
 
 
@@ -605,7 +605,7 @@ function drawBars(barData, isUpdate) {
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // MAP DRAW
 // 
-function drawChoropleth(topoUS, allDataTypes, dataID, colormap, isUpdate) {
+function drawChoropleth(topoUS, allDataTypes, dataID, colormap, isUpdate, whichVal="emp") {
 
 
     thisData = allDataTypes[dataID]
@@ -636,7 +636,24 @@ function drawChoropleth(topoUS, allDataTypes, dataID, colormap, isUpdate) {
         .append("path")
         .on("click", clicked)
         .on("dblclick", reset)
-        .style("fill", function(d) { return colormap(d.rate = thisData[d.id]); })//hello
+        .style("fill", d=>{
+            thisSet = thisData[d.id]
+            if (thisSet == null) {
+                d.rate = 0
+            } else {
+                d.rate = thisSet[whichVal]
+            }
+            return colormap(d.rate)
+        })
+        // .attr("temp", d=>{
+        //     thisSet = thisData[d.id]
+        //     if (thisSet == null) {
+        //         d.rate = 0
+        //     } else {
+        //         d.rate = thisSet["emp"]
+        //     }
+        //     console.log(d.rate)
+        // })
         .style("stroke", "black")
         .style("stroke-width", 0.3)
         .style("stroke-opacity", 0)
@@ -658,7 +675,15 @@ function drawChoropleth(topoUS, allDataTypes, dataID, colormap, isUpdate) {
             .select('#renderedCounties')
             .selectAll('path')
             .data(topojson.feature(topoUS, topoUS.objects.counties).features)
-            .style("fill", function(d) { return colormap(d.rate = thisData[d.id]); })
+            .style("fill", d=>{
+                thisSet = thisData[d.id]
+                if (thisSet == null) {
+                    d.rate = 0
+                } else {
+                    d.rate = thisSet[whichVal]
+                }
+                return colormap(d.rate)
+            })
             .attr("d", path)
             // .append("title")
             //     .text(function(d) { return d.rate; });
