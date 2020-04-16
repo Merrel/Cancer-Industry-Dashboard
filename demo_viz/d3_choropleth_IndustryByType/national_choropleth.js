@@ -71,48 +71,48 @@ function parseSubsetValues(entry, subsetKeys) {
 // DATA PROCESSING FUNCTIONS
 // 
 // Define a function to format and process the cancer data
-function formatCancerData(rawData, rate_col_title) {
+// function formatCancerData(rawData, rate_col_title) {
 
-    var cancer_by_type = d3.map();
-
-    for (var i = 1; i<rawData.length; i++){
-
-        entry = rawData[i]
-        cancer_id = "$" + entry.cancer
-
-        if (cancer_id in cancer_by_type) {
-            this_cancer = cancer_by_type.get(entry.cancer)
-            this_cancer[entry.id] = +entry[rate_col_title];
-        } else {
-            id = entry.id;
-            cancer_by_type.set(entry.cancer, {id: +entry[rate_col_title]})
-        }
-    }
-    return cancer_by_type
-}
-
-// function formatIndustryData(rawData, rate_col_title) {
-//     var industry_by_type = d3.map();
-
-//     subsetKeys = ["emp", "payann", "estab"]
+//     var cancer_by_type = d3.map();
 
 //     for (var i = 1; i<rawData.length; i++){
 
 //         entry = rawData[i]
-//         industry_id = "$" + entry.relevant_naics
+//         cancer_id = "$" + entry.cancer
 
-//         if (industry_id in industry_by_type) {
-//             this_industry = industry_by_type.get(entry.relevant_naics)
-//             this_industry[entry.id] = +entry[rate_col_title];
+//         if (cancer_id in cancer_by_type) {
+//             this_cancer = cancer_by_type.get(entry.cancer)
+//             this_cancer[entry.id] = +entry[rate_col_title];
 //         } else {
 //             id = entry.id;
-//             industry_by_type.set(entry.relevant_naics, {id: +entry[rate_col_title]})
+//             cancer_by_type.set(entry.cancer, {id: +entry[rate_col_title]})
 //         }
 //     }
-//     return industry_by_type
+//     return cancer_by_type
 // }
+function formatCancerData(rawData) {
 
-function formatIndustryData(rawData, rate_col_title) {
+    // var cancer_by_type = d3.map();
+    var cancerByType = {};
+
+    subsetKeys = ['rate']
+
+    for (var i = 1; i<rawData.length; i++){
+
+        entry = rawData[i]
+        cancerID = entry.cancer
+
+        if (cancerID in cancerByType) {
+            cancerByType[entry.cancer][entry.id] = parseSubsetValues(entry, subsetKeys)
+        } else {
+            cancerByType[entry.cancer] = {}
+            cancerByType[entry.cancer][entry.id] = parseSubsetValues(entry, subsetKeys)
+        }
+    }
+    return cancerByType
+}
+
+function formatIndustryData(rawData) {
     // var industryByType = d3.map();
     var industryByType = {};
 
@@ -123,16 +123,13 @@ function formatIndustryData(rawData, rate_col_title) {
     for (var i = 1; i<rawData.length; i++){
 
         entry = rawData[i]
-        // industry_id = "$" + entry.relevant_naics
         industryID = entry.relevant_naics
 
         if (industryID in industryByType) {
             industryByType[entry.relevant_naics][entry.id] = parseSubsetValues(entry, subsetKeys)
         } else {
-            id = entry.id;
-            // console.log(id)
             industryByType[entry.relevant_naics] = {}
-            industryByType[entry.relevant_naics][id] = parseSubsetValues(entry, subsetKeys)
+            industryByType[entry.relevant_naics][entry.id] = parseSubsetValues(entry, subsetKeys)
         }
     }
     return industryByType
@@ -147,9 +144,9 @@ function getKeyByValue(object, value) {
 
 function getFormValues(elementID){
 
-    if (elementID == "dataView") {
+    if (elementID == "dataScaleOption") {
         // Pick which data view is selected in radio buttons
-        var form = document.getElementById("dataView")
+        var form = document.getElementById("dataScaleOption")
         var viewType;
         for(var i=0; i<form.length; i++){
         if(form[i].checked){
@@ -377,8 +374,8 @@ function ready(values) {
 
     // Load and process the cancer data
     cancerData = {
-        'ActualRate': formatCancerData(values[1], 'rate'),
-        'DeltaRate': formatCancerData(values[1], 'rate_delta_percent')
+        'ActualRate': formatCancerData(values[1]),
+        'DeltaRate': formatCancerData(values[1])
     }
 
     cancerNames = {}
@@ -390,8 +387,8 @@ function ready(values) {
     test3 = values[3]
     test4 = values[4]
     industryData = {
-        'ActualRate': formatIndustryData(values[3], 'payann'),
-        'DeltaRate': formatIndustryData(values[3], 'payann')
+        'ActualRate': formatIndustryData(values[3]),
+        'DeltaRate': formatIndustryData(values[3])
     }
 
     industryNames = {}
@@ -399,11 +396,50 @@ function ready(values) {
         industryNames[+item.relevant_naics] = item.industry_detail
     })
 
-    // Assign the starting data
-    vizData = industryData;
-    vizDataNames = industryNames;
-    initVizDataID = 11;
+    // Determine which data to plot
+    updateAll("industry")
 
+
+    // Updates for selector
+    d3.select('#dataSelector')
+        .on('change', val => {
+            updateMap(vizData, isUpdate=true)
+        })
+
+    d3.select('#detailSelector')
+        .on('change', val => {
+            updateMap(vizData, isUpdate=true)
+        })
+
+    // DATA VIEW
+    // - Add interactivity on radio button change
+    d3.select("#dataScaleOption")
+        .on("change", val => {
+
+            var viewOptions = getFormValues()
+            selectedDataID = parseInt(getKeyByValue(vizDataNames, viewOptions[0]))
+            selectedRateType = viewOptions[1]
+            
+            updateMap(vizData, selectedDataID, selectedRateType, isUpdate=true)
+        })
+
+}
+
+function updateAll(whichDataSet){
+    // whichDataSet can be either "industry" for "cancer"
+
+    if (whichDataSet == "cancer") {
+        vizData = cancerData;
+        vizDataNames = cancerNames;
+        initVizDataID = 53;
+        barChartVal = "rate"
+
+    } else if (whichDataSet == "industry"){
+        vizData = industryData;
+        vizDataNames = industryNames;
+        initVizDataID = 11;
+        barChartVal = "emp"
+    }
 
     // Draw the primary selector box
     dataOptions = [];
@@ -425,33 +461,8 @@ function ready(values) {
 
     // Draw the bar graph
     startUpFIPS = 21197
-    barData = topRatesInFips(vizData, vizDataNames, startUpFIPS, howMany=5, whichVal="emp")
+    barData = topRatesInFips(vizData, vizDataNames, startUpFIPS, howMany=5, whichVal=barChartVal)
     drawBars(barData, isUpdate=false)
-
-
-    // Updates for selector
-    d3.select('#dataSelector')
-        .on('change', val => {
-            updateMap(vizData, isUpdate=true)
-        })
-
-    d3.select('#detailSelector')
-        .on('change', val => {
-            updateMap(vizData, isUpdate=true)
-        })
-
-    // DATA VIEW
-    // - Add interactivity on radio button change
-    d3.select("#dataView")
-        .on("change", val => {
-
-            var viewOptions = getFormValues()
-            selectedDataID = parseInt(getKeyByValue(vizDataNames, viewOptions[0]))
-            selectedRateType = viewOptions[1]
-            
-            updateMap(vizData, selectedDataID, selectedRateType, isUpdate=true)
-        })
-
 }
 
 // Update Functions
@@ -460,7 +471,7 @@ var updateMap = function(dataSet, isUpdate){
     console.log("UPDATE")
 
     // Determin which values to draw
-    rateType = getFormValues("dataView")
+    rateType = getFormValues("dataScaleOption")
     dataID = parseInt(getKeyByValue(vizDataNames, getFormValues("dataSelector")))
     // dataID = parseInt(dataOption)
     detailValToPlot = getFormValues("detailSelector")
@@ -470,7 +481,7 @@ var updateMap = function(dataSet, isUpdate){
 
     if (rateType=="ActualRate"){
         // Pick continuous colorscale to show the range of values
-        colormap = define_colormap(dataID, selectedData, scaleType="continuous-log", whichVal=detailValToPlot)
+        colormap = define_colormap(dataID, selectedData, scaleType="continuous-linear", whichVal=detailValToPlot)
     } else {
         // pick diverging color scale to properly show + or - changes
         colormap = define_colormap(dataID, selectedData, scaleType="diverging", whichVal=detailValToPlot)
@@ -621,16 +632,7 @@ function drawBars(barData, isUpdate) {
 // 
 function drawChoropleth(topoUS, allDataTypes, dataID, colormap, isUpdate, whichVal) {
 
-
     thisData = allDataTypes[dataID]
-
-    //
-    // Establish Scales for the legend and colormap
-    //
-
-    //
-    // Draw the map
-    //
 
     if (isUpdate===false){
 
