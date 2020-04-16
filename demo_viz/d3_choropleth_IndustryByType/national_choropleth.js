@@ -144,9 +144,9 @@ function getKeyByValue(object, value) {
 
 function getFormValues(elementID){
 
-    if (elementID == "dataScaleOption") {
+    if (elementID == "dataSetOption") {
         // Pick which data view is selected in radio buttons
-        var form = document.getElementById("dataScaleOption")
+        var form = document.getElementById("dataSetOption")
         var viewType;
         for(var i=0; i<form.length; i++){
         if(form[i].checked){
@@ -154,7 +154,17 @@ function getFormValues(elementID){
 
         return viewType
 
-    } else if (elementID == "dataSelector") {
+    } else if (elementID == "colorScaleOption") {
+        // Pick which data view is selected in radio buttons
+        var form = document.getElementById("colorScaleOption")
+        var viewType;
+        for(var i=0; i<form.length; i++){
+        if(form[i].checked){
+            viewType = form[i].id;}}
+
+        return viewType
+
+    } else if(elementID == "dataSelector") {
         // Get slected value of data type
         var sel = document.getElementById('dataSelector')
         dataType = sel.options[sel.selectedIndex].value
@@ -397,7 +407,7 @@ function ready(values) {
     })
 
     // Determine which data to plot
-    updateAll("industry")
+    updateAll(getFormValues('dataSetOption'), isUpdate=false)
 
 
     // Updates for selector
@@ -413,19 +423,22 @@ function ready(values) {
 
     // DATA VIEW
     // - Add interactivity on radio button change
-    d3.select("#dataScaleOption")
+    d3.select("#colorScaleOption")
         .on("change", val => {
-
-            var viewOptions = getFormValues()
-            selectedDataID = parseInt(getKeyByValue(vizDataNames, viewOptions[0]))
-            selectedRateType = viewOptions[1]
-            
-            updateMap(vizData, selectedDataID, selectedRateType, isUpdate=true)
+            // updateAll(getFormValues('dataSetOption'), isUpdate=true)
+            updateMap(vizData, isUpdate=true)
         })
 
+    // - Add interactivity on radio button change
+    d3.select("#dataSetOption")
+        .on("change", val => {
+            updateAll(getFormValues('dataSetOption'), isUpdate=true)
+            // updateMap(vizData, isUpdate=true)
+        })
 }
 
-function updateAll(whichDataSet){
+
+function updateAll(whichDataSet, isUpdate){
     // whichDataSet can be either "industry" for "cancer"
 
     if (whichDataSet == "cancer") {
@@ -448,16 +461,16 @@ function updateAll(whichDataSet){
         // dataOptions.push(newKey)
         dataOptions.push(vizDataNames[k])
     })
-    drawSelectorBox(dataOptions, "form1", "dataSelector")
+    drawSelectorBox(dataOptions, "form1", "dataSelector", isUpdate)
 
     // Draw the secondary selector box
     dataOption = getKeyByValue(vizDataNames, getFormValues("dataSelector"))
     detailOptions = Object.keys(vizData.ActualRate[dataOption][10001])
-    drawSelectorBox(detailOptions, "form2", "detailSelector")
+    drawSelectorBox(detailOptions, "form2", "detailSelector", isUpdate)
 
 
     // Draw the choropleth
-    updateMap(vizData, isUpdate=false)
+    updateMap(vizData, isUpdate)
 
     // Draw the bar graph
     startUpFIPS = 21197
@@ -471,17 +484,21 @@ var updateMap = function(dataSet, isUpdate){
     console.log("UPDATE")
 
     // Determin which values to draw
-    rateType = getFormValues("dataScaleOption")
+    // rateType = getFormValues("colorScaleOption")
+    rateType = "ActualRate"
     dataID = parseInt(getKeyByValue(vizDataNames, getFormValues("dataSelector")))
     // dataID = parseInt(dataOption)
     detailValToPlot = getFormValues("detailSelector")
+    console.log(getFormValues('colorScaleOption'))
+
+    colorScaleType = getFormValues('colorScaleOption')
 
     var selectedData = dataSet[rateType]
 
 
     if (rateType=="ActualRate"){
         // Pick continuous colorscale to show the range of values
-        colormap = define_colormap(dataID, selectedData, scaleType="continuous-linear", whichVal=detailValToPlot)
+        colormap = define_colormap(dataID, selectedData, scaleType=colorScaleType, whichVal=detailValToPlot)
     } else {
         // pick diverging color scale to properly show + or - changes
         colormap = define_colormap(dataID, selectedData, scaleType="diverging", whichVal=detailValToPlot)
@@ -495,17 +512,32 @@ var updateMap = function(dataSet, isUpdate){
 // DATA SELECTOR - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // 
 
-function drawSelectorBox(dataOptions, selectorDivID, newSelectorID) {
-    // Draw the Data type selector with D3
-    // d3.select('#dataSelector')
-    d3.select('#' + selectorDivID)
-        .append('select')
-        .attr('class','select')
-        .attr('id', newSelectorID)
-        .selectAll('option')
-            .data(dataOptions).enter()
-            .append('option')
+function drawSelectorBox(dataOptions, selectorDivID, newSelectorID, isUpdate) {
+
+    if (isUpdate==false) {
+        // Draw the Data type selector with D3
+        // d3.select('#dataSelector')
+        d3.select('#' + selectorDivID)
+            .append('select')
+            .attr('class','select')
+            .attr('id', newSelectorID)
+            .selectAll('option')
+                .data(dataOptions).enter()
+                .append('option')
                 .text(d => d)
+
+    } else if (isUpdate==true) {
+        d3.select('#' + selectorDivID)
+            .selectAll('option')
+            .remove()
+
+        d3.select('#' + selectorDivID)
+            .select('#' + newSelectorID)
+            .selectAll('option')
+                .data(dataOptions).enter()
+                .append('option')
+                .text(d => d)
+    }
 }
 
 

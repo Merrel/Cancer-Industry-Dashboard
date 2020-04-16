@@ -15,20 +15,21 @@
   <body>
 
       <!-- Define a set of Divs for D3 to draw into -->
-      <div id="dataSetToggle" class="radioButton">
-        <form id="dataToggle">
-          <input  type='radio' id="CancerData" name="mode" checked>Cancer Data</input>
-          <input type='radio' id="IndustryData" name="mode">Industry Data</input>
+      <div id="dataSetSelector" class="radioButton">
+        <form id="dataSetOption">
+          <input  type='radio' id="cancer" name="mode" checked>Cancer Data</input>
+          <input type='radio' id="industry" name="mode">Industry Data</input>
         </form>
       </div>
 
       <div id="form1" class="dropDown"></div>
       <div id="form2" class="dropDown"></div>
 
-      <div id="viewSelector" class="radioButton">
-        <form id="dataScaleOption">
-          <input  type='radio' id="ActualRate" name="mode" checked>Actual Rate</input>
-          <input type='radio' id="DeltaRate" name="mode">Change From National Rate [%]</input>
+      <div id="colorScaleSelector" class="radioButton">
+        <form id="colorScaleOption">
+          <input  type='radio' id="continuous-linear" name="mode" checked>Value - Linear Scale</input>
+          <input  type='radio' id="continuous-log" name="mode" >Value - Log Scale</input>
+          <input type='radio' id="DeltaLinear" name="mode">Delta from Avg</input>
         </form>
       </div>
 
