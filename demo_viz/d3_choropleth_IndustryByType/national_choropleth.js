@@ -52,7 +52,7 @@ var svg2 = d3.select("#barsTopCancer").append("svg")
 // Append 'g' element to contain graph and adjust it to fit within the margin
 var barChart = svg2.append("g")
                   .attr("id", "dynaBars")
-                  .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+                  .attr("transform", "translate(" + 2*margin.left + "," + margin.top + ")")
 
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -124,9 +124,6 @@ function getFormValues(){
 }
 
 function define_colormap(dataID, allData, scaleType){
-
-    // console.log(dataID)
-    // console.log(allData)
 
     // Get the data to scale
     var thisData = allData.get(dataID)
@@ -201,11 +198,7 @@ function clicked(d) {
 
     // Get the state fips code for the selected county
     var state_fips = d.id.substr(0,2)
-
-    var county_fips = d.id
-
-    // console.log(county_fips)
-    
+    var county_fips = d.id    
 
     // Pick the state to zoom to
     us_topojson.objects.states.geometries.forEach(d => {
@@ -250,7 +243,6 @@ function topRatesInFips(dataSet, dataNames, fips, howMany=5){
         this_key = parseInt(d.split("$")[1])
         if (this_key!=1){
             this_rate = dataSet.ActualRate.get(this_key)
-            // console.log(this_rate)
             if (this_rate.hasOwnProperty(fips)){ 
                 rates_dict[this_key] = parseFloat(this_rate[fips])
                 rates_list.push(parseFloat(this_rate[fips]))
@@ -267,10 +259,10 @@ function topRatesInFips(dataSet, dataNames, fips, howMany=5){
     for (var i=0; i<howMany; i++) {
         id = parseInt(getKeyByValue(rates_dict, rates_list[i]))
 
-        console.log(rates_list)
-        console.log(rates_dict)
-        console.log(dataSet.ActualRate)
-        console.log(id)
+        // console.log(rates_list)
+        // console.log(rates_dict)
+        // console.log(dataSet.ActualRate)
+        // console.log(id)
 
         top_data_list.push(
             {'data_id': dataNames[id], 'rate': dataSet.ActualRate.get(id)[fips]}
@@ -310,13 +302,14 @@ function ready(values) {
         'DeltaRate': formatCancerData(values[1], 'rate_delta_percent')
     }
 
-    test = values[2]
     cancerNames = {}
     values[2].forEach(function(item){
         cancerNames[+item.Cancer_ID] = item.Cancer_Description
     })
 
     // Load and process the industry data
+    test3 = values[3]
+    test4 = values[4]
     industryData = {
         'ActualRate': formatIndustryData(values[3], 'emp'),
         'DeltaRate': formatIndustryData(values[3], 'emp')
@@ -346,13 +339,9 @@ function ready(values) {
     // Updates for selector
     d3.select('#dataSelector')
         .on('change', val => {
-
             var viewOptions = getFormValues()
             selectedDataID = parseInt(getKeyByValue(vizDataNames, viewOptions[0]))
             selectedRateType = viewOptions[1]
-
-            // console.log(dataSet)
-
             updateMap(vizData, selectedDataID, selectedRateType, isUpdate=true)
         })
 
@@ -383,8 +372,6 @@ var updateMap = function(dataSet, dataID, rateType, isUpdate){
     colormap = define_colormap(dataID, selectedData, scale_type="diverging")
     }
 
-    // console.log(dataID)
-    
     drawChoropleth(us_topojson, selectedData, dataID, colormap, isUpdate)
 }
 
@@ -478,6 +465,22 @@ function drawBars(barData, isUpdate) {
             .attr('height', barScale.bandwidth() )
             // .style('opacity', 0.0)
 
+        
+        barChart.append('g')        
+            .attr("id", "barNames")     
+            .attr("fill", "white")
+            // .attr("text-anchor", "end")
+            // .style("font", "12px sans-serif")
+        .selectAll('text')
+            .data(barData)
+        .enter()
+            .append('text')
+            .attr('x', d => xScale_bar(d.rate)/2)
+            .attr('y', d => barScale(d.data_id) )
+            .text( d=> {d.data_id})
+            // .attr('width', d => xScale_bar(d.rate) )
+            // .attr('height', barScale.bandwidth() )
+
     } else {
 
         barChart.select('.x.axis')
@@ -502,11 +505,18 @@ function drawBars(barData, isUpdate) {
             .attr('y', d => barScale(d.data_id) )
             .attr('width', d => xScale_bar(d.rate) )
             .attr('height', barScale.bandwidth() )
-            .attr('hello', d => {
-                console.log(d)
-                return 'world'
-            })
+            // .attr('hello', d => {
+                // return 'world'
+            // })
             // .style('opacity', 1.0)
+
+        barChart.select('#barNames')
+            .data(barData)
+            .transition()
+        // .enter()
+            .attr('x', d => xScale_bar(d.rate)/2)
+            .attr('y', d => barScale(d.data_id) )
+            .text( d=> {d.data_id})
 
     }
 }
