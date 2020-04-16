@@ -55,50 +55,84 @@ var barChart = svg2.append("g")
                   .attr("transform", "translate(" + 2*margin.left + "," + margin.top + ")")
 
 
+// !!!
+
+function parseSubsetValues(entry, subsetKeys) {
+    subsets = {}
+    subsetKeys.forEach(d=>{
+        subsets[d] = +entry[d]
+    })
+    return subsets
+}
+
+// !!!
+
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // DATA PROCESSING FUNCTIONS
 // 
 // Define a function to format and process the cancer data
-function formatCancerData(rawData, rate_col_title) {
+// function formatCancerData(rawData, rate_col_title) {
 
-    var cancer_by_type = d3.map();
+//     var cancer_by_type = d3.map();
+
+//     for (var i = 1; i<rawData.length; i++){
+
+//         entry = rawData[i]
+//         cancer_id = "$" + entry.cancer
+
+//         if (cancer_id in cancer_by_type) {
+//             this_cancer = cancer_by_type.get(entry.cancer)
+//             this_cancer[entry.id] = +entry[rate_col_title];
+//         } else {
+//             id = entry.id;
+//             cancer_by_type.set(entry.cancer, {id: +entry[rate_col_title]})
+//         }
+//     }
+//     return cancer_by_type
+// }
+function formatCancerData(rawData) {
+
+    // var cancer_by_type = d3.map();
+    var cancerByType = {};
+
+    subsetKeys = ['rate']
 
     for (var i = 1; i<rawData.length; i++){
 
         entry = rawData[i]
-        cancer_id = "$" + entry.cancer
+        cancerID = entry.cancer
 
-        if (cancer_id in cancer_by_type) {
-            this_cancer = cancer_by_type.get(entry.cancer)
-            this_cancer[entry.id] = +entry[rate_col_title];
+        if (cancerID in cancerByType) {
+            cancerByType[entry.cancer][entry.id] = parseSubsetValues(entry, subsetKeys)
         } else {
-            id = entry.id;
-            cancer_by_type.set(entry.cancer, {id: +entry[rate_col_title]})
+            cancerByType[entry.cancer] = {}
+            cancerByType[entry.cancer][entry.id] = parseSubsetValues(entry, subsetKeys)
         }
     }
-    return cancer_by_type
+    return cancerByType
 }
 
+function formatIndustryData(rawData) {
+    // var industryByType = d3.map();
+    var industryByType = {};
 
-function formatIndustryData(rawData, rate_col_title) {
-    var industry_by_type = d3.map();
+    subsetKeys = ['emp', 'payann', 'estab', 'ACID', 'ENRG', 'ETOX', 'EUTR', 'FOOD', 'GCC', 'HAPS', 'HAZW', 'HC',
+    'HNC', 'HRSP', 'HTOX', 'JOBS', 'LAND', 'METL', 'MINE', 'MSW', 'NREN',
+    'OZON', 'PEST', 'REN', 'SMOG', 'VADD', 'WATR']
 
     for (var i = 1; i<rawData.length; i++){
 
         entry = rawData[i]
-        industry_id = "$" + entry.relevant_naics
+        industryID = entry.relevant_naics
 
-        if (industry_id in industry_by_type) {
-            this_industry = industry_by_type.get(entry.relevant_naics)
-            this_industry[entry.id] = +entry[rate_col_title];
+        if (industryID in industryByType) {
+            industryByType[entry.relevant_naics][entry.id] = parseSubsetValues(entry, subsetKeys)
         } else {
-            id = entry.id;
-            industry_by_type.set(entry.relevant_naics, {id: +entry[rate_col_title]})
+            industryByType[entry.relevant_naics] = {}
+            industryByType[entry.relevant_naics][entry.id] = parseSubsetValues(entry, subsetKeys)
         }
     }
-    return industry_by_type
-
-
+    return industryByType
 }
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -108,54 +142,93 @@ function getKeyByValue(object, value) {
     return Object.keys(object).find(key => object[key] === value);
 }
 
-function getFormValues(){
-    // Pick which data view is selected in radio buttons
-    var form = document.getElementById("dataView")
-    var viewType;
-    for(var i=0; i<form.length; i++){
-    if(form[i].checked){
-        viewType = form[i].id;}}
+function getFormValues(elementID){
 
-    // Get slected value of data type
-    var sel = document.getElementById('hitme')
-    dataType = sel.options[sel.selectedIndex].value
+    if (elementID == "dataSetOption") {
+        // Pick which data view is selected in radio buttons
+        var form = document.getElementById("dataSetOption")
+        var viewType;
+        for(var i=0; i<form.length; i++){
+        if(form[i].checked){
+            viewType = form[i].id;}}
 
-    return [dataType, viewType]
+        return viewType
+
+    } else if (elementID == "colorScaleOption") {
+        // Pick which data view is selected in radio buttons
+        var form = document.getElementById("colorScaleOption")
+        var viewType;
+        for(var i=0; i<form.length; i++){
+        if(form[i].checked){
+            viewType = form[i].id;}}
+
+        return viewType
+
+    } else if(elementID == "dataSelector") {
+        // Get slected value of data type
+        var sel = document.getElementById('dataSelector')
+        dataType = sel.options[sel.selectedIndex].value
+
+        return dataType
+    } else if (elementID == "detailSelector") {
+        // Get slected value of data type
+        var sel = document.getElementById('detailSelector')
+        dataType = sel.options[sel.selectedIndex].value
+
+        return dataType
+    }
 }
 
-function define_colormap(dataID, allData, scaleType){
+
+function define_colormap(dataID, allData, scaleType, whichVal){
 
     // Get the data to scale
-    var thisData = allData.get(dataID)
+    var thisData = allData[dataID]
 
-    if (scaleType == "linear"){
+    // Rate Value processing if continout scale
+    if (scaleType.includes("continuous")) {
+
         // Get the range of data rate values
         rateVals = [];
         for(var key in thisData) {
-            rateVals.push(thisData[key]);
+            rateVals.push(thisData[key][whichVal]);
         }
-    
-        // rate_max = Math.ceil(d3.max(rateVals) / 10) * 10
-        rate_max = 100
-        rate_step = rate_max / 9
 
+        rate_max = Math.ceil(d3.max(rateVals) / 10) * 10
+        // rate_max = 100
+        rate_step = Math.floor(rate_max / 9)
 
-        var x = d3.scaleLinear()
-            .rangeRound([600, 860])
-            .domain([1, rate_max]);
+    }
+
+    // Color mapping
+    if (scaleType == "continuous-linear"){
     
         var colormap = d3.scaleThreshold()
             .range(d3.schemePuRd[9])
             .domain(d3.range(rate_step, rate_max+rate_step, rate_step));
         
         return colormap
-    } else {
-        color_diverging = d3.scaleDiverging([-100.0, 0, 100], d3.interpolatePuOr)
-                            // .domain([extent[0], 0, extent[1]])
-                            // .interpolator(d3.interpolateRdBu)
+
+    } else if (scaleType == "continuous-log"){
+
+        var logScale = d3.scaleLog()
+            .domain([1, rate_max])
+            // .range([0,1])
     
+        var thresholdScale = d3.scaleThreshold()
+            .range([d3.schemePuRd[9][0]].concat(d3.schemePuRd[9]))
+            .domain(d3.range(0.1, 1.1, 0.1))
+
+        var colormap = function(d) {
+            if (d<=0) { d=1}
+            return thresholdScale(logScale(d))
+        }
         
-        colormap = function(d){
+        return colormap
+    } else if (scaleType == "diverging") {
+        color_diverging = d3.scaleDiverging([-100.0, 0, 100], d3.interpolatePuOr)
+        
+        var colormap = function(d){
             if (Math.abs(d)==100){
                 d = 0
             }
@@ -188,7 +261,6 @@ function resetStyle() {
     .style("stroke-opacity", 0)
 
 }
-
 
 function clicked(d) {
     
@@ -223,7 +295,8 @@ function clicked(d) {
 
     // Log top rates
 
-    var barData = topRatesInFips(vizData, vizDataNames, county_fips, howMany=5)
+    var detailToPlot = getFormValues("detailSelector")
+    var barData = topRatesInFips(vizData, vizDataNames, howMany=5, whichVal=detailToPlot)
     drawBars(barData, isUpdate=true)
 
 }
@@ -234,18 +307,18 @@ function zoomed() {
     mapChart.attr("stroke-width", 1 / transform.k);
 }
 
-function topRatesInFips(dataSet, dataNames, fips, howMany=5){
+function topRatesInFips(dataSet, dataNames, fips, howMany, whichVal){
 
     rates_dict = {}
     rates_list = []
 
-    Object.keys(dataSet.ActualRate).forEach( d=>{
-        this_key = parseInt(d.split("$")[1])
+    Object.keys(dataSet.ActualRate).forEach( this_key=>{
+        // this_key = parseInt(d.split("$")[1])
         if (this_key!=1){
-            this_rate = dataSet.ActualRate.get(this_key)
+            this_rate = dataSet.ActualRate[this_key]
             if (this_rate.hasOwnProperty(fips)){ 
-                rates_dict[this_key] = parseFloat(this_rate[fips])
-                rates_list.push(parseFloat(this_rate[fips]))
+                rates_dict[this_key] = parseFloat(this_rate[fips][whichVal])
+                rates_list.push(parseFloat(this_rate[fips][whichVal]))
             } else {
                 rates_dict[this_key] = 0.0
                 rates_list.push(0.0)
@@ -256,6 +329,7 @@ function topRatesInFips(dataSet, dataNames, fips, howMany=5){
     rates_list = rates_list.sort(function(a,b) { return a - b;}).reverse()
 
     top_data_list = []
+    top_data_ids = []
     for (var i=0; i<howMany; i++) {
         id = parseInt(getKeyByValue(rates_dict, rates_list[i]))
 
@@ -264,10 +338,22 @@ function topRatesInFips(dataSet, dataNames, fips, howMany=5){
         // console.log(dataSet.ActualRate)
         // console.log(id)
 
-        top_data_list.push(
-            {'data_id': dataNames[id], 'rate': dataSet.ActualRate.get(id)[fips]}
-        )
+        rateInFips = dataSet.ActualRate[id][fips][whichVal]
+        if (rateInFips == null) {
+            rateInFips = 1
+            top_data_list.push(
+                {'data_id': dataNames[id], 'rate': rateInFips}
+            )
+        } else {
+            top_data_list.push(
+                {'data_id': dataNames[id], 'rate': rateInFips}
+            )
+            top_data_ids.push(id)
+        }
     }
+
+    // var viewOptions = getFormValues()
+    // selectedDataID = parseInt(getKeyByValue(vizDataNames, viewOptions[0]))
 
     return top_data_list
 }
@@ -298,8 +384,8 @@ function ready(values) {
 
     // Load and process the cancer data
     cancerData = {
-        'ActualRate': formatCancerData(values[1], 'rate'),
-        'DeltaRate': formatCancerData(values[1], 'rate_delta_percent')
+        'ActualRate': formatCancerData(values[1]),
+        'DeltaRate': formatCancerData(values[1])
     }
 
     cancerNames = {}
@@ -311,8 +397,8 @@ function ready(values) {
     test3 = values[3]
     test4 = values[4]
     industryData = {
-        'ActualRate': formatIndustryData(values[3], 'emp'),
-        'DeltaRate': formatIndustryData(values[3], 'emp')
+        'ActualRate': formatIndustryData(values[3]),
+        'DeltaRate': formatIndustryData(values[3])
     }
 
     industryNames = {}
@@ -320,59 +406,105 @@ function ready(values) {
         industryNames[+item.relevant_naics] = item.industry_detail
     })
 
+    // Determine which data to plot
+    updateAll(getFormValues('dataSetOption'), isUpdate=false)
 
-    vizData = industryData;
-    vizDataNames = industryNames;
-    initVizDataID = 11;
-
-    // Draw the choropleth
-    updateMap(vizData, initVizDataID, "ActualRate", isUpdate=false)
-
-    // Draw the bar graph
-    barData = topRatesInFips(vizData, vizDataNames, 21197, 5)
-    drawBars(barData, isUpdate=false)
-
-
-    // Draw the selector
-    drawSelectorBox(vizData.DeltaRate, vizDataNames)
 
     // Updates for selector
     d3.select('#dataSelector')
         .on('change', val => {
-            var viewOptions = getFormValues()
-            selectedDataID = parseInt(getKeyByValue(vizDataNames, viewOptions[0]))
-            selectedRateType = viewOptions[1]
-            updateMap(vizData, selectedDataID, selectedRateType, isUpdate=true)
+            updateMap(vizData, isUpdate=true)
+        })
+
+    d3.select('#detailSelector')
+        .on('change', val => {
+            updateMap(vizData, isUpdate=true)
         })
 
     // DATA VIEW
     // - Add interactivity on radio button change
-    d3.select("#dataView")
+    d3.select("#colorScaleOption")
         .on("change", val => {
-
-            var viewOptions = getFormValues()
-            selectedDataID = parseInt(getKeyByValue(vizDataNames, viewOptions[0]))
-            selectedRateType = viewOptions[1]
-            
-            updateMap(vizData, selectedDataID, selectedRateType, isUpdate=true)
+            // updateAll(getFormValues('dataSetOption'), isUpdate=true)
+            updateMap(vizData, isUpdate=true)
         })
 
+    // - Add interactivity on radio button change
+    d3.select("#dataSetOption")
+        .on("change", val => {
+            updateAll(getFormValues('dataSetOption'), isUpdate=true)
+            // updateMap(vizData, isUpdate=true)
+        })
+}
+
+
+function updateAll(whichDataSet, isUpdate){
+    // whichDataSet can be either "industry" for "cancer"
+
+    if (whichDataSet == "cancer") {
+        vizData = cancerData;
+        vizDataNames = cancerNames;
+        initVizDataID = 53;
+        barChartVal = "rate"
+
+    } else if (whichDataSet == "industry"){
+        vizData = industryData;
+        vizDataNames = industryNames;
+        initVizDataID = 11;
+        barChartVal = "emp"
+    }
+
+    // Draw the primary selector box
+    dataOptions = [];
+    Object.keys(vizData.ActualRate).forEach( k=> {
+        // newKey = parseInt(d.split("$")[1])
+        // dataOptions.push(newKey)
+        dataOptions.push(vizDataNames[k])
+    })
+    drawSelectorBox(dataOptions, "form1", "dataSelector", isUpdate)
+
+    // Draw the secondary selector box
+    dataOption = getKeyByValue(vizDataNames, getFormValues("dataSelector"))
+    detailOptions = Object.keys(vizData.ActualRate[dataOption][10001])
+    drawSelectorBox(detailOptions, "form2", "detailSelector", isUpdate)
+
+
+    // Draw the choropleth
+    updateMap(vizData, isUpdate)
+
+    // Draw the bar graph
+    startUpFIPS = 21197
+    barData = topRatesInFips(vizData, vizDataNames, startUpFIPS, howMany=5, whichVal=barChartVal)
+    drawBars(barData, isUpdate=false)
 }
 
 // Update Functions
-var updateMap = function(dataSet, dataID, rateType, isUpdate){
+var updateMap = function(dataSet, isUpdate){
+
+    console.log("UPDATE")
+
+    // Determin which values to draw
+    // rateType = getFormValues("colorScaleOption")
+    rateType = "ActualRate"
+    dataID = parseInt(getKeyByValue(vizDataNames, getFormValues("dataSelector")))
+    // dataID = parseInt(dataOption)
+    detailValToPlot = getFormValues("detailSelector")
+    console.log(getFormValues('colorScaleOption'))
+
+    colorScaleType = getFormValues('colorScaleOption')
+
+    var selectedData = dataSet[rateType]
+
 
     if (rateType=="ActualRate"){
-        var selectedData = dataSet['ActualRate']
-        colormap = define_colormap(dataID, selectedData, scale_type="linear")
+        // Pick continuous colorscale to show the range of values
+        colormap = define_colormap(dataID, selectedData, scaleType=colorScaleType, whichVal=detailValToPlot)
     } else {
-
-    var selectedData = dataSet['DeltaRate']
-
-    colormap = define_colormap(dataID, selectedData, scale_type="diverging")
+        // pick diverging color scale to properly show + or - changes
+        colormap = define_colormap(dataID, selectedData, scaleType="diverging", whichVal=detailValToPlot)
     }
 
-    drawChoropleth(us_topojson, selectedData, dataID, colormap, isUpdate)
+    drawChoropleth(us_topojson, selectedData, dataID, colormap, isUpdate, whichVal)
 }
 
 
@@ -380,27 +512,32 @@ var updateMap = function(dataSet, dataID, rateType, isUpdate){
 // DATA SELECTOR - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // 
 
-function drawSelectorBox(dataSet, dataNames) {
+function drawSelectorBox(dataOptions, selectorDivID, newSelectorID, isUpdate) {
 
-    // Get Data keys
-    dataOptions = [];
-
-    Object.keys(dataSet).forEach( d=>{
-        newKey = parseInt(d.split("$")[1])
-        // dataOptions.push(newKey)
-        dataOptions.push(dataNames[newKey])
-    })
-
-    // CANCER TYPE
-    // Draw the Data type selector with D3
-    d3.select('#dataSelector')
-        .append('select')
-        .attr('class','select')
-        .attr('id', 'hitme')
-        .selectAll('option')
-            .data(dataOptions).enter()
-            .append('option')
+    if (isUpdate==false) {
+        // Draw the Data type selector with D3
+        // d3.select('#dataSelector')
+        d3.select('#' + selectorDivID)
+            .append('select')
+            .attr('class','select')
+            .attr('id', newSelectorID)
+            .selectAll('option')
+                .data(dataOptions).enter()
+                .append('option')
                 .text(d => d)
+
+    } else if (isUpdate==true) {
+        d3.select('#' + selectorDivID)
+            .selectAll('option')
+            .remove()
+
+        d3.select('#' + selectorDivID)
+            .select('#' + newSelectorID)
+            .selectAll('option')
+                .data(dataOptions).enter()
+                .append('option')
+                .text(d => d)
+    }
 }
 
 
@@ -418,8 +555,8 @@ function drawBars(barData, isUpdate) {
     // Set up a dynamic scale for the x-axis
     var xMax_bar = d3.max(barData, function(d) { return d.rate }),
         xMin_bar = d3.min(barData, function(d) { return d.rate }),
-        xScale_bar = d3.scaleLinear()
-                .domain([0, xMax_bar])              // domain of inputs;
+        xScale_bar = d3.scaleLog()
+                .domain([1, 200000])              // domain of inputs;
                 .range([0, width])  // range of output draw coords in px
 
     var barScale = d3.scaleBand()
@@ -525,18 +662,9 @@ function drawBars(barData, isUpdate) {
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // MAP DRAW
 // 
-function drawChoropleth(topoUS, allDataTypes, dataID, colormap, isUpdate) {
+function drawChoropleth(topoUS, allDataTypes, dataID, colormap, isUpdate, whichVal) {
 
-
-    thisData = allDataTypes.get(dataID)
-
-    //
-    // Establish Scales for the legend and colormap
-    //
-
-    //
-    // Draw the map
-    //
+    thisData = allDataTypes[dataID]
 
     if (isUpdate===false){
 
@@ -556,7 +684,15 @@ function drawChoropleth(topoUS, allDataTypes, dataID, colormap, isUpdate) {
         .append("path")
         .on("click", clicked)
         .on("dblclick", reset)
-        .style("fill", function(d) { return colormap(d.rate = thisData[d.id]); })//hello
+        .style("fill", d=>{
+            thisSet = thisData[d.id]
+            if (thisSet == null) {
+                d.rate = 0
+            } else {
+                d.rate = thisSet[whichVal]
+            }
+            return colormap(d.rate)
+        })
         .style("stroke", "black")
         .style("stroke-width", 0.3)
         .style("stroke-opacity", 0)
@@ -578,7 +714,15 @@ function drawChoropleth(topoUS, allDataTypes, dataID, colormap, isUpdate) {
             .select('#renderedCounties')
             .selectAll('path')
             .data(topojson.feature(topoUS, topoUS.objects.counties).features)
-            .style("fill", function(d) { return colormap(d.rate = thisData[d.id]); })
+            .style("fill", d=>{
+                thisSet = thisData[d.id]
+                if (thisSet == null) {
+                    d.rate = 0
+                } else {
+                    d.rate = thisSet[whichVal]
+                }
+                return colormap(d.rate)
+            })
             .attr("d", path)
             // .append("title")
             //     .text(function(d) { return d.rate; });
