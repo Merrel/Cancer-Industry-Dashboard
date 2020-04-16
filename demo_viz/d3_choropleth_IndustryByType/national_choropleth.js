@@ -79,7 +79,6 @@ function formatCancerData(rawData, rate_col_title) {
     return cancer_by_type
 }
 
-
 function formatIndustryData(rawData, rate_col_title) {
     var industry_by_type = d3.map();
 
@@ -97,8 +96,6 @@ function formatIndustryData(rawData, rate_col_title) {
         }
     }
     return industry_by_type
-
-
 }
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -122,38 +119,59 @@ function getFormValues(){
 
     return [dataType, viewType]
 }
+log_scaler = d3.scaleLog()
+    .domain([1, 1000])
+    .range([0,1])
 
 function define_colormap(dataID, allData, scaleType){
 
     // Get the data to scale
     var thisData = allData.get(dataID)
 
-    if (scaleType == "linear"){
+    if (scaleType == "continuous-linear"){
         // Get the range of data rate values
         rateVals = [];
         for(var key in thisData) {
             rateVals.push(thisData[key]);
         }
     
-        // rate_max = Math.ceil(d3.max(rateVals) / 10) * 10
-        rate_max = 100
+        rate_max = Math.ceil(d3.max(rateVals) / 10) * 10
+        // rate_max = 100
         rate_step = rate_max / 9
-
-
-        var x = d3.scaleLinear()
-            .rangeRound([600, 860])
-            .domain([1, rate_max]);
     
         var colormap = d3.scaleThreshold()
             .range(d3.schemePuRd[9])
             .domain(d3.range(rate_step, rate_max+rate_step, rate_step));
         
         return colormap
-    } else {
-        color_diverging = d3.scaleDiverging([-100.0, 0, 100], d3.interpolatePuOr)
-                            // .domain([extent[0], 0, extent[1]])
-                            // .interpolator(d3.interpolateRdBu)
+
+    } else if (scaleType == "continuous-log"){
+        // Get the range of data rate values
+        rateVals = [];
+        for(var key in thisData) {
+            rateVals.push(thisData[key]);
+        }
     
+        rate_max = Math.ceil(d3.max(rateVals) / 10) * 10
+        // rate_max = 100
+        rate_step = rate_max / 9
+
+        logScale = d3.scaleLog()
+            .domain([1, rate_max])
+            // .range([0,1])
+    
+        thresholdScale = d3.scaleThreshold()
+            .range([d3.schemePuRd[9][0]].concat(d3.schemePuRd[9]))
+            .domain(d3.range(0.1, 1.1, 0.1))
+
+        colormap = function(d) {
+            if (d<=0) { d=1}
+            return thresholdScale(logScale(d))
+        }
+        
+        return colormap
+    } else if (scaleType == "diverging") {
+        color_diverging = d3.scaleDiverging([-100.0, 0, 100], d3.interpolatePuOr)
         
         colormap = function(d){
             if (Math.abs(d)==100){
@@ -188,7 +206,6 @@ function resetStyle() {
     .style("stroke-opacity", 0)
 
 }
-
 
 function clicked(d) {
     
@@ -364,7 +381,7 @@ var updateMap = function(dataSet, dataID, rateType, isUpdate){
 
     if (rateType=="ActualRate"){
         var selectedData = dataSet['ActualRate']
-        colormap = define_colormap(dataID, selectedData, scale_type="linear")
+        colormap = define_colormap(dataID, selectedData, scale_type="continuous-log")
     } else {
 
     var selectedData = dataSet['DeltaRate']

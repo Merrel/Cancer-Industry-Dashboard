@@ -33,3 +33,8 @@
 // .tickValues(color.domain().map(Math.round)))
 // .select(".domain")
 // .remove();
+
+
+// var x = d3.scaleLinear()
+// .rangeRound([600, 860])
+// .domain([1, rate_max]);
