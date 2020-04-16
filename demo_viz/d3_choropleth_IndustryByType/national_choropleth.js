@@ -116,7 +116,9 @@ function formatIndustryData(rawData, rate_col_title) {
     // var industryByType = d3.map();
     var industryByType = {};
 
-    subsetKeys = ["emp", "payann", "estab"]
+    subsetKeys = ['emp', 'payann', 'estab', 'ACID', 'ENRG', 'ETOX', 'EUTR', 'FOOD', 'GCC', 'HAPS', 'HAZW', 'HC',
+    'HNC', 'HRSP', 'HTOX', 'JOBS', 'LAND', 'METL', 'MINE', 'MSW', 'NREN',
+    'OZON', 'PEST', 'REN', 'SMOG', 'VADD', 'WATR']
 
     for (var i = 1; i<rawData.length; i++){
 
@@ -161,11 +163,17 @@ function getFormValues(elementID){
         dataType = sel.options[sel.selectedIndex].value
 
         return dataType
+    } else if (elementID == "detailSelector") {
+        // Get slected value of data type
+        var sel = document.getElementById('detailSelector')
+        dataType = sel.options[sel.selectedIndex].value
+
+        return dataType
     }
 }
 
 
-function define_colormap(dataID, allData, scaleType, whichVal="emp"){
+function define_colormap(dataID, allData, scaleType, whichVal){
 
     // Get the data to scale
     var thisData = allData[dataID]
@@ -280,7 +288,8 @@ function clicked(d) {
 
     // Log top rates
 
-    var barData = topRatesInFips(vizData, vizDataNames, howMany=5, whichVal="emp")
+    var detailToPlot = getFormValues("detailSelector")
+    var barData = topRatesInFips(vizData, vizDataNames, howMany=5, whichVal=detailToPlot)
     drawBars(barData, isUpdate=true)
 
 }
@@ -291,7 +300,7 @@ function zoomed() {
     mapChart.attr("stroke-width", 1 / transform.k);
 }
 
-function topRatesInFips(dataSet, dataNames, fips, howMany=5, whichVal="emp"){
+function topRatesInFips(dataSet, dataNames, fips, howMany, whichVal){
 
     rates_dict = {}
     rates_list = []
@@ -411,9 +420,8 @@ function ready(values) {
     drawSelectorBox(detailOptions, "form2", "detailSelector")
 
 
-
     // Draw the choropleth
-    updateMap(vizData, initVizDataID, "ActualRate", isUpdate=false)
+    updateMap(vizData, isUpdate=false)
 
     // Draw the bar graph
     startUpFIPS = 21197
@@ -421,16 +429,15 @@ function ready(values) {
     drawBars(barData, isUpdate=false)
 
 
-
-
-
     // Updates for selector
-    d3.select('#selector1')
+    d3.select('#dataSelector')
         .on('change', val => {
-            dataOption = getKeyByValue(vizDataNames, getFormValues("dataSelector"))
-            selectedDataID = parseInt(dataOption)
-            selectedRateType = getFormValues("dataView")
-            updateMap(vizData, selectedDataID, selectedRateType, isUpdate=true)
+            updateMap(vizData, isUpdate=true)
+        })
+
+    d3.select('#detailSelector')
+        .on('change', val => {
+            updateMap(vizData, isUpdate=true)
         })
 
     // DATA VIEW
@@ -448,20 +455,27 @@ function ready(values) {
 }
 
 // Update Functions
-var updateMap = function(dataSet, dataID, rateType, isUpdate){
+var updateMap = function(dataSet, isUpdate){
+
+    console.log("UPDATE")
+
+    // Determin which values to draw
+    rateType = getFormValues("dataView")
+    dataID = parseInt(getKeyByValue(vizDataNames, getFormValues("dataSelector")))
+    // dataID = parseInt(dataOption)
+    detailValToPlot = getFormValues("detailSelector")
+
+    var selectedData = dataSet[rateType]
+
 
     if (rateType=="ActualRate"){
         // Pick continuous colorscale to show the range of values
-        var selectedData = dataSet['ActualRate']
-        colormap = define_colormap(dataID, selectedData, scale_type="continuous-log")
+        colormap = define_colormap(dataID, selectedData, scaleType="continuous-log", whichVal=detailValToPlot)
     } else {
         // pick diverging color scale to properly show + or - changes
-        var selectedData = dataSet['DeltaRate']
-        colormap = define_colormap(dataID, selectedData, scale_type="diverging")
+        colormap = define_colormap(dataID, selectedData, scaleType="diverging", whichVal=detailValToPlot)
     }
 
-    // Determin which value to draw
-    var whichVal = getFormValues("detailSelector")
     drawChoropleth(us_topojson, selectedData, dataID, colormap, isUpdate, whichVal)
 }
 
@@ -605,7 +619,7 @@ function drawBars(barData, isUpdate) {
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // MAP DRAW
 // 
-function drawChoropleth(topoUS, allDataTypes, dataID, colormap, isUpdate, whichVal="emp") {
+function drawChoropleth(topoUS, allDataTypes, dataID, colormap, isUpdate, whichVal) {
 
 
     thisData = allDataTypes[dataID]
@@ -645,15 +659,6 @@ function drawChoropleth(topoUS, allDataTypes, dataID, colormap, isUpdate, whichV
             }
             return colormap(d.rate)
         })
-        // .attr("temp", d=>{
-        //     thisSet = thisData[d.id]
-        //     if (thisSet == null) {
-        //         d.rate = 0
-        //     } else {
-        //         d.rate = thisSet["emp"]
-        //     }
-        //     console.log(d.rate)
-        // })
         .style("stroke", "black")
         .style("stroke-width", 0.3)
         .style("stroke-opacity", 0)
