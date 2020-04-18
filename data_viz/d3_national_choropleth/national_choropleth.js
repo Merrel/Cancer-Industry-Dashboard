@@ -248,12 +248,12 @@ function clicked(d) {
     d3.select(this).style("stroke-opacity", 1)
 
     // Get the state fips code for the selected county
-    var state_fips = d.id.substr(0,2)
-    var county_fips = d.id    
+    var stateFIPS = d.id.substr(0,2)
+    var countyFIPS = d.id    
 
     // Pick the state to zoom to
     us_topojson.objects.states.geometries.forEach(d => {
-        if (d.id == state_fips){
+        if (d.id == stateFIPS){
             d_state = d
         }
     })
@@ -275,7 +275,7 @@ function clicked(d) {
     // Log top rates
 
     var detailToPlot = getFormValues("detailSelector")
-    var barData = topRatesInFips(vizData, vizDataNames, howMany=5, whichVal=detailToPlot)
+    var barData = topRatesInFips(vizData, vizDataNames, countyFIPS, howMany=5, whichVal=detailToPlot)
     drawBars(barData, isUpdate=true)
 
 }
@@ -290,6 +290,8 @@ function topRatesInFips(dataSet, dataNames, fips, howMany, whichVal){
 
     rates_dict = {}
     rates_list = []
+
+    selectedFIPS = fips
 
     Object.keys(dataSet.ActualRate).forEach( this_key=>{
         // this_key = parseInt(d.split("$")[1])
@@ -309,6 +311,7 @@ function topRatesInFips(dataSet, dataNames, fips, howMany, whichVal){
 
     top_data_list = []
     top_data_ids = []
+    naCount = 1
     for (var i=0; i<howMany; i++) {
         id = parseInt(getKeyByValue(rates_dict, rates_list[i]))
 
@@ -323,6 +326,12 @@ function topRatesInFips(dataSet, dataNames, fips, howMany, whichVal){
             top_data_list.push(
                 {'data_id': dataNames[id], 'rate': rateInFips}
             )
+        } else if (rateInFips==0) {
+            top_data_list.push(
+                {'data_id': 'NA-' + naCount, 'rate': 0.0}
+            )
+            naCount++
+
         } else {
             top_data_list.push(
                 {'data_id': dataNames[id], 'rate': rateInFips}
@@ -532,11 +541,12 @@ function drawBars(barData, isUpdate) {
     // SCALES - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     //
     // Set up a dynamic scale for the x-axis
-    var xMax_bar = d3.max(barData, function(d) { return d.rate }),
-        xMin_bar = d3.min(barData, function(d) { return d.rate }),
-        xScale_bar = d3.scaleLog()
-                .domain([1, 200000])              // domain of inputs;
-                .range([0, width])  // range of output draw coords in px
+    xMaxBar = d3.max(barData, function(d) { return d.rate }),
+    xMinBar = d3.min(barData, function(d) { return d.rate }),
+    xScaleBar = d3.scaleLinear()
+            .domain([0, 500])              // domain of inputs;
+            .range([0, width])  // range of output draw coords in px
+            // .clamp()
 
     var barScale = d3.scaleBand()
         .domain(barData.map(function(d) { return d.data_id }))
@@ -548,7 +558,7 @@ function drawBars(barData, isUpdate) {
     // Set up a dynamic x-axis
 
     var xAxis = d3.axisBottom()
-                .scale(xScale_bar)
+                .scale(xScaleBar)
                 .tickSize(5)
                 
     // Y Axis
@@ -577,8 +587,12 @@ function drawBars(barData, isUpdate) {
             .attr('class', 'bar')
             .attr('x', 0)
             .attr('y', d => barScale(d.data_id) )
-            .attr('width', d => xScale_bar(d.rate) )
+            .attr('width', d => xScaleBar(d.rate) )
             .attr('height', barScale.bandwidth() )
+            // .attr('hello', d => {
+            //     console.log(d)
+            //     console.log(xScaleBar(d.rate))
+            // })
             // .style('opacity', 0.0)
 
         
@@ -591,10 +605,10 @@ function drawBars(barData, isUpdate) {
             .data(barData)
         .enter()
             .append('text')
-            .attr('x', d => xScale_bar(d.rate)/2)
+            .attr('x', d => xScaleBar(d.rate)/2)
             .attr('y', d => barScale(d.data_id) )
             .text( d=> {d.data_id})
-            // .attr('width', d => xScale_bar(d.rate) )
+            // .attr('width', d => xScaleBar(d.rate) )
             // .attr('height', barScale.bandwidth() )
 
     } else {
@@ -612,6 +626,7 @@ function drawBars(barData, isUpdate) {
             // .style('opacity', 1.0)
 
         barChart.selectAll('rect')
+            // .attr('hello_data', d=>{console.log(barData)})
             .data(barData)
             .transition()
             .duration(transition_time)
@@ -619,7 +634,7 @@ function drawBars(barData, isUpdate) {
             .attr('class', 'bar')
             .attr('x', 0)
             .attr('y', d => barScale(d.data_id) )
-            .attr('width', d => xScale_bar(d.rate) )
+            .attr('width', d => xScaleBar(d.rate) )
             .attr('height', barScale.bandwidth() )
             // .attr('hello', d => {
                 // return 'world'
@@ -630,7 +645,7 @@ function drawBars(barData, isUpdate) {
             .data(barData)
             .transition()
         // .enter()
-            .attr('x', d => xScale_bar(d.rate)/2)
+            .attr('x', d => xScaleBar(d.rate)/2)
             .attr('y', d => barScale(d.data_id) )
             .text( d=> {d.data_id})
 
