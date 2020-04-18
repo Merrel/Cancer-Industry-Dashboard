@@ -373,7 +373,7 @@ function ready(values) {
     // Load and process the cancer data
     cancerData = {
         'ActualRate': formatCancerData(values[1]),
-        'DeltaRate': formatCancerData(values[1])
+        // 'DeltaRate': formatCancerData(values[1])
     }
 
     cancerNames = {}
@@ -382,11 +382,9 @@ function ready(values) {
     })
 
     // Load and process the industry data
-    test3 = values[3]
-    test4 = values[4]
     industryData = {
         'ActualRate': formatIndustryData(values[3]),
-        'DeltaRate': formatIndustryData(values[3])
+        // 'DeltaRate': formatIndustryData(values[3])
     }
 
     industryNames = {}
@@ -423,6 +421,11 @@ function ready(values) {
             updateAll(getFormValues('dataSetOption'), isUpdate=true)
             // updateMap(vizData, isUpdate=true)
         })
+
+    // View Reset button
+    d3.select("#resetViewButton")
+        .on("click", reset)
+
 }
 
 
@@ -548,7 +551,7 @@ function drawBars(barData, isUpdate) {
             .range([0, width])  // range of output draw coords in px
             // .clamp()
 
-    var barScale = d3.scaleBand()
+    var y1 = d3.scaleBand()
         .domain(barData.map(function(d) { return d.data_id }))
         .range([0, height/2])
         .padding(0.2)
@@ -563,21 +566,11 @@ function drawBars(barData, isUpdate) {
                 
     // Y Axis
     var yAxis = d3.axisLeft()
-                .scale(barScale)
+                .scale(y1)
                 .ticks(10)
 
     
     if (isUpdate==false) {
-        barChart.append('g')
-            .attr('class', 'y axis')
-            .call(yAxis)
-            // .style('opacity', 0.0)
-
-        barChart.append('g')
-            .attr('class', 'x axis')
-            .call(xAxis)
-            .attr('transform', 'translate(0,' + height/2 + ')')
-            // .style('opacity', 0.0)
 
         // Enter the bars d3 object to run the drawing loop for each item in the dataset
         barChart.selectAll('rect')
@@ -586,9 +579,16 @@ function drawBars(barData, isUpdate) {
             .append('rect')
             .attr('class', 'bar')
             .attr('x', 0)
-            .attr('y', d => barScale(d.data_id) )
+            .attr('y', d => y1(d.data_id) )
             .attr('width', d => xScaleBar(d.rate) )
-            .attr('height', barScale.bandwidth() )
+            .attr('height', y1.bandwidth() )
+            .style('fill', 'rgb(152, 231, 237)')
+            .on("mouseover", function(d) {
+                d3.select(this).style("fill", d3.rgb('rgb(0152, 231, 237)').darker(2));
+            })
+            .on("mouseout", function(d) {
+                d3.select(this).style("fill", 'rgb(152, 231, 237)');
+            })
             // .attr('hello', d => {
             //     console.log(d)
             //     console.log(xScaleBar(d.rate))
@@ -606,10 +606,19 @@ function drawBars(barData, isUpdate) {
         .enter()
             .append('text')
             .attr('x', d => xScaleBar(d.rate)/2)
-            .attr('y', d => barScale(d.data_id) )
+            .attr('y', d => y1(d.data_id) )
             .text( d=> {d.data_id})
             // .attr('width', d => xScaleBar(d.rate) )
-            // .attr('height', barScale.bandwidth() )
+            // .attr('height', y1.bandwidth() )
+        barChart.append('g')
+        .attr('class', 'y axis')
+        .call(yAxis)
+        // .style('opacity', 0.0)
+
+        barChart.append('g')
+            .attr('class', 'x axis')
+            .call(xAxis)
+            .attr('transform', 'translate(0,' + height/2 + ')')
 
     } else {
 
@@ -633,9 +642,9 @@ function drawBars(barData, isUpdate) {
             // .ease(d3.easeElasticOut)
             .attr('class', 'bar')
             .attr('x', 0)
-            .attr('y', d => barScale(d.data_id) )
+            .attr('y', d => y1(d.data_id) )
             .attr('width', d => xScaleBar(d.rate) )
-            .attr('height', barScale.bandwidth() )
+            .attr('height', y1.bandwidth() )
             // .attr('hello', d => {
                 // return 'world'
             // })
@@ -646,7 +655,7 @@ function drawBars(barData, isUpdate) {
             .transition()
         // .enter()
             .attr('x', d => xScaleBar(d.rate)/2)
-            .attr('y', d => barScale(d.data_id) )
+            .attr('y', d => y1(d.data_id) )
             .text( d=> {d.data_id})
 
     }
