@@ -3,3 +3,4 @@
 .BEA_API_KEY
 *.numbers
 __pycache__
+data_clean/cancer_industry.csv
