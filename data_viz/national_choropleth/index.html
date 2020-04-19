@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Range.js plugin</title>
+
+    <meta name="description" content="A simple range plugin written in pure JavaScript" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="./src/sliders.css">
+
+
+    <!-- Call the range slider script -->
+    <script src="src/range.js"></script>
+
+    <!-- Call the relevant D3 resources -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://d3js.org/topojson.v2.min.js"></script>
+
+</head>
+<body>
+    <!-- <header class="header boxed">
+        <h2><strong>Range.js</strong> is a lightweight pure JavaScript plugin that turns a basic HTML text input into a beautiful slider in no time.</h2>
+        <p>
+            <a class="btn" href="https://github.com/niandco/range">Fork</a>&nbsp;
+            <a class="btn" href="https://github.com/niandco/range/archive/master.zip">Download</a>
+        </p>
+    </header> -->
+    <main class="main boxed">
+
+        <h1>Cancer & Industry</h1>
+
+        <h3>Usage</h3>
+        <p>Add a simple HTML text input in your page and set the attributes (min, max and step).  whate if I continue to just add a mubnch of words here? unique new york</p>
+
+
+        <h3>National Choropleth</h3>
+
+
+        <!-- ------------------------------------------------------------------------------------------------------ -->
+        <!-- Sliders -->
+        <div class="flex">
+            <div class="col c1">
+                
+                <div id="choropleth" class="chartbox"></div>
+
+            </div>
+            <div class="col c2">
+                <table>
+                    <tr>
+                        <th><input type="text" id="example1" value="100" max="100" min="0" step="10" /></th>
+                    </tr>
+                    <tr>
+                        <th><input type="text" id="example2" value="100" max="100" min="0" step="10" /></th>
+                    </tr>
+                    <tr>
+                        <th><input type="text" id="example3" value="100" max="100" min="0" step="10" /></th>
+                    </tr>
+                </table>
+                    
+
+
+                <!-- <div class="flex">
+                    <input type="text" id="example2" value="100" max="100" min="0" step="10" />
+                </div> -->
+                <!-- <div class="block">
+                    <input type="text" id="example3" value="100" max="100" min="0" step="10" />
+                </div> -->
+            </div>
+    
+            <!-- <div class="flex">
+                <div class="col c1">
+
+                </div>
+                <div class="col c2">
+                    <input type="text" id="example2" value="100" max="100" min="0" step="10" />
+                </div>
+            </div>
+    
+            <div class="flex">
+                <div class="col c1">
+
+                </div>
+                <div class="col c2">
+                    <input type="text" id="example3" value="100" max="100" min="0" step="10" />
+                </div>
+            </div> -->
+        </div>
+
+
+        <!-- ------------------------------------------------------------------------------------------------------ -->
+        <!-- D3 Charts -->
+        <!-- <div class="container"> -->
+            <!-- Define a set of Divs for D3 to draw into -->
+        <div id="dataSetSelector" class="radioButton">
+            <form id="dataSetOption">
+            <input  type='radio' id="cancer" name="mode" checked>Cancer Data</input>
+            <input type='radio' id="industry" name="mode">Industry Data</input>
+            </form>
+        </div>
+
+        <div id="colorScaleSelector" class="radioButton">
+            <form id="colorScaleOption">
+            <input  type='radio' id="continuous-linear" name="mode" checked>Value - Linear Scale</input>
+            <input  type='radio' id="continuous-log" name="mode" >Value - Log Scale</input>
+            <input type='radio' id="DeltaLinear" name="mode">Delta from Avg</input>
+            </form>
+        </div>
+
+        <div id="form1" class="dropDown"></div>
+        <div id="form2" class="dropDown"></div>
+
+        <button class="btn" id="resetViewButton">Reset View</button>
+
+        <!-- Allocate divs for the plots -->
+        <div id="barsTopCancer" class="chartbox"></div>
+        
+        <!-- PATTER FILL SVG : https://iros.github.io/patternfills/sample_d3.html -->
+        <svg height="5" width="5" xmlns="http://www.w3.org/2000/svg" version="1.1"> <defs> <pattern id="smalldot" patternUnits="userSpaceOnUse" width="5" height="5"> <image xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc1JyBoZWlnaHQ9JzUnPgo8cmVjdCB3aWR0aD0nNScgaGVpZ2h0PSc1JyBmaWxsPScjZmZmJy8+CjxyZWN0IHdpZHRoPScxJyBoZWlnaHQ9JzEnIGZpbGw9JyNjY2MnLz4KPC9zdmc+" x="0" y="0" width="5" height="5"> </image> </pattern> </defs> </svg>
+    
+        <!-- </div> -->
+    
+        <!-- Call the D3 Script to build the plots -->
+        <script type="text/javascript" src="./src/national_choropleth.js" charset="utf-8"></script>
+
+
+
+
+    </main>
+
+    <!-- Call the sliders script -->
+    <script>
+
+        // Slider 1
+        rangejs( document.getElementById( 'example1' ), {
+            css:true,
+            buttons:true,
+            stop: function( event, ui ){
+                console.log('Industry A')
+                sliderValue = document.getElementById('example1').value
+                console.log(sliderValue)
+            }
+        } );
+        rangejs( document.getElementById( 'example2' ), {
+            css:true,
+            buttons:true,
+            stop: function( event, ui ){
+                console.log('Industry B')
+                sliderValue = document.getElementById('example2').value
+                console.log(sliderValue)
+            }
+        } );
+        rangejs( document.getElementById( 'example3' ), {
+            css:true,
+            buttons:true,
+            stop: function( event, ui ){
+                console.log('Industry C')
+                sliderValue = document.getElementById('example3').value
+                console.log(sliderValue)
+            }
+        } );
+        // rangejs( document.getElementById( 'example5' ), {css:true} );
+    </script>
+    <!-- <script> -->
+    <!-- </script> -->
+</body>
+</html>

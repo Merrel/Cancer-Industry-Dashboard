@@ -1,0 +1,356 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Range.js plugin</title>
+    <meta name="description" content="A simple range plugin written in pure JavaScript" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+
+    html, body, div, h1, h2, h3, h4, h5, h6, p, code, fieldset, input, main, section, header, footer {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    div, h1, h2, h3, h4, h5, h6, p, code, fieldset, input, main, section, header, footer {
+        display: block;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+
+    body {
+        background: #EBE8E1;
+        font: 300 20px/1.2 sans-serif;
+        color: #5C22FF;
+    }
+
+    h1, h2, h3, h4, h5, h6 { font-weight: 300; }
+
+    h1 { font-size: 40px; }
+
+    a, input, button { outline: 0; }
+
+    a {
+        color: #5C22FF;
+        font-weight: 500;
+        text-decoration: underline;
+    }
+
+    a:hover,
+    a:active,
+    a:focus {
+        color: #5C22FF;
+        text-decoration: none;
+
+    }
+
+    code {
+        background: #DEDCD5;
+        padding: 2px;
+        display: inline;
+        border-radius: 5px;
+        color: #4B4A4E;
+        position: relative;
+        word-break: break-all;
+    }
+
+    code.block {
+        display: block;
+        margin: 10px 0;
+        padding: 20px;
+    }
+
+    code.css:before,
+    code.html:before,
+    code.script:before {
+    	position: absolute;
+    	top: 0;
+    	right: 0;
+    	background: #9C9B92;
+    	color: white;
+    	padding: 3px 5px;
+    	font: 200 13px/1.2 sans-serif;
+    }
+
+    code.script:before { content: 'JavaScript'; }
+
+    code.html:before { content: 'HTML'; }
+
+    code.css:before { content: 'CSS'; }
+
+    input {
+    	box-shadow: 0 0 5px 0 #BDBCB3;
+    	border-radius: 5px;
+    	color: #5C22FF;
+    	background: white;
+    	border: 1px solid white;
+    	height: 30px;
+    	line-height: 30px;
+    	font-size: 15px;
+    	padding: 5px;
+    }
+
+    input:focus {
+    	box-shadow: 0 0 5px 0 #5C22FF;
+    	border-color: #5C22FF;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        border: 2px solid #5C22FF;
+        background: none;
+        text-decoration: none;
+        font-weight: 300;
+        display: inline-block;
+        vertical-align: middle;
+        border-radius: 5px;
+    }
+
+    .btn:hover,
+    .btn:active,
+    .btn:focus {
+        background: #5C22FF;
+        color: #EBE8E1;
+    }
+
+    .boxed {
+        max-width: 980px;
+        padding: 0 10px;
+        margin: 0 auto;
+    }
+
+    .header { padding: 150px 0; }
+
+    .header p { padding-top: 50px; }
+
+    .main h3 { margin: 50px 0 10px; }
+
+    .flex {
+    	display: flex;
+    	flex-wrap: wrap;
+    	align-items: center;
+    }
+
+    .flex > * { width: 100%; }
+
+    .main .flex .col {
+    	width: 50%;
+    	padding: 20px 0 50px;
+    }
+
+    .main .flex .col.c1 {
+    	padding-right: 20px;
+    	display: flex;
+    	align-items: center;
+    }
+
+    .main input {
+    	display: inline-block;
+    	width: 50px;
+    	margin-right: 10px;
+    }
+
+    .script .dec { color: #F95B00; }
+    .script .func { color: #CFA279; }
+    .script .val { color: #A578D2; }
+    .script .com { color: #9E9EA0; }
+
+    .html .tag { color: #4AB2D6; }
+
+    .html .att,
+    .script .des { color: #84B400; }
+
+    .html .val,
+    .script .fd { color: #F69800; }
+
+    .footer { padding: 50px 0; }
+
+    </style>
+</head>
+<body>
+    <header class="header boxed">
+        <h2><strong>Range.js</strong> is a lightweight pure JavaScript plugin that turns a basic HTML text input into a beautiful slider in no time.</h2>
+        <p>
+            <a class="btn" href="https://github.com/niandco/range">Fork</a>&nbsp;
+            <a class="btn" href="https://github.com/niandco/range/archive/master.zip">Download</a>
+        </p>
+    </header>
+    <main class="main boxed">
+        <h3>Features</h3>
+        <ul>
+            <li>Straightforward implementation with simple options;</li>
+            <li>Running as many slider as needed;</li>
+            <li>Easily customisable;</li>
+            <li>Fully responsive;</li>
+            <li>No dependency.</li>
+        </ul>
+        <h3>Installation</h3>
+        <p>Include the latest Range.js script in the <code>&lt;head></code> or before your closing <code>&lt;body></code> tag, of your page.</p>
+        <code class="block html">&lt;<span class="tag">script</span> <span class="att">src</span>&equals;<span class="val">&quot;src&sol;range.min.js&quot;</span>&gt;&lt;&sol;<span class="tag">script</span>&gt;</code>
+        <h3>Usage</h3>
+        <p>Add a simple HTML text input in your page and set the attributes (min, max and step).</p>
+        <code class="block html">&lt;<span class="tag">input</span> <span class="att">type</span>&equals;<span class="val">&quot;text&quot;</span> <span class="att">id</span>&equals;<span class="val">&quot;myRange&quot;</span> <span class="att">min</span>&equals;<span class="val">&quot;0&quot;</span> <span class="att">max</span>&equals;<span class="val">&quot;20&quot;</span> <span class="att">step</span>&equals;<span class="val">&quot;1&quot;</span> &sol;&gt;</code>
+
+        <p>Initialize your slider in your script file or an inline script tag after the <code>range.min.js</code> script.</p>
+        <code class="block script">
+            <span class="dec">const</span> source = document.<span class="fd">getElementById</span>( <span class="val">'myRange'</span> );<br>
+            <span class="dec">const</span> myRange = <span class="fd">rangejs</span>( source );
+        </code>
+
+        <h3>Options</h3>
+        <code class="block script">
+            <span class="dec">const</span> options = {<br><br>
+            &nbsp;&nbsp;<span class="des">css</span>: <span class="val">false</span>, <span class="com">//(Boolean) Default style. True to add default style.</span><br><br>
+            &nbsp;&nbsp;<span class="des">buttons</span>: <span class="val">false</span>, <span class="com">//(Boolean) Increase/ Decrease buttons. True to enable.</span><br><br>
+            &nbsp;&nbsp;<span class="des">start</span>: <span class="func">function</span>( <span class="val">event</span>, <span class="val">ui</span>, <span class="val">data</span> ){}, <span class="com">//(Function) Fired when the dragging is triggered.</span><br><br>
+            &nbsp;&nbsp;<span class="des">change</span>: <span class="func">function</span>( <span class="val">event</span>, <span class="val">ui</span>, <span class="val">data</span> ){}, <span class="com">//(Function) Fired any time the value changes.</span><br><br>
+            &nbsp;&nbsp;<span class="des">stop</span>: <span class="func">function</span>( <span class="val">event</span>, <span class="val">ui</span> ){}, <span class="com">//(Function) Fired when the dragging is stopped.</span><br><br>
+            &nbsp;&nbsp;<span class="des">increase</span>: <span class="func">function</span>( <span class="val">event</span>, <span class="val">ui</span>, <span class="val">data</span> ){}, <span class="com">//(Function) Fired any time the increase button is clicked.</span><br><br>
+            &nbsp;&nbsp;<span class="des">decrease</span>: <span class="func">function</span>( <span class="val">event</span>, <span class="val">ui</span>, <span class="val">data</span> ){} <span class="com">//(Function) Fired any time the decrease button is clicked.</span><br><br>
+            };
+        </code>
+
+        <h3>Examples</h3>
+
+        <div class="flex">
+        	<p>Basic example</p>
+        	<div class="col c1">
+        		<input type="text" id="example1" value="20" max="100" min="0" step="10" />
+        	</div>
+        	<div class="col c2">
+        		<code class="block html">
+        		&lt;<span class="tag">input</span> <span class="att">type</span>&equals;<span class="val">&quot;text&quot;</span> <span class="att">id</span>&equals;<span class="val">&quot;example1&quot;</span> <span class="att">value</span>&equals;<span class="val">&quot;20&quot;</span> <span class="att">max</span>&equals;<span class="val">&quot;100&quot;</span> <span class="att">min</span>&equals;<span class="val">&quot;0&quot;</span> <span class="att">step</span>&equals;<span class="val">&quot;1&quot;</span> &sol;&gt;
+        		</code>
+
+        		<code class="block script">
+        			<span class="dec">const</span> source = document.<span class="fd">getElementById</span>( <span class="val">'example1'</span> );<br>
+        			<span class="dec">const</span> options = {<br>
+        			&nbsp;&nbsp;<span class="des">css</span>: <span class="val">true</span><br>
+        			};<br><br>
+
+        			<span class="fd">rangejs</span>( source, options );</code>
+        	</div>
+        </div>
+
+        <div class="flex">
+        	<p>Enable increase/ decrease buttons</p>
+        	<div class="col c1">
+        		<input type="text" id="example2" value="20" max="100" min="0" step="10" />
+        	</div>
+        	<div class="col c2">
+        		<code class="block html">
+        		&lt;<span class="tag">input</span> <span class="att">type</span>&equals;<span class="val">&quot;text&quot;</span> <span class="att">id</span>&equals;<span class="val">&quot;example2&quot;</span> <span class="att">value</span>&equals;<span class="val">&quot;20&quot;</span> <span class="att">max</span>&equals;<span class="val">&quot;100&quot;</span> <span class="att">min</span>&equals;<span class="val">&quot;0&quot;</span> <span class="att">step</span>&equals;<span class="val">&quot;1&quot;</span> &sol;&gt;
+        		</code>
+
+        		<code class="block script">
+        		<span class="dec">const</span> source = document.<span class="fd">getElementById</span>( <span class="val">'example2'</span> );<br>
+        		<span class="dec">const</span> options = {<br>
+        		&nbsp;&nbsp;<span class="des">buttons</span>: <span class="val">true</span>,<br>
+        		&nbsp;&nbsp;<span class="des">css</span>: <span class="val">true</span><br>
+        		};<br><br>
+
+        		<span class="fd">rangejs</span>( source, options );
+        		</code>
+        	</div>
+        </div>
+
+        <div class="flex">
+        	<p>Hidden input</p>
+        	<div class="col c1">
+        		<input type="hidden" id="example3" value="20" max="100" min="0" step="1" />
+        	</div>
+        	<div class="col c2">
+        		<code class="block html">
+        		&lt;<span class="tag">input</span> <span class="att">type</span>&equals;<span class="val">&quot;hidden&quot;</span> <span class="att">id</span>&equals;<span class="val">&quot;example3&quot;</span> <span class="att">value</span>&equals;<span class="val">&quot;20&quot;</span> <span class="att">max</span>&equals;<span class="val">&quot;100&quot;</span> <span class="att">min</span>&equals;<span class="val">&quot;0&quot;</span> <span class="att">step</span>&equals;<span class="val">&quot;1&quot;</span> &sol;&gt;
+        		</code>
+
+        		<code class="block script">
+        		<span class="dec">const</span> source = document.<span class="fd">getElementById</span>( <span class="val">'example3'</span> );<br>
+        		<span class="dec">const</span> options = {<br>
+        		&nbsp;&nbsp;<span class="des">css</span>: <span class="val">true</span><br>
+        		};<br><br>
+
+        		<span class="fd">rangejs</span>( source, options );
+        		</code>
+        	</div>
+        </div>
+
+        <div class="flex">
+        	<p>Decimal value</p>
+        	<div class="col c1">
+        		<input type="text" id="example4" value="55.7" max="100" min="0" step="0.1" />
+        	</div>
+        	<div class="col c2">
+        		<code class="block html">
+        		&lt;<span class="tag">input</span> <span class="att">type</span>&equals;<span class="val">&quot;text&quot;</span> <span class="att">id</span>&equals;<span class="val">&quot;example4&quot;</span> <span class="att">value</span>&equals;<span class="val">&quot;55.7&quot;</span> <span class="att">max</span>&equals;<span class="val">&quot;100&quot;</span> <span class="att">min</span>&equals;<span class="val">&quot;0&quot;</span> <span class="att">step</span>&equals;<span class="val">&quot;0.1&quot;</span> &sol;&gt;
+        		</code>
+
+        		<code class="block script">
+        		<span class="dec">const</span> source = document.<span class="fd">getElementById</span>( <span class="val">'example4'</span> );<br>
+        		<span class="dec">const</span> options = {<br>
+        		&nbsp;&nbsp;<span class="des">css</span>: <span class="val">true</span><br>
+        		};<br><br>
+
+        		<span class="fd">rangejs</span>( source, options );
+        		</code>
+        	</div>
+        </div>
+
+        <div class="flex">
+        	<p>Positive/ Negative value</p>
+        	<div class="col c1">
+        		<input type="text" id="example5" value="10" max="10" min="-10" step="1" />
+        	</div>
+        	<div class="col c2">
+        		<code class="block html">
+        		&lt;<span class="tag">input</span> <span class="att">type</span>&equals;<span class="val">&quot;text&quot;</span> <span class="att">id</span>&equals;<span class="val">&quot;example5&quot;</span> <span class="att">value</span>&equals;<span class="val">&quot;10&quot;</span> <span class="att">max</span>&equals;<span class="val">&quot;10&quot;</span> <span class="att">min</span>&equals;<span class="val">&quot;-10&quot;</span> <span class="att">step</span>&equals;<span class="val">&quot;1&quot;</span> &sol;&gt;
+        		</code>
+
+        		<code class="block script">
+        		<span class="dec">const</span> source = document.<span class="fd">getElementById</span>( <span class="val">'example5'</span> );<br>
+        		<span class="dec">const</span> options = {<br>
+        		&nbsp;&nbsp;<span class="des">css</span>: <span class="val">true</span><br>
+        		};<br><br>
+
+        		<span class="fd">rangejs</span>( source, options );
+        		</code>
+        	</div>
+        </div>
+
+    </main>
+    <footer class="footer boxed">
+    	<h3>Credit & License</h3><br>
+    	<p>MIT License<br><br>
+
+    		Copyright (c) 2018 Nicolas Clisson (<a href="https://github.com/niandco" target="_blank">@niandco</a>)<br><br><br>
+
+    		Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.</p>
+    </footer>
+    <script src="src/range.js"></script>
+    <script>
+        rangejs( document.getElementById( 'example1' ), {css:true} );
+        rangejs( document.getElementById( 'example2' ), {buttons:true,css:true} );
+        rangejs( document.getElementById( 'example3' ), {css:true} );
+        rangejs( document.getElementById( 'example4' ), {css:true} );
+        rangejs( document.getElementById( 'example5' ), {css:true} );
+    </script>
+</body>
+</html>
