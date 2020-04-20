@@ -535,11 +535,7 @@ function drawComparisonBars(barData, isUpdate) {
         .attr("height", 19)
         .attr("fill", color);
 
-    legend.append("text")
-        .attr("x", width - 24)
-        .attr("y", 9.5)
-        .attr("dy", "0.32em")
-        .text(function (d) { return d; });
+    
 
 
 
@@ -549,6 +545,12 @@ function drawComparisonBars(barData, isUpdate) {
             .attr('class', 'x axis')
             .attr("transform", "translate(0," + height + ")")
             .call(d3.axisBottom(x).tickSize(0));
+
+        legend.append("text")
+            .attr("x", width - 24)
+            .attr("y", 9.5)
+            .attr("dy", "0.32em")
+            .text(function (d) { return d; });
 
         barChart2.append("g")
             .attr('class', 'y axis')
@@ -624,6 +626,25 @@ function drawComparisonBars(barData, isUpdate) {
 function drawCancerMap(us_data, all_cancers, cancer_id, colormap, isUpdate) {
 
     this_cancer = all_cancers.get(cancer_id)
+
+    /* d3.select("body")
+        .append("svg")
+        .attr("class", "legend");
+
+
+    var legend = d3.legend
+        .color()
+        .shapeHeight(10)
+        .shapeWidth(50)
+        .shapePadding(0)
+        .labelOffset(5)
+        .labelFormat(d3.format("%"))
+        .orient("horizontal")
+        .labelAlign("start")
+        .scale(colormap);
+
+
+    d3.select(".legend").call(legend); */
 
     //
     // Establish Scales for the legend and colormap
