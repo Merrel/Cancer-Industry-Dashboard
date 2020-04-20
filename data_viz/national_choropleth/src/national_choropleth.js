@@ -442,8 +442,13 @@ function ready(values) {
     d3.select("#resetViewButton")
         .on("click", reset)
 
-    
-    sliderList = ["IndustryA", "IndustryB", "IndustryC", "IndustryD", "IndustryE"]
+
+    var sliderList = ["IndustryA", "IndustryB", "IndustryC", "IndustryD", "IndustryE"]
+    drawSliders(sliderList)
+
+}
+ 
+function drawSliders(sliderList) {
     sliderList.forEach(sliderName => {
 
         rangejs( document.getElementById( sliderName ), {
@@ -458,6 +463,17 @@ function ready(values) {
         
     });
 
+}
+
+function getSliderValues(sliderList) {
+
+    sliderValueList = []
+    sliderList.forEach(sliderName =>{
+        sliderValueList.push(
+            document.getElementById(sliderName).value
+        )
+    })
+    return sliderValueList
 }
 
 
