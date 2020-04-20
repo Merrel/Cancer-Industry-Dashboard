@@ -117,6 +117,62 @@ function formatIndustryData(rawData) {
     return industryByType
 }
 
+function getEditedCancerValues(values){
+    var cancer = predictOnModelOne(values)
+    
+    return cancer
+}
+
+function predictOnModelOne(industryValues){
+    var weightArray = []
+    var predictedIndicators = []
+
+    d3.dsv(",", "../resources/weights1.csv", 
+        function(d) {
+            return d
+        })
+        .then(function(data){
+            weights = data
+
+            for (i = 0; i < 5; i++){
+                weightArray.push(Object.values(weights[i]))
+            }
+
+            for (i = 0; i < 24; i++){
+                indicator = parseFloat(weightArray[0][i])
+                for (j = 0; j < 4; j++){
+                    indicator += parseFloat(industryValues[j]) * parseFloat(weightArray[j+1][i])
+                }
+                predictedIndicators.push(indicator)
+            }
+
+        })
+
+        var cancerOutput = predictOnModelTwo(predictedIndicators)
+        return cancerOutput
+}
+
+function predictOnModelTwo(indicators){
+    var predictedCancer = []
+
+    d3.dsv(",", "../resources/weights2.csv", 
+        function(d) {
+            return d
+        })
+        .then(function(data){
+            weights = data
+            var cancerCalc = parseFloat(weights[0].weights)
+
+            for (i = 0; i < indicators.length; i++){
+                cancerCalc += indicators[i] * parseFloat(weights[i+1].weights)
+            }
+
+            predictedCancer.push(cancerCalc)
+        })
+
+        return cancerCalc
+}
+
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // HELPER FUNCTIONS
 // 
