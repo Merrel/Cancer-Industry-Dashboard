@@ -144,26 +144,31 @@ function predictOnModelOne(industryValues){
                 predictedIndicators.push(indicator)
             }
 
-            var cancer = predictOnModelTwo(predictedIndicators)
-            return cancer
         })
+
+        var cancerOutput = predictOnModelTwo(predictedIndicators)
+        return cancerOutput
 }
 
 function predictOnModelTwo(indicators){
+    var predictedCancer = []
+
     d3.dsv(",", "../resources/weights2.csv", 
         function(d) {
             return d
         })
         .then(function(data){
             weights = data
-            var predictedCancer = parseFloat(weights[0].weights)
+            var cancerCalc = parseFloat(weights[0].weights)
 
             for (i = 0; i < indicators.length; i++){
-                predictedCancer += indicators[i] * parseFloat(weights[i+1].weights)
+                cancerCalc += indicators[i] * parseFloat(weights[i+1].weights)
             }
 
-            return predictedCancer
+            predictedCancer.push(cancerCalc)
         })
+
+        return predictedCancer
 }
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
