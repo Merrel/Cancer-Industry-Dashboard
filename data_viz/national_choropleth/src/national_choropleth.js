@@ -6,7 +6,7 @@ const margin = {top: 20, right: 40, bottom: 60, left: 120}
 
 // Set width and height of the graph canvas
 // - note that this will be smaller than the SVG canvas
-const svgWidth = 800
+const svgWidth = 1000
     , svgHeight = 600
     // - set height & width of the drawing canvas element
     , width = svgWidth - margin.left - margin.right
@@ -53,7 +53,7 @@ var svg2 = d3.select("#barsTopCancer").append("svg")
 // Append 'g' element to contain graph and adjust it to fit within the margin
 var barChart = svg2.append("g")
                   .attr("id", "dynaBars")
-                  .attr("transform", "translate(" + 2*margin.left + "," + margin.top + ")")
+                  .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
 
 
 function parseSubsetValues(entry, subsetKeys, randOffset) {
@@ -442,6 +442,22 @@ function ready(values) {
     d3.select("#resetViewButton")
         .on("click", reset)
 
+    
+    sliderList = ["IndustryA", "IndustryB", "IndustryC", "IndustryD", "IndustryE"]
+    sliderList.forEach(sliderName => {
+
+        rangejs( document.getElementById( sliderName ), {
+            css:true,
+            buttons:true,
+            change: function( event, ui ){
+                console.log(sliderName)
+                sliderValue = document.getElementById(sliderName).value
+                console.log(sliderValue)
+            }
+        } );
+        
+    });
+
 }
 
 
@@ -595,18 +611,13 @@ function drawBars(barData, isUpdate) {
             .attr('y', d => y1(d.data_id) )
             .attr('width', d => xScaleBar(d.rate) )
             .attr('height', y1.bandwidth() )
-            .style('fill', 'rgb(152, 231, 237)')
+            .style('fill', barColor)
             .on("mouseover", function(d) {
                 d3.select(this).style("fill", d3.rgb(barColor).darker(2));
             })
             .on("mouseout", function(d) {
                 d3.select(this).style("fill", barColor);
             })
-            // .attr('hello', d => {
-            //     console.log(d)
-            //     console.log(xScaleBar(d.rate))
-            // })
-            // .style('opacity', 0.0)
 
         
         barChart.append('g')        

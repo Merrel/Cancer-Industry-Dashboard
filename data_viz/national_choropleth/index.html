@@ -28,14 +28,54 @@
     </header> -->
     <main class="main boxed">
 
-        <h1>Cancer & Industry</h1>
+        <!-- <h1>Cancer & Industry</h1>
 
         <h3>Usage</h3>
         <p>Add a simple HTML text input in your page and set the attributes (min, max and step).  whate if I continue to just add a mubnch of words here? unique new york</p>
+ -->
 
+        <h1>Cancer, Industry, and Industrial Indicators in the United States</h3>
+        <div class="flex">
+            <div class="col c1">
+                <p>Industrial activity touches nearly every facet of modern, American life. This project aims to identify localities and industries where industrial activty may contribute to elevated risk of various types of cancer</p>
+            </div>
+        </div>
+        
+        <h2>Exploring Cancer and Industry Hot-Spots</h2>
 
-        <h3>National Choropleth</h3>
+        <!-- ------------------------------------------------------------------------------------------------------ -->
+        <!-- Map Data Selectors -->
+        <div>
+            <table>
+                <tr>
+                    <th align="left">
+                        <form id="dataSetOption">
+                            <input  type='radio' id="cancer" name="mode" width="20" height="20" checked>
+                            <label for="continuous-linear">Cancer Data</label><br>
 
+                            <input  type='radio' id="industry" name="mode" >
+                            <label for="continuous-log">Industry Data</label>
+                        </form>
+                    </th>
+                    <th align="left">
+                        <form id="colorScaleOption">
+                            <input  type='radio' id="continuous-linear" name="mode" checked>
+                            <label for="continuous-linear">Value - Linear Scale</label><br>
+                            <input  type='radio' id="continuous-log" name="mode" >
+                            <label for="continuous-log">Value - Log Scale</label><br>
+                            <input type='radio' id="DeltaLinear" name="mode">
+                            <label for="DeltaLinear">Delta from Avg</label>
+                        </form>
+                    </th>
+                    <th align="left">
+
+                        <div id="form1" class="dropDown"></div>
+                        <div id="form2" class="dropDown"></div>
+
+                    </th>
+                </tr>
+            </table>
+        </div>
 
         <!-- ------------------------------------------------------------------------------------------------------ -->
         <!-- Sliders -->
@@ -48,119 +88,108 @@
             <div class="col c2">
                 <table>
                     <tr>
-                        <th><input type="text" id="example1" value="100" max="100" min="0" step="10" /></th>
+                        <th>
+                            <p class="label">Industry A</p>
+                            <input type="text" id="IndustryA" value="100" max="100" min="0" step="10" />
+                        </th>
                     </tr>
                     <tr>
-                        <th><input type="text" id="example2" value="100" max="100" min="0" step="10" /></th>
+                        <th>
+                            <p class="label">Industry B</p>
+                            <input type="text" id="IndustryB" value="100" max="100" min="0" step="10" />
+                        </th>
                     </tr>
                     <tr>
-                        <th><input type="text" id="example3" value="100" max="100" min="0" step="10" /></th>
+                        <th>
+                            <p class="label">Industry C</p>
+                            <input type="text" id="IndustryC" value="100" max="100" min="0" step="10" />
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+                            <p class="label">Industry D</p>
+                            <input type="text" id="IndustryD" value="100" max="100" min="0" step="10" />
+                        </th>
+                    </tr>
+                    <tr>
+                        <th>
+
+                            <p class="label">Industry E</p>
+                            <input type="text" id="IndustryE" value="100" max="100" min="0" step="10" />
+                        </th>
+                    </tr>
+                    <tr><th><p> </p></th></tr>
+                    <tr><th><p> </p></th></tr>
+                    <tr><th><p> </p></th></tr>
+                    <tr><th><p>Use the above sliders to modify the amount of each industry in the selected locality.</p></th></tr>
+                    <tr><th><p> </p></th></tr>
+                    <tr><th><p>Watch as the model predicts changes to the predicted cancer rate.</p></th></tr>
+                    <tr><th><p> </p></th></tr>
+                    <tr><th><p> </p></th></tr>
+                    <tr>
+                        <th>
+                            <button class="btn" id="resetViewButton">Reset View</button>
+                            <button class="btn" id="resetSlidersButton">Reset Sliders</button>
+                        </th>
+                        <!-- <th>
+                            <button class="btn" id="resetSlidersButton">Reset Sliders</button>
+                        </th> -->
                     </tr>
                 </table>
                     
-
-
-                <!-- <div class="flex">
-                    <input type="text" id="example2" value="100" max="100" min="0" step="10" />
-                </div> -->
-                <!-- <div class="block">
-                    <input type="text" id="example3" value="100" max="100" min="0" step="10" />
-                </div> -->
             </div>
-    
-            <!-- <div class="flex">
-                <div class="col c1">
 
-                </div>
-                <div class="col c2">
-                    <input type="text" id="example2" value="100" max="100" min="0" step="10" />
-                </div>
-            </div>
-    
-            <div class="flex">
-                <div class="col c1">
-
-                </div>
-                <div class="col c2">
-                    <input type="text" id="example3" value="100" max="100" min="0" step="10" />
-                </div>
-            </div> -->
         </div>
+
+
+        <!-- <button class="btn" id="resetViewButton">Reset View</button> -->
 
 
         <!-- ------------------------------------------------------------------------------------------------------ -->
-        <!-- D3 Charts -->
-        <!-- <div class="container"> -->
-            <!-- Define a set of Divs for D3 to draw into -->
-        <div id="dataSetSelector" class="radioButton">
-            <form id="dataSetOption">
-            <input  type='radio' id="cancer" name="mode" checked>Cancer Data</input>
-            <input type='radio' id="industry" name="mode">Industry Data</input>
-            </form>
+        <!-- D3 Supporting Charts -->
+
+        <div class="flex">
+            <div class="col c1">
+                <div id="barsTopCancer" class="chartbox"></div>
+            </div>
+            <div class="col c2">
+                <h4>Selected Cancer: <b>Prostate</b></label>
+                <p>Details: lorum ipsum</p>
+            </div>
         </div>
-
-        <div id="colorScaleSelector" class="radioButton">
-            <form id="colorScaleOption">
-            <input  type='radio' id="continuous-linear" name="mode" checked>Value - Linear Scale</input>
-            <input  type='radio' id="continuous-log" name="mode" >Value - Log Scale</input>
-            <input type='radio' id="DeltaLinear" name="mode">Delta from Avg</input>
-            </form>
-        </div>
-
-        <div id="form1" class="dropDown"></div>
-        <div id="form2" class="dropDown"></div>
-
-        <button class="btn" id="resetViewButton">Reset View</button>
-
-        <!-- Allocate divs for the plots -->
-        <div id="barsTopCancer" class="chartbox"></div>
         
         <!-- PATTER FILL SVG : https://iros.github.io/patternfills/sample_d3.html -->
         <svg height="5" width="5" xmlns="http://www.w3.org/2000/svg" version="1.1"> <defs> <pattern id="smalldot" patternUnits="userSpaceOnUse" width="5" height="5"> <image xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc1JyBoZWlnaHQ9JzUnPgo8cmVjdCB3aWR0aD0nNScgaGVpZ2h0PSc1JyBmaWxsPScjZmZmJy8+CjxyZWN0IHdpZHRoPScxJyBoZWlnaHQ9JzEnIGZpbGw9JyNjY2MnLz4KPC9zdmc+" x="0" y="0" width="5" height="5"> </image> </pattern> </defs> </svg>
-    
-        <!-- </div> -->
-    
+        
         <!-- Call the D3 Script to build the plots -->
         <script type="text/javascript" src="./src/national_choropleth.js" charset="utf-8"></script>
 
 
+        <!-- ------------------------------------------------------------------------------------------------------ -->
+        <!-- National Scale Data -->
+        <hr>
+        <h2>Cancer Patterns at the National Level</h2>
 
 
     </main>
 
     <!-- Call the sliders script -->
-    <script>
+    <!-- <script>
+        sliderList = ["IndustryA", "IndustryB", "IndustryC", "IndustryD", "IndustryE"]
+        sliderList.forEach(sliderName => {
 
-        // Slider 1
-        rangejs( document.getElementById( 'example1' ), {
-            css:true,
-            buttons:true,
-            stop: function( event, ui ){
-                console.log('Industry A')
-                sliderValue = document.getElementById('example1').value
-                console.log(sliderValue)
-            }
-        } );
-        rangejs( document.getElementById( 'example2' ), {
-            css:true,
-            buttons:true,
-            stop: function( event, ui ){
-                console.log('Industry B')
-                sliderValue = document.getElementById('example2').value
-                console.log(sliderValue)
-            }
-        } );
-        rangejs( document.getElementById( 'example3' ), {
-            css:true,
-            buttons:true,
-            stop: function( event, ui ){
-                console.log('Industry C')
-                sliderValue = document.getElementById('example3').value
-                console.log(sliderValue)
-            }
-        } );
-        // rangejs( document.getElementById( 'example5' ), {css:true} );
-    </script>
+            rangejs( document.getElementById( sliderName ), {
+                css:true,
+                buttons:true,
+                change: function( event, ui ){
+                    console.log(sliderName)
+                    sliderValue = document.getElementById(sliderName).value
+                    console.log(sliderValue)
+                }
+            } );
+            
+        });
+    </script> -->
     <!-- <script> -->
     <!-- </script> -->
 </body>
