@@ -53,7 +53,7 @@ var svg2 = d3.select("#barsTopCancer").append("svg")
 // Append 'g' element to contain graph and adjust it to fit within the margin
 var barChart = svg2.append("g")
                   .attr("id", "dynaBars")
-                  .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+                  .attr("transform", "translate(" + 1.5*margin.left + "," + margin.top + ")")
 
 
 function parseSubsetValues(entry, subsetKeys, randOffset) {
@@ -594,7 +594,7 @@ function drawBars(barData, isUpdate) {
             .range([0, width])  // range of output draw coords in px
             // .clamp()
 
-    var y1 = d3.scaleBand()
+    y1 = d3.scaleBand()
         .domain(barData.map(function(d) { return d.data_id }))
         .range([0, height/2])
         .padding(0.2)
@@ -612,7 +612,7 @@ function drawBars(barData, isUpdate) {
                 .scale(y1)
                 .ticks(10)
 
-    var barColor = 'rgb(150, 163, 168)'
+    barColor = 'rgb(150, 163, 168)'
 
     
     if (isUpdate==false) {
@@ -634,6 +634,21 @@ function drawBars(barData, isUpdate) {
             .on("mouseout", function(d) {
                 d3.select(this).style("fill", barColor);
             })
+            .on("click", function(d) {
+                console.log(d)
+                document.getElementById('selectedCancerReadOut').innerHTML = d.data_id
+            })
+
+        barChart.selectAll('circle')
+            .data(barData)
+        .enter()
+            .append('circle')
+            .attr('class', 'predPoint')
+            .attr('cx', d => xScaleBar(d.rate))
+            .attr('cy', d => y1(d.data_id)+y1.bandwidth()/2 )
+            .attr('r', 5)
+            .style('fill', 'black')
+
 
         
         barChart.append('g')        
@@ -685,10 +700,18 @@ function drawBars(barData, isUpdate) {
             .attr('y', d => y1(d.data_id) )
             .attr('width', d => xScaleBar(d.rate) )
             .attr('height', y1.bandwidth() )
-            // .attr('hello', d => {
-                // return 'world'
-            // })
-            // .style('opacity', 1.0)
+
+        barChart.selectAll('circle')
+            .data(barData)
+            .transition()
+            .duration(transition_time)
+            // .append('circle')
+            .attr('class', 'predPoint')
+            .attr('cx', d => xScaleBar(d.rate))
+            .attr('cy', d => y1(d.data_id)+y1.bandwidth()/2 )
+            .attr('r', 5)
+            .style('fill', 'black')
+
 
         barChart.select('#barNames')
             .data(barData)
