@@ -1,24 +1,28 @@
 <html>
-	<head>
 
-		<meta charset="utf-8">
-		<title>Scatter Plot</title>
-		<style>
+<head>
+
+	<meta charset="utf-8">
+	<title>Scatter Plot</title>
+	<style>
 		body {
-		  margin: 0 auto;
-		  display: table;
+			margin: 0 auto;
+			display: table;
 			font-family: "Helvetica Neue", sans-serif;
 		}
+
 		.regression {
-		  stroke-width: 2px;
-		  stroke: steelblue;
-		  stroke-dasharray: 10,5;
+			stroke-width: 2px;
+			stroke: steelblue;
+			stroke-dasharray: 10, 5;
 		}
+
 		.equation {
 			font-size: 12px;
 			margin-top: 10px;
 			text-align: center;
 		}
+
 		.point {
 			fill: red;
 			opacity: 0.3;
@@ -35,281 +39,307 @@
 			font-size: 10px;
 			fill: #6b6b6b;
 		} */
+	</style>
 
-		</style>
+</head>
 
-	</head>
-	<body>
-		<input type="checkbox" id="myCheckbox"> Use incidence rates
-		<select id="selectButton"></select>
-		<div class="chart"></div>
-		<select id="selectButton2"></select>
-		<div class="equation"></div>
-		<div class="equation"></div>
+<body>
+	<input type="checkbox" id="myCheckbox"> Use incidence rates
+	<select id="selectButton"></select>
+	<div class="chart"></div>
+	<!-- <input type="checkbox" id="myCheckbox2"> Use linear scale -->
+	<select id="selectButton2"></select>
+	<div class="equation"></div>
+	<div class="equation"></div>
 
-		<script src="https://d3js.org/d3.v4.min.js"></script>
-		<script>
-	  var margin = {top: 20, right: 50, bottom: 60, left: 60},
-	    width = 1200 - margin.left - margin.right,
-	    height = 800 - margin.top - margin.bottom;
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+	<script>
+		var margin = { top: 20, right: 50, bottom: 60, left: 60 },
+			width = 1200 - margin.left - margin.right,
+			height = 800 - margin.top - margin.bottom;
 
-	  var svg = d3.select(".chart").append("svg")
-	      .attr("width", width + margin.left + margin.right)
-	      .attr("height", height + margin.top + margin.bottom)
-	    .append("g")
-	      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+		var svg = d3.select(".chart").append("svg")
+			.attr("width", width + margin.left + margin.right)
+			.attr("height", height + margin.top + margin.bottom)
+			.append("g")
+			.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-	  // var x = d3.scaleLinear()
-	  //    .range([0,width]);
+		// var x = d3.scaleLinear()
+		//    .range([0,width]);
 
-	  var x = d3.scaleLog()
-			.range([margin.left, width - margin.left - margin.right]);
+		var x = d3.scaleLog()
+			//.range([margin.left, width - margin.left - margin.right]);
+			.range([0, width - margin.right]);
 
-	  var y = d3.scaleLinear()
-	      .range([height - margin.bottom, margin.top]);
+		var y = d3.scaleLinear()
+			//.range([height - margin.bottom, margin.top]);
+			.range([height, 0]);
 
-	  var xAxis = d3.axisBottom()
-	      .scale(x);
-		  /* .tickFormat(function (d) {
-			  return d3.format(".1f")(d);
-		  }); */
+		var xAxis = d3.axisBottom()
+			.scale(x);
+		/* .tickFormat(function (d) {
+			return d3.format(".1f")(d);
+		}); */
 
-	  var yAxis = d3.axisLeft()
-	      .scale(y);
+		var yAxis = d3.axisLeft()
+			.scale(y);
 
-	  d3.csv("../viz-data/data_viz_full.csv", types, function(error, data){
+		d3.csv("../viz-data/data_viz_full.csv", types, function (error, data) {
 
-		console.log(d3.max(data, function (d) { return +d.ACID }));
+			console.log(d3.max(data, function (d) { return +d.ACID }));
 
-		var columns = null;
+			var columns = null;
 
-		data.forEach(function (row) {
-			  columns = Object.keys(row).slice(9,36);
-		});
-		
-		console.log(columns);
+			data.forEach(function (row) {
+				columns = Object.keys(row).slice(9, 36);
+			});
 
-		var allGroup = d3.map(data, function (d) { return (d.cancer) }).keys().map(Number).sort();
+			console.log(columns);
 
-		console.log(allGroup);
+			var allGroup = d3.map(data, function (d) { return (d.cancer) }).keys().map(Number).sort();
 
-		var selectedCancer = "17";
+			console.log(allGroup);
 
-		var selectedOption = "ACID";
+			var selectedCancer = "1";
 
-		/* var allGroup = ["valueA", "valueB", "valueC"] */
+			var selectedOption = "ACID";
 
-		  // add the options to the button
-		  d3.select("#selectButton")
-			  .selectAll('myOptions')
-			  .data(allGroup)
-			  .enter()
-			  .append('option')
-			  .text(function (d) { return d; }) // text showed in the menu
-			  .attr("value", function (d) { return d; }) // corresponding value returned by the button 
-			  .property("selected", function (d) { return d === '3'; });
+			/* var allGroup = ["valueA", "valueB", "valueC"] */
 
-		// add the options to the button
-		  d3.select("#selectButton2")
-			  .selectAll('myOptions')
-			  .data(columns)
-			  .enter()
-			  .append('option')
-			  .text(function (d) { return d; }) // text showed in the menu
-			  .attr("value", function (d) { return d; })
-			  .property("selected", function (d) { return d === "ACID"; });
-			  // corresponding value returned by the button
-		
-		//document.getElementById("selectButton").align = "center";
+			// add the options to the button
+			d3.select("#selectButton")
+				.selectAll('myOptions')
+				.data(allGroup)
+				.enter()
+				.append('option')
+				.text(function (d) { return d; }) // text showed in the menu
+				.attr("value", function (d) { return d; }) // corresponding value returned by the button 
+				.property("selected", function (d) { return d === '1'; });
 
-		var subData = data.filter(function (d) {
-			  return +d.cancer == selectedCancer
-		  })
+			// add the options to the button
+			d3.select("#selectButton2")
+				.selectAll('myOptions')
+				.data(columns)
+				.enter()
+				.append('option')
+				.text(function (d) { return d; }) // text showed in the menu
+				.attr("value", function (d) { return d; })
+				.property("selected", function (d) { return d === "ACID"; });
+			// corresponding value returned by the button
 
+			//document.getElementById("selectButton").align = "center";
 
-	    y.domain(d3.extent(subData, function(d){ return +d.count}));
-		x.domain([0.1, d3.max(subData, function (d) { return +d.ACID })])
-	    //x.domain(d3.extent(data, function(d){ return d.ACID}));
-
-	    // see below for an explanation of the calcLinear function
-	    //var lg = calcLinear(data, "x", "y", d3.min(data, function(d){ return d.ACID}), d3.min(data, function(d){ return d.ACID}));
-
-	    /* svg.append("line")
-	        .attr("class", "regression")
-	        .attr("x1", x(lg.ptA.x))
-	        .attr("y1", y(lg.ptA.y))
-	        .attr("x2", x(lg.ptB.x))
-	        .attr("y2", y(lg.ptB.y)); */
-
-	    svg.append("g")
-	        .attr("class", "x axis")
-	        .attr("transform", "translate(0," + height + ")")
-	        .call(xAxis)
-
-	    svg.append("g")
-	        .attr("class", "y axis")
-	        .call(yAxis);
-
-	    var dot = svg.selectAll(".point")
-	        .data(subData)
-	      .enter().append("circle")
-		  .filter(function (d) { return +d.ACID > 0.1})
-		  	//&& +d.cancer == 72
-	        .attr("class", "point")
-	        .attr("r", 3)
-	        .attr("cy", function(d){ return y(+d.count); })
-	        .attr("cx", function(d){ return x(+d.ACID); });
-
-		// text label for the y axis
-		var myText = svg.append("text")
-			  .attr("transform", "rotate(-90)")
-			  .attr("y", 0 - margin.left)
-			  .attr("x", 0 - (height / 2))
-			  .attr("dy", "1em")
-			  .style("text-anchor", "middle")
-			  .text("Cancer 17 incidents"); 
-
-		
-		// text label for the x axis
-		var myText2 = svg.append("text")
-			  .attr("transform",
-				  "translate(" + (width / 2) + " ," +
-				  (height + margin.top + 20) + ")")
-			  .style("text-anchor", "middle")
-			  .text("ACID levels");
-
-		    
-
-		/* svg.selectAll("text")
-			  .data(data)
-			  .enter()
-			  .append("text")
-			  .text(function (d) {
-				  return d.fips;
-			  })
-			  .attr("x", function (d) {
-				  return x(d.ACID);
-			  })
-			  .attr("y", function (d) {
-				  return y(d.Cancer);
-			  })
-			  .attr("font-family", "sans-serif")
-			  .attr("font-size", "15px")
-			  .attr("fill", "red"); */
-
-		function update(selectedCancer) {
-
-			console.log(selectedOption);
-
-			subData = data.filter(function (d) {
+			var subData = data.filter(function (d) {
 				return +d.cancer == selectedCancer
 			})
 
-			  // Create new data with the selection?
-			  //var dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.count } })
-			if (d3.select("#myCheckbox").property("checked")) {
-				dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.rate } });
-			} else {
-				dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.count } });
-			}
 
-			  //console.log(dataFilter);
+			y.domain(d3.extent(subData, function (d) { return +d.count }));
+			x.domain([0.1, d3.max(subData, function (d) { return +d.ACID })])
+			//x.domain(d3.extent(data, function(d){ return d.ACID}));
 
-			  // Give these new data to update line
-			  /* line
-				  .datum(dataFilter)
-				  .transition()
-				  .duration(1000)
-				  .attr("d", d3.line()
-					  .x(function (d) { return x(+d.time) })
-					  .y(function (d) { return y(+d.value) })
-				  ) */
+			// see below for an explanation of the calcLinear function
+			//var lg = calcLinear(data, "x", "y", d3.min(data, function(d){ return d.ACID}), d3.min(data, function(d){ return d.ACID}));
 
-			y.domain(d3.extent(dataFilter, function (d) { return +d.value }))
+			/* svg.append("line")
+				.attr("class", "regression")
+				.attr("x1", x(lg.ptA.x))
+				.attr("y1", y(lg.ptA.y))
+				.attr("x2", x(lg.ptB.x))
+				.attr("y2", y(lg.ptB.y)); */
 
-			  dot
-				  .data(dataFilter)
-				  .transition()
-				  .duration(1000)
-				  .filter(function (d) { return +d.time > 0.1 })
-				  .attr("cx", function (d) { return x(+d.time) })
-				  .attr("cy", function (d) { return y(+d.value) });
+			svg.append("g")
+				.attr("class", "x axis")
+				.attr("transform", "translate(0," + height + ")")
+				.call(xAxis)
 
-			svg.selectAll("g.y.axis")
+			svg.append("g")
+				.attr("class", "y axis")
 				.call(yAxis);
 
-			//var newText = "Cancer " + selectedCancer + " incidents";
-			var newText;
-			if (d3.select("#myCheckbox").property("checked")) {
-				newText = "Cancer " + selectedCancer + " incident rates";
-			} else {
-				newText = "Cancer " + selectedCancer + " incidents";
+			svg.selectAll(".point")
+				.data(subData)
+				.enter().append("circle")
+				.filter(function (d) { return +d.ACID > 0.1 && +d.count > 0 })
+				//&& +d.cancer == 72
+				.attr("class", "point")
+				//.attr("r", function (d) { return (Math.sqrt(1000 / +d.payann)); })
+				//.attr("r", function (d) { return 1000 / +d.payann ; })
+				.attr("r", 3)
+				.attr("cy", function (d) { return y(+d.count); })
+				.attr("cx", function (d) { return x(+d.ACID); });
+
+			// text label for the y axis
+			var myText = svg.append("text")
+				.attr("transform", "rotate(-90)")
+				.attr("y", 0 - margin.left)
+				.attr("x", 0 - (height / 2))
+				.attr("dy", "1em")
+				.style("text-anchor", "middle")
+				.text("Cancer 17 incidents");
+
+
+			// text label for the x axis
+			var myText2 = svg.append("text")
+				.attr("transform",
+					"translate(" + (width / 2) + " ," +
+					(height + margin.top + 20) + ")")
+				.style("text-anchor", "middle")
+				.text("ACID levels");
+
+
+
+			/* svg.selectAll("text")
+				  .data(data)
+				  .enter()
+				  .append("text")
+				  .text(function (d) {
+					  return d.fips;
+				  })
+				  .attr("x", function (d) {
+					  return x(d.ACID);
+				  })
+				  .attr("y", function (d) {
+					  return y(d.Cancer);
+				  })
+				  .attr("font-family", "sans-serif")
+				  .attr("font-size", "15px")
+				  .attr("fill", "red"); */
+
+			function update(selectedCancer) {
+
+				console.log(selectedOption);
+
+				subData = data.filter(function (d) {
+					return +d.cancer == selectedCancer
+				})
+
+				// Create new data with the selection?
+				//var dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.count } })
+				if (d3.select("#myCheckbox").property("checked")) {
+					dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.rate } });
+				} else {
+					dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.count } });
+				}
+
+				//console.log(dataFilter);
+
+				// Give these new data to update line
+				/* line
+					.datum(dataFilter)
+					.transition()
+					.duration(1000)
+					.attr("d", d3.line()
+						.x(function (d) { return x(+d.time) })
+						.y(function (d) { return y(+d.value) })
+					) */
+
+				y.domain(d3.extent(dataFilter, function (d) { return +d.value }))
+
+				svg.selectAll(".point")
+					.remove()
+					.exit()
+
+				svg.selectAll(".point")
+					.data(dataFilter)
+					.enter().append("circle")
+					.filter(function (d) { return +d.time > 0.1 && +d.value > 0 })
+					//&& +d.cancer == 72
+					.attr("class", "point")
+					.attr("r", 3)
+					.attr("cx", function (d) { return x(+d.time) })
+					.attr("cy", function (d) { return y(+d.value) });
+
+				svg.selectAll("g.y.axis")
+					.call(yAxis);
+
+				//var newText = "Cancer " + selectedCancer + " incidents";
+				var newText;
+				if (d3.select("#myCheckbox").property("checked")) {
+					newText = "Cancer " + selectedCancer + " incident rates";
+				} else {
+					newText = "Cancer " + selectedCancer + " incidents";
+				}
+
+				myText
+					.transition()
+					.duration(1000)
+					.style("opacity", 0)
+					.transition().duration(500)
+					.style("opacity", 1)
+					.text(newText); //			(function (d) { return d.tag })
+
+
 			}
 
-			myText
-				.transition()
-				.duration(1000)
-				.style("opacity", 0)
-				.transition().duration(500)
-				.style("opacity", 1)
-				.text(newText); //			(function (d) { return d.tag })
+			function update2(selectedGroup) {
 
-			
-		  }
+				// Create new data with the selection?
+				//var dataFilter = subData.map(function (d) { return { time: d[selectedGroup], value: d.count } })
+				if (d3.select("#myCheckbox").property("checked")) {
+					dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.rate } });
+				} else {
+					dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.count } });
+				}
 
-		function update2(selectedGroup) {
+				// Give these new data to update line
+				/* line
+					.datum(dataFilter)
+					.transition()
+					.duration(1000)
+					.attr("d", d3.line()
+						.x(function (d) { return x(+d.time) })
+						.y(function (d) { return y(+d.value) })
+					) */
 
-			  // Create new data with the selection?
-			  //var dataFilter = subData.map(function (d) { return { time: d[selectedGroup], value: d.count } })
-			if (d3.select("#myCheckbox").property("checked")) {
-				dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.rate } });
-			} else {
-				dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.count } });
+				x.domain([0.1, d3.max(dataFilter, function (d) { return +d.time })])
+
+
+				svg.selectAll(".point")
+					.remove()
+					.exit()
+
+				svg.selectAll(".point")
+					.data(dataFilter)
+					.enter().append("circle")
+					.filter(function (d) { return +d.time > 0.1 && +d.value > 0 })
+					//&& +d.cancer == 72
+					.attr("class", "point")
+					.attr("r", 3)
+					.attr("cx", function (d) { return x(+d.time) })
+					.attr("cy", function (d) { return y(+d.value) });
+
+				/* dot
+					.data(dataFilter)
+					.transition()
+					.duration(1000)
+					.filter(function (d) { return +d.time > 0.1 && +d.value > 0 })
+					.attr("cx", function (d) { return x(+d.time) })
+					.attr("cy", function (d) { return y(+d.value) }); */
+
+				svg.selectAll("g.x.axis")
+					.call(xAxis);
+
+				var newText2 = selectedGroup + " levels";
+
+				myText2
+					.transition()
+					.duration(1000)
+					.style("opacity", 0)
+					.transition().duration(500)
+					.style("opacity", 1)
+					.text(newText2); //			(function (d) { return d.tag })
+
+
 			}
 
-			  // Give these new data to update line
-			  /* line
-				  .datum(dataFilter)
-				  .transition()
-				  .duration(1000)
-				  .attr("d", d3.line()
-					  .x(function (d) { return x(+d.time) })
-					  .y(function (d) { return y(+d.value) })
-				  ) */
-
-			  x.domain([0.1, d3.max(dataFilter, function (d) { return +d.time })])
-
-			  dot
-				  .data(dataFilter)
-				  .transition()
-				  .duration(1000)
-				  .filter(function (d) { return +d.time > 0.1 })
-				  .attr("cx", function (d) { return x(+d.time) })
-				  .attr("cy", function (d) { return y(+d.value) });
-
-			  svg.selectAll("g.x.axis")
-				  .call(xAxis);
-
-			  var newText2 = selectedGroup + " levels";
-
-			  myText2
-				  .transition()
-				  .duration(1000)
-				  .style("opacity", 0)
-				  .transition().duration(500)
-				  .style("opacity", 1)
-				  .text(newText2); //			(function (d) { return d.tag })
-
-
-		  }
-
-		  // When the button is changed, run the updateChart function
-		  d3.select("#selectButton").on("change", function (d) {
-			  // recover the option that has been chosen
-			  selectedCancer = d3.select(this).property("value")
-			  // run the updateChart function with this selected option
-			  update(selectedCancer)
-		  })
+			// When the button is changed, run the updateChart function
+			d3.select("#selectButton").on("change", function (d) {
+				// recover the option that has been chosen
+				selectedCancer = d3.select(this).property("value")
+				// run the updateChart function with this selected option
+				update(selectedCancer)
+			})
 
 
 
@@ -321,7 +351,7 @@
 				// run the updateChart function with this selected option
 				update2(selectedOption)
 			})
-			
+
 
 			d3.select("#myCheckbox").on("change", function () {
 				var dataFilter;
@@ -335,13 +365,28 @@
 
 				y.domain(d3.extent(dataFilter, function (d) { return +d.value }))
 
-				dot
+
+				svg.selectAll(".point")
+					.remove()
+					.exit()
+
+				svg.selectAll(".point")
+					.data(dataFilter)
+					.enter().append("circle")
+					.filter(function (d) { return +d.time > 0.1 && +d.value > 0 })
+					//&& +d.cancer == 72
+					.attr("class", "point")
+					.attr("r", 3)
+					.attr("cx", function (d) { return x(+d.time) })
+					.attr("cy", function (d) { return y(+d.value) });
+
+				/* dot
 					.data(dataFilter)
 					.transition()
 					.duration(1000)
-					.filter(function (d) { return +d.time > 0.1 })
+					.filter(function (d) { return +d.time > 0.1 && +d.value > 0 })
 					.attr("cx", function (d) { return x(+d.time) })
-					.attr("cy", function (d) { return y(+d.value) });
+					.attr("cy", function (d) { return y(+d.value) }); */
 
 				svg.selectAll("g.y.axis")
 					.call(yAxis);
@@ -363,10 +408,7 @@
 					.text(newText3); //			(function (d) { return d.tag })
 			})
 
-	});
-
-
-	
+		});
 
 
 
@@ -374,98 +416,102 @@
 
 
 
-	  function types(d){
-	    d.x = +d.x;
-	    d.y = +d.y;
 
-	    return d;
-	  }
 
-    // Calculate a linear regression from the data
+
+		function types(d) {
+			d.x = +d.x;
+			d.y = +d.y;
+
+			return d;
+		}
+
+		// Calculate a linear regression from the data
 
 		// Takes 5 parameters:
-    // (1) Your data
-    // (2) The column of data plotted on your x-axis
-    // (3) The column of data plotted on your y-axis
-    // (4) The minimum value of your x-axis
-    // (5) The minimum value of your y-axis
+		// (1) Your data
+		// (2) The column of data plotted on your x-axis
+		// (3) The column of data plotted on your y-axis
+		// (4) The minimum value of your x-axis
+		// (5) The minimum value of your y-axis
 
-    // Returns an object with two points, where each point is an object with an x and y coordinate
+		// Returns an object with two points, where each point is an object with an x and y coordinate
 
-    function calcLinear(data, x, y, minX, minY){
-      /////////
-      //SLOPE//
-      /////////
+		function calcLinear(data, x, y, minX, minY) {
+			/////////
+			//SLOPE//
+			/////////
 
-      // Let n = the number of data points
-      var n = data.length;
+			// Let n = the number of data points
+			var n = data.length;
 
-      // Get just the points
-      var pts = [];
-      data.forEach(function(d,i){
-        var obj = {};
-        obj.x = d[x];
-        obj.y = d[y];
-        obj.mult = obj.x*obj.y;
-        pts.push(obj);
-      });
+			// Get just the points
+			var pts = [];
+			data.forEach(function (d, i) {
+				var obj = {};
+				obj.x = d[x];
+				obj.y = d[y];
+				obj.mult = obj.x * obj.y;
+				pts.push(obj);
+			});
 
-      // Let a equal n times the summation of all x-values multiplied by their corresponding y-values
-      // Let b equal the sum of all x-values times the sum of all y-values
-      // Let c equal n times the sum of all squared x-values
-      // Let d equal the squared sum of all x-values
-      var sum = 0;
-      var xSum = 0;
-      var ySum = 0;
-      var sumSq = 0;
-      pts.forEach(function(pt){
-        sum = sum + pt.mult;
-        xSum = xSum + pt.x;
-        ySum = ySum + pt.y;
-        sumSq = sumSq + (pt.x * pt.x);
-      });
-      var a = sum * n;
-      var b = xSum * ySum;
-      var c = sumSq * n;
-      var d = xSum * xSum;
+			// Let a equal n times the summation of all x-values multiplied by their corresponding y-values
+			// Let b equal the sum of all x-values times the sum of all y-values
+			// Let c equal n times the sum of all squared x-values
+			// Let d equal the squared sum of all x-values
+			var sum = 0;
+			var xSum = 0;
+			var ySum = 0;
+			var sumSq = 0;
+			pts.forEach(function (pt) {
+				sum = sum + pt.mult;
+				xSum = xSum + pt.x;
+				ySum = ySum + pt.y;
+				sumSq = sumSq + (pt.x * pt.x);
+			});
+			var a = sum * n;
+			var b = xSum * ySum;
+			var c = sumSq * n;
+			var d = xSum * xSum;
 
-      // Plug the values that you calculated for a, b, c, and d into the following equation to calculate the slope
-      // slope = m = (a - b) / (c - d)
-      var m = (a - b) / (c - d);
+			// Plug the values that you calculated for a, b, c, and d into the following equation to calculate the slope
+			// slope = m = (a - b) / (c - d)
+			var m = (a - b) / (c - d);
 
-      /////////////
-      //INTERCEPT//
-      /////////////
+			/////////////
+			//INTERCEPT//
+			/////////////
 
-      // Let e equal the sum of all y-values
-      var e = ySum;
+			// Let e equal the sum of all y-values
+			var e = ySum;
 
-      // Let f equal the slope times the sum of all x-values
-      var f = m * xSum;
+			// Let f equal the slope times the sum of all x-values
+			var f = m * xSum;
 
-      // Plug the values you have calculated for e and f into the following equation for the y-intercept
-      // y-intercept = b = (e - f) / n
-      var b = (e - f) / n;
+			// Plug the values you have calculated for e and f into the following equation for the y-intercept
+			// y-intercept = b = (e - f) / n
+			var b = (e - f) / n;
 
 			// Print the equation below the chart
 			document.getElementsByClassName("equation")[0].innerHTML = "y = " + m + "x + " + b;
 			document.getElementsByClassName("equation")[1].innerHTML = "x = ( y - " + b + " ) / " + m;
 
-      // return an object of two points
-      // each point is an object with an x and y coordinate
-      return {
-        ptA : {
-          x: minX,
-          y: m * minX + b
-        },
-        ptB : {
-          y: minY,
-          x: (minY - b) / m
-        }
-      }
+			// return an object of two points
+			// each point is an object with an x and y coordinate
+			return {
+				ptA: {
+					x: minX,
+					y: m * minX + b
+				},
+				ptB: {
+					y: minY,
+					x: (minY - b) / m
+				}
+			}
 
-    }
-		</script>
+		}
+	</script>
 
-	</body>
+</body>
+
 </html>
