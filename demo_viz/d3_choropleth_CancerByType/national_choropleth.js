@@ -77,6 +77,24 @@ var barChart2 = svg3.append("g")
 
 
 
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// CHART 2 Canvas
+// 
+
+// Now draw the SVG canvas and a 'g' element to house our graph
+var svg3 = d3.select("#barsCompCancer").append("svg")
+    .attr("width", svgWidth)
+    .attr("height", svgHeight)
+// .attr("transform", "translate(0," + margin.top*2 + ")")
+
+// Append 'g' element to contain graph and adjust it to fit within the margin
+var barChart2 = svg3.append("g")
+    .attr("id", "compBars")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+
+
+
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // DATA PROCESSING FUNCTIONS
 // 
@@ -409,20 +427,17 @@ function drawBars(barData, isUpdate) {
     var yAxis = d3.axisLeft()
         .scale(barScale)
         .ticks(10)
-
-
+    
     if (isUpdate == false) {
 
         barChart.append('g')
             .attr('class', 'x axis')
             .call(xAxis)
             .attr('transform', 'translate(0,' + height / 2 + ')')
-        // .style('opacity', 0.0)
 
         barChart.append('g')
             .attr('class', 'y axis')
             .call(yAxis)
-        // .style('opacity', 0.0)
 
         // Enter the bars d3 object to run the drawing loop for each item in the dataset
         barChart.selectAll('rect')
@@ -574,6 +589,7 @@ function drawComparisonBars(barData, isUpdate) {
             .attr("height", function (d) { return height - y(d.value); })
             .attr("fill", function (d) { return color(d.key); });
 
+
     } else {
 
         barChart2.select('.x.axis')
@@ -615,6 +631,7 @@ function drawComparisonBars(barData, isUpdate) {
             .attr("fill", function (d) { return color(d.key); });
 
     }
+
 
 }
 

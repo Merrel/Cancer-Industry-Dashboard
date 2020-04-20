@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+
+<title>Sliders for cloropleth</title>
+
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="https://unpkg.com/d3-simple-slider"></script>
+
+<div class="container">
+
+  <h2>Vertical Slider</h2>
+
+  <div class="row align-items-center">
+    <div class="col-sm-2"><p id="value-vertical"></p></div>
+    <div class="col-sm"><div id="slider-vertical"></div></div>
+  </div>
+
+  <script>
+
+    var sliderSVG = d3
+      .select('div#slider-vertical')
+      .append('svg')
+      .attr('width', 800)
+      .attr('height', 400)
+
+
+
+
+
+    var data = [-100, -50, 0, 50, 100];
+
+    var sliderVertical = d3
+    .sliderLeft()
+      .min(d3.min(data))
+      .max(d3.max(data))
+      .height(300)
+      // .ticks(5)
+    .step(20)
+      .on('onchange', val => {
+        d3.select('p#value-vertical');
+      });
+
+
+    sliderSpacing = ['80', '160', '240']
+
+    sliderSpacing.forEach(val => {
+
+      console.log(val)
+
+      var gVertical = sliderSVG
+      .append('g')
+      .attr('transform', 'translate(' + val + ',30)')
+      .call(sliderVertical);
+
+    });
+
+
+
+
+    // gVertical.call(sliderVertical);
+
+    // d3.select('p#value-vertical');
+
+
+  </script>
+
+</div>
