@@ -136,7 +136,7 @@ input[type="radio"] {
 .flex > * { width: 100%; }
 
 .main .flex .col {
-    padding: 20px 0 20px;
+    padding: 10px 0 10px;
 }
 
 .main .flex .col.c1 {
