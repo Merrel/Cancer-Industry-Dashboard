@@ -28,7 +28,7 @@
     </header> -->
     <main class="main boxed">
 
-        <h1>Cancer, Industry, and Industrial Indicators in the United States</h3>
+        <h1>Cancer, Industry, and Industrial Indicators in the United States</h1>
         <div class="flex">
             <div class="col c1">
                 <p>Industrial activity touches nearly every facet of modern, American life. This project aims to identify localities and industries where industrial activty may contribute to elevated risk of various types of cancer</p>
@@ -42,13 +42,19 @@
         <div>
             <table>
                 <tr>
+                    <th>Data to plot</th>
+                    <th>Data Color Scale</th>
+                    <th>Data Subset Displayed</th>
+                </tr>
+                <tr>
                     <th align="left">
                         <form id="dataSetOption">
-                            <input  type='radio' id="cancer" name="mode" width="20" height="20" checked>
-                            <label for="continuous-linear">Cancer Data</label><br>
-
+                            <input  type='radio' id="cancer" name="mode" checked>
+                            <label for="cancer">Cancer Data</label><br>
                             <input  type='radio' id="industry" name="mode" >
-                            <label for="continuous-log">Industry Data</label>
+                            <label for="industry">Industry Data</label><br>
+                            <input  type='radio' id="industry2" name="mode" >
+                            <label for="industry2">Industry Dimitri</label>
                         </form>
                     </th>
                     <th align="left">
