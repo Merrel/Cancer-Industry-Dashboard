@@ -124,6 +124,9 @@ function formatIndustryData(rawData) {
     return industryByType
 }
 
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// QUERY PREDICTIVE MODEL
+
 function getEditedCancerValues(values){
     var cancer = predictOnModelOne(values)
     
@@ -155,11 +158,14 @@ function predictOnModelOne(industryValues){
 
         })
 
+        // console.log(predictedIndicators)
+
         var cancerOutput = predictOnModelTwo(predictedIndicators)
         return cancerOutput
 }
 
 function predictOnModelTwo(indicators){
+
     var predictedCancer = []
 
     d3.dsv(",", "../resources/weights2.csv", 
@@ -175,14 +181,20 @@ function predictOnModelTwo(indicators){
             }
 
             predictedCancer.push(cancerCalc)
+            predictedCancer.push(20)
+            predictedCancer.push(40)
+            predictedCancer.push(60)
+            predictedCancer.push(80)
+            // more dummies
+            // [23, 24, 25, 25].forEach( d=> {predictedCancer.push(d)})
         })
+
 
         return predictedCancer
 }
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // HELPER FUNCTIONS
-// 
 
 function getRndPercentError() {
     signRnd = Math.random()
@@ -248,7 +260,7 @@ function define_colormap(dataID, allData, scaleType, whichVal){
 
         // Generate the domain
         var domain = []
-        logvals = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+        logvals = [0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
         logvals.forEach(d=>{domain.push(logScale.invert(d))})
         
         return new ColorMap(scaleFunc, domain, colorScale.range())
@@ -663,7 +675,7 @@ function drawLegend(cm) {
         .data(cm.domain)
     .enter()
         .append('rect')
-        .attr('x', d => xScaleLegend(d-1))
+        .attr('x', d => xScaleLegend(d-0.001))
         .attr('y', -8)
         .attr('width', xStep - 10)
         .attr('height', 14)
@@ -693,20 +705,62 @@ function drawLegend(cm) {
         .attr('class', 'annotation')
         .attr('transform', 'translate(' + width*0.76 + ', ' + 0 + ')')
 
-        legendLabel
-        .append("text")
-        .attr("text-anchor", "start") 
-        .attr("dominant-baseline", "middle") 
-        // .attr("text-anchor", "middle") 
-        .text("Cancer Incidence Rate")
+        String.prototype.toProperCase = function () {
+            return this.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
+        };
+
+        dataTitle = getFormValues("dataSetOption").toProperCase()
+        dataSubset = getFormValues("detailSelector")
 
         legendLabel
         .append("text")
         .attr("text-anchor", "start") 
         .attr("dominant-baseline", "middle") 
         // .attr("text-anchor", "middle") 
+        .text(dataTitle + ' - ' + dataSubset)
+
+
+        subsetUnitsKey = {
+            'rate': 'per 100k individuals',
+            'emp': 'Total Employees',
+            'payann': 'Total Payroll [$]',
+            'estab': 'Total Establishments',
+
+            'ACID': 'Acid Rain [kg SO2 eq]',
+            'ENRG': 'Energy [MJ]',
+            'ETOX': 'Freshwater Aquatic Ecotoxicity [CTUe]',
+            'EUTR': 'Eutrophication [kg N eq]',
+            'FOOD': 'Food Waste [kg]',
+            'GCC':  'Global Climate Change [kg CO2 eq]',
+            'HAPS': 'Hazardous Air Pollutants [kg]',
+            'HAZW': 'Hazardous Waste [kg]',
+            'HC': 'Human Health Cancer [CTUh]',
+            'HNC': 'Human Health Non-Cancer [CTUh]',
+            'HRSP': 'Human Health - Respiratory Effects [kg PM2.5 eq]',
+            'HTOX': 'Human Health Cancer and Noncancer [CTUh]',
+            'JOBS': 'Total Jobs',
+            'LAND': 'Land Use [m2*yr]',
+            'METL': 'Metals Released [kg]',
+            'MINE': 'Minerals and Metals [kg]',
+            'MSW': 'Muncipal Solid Waste [kg]',
+            'NREN': 'Nonrenewable Energy [MJ]',
+            'OZON': 'Ozone Depletion [kg O3 eq]',
+            'PEST': 'Pesticides [kg]',
+            'REN': 'Renewable Energy [MJ]',
+            'SMOG': 'Smog Formation [kg O3 eq]',
+            'VADD': 'Value Added [$]',
+            'WATR': 'Water Use [m3]'
+        }
+
+
+        legendLabel
+        .append("text")
+        .attr("font-size", "16px")
+        .attr("text-anchor", "start") 
+        .attr("dominant-baseline", "middle") 
+        // .attr("text-anchor", "middle") 
         .attr('dy', '18px')
-        .text("per 100k individuals")
+        .text(subsetUnitsKey[dataSubset])
 
 }
 
