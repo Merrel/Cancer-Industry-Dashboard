@@ -588,7 +588,7 @@ function drawSliders(sliderData, isUpdate=true) {
                     whichFIPS = querySelectedFIPS()
                     barData = topRatesInFips(cancerData, cancerNames, whichFIPS, howMany=5)
                     barData = updatePredictedBarData(barData)
-                    drawBars(barData, isUpdate)
+                    drawBars(barData, whichFIPS, isUpdate=true)
                 }
             })
         }
