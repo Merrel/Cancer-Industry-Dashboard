@@ -177,7 +177,7 @@ function predictOnModelTwo(indicators){
             predictedCancer.push(cancerCalc)
         })
 
-        return cancerCalc
+        return predictedCancer
 }
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
