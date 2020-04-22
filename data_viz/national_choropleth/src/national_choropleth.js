@@ -63,7 +63,7 @@ var barChart = svg2.append("g")
 
 // Now draw the SVG canvas and a 'g' element to house our graph
 var svg3 = d3.select("#scatter").append("svg")
-    .attr("width", 3*svgWidth)
+    .attr("width", svgWidth)
     .attr("height", svgHeight)
 // .attr("transform", "translate(0," + margin.top*2 + ")")
 
