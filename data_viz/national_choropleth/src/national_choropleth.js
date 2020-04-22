@@ -315,27 +315,27 @@ function topRatesInFips(dataSet, dataNames, fips, howMany, whichVal="rate"){
 
         if (dataSet.ActualRate[id].hasOwnProperty(fips)) {
             rateInFips = dataSet.ActualRate[id][fips][whichVal]
-            predictedRateInFips = dataSet.PredictedActualRate[id][fips][whichVal]
+            // predictedRateInFips = dataSet.PredictedActualRate[id][fips][whichVal]
         } else {
             rateInFips = 0
-            predictedRateInFips = 0
+            // predictedRateInFips = 0
         }
         
-        
+        var top
         if (rateInFips == null) {
             rateInFips = 1
             top_data_list.push(
-                {'data_id': dataNames[id], 'rate': 1, 'ratePredicted': 1}
+                {'data_id': dataNames[id], [whichVal]: 1, 'rank': i}
             )
         } else if (rateInFips==0) {
             top_data_list.push(
-                {'data_id': 'NA-' + naCount, 'rate': 0.0, 'ratePredicted': 0.0}
+                {'data_id': 'NA-' + naCount, [whichVal]: 0.0, 'rank': i}
             )
             naCount++
 
         } else {
             top_data_list.push(
-                {'data_id': dataNames[id], 'rate': rateInFips, 'ratePredicted': predictedRateInFips}
+                {'data_id': dataNames[id], [whichVal]: rateInFips, 'rank': i}
             )
             top_data_ids.push(id)
         }
@@ -405,7 +405,12 @@ function clicked(d) {
 
     // var detailToPlot = getFormValues("detailSelector")
     var barData = topRatesInFips(cancerData, cancerNames, countyFIPS, howMany=5)
-    drawBars(barData, isUpdate=true)
+    barData = updatePredictedBarData(barData)
+    drawBars(barData, countyFIPS, isUpdate=true)
+
+    // Pick Industry Sliders by Payann
+    sliderData = topRatesInFips(industryData, industryNames, String(countyFIPS), 5, "payann")
+    drawSliders(sliderData, isUpdate=true)
 
 }
 
@@ -534,25 +539,53 @@ function ready(values) {
         .on("click", reset)
 
 
-    var sliderList = ["IndustryA", "IndustryB", "IndustryC", "IndustryD", "IndustryE"]
-    drawSliders(sliderList)
-
+    // Pick Industry Sliders by Payann
+    startUpFIPS = 21197
+    sliderData = topRatesInFips(industryData, industryNames, String(startUpFIPS), 5, "payann")
+    drawSliders(sliderData, isUpdate=false)
 }
  
-function drawSliders(sliderList) {
-    sliderList.forEach(sliderName => {
+function drawSliders(sliderData, isUpdate=true) {
 
-        rangejs( document.getElementById( sliderName ), {
-            css:true,
-            buttons:true,
-            change: function( event, ui ){
-                console.log(sliderName)
-                sliderValue = document.getElementById(sliderName).value
-                console.log(sliderValue)
-            }
-        } );
-    });
+    var sliderList = ["IndustryA", "IndustryB", "IndustryC", "IndustryD", "IndustryE"]
+
+    for (var i=0; i<sliderList.length; i++) {
+
+        sliderName = sliderList[i]
+        industryName = sliderData[i]['data_id']
+
+        // Change the label
+        document.getElementById("Label" + sliderName).innerText = industryName
+
+        if (isUpdate==false) {
+            rangejs( document.getElementById( sliderName ), {
+                css:true,
+                buttons:true,
+                change: function( event, ui ){
+
+                    whichFIPS = querySelectedFIPS()
+                    barData = topRatesInFips(cancerData, cancerNames, whichFIPS, howMany=5)
+                    barData = updatePredictedBarData(barData)
+                    drawBars(barData, isUpdate)
+                }
+            })
+        }
+    }
 }
+
+
+function querySliders() {
+    var sliderList = ["IndustryA", "IndustryB", "IndustryC", "IndustryD", "IndustryE"]
+    var sliderVals = {}
+
+    sliderList.forEach( sliderName => {
+
+        sliderVals[sliderName] = document.getElementById(sliderName).value
+
+    })
+    return sliderVals
+}
+
 
 function getSliderValues(sliderList) {
 
@@ -600,11 +633,31 @@ function updateAll(whichDataSet, isUpdate){
     updateMap(vizData, isUpdate)
 
     // Draw the bar graph
-    startUpFIPS = 21197
+    var startUpFIPS = 21197
     barData = topRatesInFips(cancerData, cancerNames, startUpFIPS, howMany=5)
-    drawBars(barData, isUpdate)
+    barData = updatePredictedBarData(barData)
+    drawBars(barData, startUpFIPS, isUpdate)
 }
 
+
+function updatePredictedBarData(barData) {
+    // Get Predicted
+    slidersNow = querySliders()
+    sliderKeys = Object.keys(slidersNow)
+
+    for (var i=0; i<sliderKeys.length; i++){
+        barData[i]['ratePredicted'] = parseFloat(slidersNow[sliderKeys[i]])
+    }
+    return barData
+}
+
+
+function querySelectedFIPS() {
+    var htmlstr = document.getElementById('selectedFIPS').innerHTML
+    var re = new RegExp('>(.*)<')
+    var selectedFIPS = re.exec(htmlstr)[1]
+    return selectedFIPS
+}
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // DRAWING FUNCTIONS
@@ -647,7 +700,6 @@ function removeLegend(cm) {
         // .data(cm.domain())
         .remove()
 }
-
 
 function drawLegend(cm) {
     // cm is a ColorMap Object
@@ -798,7 +850,7 @@ function drawSelectorBox(dataOptions, selectorDivID, newSelectorID, isUpdate) {
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 // BAR CHART - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // 
-function drawBars(barData, isUpdate) {
+function drawBars(barData, whichFIPS, isUpdate) {
 
     barChart = d3.select("#dynaBars")
 
@@ -831,8 +883,19 @@ function drawBars(barData, isUpdate) {
 
     barColor = 'rgb(150, 163, 168)'
 
+
     
     if (isUpdate==false) {
+
+        // title
+        barChart.append('g')
+            .attr('class', 'annotation')
+            .attr('id', 'selectedFIPS')
+            .attr('transform', 'translate(' + width-10 + ', ' + 0 + ')')
+            .append("text")
+            .attr("text-anchor", "start") 
+            .attr("dominant-baseline", "middle") 
+            .text(whichFIPS)
 
         // Enter the bars d3 object to run the drawing loop for each item in the dataset
         barChart.selectAll('rect')
@@ -861,7 +924,7 @@ function drawBars(barData, isUpdate) {
         .enter()
             .append('circle')
             .attr('class', 'predPoint')
-            .attr('cx', d => xScaleBar(d.rate))
+            .attr('cx', d => xScaleBar(d.ratePredicted))
             .attr('cy', d => y1(d.data_id)+y1.bandwidth()/2 )
             .attr('r', 5)
             .style('fill', 'black')
@@ -894,6 +957,15 @@ function drawBars(barData, isUpdate) {
 
     } else {
 
+        barChart.select('#selectedFIPS')
+            .selectAll('text').remove()
+
+        barChart.select('#selectedFIPS')
+            .append("text")
+            .attr("text-anchor", "start") 
+            .attr("dominant-baseline", "middle") 
+            .text(whichFIPS)
+
         barChart.select('.x.axis')
             .transition()
             .duration(transition_time)
@@ -924,7 +996,7 @@ function drawBars(barData, isUpdate) {
             .duration(transition_time)
             // .append('circle')
             .attr('class', 'predPoint')
-            .attr('cx', d => xScaleBar(d.rate))
+            .attr('cx', d => xScaleBar(d.ratePredicted))
             .attr('cy', d => y1(d.data_id)+y1.bandwidth()/2 )
             .attr('r', 5)
             .style('fill', 'black')
