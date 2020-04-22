@@ -262,3 +262,6 @@ code.css:before { content: 'CSS'; }
   fill: rgb(150, 163, 168);
 }
 
+.legend {
+    font-size: 16px;
+}

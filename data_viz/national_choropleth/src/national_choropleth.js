@@ -198,6 +198,11 @@ function getKeyByValue(object, value) {
     return Object.keys(object).find(key => object[key] === value);
 }
 
+function ColorMap(scaleFunc, domain, range) {
+    this.scaleFunc = scaleFunc
+    this.domain = domain
+    this.range = range
+}
 
 function define_colormap(dataID, allData, scaleType, whichVal){
 
@@ -205,59 +210,60 @@ function define_colormap(dataID, allData, scaleType, whichVal){
     var thisData = allData[dataID]
 
     // Rate Value processing if continout scale
-    if (scaleType.includes("continuous")) {
-
-        // Get the range of data rate values
-        rateVals = [];
-        for(var key in thisData) {
-            rateVals.push(thisData[key][whichVal]);
-        }
-
-        rate_max = Math.ceil(d3.max(rateVals) / 8) * 8
-        // rate_max = 100
-        rate_step = Math.floor(rate_max / 7)
-
+    // Get the range of data rate values
+    rateVals = [];
+    for(var key in thisData) {
+        rateVals.push(thisData[key][whichVal]);
     }
+
+    rate_max = Math.ceil(d3.max(rateVals) / 8) * 8
+    // rate_max = 100
+    rate_step = Math.floor(rate_max / 7)
 
     // Color mapping
     if (scaleType == "continuous-linear"){
     
-        var colormap = d3.scaleThreshold()
+        var colorScale = d3.scaleThreshold()
             .range(d3.schemePuRd[9])
             .domain(d3.range(0, rate_max+rate_step, rate_step));
         
-        return colormap
+        return new ColorMap(colorScale, colorScale.domain(), colorScale.range())
 
     } else if (scaleType == "continuous-log"){
 
         var logScale = d3.scaleLog()
-            .domain([1, rate_max])
-            // .range([0,1])
+            .range([0.1, 1])
+            .domain([1,rate_max])
     
-        var thresholdScale = d3.scaleThreshold()
-            .range([d3.schemePuRd[9][0]].concat(d3.schemePuRd[9]))
-            .domain(d3.range(0.1, 1.1, 0.1))
+        var colorScale = d3.scaleQuantize()
+            .range([d3.schemePuRd[9][0]].concat(d3.schemePuRd[8]))
+            .domain(logScale.range())
 
         // return thresholdScale
 
-        var colormap = function(d) {
+        var scaleFunc = function(d) {
             if (d<=0) { d=1}
-            return thresholdScale(logScale(d))
+            return colorScale(logScale(d))
         }
+
+        // Generate the domain
+        var domain = []
+        logvals = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+        logvals.forEach(d=>{domain.push(logScale.invert(d))})
         
-        return colormap
+        return new ColorMap(scaleFunc, domain, colorScale.range())
 
     } else if (scaleType == "diverging") {
         color_diverging = d3.scaleDiverging([-100.0, 0, 100], d3.interpolatePuOr)
         // return color_diverging
-        var colormap = function(d){
+        var scaleFunc = function(d){
             if (Math.abs(d)==100){
                 d = 0
             }
             return color_diverging(d)
         }
 
-        return colormap
+        return new ColorMap(scaleFunc, [0.1,1], [10,11])
     }
 }
 
@@ -295,8 +301,15 @@ function topRatesInFips(dataSet, dataNames, fips, howMany, whichVal="rate"){
         // console.log(dataSet.ActualRate)
         // console.log(id)
 
-        rateInFips = dataSet.ActualRate[id][fips][whichVal]
-        predictedRateInFips = dataSet.PredictedActualRate[id][fips][whichVal]
+        if (dataSet.ActualRate[id].hasOwnProperty(fips)) {
+            rateInFips = dataSet.ActualRate[id][fips][whichVal]
+            predictedRateInFips = dataSet.PredictedActualRate[id][fips][whichVal]
+        } else {
+            rateInFips = 0
+            predictedRateInFips = 0
+        }
+        
+        
         if (rateInFips == null) {
             rateInFips = 1
             top_data_list.push(
@@ -611,26 +624,24 @@ var updateMap = function(dataSet, isUpdate){
         colormap = define_colormap(dataID, selectedData, scaleType="diverging", whichVal=detailValToPlot)
     }
 
-    drawChoropleth(us_topojson, selectedData, dataID, colormap, isUpdate, whichVal)
+    drawChoropleth(us_topojson, selectedData, dataID, colormap.scaleFunc, isUpdate, whichVal)
 
     drawLegend(colormap)
 }
 
-function removeLegend(currentColormap) {
+function removeLegend(cm) {
         // Remove
         mapLegend.selectAll('rect')
-        // .data(currentColormap.domain())
+        // .data(cm.domain())
         .remove()
 }
 
 
-function drawLegend(currentColormap) {
-
-    console.log("re-draw the legend")
-    console.log(currentColormap.domain())
+function drawLegend(cm) {
+    // cm is a ColorMap Object
 
     legendStations = []
-    xMax = width * 0.7
+    xMax = width * 0.74
     xMin = 0
     xStep = xMax / 9
 
@@ -639,27 +650,24 @@ function drawLegend(currentColormap) {
     }
 
     xScaleLegend = d3.scaleThreshold()
-        .domain(currentColormap.domain())
+        .domain(cm.domain)
         .range(legendStations)
     
-
-    console.log(legendStations)
-
     // Remove
     mapLegend.selectAll('rect')
-        // .data(currentColormap.domain())
+        // .data(cm.domain())
         .remove()
 
     // Draw
     mapLegend.selectAll('rect')
-        .data(currentColormap.domain())
+        .data(cm.domain)
     .enter()
         .append('rect')
         .attr('x', d => xScaleLegend(d-1))
         .attr('y', -8)
         .attr('width', xStep - 10)
         .attr('height', 14)
-        .style('fill', d => currentColormap(d))
+        .style('fill', d => cm.scaleFunc(d))
         .style('stroke', 'black')
 
 
@@ -669,8 +677,7 @@ function drawLegend(currentColormap) {
 
     // - legend text entry
     mapLegend.selectAll('text')
-        .data(currentColormap.domain())
-
+        .data(cm.domain)
     .enter()
         .append("text")
         .attr('class', 'legend')
@@ -678,13 +685,13 @@ function drawLegend(currentColormap) {
         .attr('y', 23)
         .attr("text-anchor", "start") 
         .attr("dominant-baseline", "Top") 
-        .text(d => d)
+        .text(d => Math.floor(d))
         // .text(d => Math.floor(logScale.invert(d))+' - '+Math.floor(logScale.invert(d+0.0999)))
 
     
         legendLabel = mapLegend.append("g")
         .attr('class', 'annotation')
-        .attr('transform', 'translate(' + width*0.72 + ', ' + 0 + ')')
+        .attr('transform', 'translate(' + width*0.76 + ', ' + 0 + ')')
 
         legendLabel
         .append("text")
