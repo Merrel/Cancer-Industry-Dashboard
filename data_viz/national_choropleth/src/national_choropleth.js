@@ -29,6 +29,13 @@ var svg1 =    d3.select("#choropleth").append("svg")
 // Append 'g' element to contain graph and adjust it to fit within the margin
 var mapChart =  svg1.append("g")
                     .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+
+// Append 'g' element to contain graph legend and adjust it to fit within the margin
+var svgLegend = d3.select("#mapLegend").append("svg")
+    .attr("width", svgWidth)
+    .attr("height", 50)
+var mapLegend =  svgLegend.append("g")
+                    .attr("transform", "translate(" + 0 + "," + margin.top + ")")
                     
 // Configure the paths
 var path = d3.geoPath();
@@ -191,41 +198,10 @@ function getKeyByValue(object, value) {
     return Object.keys(object).find(key => object[key] === value);
 }
 
-function getFormValues(elementID){
-
-    if (elementID == "dataSetOption") {
-        // Pick which data view is selected in radio buttons
-        var form = document.getElementById("dataSetOption")
-        var viewType;
-        for(var i=0; i<form.length; i++){
-        if(form[i].checked){
-            viewType = form[i].id;}}
-
-        return viewType
-
-    } else if (elementID == "colorScaleOption") {
-        // Pick which data view is selected in radio buttons
-        var form = document.getElementById("colorScaleOption")
-        var viewType;
-        for(var i=0; i<form.length; i++){
-        if(form[i].checked){
-            viewType = form[i].id;}}
-
-        return viewType
-
-    } else if(elementID == "dataSelector") {
-        // Get slected value of data type
-        var sel = document.getElementById('dataSelector')
-        dataType = sel.options[sel.selectedIndex].value
-
-        return dataType
-    } else if (elementID == "detailSelector") {
-        // Get slected value of data type
-        var sel = document.getElementById('detailSelector')
-        dataType = sel.options[sel.selectedIndex].value
-
-        return dataType
-    }
+function ColorMap(scaleFunc, domain, range) {
+    this.scaleFunc = scaleFunc
+    this.domain = domain
+    this.range = range
 }
 
 function define_colormap(dataID, allData, scaleType, whichVal){
@@ -234,57 +210,129 @@ function define_colormap(dataID, allData, scaleType, whichVal){
     var thisData = allData[dataID]
 
     // Rate Value processing if continout scale
-    if (scaleType.includes("continuous")) {
-
-        // Get the range of data rate values
-        rateVals = [];
-        for(var key in thisData) {
-            rateVals.push(thisData[key][whichVal]);
-        }
-
-        rate_max = Math.ceil(d3.max(rateVals) / 10) * 10
-        // rate_max = 100
-        rate_step = Math.floor(rate_max / 9)
-
+    // Get the range of data rate values
+    rateVals = [];
+    for(var key in thisData) {
+        rateVals.push(thisData[key][whichVal]);
     }
+
+    rate_max = Math.ceil(d3.max(rateVals) / 8) * 8
+    // rate_max = 100
+    rate_step = Math.floor(rate_max / 7)
 
     // Color mapping
     if (scaleType == "continuous-linear"){
     
-        var colormap = d3.scaleThreshold()
+        var colorScale = d3.scaleThreshold()
             .range(d3.schemePuRd[9])
-            .domain(d3.range(rate_step, rate_max+rate_step, rate_step));
+            .domain(d3.range(0, rate_max+rate_step, rate_step));
         
-        return colormap
+        return new ColorMap(colorScale, colorScale.domain(), colorScale.range())
 
     } else if (scaleType == "continuous-log"){
 
         var logScale = d3.scaleLog()
-            .domain([1, rate_max])
-            // .range([0,1])
+            .range([0.1, 1])
+            .domain([1,rate_max])
     
-        var thresholdScale = d3.scaleThreshold()
-            .range([d3.schemePuRd[9][0]].concat(d3.schemePuRd[9]))
-            .domain(d3.range(0.1, 1.1, 0.1))
+        var colorScale = d3.scaleQuantize()
+            .range([d3.schemePuRd[9][0]].concat(d3.schemePuRd[8]))
+            .domain(logScale.range())
 
-        var colormap = function(d) {
+        // return thresholdScale
+
+        var scaleFunc = function(d) {
             if (d<=0) { d=1}
-            return thresholdScale(logScale(d))
+            return colorScale(logScale(d))
         }
+
+        // Generate the domain
+        var domain = []
+        logvals = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
+        logvals.forEach(d=>{domain.push(logScale.invert(d))})
         
-        return colormap
+        return new ColorMap(scaleFunc, domain, colorScale.range())
+
     } else if (scaleType == "diverging") {
         color_diverging = d3.scaleDiverging([-100.0, 0, 100], d3.interpolatePuOr)
-        
-        var colormap = function(d){
+        // return color_diverging
+        var scaleFunc = function(d){
             if (Math.abs(d)==100){
                 d = 0
             }
             return color_diverging(d)
         }
 
-        return colormap
+        return new ColorMap(scaleFunc, [0.1,1], [10,11])
     }
+}
+
+function topRatesInFips(dataSet, dataNames, fips, howMany, whichVal="rate"){
+
+    rates_dict = {}
+    rates_list = []
+
+    selectedFIPS = fips
+
+    Object.keys(dataSet.ActualRate).forEach( this_key=>{
+        // this_key = parseInt(d.split("$")[1])
+        if (this_key!=1){
+            this_rate = dataSet.ActualRate[this_key]
+            if (this_rate.hasOwnProperty(fips)){ 
+                rates_dict[this_key] = parseFloat(this_rate[fips][whichVal])
+                rates_list.push(parseFloat(this_rate[fips][whichVal]))
+            } else {
+                rates_dict[this_key] = 0.0
+                rates_list.push(0.0)
+            }
+        }
+    })
+
+    rates_list = rates_list.sort(function(a,b) { return a - b;}).reverse()
+
+    top_data_list = []
+    top_data_ids = []
+    naCount = 1
+    for (var i=0; i<howMany; i++) {
+        id = parseInt(getKeyByValue(rates_dict, rates_list[i]))
+
+        // console.log(rates_list)
+        // console.log(rates_dict)
+        // console.log(dataSet.ActualRate)
+        // console.log(id)
+
+        if (dataSet.ActualRate[id].hasOwnProperty(fips)) {
+            rateInFips = dataSet.ActualRate[id][fips][whichVal]
+            predictedRateInFips = dataSet.PredictedActualRate[id][fips][whichVal]
+        } else {
+            rateInFips = 0
+            predictedRateInFips = 0
+        }
+        
+        
+        if (rateInFips == null) {
+            rateInFips = 1
+            top_data_list.push(
+                {'data_id': dataNames[id], 'rate': 1, 'ratePredicted': 1}
+            )
+        } else if (rateInFips==0) {
+            top_data_list.push(
+                {'data_id': 'NA-' + naCount, 'rate': 0.0, 'ratePredicted': 0.0}
+            )
+            naCount++
+
+        } else {
+            top_data_list.push(
+                {'data_id': dataNames[id], 'rate': rateInFips, 'ratePredicted': predictedRateInFips}
+            )
+            top_data_ids.push(id)
+        }
+    }
+
+    // var viewOptions = getFormValues()
+    // selectedDataID = parseInt(getKeyByValue(vizDataNames, viewOptions[0]))
+
+    return top_data_list
 }
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -355,67 +403,42 @@ function zoomed() {
     mapChart.attr("stroke-width", 1 / transform.k);
 }
 
-function topRatesInFips(dataSet, dataNames, fips, howMany, whichVal="rate"){
+function getFormValues(elementID){
 
-    rates_dict = {}
-    rates_list = []
+    if (elementID == "dataSetOption") {
+        // Pick which data view is selected in radio buttons
+        var form = document.getElementById("dataSetOption")
+        var viewType;
+        for(var i=0; i<form.length; i++){
+        if(form[i].checked){
+            viewType = form[i].id;}}
 
-    selectedFIPS = fips
+        return viewType
 
-    Object.keys(dataSet.ActualRate).forEach( this_key=>{
-        // this_key = parseInt(d.split("$")[1])
-        if (this_key!=1){
-            this_rate = dataSet.ActualRate[this_key]
-            if (this_rate.hasOwnProperty(fips)){ 
-                rates_dict[this_key] = parseFloat(this_rate[fips][whichVal])
-                rates_list.push(parseFloat(this_rate[fips][whichVal]))
-            } else {
-                rates_dict[this_key] = 0.0
-                rates_list.push(0.0)
-            }
-        }
-    })
+    } else if (elementID == "colorScaleOption") {
+        // Pick which data view is selected in radio buttons
+        var form = document.getElementById("colorScaleOption")
+        var viewType;
+        for(var i=0; i<form.length; i++){
+        if(form[i].checked){
+            viewType = form[i].id;}}
 
-    rates_list = rates_list.sort(function(a,b) { return a - b;}).reverse()
+        return viewType
 
-    top_data_list = []
-    top_data_ids = []
-    naCount = 1
-    for (var i=0; i<howMany; i++) {
-        id = parseInt(getKeyByValue(rates_dict, rates_list[i]))
+    } else if(elementID == "dataSelector") {
+        // Get slected value of data type
+        var sel = document.getElementById('dataSelector')
+        dataType = sel.options[sel.selectedIndex].value
 
-        // console.log(rates_list)
-        // console.log(rates_dict)
-        // console.log(dataSet.ActualRate)
-        // console.log(id)
+        return dataType
+    } else if (elementID == "detailSelector") {
+        // Get slected value of data type
+        var sel = document.getElementById('detailSelector')
+        dataType = sel.options[sel.selectedIndex].value
 
-        rateInFips = dataSet.ActualRate[id][fips][whichVal]
-        predictedRateInFips = dataSet.PredictedActualRate[id][fips][whichVal]
-        if (rateInFips == null) {
-            rateInFips = 1
-            top_data_list.push(
-                {'data_id': dataNames[id], 'rate': 1, 'ratePredicted': 1}
-            )
-        } else if (rateInFips==0) {
-            top_data_list.push(
-                {'data_id': 'NA-' + naCount, 'rate': 0.0, 'ratePredicted': 0.0}
-            )
-            naCount++
-
-        } else {
-            top_data_list.push(
-                {'data_id': dataNames[id], 'rate': rateInFips, 'ratePredicted': predictedRateInFips}
-            )
-            top_data_ids.push(id)
-        }
+        return dataType
     }
-
-    // var viewOptions = getFormValues()
-    // selectedDataID = parseInt(getKeyByValue(vizDataNames, viewOptions[0]))
-
-    return top_data_list
 }
-
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -516,9 +539,7 @@ function drawSliders(sliderList) {
                 console.log(sliderValue)
             }
         } );
-        
     });
-
 }
 
 function getSliderValues(sliderList) {
@@ -531,7 +552,6 @@ function getSliderValues(sliderList) {
     })
     return sliderValueList
 }
-
 
 function updateAll(whichDataSet, isUpdate){
     // whichDataSet can be either "industry" for "cancer"
@@ -573,6 +593,11 @@ function updateAll(whichDataSet, isUpdate){
     drawBars(barData, isUpdate)
 }
 
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// DRAWING FUNCTIONS
+// 
+
 // Update Functions
 var updateMap = function(dataSet, isUpdate){
 
@@ -599,7 +624,90 @@ var updateMap = function(dataSet, isUpdate){
         colormap = define_colormap(dataID, selectedData, scaleType="diverging", whichVal=detailValToPlot)
     }
 
-    drawChoropleth(us_topojson, selectedData, dataID, colormap, isUpdate, whichVal)
+    drawChoropleth(us_topojson, selectedData, dataID, colormap.scaleFunc, isUpdate, whichVal)
+
+    drawLegend(colormap)
+}
+
+function removeLegend(cm) {
+        // Remove
+        mapLegend.selectAll('rect')
+        // .data(cm.domain())
+        .remove()
+}
+
+
+function drawLegend(cm) {
+    // cm is a ColorMap Object
+
+    legendStations = []
+    xMax = width * 0.74
+    xMin = 0
+    xStep = xMax / 9
+
+    for (var i=0; i<9; i++) {
+        legendStations.push(xStep*i+15)
+    }
+
+    xScaleLegend = d3.scaleThreshold()
+        .domain(cm.domain)
+        .range(legendStations)
+    
+    // Remove
+    mapLegend.selectAll('rect')
+        // .data(cm.domain())
+        .remove()
+
+    // Draw
+    mapLegend.selectAll('rect')
+        .data(cm.domain)
+    .enter()
+        .append('rect')
+        .attr('x', d => xScaleLegend(d-1))
+        .attr('y', -8)
+        .attr('width', xStep - 10)
+        .attr('height', 14)
+        .style('fill', d => cm.scaleFunc(d))
+        .style('stroke', 'black')
+
+
+    // Remove
+    mapLegend.selectAll('text')
+        .remove()
+
+    // - legend text entry
+    mapLegend.selectAll('text')
+        .data(cm.domain)
+    .enter()
+        .append("text")
+        .attr('class', 'legend')
+        .attr('x', d => xScaleLegend(d-1))
+        .attr('y', 23)
+        .attr("text-anchor", "start") 
+        .attr("dominant-baseline", "Top") 
+        .text(d => Math.floor(d))
+        // .text(d => Math.floor(logScale.invert(d))+' - '+Math.floor(logScale.invert(d+0.0999)))
+
+    
+        legendLabel = mapLegend.append("g")
+        .attr('class', 'annotation')
+        .attr('transform', 'translate(' + width*0.76 + ', ' + 0 + ')')
+
+        legendLabel
+        .append("text")
+        .attr("text-anchor", "start") 
+        .attr("dominant-baseline", "middle") 
+        // .attr("text-anchor", "middle") 
+        .text("Cancer Incidence Rate")
+
+        legendLabel
+        .append("text")
+        .attr("text-anchor", "start") 
+        .attr("dominant-baseline", "middle") 
+        // .attr("text-anchor", "middle") 
+        .attr('dy', '18px')
+        .text("per 100k individuals")
+
 }
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
@@ -648,7 +756,6 @@ function drawBars(barData, isUpdate) {
     xScaleBar = d3.scaleLinear()
             .domain([0, 250])              // domain of inputs;
             .range([0, width])  // range of output draw coords in px
-            // .clamp()
 
     y1 = d3.scaleBand()
         .domain(barData.map(function(d) { return d.data_id }))

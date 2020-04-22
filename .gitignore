@@ -4,4 +4,3 @@
 *.numbers
 __pycache__
 data_clean/cancer_industry.csv
-data_clean/final_indicators_per-industry_per-county.csv
