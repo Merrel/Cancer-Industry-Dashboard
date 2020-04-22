@@ -43,6 +43,7 @@
 		<input type="checkbox" id="myCheckbox"> Use incidence rates
 		<select id="selectButton"></select>
 		<div class="chart"></div>
+		<!-- <input type="checkbox" id="myCheckbox2"> Use linear scale -->
 		<select id="selectButton2"></select>
 		<div class="equation"></div>
 		<div class="equation"></div>
@@ -56,17 +57,19 @@
 	  var svg = d3.select(".chart").append("svg")
 	      .attr("width", width + margin.left + margin.right)
 	      .attr("height", height + margin.top + margin.bottom)
-	    .append("g")
+	      .append("g")
 	      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 	  // var x = d3.scaleLinear()
 	  //    .range([0,width]);
 
 	  var x = d3.scaleLog()
-			.range([margin.left, width - margin.left - margin.right]);
+			//.range([margin.left, width - margin.left - margin.right]);
+				.range([0, width - margin.right]);
 
 	  var y = d3.scaleLinear()
-	      .range([height - margin.bottom, margin.top]);
+				//.range([height - margin.bottom, margin.top]);
+				.range([height, 0]);
 
 	  var xAxis = d3.axisBottom()
 	      .scale(x);
@@ -89,11 +92,11 @@
 		
 		console.log(columns);
 
-		var allGroup = d3.map(data, function (d) { return (d.cancer) }).keys().map(Number).sort();
+		var allGroup = d3.map(data, function (d) { return (d.cancerName) }).keys();
 
 		console.log(allGroup);
 
-		var selectedCancer = "17";
+		var selectedCancer = "All Cancer Sites";
 
 		var selectedOption = "ACID";
 
@@ -107,7 +110,7 @@
 			  .append('option')
 			  .text(function (d) { return d; }) // text showed in the menu
 			  .attr("value", function (d) { return d; }) // corresponding value returned by the button 
-			  .property("selected", function (d) { return d === '3'; });
+			  .property("selected", function (d) { return d === "All Cancer Sites"; });
 
 		// add the options to the button
 		  d3.select("#selectButton2")
@@ -123,12 +126,12 @@
 		//document.getElementById("selectButton").align = "center";
 
 		var subData = data.filter(function (d) {
-			  return +d.cancer == selectedCancer
+			  return d.cancerName == selectedCancer
 		  })
 
 
 	    y.domain(d3.extent(subData, function(d){ return +d.count}));
-		x.domain([0.1, d3.max(subData, function (d) { return +d.ACID })])
+		x.domain([0.01, d3.max(subData, function (d) { return +d.ACID })])
 	    //x.domain(d3.extent(data, function(d){ return d.ACID}));
 
 	    // see below for an explanation of the calcLinear function
@@ -150,10 +153,10 @@
 	        .attr("class", "y axis")
 	        .call(yAxis);
 
-	    var dot = svg.selectAll(".point")
+	    svg.selectAll(".point")
 	        .data(subData)
 	      .enter().append("circle")
-		  .filter(function (d) { return +d.ACID > 0.1})
+		  .filter(function (d) { return +d.ACID > 0.01 && +d.count > 0 })
 		  	//&& +d.cancer == 72
 	        .attr("class", "point")
 	        .attr("r", 3)
@@ -167,7 +170,7 @@
 			  .attr("x", 0 - (height / 2))
 			  .attr("dy", "1em")
 			  .style("text-anchor", "middle")
-			  .text("Cancer 17 incidents"); 
+			  .text("All Cancer Sites incidents"); 
 
 		
 		// text label for the x axis
@@ -202,7 +205,7 @@
 			console.log(selectedOption);
 
 			subData = data.filter(function (d) {
-				return +d.cancer == selectedCancer
+				return d.cancerName == selectedCancer
 			})
 
 			  // Create new data with the selection?
@@ -227,13 +230,19 @@
 
 			y.domain(d3.extent(dataFilter, function (d) { return +d.value }))
 
-			  dot
-				  .data(dataFilter)
-				  .transition()
-				  .duration(1000)
-				  .filter(function (d) { return +d.time > 0.1 })
-				  .attr("cx", function (d) { return x(+d.time) })
-				  .attr("cy", function (d) { return y(+d.value) });
+			svg.selectAll(".point")
+				.remove()
+				.exit()
+
+			svg.selectAll(".point")
+				.data(dataFilter)
+				.enter().append("circle")
+				.filter(function (d) { return +d.time > 0.01 && +d.value > 0 })
+				//&& +d.cancer == 72
+				.attr("class", "point")
+				.attr("r", 3)
+				.attr("cx", function (d) { return x(+d.time) })
+				.attr("cy", function (d) { return y(+d.value) });
 
 			svg.selectAll("g.y.axis")
 				.call(yAxis);
@@ -241,9 +250,9 @@
 			//var newText = "Cancer " + selectedCancer + " incidents";
 			var newText;
 			if (d3.select("#myCheckbox").property("checked")) {
-				newText = "Cancer " + selectedCancer + " incident rates";
+				newText = selectedCancer + " incident rates";
 			} else {
-				newText = "Cancer " + selectedCancer + " incidents";
+				newText = selectedCancer + " incidents";
 			}
 
 			myText
@@ -277,15 +286,21 @@
 					  .y(function (d) { return y(+d.value) })
 				  ) */
 
-			  x.domain([0.1, d3.max(dataFilter, function (d) { return +d.time })])
+			  x.domain([0.01, d3.max(dataFilter, function (d) { return +d.time })])
 
-			  dot
-				  .data(dataFilter)
-				  .transition()
-				  .duration(1000)
-				  .filter(function (d) { return +d.time > 0.1 })
-				  .attr("cx", function (d) { return x(+d.time) })
-				  .attr("cy", function (d) { return y(+d.value) });
+			  svg.selectAll(".point")
+				.remove()
+				.exit()
+
+			svg.selectAll(".point")
+				.data(dataFilter)
+				.enter().append("circle")
+				.filter(function (d) { return +d.time > 0.01 && +d.value > 0 })
+				//&& +d.cancer == 72
+				.attr("class", "point")
+				.attr("r", 3)
+				.attr("cx", function (d) { return x(+d.time) })
+				.attr("cy", function (d) { return y(+d.value) });
 
 			  svg.selectAll("g.x.axis")
 				  .call(xAxis);
@@ -315,7 +330,7 @@
 
 
 			// When the button is changed, run the updateChart function
-			d3.select("#selectButton2").on("change", function (d) {
+		d3.select("#selectButton2").on("change", function (d) {
 				// recover the option that has been chosen
 				selectedOption = d3.select(this).property("value")
 				// run the updateChart function with this selected option
@@ -335,11 +350,17 @@
 
 				y.domain(d3.extent(dataFilter, function (d) { return +d.value }))
 
-				dot
+				svg.selectAll(".point")
+					.remove()
+					.exit()
+
+				svg.selectAll(".point")
 					.data(dataFilter)
-					.transition()
-					.duration(1000)
-					.filter(function (d) { return +d.time > 0.1 })
+					.enter().append("circle")
+					.filter(function (d) { return +d.time > 0.01 && +d.value > 0 })
+					//&& +d.cancer == 72
+					.attr("class", "point")
+					.attr("r", 3)
 					.attr("cx", function (d) { return x(+d.time) })
 					.attr("cy", function (d) { return y(+d.value) });
 
@@ -348,9 +369,9 @@
 
 				var newText3;
 				if (d3.select("#myCheckbox").property("checked")) {
-					newText3 = "Cancer " + selectedCancer + " incident rates";
+					newText3 = selectedCancer + " incident rates";
 				} else {
-					newText3 = "Cancer " + selectedCancer + " incidents";
+					newText3 = selectedCancer + " incidents";
 				}
 
 
