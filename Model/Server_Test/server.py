@@ -18,14 +18,14 @@ def apicall():
 
     try:
         test_json = request.get_json()
-        test = pd.read_json(test_json, orient='records')
+        test = pd.read_json(test_json)
 
         # To resolve the issue of TypeError: Cannot compare types 'ndarray(dtype=int64)' and 'str'
         test['Dependents'] = [str(x) for x in list(test['Dependents'])]
 
         #Getting the Loan_IDs separated out
         loan_ids = test['Loan_ID']
-    
+
     except Exception as e:
         raise e
 
