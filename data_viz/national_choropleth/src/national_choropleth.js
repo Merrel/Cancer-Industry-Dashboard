@@ -17,14 +17,13 @@ const svgWidth = 1000
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // CHART 1 Canvas
-// 
 
 // Now draw the SVG canvas and a 'g' element to house our graph
 var svg1 =    d3.select("#choropleth").append("svg")
                 .attr("width", svgWidth)
                 .attr("height", svgHeight)
                 .style("border", "black")
-                .on("click", reset);
+                .on("click", reset)
 
 // Append 'g' element to contain graph and adjust it to fit within the margin
 var mapChart =  svg1.append("g")
@@ -38,7 +37,7 @@ var mapLegend =  svgLegend.append("g")
                     .attr("transform", "translate(" + 0 + "," + margin.top + ")")
                     
 // Configure the paths
-var path = d3.geoPath();
+var path = d3.geoPath()
 
 // Set up zoom levels
 const zoom = d3.zoom()
@@ -47,9 +46,9 @@ const zoom = d3.zoom()
 
 svg1.call(zoom)
 
+
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // CHART 2 Canvas
-// 
 
 // Now draw the SVG canvas and a 'g' element to house our graph
 var svg2 = d3.select("#barsTopCancer").append("svg")
@@ -63,10 +62,8 @@ var barChart = svg2.append("g")
                   .attr("transform", "translate(" + margin.left + "," + margin.top/2 + ")")
 
 
-
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // CHART 3 Canvas
-// 
 
 // Now draw the SVG canvas and a 'g' element to house our graph
 var svg3 = d3.select("#scatter").append("svg")
@@ -80,28 +77,13 @@ var scatterChart = svg3.append("g")
     .attr("transform", "translate(" + 60 + "," + margin.top/2 + ")")
 
 
-
-
-    function parseSubsetValues(entry, subsetKeys, randOffset) {
-    subsets = {}
-    subsetKeys.forEach(d=>{
-        if (randOffset==true) {
-            subsets[d] = +entry[d] + getRndPercentError() * +entry[d]
-        } else {
-            subsets[d] = +entry[d]
-        }
-    })
-    return subsets
-}
-
-
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // DATA PROCESSING FUNCTIONS
 
 function formatCancerData(rawData, randOffset=false) {
 
-    // var cancer_by_type = d3.map();
-    var cancerByType = {};
+    // var cancer_by_type = d3.map()
+    var cancerByType = {}
 
     subsetKeys = ['rate', 'annual_count']
 
@@ -121,8 +103,8 @@ function formatCancerData(rawData, randOffset=false) {
 }
 
 function formatIndustryData(rawData) {
-    // var industryByType = d3.map();
-    var industryByType = {};
+    // var industryByType = d3.map()
+    var industryByType = {}
 
     subsetKeys = ['emp', 'payann', 'estab', 'ACID', 'ENRG', 'ETOX', 'EUTR', 'FOOD', 'GCC', 'HAPS', 'HAZW', 'HC',
     'HNC', 'HRSP', 'HTOX', 'JOBS', 'LAND', 'METL', 'MINE', 'MSW', 'NREN',
@@ -141,6 +123,18 @@ function formatIndustryData(rawData) {
         }
     }
     return industryByType
+}
+
+function parseSubsetValues(entry, subsetKeys, randOffset) {
+    subsets = {}
+    subsetKeys.forEach(d=>{
+        if (randOffset==true) {
+            subsets[d] = +entry[d] + getRndPercentError() * +entry[d]
+        } else {
+            subsets[d] = +entry[d]
+        }
+    })
+    return subsets
 }
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -176,8 +170,6 @@ function predictOnModelOne(industryValues){
             }
 
         })
-
-        // console.log(predictedIndicators)
 
         var cancerOutput = predictOnModelTwo(predictedIndicators)
         return cancerOutput
@@ -215,6 +207,9 @@ function predictOnModelTwo(indicators){
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // HELPER FUNCTIONS
 
+// Array Average function
+const arrAvg = arr => arr.reduce((a,b) => a + b, 0) / arr.length
+
 function getRndPercentError() {
     signRnd = Math.random()
     if (signRnd < 0.5) {
@@ -226,7 +221,7 @@ function getRndPercentError() {
   }
 
 function getKeyByValue(object, value) {
-    return Object.keys(object).find(key => object[key] === value);
+    return Object.keys(object).find(key => object[key] === value)
 }
 
 function ColorMap(scaleFunc, domain, range) {
@@ -242,21 +237,34 @@ function define_colormap(dataID, allData, scaleType, whichVal){
 
     // Rate Value processing if continout scale
     // Get the range of data rate values
-    rateVals = [];
+    dataVals = []
+
     for(var key in thisData) {
-        rateVals.push(thisData[key][whichVal]);
+        dataVals.push(thisData[key][whichVal])
     }
 
-    rate_max = Math.ceil(d3.max(rateVals) / 8) * 8
-    // rate_max = 100
-    rate_step = Math.floor(rate_max / 7)
+    if (scaleType == "DeltaLinear") {
+        var dataAvg = arrAvg(dataVals)
+        dataVals = dataVals.map(d => {
+            if (d==0) {
+                return 0
+            } else {
+                var deltaPercent = 100 * ((d-dataAvg)/dataAvg)
+                return deltaPercent
+            }  
+        })
+    }
+
+    dataMax = Math.ceil(d3.max(dataVals) / 8) * 8
+    // dataMax = 100
+    dataStep = Math.floor(dataMax / 7)
 
     // Color mapping
-    if (scaleType == "continuous-linear"){
+    if (scaleType == "continuous-linear") {
     
         var colorScale = d3.scaleThreshold()
             .range(d3.schemePuRd[9])
-            .domain(d3.range(0, rate_max+rate_step, rate_step));
+            .domain(d3.range(0, dataMax+dataStep, dataStep))
         
         return new ColorMap(colorScale, colorScale.domain(), colorScale.range())
 
@@ -264,7 +272,7 @@ function define_colormap(dataID, allData, scaleType, whichVal){
 
         var logScale = d3.scaleLog()
             .range([0.1, 1])
-            .domain([1,rate_max])
+            .domain([1,dataMax])
     
         var colorScale = d3.scaleQuantize()
             .range([d3.schemePuRd[9][0]].concat(d3.schemePuRd[8]))
@@ -283,9 +291,9 @@ function define_colormap(dataID, allData, scaleType, whichVal){
         logvals.forEach(d=>{domain.push(logScale.invert(d))})
         
         return new ColorMap(scaleFunc, domain, colorScale.range())
-
-    } else if (scaleType == "diverging") {
-        color_diverging = d3.scaleDiverging([-100.0, 0, 100], d3.interpolatePuOr)
+    
+    } else if (scaleType == "DeltaLinear") {
+        color_diverging = d3.scaleDiverging([-101.0, 0, 101], d3.interpolatePuOr)
         // return color_diverging
         var scaleFunc = function(d){
             if (Math.abs(d)==100){
@@ -294,7 +302,18 @@ function define_colormap(dataID, allData, scaleType, whichVal){
             return color_diverging(d)
         }
 
-        return new ColorMap(scaleFunc, [0.1,1], [10,11])
+        domain = [-75, -50, -25, -10, 0, 10, 25, 50, 75]
+        range = domain.map(d=>scaleFunc(d))
+
+        return new ColorMap(scaleFunc, domain, range)
+    } else {
+    
+        var colorScale = d3.scaleThreshold()
+            .range(d3.schemePuRd[9])
+            .domain(d3.range(0, dataMax+dataStep, dataStep))
+        
+        return new ColorMap(colorScale, colorScale.domain(), colorScale.range())
+
     }
 }
 
@@ -319,7 +338,7 @@ function topRatesInFips(dataSet, dataNames, fips, howMany, whichVal="rate"){
         }
     })
 
-    rates_list = rates_list.sort(function(a,b) { return a - b;}).reverse()
+    rates_list = rates_list.sort(function(a,b) { return a - b}).reverse()
 
     top_data_list = []
     top_data_ids = []
@@ -376,7 +395,7 @@ function reset() {
       zoom.transform,
       d3.zoomIdentity,
       d3.zoomTransform(svg1.node()).invert([width / 2, height / 2])
-    );
+    )
 }
 
 function resetStyle() {
@@ -409,8 +428,8 @@ function clicked(d) {
     state_geo = topojson.feature(us_topojson, this_state).features[0]
 
     // Zoom to path bounds
-    const [[x0, y0], [x1, y1]] = path.bounds(state_geo);
-    d3.event.stopPropagation();
+    const [[x0, y0], [x1, y1]] = path.bounds(state_geo)
+    d3.event.stopPropagation()
     svg1.transition().duration(750).call(
       zoom.transform,
       d3.zoomIdentity
@@ -418,7 +437,7 @@ function clicked(d) {
         .scale(Math.min(8, 0.9 / Math.max((x1 - x0) / width, (y1 - y0) / height)))
         .translate(-(x0 + x1) / 2, -(y0 + y1) / 2),
       d3.mouse(svg1.node())
-    );
+    )
 
     // Log top rates
 
@@ -434,9 +453,9 @@ function clicked(d) {
 }
 
 function zoomed() {
-    const {transform} = d3.event;
-    mapChart.attr("transform", transform);
-    mapChart.attr("stroke-width", 1 / transform.k);
+    const {transform} = d3.event
+    mapChart.attr("transform", transform)
+    mapChart.attr("stroke-width", 1 / transform.k)
 }
 
 function getFormValues(elementID){
@@ -444,20 +463,20 @@ function getFormValues(elementID){
     if (elementID == "dataSetOption") {
         // Pick which data view is selected in radio buttons
         var form = document.getElementById("dataSetOption")
-        var viewType;
+        var viewType
         for(var i=0; i<form.length; i++){
         if(form[i].checked){
-            viewType = form[i].id;}}
+            viewType = form[i].id}}
 
         return viewType
 
     } else if (elementID == "colorScaleOption") {
         // Pick which data view is selected in radio buttons
         var form = document.getElementById("colorScaleOption")
-        var viewType;
+        var viewType
         for(var i=0; i<form.length; i++){
         if(form[i].checked){
-            viewType = form[i].id;}}
+            viewType = form[i].id}}
 
         return viewType
 
@@ -477,7 +496,6 @@ function getFormValues(elementID){
 }
 
 function lookupCountyName(fips) {
-    console.log(fips)
     fips = String(fips)
     if (fips.substr(0,1)=="0"){
         fips = fips.substr(1,5)
@@ -516,7 +534,7 @@ function ready(values) {
     countyFIPSKeys = values[6]
 
     // Load the topojson geographic boundary data 'as-is'
-    us_topojson = values[0];
+    us_topojson = values[0]
 
     // Load and process the cancer data
     // test1 = values[1]
@@ -667,20 +685,20 @@ function updateAll(whichDataSet, isUpdate){
     // whichDataSet can be either "industry" for "cancer"
 
     if (whichDataSet == "cancer") {
-        vizData = cancerData;
-        vizDataNames = cancerNames;
-        initVizDataID = 53;
+        vizData = cancerData
+        vizDataNames = cancerNames
+        initVizDataID = 53
         // barChartVal = "rate"
 
     } else if (whichDataSet == "industry"){
-        vizData = industryData;
-        vizDataNames = industryNames;
-        initVizDataID = 11;
+        vizData = industryData
+        vizDataNames = industryNames
+        initVizDataID = 11
         // barChartVal = "emp"
     }
 
     // Draw the primary selector box
-    dataOptions = [];
+    dataOptions = []
     Object.keys(vizData.ActualRate).forEach( k=> {
         // newKey = parseInt(d.split("$")[1])
         // dataOptions.push(newKey)
@@ -729,7 +747,6 @@ function querySelectedFIPS() {
 // Update Functions
 var updateMap = function(dataSet, isUpdate){
 
-    console.log("UPDATE")
 
     // Determin which values to draw
     // rateType = getFormValues("colorScaleOption")
@@ -737,9 +754,13 @@ var updateMap = function(dataSet, isUpdate){
     dataID = parseInt(getKeyByValue(vizDataNames, getFormValues("dataSelector")))
     // dataID = parseInt(dataOption)
     detailValToPlot = getFormValues("detailSelector")
-    console.log(getFormValues('colorScaleOption'))
 
-    colorScaleType = getFormValues('colorScaleOption')
+    var colorScaleType = getFormValues('colorScaleOption')
+    if (colorScaleType=="DeltaLinear") {
+        var isDelta = true
+    } else {
+        var isDelta = false
+    }
 
     var selectedData = dataSet[rateType]
 
@@ -752,7 +773,7 @@ var updateMap = function(dataSet, isUpdate){
         colormap = define_colormap(dataID, selectedData, scaleType="diverging", whichVal=detailValToPlot)
     }
 
-    drawChoropleth(us_topojson, selectedData, dataID, colormap.scaleFunc, isUpdate, whichVal)
+    drawChoropleth(us_topojson, selectedData, dataID, colormap.scaleFunc, isUpdate, whichVal, isDelta)
 
     drawLegend(colormap)
 }
@@ -821,8 +842,8 @@ function drawLegend(cm) {
         .attr('transform', 'translate(' + width*0.76 + ', ' + 0 + ')')
 
         String.prototype.toProperCase = function () {
-            return this.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();});
-        };
+            return this.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase()})
+        }
 
         dataTitle = getFormValues("dataSetOption").toProperCase()
         dataSubset = getFormValues("detailSelector")
@@ -923,7 +944,7 @@ function drawBars(barData, whichFIPS, isUpdate) {
     xMaxBar = d3.max(barData, function(d) { return d.rate }),
     xMinBar = d3.min(barData, function(d) { return d.rate }),
     xScaleBar = d3.scaleLinear()
-            .domain([0, 250])              // domain of inputs;
+            .domain([0, 250])              // domain of inputs
             .range([0, width])  // range of output draw coords in px
 
     y1 = d3.scaleBand()
@@ -979,15 +1000,15 @@ function drawBars(barData, whichFIPS, isUpdate) {
             .attr('height', y1.bandwidth() )
             .style('fill', barColor)
             .on("mouseover", function(d) {
-                d3.select(this).style("fill", d3.rgb(barColor).darker(2));
+                d3.select(this).style("fill", d3.rgb(barColor).darker(2))
             })
             .on("mouseout", function(d) {
-                d3.select(this).style("fill", barColor);
+                d3.select(this).style("fill", barColor)
             })
-            .on("click", function(d) {
-                console.log(d)
-                document.getElementById('selectedCancerReadOut').innerHTML = d.data_id
-            })
+            // .on("click", function(d) {
+            //     console.log(d)
+            //     document.getElementById('selectedCancerReadOut').innerHTML = d.data_id
+            // })
 
         barChart.selectAll('circle')
             .data(barData)
@@ -1049,7 +1070,6 @@ function drawBars(barData, whichFIPS, isUpdate) {
             // .style('opacity', 1.0)
 
         barChart.selectAll('rect')
-            // .attr('hello_data', d=>{console.log(barData)})
             .data(barData)
             .transition()
             .duration(transition_time)
@@ -1091,40 +1111,33 @@ function drawScatter(data) {
     scatterChart = d3.select("#scatterPlot")
 
     var x = d3.scaleLog()
-        //.range([margin.left, width - margin.left - margin.right]);
-        .range([0, width/2 - 60]);
+        //.range([margin.left, width - margin.left - margin.right])
+        .range([0, width/2 - 60])
 
     var y = d3.scaleLog()
-        //.range([height - margin.bottom, margin.top]);
-        .range([height/2, 0]);
+        //.range([height - margin.bottom, margin.top])
+        .range([height/2, 0])
 
     var xAxis = d3.axisBottom()
-        .scale(x);
+        .scale(x)
     /* .tickFormat(function (d) {
-        return d3.format(".1f")(d);
-    }); */
+        return d3.format(".1f")(d)
+    }) */
 
     var yAxis = d3.axisLeft()
-        .scale(y);
+        .scale(y)
 
-
-        // console.log(d3.max(data, function (d) { return +d.ACID }));
-
-    var columns = null;
+    var columns = null
 
     data.forEach(function (row) {
-        columns = Object.keys(row).slice(9, 36);
-    });
+        columns = Object.keys(row).slice(9, 36)
+    })
 
-    // console.log(columns);
+    var allGroup = d3.map(data, function (d) { return (d.cancerName) }).keys()
 
-    var allGroup = d3.map(data, function (d) { return (d.cancerName) }).keys();
+    var selectedCancer = "All Cancer Sites"
 
-    // console.log(allGroup);
-
-    var selectedCancer = "All Cancer Sites";
-
-    var selectedOption = "ACID";
+    var selectedOption = "ACID"
 
     /* var allGroup = ["valueA", "valueB", "valueC"] */
 
@@ -1134,9 +1147,9 @@ function drawScatter(data) {
         .data(allGroup)
         .enter()
         .append('option')
-        .text(function (d) { return d; }) // text showed in the menu
-        .attr("value", function (d) { return d; }) // corresponding value returned by the button 
-        .property("selected", function (d) { return d === "All Cancer Sites"; });
+        .text(function (d) { return d }) // text showed in the menu
+        .attr("value", function (d) { return d }) // corresponding value returned by the button 
+        .property("selected", function (d) { return d === "All Cancer Sites" })
 
     // add the options to the button
     d3.select("#selectButton2")
@@ -1144,12 +1157,12 @@ function drawScatter(data) {
         .data(columns)
         .enter()
         .append('option')
-        .text(function (d) { return d; }) // text showed in the menu
-        .attr("value", function (d) { return d; })
-        .property("selected", function (d) { return d === "ACID"; });
+        .text(function (d) { return d }) // text showed in the menu
+        .attr("value", function (d) { return d })
+        .property("selected", function (d) { return d === "ACID" })
     // corresponding value returned by the button
 
-    //document.getElementById("selectButton").align = "center";
+    //document.getElementById("selectButton").align = "center"
 
     var subData = data.filter(function (d) {
         return d.cancerName == selectedCancer
@@ -1158,17 +1171,17 @@ function drawScatter(data) {
 
     y.domain([1.0, d3.max(subData, function (d) { return +d.count })]).clamp()
     x.domain([0.01, d3.max(subData, function (d) { return +d.ACID })])
-    //x.domain(d3.extent(data, function(d){ return d.ACID}));
+    //x.domain(d3.extent(data, function(d){ return d.ACID}))
 
     // see below for an explanation of the calcLinear function
-    //var lg = calcLinear(data, "x", "y", d3.min(data, function(d){ return d.ACID}), d3.min(data, function(d){ return d.ACID}));
+    //var lg = calcLinear(data, "x", "y", d3.min(data, function(d){ return d.ACID}), d3.min(data, function(d){ return d.ACID}))
 
     /* svg.append("line")
         .attr("class", "regression")
         .attr("x1", x(lg.ptA.x))
         .attr("y1", y(lg.ptA.y))
         .attr("x2", x(lg.ptB.x))
-        .attr("y2", y(lg.ptB.y)); */
+        .attr("y2", y(lg.ptB.y)) */
 
     scatterChart.append("g")
         .attr("class", "x axis")
@@ -1177,7 +1190,7 @@ function drawScatter(data) {
 
     scatterChart.append("g")
         .attr("class", "y axis")
-        .call(yAxis);
+        .call(yAxis)
 
     scatterChart.selectAll(".point")
         .data(subData)
@@ -1186,8 +1199,8 @@ function drawScatter(data) {
         //&& +d.cancer == 72
         .attr("class", "point")
         .attr("r", 2)
-        .attr("cy", function (d) { return y(+d.count); })
-        .attr("cx", function (d) { return x(+d.ACID); })
+        .attr("cy", function (d) { return y(+d.count) })
+        .attr("cx", function (d) { return x(+d.ACID) })
         .style('fill', 'rgb(57, 21, 158)')
 
     // text label for the y axis
@@ -1198,7 +1211,7 @@ function drawScatter(data) {
         // .attr("dy", "1em")
         .style('font-size', '16px')
         .style("text-anchor", "end")
-        .text("All Cancer Sites - Annual Count");
+        .text("All Cancer Sites - Annual Count")
 
 
     // text label for the x axis
@@ -1206,13 +1219,11 @@ function drawScatter(data) {
         .attr("transform", "translate(" + 220 + " ," + (height/2 + 35) + ")")
         .style('font-size', '16px')
         .style("text-anchor", "middle")
-        .text("ACID levels");
+        .text("ACID levels")
 
 
 
     function update(selectedCancer) {
-
-        console.log(selectedOption);
 
         subData = data.filter(function (d) {
             return d.cancerName == selectedCancer
@@ -1221,9 +1232,9 @@ function drawScatter(data) {
         // Create new data with the selection?
         //var dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.count } })
         if (d3.select("#myCheckbox").property("checked")) {
-            dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.rate } });
+            dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.rate } })
         } else {
-            dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.count } });
+            dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.count } })
         }
 
         y.domain([1.0, d3.max(dataFilter, function (d) { return +d.value })]).clamp()
@@ -1245,14 +1256,14 @@ function drawScatter(data) {
             .style('fill', 'rgb(57, 21, 158)')
 
         scatterChart.selectAll("g.y.axis")
-            .call(yAxis);
+            .call(yAxis)
 
-        //var newText = "Cancer " + selectedCancer + " incidents";
-        var newText;
+        //var newText = "Cancer " + selectedCancer + " incidents"
+        var newText
         if (d3.select("#myCheckbox").property("checked")) {
-            newText = selectedCancer + " - per 100k individuals";
+            newText = selectedCancer + " - per 100k individuals"
         } else {
-            newText = selectedCancer + " - Annual Count";
+            newText = selectedCancer + " - Annual Count"
         }
 
         myText
@@ -1261,7 +1272,7 @@ function drawScatter(data) {
             .style("opacity", 0)
             .transition().duration(500)
             .style("opacity", 1)
-            .text(newText); //			(function (d) { return d.tag })
+            .text(newText) //			(function (d) { return d.tag })
     }
 
 
@@ -1270,9 +1281,9 @@ function drawScatter(data) {
         // Create new data with the selection?
         //var dataFilter = subData.map(function (d) { return { time: d[selectedGroup], value: d.count } })
         if (d3.select("#myCheckbox").property("checked")) {
-            dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.rate } });
+            dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.rate } })
         } else {
-            dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.count } });
+            dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.count } })
         }
 
         x.domain([0.01, d3.max(dataFilter, function (d) { return +d.time })])
@@ -1293,9 +1304,9 @@ function drawScatter(data) {
             .style('fill', 'rgb(57, 21, 158)')
 
         scatterChart.selectAll("g.x.axis")
-            .call(xAxis);
+            .call(xAxis)
 
-        var newText2 = selectedGroup + " levels";
+        var newText2 = selectedGroup + " levels"
 
         myText2
             .transition()
@@ -1303,7 +1314,7 @@ function drawScatter(data) {
             .style("opacity", 0)
             .transition().duration(500)
             .style("opacity", 1)
-            .text(newText2); //			(function (d) { return d.tag })
+            .text(newText2) //			(function (d) { return d.tag })
 
 
     }
@@ -1329,14 +1340,12 @@ function drawScatter(data) {
 
 
     d3.select("#myCheckbox").on("change", function () {
-        var dataFilter;
+        var dataFilter
         if (d3.select("#myCheckbox").property("checked")) {
-            dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.rate } });
+            dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.rate } })
         } else {
-            dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.count } });
+            dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.count } })
         }
-        console.log("entered");
-        console.log(dataFilter);
 
         // y.domain(d3.extent(dataFilter, function (d) { return +d.value }))
         y.domain([1.0, d3.max(dataFilter, function (d) { return +d.value })]).clamp()
@@ -1357,13 +1366,13 @@ function drawScatter(data) {
             .style('fill', 'rgb(57, 21, 158)')
 
         scatterChart.selectAll("g.y.axis")
-            .call(yAxis);
+            .call(yAxis)
 
-        var newText3;
+        var newText3
         if (d3.select("#myCheckbox").property("checked")) {
-            newText3 = selectedCancer + " incident rates";
+            newText3 = selectedCancer + " incident rates"
         } else {
-            newText3 = selectedCancer + " incidents";
+            newText3 = selectedCancer + " incidents"
         }
 
 
@@ -1373,7 +1382,7 @@ function drawScatter(data) {
             .style("opacity", 0)
             .transition().duration(500)
             .style("opacity", 1)
-            .text(newText3); //			(function (d) { return d.tag })
+            .text(newText3) //			(function (d) { return d.tag })
     })
 
 }
@@ -1381,9 +1390,17 @@ function drawScatter(data) {
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // MAP DRAW
 // 
-function drawChoropleth(topoUS, allDataTypes, dataID, colormap, isUpdate, whichVal) {
-
+function drawChoropleth(topoUS, allDataTypes, dataID, colormap, isUpdate, whichVal, isDelta) {
+    
     thisData = allDataTypes[dataID]
+
+    if (isDelta==true) {
+        var dataVals = []
+        for(var key in thisData) {
+            dataVals.push(thisData[key][whichVal])
+        }
+        dataAvg = arrAvg(dataVals)
+    }
 
     if (isUpdate===false){
 
@@ -1410,6 +1427,10 @@ function drawChoropleth(topoUS, allDataTypes, dataID, colormap, isUpdate, whichV
             } else {
                 d.rate = thisSet[whichVal]
             }
+
+            if (isDelta==true) {
+                d.rate = 100*((d.rate - dataAvg)/dataAvg)
+            }
             return colormap(d.rate)
         })
         .style("stroke", "black")
@@ -1417,14 +1438,14 @@ function drawChoropleth(topoUS, allDataTypes, dataID, colormap, isUpdate, whichV
         .style("stroke-opacity", 0)
         .attr("d", path)
         .append("title")
-            .text(function(d) { return d.id; });
+            .text(function(d) { return d.id })
         
         mapChart.append("path")
-            .datum(topojson.mesh(topoUS, topoUS.objects.states, function(a, b) { return a !== b; }))
+            .datum(topojson.mesh(topoUS, topoUS.objects.states, function(a, b) { return a !== b }))
             .attr("class", "states")
             .style("stroke", "#363636")
             .style("stroke-width", 0.75)
-            .attr("d", path);
+            .attr("d", path)
 
 
 
@@ -1440,11 +1461,15 @@ function drawChoropleth(topoUS, allDataTypes, dataID, colormap, isUpdate, whichV
                 } else {
                     d.rate = thisSet[whichVal]
                 }
+
+                if (isDelta==true) {
+                    d.rate = 100*((d.rate - dataAvg)/dataAvg)
+                }
                 return colormap(d.rate)
             })
             .attr("d", path)
             // .append("title")
-            //     .text(function(d) { return d.rate; });
+            //     .text(function(d) { return d.rate })
     }
     
 }

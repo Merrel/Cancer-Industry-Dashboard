@@ -10,6 +10,7 @@ html, body, div, h1, h2, h3, h4, h5, h6, p, code, fieldset, input, main, section
 
 h1 {
     margin: 10;
+    font-size: 40px;
 }
 
 div, h1, h2, h3, h4, h5, h6, p, code, fieldset, input, main, section, header, footer {
@@ -42,7 +43,6 @@ body {
 
 h1, h2, h3, h4, h5, h6 { font-weight: 300; }
 
-h1 { font-size: 40px; }
 
 a, input, button { outline: 0; }
 
