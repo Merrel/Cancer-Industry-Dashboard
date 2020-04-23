@@ -65,53 +65,64 @@
     </header> -->
     <main class="main boxed">
 
-        <h1>Cancer, Industry, and Industrial Indicators in the United States</h1>
+        <!-- <h1>Cancer, Industry, and Industrial Indicators in the United States</h1>
         <div class="flex">
             <div class="col c1">
-                <p>Industrial activity touches nearly every facet of modern, American life. This project aims to identify localities and industries where industrial activty may contribute to elevated risk of various types of cancer</p>
+                
             </div>
-        </div>
+        </div> -->
         
         <h2>Exploring Cancer and Industry Hot-Spots</h2>
+        <p>Industrial activity touches nearly every facet of modern, American life. This project aims to identify localities and industries where industrial activty may contribute to elevated risk of various types of cancer</p>
+
 
         <!-- ------------------------------------------------------------------------------------------------------ -->
         <!-- Map Data Selectors -->
-        <div>
-            <table>
-                <tr>
-                    <th>Data to plot</th>
-                    <th>Data Color Scale</th>
-                    <th>Data Subset Displayed</th>
-                </tr>
-                <tr>
-                    <th align="left">
-                        <form id="dataSetOption">
-                            <input  type='radio' id="cancer" name="mode" checked>
-                            <label for="cancer">Cancer Data</label><br>
-                            <input  type='radio' id="industry" name="mode" >
-                            <label for="industry">Industry Data</label><br>
-                            <input  type='radio' id="industry2" name="mode" >
-                            <label for="industry2">Industry Dimitri</label>
-                        </form>
-                    </th>
-                    <th align="left">
-                        <form id="colorScaleOption">
-                            <input  type='radio' id="continuous-linear" name="mode" checked>
-                            <label for="continuous-linear">Value - Linear Scale</label><br>
-                            <input  type='radio' id="continuous-log" name="mode" >
-                            <label for="continuous-log">Value - Log Scale</label><br>
-                            <input type='radio' id="DeltaLinear" name="mode">
-                            <label for="DeltaLinear">Delta from Avg</label>
-                        </form>
-                    </th>
-                    <th align="left">
+        <div class="flex">
+            <div class="col c1">
+                <table>
+                    <tr>
+                        <th>Data to plot</th>
+                        <th>Data Color Scale</th>
+                        <th>Data Subset Displayed</th>
+                    </tr>
+                    <tr>
+                        <th align="left">
+                            <form id="dataSetOption">
+                                <input  type='radio' id="cancer" name="mode" checked>
+                                <label for="cancer">Cancer Data</label><br>
+                                <input  type='radio' id="industry" name="mode" >
+                                <label for="industry">Industry Data</label><br>
+                                <input  type='radio' id="industry2" name="mode" >
+                                <label for="industry2">Industry Dimitri</label>
+                            </form>
+                        </th>
+                        <th align="left">
+                            <form id="colorScaleOption">
+                                <input  type='radio' id="continuous-linear" name="mode" checked>
+                                <label for="continuous-linear">Value - Linear Scale</label><br>
+                                <input  type='radio' id="continuous-log" name="mode" >
+                                <label for="continuous-log">Value - Log Scale</label><br>
+                                <input type='radio' id="DeltaLinear" name="mode">
+                                <label for="DeltaLinear">Delta from Avg</label>
+                            </form>
+                        </th>
+                        <th align="left">
 
-                        <div id="form1" class="dropDown"></div>
-                        <div id="form2" class="dropDown"></div>
+                            <div id="form1" class="dropDown"></div>
+                            <div id="form2" class="dropDown"></div>
 
-                    </th>
-                </tr>
-            </table>
+                        </th>
+                        <th><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></th>
+                        <th>
+                            <button class="btn" id="resetViewButton">Reset View</button>
+                        </th>
+                    </tr>
+                </table>
+            </div>
+            <div class="col c2">
+                <h3>Data Selectors</h3>
+            </div>
         </div>
 
         <div id='mapLegend'></div>
@@ -168,7 +179,6 @@
                     <tr><th><p> </p></th></tr>
                     <tr>
                         <th>
-                            <button class="btn" id="resetViewButton">Reset View</button>
                             <button class="btn" id="resetSlidersButton">Reset Sliders</button>
                         </th>
                         <!-- <th>
@@ -187,13 +197,38 @@
         <!-- ------------------------------------------------------------------------------------------------------ -->
         <!-- D3 Supporting Charts -->
 
-        <div class="flex">
+        <div class="flex" id="supportingCharts">
+            <div class="col c1">
+                <div>
+                    <h3>Top 5 Cancers by Incidence Rate</h3>
+                    <p>This bar chart displays the actual and predicted values for annual cancer count in the selected county.<br> Actual values are displayed as bars and predicted values are displayed as dots.<br> </p>
+                    <p id="selectedFIPS">FIPS: 21197</p>
+                </div>
+                <!-- <p>Selected County: </p> -->
+                <!-- <p><br>Selected County: </p> -->
+
+            </div>
+            <div class="col c2">
+                <div>
+                    <h3>Annual Cancer Count vs. Industry Parameters</h3>
+                    <p>This scatter plot shows the correlation between various cancer types and a selected industrial indicator.</p>
+                    <input type="checkbox" id="myCheckbox"> Use incidence rates    
+                    <select id="selectButton"></select>
+                    <select id="selectButton2"></select>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="flex" id="supportingCharts">
             <div class="col c1">
                 <div id="barsTopCancer" class="chartbox"></div>
             </div>
             <div class="col c2">
-                <h4>Selected Cancer: <b id="selectedCancerReadOut">Prostate</b></label>
-                <p>Details: lorum ipsum</p>
+                <!-- <h4>Selected Cancer: <b id="selectedCancerReadOut">Prostate</b></label>
+                <p>Details: lorum ipsum</p> -->
+
+                <div id="scatter" class="chart"></div>
             </div>
         </div>
         
@@ -206,15 +241,8 @@
         <!-- ------------------------------------------------------------------------------------------------------ -->
         <!-- National Scale Data -->
         <hr>
-        <h2>Cancer Patterns at the National Level</h2>
+        <h2>Data Sources</h2>    
 
-        <input type="checkbox" id="myCheckbox"> Use incidence rates
-        <select id="selectButton"></select>
-        <div id="scatter" class="chart"></div>
-        <!-- <input type="checkbox" id="myCheckbox2"> Use linear scale  -->
-        <select id="selectButton2"></select>
-        <div class="equation"></div>
-        <div class="equation"></div>
 
         <!-- Call the D3 Script to build the plots -->
         <script type="text/javascript" src="./src/national_choropleth.js" charset="utf-8"></script>
@@ -222,24 +250,5 @@
 
     </main>
 
-    <!-- Call the sliders script -->
-    <!-- <script>
-        sliderList = ["IndustryA", "IndustryB", "IndustryC", "IndustryD", "IndustryE"]
-        sliderList.forEach(sliderName => {
-
-            rangejs( document.getElementById( sliderName ), {
-                css:true,
-                buttons:true,
-                change: function( event, ui ){
-                    console.log(sliderName)
-                    sliderValue = document.getElementById(sliderName).value
-                    console.log(sliderValue)
-                }
-            } );
-            
-        });
-    </script> -->
-    <!-- <script> -->
-    <!-- </script> -->
 </body>
 </html>
