@@ -12,7 +12,7 @@ const svgWidth = 1000
     , width = svgWidth - margin.left - margin.right
     , height = svgHeight - margin.top - margin.bottom
     , symbolSize = 40
-    , transition_time = 350
+    , transition_time = 550
     , circle_rad = 4
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -53,12 +53,12 @@ svg1.call(zoom)
 // Now draw the SVG canvas and a 'g' element to house our graph
 var svg2 = d3.select("#barsTopCancer").append("svg")
     .attr("width", svgWidth)
-    .attr("height", svgHeight/2)
+    .attr("height", svgHeight/2 + 60)
     // .attr("transform", "translate(0," + margin.top*2 + ")")
 
 // Append 'g' element to contain graph and adjust it to fit within the margin
 var barChart = svg2.append("g")
-                  .attr("id", "dynaBars")
+                  .attr("id", "barsCancerCount")
                   .attr("transform", "translate(" + margin.left + "," + margin.top/2 + ")")
 
 
@@ -317,7 +317,7 @@ function define_colormap(dataID, allData, scaleType, whichVal){
     }
 }
 
-function topRatesInFips(dataSet, dataNames, fips, howMany, whichVal="rate"){
+function topRatesInFips(dataSet, dataNames, fips, howMany, whichVal){
 
     rates_dict = {}
     rates_list = []
@@ -345,6 +345,7 @@ function topRatesInFips(dataSet, dataNames, fips, howMany, whichVal="rate"){
     naCount = 1
     for (var i=0; i<howMany; i++) {
         id = parseInt(getKeyByValue(rates_dict, rates_list[i]))
+        delete rates_dict[id]
 
         // console.log(rates_list)
         // console.log(rates_dict)
@@ -353,10 +354,8 @@ function topRatesInFips(dataSet, dataNames, fips, howMany, whichVal="rate"){
 
         if (dataSet.ActualRate[id].hasOwnProperty(fips)) {
             rateInFips = dataSet.ActualRate[id][fips][whichVal]
-            // predictedRateInFips = dataSet.PredictedActualRate[id][fips][whichVal]
         } else {
             rateInFips = 0
-            // predictedRateInFips = 0
         }
         
         var top
@@ -367,7 +366,7 @@ function topRatesInFips(dataSet, dataNames, fips, howMany, whichVal="rate"){
             )
         } else if (rateInFips==0) {
             top_data_list.push(
-                {'data_id': 'NA-' + naCount, [whichVal]: 0.0, 'rank': i}
+                {'data_id': 'NA-' + naCount, [whichVal]: 1, 'rank': i}
             )
             naCount++
 
@@ -442,7 +441,7 @@ function clicked(d) {
     // Log top rates
 
     // var detailToPlot = getFormValues("detailSelector")
-    var barData = topRatesInFips(cancerData, cancerNames, countyFIPS, howMany=5)
+    var barData = topRatesInFips(cancerData, cancerNames, countyFIPS, howMany=5, 'annual_count')
     barData = updatePredictedBarData(barData)
     drawBars(barData, countyFIPS, isUpdate=true)
 
@@ -540,8 +539,8 @@ function ready(values) {
     // test1 = values[1]
     cancerData = {
         'ActualRate': formatCancerData(values[1], randOffset=false),
-        'DeltaRate': formatCancerData(values[1], randOffset=false),
-        'PredictedActualRate': formatCancerData(values[1], randOffset=true)
+        // 'DeltaRate': formatCancerData(values[1], randOffset=false),
+        // 'PredictedActualRate': formatCancerData(values[1], randOffset=true)
     }
 
     cancerNames = {}
@@ -561,12 +560,9 @@ function ready(values) {
     })
 
 
-    drawScatter(values[5])
-
     // Determine which data to plot
     updateAll(getFormValues('dataSetOption'), isUpdate=false)
     reset()
-
 
     // Updates for selector
     d3.select('#dataSelector')
@@ -607,6 +603,7 @@ function ready(values) {
     startUpFIPS = 21197
     sliderData = topRatesInFips(industryData, industryNames, String(startUpFIPS), 5, "payann")
     drawSliders(sliderData, isUpdate=false)
+    drawScatter(values[5])
 }
  
 function drawSliders(sliderData, isUpdate=true) {
@@ -628,7 +625,7 @@ function drawSliders(sliderData, isUpdate=true) {
                 stop: function( event, ui ){
 
                     whichFIPS = querySelectedFIPS()
-                    barData = topRatesInFips(cancerData, cancerNames, whichFIPS, howMany=5)
+                    barData = topRatesInFips(cancerData, cancerNames, whichFIPS, howMany=5,'annual_count')
                     barData = updatePredictedBarData(barData)
                     drawBars(barData, whichFIPS, isUpdate=true)
                 }
@@ -665,7 +662,7 @@ function resetSliders() {
 
     // TODO: call predict function with all correct values
     whichFIPS = querySelectedFIPS()
-    barData = topRatesInFips(cancerData, cancerNames, whichFIPS, howMany=5)
+    barData = topRatesInFips(cancerData, cancerNames, whichFIPS, howMany=5,'annual_count')
     barData = updatePredictedBarData(barData)
     drawBars(barData, whichFIPS, isUpdate=true)
 }
@@ -717,7 +714,7 @@ function updateAll(whichDataSet, isUpdate){
 
     // Draw the bar graph
     var startUpFIPS = 21197
-    barData = topRatesInFips(cancerData, cancerNames, startUpFIPS, howMany=5)
+    barData = topRatesInFips(cancerData, cancerNames, startUpFIPS, howMany=5,'annual_count')
     barData = updatePredictedBarData(barData)
     drawBars(barData, startUpFIPS, isUpdate)
 }
@@ -728,7 +725,7 @@ function updatePredictedBarData(barData) {
     sliderKeys = Object.keys(slidersNow)
 
     for (var i=0; i<sliderKeys.length; i++){
-        barData[i]['ratePredicted'] = parseFloat(slidersNow[sliderKeys[i]])
+        barData[i]['annualCountPredicted'] = parseFloat(slidersNow[sliderKeys[i]])
     }
     return barData
 }
@@ -742,7 +739,6 @@ function querySelectedFIPS() {
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // DRAWING FUNCTIONS
-// 
 
 // Update Functions
 var updateMap = function(dataSet, isUpdate){
@@ -902,7 +898,6 @@ function drawLegend(cm) {
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 // DATA SELECTOR - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-// 
 function drawSelectorBox(dataOptions, selectorDivID, newSelectorID, isUpdate) {
 
     if (isUpdate==false) {
@@ -933,18 +928,17 @@ function drawSelectorBox(dataOptions, selectorDivID, newSelectorID, isUpdate) {
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 // BAR CHART - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-// 
 function drawBars(barData, whichFIPS, isUpdate) {
 
-    barChart = d3.select("#dynaBars")
+    barChart = d3.select("#barsCancerCount")
 
     // SCALES - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     //
     // Set up a dynamic scale for the x-axis
-    xMaxBar = d3.max(barData, function(d) { return d.rate }),
-    xMinBar = d3.min(barData, function(d) { return d.rate }),
-    xScaleBar = d3.scaleLinear()
-            .domain([0, 250])              // domain of inputs
+    xMaxBar = d3.max(barData, function(d) { return d.annual_count }),
+    xMinBar = d3.min(barData, function(d) { return d.annual_count }),
+    xScaleBar = d3.scaleLog()
+            .domain([1, 10000])              // domain of inputs
             .range([0, width])  // range of output draw coords in px
 
     y1 = d3.scaleBand()
@@ -967,27 +961,31 @@ function drawBars(barData, whichFIPS, isUpdate) {
 
     barColor = 'rgb(150, 163, 168)'
 
-
     countyName = lookupCountyName(selectedFIPS)
     newCountyText = "FIPS: " + selectedFIPS + " - " + countyName
     document.getElementById('selectedFIPS').innerHTML = newCountyText
 
 
-
-    
     if (isUpdate==false) {
 
-        
-        // title
-        // barChart.append('g')
-        //     .attr('class', 'annotation')
-        //     .attr('id', 'selectedFIPS')
-        //     .attr('transform', 'translate(' + width-10 + ', ' + 0 + ')')
-        //     .append("text")
-        //     .attr("text-anchor", "start") 
-        //     .attr("dominant-baseline", "middle") 
-        //     .text(whichFIPS)
+        // text label for the x axis
+        barChart.append("text")
+            .attr("transform", "translate(" + width/2 + " ," + (height/2 + 45) + ")")
+            .style('font-size', '16px')
+            .style("text-anchor", "middle")
+            .text("Cancer Incidence Rate - per 100k Individuals")
 
+        // Draw the legend
+        // var barLegend = barChart.append('g')
+        //     .attr('transform', "translate(" + (width-10) + " ," + 0 + ")")
+
+        // barLegend.append('rect')
+        //     .attr('x', 0)
+        //     .attr('y', 0)
+        //     .attr('width', 10)
+        //     .attr('height', y1.bandwidth())
+        //     .style('fill', 'black')
+            
         // Enter the bars d3 object to run the drawing loop for each item in the dataset
         barChart.selectAll('rect')
             .data(barData)
@@ -996,7 +994,7 @@ function drawBars(barData, whichFIPS, isUpdate) {
             .attr('class', 'bar')
             .attr('x', 0)
             .attr('y', d => y1(d.data_id) )
-            .attr('width', d => xScaleBar(d.rate) )
+            .attr('width', d => xScaleBar(d.annual_count) )
             .attr('height', y1.bandwidth() )
             .style('fill', barColor)
             .on("mouseover", function(d) {
@@ -1015,7 +1013,7 @@ function drawBars(barData, whichFIPS, isUpdate) {
         .enter()
             .append('circle')
             .attr('class', 'predPoint')
-            .attr('cx', d => xScaleBar(d.ratePredicted))
+            .attr('cx', d => xScaleBar(d.annualCountPredicted))
             .attr('cy', d => y1(d.data_id)+y1.bandwidth()/2 )
             .attr('r', 5)
             .style('fill', 'black')
@@ -1031,10 +1029,10 @@ function drawBars(barData, whichFIPS, isUpdate) {
             .data(barData)
         .enter()
             .append('text')
-            .attr('x', d => xScaleBar(d.rate)/2)
+            .attr('x', d => xScaleBar(d.annual_count)/2)
             .attr('y', d => y1(d.data_id) )
             .text( d=> {d.data_id})
-            // .attr('width', d => xScaleBar(d.rate) )
+            // .attr('width', d => xScaleBar(d.annual_count) )
             // .attr('height', y1.bandwidth() )
         barChart.append('g')
         .attr('class', 'y axis')
@@ -1048,23 +1046,16 @@ function drawBars(barData, whichFIPS, isUpdate) {
 
     } else {
 
-        // barChart.select('#selectedFIPS')
-        //     .selectAll('text').remove()
-
-        // barChart.select('#selectedFIPS')
-        //     .append("text")
-        //     .attr("text-anchor", "start") 
-        //     .attr("dominant-baseline", "middle") 
-        //     .text(whichFIPS)
-
         barChart.select('.x.axis')
             .transition()
+            .ease(d3.easeExpOut)
             .duration(transition_time)
             .call(xAxis)
             // .style('opacity', 1.0)
 
         barChart.select('.y.axis')
             .transition()
+            .ease(d3.easeExpOut)
             .duration(transition_time)
             .call(yAxis)
             // .style('opacity', 1.0)
@@ -1072,21 +1063,23 @@ function drawBars(barData, whichFIPS, isUpdate) {
         barChart.selectAll('rect')
             .data(barData)
             .transition()
+            .ease(d3.easeExpOut)
             .duration(transition_time)
             // .ease(d3.easeElasticOut)
             .attr('class', 'bar')
             .attr('x', 0)
             .attr('y', d => y1(d.data_id) )
-            .attr('width', d => xScaleBar(d.rate) )
+            .attr('width', d => xScaleBar(d.annual_count) )
             .attr('height', y1.bandwidth() )
 
         barChart.selectAll('circle')
             .data(barData)
             .transition()
+            .ease(d3.easeExpOut)
             .duration(transition_time)
             // .append('circle')
             .attr('class', 'predPoint')
-            .attr('cx', d => xScaleBar(d.ratePredicted))
+            .attr('cx', d => xScaleBar(d.annualCountPredicted))
             .attr('cy', d => y1(d.data_id)+y1.bandwidth()/2 )
             .attr('r', 5)
             .style('fill', 'black')
@@ -1095,17 +1088,16 @@ function drawBars(barData, whichFIPS, isUpdate) {
         barChart.select('#barNames')
             .data(barData)
             .transition()
+            // .ease(d3.easeElasticOut)
         // .enter()
-            .attr('x', d => xScaleBar(d.rate)/2)
+            .attr('x', d => xScaleBar(d.annual_count)/2)
             .attr('y', d => y1(d.data_id) )
             .text( d=> {d.data_id})
-
     }
 }
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 // SCATTER PLOT  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
-// 
 function drawScatter(data) {
 
     scatterChart = d3.select("#scatterPlot")
@@ -1138,6 +1130,38 @@ function drawScatter(data) {
     var selectedCancer = "All Cancer Sites"
 
     var selectedOption = "ACID"
+
+    var subsetUnitsKey = {
+        'rate': 'per 100k individuals',
+        'emp': 'Total Employees',
+        'payann': 'Total Payroll [$]',
+        'estab': 'Total Establishments',
+
+        'ACID': 'Acid Rain [kg SO2 eq]',
+        'ENRG': 'Energy [MJ]',
+        'ETOX': 'Freshwater Aquatic Ecotoxicity [CTUe]',
+        'EUTR': 'Eutrophication [kg N eq]',
+        'FOOD': 'Food Waste [kg]',
+        'GCC':  'Global Climate Change [kg CO2 eq]',
+        'HAPS': 'Hazardous Air Pollutants [kg]',
+        'HAZW': 'Hazardous Waste [kg]',
+        'HC': 'Human Health Cancer [CTUh]',
+        'HNC': 'Human Health Non-Cancer [CTUh]',
+        'HRSP': 'Human Health - Respiratory Effects [kg PM2.5 eq]',
+        'HTOX': 'Human Health Cancer and Noncancer [CTUh]',
+        'JOBS': 'Total Jobs',
+        'LAND': 'Land Use [m2*yr]',
+        'METL': 'Metals Released [kg]',
+        'MINE': 'Minerals and Metals [kg]',
+        'MSW': 'Muncipal Solid Waste [kg]',
+        'NREN': 'Nonrenewable Energy [MJ]',
+        'OZON': 'Ozone Depletion [kg O3 eq]',
+        'PEST': 'Pesticides [kg]',
+        'REN': 'Renewable Energy [MJ]',
+        'SMOG': 'Smog Formation [kg O3 eq]',
+        'VADD': 'Value Added [$]',
+        'WATR': 'Water Use [m3]'
+    }
 
     /* var allGroup = ["valueA", "valueB", "valueC"] */
 
@@ -1211,15 +1235,15 @@ function drawScatter(data) {
         // .attr("dy", "1em")
         .style('font-size', '16px')
         .style("text-anchor", "end")
-        .text("All Cancer Sites - Annual Count")
+        .text(selectedCancer + " - Annual Count")
 
 
     // text label for the x axis
     var myText2 = scatterChart.append("text")
-        .attr("transform", "translate(" + 220 + " ," + (height/2 + 35) + ")")
+        .attr("transform", "translate(" + 200 + " ," + (height/2 + 35) + ")")
         .style('font-size', '16px')
         .style("text-anchor", "middle")
-        .text("ACID levels")
+        .text(subsetUnitsKey[selectedOption])
 
 
 
@@ -1268,9 +1292,9 @@ function drawScatter(data) {
 
         myText
             .transition()
-            .duration(1000)
+            .duration(transition_time)
             .style("opacity", 0)
-            .transition().duration(500)
+            .transition().duration(transition_time)
             .style("opacity", 1)
             .text(newText) //			(function (d) { return d.tag })
     }
@@ -1310,13 +1334,11 @@ function drawScatter(data) {
 
         myText2
             .transition()
-            .duration(1000)
+            .duration(transition_time)
             .style("opacity", 0)
-            .transition().duration(500)
+            .transition().duration(transition_time)
             .style("opacity", 1)
-            .text(newText2) //			(function (d) { return d.tag })
-
-
+            .text(subsetUnitsKey[selectedOption]) //			(function (d) { return d.tag })
     }
 
     // When the button is changed, run the updateChart function
@@ -1327,9 +1349,6 @@ function drawScatter(data) {
         update(selectedCancer)
     })
 
-
-
-
     // When the button is changed, run the updateChart function
     d3.select("#selectButton2").on("change", function (d) {
         // recover the option that has been chosen
@@ -1337,7 +1356,6 @@ function drawScatter(data) {
         // run the updateChart function with this selected option
         update2(selectedOption)
     })
-
 
     d3.select("#myCheckbox").on("change", function () {
         var dataFilter
@@ -1375,12 +1393,11 @@ function drawScatter(data) {
             newText3 = selectedCancer + " incidents"
         }
 
-
         myText
             .transition()
-            .duration(1000)
+            .duration(transition_time)
             .style("opacity", 0)
-            .transition().duration(500)
+            .transition().duration(transition_time)
             .style("opacity", 1)
             .text(newText3) //			(function (d) { return d.tag })
     })
@@ -1389,7 +1406,6 @@ function drawScatter(data) {
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // MAP DRAW
-// 
 function drawChoropleth(topoUS, allDataTypes, dataID, colormap, isUpdate, whichVal, isDelta) {
     
     thisData = allDataTypes[dataID]
