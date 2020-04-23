@@ -5,8 +5,8 @@ Brain & ONS,076
 Breast (Female),055
 Breast (in situ) (Female),400
 Cervix (Female),057
-"Childhood (Ages <15, All Sites)",516
-"Childhood (Ages <20, All Sites)",515
+"Childhood (Age <15)",516
+"Childhood (Age <20)",515
 Colon & Rectum,020
 Esophagus,017
 Kidney & Renal Pelvis,072
@@ -21,4 +21,4 @@ Pancreas,040
 Prostate (Male),066
 Stomach,018
 Thyroid,080
-"Uterus (Corpus & Uterus, NOS) (Female)",058
+"Uterus (Female)",058

@@ -60,7 +60,7 @@ var svg2 = d3.select("#barsTopCancer").append("svg")
 // Append 'g' element to contain graph and adjust it to fit within the margin
 var barChart = svg2.append("g")
                   .attr("id", "dynaBars")
-                  .attr("transform", "translate(" + 1.5*margin.left + "," + margin.top + ")")
+                  .attr("transform", "translate(" + margin.left + "," + margin.top/2 + ")")
 
 
 
@@ -70,14 +70,14 @@ var barChart = svg2.append("g")
 
 // Now draw the SVG canvas and a 'g' element to house our graph
 var svg3 = d3.select("#scatter").append("svg")
-    .attr("width", svgWidth)
-    .attr("height", svgHeight)
+    .attr("width", svgWidth/2)
+    .attr("height", svgHeight/2 + margin.bottom)
 // .attr("transform", "translate(0," + margin.top*2 + ")")
 
 // Append 'g' element to contain graph and adjust it to fit within the margin
 var scatterChart = svg3.append("g")
     .attr("id", "scatterPlot")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+    .attr("transform", "translate(" + 60 + "," + margin.top/2 + ")")
 
 
 
@@ -103,7 +103,7 @@ function formatCancerData(rawData, randOffset=false) {
     // var cancer_by_type = d3.map();
     var cancerByType = {};
 
-    subsetKeys = ['rate']
+    subsetKeys = ['rate', 'annual_count']
 
     for (var i = 1; i<rawData.length; i++){
 
@@ -501,6 +501,7 @@ function ready(values) {
     us_topojson = values[0];
 
     // Load and process the cancer data
+    // test1 = values[1]
     cancerData = {
         'ActualRate': formatCancerData(values[1], randOffset=false),
         'DeltaRate': formatCancerData(values[1], randOffset=false),
@@ -522,6 +523,8 @@ function ready(values) {
     values[4].forEach(function(item){
         industryNames[+item.relevant_naics] = item.industry_detail
     })
+
+    test5 = values[5]
 
     drawScatter(values[5])
 
@@ -676,8 +679,8 @@ function updatePredictedBarData(barData) {
 
 function querySelectedFIPS() {
     var htmlstr = document.getElementById('selectedFIPS').innerHTML
-    var re = new RegExp('>(.*)<')
-    var selectedFIPS = re.exec(htmlstr)[1]
+    var re = /FIPS: (.*)/
+    var selectedFIPS = htmlstr.match(re)[1]
     return selectedFIPS
 }
 
@@ -909,15 +912,16 @@ function drawBars(barData, whichFIPS, isUpdate) {
     
     if (isUpdate==false) {
 
+        document.getElementById('selectedFIPS').innerHTML = "FIPS: " + selectedFIPS
         // title
-        barChart.append('g')
-            .attr('class', 'annotation')
-            .attr('id', 'selectedFIPS')
-            .attr('transform', 'translate(' + width-10 + ', ' + 0 + ')')
-            .append("text")
-            .attr("text-anchor", "start") 
-            .attr("dominant-baseline", "middle") 
-            .text(whichFIPS)
+        // barChart.append('g')
+        //     .attr('class', 'annotation')
+        //     .attr('id', 'selectedFIPS')
+        //     .attr('transform', 'translate(' + width-10 + ', ' + 0 + ')')
+        //     .append("text")
+        //     .attr("text-anchor", "start") 
+        //     .attr("dominant-baseline", "middle") 
+        //     .text(whichFIPS)
 
         // Enter the bars d3 object to run the drawing loop for each item in the dataset
         barChart.selectAll('rect')
@@ -979,14 +983,15 @@ function drawBars(barData, whichFIPS, isUpdate) {
 
     } else {
 
-        barChart.select('#selectedFIPS')
-            .selectAll('text').remove()
+        // barChart.select('#selectedFIPS')
+        //     .selectAll('text').remove()
 
-        barChart.select('#selectedFIPS')
-            .append("text")
-            .attr("text-anchor", "start") 
-            .attr("dominant-baseline", "middle") 
-            .text(whichFIPS)
+        // barChart.select('#selectedFIPS')
+        //     .append("text")
+        //     .attr("text-anchor", "start") 
+        //     .attr("dominant-baseline", "middle") 
+        //     .text(whichFIPS)
+        document.getElementById('selectedFIPS').innerHTML = "FIPS: " + selectedFIPS
 
         barChart.select('.x.axis')
             .transition()
@@ -1044,11 +1049,11 @@ function drawScatter(data) {
 
     var x = d3.scaleLog()
         //.range([margin.left, width - margin.left - margin.right]);
-        .range([0, width - margin.right]);
+        .range([0, width/2 - 60]);
 
-    var y = d3.scaleLinear()
+    var y = d3.scaleLog()
         //.range([height - margin.bottom, margin.top]);
-        .range([height, 0]);
+        .range([height/2, 0]);
 
     var xAxis = d3.axisBottom()
         .scale(x);
@@ -1060,307 +1065,273 @@ function drawScatter(data) {
         .scale(y);
 
 
-        console.log(d3.max(data, function (d) { return +d.ACID }));
+        // console.log(d3.max(data, function (d) { return +d.ACID }));
 
-        var columns = null;
+    var columns = null;
 
-        data.forEach(function (row) {
-            columns = Object.keys(row).slice(9, 36);
-        });
+    data.forEach(function (row) {
+        columns = Object.keys(row).slice(9, 36);
+    });
 
-        console.log(columns);
+    // console.log(columns);
 
-        var allGroup = d3.map(data, function (d) { return (d.cancerName) }).keys();
+    var allGroup = d3.map(data, function (d) { return (d.cancerName) }).keys();
 
-        console.log(allGroup);
+    // console.log(allGroup);
 
-        var selectedCancer = "All Cancer Sites";
+    var selectedCancer = "All Cancer Sites";
 
-        var selectedOption = "ACID";
+    var selectedOption = "ACID";
 
-        /* var allGroup = ["valueA", "valueB", "valueC"] */
+    /* var allGroup = ["valueA", "valueB", "valueC"] */
 
-        // add the options to the button
-        d3.select("#selectButton")
-            .selectAll('myOptions')
-            .data(allGroup)
-            .enter()
-            .append('option')
-            .text(function (d) { return d; }) // text showed in the menu
-            .attr("value", function (d) { return d; }) // corresponding value returned by the button 
-            .property("selected", function (d) { return d === "All Cancer Sites"; });
+    // add the options to the button
+    d3.select("#selectButton")
+        .selectAll('myOptions')
+        .data(allGroup)
+        .enter()
+        .append('option')
+        .text(function (d) { return d; }) // text showed in the menu
+        .attr("value", function (d) { return d; }) // corresponding value returned by the button 
+        .property("selected", function (d) { return d === "All Cancer Sites"; });
 
-        // add the options to the button
-        d3.select("#selectButton2")
-            .selectAll('myOptions')
-            .data(columns)
-            .enter()
-            .append('option')
-            .text(function (d) { return d; }) // text showed in the menu
-            .attr("value", function (d) { return d; })
-            .property("selected", function (d) { return d === "ACID"; });
-        // corresponding value returned by the button
+    // add the options to the button
+    d3.select("#selectButton2")
+        .selectAll('myOptions')
+        .data(columns)
+        .enter()
+        .append('option')
+        .text(function (d) { return d; }) // text showed in the menu
+        .attr("value", function (d) { return d; })
+        .property("selected", function (d) { return d === "ACID"; });
+    // corresponding value returned by the button
 
-        //document.getElementById("selectButton").align = "center";
+    //document.getElementById("selectButton").align = "center";
 
-        var subData = data.filter(function (d) {
+    var subData = data.filter(function (d) {
+        return d.cancerName == selectedCancer
+    })
+
+
+    y.domain([1.0, d3.max(subData, function (d) { return +d.count })]).clamp()
+    x.domain([0.01, d3.max(subData, function (d) { return +d.ACID })])
+    //x.domain(d3.extent(data, function(d){ return d.ACID}));
+
+    // see below for an explanation of the calcLinear function
+    //var lg = calcLinear(data, "x", "y", d3.min(data, function(d){ return d.ACID}), d3.min(data, function(d){ return d.ACID}));
+
+    /* svg.append("line")
+        .attr("class", "regression")
+        .attr("x1", x(lg.ptA.x))
+        .attr("y1", y(lg.ptA.y))
+        .attr("x2", x(lg.ptB.x))
+        .attr("y2", y(lg.ptB.y)); */
+
+    scatterChart.append("g")
+        .attr("class", "x axis")
+        .attr("transform", "translate(0," + height/2 + ")")
+        .call(xAxis)
+
+    scatterChart.append("g")
+        .attr("class", "y axis")
+        .call(yAxis);
+
+    scatterChart.selectAll(".point")
+        .data(subData)
+        .enter().append("circle")
+        .filter(function (d) { return +d.ACID > 0.01 && +d.count > 0 })
+        //&& +d.cancer == 72
+        .attr("class", "point")
+        .attr("r", 2)
+        .attr("cy", function (d) { return y(+d.count); })
+        .attr("cx", function (d) { return x(+d.ACID); })
+        .style('fill', 'rgb(57, 21, 158)')
+
+    // text label for the y axis
+    var myText = scatterChart.append("text")
+        .attr("transform", "rotate(-90)")
+        .attr("y", -45)
+        .attr("x", -25)
+        // .attr("dy", "1em")
+        .style('font-size', '16px')
+        .style("text-anchor", "end")
+        .text("All Cancer Sites - Annual Count");
+
+
+    // text label for the x axis
+    var myText2 = scatterChart.append("text")
+        .attr("transform", "translate(" + 220 + " ," + (height/2 + 35) + ")")
+        .style('font-size', '16px')
+        .style("text-anchor", "middle")
+        .text("ACID levels");
+
+
+
+    function update(selectedCancer) {
+
+        console.log(selectedOption);
+
+        subData = data.filter(function (d) {
             return d.cancerName == selectedCancer
         })
 
+        // Create new data with the selection?
+        //var dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.count } })
+        if (d3.select("#myCheckbox").property("checked")) {
+            dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.rate } });
+        } else {
+            dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.count } });
+        }
 
-        y.domain(d3.extent(subData, function (d) { return +d.count }));
-        x.domain([0.01, d3.max(subData, function (d) { return +d.ACID })])
-        //x.domain(d3.extent(data, function(d){ return d.ACID}));
-
-        // see below for an explanation of the calcLinear function
-        //var lg = calcLinear(data, "x", "y", d3.min(data, function(d){ return d.ACID}), d3.min(data, function(d){ return d.ACID}));
-
-	    /* svg.append("line")
-	        .attr("class", "regression")
-	        .attr("x1", x(lg.ptA.x))
-	        .attr("y1", y(lg.ptA.y))
-	        .attr("x2", x(lg.ptB.x))
-	        .attr("y2", y(lg.ptB.y)); */
-
-        scatterChart.append("g")
-            .attr("class", "x axis")
-            .attr("transform", "translate(0," + height + ")")
-            .call(xAxis)
-
-        scatterChart.append("g")
-            .attr("class", "y axis")
-            .call(yAxis);
+        y.domain([1.0, d3.max(dataFilter, function (d) { return +d.value })]).clamp()
+        // y.domain(d3.extent(dataFilter, function (d) { return +d.value }))
 
         scatterChart.selectAll(".point")
-            .data(subData)
+            .remove()
+            .exit()
+
+        scatterChart.selectAll(".point")
+            .data(dataFilter)
             .enter().append("circle")
-            .filter(function (d) { return +d.ACID > 0.01 && +d.count > 0 })
+            .filter(function (d) { return +d.time > 0.01 && +d.value > 0 })
             //&& +d.cancer == 72
             .attr("class", "point")
             .attr("r", 3)
-            .attr("cy", function (d) { return y(+d.count); })
-            .attr("cx", function (d) { return x(+d.ACID); });
+            .attr("cx", function (d) { return x(+d.time) })
+            .attr("cy", function (d) { return y(+d.value) })
+            .style('fill', 'rgb(57, 21, 158)')
 
-        // text label for the y axis
-        var myText = scatterChart.append("text")
-            .attr("transform", "rotate(-90)")
-            .attr("y", 0 - margin.left)
-            .attr("x", 0 - (height / 2))
-            .attr("dy", "1em")
-            .style("text-anchor", "middle")
-            .text("All Cancer Sites incidents");
+        scatterChart.selectAll("g.y.axis")
+            .call(yAxis);
 
-
-        // text label for the x axis
-        var myText2 = scatterChart.append("text")
-            .attr("transform",
-                "translate(" + (width / 2) + " ," +
-                (height + margin.top + 20) + ")")
-            .style("text-anchor", "middle")
-            .text("ACID levels");
-
-
-
-		/* svg.selectAll("text")
-			  .data(data)
-			  .enter()
-			  .append("text")
-			  .text(function (d) {
-				  return d.fips;
-			  })
-			  .attr("x", function (d) {
-				  return x(d.ACID);
-			  })
-			  .attr("y", function (d) {
-				  return y(d.Cancer);
-			  })
-			  .attr("font-family", "sans-serif")
-			  .attr("font-size", "15px")
-			  .attr("fill", "red"); */
-
-        function update(selectedCancer) {
-
-            console.log(selectedOption);
-
-            subData = data.filter(function (d) {
-                return d.cancerName == selectedCancer
-            })
-
-            // Create new data with the selection?
-            //var dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.count } })
-            if (d3.select("#myCheckbox").property("checked")) {
-                dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.rate } });
-            } else {
-                dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.count } });
-            }
-
-            //console.log(dataFilter);
-
-            // Give these new data to update line
-            /* line
-                .datum(dataFilter)
-                .transition()
-                .duration(1000)
-                .attr("d", d3.line()
-                    .x(function (d) { return x(+d.time) })
-                    .y(function (d) { return y(+d.value) })
-                ) */
-
-            y.domain(d3.extent(dataFilter, function (d) { return +d.value }))
-
-            scatterChart.selectAll(".point")
-                .remove()
-                .exit()
-
-            scatterChart.selectAll(".point")
-                .data(dataFilter)
-                .enter().append("circle")
-                .filter(function (d) { return +d.time > 0.01 && +d.value > 0 })
-                //&& +d.cancer == 72
-                .attr("class", "point")
-                .attr("r", 3)
-                .attr("cx", function (d) { return x(+d.time) })
-                .attr("cy", function (d) { return y(+d.value) });
-
-            scatterChart.selectAll("g.y.axis")
-                .call(yAxis);
-
-            //var newText = "Cancer " + selectedCancer + " incidents";
-            var newText;
-            if (d3.select("#myCheckbox").property("checked")) {
-                newText = selectedCancer + " incident rates";
-            } else {
-                newText = selectedCancer + " incidents";
-            }
-
-            myText
-                .transition()
-                .duration(1000)
-                .style("opacity", 0)
-                .transition().duration(500)
-                .style("opacity", 1)
-                .text(newText); //			(function (d) { return d.tag })
-
-
+        //var newText = "Cancer " + selectedCancer + " incidents";
+        var newText;
+        if (d3.select("#myCheckbox").property("checked")) {
+            newText = selectedCancer + " - per 100k individuals";
+        } else {
+            newText = selectedCancer + " - Annual Count";
         }
 
-        function update2(selectedGroup) {
-
-            // Create new data with the selection?
-            //var dataFilter = subData.map(function (d) { return { time: d[selectedGroup], value: d.count } })
-            if (d3.select("#myCheckbox").property("checked")) {
-                dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.rate } });
-            } else {
-                dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.count } });
-            }
-
-            // Give these new data to update line
-            /* line
-                .datum(dataFilter)
-                .transition()
-                .duration(1000)
-                .attr("d", d3.line()
-                    .x(function (d) { return x(+d.time) })
-                    .y(function (d) { return y(+d.value) })
-                ) */
-
-            x.domain([0.01, d3.max(dataFilter, function (d) { return +d.time })])
-
-            scatterChart.selectAll(".point")
-                .remove()
-                .exit()
-
-            scatterChart.selectAll(".point")
-                .data(dataFilter)
-                .enter().append("circle")
-                .filter(function (d) { return +d.time > 0.01 && +d.value > 0 })
-                //&& +d.cancer == 72
-                .attr("class", "point")
-                .attr("r", 3)
-                .attr("cx", function (d) { return x(+d.time) })
-                .attr("cy", function (d) { return y(+d.value) });
-
-            scatterChart.selectAll("g.x.axis")
-                .call(xAxis);
-
-            var newText2 = selectedGroup + " levels";
-
-            myText2
-                .transition()
-                .duration(1000)
-                .style("opacity", 0)
-                .transition().duration(500)
-                .style("opacity", 1)
-                .text(newText2); //			(function (d) { return d.tag })
+        myText
+            .transition()
+            .duration(1000)
+            .style("opacity", 0)
+            .transition().duration(500)
+            .style("opacity", 1)
+            .text(newText); //			(function (d) { return d.tag })
+    }
 
 
+    function update2(selectedGroup) {
+
+        // Create new data with the selection?
+        //var dataFilter = subData.map(function (d) { return { time: d[selectedGroup], value: d.count } })
+        if (d3.select("#myCheckbox").property("checked")) {
+            dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.rate } });
+        } else {
+            dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.count } });
         }
 
-        // When the button is changed, run the updateChart function
-        d3.select("#selectButton").on("change", function (d) {
-            // recover the option that has been chosen
-            selectedCancer = d3.select(this).property("value")
-            // run the updateChart function with this selected option
-            update(selectedCancer)
-        })
+        x.domain([0.01, d3.max(dataFilter, function (d) { return +d.time })])
+
+        scatterChart.selectAll(".point")
+            .remove()
+            .exit()
+
+        scatterChart.selectAll(".point")
+            .data(dataFilter)
+            .enter().append("circle")
+            .filter(function (d) { return +d.time > 0.01 && +d.value > 0 })
+            //&& +d.cancer == 72
+            .attr("class", "point")
+            .attr("r", 3)
+            .attr("cx", function (d) { return x(+d.time) })
+            .attr("cy", function (d) { return y(+d.value) })
+            .style('fill', 'rgb(57, 21, 158)')
+
+        scatterChart.selectAll("g.x.axis")
+            .call(xAxis);
+
+        var newText2 = selectedGroup + " levels";
+
+        myText2
+            .transition()
+            .duration(1000)
+            .style("opacity", 0)
+            .transition().duration(500)
+            .style("opacity", 1)
+            .text(newText2); //			(function (d) { return d.tag })
+
+
+    }
+
+    // When the button is changed, run the updateChart function
+    d3.select("#selectButton").on("change", function (d) {
+        // recover the option that has been chosen
+        selectedCancer = d3.select(this).property("value")
+        // run the updateChart function with this selected option
+        update(selectedCancer)
+    })
 
 
 
 
-        // When the button is changed, run the updateChart function
-        d3.select("#selectButton2").on("change", function (d) {
-            // recover the option that has been chosen
-            selectedOption = d3.select(this).property("value")
-            // run the updateChart function with this selected option
-            update2(selectedOption)
-        })
+    // When the button is changed, run the updateChart function
+    d3.select("#selectButton2").on("change", function (d) {
+        // recover the option that has been chosen
+        selectedOption = d3.select(this).property("value")
+        // run the updateChart function with this selected option
+        update2(selectedOption)
+    })
 
 
-        d3.select("#myCheckbox").on("change", function () {
-            var dataFilter;
-            if (d3.select("#myCheckbox").property("checked")) {
-                dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.rate } });
-            } else {
-                dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.count } });
-            }
-            console.log("entered");
-            console.log(dataFilter);
+    d3.select("#myCheckbox").on("change", function () {
+        var dataFilter;
+        if (d3.select("#myCheckbox").property("checked")) {
+            dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.rate } });
+        } else {
+            dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.count } });
+        }
+        console.log("entered");
+        console.log(dataFilter);
 
-            y.domain(d3.extent(dataFilter, function (d) { return +d.value }))
+        // y.domain(d3.extent(dataFilter, function (d) { return +d.value }))
+        y.domain([1.0, d3.max(dataFilter, function (d) { return +d.value })]).clamp()
 
-            scatterChart.selectAll(".point")
-                .remove()
-                .exit()
+        scatterChart.selectAll(".point")
+            .remove()
+            .exit()
 
-            scatterChart.selectAll(".point")
-                .data(dataFilter)
-                .enter().append("circle")
-                .filter(function (d) { return +d.time > 0.01 && +d.value > 0 })
-                //&& +d.cancer == 72
-                .attr("class", "point")
-                .attr("r", 3)
-                .attr("cx", function (d) { return x(+d.time) })
-                .attr("cy", function (d) { return y(+d.value) });
+        scatterChart.selectAll(".point")
+            .data(dataFilter)
+            .enter().append("circle")
+            .filter(function (d) { return +d.time > 0.01 && +d.value > 0 })
+            //&& +d.cancer == 72
+            .attr("class", "point")
+            .attr("r", 3)
+            .attr("cx", function (d) { return x(+d.time) })
+            .attr("cy", function (d) { return y(+d.value) })
+            .style('fill', 'rgb(57, 21, 158)')
 
-            scatterChart.selectAll("g.y.axis")
-                .call(yAxis);
+        scatterChart.selectAll("g.y.axis")
+            .call(yAxis);
 
-            var newText3;
-            if (d3.select("#myCheckbox").property("checked")) {
-                newText3 = selectedCancer + " incident rates";
-            } else {
-                newText3 = selectedCancer + " incidents";
-            }
+        var newText3;
+        if (d3.select("#myCheckbox").property("checked")) {
+            newText3 = selectedCancer + " incident rates";
+        } else {
+            newText3 = selectedCancer + " incidents";
+        }
 
 
-            myText
-                .transition()
-                .duration(1000)
-                .style("opacity", 0)
-                .transition().duration(500)
-                .style("opacity", 1)
-                .text(newText3); //			(function (d) { return d.tag })
-        })
+        myText
+            .transition()
+            .duration(1000)
+            .style("opacity", 0)
+            .transition().duration(500)
+            .style("opacity", 1)
+            .text(newText3); //			(function (d) { return d.tag })
+    })
 
 }
 

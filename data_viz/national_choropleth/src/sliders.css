@@ -20,7 +20,7 @@ div, h1, h2, h3, h4, h5, h6, p, code, fieldset, input, main, section, header, fo
 }
 
 p {
-    font: 100 20px sans-serif;
+    font: 100 15px sans-serif;
 }
 
 .label {
@@ -98,7 +98,7 @@ input[type="radio"] {
 
 .btn {
     padding: 10px 20px;
-    border: 2.5px solid #5C22FF;
+    border: 2.0px solid #5C22FF;
     background: none;
     text-decoration: none;
     font-weight: 500;
@@ -222,7 +222,7 @@ code.css:before { content: 'CSS'; }
 }
 .axis text {
   fill: black;
-  /* font-size: 10px; */
+  font-size: 14px;
   /* font-family: Arial, Helvetica, sans-serif; */
 }
 
@@ -265,3 +265,14 @@ code.css:before { content: 'CSS'; }
 .legend {
     font-size: 16px;
 }
+
+
+.point {
+    fill: rgb(57, 21, 158);
+  }
+
+/* Style the dots by assigning a fill and stroke */
+/* .dot {
+    fill: rgb(57, 21, 158);
+    stroke: #fff;
+} */
