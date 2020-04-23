@@ -129,7 +129,7 @@ function predictOnModelOne(industryValues){
     var weightArray = []
     var predictedIndicators = []
 
-    d3.dsv(",", "weights1.csv", 
+    d3.dsv(",", "../resources/weights1.csv", 
         function(d) {
             return d
         })
@@ -154,7 +154,7 @@ function predictOnModelOne(industryValues){
 }
 
 function predictOnModelTwo(indicators){
-    d3.dsv(",", "weights2.csv", 
+    d3.dsv(",", "../resources/weights2.csv", 
         function(d) {
             return d
         })
