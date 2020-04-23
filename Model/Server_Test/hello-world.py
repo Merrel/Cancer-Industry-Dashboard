@@ -6,10 +6,10 @@ from flask import Flask, render_template, request, jsonify
 
 app = Flask(__name__)
 
-@app.route('/users/<string:username>')
+@app.route('/')
 def hello_world(username=None):
 
-    return("Hello {}!".format(username))
+    return("Hello!")
 
 
 @app.route('/hello', methods=['GET', 'POST'])
