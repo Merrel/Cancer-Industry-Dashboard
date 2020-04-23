@@ -20,4 +20,4 @@ def hello():
 @app.route('/test')
 def test_page():
     # look inside `templates` and serve `index.html`
-    return render_template('./index.html')
+    return render_template('index.html')
