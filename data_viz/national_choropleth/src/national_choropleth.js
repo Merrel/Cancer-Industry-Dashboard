@@ -476,6 +476,21 @@ function getFormValues(elementID){
     }
 }
 
+function lookupCountyName(fips) {
+    console.log(fips)
+    fips = String(fips)
+    if (fips.substr(0,1)=="0"){
+        fips = fips.substr(1,5)
+    }
+    var countyData = countyFIPSKeys.filter(county => county.FIPS==fips)[0]
+    if (countyData==null){
+        return "___"
+    } else {
+        var countyName = countyData.Name + ", " + countyData.State
+        return countyName
+    }
+}
+
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -487,7 +502,8 @@ var promises = [
     d3.csv("./resources/cancer_ID_list.csv"),
     d3.tsv("./resources/industry_byCounty_byType.tsv"),
     d3.csv("./resources/industry_ID_list.csv"),
-    d3.csv("./resources/data_viz_full.csv")
+    d3.csv("./resources/data_viz_full.csv"),
+    d3.csv("./resources/counties_fips.csv")
 ]
 
 Promise.all(promises).then(ready)
@@ -496,6 +512,8 @@ Promise.all(promises).then(ready)
 // MAIN RUN
 // 
 function ready(values) {
+
+    countyFIPSKeys = values[6]
 
     // Load the topojson geographic boundary data 'as-is'
     us_topojson = values[0];
@@ -524,7 +542,6 @@ function ready(values) {
         industryNames[+item.relevant_naics] = item.industry_detail
     })
 
-    test5 = values[5]
 
     drawScatter(values[5])
 
@@ -563,6 +580,10 @@ function ready(values) {
     d3.select("#resetViewButton")
         .on("click", reset)
 
+    // View Reset button
+    d3.select("#resetSlidersButton")
+        .on("click", resetSliders)
+
 
     // Pick Industry Sliders by Payann
     startUpFIPS = 21197
@@ -585,8 +606,8 @@ function drawSliders(sliderData, isUpdate=true) {
         if (isUpdate==false) {
             rangejs( document.getElementById( sliderName ), {
                 css:true,
-                buttons:true,
-                change: function( event, ui ){
+                buttons:false,
+                stop: function( event, ui ){
 
                     whichFIPS = querySelectedFIPS()
                     barData = topRatesInFips(cancerData, cancerNames, whichFIPS, howMany=5)
@@ -597,7 +618,6 @@ function drawSliders(sliderData, isUpdate=true) {
         }
     }
 }
-
 
 function querySliders() {
     var sliderList = ["IndustryA", "IndustryB", "IndustryC", "IndustryD", "IndustryE"]
@@ -611,6 +631,26 @@ function querySliders() {
     return sliderVals
 }
 
+function resetSliders() {
+    // Get all the slider draggers
+    draggers = document.getElementsByClassName("dragger")
+    for (var idx=0; idx<draggers.length; idx++) {
+        dragger = draggers[idx]
+        dragger.style['cssText'] = "left: 145px"
+    }
+
+    // Reset the slider box values
+    var sliderList = ["IndustryA", "IndustryB", "IndustryC", "IndustryD", "IndustryE"]
+    sliderList.forEach(sliderName => {
+        document.getElementById(sliderName).value = 100
+    })
+
+    // TODO: call predict function with all correct values
+    whichFIPS = querySelectedFIPS()
+    barData = topRatesInFips(cancerData, cancerNames, whichFIPS, howMany=5)
+    barData = updatePredictedBarData(barData)
+    drawBars(barData, whichFIPS, isUpdate=true)
+}
 
 function getSliderValues(sliderList) {
 
@@ -664,7 +704,6 @@ function updateAll(whichDataSet, isUpdate){
     drawBars(barData, startUpFIPS, isUpdate)
 }
 
-
 function updatePredictedBarData(barData) {
     // Get Predicted
     slidersNow = querySliders()
@@ -676,10 +715,9 @@ function updatePredictedBarData(barData) {
     return barData
 }
 
-
 function querySelectedFIPS() {
     var htmlstr = document.getElementById('selectedFIPS').innerHTML
-    var re = /FIPS: (.*)/
+    var re = /FIPS: (\d*)/
     var selectedFIPS = htmlstr.match(re)[1]
     return selectedFIPS
 }
@@ -909,10 +947,16 @@ function drawBars(barData, whichFIPS, isUpdate) {
     barColor = 'rgb(150, 163, 168)'
 
 
+    countyName = lookupCountyName(selectedFIPS)
+    newCountyText = "FIPS: " + selectedFIPS + " - " + countyName
+    document.getElementById('selectedFIPS').innerHTML = newCountyText
+
+
+
     
     if (isUpdate==false) {
 
-        document.getElementById('selectedFIPS').innerHTML = "FIPS: " + selectedFIPS
+        
         // title
         // barChart.append('g')
         //     .attr('class', 'annotation')
@@ -991,7 +1035,6 @@ function drawBars(barData, whichFIPS, isUpdate) {
         //     .attr("text-anchor", "start") 
         //     .attr("dominant-baseline", "middle") 
         //     .text(whichFIPS)
-        document.getElementById('selectedFIPS').innerHTML = "FIPS: " + selectedFIPS
 
         barChart.select('.x.axis')
             .transition()
@@ -1379,8 +1422,8 @@ function drawChoropleth(topoUS, allDataTypes, dataID, colormap, isUpdate, whichV
         mapChart.append("path")
             .datum(topojson.mesh(topoUS, topoUS.objects.states, function(a, b) { return a !== b; }))
             .attr("class", "states")
-            .style("stroke", "#aaabad")
-            .style("stroke-width", 1)
+            .style("stroke", "#363636")
+            .style("stroke-width", 0.75)
             .attr("d", path);
 
 

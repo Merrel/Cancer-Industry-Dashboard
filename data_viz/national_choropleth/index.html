@@ -199,8 +199,8 @@
             <div class="col c1">
                 <div>
                     <h3>Top 5 Cancers by Incidence rate</h3>
-                    <p>This bar chart displays the actual and predicted values for annual cancer count in the selected county.<br> </p>
-                    <p id=selectedFIPS>FIPS: 21197</p>
+                    <p>This bar chart displays the actual and predicted values for annual cancer count in the selected county.<br> Actual values are displayed as bars and predicted values are displayed as dots.<br> </p>
+                    <p id="selectedFIPS">FIPS: 21197</p>
                 </div>
                 <!-- <p>Selected County: </p> -->
                 <!-- <p><br>Selected County: </p> -->
@@ -209,6 +209,8 @@
             <div class="col c2">
                 <div>
                     <h3>Annual Cancer Count vs. Industry Parameters</h3>
+                    <select id="selectButton"></select>
+                    <select id="selectButton2"></select>
                 </div>
             </div>
         </div>
@@ -238,10 +240,9 @@
         <h2>Cancer Patterns at the National Level</h2>
 
         <input type="checkbox" id="myCheckbox"> Use incidence rates
-        <select id="selectButton"></select>
+        
         <div id="scatter" class="chart"></div>
         <!-- <input type="checkbox" id="myCheckbox2"> Use linear scale  -->
-        <select id="selectButton2"></select>
         <div class="equation"></div>
         <div class="equation"></div>
 
