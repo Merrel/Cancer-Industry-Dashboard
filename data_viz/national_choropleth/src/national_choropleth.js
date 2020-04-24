@@ -125,10 +125,6 @@ function formatIndustryData(rawData) {
     return industryByType
 }
 
-<<<<<<< HEAD
-function getEditedCancerValues(sliderValues){
-    var cancer = predictOnModelOne(sliderValues)
-=======
 function parseSubsetValues(entry, subsetKeys, randOffset) {
     subsets = {}
     subsetKeys.forEach(d=>{
@@ -146,7 +142,6 @@ function parseSubsetValues(entry, subsetKeys, randOffset) {
 
 function getEditedCancerValues(values){
     var cancer = predictOnModelOne(values)
->>>>>>> d78f873782d55d289616caafefbc6459a796c10c
     
     return cancer
 }
@@ -205,10 +200,6 @@ function predictOnModelTwo(indicators){
             // [23, 24, 25, 25].forEach( d=> {predictedCancer.push(d)})
         })
 
-<<<<<<< HEAD
-=======
-
->>>>>>> d78f873782d55d289616caafefbc6459a796c10c
         return predictedCancer
 }
 
