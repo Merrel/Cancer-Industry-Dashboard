@@ -5,4 +5,4 @@
 __pycache__
 data_clean/cancer_industry.csv
 feature_analysis/base_random_forest.pkl
-feature_analysis/base_random_forest_one_cancer_type.pkl
+feature_analysis/base_random_forest_latest.pkl
