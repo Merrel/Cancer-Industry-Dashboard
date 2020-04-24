@@ -4,53 +4,9 @@
     <meta charset="utf-8">
     <title>Cancer & Industry Incidence</title>
 
-    <style>
-        body {
-            margin: 0 auto;
-            display: table;
-            font-family: "Helvetica Neue", sans-serif;
-        }
-    
-        .regression {
-            stroke-width: 2px;
-            stroke: steelblue;
-            stroke-dasharray: 10, 5;
-        }
-    
-        .equation {
-            font-size: 12px;
-            margin-top: 10px;
-            text-align: center;
-        }
-    
-        .point {
-            fill: red;
-            opacity: 0.3;
-        }
-
-        .bar {
-            /* fill: steelblue; */
-            opacity: 0.5;
-        }
-        
-    
-        /* .axis path, .axis line {
-    			fill: none;
-    			stroke: #dcdcdc;
-    			stroke-dasharray: 2, 3;
-    			shape-rendering: crispEdges;
-    		}
-        
-        	.axis text {
-    			font-size: 10px;
-    			fill: #6b6b6b;
-    		} */
-    </style>
-
     <meta name="description" content="A simple range plugin written in pure JavaScript" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="./src/sliders.css">
-
+    <link rel="stylesheet" type="text/css" href="./src/national_choropleth.css">
 
     <!-- Call the range slider script -->
     <script src="src/range.js"></script>
@@ -62,25 +18,10 @@
 
 </head>
 <body>
-    <!-- <header class="header boxed">
-        <h2><strong>Range.js</strong> is a lightweight pure JavaScript plugin that turns a basic HTML text input into a beautiful slider in no time.</h2>
-        <p>
-            <a class="btn" href="https://github.com/niandco/range">Fork</a>&nbsp;
-            <a class="btn" href="https://github.com/niandco/range/archive/master.zip">Download</a>
-        </p>
-    </header> -->
     <main class="main boxed">
-
-        <!-- <h1>Cancer, Industry, and Industrial Indicators in the United States</h1>
-        <div class="flex">
-            <div class="col c1">
-                
-            </div>
-        </div> -->
         
         <h2>Exploring Cancer and Industry Hot-Spots</h2>
         <p>Industrial activity touches nearly every facet of modern, American life. This project aims to identify localities and industries where industrial activty may contribute to elevated risk of various types of cancer</p>
-
 
         <!-- ------------------------------------------------------------------------------------------------------ -->
         <!-- Map Data Selectors -->
@@ -187,19 +128,10 @@
                         <th>
                             <button class="btn" id="resetSlidersButton">Reset Sliders</button>
                         </th>
-                        <!-- <th>
-                            <button class="btn" id="resetSlidersButton">Reset Sliders</button>
-                        </th> -->
                     </tr>
-                </table>
-                    
+                </table>  
             </div>
-
         </div>
-
-        <!-- <button class="btn" id="resetViewButton">Reset View</button> -->
-
-
         <!-- ------------------------------------------------------------------------------------------------------ -->
         <!-- D3 Supporting Charts -->
 
@@ -232,9 +164,6 @@
                 <div id="barsTopCancer" class="chartbox"></div>
             </div>
             <div class="col c2">
-                <!-- <h4>Selected Cancer: <b id="selectedCancerReadOut">Prostate</b></label>
-                <p>Details: lorum ipsum</p> -->
-
                 <div id="scatter" class="chart"></div>
             </div>
         </div>
@@ -242,8 +171,6 @@
         <!-- PATTER FILL SVG : https://iros.github.io/patternfills/sample_d3.html -->
         <svg height="5" width="5" xmlns="http://www.w3.org/2000/svg" version="1.1"> <defs> <pattern id="smalldot" patternUnits="userSpaceOnUse" width="5" height="5"> <image xlink:href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHdpZHRoPSc1JyBoZWlnaHQ9JzUnPgo8cmVjdCB3aWR0aD0nNScgaGVpZ2h0PSc1JyBmaWxsPScjZmZmJy8+CjxyZWN0IHdpZHRoPScxJyBoZWlnaHQ9JzEnIGZpbGw9JyNjY2MnLz4KPC9zdmc+" x="0" y="0" width="5" height="5"> </image> </pattern> </defs> </svg>
         
-        
-
 
         <!-- ------------------------------------------------------------------------------------------------------ -->
         <!-- National Scale Data -->
@@ -256,6 +183,5 @@
 
 
     </main>
-
 </body>
 </html>

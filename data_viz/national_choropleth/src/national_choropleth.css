@@ -266,13 +266,24 @@ code.css:before { content: 'CSS'; }
     font-size: 16px;
 }
 
+.regression {
+    stroke-width: 2px;
+    stroke: steelblue;
+    stroke-dasharray: 10, 5;
+}
+
+.equation {
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: center;
+}
 
 .point {
     fill: rgb(57, 21, 158);
-  }
+    opacity: 0.3;
+}
 
-/* Style the dots by assigning a fill and stroke */
-/* .dot {
-    fill: rgb(57, 21, 158);
-    stroke: #fff;
-} */
+.bar {
+    /* fill: steelblue; */
+    opacity: 0.5;
+}
