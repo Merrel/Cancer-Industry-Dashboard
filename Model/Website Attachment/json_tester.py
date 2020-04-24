@@ -4,21 +4,22 @@ import os
 from sklearn.externals import joblib
 
 
-model_1 = joblib.load(open('test_model.sav', 'rb'))
+model_2 = joblib.load(open('Model2.sav', 'rb'))
 
 while True:
-    if os.path.exists('mydata.json'):
+    if os.path.exists('inputData.json'):
 
-        inputData = json.load(open('mydata.json'))
+        inputData = json.load(open('inputData.json'))
 
         
 
-        prediction = model_1.predict(np.array(inputData).reshape(1, -1))
+        prediction = model_2.predict(np.array(inputData).reshape(1, -1))
 
         prediction = prediction.tolist()
+        print(prediction)
 
         json.dump(prediction, open('outputData.json', 'w'))
 
-        os.remove('mydata.json')
+        os.remove('inputData.json')
     else:
         pass
