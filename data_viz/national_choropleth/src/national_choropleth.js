@@ -12,7 +12,7 @@ const svgWidth = 1000
     , width = svgWidth - margin.left - margin.right
     , height = svgHeight - margin.top - margin.bottom
     , symbolSize = 40
-    , transition_time = 550
+    , transition_time = 350
     , circle_rad = 4
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -199,7 +199,6 @@ function predictOnModelTwo(indicators){
             // more dummies
             // [23, 24, 25, 25].forEach( d=> {predictedCancer.push(d)})
         })
-
 
         return predictedCancer
 }
@@ -959,7 +958,8 @@ function drawBars(barData, whichFIPS, isUpdate) {
                 .scale(y1)
                 .ticks(10)
 
-    barColor = 'rgb(150, 163, 168)'
+    barColor1 = 'rgb(57, 21, 158)'//'blue'
+    barColor2 = 'rgb(255, 80, 0)'//'rgb(209, 58, 25)' //'orange'
 
     countyName = lookupCountyName(selectedFIPS)
     newCountyText = "FIPS: " + selectedFIPS + " - " + countyName
@@ -974,41 +974,91 @@ function drawBars(barData, whichFIPS, isUpdate) {
             .style('font-size', '16px')
             .style("text-anchor", "middle")
             .text("Cancer Incidence Rate - per 100k Individuals")
+        // Handmade legend
+        barChart.append("circle")
+                .attr("cx", svgWidth - 270)
+                .attr("cy", 20)
+                .attr("r", 6)
+                .style("fill", barColor1)
 
-        // Draw the legend
-        // var barLegend = barChart.append('g')
-        //     .attr('transform', "translate(" + (width-10) + " ," + 0 + ")")
+        barChart.append("circle")
+                .attr("cx", svgWidth - 270)
+                .attr("cy", 40)
+                .attr("r", 6)
+                .style("fill", barColor2)
 
-        // barLegend.append('rect')
-        //     .attr('x', 0)
-        //     .attr('y', 0)
-        //     .attr('width', 10)
-        //     .attr('height', y1.bandwidth())
-        //     .style('fill', 'black')
-            
+        barChart.append("text")
+                .attr("x", svgWidth - 260)
+                .attr("y", 20)
+                .text("Actual")
+                .style("font-size", "15px")
+                .attr("alignment-baseline", "middle")
+                .attr("fill", barColor1);
+
+        barChart.append("text")
+                .attr("x", svgWidth - 260)
+                .attr("y", 40)
+                .text("Predicted")
+                .style("font-size", "15px")
+                .attr("alignment-baseline", "middle")
+                .attr("fill", barColor2);
+
         // Enter the bars d3 object to run the drawing loop for each item in the dataset
-        barChart.selectAll('rect')
+        barChart.selectAll('.bar')
             .data(barData)
-        .enter()
-            .append('rect')
-            .attr('class', 'bar')
+            .enter().append('rect')
+            .attr('class', 'bar1')
+            .attr("id", "barchart1")
             .attr('x', 0)
             .attr('y', d => y1(d.data_id) )
             .attr('width', d => xScaleBar(d.annual_count) )
-            .attr('height', y1.bandwidth() )
-            .style('fill', barColor)
-            .on("mouseover", function(d) {
-                d3.select(this).style("fill", d3.rgb(barColor).darker(2))
-            })
-            .on("mouseout", function(d) {
-                d3.select(this).style("fill", barColor)
-            })
-            // .on("click", function(d) {
-            //     console.log(d)
-            //     document.getElementById('selectedCancerReadOut').innerHTML = d.data_id
-            // })
+            .attr('height', y1.bandwidth() - 20 )
+            .style('fill', barColor1)
+            //.on("mouseover", tip1.show)
+            //.on("mouseout", tip1.hide)
 
-        barChart.selectAll('circle')
+        //set the label
+        barChart.selectAll(".text")
+            .data(barData)
+            .enter()
+            .append("text")
+            .attr("id", "text1")
+            .text(function (d) { return d.annual_count; })
+            .attr("text-anchor", "middle")
+            .attr("x", function (d, i) { return xScaleBar(d.annual_count) + 15; })
+            .attr("y", function (d) { return y1(d.data_id) + y1.bandwidth() - 25 ; })
+            .attr("font-family", "sans-serif")
+            .attr("font-size", "11px")
+            .attr("fill", barColor1);
+
+        barChart.selectAll('.bar')
+            .data(barData)
+            .enter().append('rect')
+            .attr('class', 'bar2')
+            .attr("id", "barchart2")
+            .attr('x', 0)
+            .attr('y', d => y1(d.data_id) + 20)
+            .attr('width', d => xScaleBar(d.annualCountPredicted))
+            .attr('height', y1.bandwidth() - 20)
+            .style('fill', barColor2)
+            //.on("mouseover", tip2.show)
+            //.on("mouseout", tip2.hide)
+
+        //set the label
+        barChart.selectAll(".text")
+            .data(barData)
+            .enter()
+            .append("text")
+            .attr("id", "text2")
+            .text(function (d) { return d.annualCountPredicted; })
+            .attr("text-anchor", "middle")
+            .attr("x", function (d, i) { return xScaleBar(d.annualCountPredicted) + 15; })
+            .attr("y", function (d) { return y1(d.data_id) + y1.bandwidth() - 5; })
+            .attr("font-family", "sans-serif")
+            .attr("font-size", "11px")
+            .attr("fill", barColor2);
+
+        /* barChart.selectAll('circle')
             .data(barData)
         .enter()
             .append('circle')
@@ -1016,7 +1066,7 @@ function drawBars(barData, whichFIPS, isUpdate) {
             .attr('cx', d => xScaleBar(d.annualCountPredicted))
             .attr('cy', d => y1(d.data_id)+y1.bandwidth()/2 )
             .attr('r', 5)
-            .style('fill', 'black')
+            .style('fill', 'black') */
 
 
         
@@ -1025,9 +1075,9 @@ function drawBars(barData, whichFIPS, isUpdate) {
             .attr("fill", "white")
             // .attr("text-anchor", "end")
             // .style("font", "12px sans-serif")
-        .selectAll('text')
+            .selectAll('text')
             .data(barData)
-        .enter()
+            .enter()
             .append('text')
             .attr('x', d => xScaleBar(d.annual_count)/2)
             .attr('y', d => y1(d.data_id) )
@@ -1035,8 +1085,8 @@ function drawBars(barData, whichFIPS, isUpdate) {
             // .attr('width', d => xScaleBar(d.annual_count) )
             // .attr('height', y1.bandwidth() )
         barChart.append('g')
-        .attr('class', 'y axis')
-        .call(yAxis)
+            .attr('class', 'y axis')
+            .call(yAxis)
         // .style('opacity', 0.0)
 
         barChart.append('g')
@@ -1060,35 +1110,64 @@ function drawBars(barData, whichFIPS, isUpdate) {
             .call(yAxis)
             // .style('opacity', 1.0)
 
-        barChart.selectAll('rect')
+        barChart.selectAll('#barchart1')
             .data(barData)
             .transition()
             .ease(d3.easeExpOut)
             .duration(transition_time)
-            // .ease(d3.easeElasticOut)
-            .attr('class', 'bar')
+            .attr('class', 'bar1')
             .attr('x', 0)
             .attr('y', d => y1(d.data_id) )
-            .attr('width', d => xScaleBar(d.annual_count) )
-            .attr('height', y1.bandwidth() )
+            .attr('width', d => xScaleBar(d.annual_count))
+            .attr('height', y1.bandwidth() - 20)
+            .style('fill', barColor1)
+            //.on("mouseover", tip1.show)
+            //.on("mouseout", tip1.hide)
 
-        barChart.selectAll('circle')
+
+        barChart.selectAll('#barchart2')
             .data(barData)
             .transition()
-            .ease(d3.easeExpOut)
             .duration(transition_time)
-            // .append('circle')
-            .attr('class', 'predPoint')
-            .attr('cx', d => xScaleBar(d.annualCountPredicted))
-            .attr('cy', d => y1(d.data_id)+y1.bandwidth()/2 )
-            .attr('r', 5)
-            .style('fill', 'black')
+            .attr('class', 'bar2')
+            .attr('x', 0)
+            .attr('y', d => y1(d.data_id) + 20)
+            .attr('width', d => xScaleBar(d.annualCountPredicted))
+            .attr('height', y1.bandwidth() - 20)
+            .style('fill', barColor2)
+            //.on("mouseover", tip2.show)
+            //.on("mouseout", tip2.hide)
+
+        //set the label
+        barChart.selectAll("#text1")
+            .data(barData)
+            .transition()
+            .duration(transition_time)
+            .text(function (d) { return d.annual_count; })
+            .attr("text-anchor", "middle")
+            .attr("x", function (d, i) { return xScaleBar(d.annual_count) + 15; })
+            .attr("y", function (d) { return y1(d.data_id) + y1.bandwidth() - 25; })
+            .attr("font-family", "sans-serif")
+            .attr("font-size", "11px")
+            .attr("fill", barColor1);
+
+        //set the label
+        barChart.selectAll("#text2")
+            .data(barData)
+            .transition()
+            .duration(transition_time)
+            .text(function (d) { return d.annualCountPredicted; })
+            .attr("text-anchor", "middle")
+            .attr("x", function (d, i) { return xScaleBar(d.annualCountPredicted) + 15; })
+            .attr("y", function (d) { return y1(d.data_id) + y1.bandwidth() - 5; })
+            .attr("font-family", "sans-serif")
+            .attr("font-size", "11px")
+            .attr("fill", barColor2);
 
 
         barChart.select('#barNames')
             .data(barData)
             .transition()
-            // .ease(d3.easeElasticOut)
         // .enter()
             .attr('x', d => xScaleBar(d.annual_count)/2)
             .attr('y', d => y1(d.data_id) )
@@ -1112,6 +1191,7 @@ function drawScatter(data) {
 
     var xAxis = d3.axisBottom()
         .scale(x)
+        .ticks(7)
     /* .tickFormat(function (d) {
         return d3.format(".1f")(d)
     }) */
@@ -1194,7 +1274,7 @@ function drawScatter(data) {
 
 
     y.domain([1.0, d3.max(subData, function (d) { return +d.count })]).clamp()
-    x.domain([0.01, d3.max(subData, function (d) { return +d.ACID })])
+    x.domain([0.0001, d3.max(subData, function (d) { return +d.ACID })])
     //x.domain(d3.extent(data, function(d){ return d.ACID}))
 
     // see below for an explanation of the calcLinear function
@@ -1219,7 +1299,7 @@ function drawScatter(data) {
     scatterChart.selectAll(".point")
         .data(subData)
         .enter().append("circle")
-        .filter(function (d) { return +d.ACID > 0.01 && +d.count > 0 })
+        .filter(function (d) { return +d.ACID > 0.0001 && +d.count > 0 })
         //&& +d.cancer == 72
         .attr("class", "point")
         .attr("r", 2)
@@ -1231,7 +1311,7 @@ function drawScatter(data) {
     var myText = scatterChart.append("text")
         .attr("transform", "rotate(-90)")
         .attr("y", -45)
-        .attr("x", -25)
+        .attr("x", 5)
         // .attr("dy", "1em")
         .style('font-size', '16px')
         .style("text-anchor", "end")
@@ -1240,7 +1320,7 @@ function drawScatter(data) {
 
     // text label for the x axis
     var myText2 = scatterChart.append("text")
-        .attr("transform", "translate(" + 200 + " ," + (height/2 + 35) + ")")
+        .attr("transform", "translate(" + 160 + " ," + (height/2 + 35) + ")")
         .style('font-size', '16px')
         .style("text-anchor", "middle")
         .text(subsetUnitsKey[selectedOption])
@@ -1271,7 +1351,7 @@ function drawScatter(data) {
         scatterChart.selectAll(".point")
             .data(dataFilter)
             .enter().append("circle")
-            .filter(function (d) { return +d.time > 0.01 && +d.value > 0 })
+            .filter(function (d) { return +d.time > 0.0001 && +d.value > 0 })
             //&& +d.cancer == 72
             .attr("class", "point")
             .attr("r", 3)
@@ -1310,7 +1390,7 @@ function drawScatter(data) {
             dataFilter = subData.map(function (d) { return { time: d[selectedOption], value: d.count } })
         }
 
-        x.domain([0.01, d3.max(dataFilter, function (d) { return +d.time })])
+        x.domain([0.0001, d3.max(dataFilter, function (d) { return +d.time })])
 
         scatterChart.selectAll(".point")
             .remove()
@@ -1319,7 +1399,7 @@ function drawScatter(data) {
         scatterChart.selectAll(".point")
             .data(dataFilter)
             .enter().append("circle")
-            .filter(function (d) { return +d.time > 0.01 && +d.value > 0 })
+            .filter(function (d) { return +d.time > 0.0001 && +d.value > 0 })
             //&& +d.cancer == 72
             .attr("class", "point")
             .attr("r", 3)
@@ -1375,7 +1455,7 @@ function drawScatter(data) {
         scatterChart.selectAll(".point")
             .data(dataFilter)
             .enter().append("circle")
-            .filter(function (d) { return +d.time > 0.01 && +d.value > 0 })
+            .filter(function (d) { return +d.time > 0.0001 && +d.value > 0 })
             //&& +d.cancer == 72
             .attr("class", "point")
             .attr("r", 3)

@@ -1,0 +1,135 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Rebrickable Lego Sets by Year</title>
+        <script type="text/javascript" src="./d3/d3.min.js"></script>
+        <style type="text/css">
+
+            div.bar {
+                display: inline-block;
+                width: 20px;
+                height: 75px;   /* We'll override height later */
+                background-color: teal;
+                margin-right: 2px;
+            }
+        </style>
+
+    </head>
+    <body>
+        <script>
+
+        // var fakeValues = [1, 2, 3, 4]
+        // var cancer = getEditedCancerValues(fakeValues)
+        
+        // function getEditedCancerValues(values){
+        //     var cancer = predictOnModelOne(values)
+            
+        //     return cancer
+        // }
+
+        // function predictOnModelOne(industryValues){
+        //     var weightArray = []
+        //     var predictedIndicators = []
+
+        //     d3.dsv(",", "weights1.csv", 
+        //         function(d) {
+        //             return d
+        //         })
+        //     .then(function(data){
+        //         weights = data
+        //         console.log(weights)
+
+        //         for (i = 0; i < 5; i++){
+        //             weightArray.push(Object.values(weights[i]))
+        //         }
+        //         console.log(weightArray)
+
+        //         for (i = 0; i < 24; i++){
+        //             indicator = parseFloat(weightArray[0][i])
+        //             for (j = 0; j < 4; j++){
+        //                 indicator += parseFloat(industryValues[j]) * parseFloat(weightArray[j+1][i])
+        //             }
+        //             predictedIndicators.push(indicator)
+        //         }
+        //         console.log(predictedIndicators)
+
+        //     })
+        //     var cancerOutput = predictOnModelTwo(predictedIndicators)
+        //     return cancerOutput
+            
+        // }
+
+        // function predictOnModelTwo(indicators){
+        //     var predictedCancer = []
+
+        //     d3.dsv(",", "weights2.csv", 
+        //         function(d) {
+        //             return d
+        //         })
+        //     .then(function(data){
+        //         weights = data
+        //         console.log(weights)
+
+        //         var cancerCalc = parseFloat(weights[0].weights)
+        //         console.log(cancerCalc)
+        //         console.log(indicators[0])
+
+        //         for (i = 0; i < indicators.length; i++){
+        //             cancerCalc += indicators[i] * parseFloat(weights[i+1].weights)
+        //         }
+
+        //         console.log(cancerCalc)
+        //         predictedCancer.push(cancerCalc)
+        //     })
+            
+        //     return predictedCancer
+            
+        // }
+
+
+        /////////////////////////////////////////////////////////////////
+        /////////////////////////////////////////////////////////////////
+
+        
+        // GET is the default method, so we don't need to set it
+        fetch('/hello')
+            .then(function (response) {
+                return response.text();
+            }).then(function (text) {
+                console.log('GET response text:');
+                console.log(text); // Print the greeting as text
+            });
+
+        // Send the same request
+        fetch('/hello')
+            .then(function (response) {
+                return response.json(); // But parse it as JSON this time
+            })
+            .then(function (json) {
+                console.log('GET response as JSON:');
+                console.log(json); // Here’s our JSON object
+            })
+        
+        // POST
+        fetch('/hello', {
+
+            // Specify the method
+            method: 'POST',
+
+            // A JSON payload
+            body: JSON.stringify({
+                "greeting": "Hello from the browser!"
+            })
+            }).then(function (response) {
+                return response.text();
+            }).then(function (text) {
+
+            console.log('POST response: ');
+
+            // Should be 'OK' if everything was successful
+            console.log(text);
+            });
+       
+        </script>
+    </body>
+</html>
