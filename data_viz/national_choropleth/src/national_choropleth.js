@@ -564,7 +564,8 @@ var promises = [
     d3.json("./resources/us-10m.v1.json"),
     d3.tsv("./resources/cancer_byCounty_byType.tsv"),
     d3.csv("./resources/cancer_ID_list.csv"),
-    d3.tsv("./resources/industry_byCounty_byType.tsv"),
+    // d3.tsv("./resources/industry_byCounty_byType.tsv"),
+    d3.tsv("./resources/final_industry_byCounty_byType.tsv"),
     d3.csv("./resources/industry_ID_list.csv"),
     d3.csv("./resources/data_viz_full.csv"),
     d3.csv("./resources/counties_fips.csv")
