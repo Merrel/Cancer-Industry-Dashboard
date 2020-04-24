@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WebSocket demo</title>
+    </head>
+    <body>
+        <script>
+
+            function queryServer(msg) {
+                ws = new WebSocket("ws://127.0.0.1:8765/"),
+                messages = document.createElement('ul');
+
+                ws.onmessage = function (event) {
+                    console.log('message recieved')
+                    resp = event.data
+                    console.log(resp)
+
+                }
+
+                var millisecondsToWait = 1000
+
+                setTimeout( function() {
+                    ws.send(msg)
+                }, millisecondsToWait)
+
+                // return resp
+            }
+
+        </script>
+    </body>
+</html>
