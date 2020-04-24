@@ -383,6 +383,54 @@ function topRatesInFips(dataSet, dataNames, fips, howMany, whichVal){
     return top_data_list
 }
 
+
+function prepSliderScaleFactors(sliderValsRaw) {
+
+    sliderKeys = Object.keys(sliderValsRaw)
+
+    scaleFactors = {}
+
+    for (var i=0; i<sliderKeys.length; i++) {
+        var industryCode = String(getKeyByValue(industryNames, sliderKeys[i]))
+        scaleFactors[industryCode] = +sliderValsRaw[sliderKeys[i]]
+    }
+    return scaleFactors
+}
+
+
+function getIndicatorsInFIPS(fips, applySliderScale=true) {
+
+    var sliderValsRaw = querySliders()
+    var scaleFactors = prepSliderScaleFactors(sliderValsRaw)
+
+
+    var indicatorCols = ['ACID', 'ENRG', 'ETOX', 'EUTR', 'FOOD', 'GCC', 'HAPS', 'HAZW', 'HC',
+    'HNC', 'HRSP', 'HTOX', 'JOBS', 'LAND', 'METL', 'MINE', 'MSW', 'NREN',
+    'OZON', 'PEST', 'REN', 'SMOG', 'VADD', 'WATR']
+
+    var indicatorVals = new Array(indicatorCols.length).fill(0)
+
+    var industryKeys = Object.keys(industryData.ActualRate)
+
+    industryKeys.forEach( indKey => {
+
+        for (var i=0; i<indicatorVals.length; i++) {
+
+            var whichIndicator = indicatorCols[i]
+            var indValInFIPS = industryData.ActualRate[indKey][fips][whichIndicator]
+
+            // Log the value
+            if (applySliderScale==true && scaleFactors.hasOwnProperty(indKey)) {
+                indicatorVals[i] += (indValInFIPS * scaleFactors[indKey] / 100)
+            } else {
+                indicatorVals[i] += indValInFIPS
+            }
+        }
+    })
+    return indicatorVals
+}
+
+
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // INTERACTION FUNCTIONS
 // 
@@ -599,7 +647,7 @@ function ready(values) {
 
 
     // Pick Industry Sliders by Payann
-    startUpFIPS = 21197
+    startUpFIPS = 13121
     sliderData = topRatesInFips(industryData, industryNames, String(startUpFIPS), 5, "payann")
     drawSliders(sliderData, isUpdate=false)
     drawScatter(values[5])
@@ -639,7 +687,9 @@ function querySliders() {
 
     sliderList.forEach( sliderName => {
 
-        sliderVals[sliderName] = document.getElementById(sliderName).value
+        var industryName = document.getElementById('Label' + sliderName).innerText
+
+        sliderVals[industryName] = document.getElementById(sliderName).value
 
     })
     return sliderVals
@@ -712,7 +762,7 @@ function updateAll(whichDataSet, isUpdate){
     updateMap(vizData, isUpdate)
 
     // Draw the bar graph
-    var startUpFIPS = 21197
+    var startUpFIPS = 13121
     barData = topRatesInFips(cancerData, cancerNames, startUpFIPS, howMany=5,'annual_count')
     barData = updatePredictedBarData(barData)
     drawBars(barData, startUpFIPS, isUpdate)
