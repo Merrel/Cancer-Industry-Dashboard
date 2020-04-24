@@ -140,67 +140,24 @@ function parseSubsetValues(entry, subsetKeys, randOffset) {
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // QUERY PREDICTIVE MODEL
 
-function getEditedCancerValues(values){
-    var cancer = predictOnModelOne(values)
-    
-    return cancer
-}
+function getEditedCancerValues(msg) {
+    ws = new WebSocket("ws://127.0.0.1:8181/"),
+    messages = document.createElement('ul');
+    var resp = []
 
-function predictOnModelOne(industryValues){
-    var weightArray = []
-    var predictedIndicators = []
+    ws.onmessage = function (event) {
+        console.log('message recieved')
+        resp.push(event.data)
+        console.log(resp)
+    }
 
-    d3.dsv(",", "../resources/weights1.csv", 
-        function(d) {
-            return d
-        })
-        .then(function(data){
-            weights = data
+    var millisecondsToWait = 1000
 
-            for (i = 0; i < 5; i++){
-                weightArray.push(Object.values(weights[i]))
-            }
+    setTimeout( function() {
+        ws.send(msg)
+    }, millisecondsToWait)
 
-            for (i = 0; i < 24; i++){
-                indicator = parseFloat(weightArray[0][i])
-                for (j = 0; j < 4; j++){
-                    indicator += parseFloat(industryValues[j]) * parseFloat(weightArray[j+1][i])
-                }
-                predictedIndicators.push(indicator)
-            }
-
-        })
-
-        var cancerOutput = predictOnModelTwo(predictedIndicators)
-        return cancerOutput
-}
-
-function predictOnModelTwo(indicators){
-
-    var predictedCancer = []
-
-    d3.dsv(",", "../resources/weights2.csv", 
-        function(d) {
-            return d
-        })
-        .then(function(data){
-            weights = data
-            var cancerCalc = parseFloat(weights[0].weights)
-
-            for (i = 0; i < indicators.length; i++){
-                cancerCalc += indicators[i] * parseFloat(weights[i+1].weights)
-            }
-
-            predictedCancer.push(cancerCalc)
-            predictedCancer.push(20)
-            predictedCancer.push(40)
-            predictedCancer.push(60)
-            predictedCancer.push(80)
-            // more dummies
-            // [23, 24, 25, 25].forEach( d=> {predictedCancer.push(d)})
-        })
-
-        return predictedCancer
+    return resp
 }
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
