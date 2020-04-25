@@ -141,7 +141,7 @@ function parseSubsetValues(entry, subsetKeys, randOffset) {
 // QUERY PREDICTIVE MODEL
 
 function getEditedCancerValues(msg) {
-    ws = new WebSocket("ws://127.0.0.1:8181/"),
+    ws = new WebSocket("ws://127.0.0.1:8081/"),
     messages = document.createElement('ul');
     var resp = []
 
@@ -340,6 +340,59 @@ function topRatesInFips(dataSet, dataNames, fips, howMany, whichVal){
     return top_data_list
 }
 
+
+function prepSliderScaleFactors(sliderValsRaw) {
+
+    sliderKeys = Object.keys(sliderValsRaw)
+
+    scaleFactors = {}
+
+    for (var i=0; i<sliderKeys.length; i++) {
+        var industryCode = String(getKeyByValue(industryNames, sliderKeys[i]))
+        scaleFactors[industryCode] = +sliderValsRaw[sliderKeys[i]]
+    }
+    return scaleFactors
+}
+
+
+function getIndicatorsInFIPS(fips, applySliderScale=true) {
+
+    var sliderValsRaw = querySliders()
+    var scaleFactors = prepSliderScaleFactors(sliderValsRaw)
+
+
+    var indicatorCols = ['ACID', 'ENRG', 'ETOX', 'EUTR', 'FOOD', 'GCC', 'HAPS', 'HAZW', 'HC',
+    'HNC', 'HRSP', 'HTOX', 'JOBS', 'LAND', 'METL', 'MINE', 'MSW', 'NREN',
+    'OZON', 'PEST', 'REN', 'SMOG', 'VADD', 'WATR']
+
+    var indicatorVals = new Array(indicatorCols.length).fill(0)
+
+    var industryKeys = Object.keys(industryData.ActualRate)
+
+    industryKeys.forEach( indKey => {
+
+        for (var i=0; i<indicatorVals.length; i++) {
+
+            var whichIndicator = indicatorCols[i]
+            var dataInFIPS = industryData.ActualRate[indKey]
+            if (dataInFIPS.hasOwnProperty(fips)) {
+                var indValInFIPS = dataInFIPS[fips][whichIndicator]
+            } else {
+                var indValInFIPS = 0.0
+            }
+
+            // Log the value
+            if (applySliderScale==true && scaleFactors.hasOwnProperty(indKey)) {
+                indicatorVals[i] += (indValInFIPS * scaleFactors[indKey] / 100)
+            } else {
+                indicatorVals[i] += indValInFIPS
+            }
+        }
+    })
+    return indicatorVals
+}
+
+
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // INTERACTION FUNCTIONS
 // 
@@ -473,7 +526,8 @@ var promises = [
     d3.json("./resources/us-10m.v1.json"),
     d3.tsv("./resources/cancer_byCounty_byType.tsv"),
     d3.csv("./resources/cancer_ID_list.csv"),
-    d3.tsv("./resources/industry_byCounty_byType.tsv"),
+    // d3.tsv("./resources/industry_byCounty_byType.tsv"),
+    d3.tsv("./resources/final_industry_byCounty_byType.tsv"),
     d3.csv("./resources/industry_ID_list.csv"),
     d3.csv("./resources/data_viz_full.csv"),
     d3.csv("./resources/counties_fips.csv")
@@ -556,7 +610,7 @@ function ready(values) {
 
 
     // Pick Industry Sliders by Payann
-    startUpFIPS = 21197
+    startUpFIPS = 13121
     sliderData = topRatesInFips(industryData, industryNames, String(startUpFIPS), 5, "payann")
     drawSliders(sliderData, isUpdate=false)
     drawScatter(values[5])
@@ -596,7 +650,9 @@ function querySliders() {
 
     sliderList.forEach( sliderName => {
 
-        sliderVals[sliderName] = document.getElementById(sliderName).value
+        var industryName = document.getElementById('Label' + sliderName).innerText
+
+        sliderVals[industryName] = document.getElementById(sliderName).value
 
     })
     return sliderVals
@@ -669,7 +725,7 @@ function updateAll(whichDataSet, isUpdate){
     updateMap(vizData, isUpdate)
 
     // Draw the bar graph
-    var startUpFIPS = 21197
+    var startUpFIPS = 13121
     barData = topRatesInFips(cancerData, cancerNames, startUpFIPS, howMany=5,'annual_count')
     barData = updatePredictedBarData(barData)
     drawBars(barData, startUpFIPS, isUpdate)
