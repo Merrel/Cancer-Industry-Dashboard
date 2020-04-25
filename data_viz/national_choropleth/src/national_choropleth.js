@@ -141,7 +141,7 @@ function parseSubsetValues(entry, subsetKeys, randOffset) {
 // QUERY PREDICTIVE MODEL
 
 function getEditedCancerValues(msg) {
-    ws = new WebSocket("ws://127.0.0.1:8181/"),
+    ws = new WebSocket("ws://127.0.0.1:8081/"),
     messages = document.createElement('ul');
     var resp = []
 
