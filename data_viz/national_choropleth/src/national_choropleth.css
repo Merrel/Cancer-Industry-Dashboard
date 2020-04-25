@@ -105,7 +105,7 @@ input[type="radio"] {
     display: inline-block;
     vertical-align: middle;
     border-radius: 5px;
-    width: 120px;
+    width: 200px;
 }
 
 .btn:hover,

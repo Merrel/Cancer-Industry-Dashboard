@@ -25,51 +25,46 @@
 
         <!-- ------------------------------------------------------------------------------------------------------ -->
         <!-- Map Data Selectors -->
-        <div class="flex">
-            <div class="col c1">
-                <table>
-                    <tr>
-                        <th>Data to plot</th>
-                        <th>Data Color Scale</th>
-                        <th>Data Subset Displayed</th>
-                    </tr>
-                    <tr>
-                        <th align="left">
-                            <form id="dataSetOption">
-                                <input  type='radio' id="cancer" name="mode" checked>
-                                <label for="cancer">Cancer Data</label><br>
-                                <input  type='radio' id="industry" name="mode" >
-                                <label for="industry">Industry Data</label><br>
-                                <input  type='radio' id="industry2" name="mode" >
-                                <label for="industry2">Industry Dimitri</label>
-                            </form>
-                        </th>
-                        <th align="left">
-                            <form id="colorScaleOption">
-                                <input  type='radio' id="continuous-linear" name="mode" checked>
-                                <label for="continuous-linear">Value - Linear Scale</label><br>
-                                <input  type='radio' id="continuous-log" name="mode" >
-                                <label for="continuous-log">Value - Log Scale</label><br>
-                                <input type='radio' id="DeltaLinear" name="mode">
-                                <label for="DeltaLinear">Delta from Avg</label>
-                            </form>
-                        </th>
-                        <th align="left">
+        <div>
+            <table>
+                <tr>
+                    <th>Data to plot</th>
+                    <th>Data Color Scale</th>
+                    <th>Data Subset Displayed</th>
+                </tr>
+                <tr>
+                    <th align="left">
+                        <form id="dataSetOption">
+                            <input  type='radio' id="cancer" name="mode" checked>
+                            <label for="cancer">Cancer Data</label><br>
+                            <input  type='radio' id="industry" name="mode" >
+                            <label for="industry">Industry Data</label><br>
+                            <input  type='radio' id="industry2" name="mode" >
+                            <label for="industry2">Industry Dimitri</label>
+                        </form>
+                    </th>
+                    <th align="left">
+                        <form id="colorScaleOption">
+                            <input  type='radio' id="continuous-linear" name="mode" checked>
+                            <label for="continuous-linear">Value - Linear Scale</label><br>
+                            <input  type='radio' id="continuous-log" name="mode" >
+                            <label for="continuous-log">Value - Log Scale</label><br>
+                            <input type='radio' id="DeltaLinear" name="mode">
+                            <label for="DeltaLinear">Delta from Avg</label>
+                        </form>
+                    </th>
+                    <th align="left">
 
-                            <div id="form1" class="dropDown"></div>
-                            <div id="form2" class="dropDown"></div>
+                        <div id="form1" class="dropDown"></div>
+                        <div id="form2" class="dropDown"></div>
 
-                        </th>
-                        <th><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></th>
-                        <th>
-                            <button class="btn" id="resetViewButton">Reset View</button>
-                        </th>
-                    </tr>
-                </table>
-            </div>
-            <div class="col c2">
-                <h3>Data Selectors</h3>
-            </div>
+                    </th>
+                    <th><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p></th>
+                    <th>
+                        <button class="btn" id="resetViewButton">Reset View</button>
+                    </th>
+                </tr>
+            </table>
         </div>
 
         <div id='mapLegend'></div>
@@ -127,6 +122,7 @@
                     <tr>
                         <th>
                             <button class="btn" id="resetSlidersButton">Reset Sliders</button>
+                            <button class="btn" id="runPredictionButton">Update Prediction</button>
                         </th>
                     </tr>
                 </table>  
