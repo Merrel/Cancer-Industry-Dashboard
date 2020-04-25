@@ -2,7 +2,7 @@
 // SVG Canvas Definition  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // Define margin and canvas size
 // - Credit margining style to Mike Bostock  (also just common D3 best practice)
-const margin = {top: 20, right: 40, bottom: 60, left: 120}
+const margin = { top: 20, right: 40, bottom: 60, left: 120 }
 
 // Set width and height of the graph canvas
 // - note that this will be smaller than the SVG canvas
@@ -15,26 +15,30 @@ const svgWidth = 1075
     , transition_time = 350
     , circle_rad = 4
 
+
+
+
+
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // CHART 1 Canvas
 // 
 
 // Now draw the SVG canvas and a 'g' element to house our graph
-var svg1 =    d3.select("#choropleth").append("svg")
-                .attr("width", svgWidth)
-                .attr("height", svgHeight)
-                .on("click", reset);
+var svg1 = d3.select("#choropleth").append("svg")
+    .attr("width", svgWidth)
+    .attr("height", svgHeight)
+    .on("click", reset);
 
 // Append 'g' element to contain graph and adjust it to fit within the margin
-var mapChart =  svg1.append("g")
-                    .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
-                    
+var mapChart = svg1.append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+
 // Configure the paths
 var path = d3.geoPath();
 
 // Set up zoom levels
 const zoom = d3.zoom()
-    .scaleExtent([1,8])
+    .scaleExtent([1, 8])
     .on("zoom", zoomed)
 
 svg1.call(zoom)
@@ -46,13 +50,49 @@ svg1.call(zoom)
 // Now draw the SVG canvas and a 'g' element to house our graph
 var svg2 = d3.select("#barsTopCancer").append("svg")
     .attr("width", svgWidth)
-    .attr("height", svgHeight/2)
-    // .attr("transform", "translate(0," + margin.top*2 + ")")
+    .attr("height", svgHeight / 2)
+// .attr("transform", "translate(0," + margin.top*2 + ")")
 
 // Append 'g' element to contain graph and adjust it to fit within the margin
 var barChart = svg2.append("g")
-                  .attr("id", "dynaBars")
-                  .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+    .attr("id", "dynaBars")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+
+
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// CHART 2 Canvas
+// 
+
+// Now draw the SVG canvas and a 'g' element to house our graph
+var svg3 = d3.select("#barsCompCancer").append("svg")
+    .attr("width", svgWidth)
+    .attr("height", svgHeight)
+// .attr("transform", "translate(0," + margin.top*2 + ")")
+
+// Append 'g' element to contain graph and adjust it to fit within the margin
+var barChart2 = svg3.append("g")
+    .attr("id", "compBars")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+
+
+
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// CHART 2 Canvas
+// 
+
+// Now draw the SVG canvas and a 'g' element to house our graph
+var svg3 = d3.select("#barsCompCancer").append("svg")
+    .attr("width", svgWidth)
+    .attr("height", svgHeight)
+// .attr("transform", "translate(0," + margin.top*2 + ")")
+
+// Append 'g' element to contain graph and adjust it to fit within the margin
+var barChart2 = svg3.append("g")
+    .attr("id", "compBars")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+
 
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -63,7 +103,7 @@ function formatData(rawData, rate_col_title) {
 
     var cancer_by_type = d3.map();
 
-    for (var i = 1; i<rawData.length; i++){
+    for (var i = 1; i < rawData.length; i++) {
 
         entry = rawData[i]
         cancer_id = "$" + entry.cancer
@@ -73,7 +113,7 @@ function formatData(rawData, rate_col_title) {
             this_cancer[entry.id] = +entry[rate_col_title];
         } else {
             id = entry.id;
-            cancer_by_type.set(entry.cancer, {id: +entry[rate_col_title]})
+            cancer_by_type.set(entry.cancer, { id: +entry[rate_col_title] })
         }
     }
     return cancer_by_type
@@ -86,13 +126,15 @@ function getKeyByValue(object, value) {
     return Object.keys(object).find(key => object[key] === value);
 }
 
-function getFormValues(){
+function getFormValues() {
     // Pick which data view is selected in radio buttons
     var form = document.getElementById("dataView")
     var view_type;
-    for(var i=0; i<form.length; i++){
-    if(form[i].checked){
-        view_type = form[i].id;}}
+    for (var i = 0; i < form.length; i++) {
+        if (form[i].checked) {
+            view_type = form[i].id;
+        }
+    }
 
     // Get slected value of cancer type
     var sel = document.getElementById('hitme')
@@ -101,18 +143,18 @@ function getFormValues(){
     return [cancer_type, view_type]
 }
 
-function define_colormap(cancer_id, allCancer, scale_type){
+function define_colormap(cancer_id, allCancer, scale_type) {
 
     // Get the cancer to scale
     var thisCancer = allCancer.get(cancer_id)
 
-    if (scale_type == "linear"){
+    if (scale_type == "linear") {
         // Get the range of cancer rate values
         rate_vals = [];
-        for(var key in thisCancer) {
+        for (var key in thisCancer) {
             rate_vals.push(thisCancer[key]);
         }
-    
+
         rate_max = Math.ceil(d3.max(rate_vals) / 10) * 10
         rate_step = rate_max / 9
 
@@ -120,20 +162,20 @@ function define_colormap(cancer_id, allCancer, scale_type){
         var x = d3.scaleLinear()
             .rangeRound([600, 860])
             .domain([1, rate_max]);
-    
+
         var colormap = d3.scaleThreshold()
             .range(d3.schemePuRd[9])
-            .domain(d3.range(rate_step, rate_max+rate_step, rate_step));
-        
+            .domain(d3.range(rate_step, rate_max + rate_step, rate_step));
+
         return colormap
     } else {
         color_diverging = d3.scaleDiverging([-100.0, 0, 100], d3.interpolatePuOr)
-                            // .domain([extent[0], 0, extent[1]])
-                            // .interpolator(d3.interpolateRdBu)
-    
-        
-        colormap = function(d){
-            if (Math.abs(d)==100){
+        // .domain([extent[0], 0, extent[1]])
+        // .interpolator(d3.interpolateRdBu)
+
+
+        colormap = function (d) {
+            if (Math.abs(d) == 100) {
                 d = 0
             }
             return color_diverging(d)
@@ -150,32 +192,32 @@ function define_colormap(cancer_id, allCancer, scale_type){
 function reset() {
     resetStyle()
     svg1.transition().duration(750).call(
-      zoom.transform,
-      d3.zoomIdentity,
-      d3.zoomTransform(svg1.node()).invert([width / 2, height / 2])
+        zoom.transform,
+        d3.zoomIdentity,
+        d3.zoomTransform(svg1.node()).invert([width / 2, height / 2])
     );
 }
 
 function resetStyle() {
 
     mapChart
-    .select('#renderedCounties')
-    .selectAll('path')
-    .data(topojson.feature(us_topojson, us_topojson.objects.counties).features)
-    // .style("fill", function(d) { return colormap(d.rate = this_cancer[d.id]); })
-    .style("stroke-opacity", 0)
+        .select('#renderedCounties')
+        .selectAll('path')
+        .data(topojson.feature(us_topojson, us_topojson.objects.counties).features)
+        // .style("fill", function(d) { return colormap(d.rate = this_cancer[d.id]); })
+        .style("stroke-opacity", 0)
 
 }
 
 
 function clicked(d) {
-    
+
     resetStyle()
     // Add stroke to selected county
     d3.select(this).style("stroke-opacity", 1)
 
     // Get the state fips code for the selected county
-    var state_fips = d.id.substr(0,2)
+    var state_fips = d.id.substr(0, 2)
 
     var county_fips = d.id
 
@@ -183,58 +225,59 @@ function clicked(d) {
 
     // Pick the state to zoom to
     us_topojson.objects.states.geometries.forEach(d => {
-        if (d.id == state_fips){
+        if (d.id == state_fips) {
             d_state = d
         }
     })
-    this_state = {type: "GeometryCollection", geometries: [d_state]}
+    this_state = { type: "GeometryCollection", geometries: [d_state] }
     state_geo = topojson.feature(us_topojson, this_state).features[0]
 
     // Zoom to path bounds
     const [[x0, y0], [x1, y1]] = path.bounds(state_geo);
     d3.event.stopPropagation();
     svg1.transition().duration(750).call(
-      zoom.transform,
-      d3.zoomIdentity
-        .translate(width / 2, height / 2)
-        .scale(Math.min(8, 0.9 / Math.max((x1 - x0) / width, (y1 - y0) / height)))
-        .translate(-(x0 + x1) / 2, -(y0 + y1) / 2),
-      d3.mouse(svg1.node())
+        zoom.transform,
+        d3.zoomIdentity
+            .translate(width / 2, height / 2)
+            .scale(Math.min(8, 0.9 / Math.max((x1 - x0) / width, (y1 - y0) / height)))
+            .translate(-(x0 + x1) / 2, -(y0 + y1) / 2),
+        d3.mouse(svg1.node())
     );
 
     // Log top cancers
-    var barData = topCancerInFips(cancerData, county_fips, howMany=5)
-    drawBars(barData, isUpdate=true)
+    var barData = topCancerInFips(cancerData, county_fips, howMany = 5)
+    drawBars(barData, isUpdate = true)
+    drawComparisonBars(barData, isUpdate = true)
 
 }
 
 function zoomed() {
-    const {transform} = d3.event;
+    const { transform } = d3.event;
     mapChart.attr("transform", transform);
     mapChart.attr("stroke-width", 1 / transform.k);
 }
 
-function topCancerInFips(cancerData, fips, howMany=10){
+function topCancerInFips(cancerData, fips, howMany = 10) {
 
     rates_dict = {}
     rates_list = []
 
-    Object.keys(cancerData.ActualRate).forEach( d=>{
+    Object.keys(cancerData.ActualRate).forEach(d => {
         this_key = parseInt(d.split("$")[1])
-        if (this_key!=1){
+        if (this_key != 1) {
             this_cancer = cancerData.ActualRate.get(this_key)
             rates_dict[this_key] = parseFloat(this_cancer[fips])
             rates_list.push(parseFloat(this_cancer[fips]))
         }
     })
 
-    rates_list = rates_list.sort(function(a,b) { return a - b;}).reverse()
+    rates_list = rates_list.sort(function (a, b) { return a - b; }).reverse()
 
     top_cancer_list = []
-    for (var i=0; i<howMany; i++) {
+    for (var i = 0; i < howMany; i++) {
         id = parseInt(getKeyByValue(rates_dict, rates_list[i]))
         top_cancer_list.push(
-            {'cancer': cancer_dict[id], 'rate': cancerData.ActualRate.get(id)[fips]}
+            { 'cancer': cancer_dict[id], 'actual': cancerData.ActualRate.get(id)[fips], 'pred': cancerData.ActualRate.get(id)[fips] }
         )
     }
 
@@ -248,9 +291,9 @@ function topCancerInFips(cancerData, fips, howMany=10){
 // LOAD DATA
 // 
 var promises = [
-d3.json("https://d3js.org/us-10m.v1.json"),
-d3.tsv("cancer_byCounty_byType.tsv"),
-d3.csv("cancer_ID_list.csv")
+    d3.json("https://d3js.org/us-10m.v1.json"),
+    d3.tsv("cancer_byCounty_byType.tsv"),
+    d3.csv("cancer_ID_list.csv")
 ]
 
 Promise.all(promises).then(ready)
@@ -267,9 +310,11 @@ function ready(values) {
     }
 
     cancer_dict = {}
-    values[2].forEach(function(item){
+    values[2].forEach(function (item) {
         cancer_dict[+item.Cancer_ID] = item.Cancer_Description
     })
+
+    //cancerPredData
 
 
     // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
@@ -279,7 +324,7 @@ function ready(values) {
     // Get cancer keys
     cancer_keys = [];
 
-    Object.keys(cancerData.ActualRate).forEach( d=>{
+    Object.keys(cancerData.ActualRate).forEach(d => {
         new_key = parseInt(d.split("$")[1])
         // cancer_keys.push(new_key)
         cancer_keys.push(cancer_dict[new_key])
@@ -291,7 +336,7 @@ function ready(values) {
     // Draw the cancert type selector with D3
     d3.select('#dataSelector')
         .append('select')
-        .attr('class','select')
+        .attr('class', 'select')
         .attr('id', 'hitme')
         .on('change', val => {
 
@@ -299,12 +344,12 @@ function ready(values) {
             selected_cancer_id = parseInt(getKeyByValue(cancer_dict, viewOptions[0]))
             selected_rate_type = viewOptions[1]
 
-            updateMap(cancer_id=selected_cancer_id, selected_rate_type, isUpdate=true)
+            updateMap(cancer_id = selected_cancer_id, selected_rate_type, isUpdate = true)
         })
         .selectAll('option')
-            .data(cancer_keys).enter()
-            .append('option')
-                .text(d => d)
+        .data(cancer_keys).enter()
+        .append('option')
+        .text(d => d)
 
     // DATA VIEW
     // - Add interactivity on radio button change
@@ -314,31 +359,32 @@ function ready(values) {
             var viewOptions = getFormValues()
             selected_cancer_id = parseInt(getKeyByValue(cancer_dict, viewOptions[0]))
             selected_rate_type = viewOptions[1]
-            
-            updateMap(cancer_id=selected_cancer_id, selected_rate_type, isUpdate=true)
+
+            updateMap(cancer_id = selected_cancer_id, selected_rate_type, isUpdate = true)
         })
 
 
-    var updateMap = function(cancer_id, rateType, isUpdate){
+    var updateMap = function (cancer_id, rateType, isUpdate) {
 
-        if (rateType=="ActualRate"){
+        if (rateType == "ActualRate") {
             var selectedCancerData = cancerData['ActualRate']
-            colormap = define_colormap(cancer_id, selectedCancerData, scale_type="linear")
+            colormap = define_colormap(cancer_id, selectedCancerData, scale_type = "linear")
         } else {
 
-        var selectedCancerData = cancerData['DeltaRate']
-        colormap = define_colormap(cancer_id, selectedCancerData, scale_type="diverging")
+            var selectedCancerData = cancerData['DeltaRate']
+            colormap = define_colormap(cancer_id, selectedCancerData, scale_type = "diverging")
         }
-        
+
         drawCancerMap(us_topojson, selectedCancerData, cancer_id, colormap, isUpdate)
     }
 
-    updateMap(1, "DeltaRate", isUpdate=false)
+    updateMap(1, "DeltaRate", isUpdate = false)
 
 
     barData = topCancerInFips(cancerData, 21197, 5)
 
-    drawBars(barData, isUpdate=false)
+    drawBars(barData, isUpdate = false)
+    drawComparisonBars(barData, isUpdate = false)
 
 }
 
@@ -351,20 +397,22 @@ function ready(values) {
 
 function drawBars(barData, isUpdate) {
 
+    console.log(barData)
+
     barChart = d3.select("#dynaBars")
 
     // SCALES - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
     //
     // Set up a dynamic scale for the x-axis
-    var xMax_bar = d3.max(barData, function(d) { return d.rate }),
-        xMin_bar = d3.min(barData, function(d) { return d.rate }),
+    var xMax_bar = d3.max(barData, function (d) { return d.actual }),
+        xMin_bar = d3.min(barData, function (d) { return d.actual }),
         xScale_bar = d3.scaleLinear()
-                .domain([0, 200])              // domain of inputs;
-                .range([0, width])  // range of output draw coords in px
+            .domain([0, 200])              // domain of inputs;
+            .range([0, width])  // range of output draw coords in px
 
     var barScale = d3.scaleBand()
-        .domain(barData.map(function(d) { return d.cancer }))
-        .range([0, height/2])
+        .domain(barData.map(function (d) { return d.cancer }))
+        .range([0, height / 2])
         .padding(0.2)
 
     // Axes - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -372,38 +420,36 @@ function drawBars(barData, isUpdate) {
     // Set up a dynamic x-axis
 
     var xAxis = d3.axisBottom()
-                .scale(xScale_bar)
-                .tickSize(5)
-                
+        .scale(xScale_bar)
+        .tickSize(5)
+
     // Y Axis
     var yAxis = d3.axisLeft()
-                .scale(barScale)
-                .ticks(10)
-
+        .scale(barScale)
+        .ticks(10)
     
-    if (isUpdate==false) {
-        barChart.append('g')
-            .attr('class', 'y axis')
-            .call(yAxis)
-            // .style('opacity', 0.0)
+    if (isUpdate == false) {
 
         barChart.append('g')
             .attr('class', 'x axis')
             .call(xAxis)
-            .attr('transform', 'translate(0,' + height/2 + ')')
-            // .style('opacity', 0.0)
+            .attr('transform', 'translate(0,' + height / 2 + ')')
+
+        barChart.append('g')
+            .attr('class', 'y axis')
+            .call(yAxis)
 
         // Enter the bars d3 object to run the drawing loop for each item in the dataset
         barChart.selectAll('rect')
             .data(barData)
-        .enter()
+            .enter()
             .append('rect')
             .attr('class', 'bar')
             .attr('x', 0)
-            .attr('y', d => barScale(d.cancer) )
-            .attr('width', d => xScale_bar(d.rate) )
-            .attr('height', barScale.bandwidth() )
-            // .style('opacity', 0.0)
+            .attr('y', d => barScale(d.cancer))
+            .attr('width', d => xScale_bar(d.actual))
+            .attr('height', barScale.bandwidth())
+        // .style('opacity', 0.0)
 
     } else {
 
@@ -411,13 +457,13 @@ function drawBars(barData, isUpdate) {
             .transition()
             .duration(transition_time)
             .call(xAxis)
-            // .style('opacity', 1.0)
+        // .style('opacity', 1.0)
 
         barChart.select('.y.axis')
             .transition()
             .duration(transition_time)
             .call(yAxis)
-            // .style('opacity', 1.0)
+        // .style('opacity', 1.0)
 
         barChart.selectAll('rect')
             .data(barData)
@@ -426,17 +472,169 @@ function drawBars(barData, isUpdate) {
             // .ease(d3.easeElasticOut)
             .attr('class', 'bar')
             .attr('x', 0)
-            .attr('y', d => barScale(d.cancer) )
-            .attr('width', d => xScale_bar(d.rate) )
-            .attr('height', barScale.bandwidth() )
+            .attr('y', d => barScale(d.cancer))
+            .attr('width', d => xScale_bar(d.actual))
+            .attr('height', barScale.bandwidth())
             .attr('hello', d => {
-                console.log(d)
+                //console.log(d)
                 return 'world'
             })
-            // .style('opacity', 1.0)
+        // .style('opacity', 1.0)
 
     }
 }
+
+
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// COMPARISON BAR CHART  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+// 
+
+
+function drawComparisonBars(barData, isUpdate) {
+
+    console.log(barData)
+
+    var subgroups = Object.keys(barData[0]).slice(1);
+
+    console.log(subgroups)
+
+    // List of groups = species here = value of the first column called group -> I show them on the X axis
+    var groups = d3.map(barData, function (d) { return (d.cancer) }).keys()
+
+    console.log(groups)
+
+    //subgroups.map(function (key) { return { key: key, value: d[key] }; });
+
+    barChart2 = d3.select("#compBars")
+
+    // Add X axis
+    var x = d3.scaleBand()
+        .domain(groups)
+        .range([0, width])
+        .padding([0.2])
+
+    // Add Y axis
+    var y = d3.scaleLinear()
+        .domain([0, 200])
+        //.domain([0, d3.max(barData, function (d) { return d3.max(subgroups, function (key) { return d[key]; }); })])
+        .range([height, 0]);
+
+
+    // Another scale for subgroup position?
+    var xSubgroup = d3.scaleBand()
+        .domain(subgroups)
+        .range([0, x.bandwidth()])
+        .padding([0.05])
+
+    // color palette = one color per subgroup
+    var color = d3.scaleOrdinal()
+        .domain(subgroups)
+        .range(['#e41a1c', '#4daf4a'])
+
+
+
+
+    var legend = barChart2.append("g")
+        .attr("font-family", "sans-serif")
+        .attr("font-size", 10)
+        .attr("text-anchor", "end")
+        .selectAll("g")
+        .data(subgroups.slice().reverse())
+        .enter().append("g")
+        .attr("transform", function (d, i) { return "translate(0," + i * 20 + ")"; });
+
+    legend.append("rect")
+        .attr("x", width - 19)
+        .attr("width", 19)
+        .attr("height", 19)
+        .attr("fill", color);
+
+    
+
+
+
+    if (isUpdate == false) {
+
+        barChart2.append("g")
+            .attr('class', 'x axis')
+            .attr("transform", "translate(0," + height + ")")
+            .call(d3.axisBottom(x).tickSize(0));
+
+        legend.append("text")
+            .attr("x", width - 24)
+            .attr("y", 9.5)
+            .attr("dy", "0.32em")
+            .text(function (d) { return d; });
+
+        barChart2.append("g")
+            .attr('class', 'y axis')
+            .call(d3.axisLeft(y));
+
+        // Show the bars
+        barChart2.append("g")
+            .selectAll("g")
+            // Enter in data = loop group per group
+            .data(barData)
+            .enter()
+            .append("g")
+            .attr("transform", function (d) { return "translate(" + x(d.cancer) + ",0)"; })
+            .selectAll("rect")
+            .attr('class', 'bars')
+            .data(function (d) { return subgroups.map(function (key) { return { key: key, value: d[key] }; }); })
+            .enter().append("rect")
+            .attr("x", function (d) { return xSubgroup(d.key); })
+            .attr("y", function (d) { return y(d.value); })
+            .attr("width", xSubgroup.bandwidth())
+            .attr("height", function (d) { return height - y(d.value); })
+            .attr("fill", function (d) { return color(d.key); });
+
+
+    } else {
+
+        barChart2.select('.x.axis')
+            //.attr("transform", "translate(0," + height + ")")
+            .transition()
+            .duration(transition_time)
+            .call(d3.axisBottom(x).tickSize(0));
+
+        barChart2.select('.y.axis')
+            .transition()
+            .duration(transition_time)
+            .call(d3.axisLeft(y));
+
+        console.log(barData);
+
+        var bars = barChart2.selectAll("rect")
+            .remove()
+            .exit()
+
+        legend.append("rect")
+            .attr("x", width - 19)
+            .attr("width", 19)
+            .attr("height", 19)
+            .attr("fill", color);
+
+        bars
+            .data(barData)
+            .enter()
+            .append("g")
+            .attr("transform", function (d) { return "translate(" + x(d.cancer) + ",0)"; })
+            .selectAll("rect")
+            .attr('class', 'bars')
+            .data(function (d) { return subgroups.map(function (key) { return { key: key, value: d[key] }; }); })
+            .enter().append("rect")
+            .attr("x", function (d) { return xSubgroup(d.key); })
+            .attr("y", function (d) { return y(d.value); })
+            .attr("width", xSubgroup.bandwidth())
+            .attr("height", function (d) { return height - y(d.value); })
+            .attr("fill", function (d) { return color(d.key); });
+
+    }
+
+
+}
+
 
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -446,6 +644,25 @@ function drawCancerMap(us_data, all_cancers, cancer_id, colormap, isUpdate) {
 
     this_cancer = all_cancers.get(cancer_id)
 
+    /* d3.select("body")
+        .append("svg")
+        .attr("class", "legend");
+
+
+    var legend = d3.legend
+        .color()
+        .shapeHeight(10)
+        .shapeWidth(50)
+        .shapePadding(0)
+        .labelOffset(5)
+        .labelFormat(d3.format("%"))
+        .orient("horizontal")
+        .labelAlign("start")
+        .scale(colormap);
+
+
+    d3.select(".legend").call(legend); */
+
     //
     // Establish Scales for the legend and colormap
     //
@@ -454,7 +671,7 @@ function drawCancerMap(us_data, all_cancers, cancer_id, colormap, isUpdate) {
     // Draw the map
     //
 
-    if (isUpdate===false){
+    if (isUpdate === false) {
 
 
         mapChart.append("path")
@@ -464,24 +681,24 @@ function drawCancerMap(us_data, all_cancers, cancer_id, colormap, isUpdate) {
             .style("stroke-width", 1)
 
         mapChart.append("g")
-        .attr('id', 'renderedCounties')
-        .attr("class", "counties")
-        .selectAll("path")
-        .data(topojson.feature(us_data, us_data.objects.counties).features)
-      .enter()
-        .append("path")
-        .on("click", clicked)
-        .on("dblclick", reset)
-        .style("fill", function(d) { return colormap(d.rate = this_cancer[d.id]); })
-        .style("stroke", "black")
-        .style("stroke-width", 0.3)
-        .style("stroke-opacity", 0)
-        .attr("d", path)
-        .append("title")
-            .text(function(d) { return d.id; });
-        
+            .attr('id', 'renderedCounties')
+            .attr("class", "counties")
+            .selectAll("path")
+            .data(topojson.feature(us_data, us_data.objects.counties).features)
+            .enter()
+            .append("path")
+            .on("click", clicked)
+            .on("dblclick", reset)
+            .style("fill", function (d) { return colormap(d.rate = this_cancer[d.id]); })
+            .style("stroke", "black")
+            .style("stroke-width", 0.3)
+            .style("stroke-opacity", 0)
+            .attr("d", path)
+            .append("title")
+            .text(function (d) { return d.id; });
+
         mapChart.append("path")
-            .datum(topojson.mesh(us_data, us_data.objects.states, function(a, b) { return a !== b; }))
+            .datum(topojson.mesh(us_data, us_data.objects.states, function (a, b) { return a !== b; }))
             .attr("class", "states")
             .style("stroke", "#aaabad")
             .style("stroke-width", 1)
@@ -494,12 +711,12 @@ function drawCancerMap(us_data, all_cancers, cancer_id, colormap, isUpdate) {
             .select('#renderedCounties')
             .selectAll('path')
             .data(topojson.feature(us_data, us_data.objects.counties).features)
-            .style("fill", function(d) { return colormap(d.rate = this_cancer[d.id]); })
+            .style("fill", function (d) { return colormap(d.rate = this_cancer[d.id]); })
             .attr("d", path)
-            // .append("title")
-            //     .text(function(d) { return d.rate; });
+        // .append("title")
+        //     .text(function(d) { return d.rate; });
     }
-    
+
 }
 
 

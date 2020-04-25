@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<meta
+  name="viewport"
+  content="width=device-width, initial-scale=1, shrink-to-fit=no"
+/>
+<title>d3-simple-slider</title>
+
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="https://unpkg.com/d3-simple-slider"></script>
+
+<link
+  rel="stylesheet"
+  href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+  integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+  crossorigin="anonymous"
+/>
+
+<div class="container">
+
+  <h2>Industry 1</h2>
+  <div class="row align-items-center">
+    <div class="col-sm-2"><p id="value-1"></p></div>
+    <div class="col-sm"><div id="slider-1"></div></div>
+  </div>
+  <h2>Industry 2</h2>
+  <div class="row align-items-center">
+    <div class="col-sm-2"><p id="value-2"></p></div>
+    <div class="col-sm"><div id="slider-2"></div></div>
+  </div>
+  <h2>Industry 3</h2>
+  <div class="row align-items-center">
+    <div class="col-sm-2"><p id="value-3"></p></div>
+    <div class="col-sm"><div id="slider-3"></div></div>
+  </div>
+  <h2>Industry 4</h2>
+  <div class="row align-items-center">
+    <div class="col-sm-2"><p id="value-4"></p></div>
+    <div class="col-sm"><div id="slider-4"></div></div>
+  </div>
+</div>
+
+<script>
+
+  //////////////////
+  /// Industry 1 ///
+  //////////////////
+
+  var data = [0, 20, 40, 60, 80, 100];
+
+  var slider1 = d3
+    .sliderBottom()
+    .min(d3.min(data))
+    .max(d3.max(data))
+    .width(300)
+    .ticks(5)
+	.step(20)
+    .on('onchange', val => {
+      d3.select('p#value-1');
+    });
+
+  var gSimple = d3
+    .select('div#slider-1')
+    .append('svg')
+    .attr('width', 500)
+    .attr('height', 100)
+    .append('g')
+    .attr('transform', 'translate(30,30)');
+
+  gSimple.call(slider1);
+
+
+  //////////////////
+  /// Industry 2 ///
+  //////////////////
+
+  var slider2 = d3
+    .sliderBottom()
+    .min(d3.min(data))
+    .max(d3.max(data))
+    .width(300)
+    .ticks(5)
+    .step(20)
+    .on('onchange', val => {
+      d3.select('p#value-2');
+    });
+
+  var gStep = d3
+    .select('div#slider-2')
+    .append('svg')
+    .attr('width', 500)
+    .attr('height', 100)
+    .append('g')
+    .attr('transform', 'translate(30,30)');
+
+  gStep.call(slider2);
+
+
+  //////////////////
+  /// Industry 3 ///
+  //////////////////
+
+
+  var slider3 = d3 
+    .sliderBottom()
+    .min(d3.min(data))
+    .max(d3.max(data))
+    .width(300)
+    .ticks(5)
+    .step(20)
+    .on('onchange', val => {
+      d3.select('p#value-3');
+    });
+
+  var gTime = d3
+    .select('div#slider-3')
+    .append('svg')
+    .attr('width', 500)
+    .attr('height', 100)
+    .append('g')
+    .attr('transform', 'translate(30,30)');
+
+  gTime.call(slider3);
+
+
+  //////////////////
+  /// Industry 4 ///
+  //////////////////
+
+  var slider4 = d3
+    .sliderBottom()
+    .min(d3.min(data))
+    .max(d3.max(data))
+    .width(300)
+    .ticks(5)
+	.step(20)
+    .on('onchange', val => {
+      d3.select('p#value-4');
+    });
+
+  var gFill = d3
+    .select('div#slider-4')
+    .append('svg')
+    .attr('width', 500)
+    .attr('height', 100)
+    .append('g')
+    .attr('transform', 'translate(30,30)');
+
+  gFill.call(slider4);
+
+   
+</script>
