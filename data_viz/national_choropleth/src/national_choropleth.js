@@ -374,7 +374,12 @@ function getIndicatorsInFIPS(fips, applySliderScale=true) {
         for (var i=0; i<indicatorVals.length; i++) {
 
             var whichIndicator = indicatorCols[i]
-            var indValInFIPS = industryData.ActualRate[indKey][fips][whichIndicator]
+            var dataInFIPS = industryData.ActualRate[indKey]
+            if (dataInFIPS.hasOwnProperty(fips)) {
+                var indValInFIPS = dataInFIPS[fips][whichIndicator]
+            } else {
+                var indValInFIPS = 0.0
+            }
 
             // Log the value
             if (applySliderScale==true && scaleFactors.hasOwnProperty(indKey)) {
