@@ -46,7 +46,6 @@ const zoom = d3.zoom()
 
 svg1.call(zoom)
 
-
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // CHART 2 Canvas
 
@@ -60,7 +59,6 @@ var svg2 = d3.select("#barsTopCancer").append("svg")
 var barChart = svg2.append("g")
                   .attr("id", "barsCancerCount")
                   .attr("transform", "translate(" + margin.left + "," + margin.top/2 + ")")
-
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // CHART 3 Canvas
@@ -150,24 +148,12 @@ function getEditedCancerValues(msg) {
     cancerPredictions = {}
 
     ws.onmessage = function (event) {
-        // console.log('message recieved')
-        // resp.push(event.data)
-        // console.log(resp)
         var pred_str = event.data.replace('[ ','').replace(']','').split(/[\s]+/)
-
-        // var results = []
-
         cancerNameKeys = Object.keys(cancerNames)
 
         for (var i=0; i<pred_str.length; i++) {
             cancerPredictions[cancerNames[cancerNameKeys[i]]] = +pred_str[i]
         }
-
-        // pred_str.forEach( d=> {
-        //     cancerPredictions.push(+d)
-        // })
-    
-        // return results
     }
 
     var millisecondsToWait = 1000
