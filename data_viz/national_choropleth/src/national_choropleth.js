@@ -138,14 +138,35 @@ function parseSubsetValues(entry, subsetKeys, randOffset) {
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // QUERY PREDICTIVE MODEL
 
-cancerPredictions = {}
+function predictBarChart (whichFIPS) {
+    // whichFIPS = querySelectedFIPS()
+    barData = topRatesInFips(cancerData, cancerNames, whichFIPS, howMany=5,'annual_count')
+    scaledIndustryIndicators = getIndicatorsInFIPS(whichFIPS) 
+    getEditedCancerValues(whichFIPS, barData, scaledIndustryIndicators)
+}
 
-function getEditedCancerValues(msg) {
+
+function getEditedCancerValues(fips, barData, scaledIndicators) {
     // ws = new WebSocket("ws://127.0.0.1:8081/"),
     ws = new WebSocket("ws://142.93.73.45:8181/"),
     messages = document.createElement('ul');
-    // var resp = []
+
+
+    // var millisecondsToWait = 1000
+
+    // setTimeout( function() {
+    //     ws.send(scaledIndicators)
+    // }, millisecondsToWait)
+
+    ws.onopen = function(event) {
+        ws.send(scaledIndicators)
+    }
+
+
+    // What to do when getting response back
     cancerPredictions = {}
+
+    // console.log("query predictive server at 142.93.73.45:8181")
 
     ws.onmessage = function (event) {
         var pred_str = event.data.replace('[ ','').replace(']','').split(/[\s]+/)
@@ -154,13 +175,18 @@ function getEditedCancerValues(msg) {
         for (var i=0; i<pred_str.length; i++) {
             cancerPredictions[cancerNames[cancerNameKeys[i]]] = +pred_str[i]
         }
+
+
+
+
+        barData = updatePredictedBarData(barData, cancerPredictions)
+        // console.log(barData)
+
+        drawBars(barData, fips, isUpdate=true)
+
     }
 
-    var millisecondsToWait = 1000
 
-    setTimeout( function() {
-        ws.send(msg)
-    }, millisecondsToWait)
 }
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -317,7 +343,7 @@ function topRatesInFips(dataSet, dataNames, fips, howMany, whichVal){
             rateInFips = 0
         }
         
-        var top
+        // var top
         if (rateInFips == null) {
             rateInFips = 1
             top_data_list.push(
@@ -395,23 +421,6 @@ function getIndicatorsInFIPS(fips, applySliderScale=true) {
     return indicatorVals
 }
 
-// acidVals = []
-// industryKeys.forEach( indKey => {
-//     var whichIndicator = 'ACID'
-//     var dataInFIPS = industryData.ActualRate[indKey]
-
-//     if (dataInFIPS.hasOwnProperty(fips)) {
-//         var indValInFIPS = dataInFIPS[fips][whichIndicator]
-//     } else {
-//         var indValInFIPS = 0.0
-//     }
-
-//     acidVals.push(indValInFIPS)
-// })
-// console.log(acidVals)
-// console.log(acidVals.reduce((a, b) => a + b, 0))
-
-
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 // INTERACTION FUNCTIONS
@@ -467,16 +476,12 @@ function clicked(d) {
       d3.mouse(svg1.node())
     )
 
-    // Log top rates
-
-    // var detailToPlot = getFormValues("detailSelector")
-    var barData = topRatesInFips(cancerData, cancerNames, countyFIPS, howMany=5, 'annual_count')
-    barData = updatePredictedBarData(barData)
-    drawBars(barData, countyFIPS, isUpdate=true)
-
     // Pick Industry Sliders by Payann
     sliderData = topRatesInFips(industryData, industryNames, String(countyFIPS), 5, "payann")
     drawSliders(sliderData, isUpdate=true)
+
+    // var detailToPlot = getFormValues("detailSelector")
+    predictBarChart(String(countyFIPS))
 
 }
 
@@ -547,7 +552,7 @@ var promises = [
     d3.tsv("./resources/cancer_byCounty_byType.tsv"),
     d3.csv("./resources/cancer_ID_list.csv"),
     // d3.tsv("./resources/industry_byCounty_byType.tsv"),
-    d3.tsv("./resources/final_industry_byCounty_byType.tsv"),
+    d3.tsv("./resources/industry_byCounty_byType_20200425.tsv"),
     d3.csv("./resources/industry_ID_list.csv"),
     d3.csv("./resources/data_viz_full.csv"),
     d3.csv("./resources/counties_fips.csv"),
@@ -590,6 +595,13 @@ function ready(values) {
     })
 
 
+    // Pick Industry Sliders by Payann
+    startUpFIPS = 13121
+    sliderData = topRatesInFips(industryData, industryNames, String(startUpFIPS), 5, "payann")
+    drawSliders(sliderData, isUpdate=false)
+    drawScatter(values[5])
+
+
     // Determine which data to plot
     updateAll(getFormValues('dataSetOption'), isUpdate=false)
     reset()
@@ -630,14 +642,10 @@ function ready(values) {
 
     // Run prediction button
     d3.select('#runPredictionButton')
-        .on("click", runBarchartUpdate)
-
-
-    // Pick Industry Sliders by Payann
-    startUpFIPS = 13121
-    sliderData = topRatesInFips(industryData, industryNames, String(startUpFIPS), 5, "payann")
-    drawSliders(sliderData, isUpdate=false)
-    drawScatter(values[5])
+        .on("click", function() {
+            whichFIPS = querySelectedFIPS()
+            predictBarChart(whichFIPS)
+        })
 }
  
 function drawSliders(sliderData, isUpdate=true) {
@@ -691,9 +699,7 @@ function resetSliders() {
 
     // TODO: call predict function with all correct values
     whichFIPS = querySelectedFIPS()
-    barData = topRatesInFips(cancerData, cancerNames, whichFIPS, howMany=5,'annual_count')
-    barData = updatePredictedBarData(barData)
-    drawBars(barData, whichFIPS, isUpdate=true)
+    predictBarChart(whichFIPS)
 }
 
 function getSliderValues(sliderList) {
@@ -744,19 +750,22 @@ function updateAll(whichDataSet, isUpdate){
     // Draw the bar graph
     var startUpFIPS = 13121
     barData = topRatesInFips(cancerData, cancerNames, startUpFIPS, howMany=5,'annual_count')
-    barData = updatePredictedBarData(barData)
+    // barData = updatePredictedBarData(barData)
     drawBars(barData, startUpFIPS, isUpdate)
+    predictBarChart(startUpFIPS)
 }
 
-function updatePredictedBarData(barData) {
+function updatePredictedBarData(barData, updatedCancerVals) {
+    
     // Get Predicted
     slidersNow = querySliders()
     sliderKeys = Object.keys(slidersNow)
 
-    updatedCancerVals = cancerPredictions
+    // updatedCancerVals = cancerPredictions
 
     for (var i=0; i<sliderKeys.length; i++){
-        newValue = parseFloat(cancerPredictions[barData[i]['data_id']])
+        newValue = parseFloat(updatedCancerVals[barData[i]['data_id']])
+
         if (newValue < 0) {
             barData[i]['annualCountPredicted'] = 0.0
         } else {
@@ -764,23 +773,19 @@ function updatePredictedBarData(barData) {
         }
         
     }
+    
     return barData
 }
 
 
-function runBarchartUpdate() {
-    // Get the currently selected FIPS
-    var whichFIPS = querySelectedFIPS()
-    // Get the industry vector
-    var scaledIndustryIndicators = getIndicatorsInFIPS(whichFIPS) 
-    // Call the prediction server
-    getEditedCancerValues(scaledIndustryIndicators)
+// function runBarchartUpdate() {
 
-    // Now update the bar chart
-    var barData = topRatesInFips(cancerData, cancerNames, whichFIPS, howMany=5,'annual_count')
-    barData = updatePredictedBarData(barData)
-    drawBars(barData, whichFIPS, isUpdate=true)
-}
+//     // Now update the bar chart
+//     var whichFIPS = querySelectedFIPS()
+//     barData = topRatesInFips(cancerData, cancerNames, whichFIPS, howMany=5,'annual_count')
+//     barData = updatePredictedBarData(barData)
+//     drawBars(barData, whichFIPS, isUpdate=true)
+// }
 
 
 function querySelectedFIPS() {
