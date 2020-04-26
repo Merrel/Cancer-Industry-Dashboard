@@ -151,21 +151,12 @@ function getEditedCancerValues(fips, barData, scaledIndicators) {
     ws = new WebSocket("ws://127.0.0.1:8181/"),
     messages = document.createElement('ul');
 
-
-    // var millisecondsToWait = 1000
-
-    // setTimeout( function() {
-    //     ws.send(scaledIndicators)
-    // }, millisecondsToWait)
-
     ws.onopen = function(event) {
         ws.send(scaledIndicators)
     }
 
-
     // What to do when getting response back
     cancerPredictions = {}
-
     // console.log("query predictive server at 142.93.73.45:8181")
 
     ws.onmessage = function (event) {
@@ -176,17 +167,11 @@ function getEditedCancerValues(fips, barData, scaledIndicators) {
             cancerPredictions[cancerNames[cancerNameKeys[i]]] = +pred_str[i]
         }
 
-
-
-
         barData = updatePredictedBarData(barData, cancerPredictions)
         // console.log(barData)
 
         drawBars(barData, fips, isUpdate=true)
-
     }
-
-
 }
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
