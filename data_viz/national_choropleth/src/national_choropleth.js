@@ -152,17 +152,21 @@ function getEditedCancerValues(fips, barData, scaledIndicators) {
     messages = document.createElement('ul');
 
 
-    var millisecondsToWait = 1000
+    // var millisecondsToWait = 1000
 
-    setTimeout( function() {
+    // setTimeout( function() {
+    //     ws.send(scaledIndicators)
+    // }, millisecondsToWait)
+
+    ws.onopen = function(event) {
         ws.send(scaledIndicators)
-    }, millisecondsToWait)
+    }
 
 
     // What to do when getting response back
     cancerPredictions = {}
 
-    console.log("query predictive server at 142.93.73.45:8181")
+    // console.log("query predictive server at 142.93.73.45:8181")
 
     ws.onmessage = function (event) {
         var pred_str = event.data.replace('[ ','').replace(']','').split(/[\s]+/)
@@ -176,7 +180,7 @@ function getEditedCancerValues(fips, barData, scaledIndicators) {
 
 
         barData = updatePredictedBarData(barData, cancerPredictions)
-        console.log(barData)
+        // console.log(barData)
 
         drawBars(barData, fips, isUpdate=true)
 
@@ -695,9 +699,7 @@ function resetSliders() {
 
     // TODO: call predict function with all correct values
     whichFIPS = querySelectedFIPS()
-    barData = topRatesInFips(cancerData, cancerNames, whichFIPS, howMany=5,'annual_count')
-    barData = updatePredictedBarData(barData)
-    drawBars(barData, whichFIPS, isUpdate=true)
+    predictBarChart(whichFIPS)
 }
 
 function getSliderValues(sliderList) {
