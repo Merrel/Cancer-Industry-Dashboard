@@ -22,11 +22,11 @@ Python libraries {install with: $pip install [library]}:
 - RUN THE MODEL
 
     - Open console in root directory and run:
-        - $cd national_choropleth
+        - $cd data_viz/national_choropleth
         - $python -m http.server 8000
 
     - Open new console at root directory and run:
-        - $cd national_choropleth/src
+        - $cd data_viz/national_choropleth/src
         - $python server.py
 
     - Open web browser and goto url: 
