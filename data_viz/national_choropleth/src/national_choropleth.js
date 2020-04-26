@@ -148,7 +148,7 @@ function predictBarChart (whichFIPS) {
 
 function getEditedCancerValues(fips, barData, scaledIndicators) {
     // ws = new WebSocket("ws://127.0.0.1:8081/"),
-    ws = new WebSocket("ws://142.93.73.45:8181/"),
+    ws = new WebSocket("ws://127.0.0.1:8181/"),
     messages = document.createElement('ul');
 
 

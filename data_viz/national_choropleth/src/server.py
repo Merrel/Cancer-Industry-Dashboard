@@ -30,7 +30,7 @@ async def predict(websocket, path):
 
 
 
-start_server = websockets.serve(predict, "142.93.73.45", 8181)
+start_server = websockets.serve(predict, "127.0.0.1", 8181)
 
 asyncio.get_event_loop().run_until_complete(start_server)
 asyncio.get_event_loop().run_forever()
