@@ -37,3 +37,5 @@ Python libraries {install with: $pip install [library]}:
       'Update Prediction' button for each new prediction
 
     - Have fun playing around with your ideas!
+
+    - For a remote version of the visualization, visit our website at 142.93.73.45:8000
